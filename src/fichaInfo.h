@@ -14,8 +14,8 @@
 #include "visualizador.h"
 #include "Spring.h"
 #include "ofxGui.h"
-
 #include "miniaturas.h"
+
 
 class fichaInfo {
 public:
@@ -32,6 +32,10 @@ public:
 	void _mouseReleased(ofMouseEventArgs &e);
 	
 	void    collideWith( fichaInfo *_body );
+    
+    
+    void cambiaSeccion();
+    void cargaMinis(int _index);
 	//
     // construccion de la figura
 	void construFigura();
@@ -54,6 +58,10 @@ public:
     ofxPanel gui;
     ofxFloatSlider kMuelles;
     ofxFloatSlider dampCajas;
+    
+    ///
+    // offset para el dragging
+    ofVec2f offsetDrag;
     
     //
     // variables

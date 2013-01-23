@@ -127,6 +127,13 @@ void baseShape::addAttractionForce(ofPoint posOfForce, ofPoint offset, float rad
     }
 }
 
+//-----------------------------
+void baseShape::moveTo(float _x, float _y){
+    // mover a
+    x += _x;
+    y += _y;
+}
+
 //------------------------------------------------------------
 void baseShape::addRepulsionForce(ofPoint posOfForce, float radius, float scale){
     

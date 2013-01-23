@@ -45,8 +45,6 @@ void miniaturas::setup(int cuantas, float _px, float _py){
         circlePoints.push_back(circlePolyline[i]);
         
     }
-    
-    //cout << "centro: "  << "  x: " << _px << " --- y: " << _py << endl;
 }
 
 void miniaturas::update(float _dx, float _dy){

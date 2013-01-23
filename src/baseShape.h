@@ -11,6 +11,7 @@
 #define BASE_SHAPE
 
 #include "ofMain.h"
+#include "ofxTweenzor.h"
 
 class baseShape : public ofRectangle {
 public:
@@ -23,6 +24,7 @@ public:
 	void    addForce( ofPoint _force );
 	void    addAttractionForce(ofPoint p, ofPoint offset, float radius, float scale);
 	void    addRepulsionForce(ofPoint p, float radius, float scale);
+    void    moveTo(float _x, float _y);
 	
 	void    addRepulsionForce(baseShape *p, float radius, float scale);
 	

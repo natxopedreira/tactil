@@ -18,6 +18,8 @@ fichaInfo::fichaInfo(){
 	px = .0;
 	py = .0;
     
+    offsetDrag.set(0, 0);
+    
 
 }
 fichaInfo::~fichaInfo(){
@@ -54,12 +56,14 @@ void fichaInfo::setup(){
     minis.setup(8 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
     
     //cout << "medida " << areaGrande.x + areaGrande.width  << " // " << areaGrande.y + areaGrande.height << endl;
-    
+    Tweenzor::init();
 }
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
-	
+	Tweenzor::update( ofGetElapsedTimeMillis() );
+    
+    
 	for(int i = 0; i < muelles.size(); i++){
 		muelles.at(i)->update();
 	}
@@ -76,10 +80,9 @@ void fichaInfo::update(){
    
     //
     //movemos las miniaturas
-    //float dx = areaGrande.puntos[2].x - minis.centro.x;
-    //float dy = areaGrande.puntos[2].y - minis.centro.y;
-    float dx = ( areaGrande.x + areaGrande.width ) - minis.centro.x;
-    float dy = ( areaGrande.y + areaGrande.height ) - minis.centro.y;
+   
+    float dx = ( areaGrande.x + areaGrande.width + 100 ) - minis.centro.x;
+    float dy = ( areaGrande.y + areaGrande.height + 100 ) - minis.centro.y;
     //
     
     minis.update(dx,dy);
@@ -345,9 +348,9 @@ void fichaInfo::_mouseDragged(ofMouseEventArgs &e){
 	
 	//// los lideres atraen
 	ofPoint destino = ofPoint(e.x, e.y) - diff/2;
-	
-	rectangulos.at(idLeader)->addAttractionForce(destino, diff, 500, length*50);
-	
+	//rectangulos.at(idLeader)->addAttractionForce(destino, diff, 500, length*50);
+    
+	rectangulos.at(idLeader)->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
 }
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
@@ -359,21 +362,36 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			idLeader = i;
 			px = e.x;
 			py = e.y;
+            
+            // offset para el drag, la distancia desde el click del mouse al centro
+            
+            offsetDrag.set(rectangulos.at(idLeader)->getCenter().x-e.x,rectangulos.at(idLeader)->getCenter().y-e.y);
 			return;
 		}
 	}
     
     /// comprueba si esta presionando una miniatura
     for(int i = 0; i < minis.thumbs.size(); i++){
-     /*   if( minis.thumbs[i]->inside(e.x, e.y)){
-            minis.thumbs[i]->activalo();
-            cout << "activo" << endl;
+        if( minis.thumbs[i]->inside(e.x, e.y)){
+            cargaMinis(i);
             return;
-        }else{
-            minis.thumbs[i]->desactivalo();
-        }*/
+        }
     }
 }
+//--------------------------------------------------------------
+void fichaInfo::cargaMinis(int _index){
+    for(int i = 0; i < minis.thumbs.size(); i++){
+        if(i==_index){
+            minis.thumbs[i]->activalo();
+        }else{
+            minis.thumbs[i]->desactivalo();
+        }
+    }
+}
+
+//--------------------------------------------------------------
+void fichaInfo::cambiaSeccion(){}
+
 
 //--------------------------------------------------------------
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
@@ -383,4 +401,5 @@ void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
 	}
 	idLeader = -1;
 	dragin = false;
+    offsetDrag.set(0, 0);
 }

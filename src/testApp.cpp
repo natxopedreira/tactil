@@ -59,7 +59,6 @@ void testApp::draw(){
 	for(int i = 0; i < fichas.size(); i++){
 		fichas[i]->draw();
 	}
-
     ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
     gui.draw();
 }
