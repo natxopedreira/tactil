@@ -21,7 +21,6 @@ thumb::~thumb(){
 }
 
 void thumb::urdate(){
- //   if(runningTween) scaleFromCenter(escalador);
     update();
 }
 
@@ -33,21 +32,14 @@ void thumb::drawThumb(){
 void thumb::activalo(){
     if(!activo){
         
-        Tweenzor::add(&escalador, escalador, 1.5f, 0.f, 1.f);
-        Tweenzor::addCompleteListener( Tweenzor::getTween(&escalador), this, &thumb::onCompleteScala);
-        runningTween = true;
+        activo = true;
        
     }
-    activo = true;
+    
 }
 
 void thumb::desactivalo(){
     
     if(activo) scaleFromCenter(.667);
     activo = false;
-}
-
-void thumb::onCompleteScala(float* arg){
-    runningTween = false;
-    cout << "acabo " << endl;
 }

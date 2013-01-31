@@ -14,10 +14,11 @@ baseShape::baseShape(){
 	this->set(ofPoint(0,0),0,0);
 	
 	/*
-	p0 ---------- p1
-	 |             |
-	 |      p4     |
-	 |             |
+     
+    p0 ---------- p1
+     |            |
+	 |     p4     |
+	 |            |
 	p3 ---------- p2
 	
 	 punto de anclaje para el muelle
@@ -36,10 +37,10 @@ baseShape::baseShape(){
 	puntos.push_back(p3);
 	puntos.push_back(p4);
 	
-	vel.set(ofRandom(-1,1), ofRandom(-1,1));
+	vel.set(0, 0);
     acc.set(0,0,0);
     
-	damping = 0.15f;
+	damping = 0.17f;
 	mass = 1.f;
 	
 	color.set(0,0,0);

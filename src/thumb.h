@@ -24,8 +24,6 @@ public:
     void urdate();
     void drawThumb();
     
-    void onCompleteScala(float* arg);
-    
 private:
     bool    activo;
     bool    runningTween;
