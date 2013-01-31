@@ -29,7 +29,7 @@ void miniaturas::setup(int cuantas, float _px, float _py){
         thumb * b = new thumb();
         b->set(0,0, 45, 45);
         b->color.set(171,209,217);
-        b->nombre = "mini";
+        b->nombre = "mini_"+ofToString(i);
         thumbs.push_back(b);
     }
     /// create el grid
@@ -52,29 +52,46 @@ void miniaturas::creaGrid(){
         thumbs[i]->x  = (anchoMini + 30) * col;
         thumbs[i]->y  = (altoMini + 30) * row;
     }
-
+    
+    
+    //// AQUI ESTA EL PROBLEM, quiero crear un grid y conectar las minis entre si con springs
     //
-    // ponemos los springs
+    // ponemos los springs horizontales
     for (int i = 0; i < cuantas-1; i++) {
-      
-        row = int( i / numColumnas);
-        cout << i << endl;
         
-        Spring * sp = new Spring();
-        sp->k = 0.04;
-        sp->rectA = thumbs[i];
-        sp->rectB = thumbs[i+1];
-        sp->indiceA = 4;
-        sp->indiceB = 4;
-        sp->dist = ofDist(thumbs[i]->getCenter().x, thumbs[i]->getCenter().y, thumbs[i+1]->getCenter().x, thumbs[i+1]->getCenter().y);
-        sp->visible = true;
+        if(i != numColumnas-1){
         
-        springs.push_back(sp);
+            Spring * sp = new Spring();
+            sp->k = 0.0025;
+            sp->rectA = thumbs[i];
+            sp->rectB = thumbs[i+1];
+            sp->indiceA = 4;
+            sp->indiceB = 4;
+            sp->dist = ofDist(thumbs[i]->getCenter().x, thumbs[i]->getCenter().y, thumbs[i+1]->getCenter().x, thumbs[i+1]->getCenter().y);
+            sp->visible = true;
         
+            springs.push_back(sp);
+        }
     }
     
-
-    
+    //
+    // ponemos los springs verticales
+    for (int i = 0; i < cuantas-numColumnas; i++) {
+        
+        if(i != numColumnas-numColumnas){
+            
+            Spring * sp = new Spring();
+            sp->k = 0.04;
+            sp->rectA = thumbs[i];
+            sp->rectB = thumbs[i+numColumnas];
+            sp->indiceA = 4;
+            sp->indiceB = 4;
+            sp->dist = ofDist(thumbs[i]->getCenter().x, thumbs[i]->getCenter().y, thumbs[i+numColumnas]->getCenter().x, thumbs[i+numColumnas]->getCenter().y);
+            sp->visible = true;
+            
+            springs.push_back(sp);
+        }
+    }
    
 }
 
