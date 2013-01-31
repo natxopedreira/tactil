@@ -17,12 +17,8 @@ void testApp::setup(){
 	
 	fichaInfo * ficha = new fichaInfo();
 	ficha->setup();
-	
-	fichaInfo * ficha2 = new fichaInfo();
-	ficha2->setup();
 
 	fichas.push_back(ficha);
-   // fichas.push_back(ficha2);
         
 }
 //--------------------------------------------------------------

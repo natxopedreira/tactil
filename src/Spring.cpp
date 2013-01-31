@@ -45,7 +45,8 @@ void Spring::update(){
 void Spring::draw(){
 	
 	if ((rectA == NULL) || (rectB == NULL) || !visible){
-		return;
+        return;
+        
 	}
 	
 	ofPushStyle();

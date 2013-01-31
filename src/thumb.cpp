@@ -21,7 +21,7 @@ thumb::~thumb(){
 }
 
 void thumb::urdate(){
-    if(runningTween) scaleFromCenter(escalador);
+ //   if(runningTween) scaleFromCenter(escalador);
     update();
 }
 

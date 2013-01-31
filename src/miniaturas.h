@@ -10,6 +10,7 @@
 #define MINIATURAS
 #include "ofMain.h"
 #include "thumb.h"
+#include "Spring.h"
 
 class miniaturas{
 public:
@@ -17,8 +18,9 @@ public:
     ~miniaturas();
     
     void setup(int cuantas, float _px, float _py);
-    void update(float _dx, float _dy);
+    void update();
     void drawCircle();
+    void creaGrid();
     
     vector<ofPolyline> lineas;
     vector<ofPoint> circlePoints;
@@ -27,7 +29,9 @@ public:
     float radio;
     
     ofPoint centro;
+    
     vector<thumb *> thumbs;
+    vector<Spring*> springs;
 };
 
 #endif

@@ -31,7 +31,7 @@ public:
 	void _mousePressed(ofMouseEventArgs &e);
 	void _mouseReleased(ofMouseEventArgs &e);
 	
-	void    collideWith( fichaInfo *_body );
+	void  collideWith( fichaInfo *_body );
     
     
     void cambiaSeccion();
@@ -41,6 +41,7 @@ public:
 	void construFigura();
 	void cambiaK(float & v);
 	void cambiaDamp(float & v);
+    
     
     //
     // piezas para la figura
@@ -65,7 +66,7 @@ public:
     
     //
     // variables
-	bool dragin;
+	bool dragin, dragingMini;
 	int	idLeader;
     float px,py;
     

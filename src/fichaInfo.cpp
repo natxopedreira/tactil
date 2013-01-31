@@ -15,6 +15,7 @@ fichaInfo::fichaInfo(){
     kmuelles = 0.01;
 	
 	dragin = false;
+    dragingMini = false;
 	px = .0;
 	py = .0;
     
@@ -52,10 +53,7 @@ void fichaInfo::setup(){
 	
     
     ///iniciamos las miniaturas
-    //minis.setup(8 , areaGrande.puntos[2].x, areaGrande.puntos[2].y);
     minis.setup(8 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
-    
-    //cout << "medida " << areaGrande.x + areaGrande.width  << " // " << areaGrande.y + areaGrande.height << endl;
     Tweenzor::init();
 }
 
@@ -80,12 +78,8 @@ void fichaInfo::update(){
    
     //
     //movemos las miniaturas
-   
-    float dx = ( areaGrande.x + areaGrande.width + 100 ) - minis.centro.x;
-    float dy = ( areaGrande.y + areaGrande.height + 100 ) - minis.centro.y;
-    //
     
-    minis.update(dx,dy);
+    minis.update();
 }
 
 //--------------------------------------------------------------
@@ -340,17 +334,23 @@ void fichaInfo::cambiaDamp(float & v){
 //--------------------------------------------------------------
 void fichaInfo::_mouseDragged(ofMouseEventArgs &e){
 	
-	if(!dragin) return;
-	///distancia desde el drag al cuadrado
-	ofPoint p = rectangulos.at(idLeader)->getCenter();
-	ofPoint diff	= ofPoint(e.x, e.y) - p;
-	float length	= diff.length()/(ofGetWidth()/2);
-	
-	//// los lideres atraen
-	ofPoint destino = ofPoint(e.x, e.y) - diff/2;
-	//rectangulos.at(idLeader)->addAttractionForce(destino, diff, 500, length*50);
+	if(!dragin && !dragingMini) return;   /// si no estas drageando nada get out of here
     
-	rectangulos.at(idLeader)->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+    if(dragin){
+        /// estas drageando un boton o el visualizador
+        ofPoint p = rectangulos.at(idLeader)->getCenter();
+        ofPoint diff	= ofPoint(e.x, e.y) - p;
+        ofPoint destino = ofPoint(e.x, e.y) - diff/2;
+        rectangulos.at(idLeader)->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+    }
+    
+    if(dragingMini){
+        /// estas drageando una miniatura
+        ofPoint p = minis.thumbs[idLeader]->getCenter();
+        ofPoint diff	= ofPoint(e.x, e.y) - p;
+        ofPoint destino = ofPoint(e.x, e.y) - diff/2;
+        minis.thumbs[idLeader]->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+    }
 }
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
@@ -359,6 +359,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
 			rectangulos.at(i)->leader = true;
 			dragin = true;
+            dragingMini = false;
 			idLeader = i;
 			px = e.x;
 			py = e.y;
@@ -370,10 +371,20 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 		}
 	}
     
-    /// comprueba si esta presionando una miniatura
+    /// comprueba si esta presionando una miniatura 
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
-            cargaMinis(i);
+            //cargaMinis(i);
+            dragin = false;
+            dragingMini = true;
+            idLeader = i;
+			px = e.x;
+			py = e.y;
+            
+            // offset para el drag, la distancia desde el click del mouse al centro
+            
+            offsetDrag.set(minis.thumbs[idLeader]->getCenter().x-e.x,minis.thumbs[idLeader]->getCenter().y-e.y);
+            
             return;
         }
     }
@@ -395,11 +406,23 @@ void fichaInfo::cambiaSeccion(){}
 
 //--------------------------------------------------------------
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
-	if(!dragin) return;
-	for(int i = 0; i < rectangulos.size(); i++){
-		rectangulos.at(i)->leader = false;
-	}
-	idLeader = -1;
-	dragin = false;
-    offsetDrag.set(0, 0);
+	if(dragin){
+        // tas arrastrando un boton el visualizador
+        idLeader = -1;
+        dragin = false;
+        offsetDrag.set(0, 0);
+        for(int i = 0; i < rectangulos.size(); i++){
+            rectangulos.at(i)->leader = false;
+        }
+    }
+    if(dragingMini){
+        // tas arrastrando una mini
+        idLeader = -1;
+        dragingMini = false;
+        offsetDrag.set(0, 0);
+        for(int i = 0; i < minis.thumbs.size(); i++){
+            minis.thumbs[i]->leader = false;
+        }
+    }
+
 }
