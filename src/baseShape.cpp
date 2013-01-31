@@ -22,8 +22,10 @@ baseShape::baseShape(){
 	p3 ---------- p2
 	
 	 punto de anclaje para el muelle
-	 */
-	ofPoint p0,p1,p2,p3,p4;
+    
+    */
+	
+    ofPoint p0,p1,p2,p3,p4;
 	
 	p0.set(0,0);
 	p1.set(0,0);
