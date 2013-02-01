@@ -17,6 +17,7 @@ miniaturas::~miniaturas(){
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
     }
+    delete ancla;
     
     thumbs.clear();
     circlePoints.clear();
@@ -32,67 +33,169 @@ void miniaturas::setup(int cuantas, float _px, float _py){
         b->nombre = "mini_"+ofToString(i);
         thumbs.push_back(b);
     }
-    /// create el grid
-    creaGrid();
+   
    
 }
-void miniaturas::creaGrid(){
-    int cuantas = thumbs.size();
-    int numColumnas = 4;
+void miniaturas::setAnclas(visualizador a){
+    ancla = &a;
     
+    /// create el grid
+    creaGrid();
+}
+
+
+void miniaturas::creaGrid(){
+
+    /////// arreglo de Patricio
+    /////// thanks !!!!!
+    
+    
+    int cuantas = thumbs.size();
+    int numColumnas = 5;
+    
+    //  Crear una tabla de punteros donde re organizar los elementos
+    //
+    vector< vector<thumb*> > tabla;
+    for (int i = 0; i < numColumnas; i++ ){
+        vector<thumb*> newColum;
+        tabla.push_back(newColum);
+    }
     int anchoMini = 50;
     int altoMini = 50;
     
-    int col, row = 0;
-    
+    //  Posicionar los elementos y popular los punteros en la tabla
+    //
+    int col = 0;
+    int row = 0;
     for (int i = 0; i < cuantas; i++) {
         col = i % numColumnas;
-        row = int( i / numColumnas);
+        row = i / numColumnas;
         
-        thumbs[i]->x  = (anchoMini + 30) * col;
-        thumbs[i]->y  = (altoMini + 30) * row;
+        //  Ponerlo en la tabla
+        //
+        tabla[col].push_back( thumbs[i] );
+        
+        //  Ubicarlo en el espacio
+        //
+        thumbs[i]->x  = (anchoMini + 57) * col;
+        thumbs[i]->y  = (altoMini + 57) * row;
     }
-    
-    
-    //// AQUI ESTA EL PROBLEM, quiero crear un grid y conectar las minis entre si con springs
+    //  Ahora que esta en la tabla podemos recorrerlo de forma más sencilla
     //
-    // ponemos los springs horizontales
-    for (int i = 0; i < cuantas-1; i++) {
+    for (int x = 0; x < numColumnas; x++) {
         
-        if(i != numColumnas-1){
-        
-            Spring * sp = new Spring();
-            sp->k = 0.0025;
-            sp->rectA = thumbs[i];
-            sp->rectB = thumbs[i+1];
-            sp->indiceA = 4;
-            sp->indiceB = 4;
-            sp->dist = ofDist(thumbs[i]->getCenter().x, thumbs[i]->getCenter().y, thumbs[i+1]->getCenter().x, thumbs[i+1]->getCenter().y);
-            sp->visible = true;
-        
-            springs.push_back(sp);
+        //  Spring Verticales
+        //
+        for( int y = 0; y < tabla[x].size(); y++){
+            
+            // A [ x,y ] ---- [ x+1,y ]  B
+            //                  /
+            //      |       /
+            //      |   /
+            //
+            // C [ x,y+1 ]    [ x+1, y+1 ] D      
+            
+            bool hayB = false;
+            bool hayC = false;
+            bool hayD = false;
+            
+            //  Si A tiene un C
+            //
+            if ( y != tabla[x].size()-1 ){
+                
+                hayC = true;
+                
+                Spring * sp = new Spring();
+                sp->k = 0.0025;
+                sp->rectA = tabla[x][y];
+                sp->rectB = tabla[x][y+1];
+                sp->indiceA = 4;
+                sp->indiceB = 4;
+                sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
+                                  tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y);
+                sp->visible = true;
+                
+                springs.push_back(sp);
+            }
+            
+            //  Si no es la última columna...
+            //
+            if ( x < numColumnas-1 ){
+                
+                // ... y tiene un elemento a la misma altura en Y
+                //
+                if ( y < tabla[x+1].size() ){
+                    
+                    hayB = true;
+                    
+                    Spring * sp = new Spring();
+                    sp->k = 0.0025;
+                    sp->rectA = tabla[x][y];
+                    sp->rectB = tabla[x+1][y];
+                    sp->indiceA = 4;
+                    sp->indiceB = 4;
+                    sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
+                                      tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
+                    sp->visible = true;
+                    
+                    springs.push_back(sp);
+                    
+                    if ( y+1 < tabla[x+1].size() ){
+                        hayD = true;
+                    }
+                }
+            }
+            
+            //  Si tiene B y C puede agregar la diagonal que le da estabilidad
+            //
+            if ( hayB && hayC ){
+                
+                Spring * sp = new Spring();
+                sp->k = 0.0025;
+                sp->rectA = tabla[x][y+1];  // C
+                sp->rectB = tabla[x+1][y];  // B
+                sp->indiceA = 4;
+                sp->indiceB = 4;
+                sp->dist = ofDist(tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y,
+                                  tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
+                sp->visible = true;
+                
+                springs.push_back(sp);
+                
+            }
+            
+            if ( hayD ){
+                Spring * sp = new Spring();
+                sp->k = 0.0025;
+                sp->rectA = tabla[x][y];
+                sp->rectB = tabla[x+1][y+1];  // D
+                sp->indiceA = 4;
+                sp->indiceB = 4;
+                sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
+                                  tabla[x+1][y+1]->getCenter().x, tabla[x+1][y+1]->getCenter().y);
+                sp->visible = true;
+                
+                springs.push_back(sp);
+            }
         }
     }
     
-    //
-    // ponemos los springs verticales
-    for (int i = 0; i < cuantas-numColumnas; i++) {
-        
-        if(i != numColumnas-numColumnas){
-            
-            Spring * sp = new Spring();
-            sp->k = 0.04;
-            sp->rectA = thumbs[i];
-            sp->rectB = thumbs[i+numColumnas];
-            sp->indiceA = 4;
-            sp->indiceB = 4;
-            sp->dist = ofDist(thumbs[i]->getCenter().x, thumbs[i]->getCenter().y, thumbs[i+numColumnas]->getCenter().x, thumbs[i+numColumnas]->getCenter().y);
-            sp->visible = true;
-            
-            springs.push_back(sp);
-        }
+    //anclamos las miniaturas al visualizador
+    if (thumbs.size()>0) {
+    
+    
+    // derecha
+    Spring * spd = new Spring();
+        spd->k = 0.0025;
+        spd->rectA = ancla;
+        spd->rectB = thumbs[0];  // D
+        spd->indiceA = 3;
+        spd->indiceB = 0;
+        spd->dist = 90;
+        spd->visible = true;
+        cout << thumbs[0]->x << endl;
+    //springs.push_back(spd);
     }
-   
 }
 
 void miniaturas::update(){
@@ -102,6 +205,16 @@ void miniaturas::update(){
     for(int i = 0; i < thumbs.size(); i++){
 		thumbs[i]->update();
 	}
+    
+    /// tenemos un punto(destx, desty)
+    /// para alinear las minis
+    /// hay que calcular la distancia desde
+    /// este punto al thumb
+    
+    
+    
+    
+    
     
     /// hay que actualizar el vector con las lineas
     
@@ -115,12 +228,14 @@ void miniaturas::update(){
 void miniaturas::drawCircle(){
     ofPushMatrix();
 
-    for(int i = 0; i < springs.size(); i++){
-		springs[i]->draw();
-	}
+
     for (int i = 0; i < thumbs.size(); i++) {
         thumbs[i]->drawThumb();
     }
+    for(int i = 0; i < springs.size(); i++){
+		springs[i]->draw();
+	}
+    
     ofPopMatrix(); 
 
     

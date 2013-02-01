@@ -11,6 +11,7 @@
 #include "ofMain.h"
 #include "thumb.h"
 #include "Spring.h"
+#include "visualizador.h"
 
 class miniaturas{
 public:
@@ -18,6 +19,7 @@ public:
     ~miniaturas();
     
     void setup(int cuantas, float _px, float _py);
+    void setAnclas(visualizador a);
     void update();
     void drawCircle();
     void creaGrid();
@@ -30,8 +32,10 @@ public:
     
     ofPoint centro;
     
-    vector<thumb *> thumbs;
+    vector<thumb*> thumbs; /// cambiamos el vector para ser de baseShape
     vector<Spring*> springs;
+    
+    visualizador * ancla;
 };
 
 #endif

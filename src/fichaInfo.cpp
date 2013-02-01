@@ -53,7 +53,11 @@ void fichaInfo::setup(){
 	
     
     ///iniciamos las miniaturas
-    minis.setup(8 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
+    minis.setup(9 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
+    
+    /// le indicamos las anclas al area grande (para enganchar las minis)
+    minis.setAnclas(areaGrande);
+    
     Tweenzor::init();
 }
 
@@ -77,8 +81,9 @@ void fichaInfo::update(){
 	}
    
     //
-    //movemos las miniaturas
-    
+    // movemos las miniaturas
+    // le pasamos la referencia del punto
+    // a donde deben de alinearse
     minis.update();
 }
 
@@ -372,6 +377,8 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 	}
     
     /// comprueba si esta presionando una miniatura 
+    /// desabilitado el drag en las minis
+    /*
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
             //cargaMinis(i);
@@ -388,6 +395,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             return;
         }
     }
+     */
 }
 //--------------------------------------------------------------
 void fichaInfo::cargaMinis(int _index){
