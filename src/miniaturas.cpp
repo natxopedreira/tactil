@@ -11,13 +11,13 @@
 miniaturas::miniaturas(){
     circleResolution = 0;
     centro.set(0, 0);
+
 }
 
 miniaturas::~miniaturas(){
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
     }
-    delete anclaVisualizador;
     
     thumbs.clear();
     circlePoints.clear();
@@ -181,12 +181,6 @@ void miniaturas::creaGrid(){
     }
     
     //anclamos las miniaturas al visualizador
-    Spring * anclaDerecha = new Spring();
-    anclaDerecha->k = 0.0025;
-    anclaDerecha->rectA = anclaVisualizador;
-    anclaDerecha->rectB = thumbs[0];
-    anclaDerecha->indiceA = 4;
-    anclaDerecha->indiceB = 4;
     
     
     //springs.push_back(anclaDerecha);
