@@ -56,7 +56,7 @@ void fichaInfo::setup(){
     minis.setup(9 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
     
     /// le indicamos las anclas al area grande (para enganchar las minis)
-    minis.setAnclas(areaGrande);
+    minis.setAncla(areaGrande);
     
     Tweenzor::init();
 }

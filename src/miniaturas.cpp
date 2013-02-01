@@ -17,7 +17,7 @@ miniaturas::~miniaturas(){
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
     }
-    delete ancla;
+    delete anclaVisualizador;
     
     thumbs.clear();
     circlePoints.clear();
@@ -36,8 +36,8 @@ void miniaturas::setup(int cuantas, float _px, float _py){
    
    
 }
-void miniaturas::setAnclas(visualizador a){
-    ancla = &a;
+void miniaturas::setAncla(visualizador a){
+    anclaVisualizador = &a;
     
     /// create el grid
     creaGrid();
@@ -181,21 +181,15 @@ void miniaturas::creaGrid(){
     }
     
     //anclamos las miniaturas al visualizador
-    if (thumbs.size()>0) {
+    Spring * anclaDerecha = new Spring();
+    anclaDerecha->k = 0.0025;
+    anclaDerecha->rectA = anclaVisualizador;
+    anclaDerecha->rectB = thumbs[0];
+    anclaDerecha->indiceA = 4;
+    anclaDerecha->indiceB = 4;
     
     
-    // derecha
-    Spring * spd = new Spring();
-        spd->k = 0.0025;
-        spd->rectA = ancla;
-        spd->rectB = thumbs[0];  // D
-        spd->indiceA = 3;
-        spd->indiceB = 0;
-        spd->dist = 90;
-        spd->visible = true;
-        cout << thumbs[0]->x << endl;
-    //springs.push_back(spd);
-    }
+    //springs.push_back(anclaDerecha);
 }
 
 void miniaturas::update(){
@@ -206,6 +200,7 @@ void miniaturas::update(){
 		thumbs[i]->update();
 	}
     
+    cout << anclaVisualizador->x << endl;
     /// tenemos un punto(destx, desty)
     /// para alinear las minis
     /// hay que calcular la distancia desde

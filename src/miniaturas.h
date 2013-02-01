@@ -13,13 +13,15 @@
 #include "Spring.h"
 #include "visualizador.h"
 
+
 class miniaturas{
 public:
     miniaturas();
     ~miniaturas();
     
     void setup(int cuantas, float _px, float _py);
-    void setAnclas(visualizador a);
+    void setAncla(visualizador a);
+    
     void update();
     void drawCircle();
     void creaGrid();
@@ -35,7 +37,8 @@ public:
     vector<thumb*> thumbs; /// cambiamos el vector para ser de baseShape
     vector<Spring*> springs;
     
-    visualizador * ancla;
+    visualizador * anclaVisualizador;
+    
 };
 
 #endif
