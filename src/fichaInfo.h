@@ -13,7 +13,6 @@
 #include "boton.h"
 #include "visualizador.h"
 #include "Spring.h"
-#include "ofxGui.h"
 #include "miniaturas.h"
 
 
@@ -39,8 +38,11 @@ public:
 	//
     // construccion de la figura
 	void construFigura();
-	void cambiaK(float & v);
-	void cambiaDamp(float & v);
+	void cambiaK(float v);
+	void cambiaDamp(float v);
+	void cambiaKDiagonal(float v);
+	void cambiaKHorizontal(float v);
+	void cambiaDampMiniaturas(float v);
     
     
     //
@@ -53,12 +55,7 @@ public:
 	boton btnPeriodicos;
     //boton btnInfo;
 	visualizador areaGrande;
-	
-    //
-    // parte del gui
-    ofxPanel gui;
-    ofxFloatSlider kMuelles;
-    ofxFloatSlider dampCajas;
+
     
     ///
     // offset para el dragging
@@ -71,8 +68,8 @@ public:
     float px,py;
     
     // vars gui
-	float	kmuelles;
-    float   dampcajas;
+	float	kmuelles, kMuellesDiagonales, kHorizontal;
+    float   dampcajas, dampCajasMiniaturas;
     
     // visualizador de miniaturas
     miniaturas minis;

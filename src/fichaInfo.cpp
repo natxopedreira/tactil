@@ -14,6 +14,9 @@ fichaInfo::fichaInfo(){
     dampcajas = 0.15;
     kmuelles = 0.01;
 	
+	kMuellesDiagonales = 0.01;
+	dampCajasMiniaturas = 0.15;
+	
 	dragin = false;
     dragingMini = false;
 	px = .0;
@@ -72,11 +75,14 @@ void fichaInfo::update(){
 	/// todos se repelen entre si
 	for(int i = 0; i < rectangulos.size(); i++){
 		int index = i;
+		/*
+		repulsion para los botones
+		 */
 		for(int j = 0; j < rectangulos.size(); j++){
 			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,100);
 		}
         
-        rectangulos.at(i)->bounceOffWalls();
+       // rectangulos.at(i)->bounceOffWalls();
 		rectangulos.at(i)->update();
 	}
    
@@ -89,7 +95,7 @@ void fichaInfo::update(){
 void fichaInfo::draw(){
 	
 	
-	ofSetColor(150, 150, 150,80);
+	ofSetColor(255, 255, 255,255);
     
     /// muelles
 	for(int j = 0; j < muelles.size(); j++){
@@ -116,7 +122,7 @@ void fichaInfo::collideWith( fichaInfo *_body ){
     for (int i = 0; i < rectangulos.size(); i++){
         for (int j = 0; j < _body->rectangulos.size(); j++ ){
 
-            rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
+            if(i=!j)rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
         }
     }
 }
@@ -125,36 +131,36 @@ void fichaInfo::collideWith( fichaInfo *_body ){
 //--------------------------------------------------------------
 void fichaInfo::construFigura(){
 
-	areaGrande.x = ofRandom(1024);
-	areaGrande.y = ofRandom(768);
+	areaGrande.x = 800;
+	areaGrande.y = 300;
 	areaGrande.width = 488;
 	areaGrande.height = 350;
-	areaGrande.color.set(221,245,86);
+	areaGrande.color.set(10, 10, 10);
 	areaGrande.principal = true;
 	
 	btnPeriodicos.x = areaGrande.x - 86 ;
 	btnPeriodicos.y = areaGrande.y;
 	btnPeriodicos.width = 60;
 	btnPeriodicos.height = 60;
-	btnPeriodicos.color.set(171,209,217);
+	btnPeriodicos.color.set(109, 4, 56);
 	btnPeriodicos.mass = 0.6;
-    btnPeriodicos.nombre = "periodicos";
+    btnPeriodicos.nombre = "P";
 	
 	btnImagenes.x = btnPeriodicos.x;
 	btnImagenes.y = btnPeriodicos.y -81;
 	btnImagenes.width = 60;
 	btnImagenes.height = 60;
-	btnImagenes.color.set(171,209,217);
+	btnImagenes.color.set(237, 157, 0);
 	btnImagenes.mass = 0.6;
-    btnImagenes.nombre = "imagenes";
+    btnImagenes.nombre = "I";
 	
 	btnCuadros.x = btnImagenes.x + 81;
 	btnCuadros.y = btnImagenes.y;
 	btnCuadros.width = 60;
 	btnCuadros.height = 60;
-	btnCuadros.color.set(171,209,217);
+	btnCuadros.color.set(88, 132, 0);
 	btnCuadros.mass = 0.6;
-    btnCuadros.nombre = "cuadros";
+    btnCuadros.nombre = "C";
     
     
 	rectangulos.push_back(&areaGrande);
@@ -190,7 +196,7 @@ void fichaInfo::construFigura(){
 	muPeriodico->indiceA = 1;
 	muPeriodico->indiceB = 0;
 	muPeriodico->dist = 28;
-	muPeriodico->visible = true;
+	muPeriodico->visible = false;
 	//////////////////////////
 	muPeriodicoImagenes->k = kmuelles;
 	muPeriodicoImagenes->rectA = &btnPeriodicos;
@@ -198,7 +204,7 @@ void fichaInfo::construFigura(){
 	muPeriodicoImagenes->indiceA = 0;
 	muPeriodicoImagenes->indiceB = 3;
 	muPeriodicoImagenes->dist = 28;
-	muPeriodicoImagenes->visible = true;
+	muPeriodicoImagenes->visible = false;
 	//////////////////////////
 	muPeriodicoImagenes2->k = kmuelles;
 	muPeriodicoImagenes2->rectA = &btnPeriodicos;
@@ -206,7 +212,7 @@ void fichaInfo::construFigura(){
 	muPeriodicoImagenes2->indiceA = 1;
 	muPeriodicoImagenes2->indiceB = 2;
 	muPeriodicoImagenes2->dist = 28;
-	muPeriodicoImagenes2->visible = true;
+	muPeriodicoImagenes2->visible = false;
 	//////////////////////////
 	muPeriodicoImagenes3->k = kmuelles;
 	muPeriodicoImagenes3->rectA = &btnPeriodicos;
@@ -214,7 +220,7 @@ void fichaInfo::construFigura(){
 	muPeriodicoImagenes3->indiceA = 1;
 	muPeriodicoImagenes3->indiceB = 3;
 	muPeriodicoImagenes3->dist = 66;
-	muPeriodicoImagenes3->visible = true;
+	muPeriodicoImagenes3->visible = false;
 	//////////////////////////
 	muPeriodicoImagenes4->k = kmuelles;
 	muPeriodicoImagenes4->rectA = &btnPeriodicos;
@@ -222,7 +228,7 @@ void fichaInfo::construFigura(){
 	muPeriodicoImagenes4->indiceA = 2;
 	muPeriodicoImagenes4->indiceB = 0;
 	muPeriodicoImagenes4->dist = 66;
-	muPeriodicoImagenes4->visible = true;
+	muPeriodicoImagenes4->visible = false;
 	//////////////////////////
 	muImageCuadros->k = kmuelles;
 	muImageCuadros->rectA = &btnImagenes;
@@ -230,7 +236,7 @@ void fichaInfo::construFigura(){
 	muImageCuadros->indiceA = 1;
 	muImageCuadros->indiceB = 0;
 	muImageCuadros->dist = 28;
-	muImageCuadros->visible = true;
+	muImageCuadros->visible = false;
 	//////////////////////////
 	muImageCuadros2->k = kmuelles;
 	muImageCuadros2->rectA = &btnImagenes;
@@ -238,7 +244,7 @@ void fichaInfo::construFigura(){
 	muImageCuadros2->indiceA = 2;
 	muImageCuadros2->indiceB = 3;
 	muImageCuadros2->dist = 28;
-	muImageCuadros2->visible = true;
+	muImageCuadros2->visible = false;
 	//////////////////////////
 	muImageCuadros3->k = kmuelles;
 	muImageCuadros3->rectA = &btnCuadros;
@@ -246,7 +252,7 @@ void fichaInfo::construFigura(){
 	muImageCuadros3->indiceA = 3;
 	muImageCuadros3->indiceB = 0;
 	muImageCuadros3->dist = 28;
-	muImageCuadros3->visible = true;
+	muImageCuadros3->visible = false;
 	//////////////////////////
 	muImageCuadros4->k = kmuelles;
 	muImageCuadros4->rectA = &btnImagenes;
@@ -254,7 +260,7 @@ void fichaInfo::construFigura(){
 	muImageCuadros4->indiceA = 2;
 	muImageCuadros4->indiceB = 0;
 	muImageCuadros4->dist = 66;
-	muImageCuadros4->visible = true;
+	muImageCuadros4->visible = false;
 	//////////////////////////
 	muImageCuadros5->k = kmuelles;
 	muImageCuadros5->rectA = &areaGrande;
@@ -262,7 +268,7 @@ void fichaInfo::construFigura(){
 	muImageCuadros5->indiceA = 0;
 	muImageCuadros5->indiceB = 2;
 	muImageCuadros5->dist = 66;
-	muImageCuadros5->visible = true;
+	muImageCuadros5->visible = false;
 	//////////////////////////
 	aux->k = kmuelles;
 	aux->rectA = &btnPeriodicos;
@@ -270,7 +276,7 @@ void fichaInfo::construFigura(){
 	aux->indiceA = 2;
 	aux->indiceB = 2;
 	aux->dist = 590;
-	aux->visible = true;
+	aux->visible = false;
 	//////////////////////////
 	aux2->k = kmuelles;
 	aux2->rectA = &btnImagenes;
@@ -278,7 +284,7 @@ void fichaInfo::construFigura(){
 	aux2->indiceA = 1;
 	aux2->indiceB = 3;
 	aux2->dist = 66;
-	aux2->visible = true;
+	aux2->visible = false;
 	//////////////////////////
 	aux3->k = kmuelles;
 	aux3->rectA = &btnImagenes;
@@ -286,7 +292,7 @@ void fichaInfo::construFigura(){
 	aux3->indiceA = 2;
 	aux3->indiceB = 0;
 	aux3->dist = 66;
-	aux3->visible = true;
+	aux3->visible = false;
 	//////////////////////////
 	aux4->k = kmuelles;
 	aux4->rectA = &btnImagenes;
@@ -294,7 +300,7 @@ void fichaInfo::construFigura(){
 	aux4->indiceA = 2;
 	aux4->indiceB = 0;
 	aux4->dist = 39;
-	aux4->visible = true;
+	aux4->visible = false;
     
 	//////////////////////////
 	muelles.push_back(muPeriodico);
@@ -316,9 +322,21 @@ void fichaInfo::construFigura(){
 }
 //
 // MODIFICA VALORES DE LA ELASTICIDAD
+void fichaInfo::cambiaKDiagonal(float  v){
+	/// seteamos un nuevo valor k para los muelles daigonales
+    for(int i = 0; i < muelles.size(); i++){
+        if(muelles.at(i)->diagonal) muelles.at(i)->k = v;
+    }
+
+	minis.cambiaKDiagonal(v);
+}
+//--------------------------------------------------------------
+void fichaInfo::cambiaKHorizontal(float v){
+	minis.cambiaKHorizontal(v);
+}
 
 //--------------------------------------------------------------
-void fichaInfo::cambiaK(float & v){
+void fichaInfo::cambiaK(float  v){
     /// seteamos un nuevo valor k para los muelles
     for(int i = 0; i < muelles.size(); i++){
         muelles.at(i)->k = v;
@@ -326,13 +344,15 @@ void fichaInfo::cambiaK(float & v){
 	minis.cambiaK(v);
 }
 
+void fichaInfo::cambiaDampMiniaturas(float  v){
+	minis.cambiaDampMiniaturas(v);
+}
 //--------------------------------------------------------------
-void fichaInfo::cambiaDamp(float & v){
+void fichaInfo::cambiaDamp(float  v){
     /// seteamos un nuevo valor k para los muelles
     for(int i = 0; i < rectangulos.size(); i++){
         rectangulos.at(i)->damping = v;
     }
-	minis.cambiaDamp(v);
 }
 //
 // MODIFICA VALORES DE LA ELASTICIDAD

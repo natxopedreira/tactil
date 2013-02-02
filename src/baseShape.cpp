@@ -17,7 +17,7 @@ baseShape::baseShape(){
      
     p0 ---------- p1
      |            |
-	 |     p4     |
+	p9     p4     p8
 	 |            |
 	p3 -p5-p6-p7- p2
 	
@@ -25,7 +25,7 @@ baseShape::baseShape(){
     
     */
 	
-    ofPoint p0,p1,p2,p3,p4,p5,p6,p7;
+    ofPoint p0,p1,p2,p3,p4,p5,p6,p7,p8,p9;
 	
 	p0.set(0,0);
 	p1.set(0,0);
@@ -35,6 +35,8 @@ baseShape::baseShape(){
 	p5.set(0,0);
 	p6.set(0,0);
 	p7.set(0,0);
+	p8.set(0,0);
+	p9.set(0,0);
 	
 	puntos.push_back(p0);
 	puntos.push_back(p1);
@@ -44,6 +46,8 @@ baseShape::baseShape(){
 	puntos.push_back(p5);
 	puntos.push_back(p6);
 	puntos.push_back(p7);
+	puntos.push_back(p8);
+	puntos.push_back(p9);
 	
 	vel.set(0, 0);
     acc.set(0,0,0);
@@ -70,7 +74,7 @@ void baseShape::update(){
 	 
 	 p0 ---------- p1
      |             |
-	 |     p4      |
+	 p9     p4     p8
 	 |             |
 	 p3 -p5-p6-p7- p2
 	 
@@ -93,6 +97,8 @@ void baseShape::update(){
 	puntos.at(5).set(this->x+(this->width/4),this->y+this->height);
 	puntos.at(6).set(this->x+(this->width/4)*2,this->y+this->height);
 	puntos.at(7).set(this->x+(this->width/4)*3,this->y+this->height);
+	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2));
+	puntos.at(9).set(this->x,this->y+(this->height/2));
 }
 
 //------------------------------------------------------------

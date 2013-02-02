@@ -23,14 +23,21 @@ class testApp : public ofBaseApp{
 		
 		void btnCambiaK(float & v);
 		void btnCambiaDamp(float & v);
+	
+		void btnCambiaKHorizontal(float & v);
+		void btnCambiaKDiagonal(float & v);
+		void btnCambiaDampMiniaturas(float & v);
 
 		// parte del gui
 		ofxPanel gui;
 		ofxFloatSlider kMuelles;
+		ofxFloatSlider kMuellesDiagonales;
+		ofxFloatSlider kMuellesHorizontales;
 		ofxFloatSlider dampCajas;
+		ofxFloatSlider dampCajasMiniaturas;
 	
-		float	kmuelles;
-		float   dampcajas;
+		float	kmuelles, kmuellesDiagonales, kmuellesHorizontales;
+		float   dampcajas, dampcajasMiniaturas;
 		
 	vector<fichaInfo *> fichas;
 	

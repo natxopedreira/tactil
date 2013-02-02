@@ -22,8 +22,10 @@ public:
     void setup(int cuantas, float _px, float _py);
     void setAncla(visualizador * a);
 	void cambiaK(float v);
-	void cambiaDamp(float v);
-	
+
+	void cambiaKDiagonal(float v);
+	void cambiaKHorizontal(float v);
+	void cambiaDampMiniaturas(float v);
 	
     void update();
     void drawCircle();

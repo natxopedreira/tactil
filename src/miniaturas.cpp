@@ -33,7 +33,7 @@ void miniaturas::setup(int cuantas, float _px, float _py){
         thumb * b = new thumb();
         b->set(0,0, 45, 45);
         b->color.set(171,209,217);
-        b->nombre = "mini_"+ofToString(i);
+        b->nombre = "M"+ofToString(i);
         thumbs.push_back(b);
     }
    
@@ -86,6 +86,8 @@ void miniaturas::creaGrid(){
 		// los movemos al origen, deberias de hacerlo en el de antes
 		thumbs[i]->x  += origen.x;
 		thumbs[i]->y  += origen.y;
+		
+		thumbs[i]->color.set(10, 10, 10);
 
     }
     //  Ahora que esta en la tabla podemos recorrerlo de forma más sencilla
@@ -111,18 +113,17 @@ void miniaturas::creaGrid(){
             //
             if ( y != tabla[x].size()-1 ){
                 
+				//vertical
                 hayC = true;
-                
                 Spring * sp = new Spring();
                 sp->k = k;
-                sp->rectA = tabla[x][y];
-                sp->rectB = tabla[x][y+1];
+                sp->rectA = tabla[x][y]; //A
+                sp->rectB = tabla[x][y+1]; //C
                 sp->indiceA = 4;
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                   tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y);
                 sp->visible = true;
-                
                 springs.push_back(sp);
             }
             
@@ -134,18 +135,18 @@ void miniaturas::creaGrid(){
                 //
                 if ( y < tabla[x+1].size() ){
                     
+					//horisontal
                     hayB = true;
-                    
                     Spring * sp = new Spring();
                     sp->k = k;
-                    sp->rectA = tabla[x][y];
-                    sp->rectB = tabla[x+1][y];
+                    sp->rectA = tabla[x][y]; //A
+                    sp->rectB = tabla[x+1][y]; //B
                     sp->indiceA = 4;
                     sp->indiceB = 4;
                     sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                       tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
-                    sp->visible = false;
-                    
+                    sp->visible = true;
+					sp->horizontal = true;
                     springs.push_back(sp);
                     
                     if ( y+1 < tabla[x+1].size() ){
@@ -157,7 +158,7 @@ void miniaturas::creaGrid(){
             //  Si tiene B y C puede agregar la diagonal que le da estabilidad
             //
             if ( hayB && hayC ){
-                
+                //DIAGONAL
                 Spring * sp = new Spring();
                 sp->k = k;
                 sp->rectA = tabla[x][y+1];  // C
@@ -166,23 +167,24 @@ void miniaturas::creaGrid(){
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y,
                                   tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
-                sp->visible = true;
-                
+                //sp->visible = true;
+                sp->diagonal = true;
                 springs.push_back(sp);
                 
             }
             
             if ( hayD ){
+				//DIAGONAL
                 Spring * sp = new Spring();
                 sp->k = k;
-                sp->rectA = tabla[x][y];
+                sp->rectA = tabla[x][y]; //A
                 sp->rectB = tabla[x+1][y+1];  // D
                 sp->indiceA = 4;
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                   tabla[x+1][y+1]->getCenter().x, tabla[x+1][y+1]->getCenter().y);
-                sp->visible = true;
-                
+                //sp->visible = true;
+                sp->diagonal = true;
                 springs.push_back(sp);
             }
         }
@@ -248,7 +250,8 @@ void miniaturas::creaGrid(){
 	diago0->rectB = thumbs[1];  // D
 	diago0->indiceA = 3;
 	diago0->indiceB = 4;
-	diago0->visible = true;
+	diago0->visible = false;
+	diago0->diagonal = true;
 	diago0->dist = 193;
 	
 	Spring * diago1 = new Spring();
@@ -257,7 +260,8 @@ void miniaturas::creaGrid(){
 	diago1->rectB = thumbs[0];  // D
 	diago1->indiceA = 5;
 	diago1->indiceB = 4;
-	diago1->visible = true;
+	diago1->visible = false;
+	diago1->diagonal = true;
 	diago1->dist = 193;
 	
 	Spring * diago2 = new Spring();
@@ -266,7 +270,8 @@ void miniaturas::creaGrid(){
 	diago2->rectB = thumbs[2];  // D
 	diago2->indiceA = 5;
 	diago2->indiceB = 4;
-	diago2->visible = true;
+	diago2->visible = false;
+	diago2->diagonal = true;
 	diago2->dist = 193;
 	
 	Spring * diago3 = new Spring();
@@ -275,7 +280,8 @@ void miniaturas::creaGrid(){
 	diago3->rectB = thumbs[1];  // D
 	diago3->indiceA = 6;
 	diago3->indiceB = 4;
-	diago3->visible = true;
+	diago3->visible = false;
+	diago3->diagonal = true;
 	diago3->dist = 193;
 	
 	Spring * diago4 = new Spring();
@@ -284,7 +290,8 @@ void miniaturas::creaGrid(){
 	diago4->rectB = thumbs[3];  // D
 	diago4->indiceA = 6;
 	diago4->indiceB = 4;
-	diago4->visible = true;
+	diago4->visible = false;
+	diago4->diagonal = true;
 	diago4->dist = 193;
 	
 	Spring * diago5 = new Spring();
@@ -293,7 +300,8 @@ void miniaturas::creaGrid(){
 	diago5->rectB = thumbs[2];  // D
 	diago5->indiceA = 7;
 	diago5->indiceB = 4;
-	diago5->visible = true;
+	diago5->visible = false;
+	diago5->diagonal = true;
 	diago5->dist = 193;
 
 	Spring * diago6 = new Spring();
@@ -302,7 +310,8 @@ void miniaturas::creaGrid(){
 	diago6->rectB = thumbs[4];  // D
 	diago6->indiceA = 7;
 	diago6->indiceB = 4;
-	diago6->visible = true;
+	diago6->visible = false;
+	diago6->diagonal = true;
 	diago6->dist = 193;
 	
 	Spring * diago7 = new Spring();
@@ -311,7 +320,8 @@ void miniaturas::creaGrid(){
 	diago7->rectB = thumbs[3];  // D
 	diago7->indiceA = 2;
 	diago7->indiceB = 4;
-	diago7->visible = true;
+	diago7->diagonal = true;
+	diago7->visible = false;
 	diago7->dist = 193;
 	
 	
@@ -333,36 +343,55 @@ void miniaturas::creaGrid(){
 
 void miniaturas::update(){
 	/// todos se repelen entre si
-	for(int i = 0; i < thumbs.size(); i++){
-		int index = i;
-		for(int j = 0; j < thumbs.size(); j++){
-			if(i != j) thumbs.at(j)->addRepulsionForce(thumbs.at(i)->getCenter(),80,100);
-		}
-        
-        thumbs.at(i)->bounceOffWalls();
-		thumbs.at(i)->update();
-	}
-	
-	
-	
     for(int i = 0; i < springs.size(); i++){
 		springs[i]->update();
 	}
-    for(int i = 0; i < thumbs.size(); i++){
-		thumbs[i]->update();
+	
+	for(int i = 0; i < thumbs.size(); i++){
+		int index = i;
+		
+		/*
+		 repulsion para los botones
+		 */
+		for(int j = 0; j < thumbs.size(); j++){
+			if(i != j){
+				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
+			}
+		}
+		//repelen el fondo del visualizador
+		/*
+		 p9     p4     p8
+		 |             |
+		 p3 -p5-p6-p7- p2
+		 */
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),150,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),150,150);
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),180,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),180,150);	
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,120);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,120);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,120);
+		
+		
+        thumbs.at(i)->bounceOffWalls();
+		thumbs.at(i)->update();
 	}
 }
 
 void miniaturas::drawCircle(){
     ofPushMatrix();
-
+    
+	for(int i = 0; i < springs.size(); i++){
+		springs[i]->draw();
+	}
 
     for (int i = 0; i < thumbs.size(); i++) {
         thumbs[i]->drawThumb();
     }
-    for(int i = 0; i < springs.size(); i++){
-		springs[i]->draw();
-	}
+
     
     ofPopMatrix(); 
 }
@@ -370,10 +399,22 @@ void miniaturas::drawCircle(){
 void miniaturas::cambiaK(float v){
     /// seteamos un nuevo valor k para los muelles
     for(int i = 0; i < springs.size(); i++){
-        springs.at(i)->k = v;
+        if(!springs.at(i)->diagonal)springs.at(i)->k = v;
     }
 }
-void miniaturas::cambiaDamp(float v){
+void miniaturas::cambiaKDiagonal(float v){
+    /// seteamos un nuevo valor k para los muelles diagonales
+    for(int i = 0; i < springs.size(); i++){
+        if(springs.at(i)->diagonal)springs.at(i)->k = v;
+    }
+}
+void miniaturas::cambiaKHorizontal(float v){
+    /// seteamos un nuevo valor k para los muelles horizontales
+    for(int i = 0; i < springs.size(); i++){
+        if(springs.at(i)->horizontal)springs.at(i)->k = v;
+    }
+}
+void miniaturas::cambiaDampMiniaturas(float v){
     /// seteamos un nuevo valor k para los muelles
     for(int i = 0; i < thumbs.size(); i++){
         thumbs.at(i)->damping = v;

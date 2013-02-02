@@ -5,6 +5,8 @@ Spring::Spring(){
 	rectA = NULL;
 	rectB = NULL;
 	visible = false;
+	diagonal = false;
+	horizontal = false;
 	indiceA = 0;
 	indiceB = 0;
 }
@@ -31,9 +33,9 @@ void Spring::update(){
 	ofPoint frcToAdd = (puntoA - puntoB).normalized() * springForce;
 	
 
-	if(!rectA->leader && !rectA->principal) rectA->addForce(frcToAdd);
+	if(!rectA->principal) rectA->addForce(frcToAdd);
 	frcToAdd *= -1;
-	if(!rectB->leader && !rectB->principal) rectB->addForce(frcToAdd);
+	if(!rectB->principal) rectB->addForce(frcToAdd);
 	 
 }
 
@@ -48,10 +50,8 @@ void Spring::draw(){
 	
 	ofPushStyle();
 		ofSetLineWidth(1);
-	
+		ofSetColor(80, 80, 80, 80);
 		ofLine(ofPoint(rectA->puntos.at(indiceA).x,rectA->puntos.at(indiceA).y), rectB->puntos.at(indiceB));
-		//ofCircle(rectA->puntos.at(indiceA), 2);
-		//ofCircle(rectB->puntos.at(indiceB), 2);
 	ofPopStyle();
 }
 
