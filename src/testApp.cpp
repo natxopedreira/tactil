@@ -4,14 +4,15 @@
 void testApp::setup(){
 	ofSetVerticalSync(true);
 	ofEnableSmoothing();
-	ofBackground(84,78,110);
+	ofBackground(40,40,40);
+	
 	dampcajas = 0.3;
-    kmuelles = 0.0025;
+    kmuelles = 0.0325;
 	/// gui para el modo debug
     gui.setup("ajustes");
-    gui.add(kMuelles.setup("k muelles", kmuelles, .0, .5));
-    gui.add(dampCajas.setup("damp cajas", dampcajas, .0, .5));
-    
+    gui.add(kMuelles.setup("k muelles", kmuelles, .0, 1));
+    gui.add(dampCajas.setup("damp cajas", dampcajas, .0, 5));
+	
     kMuelles.addListener(this, &testApp::btnCambiaK);
     dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	

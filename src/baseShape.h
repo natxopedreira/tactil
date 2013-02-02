@@ -23,6 +23,7 @@ public:
 	
 	void    addForce( ofPoint _force );
 	void    addAttractionForce(ofPoint p, ofPoint offset, float radius, float scale);
+	
 	void    addRepulsionForce(ofPoint p, float radius, float scale);
     void    moveTo(float _x, float _y);
 	

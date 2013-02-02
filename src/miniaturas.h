@@ -20,8 +20,11 @@ public:
     ~miniaturas();
     
     void setup(int cuantas, float _px, float _py);
-    void setAncla(visualizador a);
-    
+    void setAncla(visualizador * a);
+	void cambiaK(float v);
+	void cambiaDamp(float v);
+	
+	
     void update();
     void drawCircle();
     void creaGrid();
@@ -31,9 +34,9 @@ public:
     
     int circleResolution;
     float radio;
-    
-    ofPoint centro;
-    
+    float k,damp;
+	
+    ofPoint origen;
     vector<thumb*> thumbs; /// cambiamos el vector para ser de baseShape
     vector<Spring*> springs;
     

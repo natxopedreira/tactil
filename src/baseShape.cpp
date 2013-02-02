@@ -19,30 +19,36 @@ baseShape::baseShape(){
      |            |
 	 |     p4     |
 	 |            |
-	p3 ---------- p2
+	p3 -p5-p6-p7- p2
 	
 	 punto de anclaje para el muelle
     
     */
 	
-    ofPoint p0,p1,p2,p3,p4;
+    ofPoint p0,p1,p2,p3,p4,p5,p6,p7;
 	
 	p0.set(0,0);
 	p1.set(0,0);
 	p2.set(0,0);
 	p3.set(0,0);
 	p4.set(0,0);
+	p5.set(0,0);
+	p6.set(0,0);
+	p7.set(0,0);
 	
 	puntos.push_back(p0);
 	puntos.push_back(p1);
 	puntos.push_back(p2);
 	puntos.push_back(p3);
 	puntos.push_back(p4);
+	puntos.push_back(p5);
+	puntos.push_back(p6);
+	puntos.push_back(p7);
 	
 	vel.set(0, 0);
     acc.set(0,0,0);
     
-	damping = 0.17f;
+	damping = 0.09f;
 	mass = 1.f;
 	
 	color.set(0,0,0);
@@ -63,10 +69,10 @@ void baseShape::update(){
 	/*
 	 
 	 p0 ---------- p1
+     |             |
+	 |     p4      |
 	 |             |
-	 |      p4     |
-	 |             |
-	 p3 ---------- p2
+	 p3 -p5-p6-p7- p2
 	 
 	 */
 
@@ -84,7 +90,9 @@ void baseShape::update(){
 	puntos.at(2).set(this->x+this->width * escala,this->y+this->height * escala);
 	puntos.at(3).set(this->x,this->y+this->height * escala);
 	puntos.at(4).set(this->getCenter());
-	
+	puntos.at(5).set(this->x+(this->width/4),this->y+this->height);
+	puntos.at(6).set(this->x+(this->width/4)*2,this->y+this->height);
+	puntos.at(7).set(this->x+(this->width/4)*3,this->y+this->height);
 }
 
 //------------------------------------------------------------

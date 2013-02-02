@@ -53,10 +53,10 @@ void fichaInfo::setup(){
 	
     
     ///iniciamos las miniaturas
-    minis.setup(9 , areaGrande.x + areaGrande.width, areaGrande.y + areaGrande.height);
+    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 150);
     
     /// le indicamos las anclas al area grande (para enganchar las minis)
-    minis.setAncla(areaGrande);
+    minis.setAncla(&areaGrande);
     
     Tweenzor::init();
 }
@@ -73,7 +73,7 @@ void fichaInfo::update(){
 	for(int i = 0; i < rectangulos.size(); i++){
 		int index = i;
 		for(int j = 0; j < rectangulos.size(); j++){
-			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i)->getCenter(),70,90);
+			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,100);
 		}
         
         rectangulos.at(i)->bounceOffWalls();
@@ -82,8 +82,6 @@ void fichaInfo::update(){
    
     //
     // movemos las miniaturas
-    // le pasamos la referencia del punto
-    // a donde deben de alinearse
     minis.update();
 }
 
@@ -91,7 +89,7 @@ void fichaInfo::update(){
 void fichaInfo::draw(){
 	
 	
-	ofSetColor(255, 100, 100);
+	ofSetColor(150, 150, 150,80);
     
     /// muelles
 	for(int j = 0; j < muelles.size(); j++){
@@ -114,6 +112,7 @@ void fichaInfo::draw(){
 
 //--------------------------------------------------------------
 void fichaInfo::collideWith( fichaInfo *_body ){
+	/// colisionan las minis con el grande
     for (int i = 0; i < rectangulos.size(); i++){
         for (int j = 0; j < _body->rectangulos.size(); j++ ){
 
@@ -324,6 +323,7 @@ void fichaInfo::cambiaK(float & v){
     for(int i = 0; i < muelles.size(); i++){
         muelles.at(i)->k = v;
     }
+	minis.cambiaK(v);
 }
 
 //--------------------------------------------------------------
@@ -332,6 +332,7 @@ void fichaInfo::cambiaDamp(float & v){
     for(int i = 0; i < rectangulos.size(); i++){
         rectangulos.at(i)->damping = v;
     }
+	minis.cambiaDamp(v);
 }
 //
 // MODIFICA VALORES DE LA ELASTICIDAD
@@ -378,7 +379,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     
     /// comprueba si esta presionando una miniatura 
     /// desabilitado el drag en las minis
-    /*
+    
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
             //cargaMinis(i);
@@ -395,7 +396,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             return;
         }
     }
-     */
+    
 }
 //--------------------------------------------------------------
 void fichaInfo::cargaMinis(int _index){
