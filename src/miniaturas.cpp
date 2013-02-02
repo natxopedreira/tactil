@@ -127,7 +127,7 @@ void miniaturas::creaGrid(){
                 springs.push_back(sp);
             }
             
-            //  Si no es la última columna...
+            //  Si no es la ultima columna...
             //
             if ( x < numColumnas-1 ){
                 

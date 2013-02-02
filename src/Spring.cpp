@@ -36,7 +36,12 @@ void Spring::update(){
 	if(!rectA->principal) rectA->addForce(frcToAdd);
 	frcToAdd *= -1;
 	if(!rectB->principal) rectB->addForce(frcToAdd);
-	 
+	 /*
+	  if(!rectA->leader || !rectA->principal) rectA->addForce(frcToAdd);
+	  frcToAdd *= -1;
+	  if(!rectB->leader || !rectB->principal) rectB->addForce(frcToAdd);
+	  
+	  */
 }
 
 
