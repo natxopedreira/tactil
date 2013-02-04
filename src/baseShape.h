@@ -17,6 +17,7 @@ class baseShape : public ofRectangle {
 public:
 	baseShape();
 	~baseShape();
+	string  nombre;
 	
 	void roundedRect(float x, float y, float w, float h, float r);  
 	void quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY);
@@ -35,15 +36,26 @@ public:
 	void	update();
 	void	drawRound();
 	
+	void onCompleteCambio(float* arg);
+	
 	float   damping;
 	float	mass;
     int     nId;
     int     escala;
 	
-	ofColor color;
+	ofColor color, colorCambio;
 	bool	leader; /// eres leader cuando eres el que dragea
 	bool	principal; /// indica si eres el recuadro donde se ven las cosas, osease el grande
+	bool	activo; /// para cuando eres un boton
+	bool	useBtn; /// eres un boton?
+	
 	vector<ofPoint>		puntos;
+	
+	void	cambiate(int _r,int _g, int _b, float _delay); // al cambiar de seccion el rectanlge cambia de color
+	bool	cambiandose;
+	float	cambioY; // posicion de la cortina
+	
+	ofEvent<string>	meCambie;
 	
 private:
     ofPoint vel;

@@ -11,11 +11,12 @@
 
 boton::boton(){
     nombre = "";
+	activo = false;
 }
 
 boton::~boton(){}
 
 void boton::drawButton(){
    drawRound();
-   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
+	if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
 }

@@ -15,6 +15,15 @@
 #include "Spring.h"
 #include "miniaturas.h"
 
+/*
+ ANIMACION ES
+ 
+ - BOTON SECCION CLICK
+ - CORTINA VISUALIZADOR
+ - CARGAS MINIARUAS
+ - CORTINAS MINIATURAS
+ */
+
 
 class fichaInfo {
 public:
@@ -30,10 +39,12 @@ public:
 	void _mousePressed(ofMouseEventArgs &e);
 	void _mouseReleased(ofMouseEventArgs &e);
 	
+	void _areaGrandeLista(string & s);
+	
 	void  collideWith( fichaInfo *_body );
     
     
-    void cambiaSeccion();
+    void cambiaSeccion(int _cuala);
     void cargaMinis(int _index);
 	//
     // construccion de la figura
@@ -66,6 +77,7 @@ public:
 	bool dragin, dragingMini;
 	int	idLeader;
     float px,py;
+	int seccionActiva;
     
     // vars gui
 	float	kmuelles, kMuellesDiagonales, kHorizontal;

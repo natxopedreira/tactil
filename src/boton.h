@@ -18,7 +18,7 @@ public:
     boton();
 	~boton();
     
-    string  nombre;
+	
     void drawButton();
 };
 #endif

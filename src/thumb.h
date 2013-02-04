@@ -16,7 +16,7 @@ public:
     thumb();
 	~thumb();
     
-    string  nombre;
+
     
     void activalo();
     void desactivalo();

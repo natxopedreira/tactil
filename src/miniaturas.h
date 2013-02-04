@@ -19,9 +19,10 @@ public:
     miniaturas();
     ~miniaturas();
     
-    void setup(int cuantas, float _px, float _py);
+    void setup(int cuantas, float _px, float _py, ofColor _color);
     void setAncla(visualizador * a);
 	void cambiaK(float v);
+	void limpiaMinis();
 
 	void cambiaKDiagonal(float v);
 	void cambiaKHorizontal(float v);
@@ -29,7 +30,7 @@ public:
 	
     void update();
     void drawCircle();
-    void creaGrid();
+    void creaGrid(ofColor _color);
     
     vector<ofPolyline> lineas;
     vector<ofPoint> circlePoints;
@@ -43,7 +44,17 @@ public:
     vector<Spring*> springs;
     
     visualizador * anclaVisualizador;
+	
+	float _kMuellesDiagonales;
+	float _kHorizontal;
+	float _kmuelles;
+	float _dampCajasMiniaturas;
     
+	bool _listas; // si las minis esta colocadas
+	/// proceso es:
+	// - posicion
+	// - tension
+	// -  repulsion;
 };
 
 #endif

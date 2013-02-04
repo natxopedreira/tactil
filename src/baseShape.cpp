@@ -61,6 +61,14 @@ baseShape::baseShape(){
 	principal	=	false;
     
     escala   =   1;
+	
+	cambiandose = false;
+	useBtn = false;
+	activo = false;
+	
+	cambioY = 0;
+	
+	nombre = "";
 }
 //------------------------------------------------------------
 baseShape::~baseShape(){
@@ -99,13 +107,22 @@ void baseShape::update(){
 	puntos.at(7).set(this->x+(this->width/4)*3,this->y+this->height);
 	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2));
 	puntos.at(9).set(this->x,this->y+(this->height/2));
+	
+	Tweenzor::update( ofGetElapsedTimeMillis() );
 }
 
 //------------------------------------------------------------
 void baseShape::drawRound(){
 	ofPushStyle();
 		ofSetColor(color);
-		roundedRect(this->x, this->y, this->width * escala, this->height * escala,10);
+		roundedRect(this->x, this->y, this->width * escala, this->height * escala,5);
+	
+	if(cambiandose){
+		/// dibujamos la cortina
+		ofSetColor(colorCambio);
+		roundedRect(this->x, this->y, this->width * escala, (this->height-cambioY) * escala ,5);
+		
+	}
 	ofPopStyle();
 }
 
@@ -281,3 +298,23 @@ void baseShape::quadraticBezierVertex(float cpx, float cpy, float x, float y, fl
 	// finally call cubic Bezier curve function  
 	ofBezierVertex(cp1x, cp1y, cp2x, cp2y, x, y);  
 };  
+
+
+
+void baseShape::cambiate(int _r,int _g, int _b, float _delay){
+	/// cambias de color
+	/// moviendo la cortina
+	cambiandose = true;
+	cambioY = this->getHeight()-10;
+	Tweenzor::add(&cambioY, cambioY, 0, _delay, 0.5f, EASE_IN_SINE);
+	
+	
+	Tweenzor::addCompleteListener( Tweenzor::getTween(&cambioY), this, &baseShape::onCompleteCambio);
+	colorCambio.set(_r,_g,_b);
+}
+
+void baseShape::onCompleteCambio(float* arg){
+	color.set(colorCambio.r, colorCambio.g, colorCambio.b);
+	cambiandose = false;
+	ofNotifyEvent(meCambie,nombre,this); //seleccionBoton
+}

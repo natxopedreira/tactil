@@ -12,7 +12,15 @@ miniaturas::miniaturas(){
     circleResolution = 0;
     origen.set(0, 0);
 	anclaVisualizador = NULL;
-
+	
+	_kMuellesDiagonales = .0;
+	_kHorizontal = .0;
+	_kmuelles = .0;
+	_dampCajasMiniaturas = .0;
+	
+	_listas = false;
+	
+	
 }
 
 miniaturas::~miniaturas(){
@@ -26,32 +34,41 @@ miniaturas::~miniaturas(){
     circlePoints.clear();
 }
 
-void miniaturas::setup(int cuantas, float _px, float _py){
-    
+void miniaturas::setup(int cuantas, float _px, float _py, ofColor _color){
+	_listas = false;
+	
+
+	
     /// fill the miniatures vector
     for(int i = 0; i < cuantas; i++){
         thumb * b = new thumb();
         b->set(0,0, 45, 45);
         b->color.set(171,209,217);
         b->nombre = "M"+ofToString(i);
-        thumbs.push_back(b);
+		thumbs.push_back(b);
+		
     }
    
    origen.set(_px, _py);
+	
+	/// create el grid
+    creaGrid(_color);
 }
 void miniaturas::setAncla(visualizador * a){
     anclaVisualizador = a;
-    
-    /// create el grid
-    creaGrid();
+}
+void miniaturas::limpiaMinis(){
+	/// antes miramos si ya hay minis
+	springs.clear();
+	thumbs.clear();
 }
 
-
-void miniaturas::creaGrid(){
+void miniaturas::creaGrid(ofColor _color){
 
     /////// arreglo de Patricio
     /////// thanks !!!!!
-    
+
+	
     
     int cuantas = thumbs.size();
     int numColumnas = 5;
@@ -81,13 +98,13 @@ void miniaturas::creaGrid(){
         
         //  Ubicarlo en el espacio
         //
-		thumbs[i]->x  = (anchoMini + 53) * col;
-		thumbs[i]->y  = (altoMini + 61) * row;
+		thumbs[i]->x  = origen.x +( (anchoMini + 53) * col);
+		thumbs[i]->y  = origen.y + ( (altoMini + 61) * row);
 		// los movemos al origen, deberias de hacerlo en el de antes
-		thumbs[i]->x  += origen.x;
-		thumbs[i]->y  += origen.y;
 		
 		thumbs[i]->color.set(10, 10, 10);
+		
+		thumbs[i]->cambiate(_color.r, _color.g, _color.b, 0.1*i);
 
     }
     //  Ahora que esta en la tabla podemos recorrerlo de forma más sencilla
@@ -339,13 +356,22 @@ void miniaturas::creaGrid(){
 	springs.push_back(diago5);
 	springs.push_back(diago6);
 	springs.push_back(diago7);
+	
+	
+	/// PONGO LA TENSION UNA VEZ COLOCADOS LOS MUELLES
+	
+	cambiaKDiagonal(_kMuellesDiagonales);
+	cambiaKHorizontal(_kHorizontal);
+	cambiaK(_kmuelles);
+	cambiaDampMiniaturas(_dampCajasMiniaturas);
 }
 
 void miniaturas::update(){
 	/// todos se repelen entre si
-    for(int i = 0; i < springs.size(); i++){
-		springs[i]->update();
-	}
+	
+
+	
+	
 	
 	for(int i = 0; i < thumbs.size(); i++){
 		int index = i;
@@ -353,17 +379,19 @@ void miniaturas::update(){
 		/*
 		 repulsion para los botones
 		 */
-		for(int j = 0; j < thumbs.size(); j++){
-			if(i != j){
-				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
-			}
-		}
 		//repelen el fondo del visualizador
 		/*
 		 p9     p4     p8
 		 |             |
 		 p3 -p5-p6-p7- p2
 		 */
+		
+		for(int j = 0; j < thumbs.size(); j++){
+			if(i != j){
+				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
+			}
+		}
+
 		
 		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),150,150);
 		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),150,150);
@@ -377,13 +405,18 @@ void miniaturas::update(){
 		
 		
         thumbs.at(i)->bounceOffWalls();
+		
+		 
 		thumbs.at(i)->update();
+	}
+	for(int i = 0; i < springs.size(); i++){
+		springs[i]->update();
 	}
 }
 
 void miniaturas::drawCircle(){
     ofPushMatrix();
-    
+	
 	for(int i = 0; i < springs.size(); i++){
 		springs[i]->draw();
 	}

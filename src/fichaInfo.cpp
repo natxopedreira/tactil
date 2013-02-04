@@ -11,11 +11,13 @@
 fichaInfo::fichaInfo(){
 	// el leader es el que estas drageando
 	idLeader = -1;
-    dampcajas = 0.15;
-    kmuelles = 0.01;
+    
+    kmuelles = 0.115;
+	kHorizontal = 0.205;
+	kMuellesDiagonales = 0.245;
 	
-	kMuellesDiagonales = 0.01;
-	dampCajasMiniaturas = 0.15;
+	dampCajasMiniaturas = 0.35;
+	dampcajas = 0.55;
 	
 	dragin = false;
     dragingMini = false;
@@ -23,7 +25,8 @@ fichaInfo::fichaInfo(){
 	py = .0;
     
     offsetDrag.set(0, 0);
-    
+	
+	seccionActiva = 1; // cual es la seccion de inicio
 
 }
 fichaInfo::~fichaInfo(){
@@ -31,7 +34,7 @@ fichaInfo::~fichaInfo(){
 	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mouseDragged);
 	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
 	ofRemoveListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
-	
+	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
 	
 	for(int i = 0; i < muelles.size(); i++){
 		delete muelles[i]; //porque no puedo borrar los muelles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -55,23 +58,27 @@ void fichaInfo::setup(){
 	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
 	
     
-    ///iniciamos las miniaturas
-    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 150);
-    
-    /// le indicamos las anclas al area grande (para enganchar las minis)
-    minis.setAncla(&areaGrande);
+   
     
     Tweenzor::init();
+	
+	//inicias la miniatura
+    /// le indicamos las anclas al area grande (para enganchar las minis)
+    minis.setAncla(&areaGrande);
+	
+	minis._kMuellesDiagonales = kMuellesDiagonales;
+	minis._kHorizontal = kHorizontal;
+	minis._kmuelles = kmuelles;
+	minis._dampCajasMiniaturas = dampCajasMiniaturas;
+	
+	//
+	ofAddListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
 }
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
-	Tweenzor::update( ofGetElapsedTimeMillis() );
     
-    
-	for(int i = 0; i < muelles.size(); i++){
-		muelles.at(i)->update();
-	}
+
 	/// todos se repelen entre si
 	for(int i = 0; i < rectangulos.size(); i++){
 		int index = i;
@@ -89,6 +96,11 @@ void fichaInfo::update(){
     //
     // movemos las miniaturas
     minis.update();
+	
+	
+	for(int i = 0; i < muelles.size(); i++){
+		muelles.at(i)->update();
+	}
 }
 
 //--------------------------------------------------------------
@@ -137,6 +149,7 @@ void fichaInfo::construFigura(){
 	areaGrande.height = 350;
 	areaGrande.color.set(10, 10, 10);
 	areaGrande.principal = true;
+	areaGrande.damping = dampcajas;
 	
 	btnPeriodicos.x = areaGrande.x - 86 ;
 	btnPeriodicos.y = areaGrande.y;
@@ -145,6 +158,8 @@ void fichaInfo::construFigura(){
 	btnPeriodicos.color.set(109, 4, 56);
 	btnPeriodicos.mass = 0.6;
     btnPeriodicos.nombre = "P";
+	btnPeriodicos.useBtn = true;
+	btnPeriodicos.damping = dampcajas;
 	
 	btnImagenes.x = btnPeriodicos.x;
 	btnImagenes.y = btnPeriodicos.y -81;
@@ -153,6 +168,8 @@ void fichaInfo::construFigura(){
 	btnImagenes.color.set(237, 157, 0);
 	btnImagenes.mass = 0.6;
     btnImagenes.nombre = "I";
+	btnImagenes.useBtn = true;
+	btnImagenes.damping = dampcajas;
 	
 	btnCuadros.x = btnImagenes.x + 81;
 	btnCuadros.y = btnImagenes.y;
@@ -161,7 +178,8 @@ void fichaInfo::construFigura(){
 	btnCuadros.color.set(88, 132, 0);
 	btnCuadros.mass = 0.6;
     btnCuadros.nombre = "C";
-    
+	btnCuadros.useBtn = true;
+    btnCuadros.damping = dampcajas;
     
 	rectangulos.push_back(&areaGrande);
 	rectangulos.push_back(&btnPeriodicos);
@@ -390,9 +408,17 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			px = e.x;
 			py = e.y;
             
+			
             // offset para el drag, la distancia desde el click del mouse al centro
-            
             offsetDrag.set(rectangulos.at(idLeader)->getCenter().x-e.x,rectangulos.at(idLeader)->getCenter().y-e.y);
+			
+			// mira si es un boton
+			if(rectangulos.at(i)->useBtn){
+				
+				
+				cambiaSeccion(i);
+			}
+			
 			return;
 		}
 	}
@@ -420,17 +446,33 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 }
 //--------------------------------------------------------------
 void fichaInfo::cargaMinis(int _index){
-    for(int i = 0; i < minis.thumbs.size(); i++){
-        if(i==_index){
-            minis.thumbs[i]->activalo();
-        }else{
-            minis.thumbs[i]->desactivalo();
-        }
-    }
+    
+	///cargamos las miniaturas
+    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 150, rectangulos.at(seccionActiva)->color);
 }
 
 //--------------------------------------------------------------
-void fichaInfo::cambiaSeccion(){}
+void fichaInfo::cambiaSeccion(int _cuala){
+	seccionActiva = _cuala;
+	
+	for(int i = 1; i < rectangulos.size(); i++){
+		if(rectangulos.at(i)->useBtn){
+			/// eres un boton
+			
+			if(i==seccionActiva){
+				rectangulos.at(i)->activo = true;
+				areaGrande.cambiate(rectangulos.at(i)->color.r,rectangulos.at(i)->color.g,rectangulos.at(i)->color.b, 0);
+				minis.limpiaMinis();
+			}else {
+				rectangulos.at(i)->activo = false;
+			}
+
+		}
+		/// el elemento 0 del vector NO ES UN BOTON OJITO
+	}
+
+	
+}
 
 
 //--------------------------------------------------------------
@@ -454,4 +496,12 @@ void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
         }
     }
 
+}
+
+
+
+//--------------------------------------------------------------
+void fichaInfo::_areaGrandeLista(string & s){
+	cout << "gorda lista " << endl;
+	cargaMinis(seccionActiva);
 }
