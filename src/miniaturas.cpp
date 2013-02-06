@@ -9,7 +9,6 @@
 #include "miniaturas.h"
 
 miniaturas::miniaturas(){
-    circleResolution = 0;
     origen.set(0, 0);
 	anclaVisualizador = NULL;
 	
@@ -27,17 +26,20 @@ miniaturas::~miniaturas(){
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
     }
-    
+	
+	for (int i = 0; i < thumbsSalida.size(); i++) {
+        delete thumbsSalida[i];
+    }
+	
 	delete anclaVisualizador;
 	
     thumbs.clear();
-    circlePoints.clear();
+	thumbsSalida.clear();
+	springs.clear();
 }
 
 void miniaturas::setup(int cuantas, float _px, float _py, ofColor _color){
 	_listas = false;
-	
-
 	
     /// fill the miniatures vector
     for(int i = 0; i < cuantas; i++){

@@ -31,13 +31,6 @@ public:
     void update();
     void drawCircle();
     void creaGrid(ofColor _color);
-    
-    vector<ofPolyline> lineas;
-    vector<ofPoint> circlePoints;
-    
-    int circleResolution;
-    float radio;
-    float k,damp;
 	
     ofPoint origen;
     vector<thumb*> thumbs; /// cambiamos el vector para ser de baseShape
@@ -50,6 +43,8 @@ public:
 	float _kHorizontal;
 	float _kmuelles;
 	float _dampCajasMiniaturas;
+    float radio;
+    float k,damp;
     
 	bool _listas; // si las minis esta colocadas
 	/// proceso es:
