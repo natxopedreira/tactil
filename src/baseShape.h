@@ -23,6 +23,8 @@ public:
 	void quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY);
 	
 	void    addForce( ofPoint _force );
+	bool    suicidate();
+	
 	void    addAttractionForce(ofPoint p, ofPoint offset, float radius, float scale);
 	
 	void    addRepulsionForce(ofPoint p, float radius, float scale);

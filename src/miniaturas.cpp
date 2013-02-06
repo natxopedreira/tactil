@@ -60,7 +60,15 @@ void miniaturas::setAncla(visualizador * a){
 void miniaturas::limpiaMinis(){
 	/// antes miramos si ya hay minis
 	springs.clear();
+	
+	for (int i = 0; i < thumbs.size(); i++) {
+		thumbsSalida.push_back(thumbs[i]);
+    }
 	thumbs.clear();
+	cout << "limpiate" << endl;
+	
+	
+	//
 }
 
 void miniaturas::creaGrid(ofColor _color){
@@ -369,8 +377,21 @@ void miniaturas::creaGrid(ofColor _color){
 void miniaturas::update(){
 	/// todos se repelen entre si
 	
-
 	
+	for(int i = 0; i < thumbsSalida.size(); i++){
+		// aqui se animan para irse de la pantalla
+		if(!thumbsSalida[i]->suicidate()){
+			ofPoint ptoCaete;
+			ptoCaete.x += ofRandom(-2,2);
+			ptoCaete.y += ofRandom(4,6);
+		
+			thumbsSalida[i]->addForce(ptoCaete);
+			thumbsSalida[i]->update();
+		}else{
+			thumbsSalida.erase(thumbsSalida.begin()+i);
+		}
+		
+	}
 	
 	
 	for(int i = 0; i < thumbs.size(); i++){
@@ -424,7 +445,10 @@ void miniaturas::drawCircle(){
     for (int i = 0; i < thumbs.size(); i++) {
         thumbs[i]->drawThumb();
     }
-
+	
+	for(int i = 0; i < thumbsSalida.size(); i++){
+		thumbsSalida[i]->drawThumb();
+	}
     
     ofPopMatrix(); 
 }

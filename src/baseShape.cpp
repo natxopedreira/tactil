@@ -75,6 +75,14 @@ baseShape::~baseShape(){
     puntos.clear();
 }
 
+bool  baseShape::suicidate(){
+	
+	if(this->y > ofGetHeight()){
+		return true;
+	}else{
+		return false;
+	}
+}
 
 //------------------------------------------------------------
 void baseShape::update(){

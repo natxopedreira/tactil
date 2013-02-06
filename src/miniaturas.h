@@ -42,6 +42,7 @@ public:
     ofPoint origen;
     vector<thumb*> thumbs; /// cambiamos el vector para ser de baseShape
     vector<Spring*> springs;
+	vector<thumb*>	thumbsSalida; ///cuando cambiamos de seccion pasamos aqui las minis
     
     visualizador * anclaVisualizador;
 	
