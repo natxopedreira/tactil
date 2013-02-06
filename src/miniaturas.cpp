@@ -40,12 +40,13 @@ miniaturas::~miniaturas(){
 
 void miniaturas::setup(int cuantas, float _px, float _py, ofColor _color){
 	_listas = false;
+	limpiaMinis();
 	
     /// fill the miniatures vector
     for(int i = 0; i < cuantas; i++){
         thumb * b = new thumb();
         b->set(0,0, 45, 45);
-        b->color.set(171,209,217);
+        b->color.set(0,209,217);
         b->nombre = "M"+ofToString(i);
 		thumbs.push_back(b);
 		
@@ -112,7 +113,7 @@ void miniaturas::creaGrid(ofColor _color){
 		thumbs[i]->y  = origen.y + ( (altoMini + 61) * row);
 		// los movemos al origen, deberias de hacerlo en el de antes
 		
-		thumbs[i]->color.set(10, 10, 10);
+		thumbs[i]->color.set(_color.r, _color.g, _color.b);
 		
 		thumbs[i]->cambiate(_color.r, _color.g, _color.b, 0.1*i);
 

@@ -448,7 +448,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaMinis(int _index){
     
 	///cargamos las miniaturas
-    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 150, rectangulos.at(seccionActiva)->color);
+    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 120, rectangulos.at(seccionActiva)->color);
 }
 
 //--------------------------------------------------------------
@@ -462,13 +462,12 @@ void fichaInfo::cambiaSeccion(int _cuala){
 			if(i==seccionActiva){
 				rectangulos.at(i)->activo = true;
 				areaGrande.cambiate(rectangulos.at(i)->color.r,rectangulos.at(i)->color.g,rectangulos.at(i)->color.b, 0);
-				minis.limpiaMinis();
+				//minis.limpiaMinis();
 			}else {
 				rectangulos.at(i)->activo = false;
 			}
 
 		}
-		/// el elemento 0 del vector NO ES UN BOTON OJITO
 	}
 
 	
