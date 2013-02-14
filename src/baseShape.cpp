@@ -110,13 +110,13 @@ void baseShape::update(){
 	puntos.at(2).set(this->x+this->width * escala,this->y+this->height * escala);
 	puntos.at(3).set(this->x,this->y+this->height * escala);
 	puntos.at(4).set(this->getCenter());
-	puntos.at(5).set(this->x+(this->width/4),this->y+this->height);
-	puntos.at(6).set(this->x+(this->width/4)*2,this->y+this->height);
-	puntos.at(7).set(this->x+(this->width/4)*3,this->y+this->height);
-	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2));
-	puntos.at(9).set(this->x,this->y+(this->height/2));
+	puntos.at(5).set(this->x+(this->width/4) * escala,this->y+this->height * escala);
+	puntos.at(6).set(this->x+(this->width/4)*2 * escala,this->y+this->height * escala);
+	puntos.at(7).set(this->x+(this->width/4)*3 * escala,this->y+this->height * escala);
+	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2) * escala);
+	puntos.at(9).set(this->x,this->y+(this->height/2) * escala);
 	
-	Tweenzor::update( ofGetElapsedTimeMillis() );
+	
 }
 
 //------------------------------------------------------------

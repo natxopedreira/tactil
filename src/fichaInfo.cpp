@@ -27,6 +27,11 @@ fichaInfo::fichaInfo(){
     offsetDrag.set(0, 0);
 	
 	seccionActiva = 1; // cual es la seccion de inicio
+    
+    abierta = false;
+    
+    anchoGrande = 60;
+    altoGrande = 60;
 
 }
 fichaInfo::~fichaInfo(){
@@ -60,7 +65,7 @@ void fichaInfo::setup(){
     
    
     
-    Tweenzor::init();
+    
 	
 	//inicias la miniatura
     /// le indicamos las anclas al area grande (para enganchar las minis)
@@ -73,11 +78,24 @@ void fichaInfo::setup(){
 	
 	//
 	ofAddListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
+    abierta = true;
+
+    
+    Tweenzor::add(&anchoGrande, anchoGrande, 488, .6, 1.f, EASE_IN_OUT_CUBIC);
+    Tweenzor::add(&altoGrande, altoGrande, 350, .3, 1.f, EASE_IN_OUT_CUBIC);
+	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
+}
+//--------------------------------------------------------------
+void fichaInfo::onCompleteCambio(float* arg){
+    cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
 }
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
-    
+    //=cout << escalaGrande << endl;
+    areaGrande.width = anchoGrande;
+    areaGrande.height = altoGrande;
+    //areaGrande.scaleFromCenter(escalaGrande);
 
 	/// todos se repelen entre si
 	for(int i = 0; i < rectangulos.size(); i++){
@@ -145,11 +163,18 @@ void fichaInfo::construFigura(){
 
 	areaGrande.x = 800;
 	areaGrande.y = 300;
-	areaGrande.width = 488;
+/*
+    areaGrande.width = 488;
 	areaGrande.height = 350;
+ */
+    areaGrande.width = 60;
+	areaGrande.height = 60;
+    
 	areaGrande.color.set(10, 10, 10);
 	areaGrande.principal = true;
 	areaGrande.damping = dampcajas;
+   // areaGrande.escala = 0;
+    
 	
 	btnPeriodicos.x = areaGrande.x - 86 ;
 	btnPeriodicos.y = areaGrande.y;

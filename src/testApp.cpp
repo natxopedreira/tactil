@@ -6,6 +6,8 @@ void testApp::setup(){
 	ofEnableSmoothing();
 	ofBackground(40,40,40);
 	
+    Tweenzor::init();
+    
 	dampcajas = 0.3;
 	dampcajasMiniaturas = 0.3;
 	
@@ -30,6 +32,9 @@ void testApp::setup(){
     dampCajasMiniaturas.addListener(this, &testApp::btnCambiaDampMiniaturas);
 	dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	
+    
+    
+    
 	
 	fichaInfo * ficha = new fichaInfo();
 	ficha->setup();
@@ -37,6 +42,39 @@ void testApp::setup(){
 	fichas.push_back(ficha);
         
 }
+
+
+//--------------------------------------------------------------
+void testApp::update(){
+    Tweenzor::update( ofGetElapsedTimeMillis() );
+    
+	for(int i = 0; i < fichas.size(); i++){
+		fichas[i]->update();
+        for(int j = 0; j < fichas.size(); j++){
+         if(i != j )fichas[i]->collideWith(fichas[j]);
+        }
+	}
+}
+
+//--------------------------------------------------------------
+void testApp::draw(){
+	for(int i = 0; i < fichas.size(); i++){
+		fichas[i]->draw();
+	}
+    ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
+    gui.draw();
+}
+
+
+/*
+ 
+ ZONA GUI
+ 
+ 
+ */
+
+
+
 //--------------------------------------------------------------
 void testApp::btnCambiaK(float & v){
     /// seteamos un nuevo valor k para los muelles
@@ -74,21 +112,4 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 }
 
 
-//--------------------------------------------------------------
-void testApp::update(){
-	for(int i = 0; i < fichas.size(); i++){
-		fichas[i]->update();
-        for(int j = 0; j < fichas.size(); j++){
-         if(i != j )fichas[i]->collideWith(fichas[j]);
-        }
-	}
-}
 
-//--------------------------------------------------------------
-void testApp::draw(){
-	for(int i = 0; i < fichas.size(); i++){
-		fichas[i]->draw();
-	}
-    ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
-    gui.draw();
-}

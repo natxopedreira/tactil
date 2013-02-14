@@ -56,6 +56,8 @@ public:
 	void cambiaDampMiniaturas(float v);
     
     
+    void onCompleteCambio(float* arg);
+    
     //
     // piezas para la figura
 	vector<baseShape*> rectangulos; /// el vector es para la colision entre ellos
@@ -85,5 +87,9 @@ public:
     
     // visualizador de miniaturas
     miniaturas minis;
+    
+    //
+    bool    abierta; //// animacion de inicio de ficha
+    float   anchoGrande,    altoGrande;
 };
 #endif
