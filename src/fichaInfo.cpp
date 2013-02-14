@@ -34,6 +34,77 @@ fichaInfo::fichaInfo(){
     altoGrande = 60;
 
 }
+
+void fichaInfo::cargaXml(){
+
+    
+    int idBuscado = 0;
+    
+    if(datosXml.loadFile("interactivo.xml")){
+        //has cargado el xml
+        //buscas el id de la ficha que quieras
+        datosXml.pushTag("mesa");
+        int totalFichas = datosXml.getNumTags("ficha");
+        
+        for (int i = 0; i< totalFichas; i++) {
+            
+            if (datosXml.pushTag("ficha", i)){
+                if(datosXml.getValue("id", -1) == idBuscado){
+                    /// has encontrado la ficha que buscas
+                    
+                   
+                    datosXml.pushTag("images");
+                    // le pasamos las imagenes al boton correspondiente que es el num 2 del vector
+                    //
+                    
+                    int totalImagenes = datosXml.getNumTags("image");
+                    for (int j=0; j<totalImagenes; j++) {
+                            datosXml.pushTag("image", j);
+                            rectangulos.at(2)->urls.push_back(datosXml.getValue("url", ""));
+                            rectangulos.at(2)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
+                            rectangulos.at(2)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
+                            rectangulos.at(2)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                            datosXml.popTag();
+                    }
+                    
+                     
+                    
+                    datosXml.popTag();
+                    datosXml.pushTag("cuadros");
+                    // le pasamos los cuadros al boton correspondiente que es el num 3 del vector
+                    int totalCuadros = datosXml.getNumTags("cuadro");
+                    for (int k=0; k<totalCuadros; k++) {
+                        datosXml.pushTag("cuadro", k);
+                        rectangulos.at(3)->urls.push_back(datosXml.getValue("url", ""));
+                        rectangulos.at(3)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
+                        rectangulos.at(3)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
+                        rectangulos.at(3)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                        datosXml.popTag();
+                    }
+                    
+                    
+                    
+                    
+                    datosXml.popTag();
+                    datosXml.pushTag("periodicos");
+                    // le pasamos los periodicos al boton correspondiente que es el num 1 del vector
+                    int totalperiodicos = datosXml.getNumTags("periodico");
+                    for (int l=0; l<totalperiodicos; l++) {
+                        datosXml.pushTag("periodico", l);
+                        rectangulos.at(1)->urls.push_back(datosXml.getValue("url", ""));
+                        rectangulos.at(1)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
+                        rectangulos.at(1)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
+                        rectangulos.at(1)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                        datosXml.popTag();
+                    }
+                   
+                }
+            }
+        }
+        
+    }
+}
+
 fichaInfo::~fichaInfo(){
 
 	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mouseDragged);
@@ -84,6 +155,10 @@ void fichaInfo::setup(){
     Tweenzor::add(&anchoGrande, anchoGrande, 488, .6, 1.f, EASE_IN_OUT_CUBIC);
     Tweenzor::add(&altoGrande, altoGrande, 350, .3, 1.f, EASE_IN_OUT_CUBIC);
 	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
+    
+    
+    //cargamos datos
+    cargaXml();
 }
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
@@ -92,7 +167,7 @@ void fichaInfo::onCompleteCambio(float* arg){
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
-    //=cout << escalaGrande << endl;
+
     areaGrande.width = anchoGrande;
     areaGrande.height = altoGrande;
     //areaGrande.scaleFromCenter(escalaGrande);
@@ -152,7 +227,8 @@ void fichaInfo::collideWith( fichaInfo *_body ){
     for (int i = 0; i < rectangulos.size(); i++){
         for (int j = 0; j < _body->rectangulos.size(); j++ ){
 
-            if(i=!j)rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
+            if(i =! j){rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
+            }
         }
     }
 }
@@ -473,7 +549,26 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaMinis(int _index){
     
 	///cargamos las miniaturas
-    minis.setup(8 , areaGrande.x, areaGrande.y + areaGrande.getHeight() + 120, rectangulos.at(seccionActiva)->color);
+    /// le mandamos el string del boton con la info del xml
+    /// rectangulos.at(seccionActiva)->infoXml
+    int px = areaGrande.x;
+    int py = areaGrande.y + areaGrande.getHeight() + 120;
+    
+    
+    
+    minis.limpiaMinis(); // borras las que hay
+    
+    //asgina contenidos a las minis
+    for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
+        minis.urls_mini.push_back(rectangulos.at(seccionActiva)->urls.at(i));
+        minis.txt_cast_mini.push_back(rectangulos.at(seccionActiva)->txt_cast.at(i));
+        minis.txt_eng_mini.push_back(rectangulos.at(seccionActiva)->txt_eng.at(i));
+        minis.txt_fr_mini.push_back(rectangulos.at(seccionActiva)->txt_fr.at(i));
+    }
+    
+    minis.setup(px, py, rectangulos.at(seccionActiva)->color);
+    
+    
 }
 
 //--------------------------------------------------------------
@@ -526,6 +621,5 @@ void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
 
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){
-	cout << "gorda lista " << endl;
 	cargaMinis(seccionActiva);
 }

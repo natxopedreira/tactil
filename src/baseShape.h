@@ -58,7 +58,15 @@ public:
 	float	cambioY; // posicion de la cortina
 	
 	ofEvent<string>	meCambie;
-	
+    
+    vector<string>  urls;
+    vector<string>  txt_cast;
+    vector<string>  txt_eng;
+    vector<string>  txt_fr;
+    
+    
+    string infoXml;
+    
 private:
     ofPoint vel;
     ofPoint acc;

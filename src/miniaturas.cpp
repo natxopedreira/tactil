@@ -19,7 +19,10 @@ miniaturas::miniaturas(){
 	
 	_listas = false;
 	
-	
+	url="";
+    txt_cast="";
+    txt_eng="";
+    txt_fr="";
 }
 
 miniaturas::~miniaturas(){
@@ -36,20 +39,25 @@ miniaturas::~miniaturas(){
     thumbs.clear();
 	thumbsSalida.clear();
 	springs.clear();
+    
+	urls_mini.clear();
+	txt_cast_mini.clear();
+	txt_eng_mini.clear();
+	txt_fr_mini.clear();
 }
 
-void miniaturas::setup(int cuantas, float _px, float _py, ofColor _color){
+void miniaturas::setup(float _px, float _py, ofColor _color){
 	_listas = false;
-	limpiaMinis();
-	
+	//limpiaMinis();
+    
     /// fill the miniatures vector
-    for(int i = 0; i < cuantas; i++){
+    for(int i = 0; i < urls_mini.size(); i++){
         thumb * b = new thumb();
         b->set(0,0, 45, 45);
         b->color.set(0,209,217);
         b->nombre = "M"+ofToString(i);
+        b->img.loadImage(urls_mini.at(i));
 		thumbs.push_back(b);
-		
     }
    
    origen.set(_px, _py);
@@ -68,10 +76,10 @@ void miniaturas::limpiaMinis(){
 		thumbsSalida.push_back(thumbs[i]);
     }
 	thumbs.clear();
-	cout << "limpiate" << endl;
-	
-	
-	//
+    urls_mini.clear();
+	txt_cast_mini.clear();
+	txt_eng_mini.clear();
+	txt_fr_mini.clear();
 }
 
 void miniaturas::creaGrid(ofColor _color){
@@ -83,6 +91,8 @@ void miniaturas::creaGrid(ofColor _color){
     
     int cuantas = thumbs.size();
     int numColumnas = 5;
+    
+    
     
     //  Crear una tabla de punteros donde re organizar los elementos
     //
@@ -226,15 +236,19 @@ void miniaturas::creaGrid(ofColor _color){
 	 |             |
 	 p3 -p5-p6-p7- p2
 	 */
-	
-	Spring * anclaP2 = new Spring();
-	anclaP2->k = k;
-	anclaP2->rectA = thumbs[4];  // D
-	anclaP2->rectB = anclaVisualizador;
-	anclaP2->indiceA = 4;
-	anclaP2->indiceB = 2;
-	anclaP2->visible = true;
-	anclaP2->dist = 150;	
+	if(thumbs.size()>4){
+        Spring * anclaP2 = new Spring();
+        anclaP2->k = k;
+        anclaP2->rectA = thumbs[4];  // D
+        anclaP2->rectB = anclaVisualizador;
+        anclaP2->indiceA = 4;
+        anclaP2->indiceB = 2;
+        anclaP2->visible = true;
+        anclaP2->dist = 150;	
+        
+        springs.push_back(anclaP2);
+    }
+
 	
 	Spring * anclaP3 = new Spring();
 	anclaP3->k = k;
@@ -331,16 +345,20 @@ void miniaturas::creaGrid(ofColor _color){
 	diago5->visible = false;
 	diago5->diagonal = true;
 	diago5->dist = 193;
-
-	Spring * diago6 = new Spring();
-	diago6->k = k;
-	diago6->rectA = anclaVisualizador;
-	diago6->rectB = thumbs[4];  // D
-	diago6->indiceA = 7;
-	diago6->indiceB = 4;
-	diago6->visible = false;
-	diago6->diagonal = true;
-	diago6->dist = 193;
+    
+    if(thumbs.size()>4){
+        Spring * diago6 = new Spring();
+        diago6->k = k;
+        diago6->rectA = anclaVisualizador;
+        diago6->rectB = thumbs[4];  // D
+        diago6->indiceA = 7;
+        diago6->indiceB = 4;
+        diago6->visible = false;
+        diago6->diagonal = true;
+        diago6->dist = 193;
+        
+        springs.push_back(diago6);
+    }
 	
 	Spring * diago7 = new Spring();
 	diago7->k = k;
@@ -353,7 +371,7 @@ void miniaturas::creaGrid(ofColor _color){
 	diago7->dist = 193;
 	
 	
-	springs.push_back(anclaP2);
+	
     springs.push_back(anclaP3);
 	springs.push_back(anclaP5);
 	springs.push_back(anclaP6);
@@ -365,7 +383,7 @@ void miniaturas::creaGrid(ofColor _color){
 	springs.push_back(diago3);
 	springs.push_back(diago4);
 	springs.push_back(diago5);
-	springs.push_back(diago6);
+	
 	springs.push_back(diago7);
 	
 	

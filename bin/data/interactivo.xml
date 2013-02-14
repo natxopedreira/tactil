@@ -1,0 +1,100 @@
+<mesa>
+<!-- 
+cada ficha tiene imagenes, cuadros y notas de prensa
+casi todo el contenido es imagen pero hay dos videos por eso el atributo "tipo"
+cada contenido (imagen o video) tienen una leyenda
+-->
+<ficha>
+	<id>0</id>
+	
+	<images>
+	<!-- imagenes -->
+		<image tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</image>
+		<image tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</image>
+		<image tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</image>
+		<image tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</image>
+		<image tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</image>
+	</images>
+	
+	<cuadros>
+	<!-- cuadros -->
+		<cuadro tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</cuadro>
+		<cuadro tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</cuadro>
+		<cuadro tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</cuadro>
+		<cuadro tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</cuadro>	
+	</cuadros>
+	
+	<periodicos>
+		<periodico tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</periodico>
+		<periodico tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</periodico>
+		<periodico tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</periodico>
+		<periodico tipo="img">
+			<url>perro.jpg</url>
+			<txt_cast>"texto en castellano"</txt_cast>
+			<txt_eng>"texto en ingles"</txt_eng>
+			<txt_fr>"texto en frances"</txt_fr>
+		</periodico>
+	</periodicos>
+</ficha>
+
+</mesa>

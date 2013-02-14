@@ -14,7 +14,7 @@
 #include "visualizador.h"
 #include "Spring.h"
 #include "miniaturas.h"
-
+#include "ofxXmlSettings.h"
 /*
  ANIMACION ES
  
@@ -34,6 +34,7 @@ public:
     void setup();
 	void update();
 	void draw();
+    void    cargaXml();
     
 	void _mouseDragged(ofMouseEventArgs &e);
 	void _mousePressed(ofMouseEventArgs &e);
@@ -91,5 +92,7 @@ public:
     //
     bool    abierta; //// animacion de inicio de ficha
     float   anchoGrande,    altoGrande;
+    
+    ofxXmlSettings datosXml;
 };
 #endif

@@ -1,4 +1,4 @@
-bin/*
+bin/*.app
 build/*
 *.xcconfig
 *.xcodeproj

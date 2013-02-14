@@ -29,8 +29,9 @@ void thumb::drawThumb(){
 	ofPushStyle();
 	ofSetColor(color);
 	roundedRect(this->x-((this->width-cambioY)/2) + this->width/2, this->y-((this->height-cambioY)/2) + this->height/2, (this->width-cambioY) * escala, (this->height-cambioY) * escala, 5);
+    
 	ofPopStyle();
-    ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
+    if(img.getWidth()>0 && cambioY<.1) img.draw(this->x + 5, this->y + 5, 35, 35);
 }
 
 void thumb::activalo(){

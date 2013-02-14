@@ -23,6 +23,7 @@ public:
     
     void urdate();
     void drawThumb();
+    ofImage img;
     
 private:
     bool    activo;

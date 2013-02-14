@@ -3,7 +3,7 @@
 #include "ofMain.h"
 #include "fichaInfo.h"
 #include "ofxGui.h"
-
+#include "ofxTweenzor.h"
 /*
  quiero crear una clase fichaInfo para mostrar todos
  los contenidos de un punto en el mapa

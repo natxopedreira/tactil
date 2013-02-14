@@ -73,6 +73,10 @@ baseShape::baseShape(){
 //------------------------------------------------------------
 baseShape::~baseShape(){
     puntos.clear();
+    urls.clear();
+    txt_cast.clear();
+    txt_eng.clear();
+    txt_fr.clear();
 }
 
 bool  baseShape::suicidate(){
@@ -237,7 +241,6 @@ void baseShape::addRepulsionForce(baseShape *p, float radius, float scale){
             addForce(diff * scale * pct);
             p->addForce(diff * scale * pct * -1);
 			
-			//cout << "dsdfsdf" << endl;
         }
     }
 }

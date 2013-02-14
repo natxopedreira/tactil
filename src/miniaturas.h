@@ -13,13 +13,12 @@
 #include "Spring.h"
 #include "visualizador.h"
 
-
 class miniaturas{
 public:
     miniaturas();
     ~miniaturas();
     
-    void setup(int cuantas, float _px, float _py, ofColor _color);
+    void setup(float _px, float _py, ofColor _color);
     void setAncla(visualizador * a);
 	void cambiaK(float v);
 	void limpiaMinis();
@@ -51,6 +50,13 @@ public:
 	// - posicion
 	// - tension
 	// -  repulsion;
+    
+    string url, txt_cast, txt_eng, txt_fr;
+    
+    vector<string>  urls_mini;
+    vector<string>  txt_cast_mini;
+    vector<string>  txt_eng_mini;
+    vector<string>  txt_fr_mini;
 };
 
 #endif
