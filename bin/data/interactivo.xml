@@ -44,25 +44,25 @@ cada contenido (imagen o video) tienen una leyenda
 	<cuadros>
 	<!-- cuadros -->
 		<cuadro tipo="img">
-			<url>perro.jpg</url>
+			<url>pez.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
-			<url>perro.jpg</url>
+			<url>pez2.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
-			<url>perro.jpg</url>
+			<url>pez3.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
-			<url>perro.jpg</url>
+			<url>pez4.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>

@@ -48,11 +48,6 @@ public:
     
 	bool _listas; // si las minis esta colocadas
     
-	/// proceso es:
-	// - posicion
-	// - tension
-	// -  repulsion;
-    
     int  miniActiva;
     vector<string>  urls_mini;
     vector<string>  txt_cast_mini;
