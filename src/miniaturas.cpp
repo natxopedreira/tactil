@@ -390,8 +390,10 @@ void miniaturas::creaGrid(ofColor _color){
 	cambiaK(_kmuelles);
 	cambiaDampMiniaturas(_dampCajasMiniaturas);
     
-    
-    
+    /// marcas la primera como activa
+    thumbs[0]->activala();
+    // cargas la url de la primera thumb en el visualizador
+    anclaVisualizador->cargaImagen(urls_mini.at(0));
 }
 
 void miniaturas::update(){
