@@ -16,10 +16,8 @@ public:
     thumb();
 	~thumb();
     
-
-    
-    void activalo();
-    void desactivalo();
+    void activala();
+    void desactivala();
     
     void urdate();
     void drawThumb();
@@ -27,7 +25,5 @@ public:
     
 private:
     bool    activo;
-    bool    runningTween;
-    float   escalador;
 };
 #endif

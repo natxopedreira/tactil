@@ -10,7 +10,7 @@ cada contenido (imagen o video) tienen una leyenda
 	<images>
 	<!-- imagenes -->
 		<image tipo="img">
-			<url>perro.jpg</url>
+			<url>cansado.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
@@ -22,19 +22,19 @@ cada contenido (imagen o video) tienen una leyenda
 			<txt_fr>"texto en frances"</txt_fr>
 		</image>
 		<image tipo="img">
-			<url>perro.jpg</url>
+			<url>dormido.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
 		</image>
 		<image tipo="img">
-			<url>perro.jpg</url>
+			<url>risitas.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>
 		</image>
 		<image tipo="img">
-			<url>perro.jpg</url>
+			<url>chiguagua.jpg</url>
 			<txt_cast>"texto en castellano"</txt_cast>
 			<txt_eng>"texto en ingles"</txt_eng>
 			<txt_fr>"texto en frances"</txt_fr>

@@ -12,8 +12,6 @@ thumb::thumb(){
     nombre = "";
     activo = false;
     escala = 1.0;
-    escalador = 1.0;
-    runningTween = false;
 }
 
 thumb::~thumb(){
@@ -32,19 +30,25 @@ void thumb::drawThumb(){
     
 	ofPopStyle();
     if(img.getWidth()>0 && cambioY<.1) img.draw(this->x + 5, this->y + 5, 35, 35);
-}
-
-void thumb::activalo(){
-    if(!activo){
+    
+    
+    if (activo) {
+        /// si la mini esta pulsada le ponemos un border
+        ofPushStyle();
+        ofSetColor(255);
+        ofNoFill();
+        ofSetLineWidth(2);
+        roundedRect(this->x-((this->width-cambioY)/2) + this->width/2, this->y-((this->height-cambioY)/2) + this->height/2, (this->width-cambioY) * escala, (this->height-cambioY) * escala, 5);
         
-        activo = true;
-       
+        ofPopStyle();
     }
-    
 }
 
-void thumb::desactivalo(){
+void thumb::activala(){
+    activo = true;
+}
+
+void thumb::desactivala(){
     
-    if(activo) scaleFromCenter(.667);
     activo = false;
 }

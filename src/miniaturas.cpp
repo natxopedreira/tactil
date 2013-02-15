@@ -18,11 +18,6 @@ miniaturas::miniaturas(){
 	_dampCajasMiniaturas = .0;
 	
 	_listas = false;
-	
-	url="";
-    txt_cast="";
-    txt_eng="";
-    txt_fr="";
 }
 
 miniaturas::~miniaturas(){
@@ -56,14 +51,15 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
         b->set(0,0, 45, 45);
         b->color.set(0,209,217);
         b->nombre = "M"+ofToString(i);
-        b->img.loadImage(urls_mini.at(i));
+        b->img.loadImage("mini/" + urls_mini.at(i));
 		thumbs.push_back(b);
     }
    
-   origen.set(_px, _py);
-	
+    origen.set(_px, _py);
 	/// create el grid
     creaGrid(_color);
+    
+    
 }
 void miniaturas::setAncla(visualizador * a){
     anclaVisualizador = a;
@@ -393,6 +389,9 @@ void miniaturas::creaGrid(ofColor _color){
 	cambiaKHorizontal(_kHorizontal);
 	cambiaK(_kmuelles);
 	cambiaDampMiniaturas(_dampCajasMiniaturas);
+    
+    
+    
 }
 
 void miniaturas::update(){

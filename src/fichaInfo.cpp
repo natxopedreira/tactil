@@ -10,7 +10,7 @@
 #include "fichaInfo.h"
 fichaInfo::fichaInfo(){
 	// el leader es el que estas drageando
-	idLeader = -1;
+	idLeader = 0;
     
     kmuelles = 0.115;
 	kHorizontal = 0.205;
@@ -535,16 +535,31 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             idLeader = i;
 			px = e.x;
 			py = e.y;
+            minis.thumbs[i]->activala();
             
             // offset para el drag, la distancia desde el click del mouse al centro
             
             offsetDrag.set(minis.thumbs[idLeader]->getCenter().x-e.x,minis.thumbs[idLeader]->getCenter().y-e.y);
             
-            return;
+            cargaImagenes();
+            
+           // return;
+        }else{
+            minis.thumbs[i]->desactivala();
         }
     }
     
 }
+void fichaInfo::cargaImagenes(){
+    /// cada vez que click una mini
+    /// cargas el contenido en el area de visualizacion
+    
+    
+    areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
+    
+}
+
+
 //--------------------------------------------------------------
 void fichaInfo::cargaMinis(int _index){
     
@@ -568,6 +583,9 @@ void fichaInfo::cargaMinis(int _index){
     
     minis.setup(px, py, rectangulos.at(seccionActiva)->color);
     
+    ////cargamos la primera imagen o thyumb
+    //minis.thumbs[idLeader]->activala();
+    //cargaImagenes();
     
 }
 

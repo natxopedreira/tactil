@@ -45,8 +45,9 @@ public:
 	void  collideWith( fichaInfo *_body );
     
     
-    void cambiaSeccion(int _cuala);
-    void cargaMinis(int _index);
+    void    cambiaSeccion(int _cuala);
+    void    cargaMinis(int _index);
+    void    cargaImagenes();
 	//
     // construccion de la figura
 	void construFigura();

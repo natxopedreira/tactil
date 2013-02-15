@@ -17,6 +17,11 @@ public:
 	visualizador();
 	~visualizador();
     
+    void    cargaImagen(string _url);
     void drawVisualizador();
+    
+private:
+    ofImage     imagen;
+    bool        imgVisible;
 };
 #endif

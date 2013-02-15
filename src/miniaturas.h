@@ -45,14 +45,15 @@ public:
     float radio;
     float k,damp;
     
+    
 	bool _listas; // si las minis esta colocadas
+    
 	/// proceso es:
 	// - posicion
 	// - tension
 	// -  repulsion;
     
-    string url, txt_cast, txt_eng, txt_fr;
-    
+    int  miniActiva;
     vector<string>  urls_mini;
     vector<string>  txt_cast_mini;
     vector<string>  txt_eng_mini;

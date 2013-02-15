@@ -65,8 +65,6 @@ public:
     vector<string>  txt_fr;
     
     
-    string infoXml;
-    
 private:
     ofPoint vel;
     ofPoint acc;
