@@ -1,9 +1,11 @@
 <mesa>
+
 <!-- 
 cada ficha tiene imagenes, cuadros y notas de prensa
 casi todo el contenido es imagen pero hay dos videos por eso el atributo "tipo"
 cada contenido (imagen o video) tienen una leyenda
 -->
+
 <ficha>
 	<id>0</id>
 	
@@ -11,33 +13,35 @@ cada contenido (imagen o video) tienen una leyenda
 	<!-- imagenes -->
 		<image tipo="img">
 			<url>cansado.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.
+			
+			En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</image>
 		<image tipo="img">
 			<url>perro.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</image>
 		<image tipo="img">
 			<url>dormido.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</image>
 		<image tipo="img">
 			<url>risitas.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</image>
 		<image tipo="img">
 			<url>chiguagua.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</image>
 	</images>
 	
@@ -45,54 +49,54 @@ cada contenido (imagen o video) tienen una leyenda
 	<!-- cuadros -->
 		<cuadro tipo="img">
 			<url>pez.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\r&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
 			<url>pez2.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
 			<url>pez3.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</cuadro>
 		<cuadro tipo="img">
 			<url>pez4.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.\n\rEn segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</cuadro>	
 	</cuadros>
 	
 	<periodicos>
 		<periodico tipo="img">
 			<url>perro.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</periodico>
 		<periodico tipo="img">
 			<url>perro.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</periodico>
 		<periodico tipo="img">
 			<url>perro.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</periodico>
 		<periodico tipo="img">
 			<url>perro.jpg</url>
-			<txt_cast>"texto en castellano"</txt_cast>
-			<txt_eng>"texto en ingles"</txt_eng>
-			<txt_fr>"texto en frances"</txt_fr>
+			<txt_cast>"El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_cast>
+			<txt_eng>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_eng>
+			<txt_fr>"texto en El centro-izquierda, liderado por Pier Luigi Bersani, ha ganado las elecciones italianas, según las primeras estimaciones difundidas por la RAI (Radiotelevisión pública italiana) tras el cierre de los colegios a las tres de la tarde. Habría obtenido en torno al 36% de los votos en la Cámara de diputados. El Partido Democrácito sería el primer partido, con un 32% de los votos.&#10;En segunda posición se sitúa la coalición de centro-derecha, liderada por Silvio Berlusconi, con sobre el 30% de los votos. Su partido, el Pueblo de la Libertad, habría obtenido el 22%."</txt_fr>
 		</periodico>
 	</periodicos>
 </ficha>

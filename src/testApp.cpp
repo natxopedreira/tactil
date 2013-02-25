@@ -5,7 +5,8 @@ void testApp::setup(){
 	ofSetVerticalSync(true);
 	ofEnableSmoothing();
 	ofBackground(40,40,40);
-	
+	ofSetLogLevel(OF_LOG_VERBOSE);
+    
     Tweenzor::init();
     
 	dampcajas = 0.3;
@@ -20,15 +21,14 @@ void testApp::setup(){
     gui.add(kMuelles.setup("k muelles", kmuelles, .0, 1));
 	gui.add(kMuellesHorizontales.setup("k horiz", kmuellesHorizontales, .0, 1));
 	gui.add(kMuellesDiagonales.setup("k diag", kmuellesDiagonales, .0, 1));
-	
     gui.add(dampCajasMiniaturas.setup("damp miniaturas", dampcajasMiniaturas, .0, 5));
     gui.add(dampCajas.setup("damp cajas", dampcajas, .0, 5));
+    
 	gui.loadFromFile("settings.xml");
 	
     kMuelles.addListener(this, &testApp::btnCambiaK);
 	kMuellesHorizontales.addListener(this, &testApp::btnCambiaKHorizontal);
 	kMuellesDiagonales.addListener(this, &testApp::btnCambiaKDiagonal);
-	
     dampCajasMiniaturas.addListener(this, &testApp::btnCambiaDampMiniaturas);
 	dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	

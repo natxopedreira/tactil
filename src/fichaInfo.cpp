@@ -43,6 +43,7 @@ void fichaInfo::cargaXml(){
     if(datosXml.loadFile("interactivo.xml")){
         //has cargado el xml
         //buscas el id de la ficha que quieras
+        
         datosXml.pushTag("mesa");
         int totalFichas = datosXml.getNumTags("ficha");
         
@@ -553,7 +554,8 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-    
+    areaGrande.ponTexto(minis.txt_cast_mini.at(idLeader));
+    //areaGrande.ponTexto("skahdjkahsdjkhkjasd\n \r ajdkljaskldjaklsjdlkasjdkl");
     
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
     
