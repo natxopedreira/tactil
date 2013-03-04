@@ -32,9 +32,14 @@ public:
     
     ofRectangle areaPieTitular;
     bool        verPie;
+    int     cont;
+    
+    // offset para el dragging
+    ofVec2f offsetDrag;
+    
 private:
     ofImage     imagen;
     bool        imgVisible;
-    
+    bool drag;
 };
 #endif

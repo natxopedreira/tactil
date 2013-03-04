@@ -11,11 +11,12 @@
 
 visualizador::visualizador(){
     imgVisible = false;
-   // cajaTexto.loadFont("Trebuchet_MS.ttf", 10,90);
-    fuente.loadFont("SegoeSb.ttf", 12,90, true);
+
+    fuente.loadFont("SegoeSbI.ttf", 13,90, true);
     fuenteCuerpo.loadFont("SegoeL.ttf", 12,90, true);
-    ofRegisterMouseEvents(this);
+    fuenteCuerpo.setLineHeight(20);
     
+    ofRegisterMouseEvents(this);
     verPie = false;
 }
 visualizador::~visualizador(){
@@ -34,10 +35,18 @@ void visualizador::drawVisualizador(){
     
     ofSetColor(color);
     if(verPie){
-        ofRect(posxrect + poswrect, 
-               posyrect + poshrect - rectPie.height, 
-               rectPie.width + 40, 
-               rectPie.height + 40);
+        if(cont < posxrect + poswrect){
+            cont += 15;
+            ofRect(cont, 
+                   posyrect + poshrect - rectPie.height, 
+                   rectPie.width + 40, 
+                   rectPie.height + 40);
+        }else{
+            ofRect(posxrect + poswrect, 
+                   posyrect + poshrect - rectPie.height, 
+                   rectPie.width + 40, 
+                   rectPie.height + 40);
+        }
     }
     
     ofSetColor(255, 255, 255);
@@ -54,12 +63,12 @@ void visualizador::drawVisualizador(){
     areaPieTitular.set(this->x + this->width - 20 - rect.width - 10, this->y + this->height - 15 - 10, rect.width + 20, rect.height + 20);
     
     
-    if(verPie){
+    if(verPie && (cont >= posxrect + poswrect)){
         fuenteCuerpo.drawString(pie, posxrect + this->width, posyrect + poshrect + 50 - rectPie.height - 10 );
     }
     
-    
-
+    //ofRect(areaPieTitular.x, areaPieTitular.y, areaPieTitular.width, areaPieTitular.height);
+    //ofRect(this->x, this->y, this->width, this->height);
     
     ofPopStyle();
 }
@@ -72,15 +81,37 @@ void visualizador::cargaImagen(string _url){
 void visualizador::ponTexto(string _titularPie,string _pie){
     pie = _pie;
     titularPie = _titularPie;
+    cont = this->x + 200;
 }
 
-void visualizador::mouseMoved(ofMouseEventArgs & args){}
-void visualizador::mouseDragged(ofMouseEventArgs & args){}
-void visualizador::mousePressed(ofMouseEventArgs & args){}
+void visualizador::mouseDragged(ofMouseEventArgs & args){
+        /// estas drageando un boton o el visualizador
+    if(drag){
+        ofPoint p = this->getCenter();
+        ofPoint diff	= ofPoint(args.x, args.y) - p;
+        ofPoint destino = ofPoint(args.x, args.y) - diff/2;
+        moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+    }
+}
+
+void visualizador::mousePressed(ofMouseEventArgs & args){
+    ofRectangle rt;
+    rt.set(this->x, this->y, this->width, this->height);
+    cout << "presss" << endl;
+    if(rt.inside(args.x, args.y)){
+        offsetDrag.set(this->getCenter().x-args.x,this->getCenter().y-args.y);
+        drag = true;
+    }
+}
 
 void visualizador::mouseReleased(ofMouseEventArgs & args){
     if(areaPieTitular.inside(args.x, args.y)){
-        cout << "ver mas " << endl;
         verPie = !verPie;
     }
+    if(this->inside(args.x, args.y)){
+        drag = false;
+        offsetDrag.set(0, 0);
+    }
 }
+
+void visualizador::mouseMoved(ofMouseEventArgs & args){}

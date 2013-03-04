@@ -21,8 +21,5 @@ public:
 	
     void drawButton();
     void desactivate();
-    
-    
-
 };
 #endif

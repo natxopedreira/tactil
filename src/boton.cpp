@@ -12,10 +12,10 @@
 boton::boton(){
     nombre = "";
 	activo = false;
-
 }
 
-boton::~boton(){}
+boton::~boton(){
+}
 
 void boton::drawButton(){
    drawRound();

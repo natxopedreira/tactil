@@ -85,7 +85,7 @@ public:
     
     //
     // variables
-	bool dragin, dragingMini;
+	bool dragingMini;
 	int	idLeader;
     float px,py;
 	int seccionActiva;

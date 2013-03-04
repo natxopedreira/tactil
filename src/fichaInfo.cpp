@@ -19,7 +19,6 @@ fichaInfo::fichaInfo(){
 	dampCajasMiniaturas = 0.35;
 	dampcajas = 0.55;
 	
-	dragin = false;
     dragingMini = false;
 	px = .0;
 	py = .0;
@@ -79,7 +78,6 @@ void fichaInfo::cargaXml(){
                         if(datosXml.pushTag("pie_cast")){
                             rectangulos.at(2)->pies_cast_titular.push_back(datosXml.getValue("titular", ""));
                             rectangulos.at(2)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
-                            cout << datosXml.getValue("titular", "") << endl;
                             datosXml.popTag();
                         }    
                             // gallego
@@ -206,7 +204,6 @@ void fichaInfo::cargaXml(){
         
         // has cargado el xml y ahora miramos a ver que botones no van
         // a tener contenido para apagarlos
-        //cout << "imagenes " << totalImagenes << endl;
         if(totalCuadros==0)  btnCuadros.desactivate();
         if(totalImagenes==0)  btnImagenes.desactivate();
         if(totalperiodicos==0)  btnPeriodicos.desactivate();
@@ -271,6 +268,7 @@ void fichaInfo::setup(){
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
     cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
+    
 }
 
 //--------------------------------------------------------------
@@ -335,7 +333,7 @@ void fichaInfo::collideWith( fichaInfo *_body ){
     for (int i = 0; i < rectangulos.size(); i++){
         for (int j = 0; j < _body->rectangulos.size(); j++ ){
 
-            if(i =! j){rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
+            if((i =! j)){rectangulos[i]->addRepulsionForce( (_body)->rectangulos[j] , (_body)->rectangulos[j]->width, 590);
             }
         }
     }
@@ -587,15 +585,8 @@ void fichaInfo::cambiaDamp(float  v){
 //--------------------------------------------------------------
 void fichaInfo::_mouseDragged(ofMouseEventArgs &e){
 	
-	if(!dragin && !dragingMini) return;   /// si no estas drageando nada get out of here
+	if(!dragingMini) return;   /// si no estas drageando nada get out of here
     
-    if(dragin){
-        /// estas drageando un boton o el visualizador
-        ofPoint p = rectangulos.at(idLeader)->getCenter();
-        ofPoint diff	= ofPoint(e.x, e.y) - p;
-        ofPoint destino = ofPoint(e.x, e.y) - diff/2;
-        rectangulos.at(idLeader)->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
-    }
     
     if(dragingMini){
         /// estas drageando una miniatura
@@ -611,7 +602,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         /// compruebas si estas drageando una caja
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
 			rectangulos.at(i)->leader = true;
-			dragin = true;
+			
             dragingMini = false;
 			idLeader = i;
 			px = e.x;
@@ -623,7 +614,6 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
-                cout << "seccion " << i << endl;
 				cambiaSeccion(i);
 			}
 			
@@ -637,7 +627,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
             //cargaMinis(i);
-            dragin = false;
+            
             dragingMini = true;
             idLeader = i;
 			px = e.x;
@@ -660,12 +650,11 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-    areaGrande.verPie = false;
-    areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader));
     
-    cout << idLeader << endl;
+    areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader));
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
     
+    areaGrande.verPie = false;
 }
 
 
@@ -677,13 +666,7 @@ void fichaInfo::cargaMinis(int _index){
     /// rectangulos.at(seccionActiva)->infoXml
     int px = areaGrande.x;
     int py = areaGrande.y + areaGrande.getHeight() + 120;
-    
-    
-    
     minis.limpiaMinis(); // borras las que hay
-    
-    //asgina contenidos a las minis
-    cout << "tengo " << rectangulos.at(seccionActiva)->urls.size() << " minis" << endl;
     
     for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
         minis.urls_mini.push_back(rectangulos.at(seccionActiva)->urls.at(i));
@@ -692,7 +675,6 @@ void fichaInfo::cargaMinis(int _index){
         minis.txt_fr_mini.push_back(rectangulos.at(seccionActiva)->txt_fr.at(i));
         
         
-//        /cout << rectangulos.at(seccionActiva)->pies_cast_titular.size() << endl;
         minis.pies_cast_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_titular.at(i));
         minis.pies_cast_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_cuerpo.at(i));
 
@@ -726,6 +708,7 @@ void fichaInfo::cambiaSeccion(int _cuala){
 			if(i==seccionActiva){
 				rectangulos.at(i)->activo = true;
 				areaGrande.cambiate(rectangulos.at(i)->color.r,rectangulos.at(i)->color.g,rectangulos.at(i)->color.b, 0);
+                 areaGrande.verPie = false;
 				//minis.limpiaMinis();
 			}else {
 				rectangulos.at(i)->activo = false;
@@ -740,7 +723,7 @@ void fichaInfo::cambiaSeccion(int _cuala){
 
 //--------------------------------------------------------------
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
-	if(dragin){
+	/*if(dragin){
         // tas arrastrando un boton el visualizador
         idLeader = -1;
         dragin = false;
@@ -749,6 +732,7 @@ void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
             rectangulos.at(i)->leader = false;
         }
     }
+     */
     if(dragingMini){
         // tas arrastrando una mini
         idLeader = -1;

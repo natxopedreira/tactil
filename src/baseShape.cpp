@@ -70,9 +70,13 @@ baseShape::baseShape(){
 	cambioY = 0;
 	
 	nombre = "";
+    
+    //ofRegisterMouseEvents(this);
 }
 //------------------------------------------------------------
 baseShape::~baseShape(){
+    //ofUnregisterMouseEvents(this);
+    
     puntos.clear();
     urls.clear();
     txt_cast.clear();
@@ -342,3 +346,5 @@ void baseShape::onCompleteCambio(float* arg){
 	cambiandose = false;
 	ofNotifyEvent(meCambie,nombre,this); //seleccionBoton
 }
+
+
