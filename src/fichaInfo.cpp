@@ -32,7 +32,14 @@ fichaInfo::fichaInfo(){
     
     anchoGrande = 60;
     altoGrande = 60;
+    
+    visualizadorWidth = 500;
+    visualizadorheight = 400;
 
+    totalFichas = 0;
+    totalImagenes = 0;
+    totalCuadros = 0;
+    totalperiodicos = 0;
 }
 
 void fichaInfo::cargaXml(){
@@ -45,7 +52,7 @@ void fichaInfo::cargaXml(){
         //buscas el id de la ficha que quieras
         
         datosXml.pushTag("mesa");
-        int totalFichas = datosXml.getNumTags("ficha");
+        totalFichas = datosXml.getNumTags("ficha");
         
         for (int i = 0; i< totalFichas; i++) {
             
@@ -58,13 +65,42 @@ void fichaInfo::cargaXml(){
                     // le pasamos las imagenes al boton correspondiente que es el num 2 del vector
                     //
                     
-                    int totalImagenes = datosXml.getNumTags("image");
+                    totalImagenes = datosXml.getNumTags("image");
                     for (int j=0; j<totalImagenes; j++) {
                             datosXml.pushTag("image", j);
                             rectangulos.at(2)->urls.push_back(datosXml.getValue("url", ""));
                             rectangulos.at(2)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                             rectangulos.at(2)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                             rectangulos.at(2)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                        
+                            // comprobamos los pies
+                        
+                            // castellano
+                        if(datosXml.pushTag("pie_cast")){
+                            rectangulos.at(2)->pies_cast_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(2)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            cout << datosXml.getValue("titular", "") << endl;
+                            datosXml.popTag();
+                        }    
+                            // gallego
+                        if(datosXml.pushTag("pie_gal")){
+                            rectangulos.at(2)->pies_gal_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(2)->pies_gal_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();
+                        }
+                            // ingles
+                        if(datosXml.pushTag("pie_eng")){
+                            rectangulos.at(2)->pies_eng_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(2)->pies_eng_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();   
+                        }
+                            // frances
+                        if(datosXml.pushTag("pie_fr")){
+                            rectangulos.at(2)->pies_fr_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(2)->pies_fr_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();  
+                        }
+                        
                             datosXml.popTag();
                     }
                     
@@ -73,13 +109,45 @@ void fichaInfo::cargaXml(){
                     datosXml.popTag();
                     datosXml.pushTag("cuadros");
                     // le pasamos los cuadros al boton correspondiente que es el num 3 del vector
-                    int totalCuadros = datosXml.getNumTags("cuadro");
+                    totalCuadros = datosXml.getNumTags("cuadro");
                     for (int k=0; k<totalCuadros; k++) {
                         datosXml.pushTag("cuadro", k);
                         rectangulos.at(3)->urls.push_back(datosXml.getValue("url", ""));
                         rectangulos.at(3)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                         rectangulos.at(3)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(3)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                        
+                        
+                        // comprobamos los pies
+                        
+                        // castellano
+                        if(datosXml.pushTag("pie_cast")){
+                            rectangulos.at(3)->pies_cast_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(3)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();
+                        }    
+                        // gallego
+                        if(datosXml.pushTag("pie_gal")){
+                            rectangulos.at(3)->pies_gal_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(3)->pies_gal_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();
+                        }
+                        // ingles
+                        if(datosXml.pushTag("pie_eng")){
+                            rectangulos.at(3)->pies_eng_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(3)->pies_eng_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();   
+                        }
+                        // frances
+                        if(datosXml.pushTag("pie_fr")){
+                            rectangulos.at(3)->pies_fr_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(3)->pies_fr_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();  
+                        }
+                        
+                        
+                        
+                        
                         datosXml.popTag();
                     }
                     
@@ -89,13 +157,46 @@ void fichaInfo::cargaXml(){
                     datosXml.popTag();
                     datosXml.pushTag("periodicos");
                     // le pasamos los periodicos al boton correspondiente que es el num 1 del vector
-                    int totalperiodicos = datosXml.getNumTags("periodico");
+                    totalperiodicos = datosXml.getNumTags("periodico");
                     for (int l=0; l<totalperiodicos; l++) {
                         datosXml.pushTag("periodico", l);
                         rectangulos.at(1)->urls.push_back(datosXml.getValue("url", ""));
                         rectangulos.at(1)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                         rectangulos.at(1)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(1)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                        
+                        
+                        
+                        // comprobamos los pies
+                        
+                        // castellano
+                        if(datosXml.pushTag("pie_cast")){
+                            rectangulos.at(1)->pies_cast_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(1)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();
+                        }    
+                        // gallego
+                        if(datosXml.pushTag("pie_gal")){
+                            rectangulos.at(1)->pies_gal_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(1)->pies_gal_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();
+                        }
+                        // ingles
+                        if(datosXml.pushTag("pie_eng")){
+                            rectangulos.at(1)->pies_eng_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(1)->pies_eng_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();   
+                        }
+                        // frances
+                        if(datosXml.pushTag("pie_fr")){
+                            rectangulos.at(1)->pies_fr_titular.push_back(datosXml.getValue("titular", ""));
+                            rectangulos.at(1)->pies_fr_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            datosXml.popTag();  
+                        }
+                        
+                        
+                        
+                        
                         datosXml.popTag();
                     }
                    
@@ -103,6 +204,12 @@ void fichaInfo::cargaXml(){
             }
         }
         
+        // has cargado el xml y ahora miramos a ver que botones no van
+        // a tener contenido para apagarlos
+        //cout << "imagenes " << totalImagenes << endl;
+        if(totalCuadros==0)  btnCuadros.desactivate();
+        if(totalImagenes==0)  btnImagenes.desactivate();
+        if(totalperiodicos==0)  btnPeriodicos.desactivate();
     }
 }
 
@@ -152,9 +259,9 @@ void fichaInfo::setup(){
 	ofAddListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
     abierta = true;
 
-    
-    Tweenzor::add(&anchoGrande, anchoGrande, 488, .6, 1.f, EASE_IN_OUT_CUBIC);
-    Tweenzor::add(&altoGrande, altoGrande, 350, .3, 1.f, EASE_IN_OUT_CUBIC);
+
+    Tweenzor::add(&anchoGrande, anchoGrande, visualizadorWidth, .6, 1.f, EASE_IN_OUT_CUBIC);
+    Tweenzor::add(&altoGrande, altoGrande, visualizadorheight, .3, 1.f, EASE_IN_OUT_CUBIC);
 	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
     
     
@@ -515,9 +622,8 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             offsetDrag.set(rectangulos.at(idLeader)->getCenter().x-e.x,rectangulos.at(idLeader)->getCenter().y-e.y);
 			
 			// mira si es un boton
-			if(rectangulos.at(i)->useBtn){
-				
-				
+			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
+                cout << "seccion " << i << endl;
 				cambiaSeccion(i);
 			}
 			
@@ -554,9 +660,10 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-    areaGrande.ponTexto(minis.txt_cast_mini.at(idLeader));
-    //areaGrande.ponTexto("skahdjkahsdjkhkjasd\n \r ajdkljaskldjaklsjdlkasjdkl");
+    areaGrande.verPie = false;
+    areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader));
     
+    cout << idLeader << endl;
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
     
 }
@@ -576,11 +683,28 @@ void fichaInfo::cargaMinis(int _index){
     minis.limpiaMinis(); // borras las que hay
     
     //asgina contenidos a las minis
+    cout << "tengo " << rectangulos.at(seccionActiva)->urls.size() << " minis" << endl;
+    
     for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
         minis.urls_mini.push_back(rectangulos.at(seccionActiva)->urls.at(i));
         minis.txt_cast_mini.push_back(rectangulos.at(seccionActiva)->txt_cast.at(i));
         minis.txt_eng_mini.push_back(rectangulos.at(seccionActiva)->txt_eng.at(i));
         minis.txt_fr_mini.push_back(rectangulos.at(seccionActiva)->txt_fr.at(i));
+        
+        
+//        /cout << rectangulos.at(seccionActiva)->pies_cast_titular.size() << endl;
+        minis.pies_cast_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_titular.at(i));
+        minis.pies_cast_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_cuerpo.at(i));
+
+        minis.pies_gal_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_gal_titular.at(i));
+        minis.pies_gal_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_gal_cuerpo.at(i));
+    
+        minis.pies_eng_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_eng_titular.at(i));
+        minis.pies_eng_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_eng_cuerpo.at(i));
+        
+        minis.pies_fr_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_fr_titular.at(i));
+        minis.pies_fr_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_fr_cuerpo.at(i));
+       
     }
     
     minis.setup(px, py, rectangulos.at(seccionActiva)->color);

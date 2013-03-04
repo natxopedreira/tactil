@@ -71,6 +71,13 @@ public:
     //boton btnInfo;
 	visualizador areaGrande;
 
+    int totalFichas;
+    int totalImagenes;
+    int totalCuadros;
+    int totalperiodicos;
+    
+    int visualizadorWidth;
+    int visualizadorheight;
     
     ///
     // offset para el dragging

@@ -12,6 +12,7 @@
 boton::boton(){
     nombre = "";
 	activo = false;
+
 }
 
 boton::~boton(){}
@@ -19,4 +20,10 @@ boton::~boton(){}
 void boton::drawButton(){
    drawRound();
 	if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
+}
+
+void boton::desactivate(){
+    // no quieres ver el boton
+    color.set(0,0,0);
+    desactivado = true;
 }

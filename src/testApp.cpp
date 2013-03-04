@@ -49,9 +49,9 @@ void testApp::update(){
 	for(int i = 0; i < fichas.size(); i++){
 		fichas[i]->update();
         
-        for(int j = 0; j < fichas.size(); j++){
-         if(i != j )fichas[i]->collideWith(fichas[j]);
-        }
+        //for(int j = 0; j < fichas.size(); j++){
+        // if(i != j )fichas[i]->collideWith(fichas[j]);
+        //}
 	}
 }
 
@@ -113,5 +113,11 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 	}
 }
 
-
+//--------------------------------------------------------------
+void testApp::keyPressed(int key){
+    fichaInfo * ficha = new fichaInfo();
+	ficha->setup();
+    
+	fichas.push_back(ficha);
+}
 

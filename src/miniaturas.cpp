@@ -39,6 +39,18 @@ miniaturas::~miniaturas(){
 	txt_cast_mini.clear();
 	txt_eng_mini.clear();
 	txt_fr_mini.clear();
+    
+    pies_cast_titular_mini.clear();
+    pies_cast_cuerpo_mini.clear();
+    
+    pies_gal_titular_mini.clear();
+    pies_gal_cuerpo_mini.clear();
+    
+    pies_eng_titular_mini.clear();
+    pies_eng_cuerpo_mini.clear();
+    
+    pies_fr_titular_mini.clear();
+    pies_fr_cuerpo_mini.clear();
 }
 
 void miniaturas::setup(float _px, float _py, ofColor _color){
@@ -57,7 +69,8 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
    
     origen.set(_px, _py);
 	/// create el grid
-    creaGrid(_color);
+    /// si hay minis
+    if(urls_mini.size()>0) creaGrid(_color);
     
     
 }
@@ -382,7 +395,8 @@ void miniaturas::creaGrid(ofColor _color){
 	
 	springs.push_back(diago7);
 	
-	
+    
+	///
 	/// PONGO LA TENSION UNA VEZ COLOCADOS LOS MUELLES
 	
 	cambiaKDiagonal(_kMuellesDiagonales);
@@ -392,8 +406,11 @@ void miniaturas::creaGrid(ofColor _color){
     
     /// marcas la primera como activa
     thumbs[0]->activala();
+    
+    
     // cargas la url de la primera thumb en el visualizador
     anclaVisualizador->cargaImagen(urls_mini.at(0));
+    anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0]);
 }
 
 void miniaturas::update(){

@@ -50,6 +50,7 @@ public:
 	bool	principal; /// indica si eres el recuadro donde se ven las cosas, osease el grande
 	bool	activo; /// para cuando eres un boton
 	bool	useBtn; /// eres un boton?
+    bool desactivado; /// eres un boton desactivado?
 	
 	vector<ofPoint>		puntos;
 	
@@ -64,6 +65,17 @@ public:
     vector<string>  txt_eng;
     vector<string>  txt_fr;
     
+    vector<string>  pies_cast_titular;
+    vector<string>  pies_cast_cuerpo;
+    
+    vector<string>  pies_gal_titular;
+    vector<string>  pies_gal_cuerpo;
+    
+    vector<string>  pies_eng_titular;
+    vector<string>  pies_eng_cuerpo;
+    
+    vector<string>  pies_fr_titular;
+    vector<string>  pies_fr_cuerpo;
     
 private:
     ofPoint vel;

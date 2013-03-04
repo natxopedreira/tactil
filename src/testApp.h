@@ -27,7 +27,8 @@ class testApp : public ofBaseApp{
 		void btnCambiaKHorizontal(float & v);
 		void btnCambiaKDiagonal(float & v);
 		void btnCambiaDampMiniaturas(float & v);
-
+        void keyPressed(int key);
+    
 		// parte del gui
 		ofxPanel gui;
 		ofxFloatSlider kMuelles;

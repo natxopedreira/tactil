@@ -20,6 +20,8 @@ public:
     
 	
     void drawButton();
+    void desactivate();
+    
     
 
 };

@@ -11,7 +11,6 @@
 #define VISUALIZADOR
 
 #include "baseShape.h"
-#include "ofxTextSuite.h"
 
 class visualizador : public baseShape {
 public:
@@ -21,12 +20,21 @@ public:
     void    cargaImagen(string _url);
     void drawVisualizador();
     
-    void ponTexto(string _cualo);
+    void ponTexto(string _titularPie,string _pie);
     
-    ofxTextBlock cajaTexto;
+    ofTrueTypeFont fuente,fuenteCuerpo;
+    string titularPie, pie;
     
+    void mouseMoved(ofMouseEventArgs & args);
+    void mouseDragged(ofMouseEventArgs & args);
+    void mousePressed(ofMouseEventArgs & args);
+    void mouseReleased(ofMouseEventArgs & args);
+    
+    ofRectangle areaPieTitular;
+    bool        verPie;
 private:
     ofImage     imagen;
     bool        imgVisible;
+    
 };
 #endif

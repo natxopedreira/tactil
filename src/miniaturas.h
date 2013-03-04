@@ -53,6 +53,19 @@ public:
     vector<string>  txt_cast_mini;
     vector<string>  txt_eng_mini;
     vector<string>  txt_fr_mini;
+    
+    vector<string>  pies_cast_titular_mini;
+    vector<string>  pies_cast_cuerpo_mini;
+    
+    vector<string>  pies_gal_titular_mini;
+    vector<string>  pies_gal_cuerpo_mini;
+    
+    vector<string>  pies_eng_titular_mini;
+    vector<string>  pies_eng_cuerpo_mini;
+    
+    vector<string>  pies_fr_titular_mini;
+    vector<string>  pies_fr_cuerpo_mini;
+
 };
 
 #endif

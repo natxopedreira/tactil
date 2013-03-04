@@ -65,7 +65,8 @@ baseShape::baseShape(){
 	cambiandose = false;
 	useBtn = false;
 	activo = false;
-	
+	desactivado = false;
+    
 	cambioY = 0;
 	
 	nombre = "";
@@ -77,6 +78,18 @@ baseShape::~baseShape(){
     txt_cast.clear();
     txt_eng.clear();
     txt_fr.clear();
+    
+    pies_cast_titular.clear();
+    pies_cast_cuerpo.clear();
+    
+    pies_gal_titular.clear();
+    pies_gal_cuerpo.clear();
+    
+    pies_eng_titular.clear();
+    pies_eng_cuerpo.clear();
+    
+    pies_fr_titular.clear();
+    pies_fr_cuerpo.clear();
 }
 
 bool  baseShape::suicidate(){
