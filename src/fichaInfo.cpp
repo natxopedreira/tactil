@@ -19,12 +19,9 @@ fichaInfo::fichaInfo(){
 	dampCajasMiniaturas = 0.35;
 	dampcajas = 0.55;
 	
-    dragingMini = false;
 	px = .0;
 	py = .0;
     
-    offsetDrag.set(0, 0);
-	
 	seccionActiva = 1; // cual es la seccion de inicio
     
     abierta = false;
@@ -239,10 +236,6 @@ void fichaInfo::setup(){
 	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
 	
     
-   
-    
-    
-	
 	//inicias la miniatura
     /// le indicamos las anclas al area grande (para enganchar las minis)
     minis.setAncla(&areaGrande);
@@ -285,7 +278,7 @@ void fichaInfo::update(){
 		repulsion para los botones
 		 */
 		for(int j = 0; j < rectangulos.size(); j++){
-			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,100);
+			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,80);
 		}
         
        // rectangulos.at(i)->bounceOffWalls();
@@ -293,13 +286,15 @@ void fichaInfo::update(){
 	}
    
     //
-    // movemos las miniaturas
-    minis.update();
-	
+
 	
 	for(int i = 0; i < muelles.size(); i++){
 		muelles.at(i)->update();
 	}
+    
+    // movemos las miniaturas
+    minis.update();
+	
 }
 
 //--------------------------------------------------------------
@@ -543,7 +538,8 @@ void fichaInfo::construFigura(){
 	muelles.push_back(aux4);
     
     
-   
+   /////
+    areaGrande.ponListeners();
 }
 //
 // MODIFICA VALORES DE LA ELASTICIDAD
@@ -583,19 +579,7 @@ void fichaInfo::cambiaDamp(float  v){
 // MODIFICA VALORES DE LA ELASTICIDAD
 
 //--------------------------------------------------------------
-void fichaInfo::_mouseDragged(ofMouseEventArgs &e){
-	
-	if(!dragingMini) return;   /// si no estas drageando nada get out of here
-    
-    
-    if(dragingMini){
-        /// estas drageando una miniatura
-        ofPoint p = minis.thumbs[idLeader]->getCenter();
-        ofPoint diff	= ofPoint(e.x, e.y) - p;
-        ofPoint destino = ofPoint(e.x, e.y) - diff/2;
-        minis.thumbs[idLeader]->moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
-    }
-}
+void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 	for(int i = 0; i < rectangulos.size(); i++){
@@ -603,15 +587,10 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
 			rectangulos.at(i)->leader = true;
 			
-            dragingMini = false;
 			idLeader = i;
 			px = e.x;
 			py = e.y;
             
-			
-            // offset para el drag, la distancia desde el click del mouse al centro
-            offsetDrag.set(rectangulos.at(idLeader)->getCenter().x-e.x,rectangulos.at(idLeader)->getCenter().y-e.y);
-			
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
 				cambiaSeccion(i);
@@ -626,17 +605,11 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
-            //cargaMinis(i);
             
-            dragingMini = true;
             idLeader = i;
 			px = e.x;
 			py = e.y;
             minis.thumbs[i]->activala();
-            
-            // offset para el drag, la distancia desde el click del mouse al centro
-            
-            offsetDrag.set(minis.thumbs[idLeader]->getCenter().x-e.x,minis.thumbs[idLeader]->getCenter().y-e.y);
             
             cargaImagenes();
             
@@ -655,6 +628,7 @@ void fichaInfo::cargaImagenes(){
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
     
     areaGrande.verPie = false;
+    areaGrande.crece(0,.3);
 }
 
 
@@ -713,39 +687,13 @@ void fichaInfo::cambiaSeccion(int _cuala){
 			}else {
 				rectangulos.at(i)->activo = false;
 			}
-
 		}
 	}
-
-	
 }
 
 
 //--------------------------------------------------------------
-void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
-	/*if(dragin){
-        // tas arrastrando un boton el visualizador
-        idLeader = -1;
-        dragin = false;
-        offsetDrag.set(0, 0);
-        for(int i = 0; i < rectangulos.size(); i++){
-            rectangulos.at(i)->leader = false;
-        }
-    }
-     */
-    if(dragingMini){
-        // tas arrastrando una mini
-        idLeader = -1;
-        dragingMini = false;
-        offsetDrag.set(0, 0);
-        for(int i = 0; i < minis.thumbs.size(); i++){
-            minis.thumbs[i]->leader = false;
-        }
-    }
-
-}
-
-
+void fichaInfo::_mouseReleased(ofMouseEventArgs &e){}
 
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){

@@ -31,34 +31,32 @@ public:
 	~fichaInfo();
 	//////////////////////////////////////////////////////
     //////////////////////////////////////////////////////
-    void setup();
-	void update();
-	void draw();
+    void    setup();
+	void    update();
+	void    draw();
     void    cargaXml();
     
-	void _mouseDragged(ofMouseEventArgs &e);
-	void _mousePressed(ofMouseEventArgs &e);
-	void _mouseReleased(ofMouseEventArgs &e);
-	
-	void _areaGrandeLista(string & s);
-	
-	void  collideWith( fichaInfo *_body );
-    
+	void    _mouseDragged(ofMouseEventArgs &e);
+	void    _mousePressed(ofMouseEventArgs &e);
+	void    _mouseReleased(ofMouseEventArgs &e);
+
+	void    _areaGrandeLista(string & s);
+	void    collideWith( fichaInfo *_body );
     
     void    cambiaSeccion(int _cuala);
     void    cargaMinis(int _index);
     void    cargaImagenes();
 	//
     // construccion de la figura
-	void construFigura();
-	void cambiaK(float v);
-	void cambiaDamp(float v);
+	void    construFigura();
+	void    cambiaK(float v);
+	void    cambiaDamp(float v);
 	void cambiaKDiagonal(float v);
-	void cambiaKHorizontal(float v);
-	void cambiaDampMiniaturas(float v);
+	void    cambiaKHorizontal(float v);
+	void    cambiaDampMiniaturas(float v);
     
     
-    void onCompleteCambio(float* arg);
+    void    onCompleteCambio(float* arg);
     
     //
     // piezas para la figura
@@ -80,12 +78,9 @@ public:
     int visualizadorheight;
     
     ///
-    // offset para el dragging
-    ofVec2f offsetDrag;
     
     //
     // variables
-	bool dragingMini;
 	int	idLeader;
     float px,py;
 	int seccionActiva;

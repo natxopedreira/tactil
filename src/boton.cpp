@@ -12,10 +12,13 @@
 boton::boton(){
     nombre = "";
 	activo = false;
+    
 }
 
 boton::~boton(){
+
 }
+
 
 void boton::drawButton(){
    drawRound();
@@ -27,3 +30,4 @@ void boton::desactivate(){
     color.set(0,0,0);
     desactivado = true;
 }
+

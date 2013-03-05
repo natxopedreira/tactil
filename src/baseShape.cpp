@@ -70,7 +70,7 @@ baseShape::baseShape(){
 	cambioY = 0;
 	
 	nombre = "";
-    
+    cantidadCrece = 0;
     //ofRegisterMouseEvents(this);
 }
 //------------------------------------------------------------
@@ -128,14 +128,14 @@ void baseShape::update(){
 	
 	puntos.at(0).set(this->x,this->y);
 	puntos.at(1).set(this->x+this->width * escala,this->y);
-	puntos.at(2).set(this->x+this->width * escala,this->y+this->height * escala);
-	puntos.at(3).set(this->x,this->y+this->height * escala);
+	puntos.at(2).set(this->x+this->width * escala,this->y+this->height+cantidadCrece * escala);
+	puntos.at(3).set(this->x,this->y+this->height+cantidadCrece * escala);
 	puntos.at(4).set(this->getCenter());
-	puntos.at(5).set(this->x+(this->width/4) * escala,this->y+this->height * escala);
-	puntos.at(6).set(this->x+(this->width/4)*2 * escala,this->y+this->height * escala);
-	puntos.at(7).set(this->x+(this->width/4)*3 * escala,this->y+this->height * escala);
-	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2) * escala);
-	puntos.at(9).set(this->x,this->y+(this->height/2) * escala);
+	puntos.at(5).set(this->x+(this->width/4) * escala,this->y+this->height+cantidadCrece * escala);
+	puntos.at(6).set(this->x+(this->width/4)*2 * escala,this->y+this->height+cantidadCrece * escala);
+	puntos.at(7).set(this->x+(this->width/4)*3 * escala,this->y+this->height+cantidadCrece * escala);
+	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height+cantidadCrece/2) * escala);
+	puntos.at(9).set(this->x,this->y+(this->height+cantidadCrece/2) * escala);
 	
 	
 }
@@ -144,12 +144,12 @@ void baseShape::update(){
 void baseShape::drawRound(){
 	ofPushStyle();
 		ofSetColor(color);
-		roundedRect(this->x, this->y, this->width * escala, this->height * escala,5);
+		roundedRect(this->x, this->y, this->width * escala, this->height+cantidadCrece * escala,5);
 	
 	if(cambiandose){
 		/// dibujamos la cortina
 		ofSetColor(colorCambio);
-		roundedRect(this->x, this->y, this->width * escala, (this->height-cambioY) * escala ,5);
+		roundedRect(this->x, this->y, this->width * escala, (this->height+cantidadCrece-cambioY) * escala ,5);
 		
 	}
 	ofPopStyle();
@@ -264,7 +264,7 @@ void baseShape::addRepulsionForce(baseShape *p, float radius, float scale){
 
 //------------------------------------------------------------
 void baseShape::bounceOffWalls(){
-	
+	/*
 	// sometimes it makes sense to damped, when we hit
 	bool bDampedOnCollision = true;
 	bool bDidICollide = false;
@@ -298,7 +298,7 @@ void baseShape::bounceOffWalls(){
 	if (bDidICollide == true && bDampedOnCollision == true){
 		vel *= 0.3;
 	}
-	
+	*/
 }
 
 
@@ -328,7 +328,6 @@ void baseShape::quadraticBezierVertex(float cpx, float cpy, float x, float y, fl
 };  
 
 
-
 void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	/// cambias de color
 	/// moviendo la cortina
@@ -339,6 +338,20 @@ void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	
 	Tweenzor::addCompleteListener( Tweenzor::getTween(&cambioY), this, &baseShape::onCompleteCambio);
 	colorCambio.set(_r,_g,_b);
+}
+
+void baseShape::crece(int _altura, float _tiempo){
+	/// cambias de color
+	/// moviendo la cortina
+    
+    /*
+     static void add(float* a_property, float a_begin, float a_end, int a_delay, int a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
+     static void add(float* a_property, float a_begin, float a_end, float a_delay, float a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
+     static void add(vector <float *> a_properties, float a_begin, float a_end, float a_delay, float a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
+     */
+    
+	cambiandose = true;
+	Tweenzor::add(&cantidadCrece, cantidadCrece, _altura, 0.0f,  _tiempo, EASE_IN_SINE);
 }
 
 void baseShape::onCompleteCambio(float* arg){

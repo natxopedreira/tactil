@@ -64,6 +64,7 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
         b->color.set(0,209,217);
         b->nombre = "M"+ofToString(i);
         b->img.loadImage("mini/" + urls_mini.at(i));
+        b->ponListeners();
 		thumbs.push_back(b);
     }
    
@@ -453,15 +454,15 @@ void miniaturas::update(){
 		}
 
 		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),150,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),150,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
 		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),180,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),180,150);	
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);	
 		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,120);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,120);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,120);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
 		
 		
         thumbs.at(i)->bounceOffWalls();

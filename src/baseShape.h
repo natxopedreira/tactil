@@ -18,16 +18,13 @@ public:
 	baseShape();
 	~baseShape();
 	string  nombre;
-    
-    
-
-    
 	
 	void roundedRect(float x, float y, float w, float h, float r);  
 	void quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY);
 	
 	void    addForce( ofPoint _force );
 	bool    suicidate();
+    void    crece(int _altura, float _tiempo);
 	
 	void    addAttractionForce(ofPoint p, ofPoint offset, float radius, float scale);
 	
@@ -48,6 +45,7 @@ public:
 	float	mass;
     int     nId;
     int     escala;
+    float   cantidadCrece;
 	
 	ofColor color, colorCambio;
 	bool	leader; /// eres leader cuando eres el que dragea

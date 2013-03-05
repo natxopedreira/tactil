@@ -19,6 +19,7 @@ public:
     
     void    cargaImagen(string _url);
     void drawVisualizador();
+    void ponListeners();
     
     void ponTexto(string _titularPie,string _pie);
     
@@ -33,6 +34,7 @@ public:
     ofRectangle areaPieTitular;
     bool        verPie;
     int     cont;
+    float   altoTexto;
     
     // offset para el dragging
     ofVec2f offsetDrag;
@@ -41,5 +43,7 @@ private:
     ofImage     imagen;
     bool        imgVisible;
     bool drag;
+    
+    string wrapString(string text, int width);
 };
 #endif
