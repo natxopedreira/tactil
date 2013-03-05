@@ -60,7 +60,6 @@ void thumb::mouseDragged(ofMouseEventArgs & args){
         ofPoint p = getCenter();
         ofPoint diff	= ofPoint(args.x, args.y) - p;
         ofPoint destino = ofPoint(args.x, args.y) - diff/2;
-        cout << diff.x << "," << diff.y << endl;
         // moveTo(diff.x+offsetDragThumb.x,diff.y+offsetDragThumb.y);
     }
 }

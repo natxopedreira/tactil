@@ -594,6 +594,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
 				cambiaSeccion(i);
+                areaGrande.crece(0);
 			}
 			
 			return;
@@ -627,8 +628,8 @@ void fichaInfo::cargaImagenes(){
     areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader));
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
     
-    areaGrande.verPie = false;
-    areaGrande.crece(0,.3);
+   // areaGrande.verPie = false;
+   // areaGrande.crece(0,.3);
 }
 
 

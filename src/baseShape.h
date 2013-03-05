@@ -24,7 +24,7 @@ public:
 	
 	void    addForce( ofPoint _force );
 	bool    suicidate();
-    void    crece(int _altura, float _tiempo);
+    void    crece(int _altura);
 	
 	void    addAttractionForce(ofPoint p, ofPoint offset, float radius, float scale);
 	

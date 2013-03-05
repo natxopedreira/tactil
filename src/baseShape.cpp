@@ -10,8 +10,8 @@
 #include "baseShape.h"
 
 baseShape::baseShape(){
-	
-	this->set(ofPoint(0,0),0,0);
+	ofRectangle::set(0,0, 0,0);
+	//this->set(ofPoint(0,0),0,0);
 	
 	/*
      
@@ -340,18 +340,15 @@ void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	colorCambio.set(_r,_g,_b);
 }
 
-void baseShape::crece(int _altura, float _tiempo){
+void baseShape::crece(int _altura){
 	/// cambias de color
 	/// moviendo la cortina
-    
-    /*
-     static void add(float* a_property, float a_begin, float a_end, int a_delay, int a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
-     static void add(float* a_property, float a_begin, float a_end, float a_delay, float a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
-     static void add(vector <float *> a_properties, float a_begin, float a_end, float a_delay, float a_duration, int a_easeType=EASE_LINEAR, float a_p=0, float a_a=0);
-     */
-    
+
 	cambiandose = true;
-	Tweenzor::add(&cantidadCrece, cantidadCrece, _altura, 0.0f,  _tiempo, EASE_IN_SINE);
+    float diff = (this->height+cantidadCrece)-_altura;
+    float g = ofMap(abs(this->height-diff), 0, 400, .1, .7);
+    
+	Tweenzor::add(&cantidadCrece, cantidadCrece, _altura, 0.0f,  g, EASE_IN_SINE);
 }
 
 void baseShape::onCompleteCambio(float* arg){

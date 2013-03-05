@@ -13,8 +13,8 @@ visualizador::visualizador(){
     imgVisible = false;
 
     fuente.loadFont("SegoeSbI.ttf", 13,90, true);
-    fuenteCuerpo.loadFont("SegoeL.ttf", 11,90, true);
-    fuenteCuerpo.setLineHeight(20);
+    fuenteCuerpo.loadFont("SegoeL.ttf", 10.5,90, true);
+    fuenteCuerpo.setLineHeight(18);
     offsetDrag.set(0, 0);
     verPie = false;
 }
@@ -100,6 +100,8 @@ void visualizador::ponTexto(string _titularPie,string _pie){
     titularPie = _titularPie;
     cont =x + 200;
     altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 20;
+    crece(altoTexto);
+    verPie = true;
 }
 
 void visualizador::mouseDragged(ofMouseEventArgs & args){
@@ -122,14 +124,14 @@ void visualizador::mousePressed(ofMouseEventArgs & args){
 }
 
 void visualizador::mouseReleased(ofMouseEventArgs & args){
-    if(areaPieTitular.inside(args.x, args.y)){
+ /*   if(areaPieTitular.inside(args.x, args.y)){
         verPie = !verPie;
         if(verPie){
             crece(altoTexto,.6);
         }else{
             crece(0,.3);
         }
-    }
+    }*/
     if(drag){
         drag = false;
         offsetDrag.set(0, 0);
