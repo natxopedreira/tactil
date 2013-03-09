@@ -11,6 +11,7 @@
 #define VISUALIZADOR
 
 #include "baseShape.h"
+#include "boton.h"
 
 class visualizador : public baseShape {
 public:
@@ -21,10 +22,10 @@ public:
     void drawVisualizador();
     void ponListeners();
     
-    void ponTexto(string _titularPie,string _pie);
+    void ponTexto(string _titularPie,string _pie, string _informacion);
     
-    ofTrueTypeFont fuente,fuenteCuerpo;
-    string titularPie, pie;
+    ofTrueTypeFont fuente,fuenteCuerpo,fuenteInfo;
+    string titularPie, pie, informacion;
     
     void mouseMoved(ofMouseEventArgs & args);
     void mouseDragged(ofMouseEventArgs & args);
@@ -34,16 +35,20 @@ public:
     ofRectangle areaPieTitular;
     bool        verPie;
     int     cont;
-    float   altoTexto;
+    float   altoTexto,altoTextoInfo;
+    float   desfaseAltoTextoInfo;
     
     // offset para el dragging
     ofVec2f offsetDrag;
+    
+    boton   btnInfo;
     
 private:
     ofImage     imagen;
     bool        imgVisible;
     bool drag;
+    bool        verInfo;
     
-    string wrapString(string text, int width);
+    string wrapString(string text, int width, ofTrueTypeFont & _ft);
 };
 #endif

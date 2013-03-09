@@ -411,7 +411,7 @@ void miniaturas::creaGrid(ofColor _color){
     
     // cargas la url de la primera thumb en el visualizador
     anclaVisualizador->cargaImagen(urls_mini.at(0));
-    anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0]);
+    anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
 }
 
 void miniaturas::update(){

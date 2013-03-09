@@ -15,8 +15,22 @@ visualizador::visualizador(){
     fuente.loadFont("SegoeSbI.ttf", 13,90, true);
     fuenteCuerpo.loadFont("SegoeL.ttf", 10.5,90, true);
     fuenteCuerpo.setLineHeight(18);
+    
+    fuenteInfo.loadFont("SegoeL.ttf", 12 ,90, true);
+    fuenteInfo.setLineHeight(18);
+    
     offsetDrag.set(0, 0);
     verPie = false;
+    verInfo = false;
+    
+    
+    btnInfo.width = 70;
+    btnInfo.height = 30;
+    btnInfo.x = 0;
+    btnInfo.y = 0;
+    btnInfo.nombre = "+ info";
+    
+    desfaseAltoTextoInfo = 0;
 }
 
 void visualizador::ponListeners(){
@@ -25,7 +39,7 @@ void visualizador::ponListeners(){
 visualizador::~visualizador(){
     ofUnregisterMouseEvents(this);
 }
-string visualizador::wrapString(string text, int width) {  
+string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {  
     
     string typeWrapped = "";  
     string tempString = "";  
@@ -40,8 +54,8 @@ string visualizador::wrapString(string text, int width) {
             tempString += " ";  
         }  
         tempString += wrd;  
-        
-        int stringwidth = fuenteCuerpo.stringWidth(tempString);  
+        int stringwidth = _ft.stringWidth(tempString);
+       // int stringwidth = fuenteCuerpo.stringWidth(tempString);  
         
         if(stringwidth >= width) {  
             typeWrapped += "\n";  
@@ -64,8 +78,14 @@ void visualizador::drawVisualizador(){
     int posyrect = this->y + 10;
     int poswrect = this->width - 20 * this->escala;
     int poshrect = this->height-50 * this->escala;
+    
+    if(verInfo) poshrect += desfaseAltoTextoInfo;
+    
     ofRectangle rect = fuente.getStringBoundingBox(titularPie, 0, 0);
     //ofRectangle rectPie = fuenteCuerpo.getStringBoundingBox(pie, 0, 0);
+    
+    btnInfo.x = (this->x + this->width - btnInfo.width);
+    btnInfo.y = (this->y + this->height + (btnInfo.height/2) +cantidadCrece);
     
     
     ofPushStyle();
@@ -76,18 +96,40 @@ void visualizador::drawVisualizador(){
     ofSetColor(0, 0, 0);
     
     
-    fuente.drawString(titularPie, this->x + 10, this->y + this->height - 15);
+    if(!verInfo) fuente.drawString(titularPie, this->x + 10, this->y + this->height - 15);
     
     areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 20, rect.height + 20);
     
     
     if(verPie && cantidadCrece == altoTexto){
         fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 60);
+    }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
+        ofSetColor(0,210);
+        ofRect(posxrect, posyrect, poswrect, poshrect);
+        ofSetColor(255);
+        
+        fuenteInfo.drawString(informacion, posxrect+10, posyrect + 20);
+    }
+
+    
+    btnInfo.color.set(this->color.r,this->color.g,this->color.b);
+    btnInfo.drawRound();
+    ofSetColor(0);
+    ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
+
+    ofPopStyle();
+    
+    if(btnInfo.activo){
+        ofPushStyle();
+            ofNoFill();
+            ofSetColor(0);
+            ofSetLineWidth(2);
+            btnInfo.roundedRect(btnInfo.x,btnInfo.y,btnInfo.width,btnInfo.height,5);
+            //btnInfo.drawRound();
+        ofPopStyle();
     }
     
 
-    
-    ofPopStyle();
 }
 
 void visualizador::cargaImagen(string _url){
@@ -95,13 +137,22 @@ void visualizador::cargaImagen(string _url){
     imgVisible = true;
 }
 
-void visualizador::ponTexto(string _titularPie,string _pie){
-    pie = wrapString(_pie,480);
+void visualizador::ponTexto(string _titularPie,string _pie, string _informacion){
+    pie = wrapString(_pie,480,fuenteCuerpo);
     titularPie = _titularPie;
-    cont =x + 200;
+    cont = x + 200;
     altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 20;
     crece(altoTexto);
+    
+    informacion = wrapString(_informacion,460,fuenteInfo);
+    altoTextoInfo = fuenteInfo.getStringBoundingBox(informacion, 0, 0).height + 20;
+    if(altoTextoInfo > (this->height-50 * this->escala)){
+        desfaseAltoTextoInfo = altoTextoInfo - (this->height-50 * this->escala);
+    }
+    
     verPie = true;
+    verInfo = false;
+    btnInfo.activo = verInfo;
 }
 
 void visualizador::mouseDragged(ofMouseEventArgs & args){
@@ -124,17 +175,23 @@ void visualizador::mousePressed(ofMouseEventArgs & args){
 }
 
 void visualizador::mouseReleased(ofMouseEventArgs & args){
- /*   if(areaPieTitular.inside(args.x, args.y)){
-        verPie = !verPie;
-        if(verPie){
-            crece(altoTexto,.6);
-        }else{
-            crece(0,.3);
-        }
-    }*/
     if(drag){
         drag = false;
         offsetDrag.set(0, 0);
+    }
+    if(btnInfo.inside(ofPoint(args.x,args.y)) && !verInfo){
+        cout << "mira texto" << endl;
+        
+        verInfo = !verInfo;
+        btnInfo.activo = verInfo;
+        if(!verInfo){
+            verPie = true;
+            crece(altoTexto);         
+        }else{
+            verPie = false;
+            crece(desfaseAltoTextoInfo);
+        }
+        
     }
 }
 
