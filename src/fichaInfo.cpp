@@ -607,16 +607,22 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
             
+            
             idLeader = i;
 			px = e.x;
 			py = e.y;
+            
             minis.thumbs[i]->activala();
             
             cargaImagenes();
             
+            for(int j = 0; j <  minis.thumbs.size(); j++){
+                if(i!=j) minis.thumbs[j]->desactivala();
+            }
+            
            // return;
         }else{
-            minis.thumbs[i]->desactivala();
+            
         }
     }
     
@@ -681,7 +687,6 @@ void fichaInfo::cambiaSeccion(int _cuala){
 				rectangulos.at(i)->activo = true;
 				areaGrande.cambiate(rectangulos.at(i)->color.r,rectangulos.at(i)->color.g,rectangulos.at(i)->color.b, 0);
                  areaGrande.verPie = false;
-				//minis.limpiaMinis();
 			}else {
 				rectangulos.at(i)->activo = false;
 			}

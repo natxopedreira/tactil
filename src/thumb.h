@@ -24,16 +24,6 @@ public:
     void drawThumb();
     ofImage img;
     
-    void mouseMoved(ofMouseEventArgs & args);
-    void mouseDragged(ofMouseEventArgs & args);
-    void mousePressed(ofMouseEventArgs & args);
-    void mouseReleased(ofMouseEventArgs & args);
-    
-    bool dragBoton;
-    // offset para el dragging
-    ofVec2f offsetDragThumb;
-    
-    
 private:
     bool    activo;
 };

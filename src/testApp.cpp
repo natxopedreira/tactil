@@ -54,7 +54,7 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    plano.draw(0, 0);
+   // plano.draw(0, 0);
     
 	for(int i = 0; i < fichas.size(); i++){
 		fichas[i]->draw();

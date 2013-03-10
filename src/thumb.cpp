@@ -12,15 +12,10 @@ thumb::thumb(){
     nombre = "";
     activo = false;
     escala = 1.0;
-    offsetDragThumb.set(0,0);
 }
 
-thumb::~thumb(){
-    ofUnregisterMouseEvents(this);
-}
-void thumb::ponListeners(){
-    ofRegisterMouseEvents(this);
-}
+thumb::~thumb(){}
+void thumb::ponListeners(){}
 void thumb::urdate(){
     update();
 }
@@ -54,28 +49,3 @@ void thumb::activala(){
 void thumb::desactivala(){
     activo = false;
 }
-void thumb::mouseDragged(ofMouseEventArgs & args){
-    /// estas drageando un boton o el visualizador
-    if(dragBoton){
-        ofPoint p = getCenter();
-        ofPoint diff	= ofPoint(args.x, args.y) - p;
-        ofPoint destino = ofPoint(args.x, args.y) - diff/2;
-        // moveTo(diff.x+offsetDragThumb.x,diff.y+offsetDragThumb.y);
-    }
-}
-
-void thumb::mousePressed(ofMouseEventArgs & args){
-    if(inside(args.x, args.y)){
-        offsetDragThumb.set(0, 0);
-        dragBoton = true;
-    }
-}
-
-void thumb::mouseReleased(ofMouseEventArgs & args){
-    if(dragBoton){
-        dragBoton = false;
-        offsetDragThumb.set(0, 0);
-    }
-}
-
-void thumb::mouseMoved(ofMouseEventArgs & args){}
