@@ -39,6 +39,8 @@ class testApp : public ofBaseApp{
 	
 		float	kmuelles, kmuellesDiagonales, kmuellesHorizontales;
 		float   dampcajas, dampcajasMiniaturas;
+    
+    ofImage plano;
 		
 	vector<fichaInfo *> fichas;
 	

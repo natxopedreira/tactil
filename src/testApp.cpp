@@ -32,6 +32,7 @@ void testApp::setup(){
     dampCajasMiniaturas.addListener(this, &testApp::btnCambiaDampMiniaturas);
 	dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	
+    plano.loadImage("plano.jpg");
     
     /////////////////////
     /////////////////////
@@ -53,6 +54,8 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
+    plano.draw(0, 0);
+    
 	for(int i = 0; i < fichas.size(); i++){
 		fichas[i]->draw();
 	}

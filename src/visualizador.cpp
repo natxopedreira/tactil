@@ -91,7 +91,7 @@ void visualizador::drawVisualizador(){
     ofPushStyle();
     ofRect(posxrect, posyrect, poswrect, poshrect);
     
-    if(imgVisible) imagen.draw(posxrect,posyrect);
+    if(imgVisible) imagen.draw(posxrect,posyrect,poswrect,poshrect);
     
     ofSetColor(0, 0, 0);
     
@@ -133,7 +133,7 @@ void visualizador::drawVisualizador(){
 }
 
 void visualizador::cargaImagen(string _url){
-    imagen.loadImage("grande/" + _url);
+    imagen.loadImage("imagenes/full/"+_url);
     imgVisible = true;
 }
 
