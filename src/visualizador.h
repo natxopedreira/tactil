@@ -12,6 +12,7 @@
 
 #include "baseShape.h"
 #include "boton.h"
+#include "imageViewer.h"
 
 class visualizador : public baseShape {
 public:
@@ -19,22 +20,23 @@ public:
 	~visualizador();
     
     void    cargaImagen(string _url);
-    void drawVisualizador();
-    void ponListeners();
+    void    drawVisualizador();
+    void    setup();
+    void    update();
     
-    void ponTexto(string _titularPie,string _pie, string _informacion);
+    void    ponTexto(string _titularPie,string _pie, string _informacion);
     
-    ofTrueTypeFont fuente,fuenteCuerpo,fuenteInfo;
-    string titularPie, pie, informacion;
+    ofTrueTypeFont  fuente,fuenteCuerpo,fuenteInfo,fuenteBotones;
+    string  titularPie, pie, informacion;
     
-    void mouseMoved(ofMouseEventArgs & args);
-    void mouseDragged(ofMouseEventArgs & args);
-    void mousePressed(ofMouseEventArgs & args);
-    void mouseReleased(ofMouseEventArgs & args);
+    void    mouseMoved(ofMouseEventArgs & args);
+    void    mouseDragged(ofMouseEventArgs & args);
+    void    mousePressed(ofMouseEventArgs & args);
+    void    mouseReleased(ofMouseEventArgs & args);
     
     ofRectangle areaPieTitular;
-    bool        verPie;
-    int     cont;
+    bool    verPie;
+    int cont;
     float   altoTexto,altoTextoInfo;
     float   desfaseAltoTextoInfo;
     
@@ -42,13 +44,21 @@ public:
     ofVec2f offsetDrag;
     
     boton   btnInfo;
+    boton   castellano, gallego, ingles, frances;
+    
+    imageViewer visor;
+    
+    int posxrect;
+    int posyrect;
+    int poswrect;
+    int poshrect;
     
 private:
-    ofImage     imagen;
-    bool        imgVisible;
-    bool drag;
-    bool        verInfo;
+    ofImage imagen;
+    bool    imgVisible;
+    bool    drag;
+    bool    verInfo;
     
-    string wrapString(string text, int width, ofTrueTypeFont & _ft);
+    string  wrapString(string text, int width, ofTrueTypeFont & _ft);
 };
 #endif

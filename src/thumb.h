@@ -16,12 +16,13 @@ public:
     thumb();
 	~thumb();
     
-    void activala();
-    void desactivala();
-    void ponListeners();
+    void    activala();
+    void    desactivala();
+    void    ponListeners();
     
-    void urdate();
-    void drawThumb();
+    void    urdate();
+    void    drawThumb();
+    
     ofImage img;
     
 private:

@@ -18,6 +18,9 @@ miniaturas::miniaturas(){
 	_dampCajasMiniaturas = .0;
 	
 	_listas = false;
+    
+    
+    lenguaje = IDIOMA_CAST;
 }
 
 miniaturas::~miniaturas(){
@@ -413,8 +416,32 @@ void miniaturas::creaGrid(ofColor _color){
     
     
     // cargas la url de la primera thumb en el visualizador
+    
+    
+    
+    switch (lenguaje) {
+        case IDIOMA_CAST:
+                anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
+            break;
+            
+        case IDIOMA_GAL:
+                anclaVisualizador->ponTexto(pies_gal_titular_mini[0], pies_gal_cuerpo_mini[0], txt_gal_mini[0]);
+            break;
+            
+        case IDIOMA_ENG:
+                anclaVisualizador->ponTexto(pies_eng_titular_mini[0], pies_eng_cuerpo_mini[0], txt_eng_mini[0]);
+            break;
+            
+        case IDIOMA_FR:
+                anclaVisualizador->ponTexto(pies_fr_titular_mini[0], pies_fr_cuerpo_mini[0], txt_fr_mini[0]);
+            break;
+            
+        default:
+            break;
+    }
     anclaVisualizador->cargaImagen(urls_mini.at(0));
-    anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
+    
+    
 }
 
 void miniaturas::update(){

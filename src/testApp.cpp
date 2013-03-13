@@ -5,7 +5,7 @@ void testApp::setup(){
 	ofSetVerticalSync(true);
 	ofEnableSmoothing();
 	ofBackground(40,40,40);
-	ofSetLogLevel(OF_LOG_VERBOSE);
+	//ofSetLogLevel(OF_LOG_VERBOSE);
     
     Tweenzor::init();
     

@@ -19,8 +19,9 @@ public:
 	~boton();
     
 	
-    void drawButton();
-    void desactivate();
+    void    drawButton();
+    void    drawContxt(ofTrueTypeFont & fuente);
+    void    desactivate();
 
 };
 #endif

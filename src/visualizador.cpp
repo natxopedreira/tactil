@@ -13,11 +13,15 @@ visualizador::visualizador(){
     imgVisible = false;
 
     fuente.loadFont("SegoeSbI.ttf", 13,90, true);
+    
     fuenteCuerpo.loadFont("SegoeL.ttf", 10.5,90, true);
     fuenteCuerpo.setLineHeight(18);
     
     fuenteInfo.loadFont("SegoeL.ttf", 12 ,90, true);
     fuenteInfo.setLineHeight(18);
+    
+    fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
+    fuenteBotones.setLineHeight(18);
     
     offsetDrag.set(0, 0);
     verPie = false;
@@ -31,10 +35,44 @@ visualizador::visualizador(){
     btnInfo.nombre = "+ info";
     
     desfaseAltoTextoInfo = 0;
+    
+    
+    castellano.width = 60;
+    castellano.height = 22;
+    castellano.x = 0;
+    castellano.y = 0;
+    castellano.nombre = "castellano";
+    
+    
+    gallego.width = 45;
+    gallego.height = 22;
+    gallego.x = castellano.x + castellano.width + 10;
+    gallego.y = 0;
+    gallego.nombre = "galego";
+    
+    ingles.width = 50;
+    ingles.height = 22;
+    ingles.x = gallego.x + gallego.width + 10;
+    ingles.y = 0;
+    ingles.nombre = "english"; 
+    
+    frances.width = 60;
+    frances.height = 22;
+    frances.x = ingles.x + ingles.width + 10;
+    frances.y = 0;
+    frances.nombre = "francaise"; 
+    frances.color.set(this->color);
+    
+    posxrect = 0;
+    posyrect = 0;
+    poswrect = 10;
+    poshrect = 10;
 }
 
-void visualizador::ponListeners(){
+void visualizador::setup(){
+    visor.setup(480, 350);
     ofRegisterMouseEvents(this);
+    
 }
 visualizador::~visualizador(){
     ofUnregisterMouseEvents(this);
@@ -74,24 +112,18 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
 void visualizador::drawVisualizador(){
     drawRound(); // la base
 
-    int posxrect = this->x + 10;
-    int posyrect = this->y + 10;
-    int poswrect = this->width - 20 * this->escala;
-    int poshrect = this->height-50 * this->escala;
+
     
     if(verInfo) poshrect += desfaseAltoTextoInfo;
     
     ofRectangle rect = fuente.getStringBoundingBox(titularPie, 0, 0);
-    //ofRectangle rectPie = fuenteCuerpo.getStringBoundingBox(pie, 0, 0);
-    
-    btnInfo.x = (this->x + this->width - btnInfo.width);
-    btnInfo.y = (this->y + this->height + (btnInfo.height/2) +cantidadCrece);
+
     
     
     ofPushStyle();
-    ofRect(posxrect, posyrect, poswrect, poshrect);
+    ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
     
-    if(imgVisible) imagen.draw(posxrect,posyrect,poswrect,poshrect);
+    if(imgVisible) visor.draw(posxrect,posyrect);
     
     ofSetColor(0, 0, 0);
     
@@ -102,10 +134,11 @@ void visualizador::drawVisualizador(){
     
     
     if(verPie && cantidadCrece == altoTexto){
-        fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 60);
+        fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 30);
     }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
+        
         ofSetColor(0,210);
-        ofRect(posxrect, posyrect, poswrect, poshrect);
+        ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
         ofSetColor(255);
         
         fuenteInfo.drawString(informacion, posxrect+10, posyrect + 20);
@@ -114,10 +147,22 @@ void visualizador::drawVisualizador(){
     
     btnInfo.color.set(this->color.r,this->color.g,this->color.b);
     btnInfo.drawRound();
+
+    
     ofSetColor(0);
     ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
-
+    
+    ofSetColor(255);
+    
+    /// botones de idioma
+    frances.drawContxt(fuenteBotones);
+    ingles.drawContxt(fuenteBotones);
+    gallego.drawContxt(fuenteBotones);
+    castellano.drawContxt(fuenteBotones);
+    
     ofPopStyle();
+
+    
     
     if(btnInfo.activo){
         ofPushStyle();
@@ -131,9 +176,45 @@ void visualizador::drawVisualizador(){
     
 
 }
+void visualizador::update(){
+    
+    
 
+    poswrect = this->width;
+    poshrect = this->height;
+    posxrect = this->x+10;
+    posyrect = this->y+10;
+    
+    if(poswrect != (this->width - 20 * this->escala) || poshrect != (this->height-50 * this->escala)){
+        this->setWidth(poswrect);
+        this->setHeight(poshrect);
+    }
+    
+ 
+    visor.update();
+    
+    btnInfo.x = (this->x + this->width - btnInfo.width);
+    btnInfo.y = (this->y + this->height + (btnInfo.height/2) +cantidadCrece);
+    
+    frances.color.set(this->color);
+    frances.x = this->x + this->width - frances.width;
+    frances.y = this->y - 27;
+    
+    ingles.color.set(this->color);
+    ingles.x = frances.x - ingles.width - 5;
+    ingles.y = this->y - 27;
+    
+    gallego.color.set(this->color);
+    gallego.x = ingles.x - gallego.width - 5;
+    gallego.y = this->y - 27;
+    
+    castellano.color.set(this->color);
+    castellano.x = gallego.x - castellano.width - 5;
+    castellano.y = this->y - 27;
+}
 void visualizador::cargaImagen(string _url){
-    imagen.loadImage("imagenes/full/"+_url);
+    visor.cargaImagen("imagenes/full/"+_url);
+    // imagen.loadImage("imagenes/full/"+_url);
     imgVisible = true;
 }
 
@@ -141,7 +222,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     pie = wrapString(_pie,480,fuenteCuerpo);
     titularPie = _titularPie;
     cont = x + 200;
-    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 20;
+    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 80;
     crece(altoTexto);
     
     informacion = wrapString(_informacion,460,fuenteInfo);
@@ -180,7 +261,7 @@ void visualizador::mouseReleased(ofMouseEventArgs & args){
         offsetDrag.set(0, 0);
     }
     if(btnInfo.inside(ofPoint(args.x,args.y)) && !verInfo){
-        cout << "mira texto" << endl;
+        //cout << "mira texto" << endl;
         
         verInfo = !verInfo;
         btnInfo.activo = verInfo;

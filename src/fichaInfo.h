@@ -23,7 +23,12 @@
  - CARGAS MINIARUAS
  - CORTINAS MINIATURAS
  */
-
+/*enum Lang{
+    CAST,
+    GAL,
+    IDIOMA_FR,
+    IDIOMA_ENG
+};*/
 
 class fichaInfo {
 public:
@@ -51,7 +56,7 @@ public:
 	void    construFigura();
 	void    cambiaK(float v);
 	void    cambiaDamp(float v);
-	void cambiaKDiagonal(float v);
+	void    cambiaKDiagonal(float v);
 	void    cambiaKHorizontal(float v);
 	void    cambiaDampMiniaturas(float v);
     
@@ -60,14 +65,14 @@ public:
     
     //
     // piezas para la figura
-	vector<baseShape*> rectangulos; /// el vector es para la colision entre ellos
+	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
     
-	boton btnImagenes;
-	boton btnCuadros;
-	boton btnPeriodicos;
+	boton   btnImagenes;
+	boton   btnCuadros;
+	boton   btnPeriodicos;
     //boton btnInfo;
-	visualizador areaGrande;
+	visualizador    areaGrande;
 
     int totalFichas;
     int totalImagenes;
@@ -78,7 +83,7 @@ public:
     int visualizadorheight;
     
     ///
-    
+   // Lang lenguaje;
     //
     // variables
 	int	idLeader;
@@ -86,16 +91,16 @@ public:
 	int seccionActiva;
     
     // vars gui
-	float	kmuelles, kMuellesDiagonales, kHorizontal;
+	float   kmuelles, kMuellesDiagonales, kHorizontal;
     float   dampcajas, dampCajasMiniaturas;
     
     // visualizador de miniaturas
-    miniaturas minis;
+    miniaturas  minis;
     
     //
     bool    abierta; //// animacion de inicio de ficha
     float   anchoGrande,    altoGrande;
     
-    ofxXmlSettings datosXml;
+    ofxXmlSettings  datosXml;
 };
 #endif

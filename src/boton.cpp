@@ -31,3 +31,11 @@ void boton::desactivate(){
     desactivado = true;
 }
 
+void boton::drawContxt(ofTrueTypeFont & fuente){
+    drawRound();
+    
+    ofPushStyle();
+        ofSetColor(0);
+        fuente.drawString(nombre, this->x + 5, this->y + 15);
+    ofPopStyle();
+}

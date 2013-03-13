@@ -36,6 +36,8 @@ fichaInfo::fichaInfo(){
     totalImagenes = 0;
     totalCuadros = 0;
     totalperiodicos = 0;
+    
+   
 }
 
 void fichaInfo::cargaXml(){
@@ -157,6 +159,7 @@ void fichaInfo::cargaXml(){
                         datosXml.pushTag("periodico", l);
                         rectangulos.at(1)->urls.push_back(datosXml.getValue("url", ""));
                         rectangulos.at(1)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
+                        rectangulos.at(1)->txt_gal.push_back(datosXml.getValue("txt_gal", ""));
                         rectangulos.at(1)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(1)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
                         
@@ -215,7 +218,7 @@ fichaInfo::~fichaInfo(){
 	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
 	
 	for(int i = 0; i < muelles.size(); i++){
-		delete muelles[i]; //porque no puedo borrar los muelles !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		delete muelles[i]; 
 	}
 	muelles.clear();	
 	
@@ -230,7 +233,9 @@ fichaInfo::~fichaInfo(){
 //--------------------------------------------------------------
 void fichaInfo::setup(){
 	construFigura();
-	
+    /////
+    areaGrande.setup();
+    
 	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
 	ofAddListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
 	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
@@ -250,8 +255,8 @@ void fichaInfo::setup(){
     abierta = true;
 
 
-    Tweenzor::add(&anchoGrande, anchoGrande, visualizadorWidth, .6, 1.f, EASE_IN_OUT_CUBIC);
-    Tweenzor::add(&altoGrande, altoGrande, visualizadorheight, .3, 1.f, EASE_IN_OUT_CUBIC);
+    Tweenzor::add(&anchoGrande, anchoGrande, visualizadorWidth, .3, 1.f, EASE_IN_OUT_CUBIC);
+    Tweenzor::add(&altoGrande, altoGrande, visualizadorheight, .1, 1.f, EASE_IN_OUT_CUBIC);
 	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
     
     
@@ -260,8 +265,9 @@ void fichaInfo::setup(){
 }
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
-    cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
+    cout << "onCompleteCambio" << endl;
     
+    cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
 }
 
 //--------------------------------------------------------------
@@ -284,7 +290,6 @@ void fichaInfo::update(){
        // rectangulos.at(i)->bounceOffWalls();
 		rectangulos.at(i)->update();
 	}
-   
     //
 
 	
@@ -293,14 +298,13 @@ void fichaInfo::update(){
 	}
     
     // movemos las miniaturas
+    
+	areaGrande.update();
     minis.update();
-	
 }
 
 //--------------------------------------------------------------
 void fichaInfo::draw(){
-	
-	
 	ofSetColor(255, 255, 255,255);
     
     /// muelles
@@ -317,8 +321,6 @@ void fichaInfo::draw(){
     
     // PINTA EL AREA
     areaGrande.drawVisualizador();
-    
-    
     minis.drawCircle();
 }
 
@@ -340,18 +342,13 @@ void fichaInfo::construFigura(){
 
 	areaGrande.x = 800;
 	areaGrande.y = 300;
-/*
-    areaGrande.width = 488;
-	areaGrande.height = 350;
- */
+    
     areaGrande.width = 60;
 	areaGrande.height = 60;
     
 	areaGrande.color.set(10, 10, 10);
 	areaGrande.principal = true;
 	areaGrande.damping = dampcajas;
-   // areaGrande.escala = 0;
-    
 	
 	btnPeriodicos.x = areaGrande.x - 86 ;
 	btnPeriodicos.y = areaGrande.y;
@@ -538,8 +535,7 @@ void fichaInfo::construFigura(){
 	muelles.push_back(aux4);
     
     
-   /////
-    areaGrande.ponListeners();
+ 
 }
 //
 // MODIFICA VALORES DE LA ELASTICIDAD
@@ -593,8 +589,10 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
-				cambiaSeccion(i);
-                areaGrande.crece(0);
+				areaGrande.crece(0);
+                
+                cambiaSeccion(i);
+                
 			}
 			
 			return;
@@ -630,8 +628,26 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-    
-    areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+    switch (minis.lenguaje) {
+        case IDIOMA_CAST:
+                areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+            break;
+            
+        case IDIOMA_GAL:
+            areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+            break;
+            
+        case IDIOMA_ENG:
+            areaGrande.ponTexto(minis.pies_eng_titular_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
+            break;
+            
+        case IDIOMA_FR:
+            areaGrande.ponTexto(minis.pies_fr_titular_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
+            break;
+            
+        default:
+            break;
+    }
     areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
 }
 
@@ -643,7 +659,8 @@ void fichaInfo::cargaMinis(int _index){
     /// le mandamos el string del boton con la info del xml
     /// rectangulos.at(seccionActiva)->infoXml
     int px = areaGrande.x;
-    int py = areaGrande.y + areaGrande.getHeight() + 120;
+    int py = areaGrande.posyrect + areaGrande.poshrect + 180;
+    
     minis.limpiaMinis(); // borras las que hay
     
     for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
@@ -685,8 +702,11 @@ void fichaInfo::cambiaSeccion(int _cuala){
 			
 			if(i==seccionActiva){
 				rectangulos.at(i)->activo = true;
+                areaGrande.desfaseAltoTextoInfo = 0;
+                areaGrande.altoTexto = 0;
+                
 				areaGrande.cambiate(rectangulos.at(i)->color.r,rectangulos.at(i)->color.g,rectangulos.at(i)->color.b, 0);
-                 areaGrande.verPie = false;
+                areaGrande.verPie = false;
 			}else {
 				rectangulos.at(i)->activo = false;
 			}

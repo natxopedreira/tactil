@@ -79,9 +79,11 @@ baseShape::~baseShape(){
     
     puntos.clear();
     urls.clear();
+    
     txt_cast.clear();
     txt_eng.clear();
     txt_fr.clear();
+    txt_gal.clear();
     
     pies_cast_titular.clear();
     pies_cast_cuerpo.clear();

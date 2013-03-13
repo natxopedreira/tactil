@@ -66,6 +66,7 @@ public:
     vector<string>  txt_cast;
     vector<string>  txt_eng;
     vector<string>  txt_fr;
+    vector<string>  txt_gal;
     
     vector<string>  pies_cast_titular;
     vector<string>  pies_cast_cuerpo;
