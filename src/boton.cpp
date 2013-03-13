@@ -13,6 +13,9 @@ boton::boton(){
     nombre = "";
 	activo = false;
     
+    idiomaColor.set(200,200,200);
+    idiomaActivoColor.set(200,200,200);
+    botonIdiomaCheck = false;
 }
 
 boton::~boton(){
@@ -21,8 +24,10 @@ boton::~boton(){
 
 
 void boton::drawButton(){
-   drawRound();
-	if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
+
+    drawRound();
+	
+    if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
 }
 
 void boton::desactivate(){
@@ -32,10 +37,17 @@ void boton::desactivate(){
 }
 
 void boton::drawContxt(ofTrueTypeFont & fuente){
-    drawRound();
+    if(botonIdiomaCheck){
+        ofSetColor(idiomaActivoColor);
+    }else{
+        ofSetColor(idiomaColor);
+    }
+    
+    roundedRect(this->x, this->y, this->width, this->height,5);
+    //drawRound();
     
     ofPushStyle();
-        ofSetColor(0);
+        ofSetColor(20);
         fuente.drawString(nombre, this->x + 5, this->y + 15);
     ofPopStyle();
 }

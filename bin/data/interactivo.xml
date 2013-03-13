@@ -1,3 +1,4 @@
+
 <mesa>
 <!-- 
 01 PLAYA DE RIAZOR
@@ -15,15 +16,18 @@
 			</pie_cast>
 			
 			<pie_eng>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
+				<titular>Playa de Riazor</titular>
+                <cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
 			</pie_eng>
 			
 			<pie_gal>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
+				<titular>Playa de Riazor</titular>
+                <cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
 			</pie_gal>
 			
 			<pie_fr>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
+				<titular>Playa de Riazor</titular>
+                <cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
 			</pie_fr>
 						
 			<titulo_cast>PLAYA DE RIAZOR</titulo_cast>
@@ -145,100 +149,7 @@
 				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
 			</txt_fr>
 			</image>
-		<image tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/14_postales_0041_RIAZOR.jpg</url>
-			<pie_cast>
-				<titular>Playa de Riazor</titular>
-				<cuerpo>Finales del siglo XIX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_cast>
-			
-			<pie_eng>
-				<titular>Playa de Riazor</titular>
-				<cuerpo>Finales del siglo XIX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_eng>
-			
-			<pie_gal>
-				<titular>Playa de Riazor</titular>
-				<cuerpo>Finales del siglo XIX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_gal>
-			
-			<pie_fr>
-				<titular>Playa de Riazor</titular>
-				<cuerpo>Finales del siglo XIX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_fr>
-						
-			<titulo_cast>PLAYA DE RIAZOR</titulo_cast>
-			<titulo_gal>PRAIA DE RIAZOR</titulo_gal>	
-			<titulo_eng>PRAIA DE RIAZOR</titulo_eng>
-			<titulo_fr>PRAIA DE RIAZOR</titulo_fr>
-			
-			<txt_cast>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_cast>
-			
-			<txt_gal>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_gal>
-			
-			<txt_eng>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_eng>
-			
-			<txt_fr>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_fr>
-			</image>
-		<image tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/15_postal_1011_MALECON.jpg</url>
-			<pie_cast>
-				<titular>El malecón de Riazor</titular>
-				<cuerpo>Finales del siglo XIX-principios del XX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_cast>
-			
-			<pie_eng>
-				<titular>El malecón de Riazor</titular>
-				<cuerpo>Finales del siglo XIX-principios del XX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_eng>
-			
-			<pie_gal>
-				<titular>El malecón de Riazor</titular>
-				<cuerpo>Finales del siglo XIX-principios del XX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_gal>
-			
-			<pie_fr>
-				<titular>El malecón de Riazor</titular>
-				<cuerpo>Finales del siglo XIX-principios del XX.&#10;Archivo Municipal de A Coruña.</cuerpo>
-			</pie_fr>
-						
-			<titulo_cast>El malecón de Riazor</titulo_cast>
-			<titulo_gal>El malecón de Riazor</titulo_gal>	
-			<titulo_eng>El malecón de Riazor</titulo_eng>
-			<titulo_fr>El malecón de Riazor</titulo_fr>
-			
-			<txt_cast>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_cast>
-			
-			<txt_gal>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_gal>
-			
-			<txt_eng>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_eng>
-			
-			<txt_fr>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_fr>
-			</image>
+
 	</images>
 	
 	<cuadros>
@@ -247,93 +158,7 @@
 	</cuadros>
 	
 	<periodicos>
-		<periodico tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
-			<pie_cast>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.\n&#10;Arquivo do Reino de Galicia.</cuerpo>
-			</pie_cast>
-			
-			<pie_eng>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
-			</pie_eng>
-			
-			<pie_gal>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
-			</pie_gal>
-			
-			<pie_fr>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX.&#10;Arquivo do Reino de Galicia.</cuerpo>
-			</pie_fr>
-						
-			<titulo_cast>PLAYA DE RIAZOR</titulo_cast>
-			<titulo_gal>PRAIA DE RIAZOR</titulo_gal>	
-			<titulo_eng>PRAIA DE RIAZOR</titulo_eng>
-			<titulo_fr>PRAIA DE RIAZOR</titulo_fr>
-			
-			<txt_cast>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_cast>
-			
-			<txt_gal>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_gal>
-			
-			<txt_eng>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_eng>
-			
-			<txt_fr>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_fr>
-		</periodico>
-		<periodico tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/17_barca_riazor.jpg</url>
-			<pie_cast>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX. Arquivo do Reino de Galicia.</cuerpo>
-			</pie_cast>
-			
-			<pie_eng>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX. Arquivo do Reino de Galicia.</cuerpo>
-			</pie_eng>
-			
-			<pie_gal>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX. Arquivo do Reino de Galicia.</cuerpo>
-			</pie_gal>
-			
-			<pie_fr>
-				<titular>Playa de Riazor</titular><cuerpo>Finales del siglo XIX. Arquivo do Reino de Galicia.</cuerpo>
-			</pie_fr>
-						
-			<titulo_cast>PLAYA DE RIAZOR</titulo_cast>
-			<titulo_gal>PRAIA DE RIAZOR</titulo_gal>	
-			<titulo_eng>PRAIA DE RIAZOR</titulo_eng>
-			<titulo_fr>PRAIA DE RIAZOR</titulo_fr>
-			
-			<txt_cast>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_cast>
-			
-			<txt_gal>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_gal>
-			
-			<txt_eng>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_eng>
-			
-			<txt_fr>
-				Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard -escenario de sus amores con la adolescente Marie-Thérèse- se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.\n
-				Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (...) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (...)'.
-			</txt_fr>
-		</periodico>
-		
+	
 	</periodicos>
 </ficha>
 

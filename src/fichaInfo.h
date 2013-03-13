@@ -23,12 +23,6 @@
  - CARGAS MINIARUAS
  - CORTINAS MINIATURAS
  */
-/*enum Lang{
-    CAST,
-    GAL,
-    IDIOMA_FR,
-    IDIOMA_ENG
-};*/
 
 class fichaInfo {
 public:
@@ -83,7 +77,9 @@ public:
     int visualizadorheight;
     
     ///
-   // Lang lenguaje;
+   // botones lenguaje;
+    boton   castellano, gallego, ingles, frances;
+    bool    verIdiomas;
     //
     // variables
 	int	idLeader;
@@ -100,6 +96,8 @@ public:
     //
     bool    abierta; //// animacion de inicio de ficha
     float   anchoGrande,    altoGrande;
+    
+    ofTrueTypeFont  fuenteBotones;
     
     ofxXmlSettings  datosXml;
 };

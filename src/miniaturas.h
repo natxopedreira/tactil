@@ -12,13 +12,13 @@
 #include "thumb.h"
 #include "Spring.h"
 #include "visualizador.h"
+
 enum Idioma{
     IDIOMA_CAST,
     IDIOMA_GAL,
     IDIOMA_FR,
     IDIOMA_ENG
 };
-
 
 class miniaturas{
 public:

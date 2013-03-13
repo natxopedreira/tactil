@@ -9,7 +9,7 @@
 
 #include "fichaInfo.h"
 fichaInfo::fichaInfo(){
-	// el leader es el que estas drageando
+
 	idLeader = 0;
     
     kmuelles = 0.115;
@@ -22,7 +22,7 @@ fichaInfo::fichaInfo(){
 	px = .0;
 	py = .0;
     
-	seccionActiva = 1; // cual es la seccion de inicio
+	seccionActiva = 0; // cual es la seccion de inicio
     
     abierta = false;
     
@@ -37,7 +37,7 @@ fichaInfo::fichaInfo(){
     totalCuadros = 0;
     totalperiodicos = 0;
     
-   
+    verIdiomas = false;
 }
 
 void fichaInfo::cargaXml(){
@@ -70,6 +70,7 @@ void fichaInfo::cargaXml(){
                             rectangulos.at(2)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                             rectangulos.at(2)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                             rectangulos.at(2)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
+                            rectangulos.at(2)->txt_gal.push_back(datosXml.getValue("txt_gal", ""));
                         
                             // comprobamos los pies
                         
@@ -83,18 +84,21 @@ void fichaInfo::cargaXml(){
                         if(datosXml.pushTag("pie_gal")){
                             rectangulos.at(2)->pies_gal_titular.push_back(datosXml.getValue("titular", ""));
                             rectangulos.at(2)->pies_gal_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+
                             datosXml.popTag();
                         }
                             // ingles
                         if(datosXml.pushTag("pie_eng")){
                             rectangulos.at(2)->pies_eng_titular.push_back(datosXml.getValue("titular", ""));
                             rectangulos.at(2)->pies_eng_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            
                             datosXml.popTag();   
                         }
                             // frances
                         if(datosXml.pushTag("pie_fr")){
                             rectangulos.at(2)->pies_fr_titular.push_back(datosXml.getValue("titular", ""));
                             rectangulos.at(2)->pies_fr_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            
                             datosXml.popTag();  
                         }
                         
@@ -113,7 +117,7 @@ void fichaInfo::cargaXml(){
                         rectangulos.at(3)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                         rectangulos.at(3)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(3)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
-                        
+                        rectangulos.at(3)->txt_gal.push_back(datosXml.getValue("txt_gal", ""));
                         
                         // comprobamos los pies
                         
@@ -232,6 +236,10 @@ fichaInfo::~fichaInfo(){
 }
 //--------------------------------------------------------------
 void fichaInfo::setup(){
+    
+    fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
+    fuenteBotones.setLineHeight(18);
+    
 	construFigura();
     /////
     areaGrande.setup();
@@ -284,7 +292,7 @@ void fichaInfo::update(){
 		repulsion para los botones
 		 */
 		for(int j = 0; j < rectangulos.size(); j++){
-			if(i != j) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,80);
+			if(i != j && (!rectangulos.at(j)->useBtnIdioma && !rectangulos.at(i)->useBtnIdioma)) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,80);
 		}
         
        // rectangulos.at(i)->bounceOffWalls();
@@ -301,6 +309,26 @@ void fichaInfo::update(){
     
 	areaGrande.update();
     minis.update();
+    
+    
+    
+    
+    
+    frances.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
+    frances.x = areaGrande.x + areaGrande.width - frances.width;
+    frances.y = areaGrande.y - 27;
+    
+    ingles.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
+    ingles.x = frances.x - ingles.width - 5;
+    ingles.y = areaGrande.y - 27;
+    
+    gallego.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
+    gallego.x = ingles.x - gallego.width - 5;
+    gallego.y = areaGrande.y - 27;
+    
+    castellano.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
+    castellano.x = gallego.x - castellano.width - 5;
+    castellano.y = areaGrande.y - 27;
 }
 
 //--------------------------------------------------------------
@@ -318,10 +346,19 @@ void fichaInfo::draw(){
 	btnPeriodicos.drawButton();
 	areaGrande.drawRound();
     
-    
+
     // PINTA EL AREA
     areaGrande.drawVisualizador();
     minis.drawCircle();
+    
+    
+    /// botones de idioma
+    if(verIdiomas){
+        frances.drawContxt(fuenteBotones);
+        ingles.drawContxt(fuenteBotones);
+        gallego.drawContxt(fuenteBotones);
+        castellano.drawContxt(fuenteBotones);
+    }
 }
 
 //--------------------------------------------------------------
@@ -535,44 +572,43 @@ void fichaInfo::construFigura(){
 	muelles.push_back(aux4);
     
     
- 
+    
+    ///botones de idioma
+    castellano.width = 60;
+    castellano.height = 22;
+    castellano.x = 0;
+    castellano.y = 0;
+    castellano.nombre = "castellano";
+    castellano.botonIdiomaCheck = true;
+    castellano.useBtnIdioma = true;
+    
+    gallego.width = 45;
+    gallego.height = 22;
+    gallego.x = castellano.x + castellano.width + 10;
+    gallego.y = 0;
+    gallego.nombre = "galego";
+    gallego.useBtnIdioma = true;
+    
+    ingles.width = 50;
+    ingles.height = 22;
+    ingles.x = gallego.x + gallego.width + 10;
+    ingles.y = 0;
+    ingles.nombre = "english"; 
+    ingles.useBtnIdioma = true;
+    
+    frances.width = 60;
+    frances.height = 22;
+    frances.x = ingles.x + ingles.width + 10;
+    frances.y = 0;
+    frances.nombre = "francaise"; 
+    frances.useBtnIdioma = true;
+    
+    rectangulos.push_back(&castellano);
+    rectangulos.push_back(&gallego);
+    rectangulos.push_back(&ingles);
+    rectangulos.push_back(&frances);
 }
-//
-// MODIFICA VALORES DE LA ELASTICIDAD
-void fichaInfo::cambiaKDiagonal(float  v){
-	/// seteamos un nuevo valor k para los muelles daigonales
-    for(int i = 0; i < muelles.size(); i++){
-        if(muelles.at(i)->diagonal) muelles.at(i)->k = v;
-    }
 
-	minis.cambiaKDiagonal(v);
-}
-//--------------------------------------------------------------
-void fichaInfo::cambiaKHorizontal(float v){
-	minis.cambiaKHorizontal(v);
-}
-
-//--------------------------------------------------------------
-void fichaInfo::cambiaK(float  v){
-    /// seteamos un nuevo valor k para los muelles
-    for(int i = 0; i < muelles.size(); i++){
-        muelles.at(i)->k = v;
-    }
-	minis.cambiaK(v);
-}
-
-void fichaInfo::cambiaDampMiniaturas(float  v){
-	minis.cambiaDampMiniaturas(v);
-}
-//--------------------------------------------------------------
-void fichaInfo::cambiaDamp(float  v){
-    /// seteamos un nuevo valor k para los muelles
-    for(int i = 0; i < rectangulos.size(); i++){
-        rectangulos.at(i)->damping = v;
-    }
-}
-//
-// MODIFICA VALORES DE LA ELASTICIDAD
 
 //--------------------------------------------------------------
 void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
@@ -583,19 +619,21 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
 			rectangulos.at(i)->leader = true;
 			
-			idLeader = i;
+			
 			px = e.x;
 			py = e.y;
             
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
-				areaGrande.crece(0);
+				idLeader = i;
+                
+                areaGrande.crece(0);
                 
                 cambiaSeccion(i);
                 
+                
+                return;
 			}
-			
-			return;
 		}
 	}
     
@@ -617,13 +655,64 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             for(int j = 0; j <  minis.thumbs.size(); j++){
                 if(i!=j) minis.thumbs[j]->desactivala();
             }
-            
-           // return;
-        }else{
-            
         }
     }
     
+    ///////////////////////////////////////////
+    ///////////////////////////////////////////
+    /// compruebas si quieres otro idioma /////
+    ///////////////////////////////////////////
+    for(int i = 0; i < rectangulos.size(); i++){
+        ///  && rectangulos.at(i)->useBtnIdioma
+        if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
+        
+            if(rectangulos.at(i)->useBtnIdioma){
+                //cout << rectangulos.at(i)->nombre << endl;
+                string n = rectangulos.at(i)->nombre;
+                
+                if(n == "castellano"){
+                    castellano.botonIdiomaCheck = true;
+                    minis.lenguaje = IDIOMA_CAST;
+                    
+                }else{
+                    castellano.botonIdiomaCheck = false;
+                }
+                
+                if(n == "galego") {
+                    gallego.botonIdiomaCheck = true;
+                    minis.lenguaje = IDIOMA_GAL;
+                    //cargaImagenes();
+                }else{
+                    gallego.botonIdiomaCheck = false;
+                }
+                
+                
+                if (n == "francaise") {
+                    frances.botonIdiomaCheck = true;
+                    minis.lenguaje = IDIOMA_FR;
+                    
+                }else{
+                    frances.botonIdiomaCheck = false;
+                }
+                
+                if (n == "english") {
+                    ingles.botonIdiomaCheck = true;
+                    minis.lenguaje = IDIOMA_ENG;
+                    
+                }else{
+                    ingles.botonIdiomaCheck = false;
+                }
+
+            }
+        } 
+     }
+    /*
+    cout << "---------------------------------" << endl;
+    cout << minis.txt_cast_mini.size() << endl;
+    cout << minis.txt_gal_mini.size() << endl;
+    cout << idLeader << endl;
+    */
+    cargaImagenes();
 }
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
@@ -634,7 +723,7 @@ void fichaInfo::cargaImagenes(){
             break;
             
         case IDIOMA_GAL:
-            areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+            areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
             break;
             
         case IDIOMA_ENG:
@@ -664,11 +753,13 @@ void fichaInfo::cargaMinis(int _index){
     minis.limpiaMinis(); // borras las que hay
     
     for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
+        
         minis.urls_mini.push_back(rectangulos.at(seccionActiva)->urls.at(i));
+        
         minis.txt_cast_mini.push_back(rectangulos.at(seccionActiva)->txt_cast.at(i));
         minis.txt_eng_mini.push_back(rectangulos.at(seccionActiva)->txt_eng.at(i));
         minis.txt_fr_mini.push_back(rectangulos.at(seccionActiva)->txt_fr.at(i));
-        
+        minis.txt_gal_mini.push_back(rectangulos.at(seccionActiva)->txt_gal.at(i));
         
         minis.pies_cast_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_titular.at(i));
         minis.pies_cast_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_cast_cuerpo.at(i));
@@ -683,6 +774,8 @@ void fichaInfo::cargaMinis(int _index){
         minis.pies_fr_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_fr_cuerpo.at(i));
        
     }
+    
+    cout << minis.pies_gal_titular_mini.size() << endl;
     
     minis.setup(px, py, rectangulos.at(seccionActiva)->color);
     
@@ -716,9 +809,56 @@ void fichaInfo::cambiaSeccion(int _cuala){
 
 
 //--------------------------------------------------------------
-void fichaInfo::_mouseReleased(ofMouseEventArgs &e){}
+void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
+
+}
 
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){
 	cargaMinis(seccionActiva);
+    verIdiomas = true;
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// VALORES DEL GUI ///////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// MODIFICA VALORES DE LA ELASTICIDAD ////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void fichaInfo::cambiaKDiagonal(float  v){
+	/// seteamos un nuevo valor k para los muelles daigonales
+    for(int i = 0; i < muelles.size(); i++){
+        if(muelles.at(i)->diagonal) muelles.at(i)->k = v;
+    }
+    
+	minis.cambiaKDiagonal(v);
+}
+//--------------------------------------------------------------
+void fichaInfo::cambiaKHorizontal(float v){
+	minis.cambiaKHorizontal(v);
+}
+
+//--------------------------------------------------------------
+void fichaInfo::cambiaK(float  v){
+    /// seteamos un nuevo valor k para los muelles
+    for(int i = 0; i < muelles.size(); i++){
+        muelles.at(i)->k = v;
+    }
+	minis.cambiaK(v);
+}
+
+void fichaInfo::cambiaDampMiniaturas(float  v){
+	minis.cambiaDampMiniaturas(v);
+}
+//--------------------------------------------------------------
+void fichaInfo::cambiaDamp(float  v){
+    /// seteamos un nuevo valor k para los muelles
+    for(int i = 0; i < rectangulos.size(); i++){
+        rectangulos.at(i)->damping = v;
+    }
 }

@@ -52,6 +52,7 @@ public:
 	bool	principal; /// indica si eres el recuadro donde se ven las cosas, osease el grande
 	bool	activo; /// para cuando eres un boton
 	bool	useBtn; /// eres un boton?
+    bool    useBtnIdioma; // eres un boton de idioma
     bool desactivado; /// eres un boton desactivado?
 	
 	vector<ofPoint>		puntos;

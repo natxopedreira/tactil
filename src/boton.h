@@ -22,6 +22,8 @@ public:
     void    drawButton();
     void    drawContxt(ofTrueTypeFont & fuente);
     void    desactivate();
-
+    
+    ofColor idiomaActivoColor,idiomaColor;
+    bool    botonIdiomaCheck;
 };
 #endif

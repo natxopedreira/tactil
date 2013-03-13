@@ -66,6 +66,7 @@ baseShape::baseShape(){
 	useBtn = false;
 	activo = false;
 	desactivado = false;
+    useBtnIdioma = false;
     
 	cambioY = 0;
 	

@@ -19,9 +19,7 @@ visualizador::visualizador(){
     
     fuenteInfo.loadFont("SegoeL.ttf", 12 ,90, true);
     fuenteInfo.setLineHeight(18);
-    
-    fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
-    fuenteBotones.setLineHeight(18);
+
     
     offsetDrag.set(0, 0);
     verPie = false;
@@ -35,33 +33,6 @@ visualizador::visualizador(){
     btnInfo.nombre = "+ info";
     
     desfaseAltoTextoInfo = 0;
-    
-    
-    castellano.width = 60;
-    castellano.height = 22;
-    castellano.x = 0;
-    castellano.y = 0;
-    castellano.nombre = "castellano";
-    
-    
-    gallego.width = 45;
-    gallego.height = 22;
-    gallego.x = castellano.x + castellano.width + 10;
-    gallego.y = 0;
-    gallego.nombre = "galego";
-    
-    ingles.width = 50;
-    ingles.height = 22;
-    ingles.x = gallego.x + gallego.width + 10;
-    ingles.y = 0;
-    ingles.nombre = "english"; 
-    
-    frances.width = 60;
-    frances.height = 22;
-    frances.x = ingles.x + ingles.width + 10;
-    frances.y = 0;
-    frances.nombre = "francaise"; 
-    frances.color.set(this->color);
     
     posxrect = 0;
     posyrect = 0;
@@ -151,14 +122,7 @@ void visualizador::drawVisualizador(){
     
     ofSetColor(0);
     ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
-    
-    ofSetColor(255);
-    
-    /// botones de idioma
-    frances.drawContxt(fuenteBotones);
-    ingles.drawContxt(fuenteBotones);
-    gallego.drawContxt(fuenteBotones);
-    castellano.drawContxt(fuenteBotones);
+
     
     ofPopStyle();
 
@@ -195,22 +159,7 @@ void visualizador::update(){
     
     btnInfo.x = (this->x + this->width - btnInfo.width);
     btnInfo.y = (this->y + this->height + (btnInfo.height/2) +cantidadCrece);
-    
-    frances.color.set(this->color);
-    frances.x = this->x + this->width - frances.width;
-    frances.y = this->y - 27;
-    
-    ingles.color.set(this->color);
-    ingles.x = frances.x - ingles.width - 5;
-    ingles.y = this->y - 27;
-    
-    gallego.color.set(this->color);
-    gallego.x = ingles.x - gallego.width - 5;
-    gallego.y = this->y - 27;
-    
-    castellano.color.set(this->color);
-    castellano.x = gallego.x - castellano.width - 5;
-    castellano.y = this->y - 27;
+
 }
 void visualizador::cargaImagen(string _url){
     visor.cargaImagen("imagenes/full/"+_url);

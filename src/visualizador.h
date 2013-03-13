@@ -26,7 +26,7 @@ public:
     
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
-    ofTrueTypeFont  fuente,fuenteCuerpo,fuenteInfo,fuenteBotones;
+    ofTrueTypeFont  fuente,fuenteCuerpo,fuenteInfo;
     string  titularPie, pie, informacion;
     
     void    mouseMoved(ofMouseEventArgs & args);
@@ -44,7 +44,7 @@ public:
     ofVec2f offsetDrag;
     
     boton   btnInfo;
-    boton   castellano, gallego, ingles, frances;
+    
     
     imageViewer visor;
     
