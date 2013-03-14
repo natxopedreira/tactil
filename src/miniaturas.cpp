@@ -133,7 +133,14 @@ void miniaturas::update(){
 		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
 		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
         //thumbs.at(i)->bounceOffWalls();
-		
+        
+        /// churro hack para hacer que las minis no pisen nunca el visualizador
+        ofRectangle rt;
+        rt.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height + anclaVisualizador->cantidadCrece));
+        if(rt.intersects(*thumbs.at(i))){
+            thumbs.at(i)->addForce(ofPoint(0,200));
+        }
+        
 		thumbs.at(i)->update();
 	}
     
@@ -141,9 +148,6 @@ void miniaturas::update(){
 		springs[i]->update();
 	}
     
-    
-    
-    cout << _kMuellesDiagonales << endl;
 }
 
 // ---------------------------------------

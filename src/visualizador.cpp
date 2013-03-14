@@ -192,10 +192,13 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
 void visualizador::mouseDragged(ofMouseEventArgs & args){
         /// estas drageando un boton o el visualizador
     if(drag){
+
         ofPoint p = getCenter();
         ofPoint diff	= ofPoint(args.x, args.y) - p;
-        ofPoint destino = ofPoint(args.x, args.y) - diff/2;
-        moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+        
+        addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y));
+        //moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+
     }
 }
 

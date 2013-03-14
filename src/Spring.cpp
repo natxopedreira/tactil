@@ -29,19 +29,13 @@ void Spring::update(){
 	ofPoint puntoB = rectB->puntos.at(indiceB);
 	
 	float mutualDist = (puntoA - puntoB).length();
-	float springForce = (k * (dist - mutualDist));
+    float springForce = (k * (dist - mutualDist));
 	ofPoint frcToAdd = (puntoA - puntoB).normalized() * springForce;
 	
 
 	if(!rectA->principal) rectA->addForce(frcToAdd);
 	frcToAdd *= -1;
 	if(!rectB->principal) rectB->addForce(frcToAdd);
-	 /*
-	  if(!rectA->leader || !rectA->principal) rectA->addForce(frcToAdd);
-	  frcToAdd *= -1;
-	  if(!rectB->leader || !rectB->principal) rectB->addForce(frcToAdd);
-	  
-	  */
 }
 
 

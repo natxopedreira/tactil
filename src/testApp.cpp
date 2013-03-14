@@ -52,13 +52,10 @@ void testApp::update(){
             
             if(j!=i){
                 if(fichas.at(i)->areaGrande.intersects(fichas.at(j)->areaGrande)){
-                    cout << "ahhhh" << endl;
                     if(fichas.at(j)->areaGrande.leader) fichas.at(j)->areaGrande.addRepulsionForce(&fichas.at(i)->areaGrande, 800, 100);
-                    
                 }
             }
         }
-        
 		fichas[i]->update();
 	}
 }
@@ -70,6 +67,7 @@ void testApp::draw(){
 	for(int i = 0; i < fichas.size(); i++){
 		fichas[i]->draw();
 	}
+    
     ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
     gui.draw();
 }
