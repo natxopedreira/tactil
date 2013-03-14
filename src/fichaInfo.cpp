@@ -196,8 +196,7 @@ void fichaInfo::draw(){
 //  callback animacion del inicio
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
-    cout << "onCompleteCambio" << endl;
-    
+   // cout << "onCompleteCambio" << endl;
     cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
 }
 
@@ -223,19 +222,23 @@ void fichaInfo::cargaImagenes(){
     /// cargas el contenido en el area de visualizacion
     switch (minis.lenguaje) {
         case IDIOMA_CAST:
-                areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+            areaGrande.ponTexto(minis.titular_cast_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));    
+            //areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
             break;
             
         case IDIOMA_GAL:
-            areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
+            areaGrande.ponTexto(minis.titular_gal_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
+            //areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
             break;
             
         case IDIOMA_ENG:
-            areaGrande.ponTexto(minis.pies_eng_titular_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
+            areaGrande.ponTexto(minis.titular_eng_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
+            //areaGrande.ponTexto(minis.pies_eng_titular_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
             break;
             
         case IDIOMA_FR:
-            areaGrande.ponTexto(minis.pies_fr_titular_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
+            areaGrande.ponTexto(minis.titular_fr_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
+            //areaGrande.ponTexto(minis.pies_fr_titular_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
             break;
             
         default:
@@ -309,12 +312,14 @@ void fichaInfo::cargaMinis(int _index){
         minis.pies_fr_titular_mini.push_back(rectangulos.at(seccionActiva)->pies_fr_titular.at(i));
         minis.pies_fr_cuerpo_mini.push_back(rectangulos.at(seccionActiva)->pies_fr_cuerpo.at(i));
         
+        minis.titular_cast_mini.push_back(rectangulos.at(seccionActiva)->titular_cast.at(i));
+        minis.titular_gal_mini.push_back(rectangulos.at(seccionActiva)->titular_gal.at(i));
+        minis.titular_eng_mini.push_back(rectangulos.at(seccionActiva)->titular_eng.at(i));
+        minis.titular_fr_mini.push_back(rectangulos.at(seccionActiva)->titular_fr.at(i));
     }
     
-    cout << minis.pies_gal_titular_mini.size() << endl;
-    
+    //cout << minis.pies_gal_titular_mini.size() << endl;
     minis.setup(px, py, rectangulos.at(seccionActiva)->color);
-    
 }
 
 
@@ -584,10 +589,16 @@ void fichaInfo::cargaXml(){
                     for (int j=0; j<totalImagenes; j++) {
                         datosXml.pushTag("image", j);
                         rectangulos.at(2)->urls.push_back(datosXml.getValue("url", ""));
+                        
                         rectangulos.at(2)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                         rectangulos.at(2)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(2)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
                         rectangulos.at(2)->txt_gal.push_back(datosXml.getValue("txt_gal", ""));
+                        
+                        rectangulos.at(2)->titular_cast.push_back(datosXml.getValue("titulo_cast", ""));
+                        rectangulos.at(2)->titular_gal.push_back(datosXml.getValue("titulo_gal", ""));
+                        rectangulos.at(2)->titular_eng.push_back(datosXml.getValue("titulo_eng", ""));
+                        rectangulos.at(2)->titular_fr.push_back(datosXml.getValue("titulo_fr", ""));
                         
                         // comprobamos los pies
                         
@@ -631,10 +642,16 @@ void fichaInfo::cargaXml(){
                     for (int k=0; k<totalCuadros; k++) {
                         datosXml.pushTag("cuadro", k);
                         rectangulos.at(3)->urls.push_back(datosXml.getValue("url", ""));
+                        
                         rectangulos.at(3)->txt_cast.push_back(datosXml.getValue("txt_cast", ""));
                         rectangulos.at(3)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(3)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
                         rectangulos.at(3)->txt_gal.push_back(datosXml.getValue("txt_gal", ""));
+                        
+                        rectangulos.at(3)->titular_cast.push_back(datosXml.getValue("titulo_cast", ""));
+                        rectangulos.at(3)->titular_gal.push_back(datosXml.getValue("titulo_gal", ""));
+                        rectangulos.at(3)->titular_eng.push_back(datosXml.getValue("titulo_eng", ""));
+                        rectangulos.at(3)->titular_fr.push_back(datosXml.getValue("titulo_fr", ""));
                         
                         // comprobamos los pies
                         
@@ -684,6 +701,10 @@ void fichaInfo::cargaXml(){
                         rectangulos.at(1)->txt_eng.push_back(datosXml.getValue("txt_eng", ""));
                         rectangulos.at(1)->txt_fr.push_back(datosXml.getValue("txt_fr", ""));
                         
+                        rectangulos.at(1)->titular_cast.push_back(datosXml.getValue("titulo_cast", ""));
+                        rectangulos.at(1)->titular_gal.push_back(datosXml.getValue("titulo_gal", ""));
+                        rectangulos.at(1)->titular_eng.push_back(datosXml.getValue("titulo_eng", ""));
+                        rectangulos.at(1)->titular_fr.push_back(datosXml.getValue("titulo_fr", ""));
                         
                         
                         // comprobamos los pies

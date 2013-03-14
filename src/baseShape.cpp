@@ -97,6 +97,11 @@ baseShape::~baseShape(){
     
     pies_fr_titular.clear();
     pies_fr_cuerpo.clear();
+    
+    titular_cast.clear();
+    titular_eng.clear();
+    titular_gal.clear();
+    titular_fr.clear();
 }
 
 bool  baseShape::suicidate(){

@@ -61,6 +61,11 @@ public:
     vector<string>  txt_fr_mini;
     vector<string>  txt_gal_mini;
     
+    vector<string>  titular_cast_mini;
+    vector<string>  titular_eng_mini;
+    vector<string>  titular_fr_mini;
+    vector<string>  titular_gal_mini;
+    
     vector<string>  pies_cast_titular_mini;
     vector<string>  pies_cast_cuerpo_mini;
     

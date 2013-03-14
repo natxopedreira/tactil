@@ -81,6 +81,11 @@ public:
     vector<string>  pies_fr_titular;
     vector<string>  pies_fr_cuerpo;
     
+    vector<string>  titular_cast;
+    vector<string>  titular_eng;
+    vector<string>  titular_gal;
+    vector<string>  titular_fr;
+    
 private:
     ofPoint vel;
     ofPoint acc;

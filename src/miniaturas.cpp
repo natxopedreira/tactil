@@ -55,6 +55,11 @@ miniaturas::~miniaturas(){
     
     pies_fr_titular_mini.clear();
     pies_fr_cuerpo_mini.clear();
+    
+    titular_cast_mini.clear();
+    titular_eng_mini.clear();
+    titular_fr_mini.clear();
+    titular_gal_mini.clear();
 }
 
 // ---------------------------------------
@@ -173,10 +178,12 @@ void miniaturas::limpiaMinis(){
     
 	thumbs.clear();
     urls_mini.clear();
+    
 	txt_cast_mini.clear();
 	txt_eng_mini.clear();
 	txt_fr_mini.clear();
     
+
 }
 
 // ---------------------------------------
@@ -493,19 +500,23 @@ void miniaturas::creaGrid(ofColor _color){
     // cargas la url de la primera thumb en el visualizador
     switch (lenguaje) {
         case IDIOMA_CAST:
-                anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
+            anclaVisualizador->ponTexto(titular_cast_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);    
+            //anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
             break;
             
         case IDIOMA_GAL:
-                anclaVisualizador->ponTexto(pies_gal_titular_mini[0], pies_gal_cuerpo_mini[0], txt_gal_mini[0]);
+            anclaVisualizador->ponTexto(titular_gal_mini[0], pies_gal_cuerpo_mini[0], txt_gal_mini[0]);    
+            //anclaVisualizador->ponTexto(pies_gal_titular_mini[0], pies_gal_cuerpo_mini[0], txt_gal_mini[0]);
             break;
             
         case IDIOMA_ENG:
-                anclaVisualizador->ponTexto(pies_eng_titular_mini[0], pies_eng_cuerpo_mini[0], txt_eng_mini[0]);
+            anclaVisualizador->ponTexto(titular_eng_mini[0], pies_eng_cuerpo_mini[0], txt_eng_mini[0]);
+            //anclaVisualizador->ponTexto(pies_eng_titular_mini[0], pies_eng_cuerpo_mini[0], txt_eng_mini[0]);
             break;
             
         case IDIOMA_FR:
-                anclaVisualizador->ponTexto(pies_fr_titular_mini[0], pies_fr_cuerpo_mini[0], txt_fr_mini[0]);
+            anclaVisualizador->ponTexto(titular_fr_mini[0], pies_fr_cuerpo_mini[0], txt_fr_mini[0]);
+            //anclaVisualizador->ponTexto(pies_fr_titular_mini[0], pies_fr_cuerpo_mini[0], txt_fr_mini[0]);
             break;
             
         default:
