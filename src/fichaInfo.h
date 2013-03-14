@@ -45,6 +45,7 @@ public:
     void    cambiaSeccion(int _cuala);
     void    cargaMinis(int _index);
     void    cargaImagenes();
+    void    onCompleteCambio(float* arg);
 	//
     // construccion de la figura
 	void    construFigura();
@@ -54,9 +55,6 @@ public:
 	void    cambiaKHorizontal(float v);
 	void    cambiaDampMiniaturas(float v);
     
-    
-    void    onCompleteCambio(float* arg);
-    
     //
     // piezas para la figura
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
@@ -65,40 +63,29 @@ public:
 	boton   btnImagenes;
 	boton   btnCuadros;
 	boton   btnPeriodicos;
-    //boton btnInfo;
+    boton   castellano, gallego, ingles, frances;
+    
+    miniaturas  minis;
 	visualizador    areaGrande;
 
     int totalFichas;
     int totalImagenes;
     int totalCuadros;
     int totalperiodicos;
-    
+    int	idLeader;
     int visualizadorWidth;
     int visualizadorheight;
-    
-    ///
-   // botones lenguaje;
-    boton   castellano, gallego, ingles, frances;
+    int seccionActiva;
+
+    bool    abierta;
     bool    verIdiomas;
-    //
-    // variables
-	int	idLeader;
-    float px,py;
-	int seccionActiva;
-    
-    // vars gui
-	float   kmuelles, kMuellesDiagonales, kHorizontal;
+
+    float   kmuelles, kMuellesDiagonales, kHorizontal;
     float   dampcajas, dampCajasMiniaturas;
-    
-    // visualizador de miniaturas
-    miniaturas  minis;
-    
-    //
-    bool    abierta; //// animacion de inicio de ficha
     float   anchoGrande,    altoGrande;
+    float px,py;
     
     ofTrueTypeFont  fuenteBotones;
-    
     ofxXmlSettings  datosXml;
 };
 #endif

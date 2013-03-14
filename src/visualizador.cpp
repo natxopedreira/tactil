@@ -157,13 +157,15 @@ void visualizador::update(){
  
     visor.update();
     
-    btnInfo.x = (this->x + this->width - btnInfo.width);
-    btnInfo.y = (this->y + this->height + (btnInfo.height/2) +cantidadCrece);
+    float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
+    float difY = (this->y + this->height + (btnInfo.height/2) +cantidadCrece)-(btnInfo.y);
+    
+    btnInfo.x += difX * .4;
+    btnInfo.y += difY * .5;
 
 }
 void visualizador::cargaImagen(string _url){
     visor.cargaImagen("imagenes/full/"+_url);
-    // imagen.loadImage("imagenes/full/"+_url);
     imgVisible = true;
 }
 
