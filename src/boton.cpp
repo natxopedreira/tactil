@@ -38,9 +38,9 @@ void boton::desactivate(){
 
 void boton::drawContxt(ofTrueTypeFont & fuente){
     if(botonIdiomaCheck){
-        ofSetColor(idiomaActivoColor);
+        ofSetColor(idiomaActivoColor.r, idiomaActivoColor.g, idiomaActivoColor.b);
     }else{
-        ofSetColor(idiomaColor);
+        ofSetColor(idiomaColor.r, idiomaColor.g, idiomaColor.b, 200);
     }
     
     roundedRect(this->x, this->y, this->width, this->height,5);

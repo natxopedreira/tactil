@@ -12,9 +12,9 @@ fichaInfo::fichaInfo(){
 
 	idLeader = 0;
     
-    kmuelles = 0.115;
-	kHorizontal = 0.205;
-	kMuellesDiagonales = 0.245;
+    kmuelles = 0.30;
+	kHorizontal = 0.305;
+	kMuellesDiagonales = 0.325;
 	
 	dampCajasMiniaturas = 0.35;
 	dampcajas = 0.55;
@@ -165,6 +165,9 @@ void fichaInfo::update(){
 
 //--------------------------------------------------------------
 void fichaInfo::draw(){
+    
+    ofPushStyle();
+    
 	ofSetColor(255, 255, 255,255);
     
     /// muelles
@@ -191,6 +194,8 @@ void fichaInfo::draw(){
         gallego.drawContxt(fuenteBotones);
         castellano.drawContxt(fuenteBotones);
     }
+    
+    ofPopStyle();
 }
 
 //  callback animacion del inicio

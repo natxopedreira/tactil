@@ -140,6 +140,10 @@ void miniaturas::update(){
 	for(int i = 0; i < springs.size(); i++){
 		springs[i]->update();
 	}
+    
+    
+    
+    cout << _kMuellesDiagonales << endl;
 }
 
 // ---------------------------------------
