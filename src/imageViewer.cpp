@@ -9,8 +9,11 @@
 #include "imageViewer.h"
 
 imageViewer::imageViewer(){}
+
+// ---------------------------------------
 imageViewer::~imageViewer(){}
 
+// ---------------------------------------
 void imageViewer::setup(float _anchoMax, float _altoMax){
     anchoMax = _anchoMax;
     altoMax = _altoMax;
@@ -23,6 +26,27 @@ void imageViewer::setup(float _anchoMax, float _altoMax){
     escalaX = 1;
     escalaY = 1;
 }
+
+// ---------------------------------------
+void imageViewer::update(){
+    fbo.begin();
+    ofPushMatrix();
+    ofClear(255);
+    ofSetColor(255);
+    ofScale(escalaX, escalaY);
+    if(imagen.isAllocated()){
+        imagen.draw(0,0, imagen.width, imagen.height);
+    }
+    ofPopMatrix();
+    fbo.end();
+}
+
+// ---------------------------------------
+void imageViewer::draw(float _px, float _py){
+    if(imagen.isAllocated()) fbo.draw(_px, _py);
+}
+
+// ---------------------------------------
 void imageViewer::cambiaTamano(float _nuevoAlto){
     
     if(altoMax != _nuevoAlto){
@@ -31,23 +55,7 @@ void imageViewer::cambiaTamano(float _nuevoAlto){
     }
 }
 
-void imageViewer::update(){
-    fbo.begin();
-    ofPushMatrix();
-        ofClear(255);
-        ofSetColor(255);
-        ofScale(escalaX, escalaY);
-            if(imagen.isAllocated()){
-                imagen.draw(0,0, imagen.width, imagen.height);
-            }
-    ofPopMatrix();
-    fbo.end();
-}
-
-void imageViewer::draw(float _px, float _py){
-    if(imagen.isAllocated()) fbo.draw(_px, _py);
-}
-
+// ---------------------------------------
 void imageViewer::cargaImagen(string _url){
     imagen.loadImage(_url);
     float ratio = imagen.getWidth()/imagen.getHeight();

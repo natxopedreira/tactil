@@ -52,7 +52,6 @@ public:
     float   radio;
     float   k,damp;
     
-    
 	bool    _listas; // si las minis esta colocadas
     
     int miniActiva;

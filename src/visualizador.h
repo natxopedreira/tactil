@@ -18,36 +18,34 @@ class visualizador : public baseShape {
 public:
 	visualizador();
 	~visualizador();
-    
-    void    cargaImagen(string _url);
-    void    drawVisualizador();
+
     void    setup();
     void    update();
+    void    drawVisualizador();
     
+    void    cargaImagen(string _url);
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
-    ofTrueTypeFont  fuente,fuenteCuerpo,fuenteInfo;
-    string  titularPie, pie, informacion;
-    
-    void    mouseMoved(ofMouseEventArgs & args);
     void    mouseDragged(ofMouseEventArgs & args);
     void    mousePressed(ofMouseEventArgs & args);
     void    mouseReleased(ofMouseEventArgs & args);
+    void    mouseMoved(ofMouseEventArgs & args);
+
+    boton   btnInfo;
+    imageViewer visor;
     
     ofRectangle areaPieTitular;
-    bool    verPie;
-    int cont;
+    ofTrueTypeFont  fuente,fuenteCuerpo,fuenteInfo;
+    ofVec2f offsetDrag;
+    
+    string  titularPie, pie, informacion;
+    
     float   altoTexto,altoTextoInfo;
     float   desfaseAltoTextoInfo;
     
-    // offset para el dragging
-    ofVec2f offsetDrag;
+    bool    verPie;
     
-    boton   btnInfo;
-    
-    
-    imageViewer visor;
-    
+    int cont;
     int posxrect;
     int posyrect;
     int poswrect;

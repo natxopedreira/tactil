@@ -19,6 +19,7 @@ public:
     void    setup(float _anchoMax, float _altoMax);
     void    update();
     void    draw(float _px, float _py);
+    
     void    cargaImagen(string _url);
     void    cambiaTamano(float _nuevoAlto);
     

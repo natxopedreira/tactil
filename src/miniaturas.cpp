@@ -23,6 +23,7 @@ miniaturas::miniaturas(){
     lenguaje = IDIOMA_CAST;
 }
 
+// ---------------------------------------
 miniaturas::~miniaturas(){
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
@@ -56,6 +57,7 @@ miniaturas::~miniaturas(){
     pies_fr_cuerpo_mini.clear();
 }
 
+// ---------------------------------------
 void miniaturas::setup(float _px, float _py, ofColor _color){
 	_listas = false;
 	//limpiaMinis();
@@ -74,12 +76,92 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
 	/// create el grid
     /// si hay minis
     if(thumbs.size()>0) creaGrid(_color);
-    
-    
 }
+
+// ---------------------------------------
+void miniaturas::update(){
+	/// todos se repelen entre si
+	
+	
+	for(int i = 0; i < thumbsSalida.size(); i++){
+		// aqui se animan para irse de la pantalla
+		if(!thumbsSalida[i]->suicidate()){
+			ofPoint ptoCaete;
+			ptoCaete.x += ofRandom(-2,2);
+			ptoCaete.y += ofRandom(4,6);
+            
+			thumbsSalida[i]->addForce(ptoCaete);
+			thumbsSalida[i]->update();
+		}else{
+			thumbsSalida.erase(thumbsSalida.begin()+i);
+		}
+		
+	}
+	
+	for(int i = 0; i < thumbs.size(); i++){
+		int index = i;
+		
+		/*
+		 repulsion para los botones
+		 */
+		//repelen el fondo del visualizador
+		/*
+		 p9     p4     p8
+		 |             |
+		 p3 -p5-p6-p7- p2
+		 */
+		
+		for(int j = 0; j < thumbs.size(); j++){
+			if(i != j){
+				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
+			}
+		}
+        
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);	
+		
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
+		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
+        //thumbs.at(i)->bounceOffWalls();
+		
+		thumbs.at(i)->update();
+	}
+    
+	for(int i = 0; i < springs.size(); i++){
+		springs[i]->update();
+	}
+}
+
+// ---------------------------------------
+void miniaturas::drawCircle(){
+    ofPushMatrix();
+	
+	for(int i = 0; i < springs.size(); i++){
+		springs[i]->draw();
+	}
+    
+    for (int i = 0; i < thumbs.size(); i++) {
+        thumbs[i]->drawThumb();
+    }
+	
+	for(int i = 0; i < thumbsSalida.size(); i++){
+		thumbsSalida[i]->drawThumb();
+	}
+    
+    ofPopMatrix(); 
+}
+
+// ---------------------------------------
 void miniaturas::setAncla(visualizador * a){
     anclaVisualizador = a;
 }
+
+// ---------------------------------------
 void miniaturas::limpiaMinis(){
 	/// antes miramos si ya hay minis
 	
@@ -97,17 +179,13 @@ void miniaturas::limpiaMinis(){
     
 }
 
+// ---------------------------------------
 void miniaturas::creaGrid(ofColor _color){
 
     /////// arreglo de Patricio
     /////// thanks !!!!!
-
-	
-    
     int cuantas = thumbs.size();
     int numColumnas = 5;
-
-    
     //  Crear una tabla de punteros donde re organizar los elementos
     //
     vector< vector<thumb*> > tabla;
@@ -117,8 +195,6 @@ void miniaturas::creaGrid(ofColor _color){
     }
     int anchoMini = 70;
     int altoMini = 70;
-	
-	
     //  Posicionar los elementos y popular los punteros en la tabla
     //
     int col = 0;
@@ -414,11 +490,7 @@ void miniaturas::creaGrid(ofColor _color){
     /// marcas la primera como activa
     thumbs[0]->activala();
     
-    
     // cargas la url de la primera thumb en el visualizador
-    
-    
-    
     switch (lenguaje) {
         case IDIOMA_CAST:
                 anclaVisualizador->ponTexto(pies_cast_titular_mini[0], pies_cast_cuerpo_mini[0], txt_cast_mini[0]);
@@ -444,84 +516,9 @@ void miniaturas::creaGrid(ofColor _color){
     
 }
 
-void miniaturas::update(){
-	/// todos se repelen entre si
-	
-	
-	for(int i = 0; i < thumbsSalida.size(); i++){
-		// aqui se animan para irse de la pantalla
-		if(!thumbsSalida[i]->suicidate()){
-			ofPoint ptoCaete;
-			ptoCaete.x += ofRandom(-2,2);
-			ptoCaete.y += ofRandom(4,6);
-		
-			thumbsSalida[i]->addForce(ptoCaete);
-			thumbsSalida[i]->update();
-		}else{
-			thumbsSalida.erase(thumbsSalida.begin()+i);
-		}
-		
-	}
-	
-	for(int i = 0; i < thumbs.size(); i++){
-		int index = i;
-		
-		/*
-		 repulsion para los botones
-		 */
-		//repelen el fondo del visualizador
-		/*
-		 p9     p4     p8
-		 |             |
-		 p3 -p5-p6-p7- p2
-		 */
-		
-		for(int j = 0; j < thumbs.size(); j++){
-			if(i != j){
-				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
-			}
-		}
-
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);	
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
-		
-		
-        //thumbs.at(i)->bounceOffWalls();
-		
-		 
-		thumbs.at(i)->update();
-	}
-    
-	for(int i = 0; i < springs.size(); i++){
-		springs[i]->update();
-	}
-}
-
-void miniaturas::drawCircle(){
-    ofPushMatrix();
-	
-	for(int i = 0; i < springs.size(); i++){
-		springs[i]->draw();
-	}
-
-    for (int i = 0; i < thumbs.size(); i++) {
-        thumbs[i]->drawThumb();
-    }
-	
-	for(int i = 0; i < thumbsSalida.size(); i++){
-		thumbsSalida[i]->drawThumb();
-	}
-    
-    ofPopMatrix(); 
-}
+///-----------------
+///----------------- VALORES GUI 
+///-----------------
 
 void miniaturas::cambiaK(float v){
     /// seteamos un nuevo valor k para los muelles

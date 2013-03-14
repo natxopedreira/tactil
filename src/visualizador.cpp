@@ -40,14 +40,96 @@ visualizador::visualizador(){
     poshrect = 10;
 }
 
+// ---------------------------------------
+visualizador::~visualizador(){
+    ofUnregisterMouseEvents(this);
+}
+
+// ---------------------------------------
 void visualizador::setup(){
     visor.setup(480, 350);
     ofRegisterMouseEvents(this);
     
 }
-visualizador::~visualizador(){
-    ofUnregisterMouseEvents(this);
+
+// ---------------------------------------
+void visualizador::update(){
+
+    poswrect = this->width;
+    poshrect = this->height;
+    posxrect = this->x+10;
+    posyrect = this->y+10;
+    
+    if(poswrect != (this->width - 20 * this->escala) || poshrect != (this->height-50 * this->escala)){
+        this->setWidth(poswrect);
+        this->setHeight(poshrect);
+    }
+    
+    visor.update();
+    
+    float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
+    float difY = (this->y + this->height + (btnInfo.height/2) +cantidadCrece)-(btnInfo.y);
+    
+    btnInfo.x += difX * .4;
+    btnInfo.y += difY * .5;    
 }
+
+// ---------------------------------------
+void visualizador::drawVisualizador(){
+    drawRound(); // la base
+    
+    
+    
+    if(verInfo) poshrect += desfaseAltoTextoInfo;
+    
+    ofRectangle rect = fuente.getStringBoundingBox(titularPie, 0, 0);
+    
+    
+    
+    ofPushStyle();
+    ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
+    
+    if(imgVisible) visor.draw(posxrect,posyrect);
+    
+    ofSetColor(0, 0, 0);
+    
+    
+    if(!verInfo) fuente.drawString(titularPie, this->x + 10, this->y + this->height - 15);
+    
+    areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 20, rect.height + 20);
+    
+    
+    if(verPie && cantidadCrece == altoTexto){
+        fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 30);
+    }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
+        
+        ofSetColor(0,210);
+        ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
+        ofSetColor(255);
+        
+        fuenteInfo.drawString(informacion, posxrect+10, posyrect + 20);
+    }
+    
+    
+    btnInfo.color.set(this->color.r,this->color.g,this->color.b);
+    btnInfo.drawRound();
+    
+    
+    ofSetColor(0);
+    ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
+    
+    ofPopStyle();
+    
+    if(btnInfo.activo){
+        ofPushStyle();
+            ofNoFill();
+            ofSetColor(0);
+            ofSetLineWidth(2);
+            btnInfo.roundedRect(btnInfo.x,btnInfo.y,btnInfo.width,btnInfo.height,5);
+        ofPopStyle();
+    }
+}
+// ---------------------------------------
 string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {  
     
     string typeWrapped = "";  
@@ -80,100 +162,19 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
     return typeWrapped;  
     
 } 
-void visualizador::drawVisualizador(){
-    drawRound(); // la base
 
-
-    
-    if(verInfo) poshrect += desfaseAltoTextoInfo;
-    
-    ofRectangle rect = fuente.getStringBoundingBox(titularPie, 0, 0);
-
-    
-    
-    ofPushStyle();
-    ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
-    
-    if(imgVisible) visor.draw(posxrect,posyrect);
-    
-    ofSetColor(0, 0, 0);
-    
-    
-    if(!verInfo) fuente.drawString(titularPie, this->x + 10, this->y + this->height - 15);
-    
-    areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 20, rect.height + 20);
-    
-    
-    if(verPie && cantidadCrece == altoTexto){
-        fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 30);
-    }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
-        
-        ofSetColor(0,210);
-        ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
-        ofSetColor(255);
-        
-        fuenteInfo.drawString(informacion, posxrect+10, posyrect + 20);
-    }
-
-    
-    btnInfo.color.set(this->color.r,this->color.g,this->color.b);
-    btnInfo.drawRound();
-
-    
-    ofSetColor(0);
-    ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
-
-    
-    ofPopStyle();
-
-    
-    
-    if(btnInfo.activo){
-        ofPushStyle();
-            ofNoFill();
-            ofSetColor(0);
-            ofSetLineWidth(2);
-            btnInfo.roundedRect(btnInfo.x,btnInfo.y,btnInfo.width,btnInfo.height,5);
-            //btnInfo.drawRound();
-        ofPopStyle();
-    }
-    
-
-}
-void visualizador::update(){
-    
-    
-
-    poswrect = this->width;
-    poshrect = this->height;
-    posxrect = this->x+10;
-    posyrect = this->y+10;
-    
-    if(poswrect != (this->width - 20 * this->escala) || poshrect != (this->height-50 * this->escala)){
-        this->setWidth(poswrect);
-        this->setHeight(poshrect);
-    }
-    
- 
-    visor.update();
-    
-    float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
-    float difY = (this->y + this->height + (btnInfo.height/2) +cantidadCrece)-(btnInfo.y);
-    
-    btnInfo.x += difX * .4;
-    btnInfo.y += difY * .5;
-
-}
+// ---------------------------------------
 void visualizador::cargaImagen(string _url){
     visor.cargaImagen("imagenes/full/"+_url);
     imgVisible = true;
 }
 
+// ---------------------------------------
 void visualizador::ponTexto(string _titularPie,string _pie, string _informacion){
     pie = wrapString(_pie,480,fuenteCuerpo);
     titularPie = _titularPie;
     cont = x + 200;
-    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 80;
+    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 50;
     crece(altoTexto);
     
     informacion = wrapString(_informacion,460,fuenteInfo);
@@ -187,6 +188,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     btnInfo.activo = verInfo;
 }
 
+// ---------------------------------------
 void visualizador::mouseDragged(ofMouseEventArgs & args){
         /// estas drageando un boton o el visualizador
     if(drag){
@@ -197,6 +199,7 @@ void visualizador::mouseDragged(ofMouseEventArgs & args){
     }
 }
 
+// ---------------------------------------
 void visualizador::mousePressed(ofMouseEventArgs & args){
     ofRectangle areamasaltura;
     areamasaltura.set(this->x, this->y, this->width, this->height + cantidadCrece);
@@ -206,6 +209,7 @@ void visualizador::mousePressed(ofMouseEventArgs & args){
     }
 }
 
+// ---------------------------------------
 void visualizador::mouseReleased(ofMouseEventArgs & args){
     if(drag){
         drag = false;
@@ -227,4 +231,6 @@ void visualizador::mouseReleased(ofMouseEventArgs & args){
     }
 }
 
+// ---------------------------------------
 void visualizador::mouseMoved(ofMouseEventArgs & args){}
+
