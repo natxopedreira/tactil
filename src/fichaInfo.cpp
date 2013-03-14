@@ -104,33 +104,44 @@ void fichaInfo::update(){
     areaGrande.height = altoGrande;
     //areaGrande.scaleFromCenter(escalaGrande);
 
+    
+    
 	/// todos se repelen entre si
+/*
 	for(int i = 0; i < rectangulos.size(); i++){
 		int index = i;
-		/*
-		repulsion para los botones
-		 */
 		for(int j = 0; j < rectangulos.size(); j++){
 			if(i != j && (!rectangulos.at(j)->useBtnIdioma && !rectangulos.at(i)->useBtnIdioma)) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,80);
 		}
         
-       // rectangulos.at(i)->bounceOffWalls();
 		rectangulos.at(i)->update();
-	}
-    //
+	}*/
+    
+    
+    
+    // update rectangulos
+    for (vector<baseShape*>::iterator itRect = rectangulos.begin(); itRect!=rectangulos.end(); ++itRect) {
+        
+        for (vector<baseShape*>::iterator itRectR = itRect; itRectR!=rectangulos.end(); ++itRectR) {
+            
+            if((*itRect) != (*itRectR) && !(*itRect)->useBtnIdioma && !(*itRectR)->useBtnIdioma){
+                (*itRectR)->addRepulsionForce((*itRect), 80, 80);
+            }
+        }
+        
+        (*itRect)->update();
+    }
 
-	
-	for(int i = 0; i < muelles.size(); i++){
-		muelles.at(i)->update();
-	}
+    // update muelles
+    for (vector<Spring*>::iterator itMuelle = muelles.begin(); itMuelle!=muelles.end(); ++itMuelle) {
+        (*itMuelle)->update();
+    }
+
     
     // movemos las miniaturas
     
 	areaGrande.update();
     minis.update();
-    
-    
-    
     
     
     /// algo de elasticidad para los botones de los idiomas

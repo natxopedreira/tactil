@@ -86,7 +86,10 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
 // ---------------------------------------
 void miniaturas::update(){
 	/// todos se repelen entre si
-	
+
+    
+    
+    /*
 	
 	for(int i = 0; i < thumbsSalida.size(); i++){
 		// aqui se animan para irse de la pantalla
@@ -101,52 +104,101 @@ void miniaturas::update(){
 			thumbsSalida.erase(thumbsSalida.begin()+i);
 		}
 		
-	}
-	
-	for(int i = 0; i < thumbs.size(); i++){
-		int index = i;
-		
-		/*
-		 repulsion para los botones
-		 */
-		//repelen el fondo del visualizador
-		/*
-		 p9     p4     p8
-		 |             |
-		 p3 -p5-p6-p7- p2
-		 */
-		
-		for(int j = 0; j < thumbs.size(); j++){
-			if(i != j){
-				thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
-			}
-		}
-        
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);	
-		
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
-		thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
-        //thumbs.at(i)->bounceOffWalls();
-        
-        /// churro hack para hacer que las minis no pisen nunca el visualizador
-        ofRectangle rt;
-        rt.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height + anclaVisualizador->cantidadCrece));
-        if(rt.intersects(*thumbs.at(i))){
-            thumbs.at(i)->addForce(ofPoint(0,200));
+	}*/
+    /*
+     for(int i = 0; i < thumbs.size(); i++){
+     int index = i;
+     
+     
+     for(int j = 0; j < thumbs.size(); j++){
+     if(i != j){
+     thumbs.at(j)->addRepulsionForce(thumbs.at(i),90,80);
+     }
+     }
+     
+     
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
+     
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);	
+     
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
+     thumbs.at(i)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
+     
+     ofRectangle rt;
+     rt.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height + anclaVisualizador->cantidadCrece));
+     if(rt.intersects(*thumbs.at(i))){
+     thumbs.at(i)->addForce(ofPoint(0,200));
+     }
+     
+     thumbs.at(i)->update();
+     }*/
+    
+    /*
+     for(int i = 0; i < springs.size(); i++){
+     springs[i]->update();
+     }*/
+    
+    
+    /*
+     p9     p4     p8
+     |             |
+     p3 -p5-p6-p7- p2
+     */
+    
+    
+    // thumbs de salida
+    for (vector<thumb*>::iterator itThumbs = thumbsSalida.begin(); itThumbs!=thumbsSalida.end();) {
+        if(!(*itThumbs)->suicidate()){
+            
+            ofPoint ptoCaete;
+			ptoCaete.x += ofRandom(-2,2);
+			ptoCaete.y += ofRandom(4,6);
+            
+            (*itThumbs)->addForce(ptoCaete);
+            (*itThumbs)->update();
+            
+            ++itThumbs;
+        }else {
+            delete *itThumbs;  
+            thumbsSalida.erase(itThumbs); 
+        }
+    }
+    
+    
+    // thumbs de lo que estas viendo
+	for (vector<thumb*>::iterator itThumb = thumbs.begin(); itThumb!=thumbs.end();++itThumb) {
+        for (vector<thumb*>::iterator itThumb2 = itThumb; itThumb2!=thumbs.end(); ++itThumb2) {
+            (*itThumb)->addRepulsionForce((*itThumb2),90,80);
         }
         
-		thumbs.at(i)->update();
-	}
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
+        
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);
+        
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
+        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
+        
+        ofRectangle r;
+        r.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height + anclaVisualizador->cantidadCrece));
+        
+        if(r.intersects(*(*itThumb))){
+            (*itThumb)->addForce(ofPoint(0,200));
+        }
+        
+        (*itThumb)->update();
+    }
     
-	for(int i = 0; i < springs.size(); i++){
-		springs[i]->update();
-	}
+    
+    // muelles
+    for (vector<Spring*>::iterator itSpring = springs.begin(); itSpring!=springs.end(); ++itSpring) {
+        (*itSpring)->update();
+    }
     
 }
 
