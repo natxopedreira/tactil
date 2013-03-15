@@ -25,6 +25,7 @@ miniaturas::miniaturas(){
 
 // ---------------------------------------
 miniaturas::~miniaturas(){
+    
     for (int i = 0; i < thumbs.size(); i++) {
         delete thumbs[i];
     }
@@ -33,7 +34,7 @@ miniaturas::~miniaturas(){
         delete thumbsSalida[i];
     }
 	
-	delete anclaVisualizador;
+	//delete anclaVisualizador;
 	
     thumbs.clear();
 	thumbsSalida.clear();

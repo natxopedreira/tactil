@@ -64,6 +64,7 @@ public:
 	boton   btnCuadros;
 	boton   btnPeriodicos;
     boton   castellano, gallego, ingles, frances;
+    boton   cerrar;
     
     miniaturas  minis;
 	visualizador    areaGrande;
@@ -79,6 +80,7 @@ public:
 
     bool    abierta;
     bool    verIdiomas;
+    bool    debesMorir;
 
     float   kmuelles, kMuellesDiagonales, kHorizontal;
     float   dampcajas, dampCajasMiniaturas;

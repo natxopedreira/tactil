@@ -16,6 +16,8 @@ boton::boton(){
     idiomaColor.set(200,200,200);
     idiomaActivoColor.set(200,200,200);
     botonIdiomaCheck = false;
+    
+    botonClose = false;
 }
 
 boton::~boton(){

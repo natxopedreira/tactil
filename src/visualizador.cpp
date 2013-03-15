@@ -49,7 +49,6 @@ visualizador::~visualizador(){
 void visualizador::setup(){
     visor.setup(480, 350);
     ofRegisterMouseEvents(this);
-    
 }
 
 // ---------------------------------------

@@ -38,6 +38,7 @@ fichaInfo::fichaInfo(){
     totalperiodicos = 0;
     
     verIdiomas = false;
+    debesMorir = false;
 }
 
 fichaInfo::~fichaInfo(){
@@ -48,14 +49,15 @@ fichaInfo::~fichaInfo(){
 	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
 	
 	for(int i = 0; i < muelles.size(); i++){
-		delete muelles[i]; 
+		//delete muelles[i]; 
 	}
 	muelles.clear();	
 	
 	for(int i = 0; i < rectangulos.size(); i++){
-		delete rectangulos[i];
+		//delete rectangulos[i];
 	}
 	rectangulos.clear();
+     
 }
 
 
@@ -102,21 +104,6 @@ void fichaInfo::update(){
 
     areaGrande.width = anchoGrande;
     areaGrande.height = altoGrande;
-    //areaGrande.scaleFromCenter(escalaGrande);
-
-    
-    
-	/// todos se repelen entre si
-/*
-	for(int i = 0; i < rectangulos.size(); i++){
-		int index = i;
-		for(int j = 0; j < rectangulos.size(); j++){
-			if(i != j && (!rectangulos.at(j)->useBtnIdioma && !rectangulos.at(i)->useBtnIdioma)) rectangulos.at(j)->addRepulsionForce(rectangulos.at(i),80,80);
-		}
-        
-		rectangulos.at(i)->update();
-	}*/
-    
     
     
     // update rectangulos
@@ -149,28 +136,32 @@ void fichaInfo::update(){
     float dEngx = (frances.x - ingles.width - 5)-(ingles.x);
     float dCastx = (gallego.x - castellano.width - 5)-(castellano.x);
     float dGalx = (ingles.x - gallego.width - 5)-(gallego.x);
+    float dClosex = (areaGrande.x)-(cerrar.x);
     
     float dFry = (areaGrande.y - 27)-(frances.y);
     float dCasty = (areaGrande.y - 27)-(castellano.y);
     float dGly = (areaGrande.y - 27)-(gallego.y);
     float Engy = (areaGrande.y - 27)-(ingles.y);
-    
+    float dClosey = (areaGrande.y + areaGrande.cantidadCrece + areaGrande.height+10)-(cerrar.y);
     
     frances.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
     ingles.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
     gallego.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
     castellano.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
     
+    
     frances.x += dFrx * .5;
     ingles.x += dEngx * .6;
     castellano.x += dCastx * .7;
     gallego.x += dGalx * .75;
+    cerrar.x += dClosex * .75;
     
     
     frances.y += dFry * .4;
     ingles.y += Engy * .5;
     gallego.y += dGly * .6;
-    castellano.y += dCasty * .5; 
+    castellano.y += dCasty * .5;
+    cerrar.y += dClosey * .5;
     
 }
 
@@ -204,6 +195,8 @@ void fichaInfo::draw(){
         ingles.drawContxt(fuenteBotones);
         gallego.drawContxt(fuenteBotones);
         castellano.drawContxt(fuenteBotones);
+        
+        cerrar.drawContxt(fuenteBotones);
     }
     
     ofPopStyle();
@@ -569,10 +562,21 @@ void fichaInfo::construFigura(){
     frances.nombre = "francaise"; 
     frances.useBtnIdioma = true;
     
+    ///boton cerrar ficha
+    cerrar.width = 20;
+    cerrar.height = 22;
+    cerrar.x = 10;
+    cerrar.y = 10;
+    cerrar.nombre = "X";
+    cerrar.useBtnIdioma = true;
+    cerrar.botonClose = true;
+    
     rectangulos.push_back(&castellano);
     rectangulos.push_back(&gallego);
     rectangulos.push_back(&ingles);
     rectangulos.push_back(&frances);
+    rectangulos.push_back(&cerrar);
+    
 }
 
 
@@ -865,6 +869,9 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                     cargaImagenes();
                 }else{
                     ingles.botonIdiomaCheck = false;
+                }
+                if(n== "X"){
+                    debesMorir = true;
                 }
                 
             }

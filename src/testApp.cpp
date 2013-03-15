@@ -3,9 +3,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	ofSetVerticalSync(true);
-	ofEnableSmoothing();
 	ofBackground(40,40,40);
-	//ofSetLogLevel(OF_LOG_VERBOSE);
     
     Tweenzor::init();
     
@@ -47,32 +45,26 @@ void testApp::setup(){
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
     
-    for (vector<fichaInfo*>::iterator itFicha = fichas.begin(); itFicha!=fichas.end();++itFicha) {
-        for (vector<fichaInfo*>::iterator itFicha2 = itFicha; itFicha2!=fichas.end(); ++itFicha2) {
-            if(((*itFicha)!=(*itFicha2)) && (*itFicha)->areaGrande.intersects((*itFicha2)->areaGrande) && (*itFicha2)->areaGrande.leader){
-                (*itFicha2)->areaGrande.addRepulsionForce(&(*itFicha)->areaGrande, 800, 100);
-            }
-        }
-        
-        (*itFicha)->update();
-    }
-    /*
-	for(int i = 0; i < fichas.size(); i++){
-        for (int j = 0; j < fichas.size(); j++) {
-            
-            if(j!=i){
-                if(fichas.at(i)->areaGrande.intersects(fichas.at(j)->areaGrande)){
-                    if(fichas.at(j)->areaGrande.leader) fichas.at(j)->areaGrande.addRepulsionForce(&fichas.at(i)->areaGrande, 800, 100);
+    for (vector<fichaInfo*>::iterator itFicha = fichas.begin(); itFicha!=fichas.end();) {
+            if(!(*itFicha)->debesMorir){
+                for (vector<fichaInfo*>::iterator itFicha2 = itFicha; itFicha2!=fichas.end(); ++itFicha2) {
+                    if(((*itFicha)!=(*itFicha2)) && (*itFicha)->areaGrande.intersects((*itFicha2)->areaGrande) && (*itFicha2)->areaGrande.leader){
+                        (*itFicha2)->areaGrande.addRepulsionForce(&(*itFicha)->areaGrande, 800, 100);
+                    }
                 }
+            (*itFicha)->update();
+            ++itFicha;
+            
+            }else{
+                delete *itFicha;  
+                fichas.erase(itFicha); 
             }
-        }
-		fichas[i]->update();
-	}*/
+    }
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    plano.draw(0, 0);
+    //plano.draw(0, 0);
     
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
