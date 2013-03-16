@@ -55,12 +55,6 @@ fichaInfo::~fichaInfo(){
         }
 	}
 	muelles.clear();	
-	
-	for(int i = 0; i < rectangulos.size(); i++){
-		//delete rectangulos[i];
-        //delete rectangulos.back();
-        //rectangulos.pop_back();
-	}
 	rectangulos.clear();
      
 }

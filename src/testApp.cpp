@@ -40,12 +40,26 @@ void testApp::setup(){
 	fichas.push_back(ficha);
 }
 
-
 //--------------------------------------------------------------
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
-
     
+    for (int i = fichas.size()-1; i >= 0 ; i--){
+        fichas[i]->update();
+        if (!fichas[i]->debesMorir ){
+            for (int j = i; j >= 0; j--){
+                if (j != i)
+                    if ((fichas[i]->areaGrande.intersects( fichas[j]->areaGrande )) && (fichas[j]->areaGrande.leader)){
+                        fichas[j]->areaGrande.addRepulsionForce( &fichas[i]->areaGrande, 800, 100);
+                    }
+            }
+        } else {
+            delete fichas[i];
+            fichas.erase(fichas.begin()+i);
+        }
+    }
+    
+    /*
     for (vector<fichaInfo*>::reverse_iterator itFicha = fichas.rbegin(); itFicha!=fichas.rend();) {
         
             (*itFicha)->update();
@@ -61,7 +75,7 @@ void testApp::update(){
                 fichas.erase(fichas.begin(),fichas.end()); 
             }
     }
-    
+    */
 }
 
 //--------------------------------------------------------------

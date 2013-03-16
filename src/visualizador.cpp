@@ -42,7 +42,7 @@ visualizador::visualizador(){
 
 // ---------------------------------------
 visualizador::~visualizador(){
-    ofUnregisterMouseEvents(this);
+   ofUnregisterMouseEvents(this);
 }
 
 // ---------------------------------------
