@@ -47,7 +47,7 @@ fichaInfo::~fichaInfo(){
 	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
 	ofRemoveListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
 	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
-	
+    
 	for(int i = 0; i < muelles.size(); i++){
 		//delete muelles[i]; 
 	}
