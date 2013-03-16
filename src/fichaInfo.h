@@ -30,10 +30,10 @@ public:
 	~fichaInfo();
 	//////////////////////////////////////////////////////
     //////////////////////////////////////////////////////
-    void    setup();
+    void    setup(string _ulrXml);
 	void    update();
 	void    draw();
-    void    cargaXml();
+    void    cargaXml(string _ulr);
     
 	void    _mouseDragged(ofMouseEventArgs &e);
 	void    _mousePressed(ofMouseEventArgs &e);

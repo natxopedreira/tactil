@@ -16,7 +16,6 @@
 class boton : public baseShape {
 public:
     boton();
-	~boton();
     
 	
     void    drawButton();

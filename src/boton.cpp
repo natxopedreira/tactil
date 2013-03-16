@@ -20,9 +20,6 @@ boton::boton(){
     botonClose = false;
 }
 
-boton::~boton(){
-
-}
 
 
 void boton::drawButton(){

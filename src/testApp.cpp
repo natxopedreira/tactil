@@ -35,7 +35,7 @@ void testApp::setup(){
     /////////////////////
     /////////////////////
 	fichaInfo * ficha = new fichaInfo();
-	ficha->setup();
+	ficha->setup("interactivo.xml");
 
 	fichas.push_back(ficha);
 }
@@ -44,22 +44,24 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
+
     
-    for (vector<fichaInfo*>::iterator itFicha = fichas.begin(); itFicha!=fichas.end();) {
+    for (vector<fichaInfo*>::reverse_iterator itFicha = fichas.rbegin(); itFicha!=fichas.rend();) {
+        
+            (*itFicha)->update();
             if(!(*itFicha)->debesMorir){
-                for (vector<fichaInfo*>::iterator itFicha2 = itFicha; itFicha2!=fichas.end(); ++itFicha2) {
+                for (vector<fichaInfo*>::reverse_iterator itFicha2 = itFicha; itFicha2!=fichas.rend(); ++itFicha2) {
                     if(((*itFicha)!=(*itFicha2)) && (*itFicha)->areaGrande.intersects((*itFicha2)->areaGrande) && (*itFicha2)->areaGrande.leader){
                         (*itFicha2)->areaGrande.addRepulsionForce(&(*itFicha)->areaGrande, 800, 100);
                     }
                 }
-            (*itFicha)->update();
-            ++itFicha;
-            
+                ++itFicha;
             }else{
                 delete *itFicha;  
-                fichas.erase(itFicha); 
+                fichas.erase(fichas.begin(),fichas.end()); 
             }
     }
+    
 }
 
 //--------------------------------------------------------------
@@ -127,7 +129,7 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
     fichaInfo * ficha = new fichaInfo();
-	ficha->setup();
+	ficha->setup("interactivo.xml");
     
 	fichas.push_back(ficha);
 }

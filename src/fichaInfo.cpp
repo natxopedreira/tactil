@@ -49,12 +49,17 @@ fichaInfo::~fichaInfo(){
 	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
     
 	for(int i = 0; i < muelles.size(); i++){
-		//delete muelles[i]; 
+        if ( muelles[i] != NULL){
+            delete muelles[i];
+            muelles[i] = NULL;
+        }
 	}
 	muelles.clear();	
 	
 	for(int i = 0; i < rectangulos.size(); i++){
 		//delete rectangulos[i];
+        //delete rectangulos.back();
+        //rectangulos.pop_back();
 	}
 	rectangulos.clear();
      
@@ -62,7 +67,7 @@ fichaInfo::~fichaInfo(){
 
 
 //--------------------------------------------------------------
-void fichaInfo::setup(){
+void fichaInfo::setup(string _ulrXml){
     
     fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
     fuenteBotones.setLineHeight(18);
@@ -96,7 +101,7 @@ void fichaInfo::setup(){
     
     
     //cargamos datos
-    cargaXml();
+    cargaXml(_ulrXml);
 }
 
 //--------------------------------------------------------------
@@ -582,12 +587,12 @@ void fichaInfo::construFigura(){
 
 // datos del xml
 //--------------------------------------------------------------
-void fichaInfo::cargaXml(){
+void fichaInfo::cargaXml(string _ulr){
     
     
     int idBuscado = 0;
     
-    if(datosXml.loadFile("interactivo.xml")){
+    if(datosXml.loadFile(_ulr)){
         //has cargado el xml
         //buscas el id de la ficha que quieras
         
