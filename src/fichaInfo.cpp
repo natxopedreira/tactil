@@ -780,6 +780,7 @@ void fichaInfo::cargaXml(string _ulr){
 void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
+    
 	for(int i = 0; i < rectangulos.size(); i++){
         /// compruebas si estas drageando una caja
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){

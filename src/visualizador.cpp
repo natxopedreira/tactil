@@ -182,6 +182,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     
     informacion = wrapString(_informacion,460,fuenteInfo);
     altoTextoInfo = fuenteInfo.getStringBoundingBox(informacion, 0, 0).height + 20;
+    
     if(altoTextoInfo > (this->height-50 * this->escala)){
         desfaseAltoTextoInfo = altoTextoInfo - (this->height-50 * this->escala);
     }
