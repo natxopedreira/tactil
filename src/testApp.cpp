@@ -58,24 +58,6 @@ void testApp::update(){
             fichas.erase(fichas.begin()+i);
         }
     }
-    
-    /*
-    for (vector<fichaInfo*>::reverse_iterator itFicha = fichas.rbegin(); itFicha!=fichas.rend();) {
-        
-            (*itFicha)->update();
-            if(!(*itFicha)->debesMorir){
-                for (vector<fichaInfo*>::reverse_iterator itFicha2 = itFicha; itFicha2!=fichas.rend(); ++itFicha2) {
-                    if(((*itFicha)!=(*itFicha2)) && (*itFicha)->areaGrande.intersects((*itFicha2)->areaGrande) && (*itFicha2)->areaGrande.leader){
-                        (*itFicha2)->areaGrande.addRepulsionForce(&(*itFicha)->areaGrande, 800, 100);
-                    }
-                }
-                ++itFicha;
-            }else{
-                delete *itFicha;  
-                fichas.erase(fichas.begin(),fichas.end()); 
-            }
-    }
-    */
 }
 
 //--------------------------------------------------------------

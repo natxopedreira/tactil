@@ -10,7 +10,7 @@
 #include "baseShape.h"
 
 baseShape::baseShape(){
-	ofRectangle::set(0,0, 0,0);
+	//ofRectangle::set(0,0, 0,0);
 	//this->set(ofPoint(0,0),0,0);
 	
 	/*
@@ -144,7 +144,6 @@ void baseShape::update(){
 	puntos.at(7).set(this->x+(this->width/4)*3 * escala,this->y+this->height+cantidadCrece * escala);
 	puntos.at(8).set(this->x+this->width * escala,this->y+(this->height+cantidadCrece/2) * escala);
 	puntos.at(9).set(this->x,this->y+(this->height+cantidadCrece/2) * escala);
-	
 	
 }
 
@@ -343,7 +342,8 @@ void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	cambioY = this->getHeight()-10;
 	Tweenzor::add(&cambioY, cambioY, 0, _delay, 0.5f, EASE_IN_SINE);
 	
-	
+    
+    
 	Tweenzor::addCompleteListener( Tweenzor::getTween(&cambioY), this, &baseShape::onCompleteCambio);
 	colorCambio.set(_r,_g,_b);
 }
@@ -355,7 +355,6 @@ void baseShape::crece(int _altura){
 	cambiandose = true;
     float diff = (this->height+cantidadCrece)-_altura;
     float g = ofMap(abs(this->height-diff), 0, 400, .1, .7);
-    
 	Tweenzor::add(&cantidadCrece, cantidadCrece, _altura, 0.0f,  g, EASE_IN_SINE);
 }
 

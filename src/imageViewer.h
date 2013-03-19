@@ -27,7 +27,9 @@ private:
     float   anchoMax, altoMax;
     ofFbo   fbo;
     ofImage imagen;
+    ofVideoPlayer vidrio;
     float   escalaX,escalaY;
+    bool    esVideo;
 };
 
 #endif

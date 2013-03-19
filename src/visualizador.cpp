@@ -59,18 +59,20 @@ void visualizador::update(){
     posxrect = this->x+10;
     posyrect = this->y+10;
     
+    /*
     if(poswrect != (this->width - 20 * this->escala) || poshrect != (this->height-50 * this->escala)){
         this->setWidth(poswrect);
         this->setHeight(poshrect);
     }
-    
+    */
     visor.update();
     
     float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
     float difY = (this->y + this->height + (btnInfo.height/2) +cantidadCrece)-(btnInfo.y);
     
     btnInfo.x += difX * .4;
-    btnInfo.y += difY * .5;    
+    btnInfo.y += difY * .5;
+    
 }
 
 // ---------------------------------------
@@ -174,6 +176,8 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     titularPie = _titularPie;
     cont = x + 200;
     altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 50;
+    //this->setHeight(this->height + altoTexto);
+    //this->cantidadCrece = this->height + altoTexto;
     crece(altoTexto);
     
     informacion = wrapString(_informacion,460,fuenteInfo);

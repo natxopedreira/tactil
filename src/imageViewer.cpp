@@ -8,7 +8,9 @@
 
 #include "imageViewer.h"
 
-imageViewer::imageViewer(){}
+imageViewer::imageViewer(){
+    esVideo = false;
+}
 
 // ---------------------------------------
 imageViewer::~imageViewer(){}
@@ -29,13 +31,18 @@ void imageViewer::setup(float _anchoMax, float _altoMax){
 
 // ---------------------------------------
 void imageViewer::update(){
+    if(esVideo) vidrio.update();
+    
     fbo.begin();
     ofPushMatrix();
     ofClear(255);
     ofSetColor(255);
     ofScale(escalaX, escalaY);
-    if(imagen.isAllocated()){
+    if(imagen.isAllocated() && !esVideo){
         imagen.draw(0,0, imagen.width, imagen.height);
+        
+    }else if(esVideo){
+        vidrio.draw(0,0, 320,240);
     }
     ofPopMatrix();
     fbo.end();
@@ -43,7 +50,7 @@ void imageViewer::update(){
 
 // ---------------------------------------
 void imageViewer::draw(float _px, float _py){
-    if(imagen.isAllocated()) fbo.draw(_px, _py);
+    if(imagen.isAllocated() && !esVideo) fbo.draw(_px, _py);
 }
 
 // ---------------------------------------
@@ -57,9 +64,23 @@ void imageViewer::cambiaTamano(float _nuevoAlto){
 
 // ---------------------------------------
 void imageViewer::cargaImagen(string _url){
-    imagen.loadImage(_url);
-    float ratio = imagen.getWidth()/imagen.getHeight();
+    string extensionArchivo = _url.substr(_url.find("."),_url.length());
     
-    escalaX = anchoMax / imagen.getWidth();
-    escalaY = altoMax / imagen.getWidth()*ratio;
+    if(extensionArchivo != ".mov"){
+    
+        imagen.loadImage(_url);
+        float ratio = imagen.getWidth()/imagen.getHeight();
+    
+        escalaX = anchoMax / imagen.getWidth();
+        escalaY = altoMax / imagen.getWidth()*ratio;
+    }else{
+        // eres un vidrio
+        esVideo = true;
+        vidrio.loadMovie(_url);
+        
+        float ratio = vidrio.getWidth()/vidrio.getHeight();
+        escalaX = anchoMax / vidrio.getWidth();
+        escalaY = altoMax / vidrio.getWidth()*ratio;
+    }
+
 }
