@@ -132,7 +132,7 @@ void miniaturas::update(){
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
         
         ofRectangle r;
-        r.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height + anclaVisualizador->cantidadCrece));
+        r.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height));
         
         if(r.intersects(*(*itThumb))){
             (*itThumb)->addForce(ofPoint(0,200));

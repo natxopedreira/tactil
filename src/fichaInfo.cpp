@@ -141,7 +141,7 @@ void fichaInfo::update(){
     float dCasty = (areaGrande.y - 27)-(castellano.y);
     float dGly = (areaGrande.y - 27)-(gallego.y);
     float Engy = (areaGrande.y - 27)-(ingles.y);
-    float dClosey = (areaGrande.y + areaGrande.cantidadCrece + areaGrande.height+10)-(cerrar.y);
+    float dClosey = (areaGrande.y + areaGrande.height+10)-(cerrar.y);
     
     frances.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
     ingles.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);

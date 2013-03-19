@@ -86,7 +86,7 @@ public:
     vector<string>  titular_gal;
     vector<string>  titular_fr;
     
-    //ofRectangle area;
+    ofRectangle area;
 private:
     ofPoint vel;
     ofPoint acc;

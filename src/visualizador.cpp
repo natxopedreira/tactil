@@ -68,16 +68,17 @@ void visualizador::update(){
     visor.update();
     
     float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
-    float difY = (this->y + this->height + (btnInfo.height/2) +cantidadCrece)-(btnInfo.y);
+    float difY = (this->y + this->height + (btnInfo.height/2))-(btnInfo.y);
     
     btnInfo.x += difX * .4;
     btnInfo.y += difY * .5;
     
+   
 }
 
 // ---------------------------------------
 void visualizador::drawVisualizador(){
-    drawRound(); // la base
+   // drawRound(); // la base
     
     
     
@@ -88,20 +89,31 @@ void visualizador::drawVisualizador(){
     
     
     ofPushStyle();
-    ofRect(posxrect, posyrect, poswrect-20, poshrect-50);
     
-    if(imgVisible) visor.draw(posxrect,posyrect);
+    
+    if(imgVisible){
+        ofRect(posxrect, posyrect, poswrect-20, visor.getAltoMax());
+        cout << this->height << endl;
+        
+        visor.draw(posxrect,posyrect);
+        
+    }else{
+        ofRect(posxrect, posyrect, poswrect-20, poshrect-20);
+    }
+    
     
     ofSetColor(0, 0, 0);
     
     
-    if(!verInfo) fuente.drawString(titularPie, this->x + 10, this->y + this->height - 15);
+    if(!verInfo) fuente.drawString(titularPie, this->x + 10, this->y + visor.getAltoMax() + 40);
+    
+    
     
     areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 20, rect.height + 20);
     
     
     if(verPie && cantidadCrece == altoTexto){
-        fuenteCuerpo.drawString(pie, posxrect, posyrect + poshrect + 30);
+        fuenteCuerpo.drawString(pie, posxrect, this->y + visor.getAltoMax() + 80);
     }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
         
         ofSetColor(0,210);
@@ -176,8 +188,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     titularPie = _titularPie;
     cont = x + 200;
     altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height + 50;
-    //this->setHeight(this->height + altoTexto);
-    //this->cantidadCrece = this->height + altoTexto;
+
     crece(altoTexto);
     
     informacion = wrapString(_informacion,460,fuenteInfo);
@@ -208,9 +219,8 @@ void visualizador::mouseDragged(ofMouseEventArgs & args){
 
 // ---------------------------------------
 void visualizador::mousePressed(ofMouseEventArgs & args){
-    ofRectangle areamasaltura;
-    areamasaltura.set(this->x, this->y, this->width, this->height + cantidadCrece);
-    if(areamasaltura.inside(args.x, args.y)){
+
+    if(this->inside(args.x, args.y)){
         offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
         drag = true;
     }

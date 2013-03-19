@@ -23,6 +23,7 @@ public:
     void    cargaImagen(string _url);
     void    cambiaTamano(float _nuevoAlto);
     
+    float   getAltoMax();
 private:
     float   anchoMax, altoMax;
     ofFbo   fbo;
