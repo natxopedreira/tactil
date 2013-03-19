@@ -59,13 +59,7 @@ void visualizador::update(){
     posxrect = this->x+10;
     posyrect = this->y+10;
     
-    /*
-    if(poswrect != (this->width - 20 * this->escala) || poshrect != (this->height-50 * this->escala)){
-        this->setWidth(poswrect);
-        this->setHeight(poshrect);
-    }
-    */
-    visor.update();
+   
     
     float difX = (this->x + this->width - btnInfo.width)-(btnInfo.x);
     float difY = (this->y + this->height + (btnInfo.height/2))-(btnInfo.y);
@@ -73,7 +67,7 @@ void visualizador::update(){
     btnInfo.x += difX * .4;
     btnInfo.y += difY * .5;
     
-   
+    visor.update();
 }
 
 // ---------------------------------------

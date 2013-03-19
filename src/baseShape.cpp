@@ -278,41 +278,6 @@ void baseShape::addRepulsionForce(baseShape *p, float radius, float scale){
 
 //------------------------------------------------------------
 void baseShape::bounceOffWalls(){
-	/*
-	// sometimes it makes sense to damped, when we hit
-	bool bDampedOnCollision = true;
-	bool bDidICollide = false;
-	
-	// what are the walls
-	float minx = 0;
-	float miny = 0;
-	float maxx = ofGetWidth()-this->width;
-	float maxy = ofGetHeight()-this->height/2;
-	
-	if (this->x > maxx){
-		this->x = maxx; // move to the edge, (important!)
-		vel.x *= -1;
-		bDidICollide = true;
-	} else if (this->x < minx){
-		this->x = minx; // move to the edge, (important!)
-		vel.x *= -1;
-		bDidICollide = true;
-	}
-	
-	if (this->y > maxy){
-		this->y = maxy; // move to the edge, (important!)
-		vel.y *= -1;
-		bDidICollide = true;
-	} else if (this->y < miny){
-		this->y = miny; // move to the edge, (important!)
-		vel.y *= -1;
-		bDidICollide = true;
-	}
-	
-	if (bDidICollide == true && bDampedOnCollision == true){
-		vel *= 0.3;
-	}
-	*/
 }
 
 
