@@ -87,7 +87,7 @@ void visualizador::drawVisualizador(){
     
     if(imgVisible){
         ofRect(posxrect, posyrect, poswrect-20, visor.getAltoMax());
-        cout << this->height << endl;
+
         
         visor.draw(posxrect,posyrect);
         
@@ -213,10 +213,14 @@ void visualizador::mouseDragged(ofMouseEventArgs & args){
 
 // ---------------------------------------
 void visualizador::mousePressed(ofMouseEventArgs & args){
-
-    if(this->inside(args.x, args.y)){
+    ofRectangle rect; // area de visualizacion de la imagen
+    rect.set(this->x+visor.x + 10, this->y + visor.y + 10, visor.getAnchoMax(), visor.getAltoMax());
+    
+    if(this->inside(args.x, args.y) && !rect.inside(args.x, args.y)){
         offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
         drag = true;
+    }else{
+        drag = false;
     }
 }
 

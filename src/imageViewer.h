@@ -24,6 +24,7 @@ public:
     void    cambiaTamano(float _nuevoAlto);
     
     float   getAltoMax();
+    float   getAnchoMax();
 private:
     float   anchoMax, altoMax;
     ofFbo   fbo;

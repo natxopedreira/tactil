@@ -35,6 +35,12 @@ float imageViewer::getAltoMax(){
 }
 
 // ---------------------------------------
+float imageViewer::getAnchoMax(){
+    return anchoMax;
+}
+
+
+// ---------------------------------------
 void imageViewer::update(){
     if(esVideo) vidrio.update();
     
