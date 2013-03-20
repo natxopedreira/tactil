@@ -22,8 +22,12 @@ public:
     
     void    urdate();
     void    drawThumb();
+    void    ponShader(ofShader * _mascaraShader);
     
     ofImage img;
+    ofShader * mascaraShader;
+    
+    ofFbo   mascara;
     
 private:
     bool    activo;

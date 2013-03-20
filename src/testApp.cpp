@@ -3,7 +3,8 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	ofSetVerticalSync(true);
-	ofBackground(40,40,40);
+    ofSetCircleResolution(50);
+	ofBackground(255,0,0);
     
     Tweenzor::init();
     
@@ -38,6 +39,14 @@ void testApp::setup(){
 	ficha->setup("interactivo.xml");
 
 	fichas.push_back(ficha);
+    
+    veloBlur.allocate(1920, 1080);
+    
+    veloBlur.begin();
+    ofClear(0);
+    veloBlur.end();
+    
+    //blur.setup(1920, 1080, 4, .1, 4);
 }
 
 //--------------------------------------------------------------
@@ -58,12 +67,30 @@ void testApp::update(){
             fichas.erase(fichas.begin()+i);
         }
     }
+    
+    veloBlur.begin();
+    ofClear(0);
+    ofSetColor(0,0,0,180);
+    //ofRect(0,0,1920,1080);
+    ofTranslate(3, 3);
+    
+    for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
+        (*itFichas)->drawSombra();
+    }
+    veloBlur.end();
+    
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    //plano.draw(0, 0);
+    ofSetColor(255, 255,255,255);
+    plano.draw(0, 0);
     
+    ofSetColor(0,0,0,180);
+    ofRect(0,0,1920,1080);
+    veloBlur.draw(0, 0);
+    
+    ofSetColor(255, 255,255,255);
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
     }

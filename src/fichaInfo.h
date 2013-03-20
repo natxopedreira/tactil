@@ -33,6 +33,7 @@ public:
     void    setup(string _ulrXml);
 	void    update();
 	void    draw();
+    void    drawSombra();
     void    cargaXml(string _ulr);
     
 	void    _mouseDragged(ofMouseEventArgs &e);

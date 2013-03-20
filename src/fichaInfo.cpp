@@ -29,7 +29,7 @@ fichaInfo::fichaInfo(){
     anchoGrande = 60;
     altoGrande = 60;
     
-    visualizadorWidth = 500;
+    visualizadorWidth = 497;
     visualizadorheight = 400;
 
     totalFichas = 0;
@@ -132,22 +132,18 @@ void fichaInfo::update(){
     
     /// algo de elasticidad para los botones de los idiomas
     float dFrx = (areaGrande.x + areaGrande.width - frances.width)-(frances.x);
-    float dEngx = (frances.x - ingles.width - 5)-(ingles.x);
-    float dCastx = (gallego.x - castellano.width - 5)-(castellano.x);
-    float dGalx = (ingles.x - gallego.width - 5)-(gallego.x);
+    float dEngx = (frances.x - ingles.width + 4)-(ingles.x);
+    float dCastx = (gallego.x - castellano.width + 4)-(castellano.x);
+    float dGalx = (ingles.x - gallego.width + 4)-(gallego.x);
     float dClosex = (areaGrande.x)-(cerrar.x);
     
-    float dFry = (areaGrande.y - 27)-(frances.y);
-    float dCasty = (areaGrande.y - 27)-(castellano.y);
-    float dGly = (areaGrande.y - 27)-(gallego.y);
-    float Engy = (areaGrande.y - 27)-(ingles.y);
+    float dFry = (areaGrande.y - 15)-(frances.y);
+    float dCasty = (areaGrande.y - 15)-(castellano.y);
+    float dGly = (areaGrande.y - 15)-(gallego.y);
+    float Engy = (areaGrande.y - 15)-(ingles.y);
+    
     float dClosey = (areaGrande.y + areaGrande.height+10)-(cerrar.y);
-    
-    frances.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
-    ingles.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
-    gallego.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
-    castellano.idiomaActivoColor.set( rectangulos.at(seccionActiva)->color);
-    
+
     
     frances.x += dFrx * .5;
     ingles.x += dEngx * .6;
@@ -167,7 +163,7 @@ void fichaInfo::update(){
 //--------------------------------------------------------------
 void fichaInfo::draw(){
     
-    ofPushStyle();
+    //ofPushStyle();
     
 	ofSetColor(255, 255, 255,255);
     
@@ -190,17 +186,44 @@ void fichaInfo::draw(){
     
     /// botones de idioma
     if(verIdiomas){
-        frances.drawContxt(fuenteBotones);
-        ingles.drawContxt(fuenteBotones);
-        gallego.drawContxt(fuenteBotones);
-        castellano.drawContxt(fuenteBotones);
+       if(!frances.botonIdiomaCheck) frances.drawContxt(fuenteBotones);
+       if(!ingles.botonIdiomaCheck)  ingles.drawContxt(fuenteBotones);
+       if(!gallego.botonIdiomaCheck)  gallego.drawContxt(fuenteBotones);
+       if(!castellano.botonIdiomaCheck)  castellano.drawContxt(fuenteBotones);
         
+        
+        if(frances.botonIdiomaCheck) frances.drawContxt(fuenteBotones);
+        if(ingles.botonIdiomaCheck)  ingles.drawContxt(fuenteBotones);
+        if(gallego.botonIdiomaCheck)  gallego.drawContxt(fuenteBotones);
+        if(castellano.botonIdiomaCheck)  castellano.drawContxt(fuenteBotones);
         cerrar.drawContxt(fuenteBotones);
     }
     
-    ofPopStyle();
-}
 
+}
+//--------------------------------------------------------------
+void fichaInfo::drawSombra(){
+    
+    //ofPushStyle();
+    
+	ofSetColor(255, 255, 255,255);
+    
+    /// muelles
+	for(int j = 0; j < muelles.size(); j++){
+		muelles.at(j)->draw();
+	}
+	
+    /// PINTA LOS BOTONES y EL AREA
+    btnImagenes.drawButton();
+	btnCuadros.drawButton();
+	btnPeriodicos.drawButton();
+	areaGrande.drawRound();
+    
+    
+    // PINTA EL AREA
+    areaGrande.drawVisualizador();
+    minis.drawCircle();
+}
 //  callback animacion del inicio
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
@@ -349,7 +372,7 @@ void fichaInfo::construFigura(){
 	btnPeriodicos.y = areaGrande.y;
 	btnPeriodicos.width = 60;
 	btnPeriodicos.height = 60;
-	btnPeriodicos.color.set(109, 4, 56);
+	btnPeriodicos.color.set(233, 186, 118);
 	btnPeriodicos.mass = 0.6;
     btnPeriodicos.nombre = "P";
 	btnPeriodicos.useBtn = true;
@@ -359,7 +382,7 @@ void fichaInfo::construFigura(){
 	btnImagenes.y = btnPeriodicos.y -81;
 	btnImagenes.width = 60;
 	btnImagenes.height = 60;
-	btnImagenes.color.set(237, 157, 0);
+	btnImagenes.color.set(154, 189, 195);
 	btnImagenes.mass = 0.6;
     btnImagenes.nombre = "I";
 	btnImagenes.useBtn = true;
@@ -369,7 +392,7 @@ void fichaInfo::construFigura(){
 	btnCuadros.y = btnImagenes.y;
 	btnCuadros.width = 60;
 	btnCuadros.height = 60;
-	btnCuadros.color.set(88, 132, 0);
+	btnCuadros.color.set(236, 232, 220);
 	btnCuadros.mass = 0.6;
     btnCuadros.nombre = "C";
 	btnCuadros.useBtn = true;
@@ -408,39 +431,39 @@ void fichaInfo::construFigura(){
 	muPeriodico->indiceA = 1;
 	muPeriodico->indiceB = 0;
 	muPeriodico->dist = 28;
-	muPeriodico->visible = false;
+	//muPeriodico->visible = true;
 	//////////////////////////
 	muPeriodicoImagenes->k = kmuelles;
 	muPeriodicoImagenes->rectA = &btnPeriodicos;
 	muPeriodicoImagenes->rectB = &btnImagenes;
 	muPeriodicoImagenes->indiceA = 0;
-	muPeriodicoImagenes->indiceB = 3;
+	muPeriodicoImagenes->indiceB = 11;
 	muPeriodicoImagenes->dist = 28;
-	muPeriodicoImagenes->visible = false;
+	//muPeriodicoImagenes->visible = true;
 	//////////////////////////
 	muPeriodicoImagenes2->k = kmuelles;
 	muPeriodicoImagenes2->rectA = &btnPeriodicos;
 	muPeriodicoImagenes2->rectB = &btnImagenes;
 	muPeriodicoImagenes2->indiceA = 1;
-	muPeriodicoImagenes2->indiceB = 2;
+	muPeriodicoImagenes2->indiceB = 10;
 	muPeriodicoImagenes2->dist = 28;
-	muPeriodicoImagenes2->visible = false;
+	//muPeriodicoImagenes2->visible = true;
 	//////////////////////////
 	muPeriodicoImagenes3->k = kmuelles;
 	muPeriodicoImagenes3->rectA = &btnPeriodicos;
 	muPeriodicoImagenes3->rectB = &btnImagenes;
 	muPeriodicoImagenes3->indiceA = 1;
-	muPeriodicoImagenes3->indiceB = 3;
+	muPeriodicoImagenes3->indiceB = 11;
 	muPeriodicoImagenes3->dist = 66;
-	muPeriodicoImagenes3->visible = false;
+	//muPeriodicoImagenes3->visible = true;
 	//////////////////////////
 	muPeriodicoImagenes4->k = kmuelles;
 	muPeriodicoImagenes4->rectA = &btnPeriodicos;
 	muPeriodicoImagenes4->rectB = &areaGrande;
-	muPeriodicoImagenes4->indiceA = 2;
+	muPeriodicoImagenes4->indiceA = 10;
 	muPeriodicoImagenes4->indiceB = 0;
 	muPeriodicoImagenes4->dist = 66;
-	muPeriodicoImagenes4->visible = false;
+	//muPeriodicoImagenes4->visible = true;
 	//////////////////////////
 	muImageCuadros->k = kmuelles;
 	muImageCuadros->rectA = &btnImagenes;
@@ -448,71 +471,71 @@ void fichaInfo::construFigura(){
 	muImageCuadros->indiceA = 1;
 	muImageCuadros->indiceB = 0;
 	muImageCuadros->dist = 28;
-	muImageCuadros->visible = false;
+	//muImageCuadros->visible = true;
 	//////////////////////////
 	muImageCuadros2->k = kmuelles;
 	muImageCuadros2->rectA = &btnImagenes;
 	muImageCuadros2->rectB = &btnCuadros;
-	muImageCuadros2->indiceA = 2;
-	muImageCuadros2->indiceB = 3;
+	muImageCuadros2->indiceA = 10;
+	muImageCuadros2->indiceB = 11;
 	muImageCuadros2->dist = 28;
-	muImageCuadros2->visible = false;
+	//muImageCuadros2->visible = true;
 	//////////////////////////
 	muImageCuadros3->k = kmuelles;
 	muImageCuadros3->rectA = &btnCuadros;
 	muImageCuadros3->rectB = &areaGrande;
-	muImageCuadros3->indiceA = 3;
+	muImageCuadros3->indiceA = 11;
 	muImageCuadros3->indiceB = 0;
 	muImageCuadros3->dist = 28;
-	muImageCuadros3->visible = false;
+	//muImageCuadros3->visible = true;
 	//////////////////////////
 	muImageCuadros4->k = kmuelles;
 	muImageCuadros4->rectA = &btnImagenes;
 	muImageCuadros4->rectB = &btnCuadros;
-	muImageCuadros4->indiceA = 2;
+	muImageCuadros4->indiceA = 10;
 	muImageCuadros4->indiceB = 0;
 	muImageCuadros4->dist = 66;
-	muImageCuadros4->visible = false;
+	//muImageCuadros4->visible = true;
 	//////////////////////////
 	muImageCuadros5->k = kmuelles;
 	muImageCuadros5->rectA = &areaGrande;
 	muImageCuadros5->rectB = &btnCuadros;
 	muImageCuadros5->indiceA = 0;
-	muImageCuadros5->indiceB = 2;
+	muImageCuadros5->indiceB = 10;
 	muImageCuadros5->dist = 66;
-	muImageCuadros5->visible = false;
+	//muImageCuadros5->visible = false;
 	//////////////////////////
 	aux->k = kmuelles;
 	aux->rectA = &btnPeriodicos;
 	aux->rectB = &areaGrande;
-	aux->indiceA = 2;
-	aux->indiceB = 2;
+	aux->indiceA = 10;
+	aux->indiceB = 10;
 	aux->dist = 590;
-	aux->visible = false;
+	//aux->visible = false;
 	//////////////////////////
 	aux2->k = kmuelles;
 	aux2->rectA = &btnImagenes;
 	aux2->rectB = &btnCuadros;
 	aux2->indiceA = 1;
-	aux2->indiceB = 3;
+	aux2->indiceB = 11;
 	aux2->dist = 66;
-	aux2->visible = false;
+	//aux2->visible = false;
 	//////////////////////////
 	aux3->k = kmuelles;
 	aux3->rectA = &btnImagenes;
 	aux3->rectB = &btnPeriodicos;
-	aux3->indiceA = 2;
+	aux3->indiceA = 10;
 	aux3->indiceB = 0;
 	aux3->dist = 66;
-	aux3->visible = false;
+	//aux3->visible = false;
 	//////////////////////////
 	aux4->k = kmuelles;
 	aux4->rectA = &btnImagenes;
 	aux4->rectB = &areaGrande;
-	aux4->indiceA = 2;
+	aux4->indiceA = 10;
 	aux4->indiceB = 0;
 	aux4->dist = 39;
-	aux4->visible = false;
+	//aux4->visible = false;
     
 	//////////////////////////
 	muelles.push_back(muPeriodico);
@@ -532,33 +555,33 @@ void fichaInfo::construFigura(){
     
     
     ///botones de idioma
-    castellano.width = 60;
+    castellano.width = 38;
     castellano.height = 22;
     castellano.x = 0;
     castellano.y = 0;
-    castellano.nombre = "castellano";
+    castellano.nombre = "ESP";
     castellano.botonIdiomaCheck = true;
     castellano.useBtnIdioma = true;
     
-    gallego.width = 45;
+    gallego.width = 38;
     gallego.height = 22;
-    gallego.x = castellano.x + castellano.width + 10;
+    gallego.x = castellano.x + castellano.width;
     gallego.y = 0;
-    gallego.nombre = "galego";
+    gallego.nombre = "GAL";
     gallego.useBtnIdioma = true;
     
-    ingles.width = 50;
+    ingles.width = 38;
     ingles.height = 22;
-    ingles.x = gallego.x + gallego.width + 10;
+    ingles.x = gallego.x + gallego.width;
     ingles.y = 0;
-    ingles.nombre = "english"; 
+    ingles.nombre = "ENG"; 
     ingles.useBtnIdioma = true;
     
-    frances.width = 60;
+    frances.width = 38;
     frances.height = 22;
-    frances.x = ingles.x + ingles.width + 10;
+    frances.x = ingles.x + ingles.width;
     frances.y = 0;
-    frances.nombre = "francaise"; 
+    frances.nombre = "FR"; 
     frances.useBtnIdioma = true;
     
     ///boton cerrar ficha
@@ -575,6 +598,17 @@ void fichaInfo::construFigura(){
     rectangulos.push_back(&ingles);
     rectangulos.push_back(&frances);
     rectangulos.push_back(&cerrar);
+    
+    frances.idiomaColor.set(255,255,255,255);
+    ingles.idiomaColor.set(255,255,255,255);
+    gallego.idiomaColor.set(255,255,255,255);
+    castellano.idiomaColor.set(255,255,255,255);
+    
+    frances.idiomaActivoColor.set(255, 143, 95,255);
+    ingles.idiomaActivoColor.set(255, 143, 95,255);
+    gallego.idiomaActivoColor.set(255, 143, 95,255);
+    castellano.idiomaActivoColor.set(255, 143, 95,255);
+    
     
 }
 
@@ -831,13 +865,14 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     ///////////////////////////////////////////
     for(int i = 0; i < rectangulos.size(); i++){
         ///  && rectangulos.at(i)->useBtnIdioma
+        //if(rectangulos.at(i)->useBtnIdioma) cout << rectangulos.at(i)->y << " -- " << rectangulos.at(i)->x << endl;
+        
         if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
             
             if(rectangulos.at(i)->useBtnIdioma){
-                //cout << rectangulos.at(i)->nombre << endl;
                 string n = rectangulos.at(i)->nombre;
                 
-                if(n == "castellano"){
+                if(n == "ESP"){
                     castellano.botonIdiomaCheck = true;
                     minis.lenguaje = IDIOMA_CAST;
                     cargaImagenes();
@@ -846,7 +881,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                     castellano.botonIdiomaCheck = false;
                 }
                 
-                if(n == "galego") {
+                if(n == "GAL") {
                     gallego.botonIdiomaCheck = true;
                     minis.lenguaje = IDIOMA_GAL;
                     cargaImagenes();
@@ -855,7 +890,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                 }
                 
                 
-                if (n == "francaise") {
+                if (n == "FR") {
                     frances.botonIdiomaCheck = true;
                     minis.lenguaje = IDIOMA_FR;
                     cargaImagenes();
@@ -863,7 +898,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                     frances.botonIdiomaCheck = false;
                 }
                 
-                if (n == "english") {
+                if (n == "ENG") {
                     ingles.botonIdiomaCheck = true;
                     minis.lenguaje = IDIOMA_ENG;
                     cargaImagenes();

@@ -41,7 +41,7 @@ class testApp : public ofBaseApp{
 		float   dampcajas, dampcajasMiniaturas;
     
     ofImage plano;
-		
+    ofFbo   veloBlur;
+
 	vector<fichaInfo *> fichas;
-	
 };

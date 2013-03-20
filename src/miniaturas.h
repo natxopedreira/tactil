@@ -44,7 +44,8 @@ public:
 	vector<thumb*>  thumbsSalida; ///cuando cambiamos de seccion pasamos aqui las minis
     
     visualizador * anclaVisualizador;
-	
+	ofShader  maskShader;
+    
 	float   _kMuellesDiagonales;
 	float   _kHorizontal;
 	float   _kmuelles;

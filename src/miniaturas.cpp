@@ -66,15 +66,17 @@ miniaturas::~miniaturas(){
 // ---------------------------------------
 void miniaturas::setup(float _px, float _py, ofColor _color){
 	_listas = false;
+    maskShader.load("composite");
 	//limpiaMinis();
     /// fill the miniatures vector
     for(int i = 0; i < urls_mini.size(); i++){
         thumb * b = new thumb();
-        b->set(0,0, 45, 45);
+        b->set(0,0, 49, 49);
         b->color.set(0,209,217);
         b->nombre = "M"+ofToString(i);
         b->img.loadImage("imagenes/thumbs/" + urls_mini.at(i));
         b->ponListeners();
+        b->ponShader(&maskShader);
 		thumbs.push_back(b);
     }
    
@@ -82,6 +84,9 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
 	/// create el grid
     /// si hay minis
     if(thumbs.size()>0) creaGrid(_color);
+    
+    
+   
 }
 
 // ---------------------------------------
@@ -115,12 +120,12 @@ void miniaturas::update(){
     
     // thumbs de lo que estas viendo
 	for (vector<thumb*>::iterator itThumb = thumbs.begin(); itThumb!=thumbs.end();++itThumb) {
-        (*itThumb)->update();
+        (*itThumb)->urdate();
         
         for (vector<thumb*>::iterator itThumb2 = itThumb; itThumb2!=thumbs.end(); ++itThumb2) {
-            (*itThumb)->addRepulsionForce((*itThumb2),90,80);
+            (*itThumb)->addRepulsionForce((*itThumb2),50,80);
         }
-        
+        /*
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
         
@@ -130,12 +135,12 @@ void miniaturas::update(){
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
         (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
-        
+       */
         ofRectangle r;
         r.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height));
         
         if(r.intersects(*(*itThumb))){
-            (*itThumb)->addForce(ofPoint(0,200));
+            (*itThumb)->addForce(ofPoint(0,25));
         }
         
        
@@ -199,7 +204,7 @@ void miniaturas::creaGrid(ofColor _color){
     /////// arreglo de Patricio
     /////// thanks !!!!!
     int cuantas = thumbs.size();
-    int numColumnas = 5;
+    int numColumnas = 8;
     //  Crear una tabla de punteros donde re organizar los elementos
     //
     vector< vector<thumb*> > tabla;
@@ -207,8 +212,8 @@ void miniaturas::creaGrid(ofColor _color){
         vector<thumb*> newColum;
         tabla.push_back(newColum);
     }
-    int anchoMini = 70;
-    int altoMini = 70;
+    int anchoMini = 49;
+    int altoMini = 49;
     //  Posicionar los elementos y popular los punteros en la tabla
     //
     int col = 0;
@@ -223,8 +228,8 @@ void miniaturas::creaGrid(ofColor _color){
         
         //  Ubicarlo en el espacio
         //
-		thumbs[i]->x  = origen.x +( (anchoMini + 53) * col);
-		thumbs[i]->y  = origen.y + ( (altoMini + 61) * row);
+		thumbs[i]->x  = origen.x +( (anchoMini + 10) * col);
+		thumbs[i]->y  = origen.y + ( (altoMini + 10) * row);
 		// los movemos al origen, deberias de hacerlo en el de antes
 		
 		thumbs[i]->color.set(_color.r, _color.g, _color.b);
@@ -265,7 +270,7 @@ void miniaturas::creaGrid(ofColor _color){
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                   tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y);
-                sp->visible = true;
+                sp->visible = false;
                 springs.push_back(sp);
             }
             
@@ -287,7 +292,10 @@ void miniaturas::creaGrid(ofColor _color){
                     sp->indiceB = 4;
                     sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                       tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
-                    sp->visible = true;
+                    
+                    //cout << "distancia muelle horisontal " <<  sp->dist << endl;
+                    
+                    sp->visible = false;
 					sp->horizontal = true;
                     springs.push_back(sp);
                     
@@ -347,8 +355,8 @@ void miniaturas::creaGrid(ofColor _color){
         anclaP2->rectB = anclaVisualizador;
         anclaP2->indiceA = 4;
         anclaP2->indiceB = 2;
-        anclaP2->visible = true;
-        anclaP2->dist = 150;	
+        anclaP2->visible = false;
+        anclaP2->dist = 80;	
         
         springs.push_back(anclaP2);
     }
@@ -360,8 +368,8 @@ void miniaturas::creaGrid(ofColor _color){
 	anclaP3->rectB = anclaVisualizador;
 	anclaP3->indiceA = 4;
 	anclaP3->indiceB = 3;
-	anclaP3->visible = true;
-	anclaP3->dist = 150;
+	anclaP3->visible = false;
+	anclaP3->dist = 80;
     
 	if(thumbs.size()>0){
         Spring * anclaP5 = new Spring();
@@ -370,8 +378,8 @@ void miniaturas::creaGrid(ofColor _color){
         anclaP5->rectB = anclaVisualizador;
         anclaP5->indiceA = 4;
         anclaP5->indiceB = 5;
-        anclaP5->visible = true;
-        anclaP5->dist = 150;
+        anclaP5->visible = false;
+        anclaP5->dist = 80;
         springs.push_back(anclaP5);
         
         Spring * diago0 = new Spring();
@@ -382,7 +390,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago0->indiceB = 4;
         diago0->visible = false;
         diago0->diagonal = true;
-        diago0->dist = 193;
+        diago0->dist = 100;
         springs.push_back(diago0);
         
         Spring * diago3 = new Spring();
@@ -393,7 +401,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago3->indiceB = 4;
         diago3->visible = false;
         diago3->diagonal = true;
-        diago3->dist = 193;
+        diago3->dist = 100;
         springs.push_back(diago3);
     }
     if(thumbs.size()>2){
@@ -403,8 +411,8 @@ void miniaturas::creaGrid(ofColor _color){
         anclaP6->rectB = anclaVisualizador;
         anclaP6->indiceA = 4;
         anclaP6->indiceB = 6;
-        anclaP6->visible = true;
-        anclaP6->dist = 150;
+        anclaP6->visible = false;
+        anclaP6->dist = 80;
         springs.push_back(anclaP6);
         
         Spring * diago2 = new Spring();
@@ -415,7 +423,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago2->indiceB = 4;
         diago2->visible = false;
         diago2->diagonal = true;
-        diago2->dist = 193;
+        diago2->dist = 100;
         springs.push_back(diago2);
         
         Spring * diago5 = new Spring();
@@ -426,7 +434,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago5->indiceB = 4;
         diago5->visible = false;
         diago5->diagonal = true;
-        diago5->dist = 193;
+        diago5->dist = 100;
         springs.push_back(diago5);
 	}
     if(thumbs.size()>3){
@@ -436,8 +444,8 @@ void miniaturas::creaGrid(ofColor _color){
         anclaP7->rectB = anclaVisualizador;
         anclaP7->indiceA = 4;
         anclaP7->indiceB = 7;
-        anclaP7->visible = true;
-        anclaP7->dist = 150;
+        anclaP7->visible = false;
+        anclaP7->dist = 80;
         springs.push_back(anclaP7);
         
         Spring * diago4 = new Spring();
@@ -448,7 +456,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago4->indiceB = 4;
         diago4->visible = false;
         diago4->diagonal = true;
-        diago4->dist = 193;
+        diago4->dist = 100;
         springs.push_back(diago4);
         
         Spring * diago7 = new Spring();
@@ -459,7 +467,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago7->indiceB = 4;
         diago7->diagonal = true;
         diago7->visible = false;
-        diago7->dist = 193;
+        diago7->dist = 100;
         springs.push_back(diago7);
     }
     
@@ -473,7 +481,7 @@ void miniaturas::creaGrid(ofColor _color){
 	diago1->indiceB = 4;
 	diago1->visible = false;
 	diago1->diagonal = true;
-	diago1->dist = 193;
+	diago1->dist = 100;
 	
     
     if(thumbs.size()>4){
@@ -485,7 +493,7 @@ void miniaturas::creaGrid(ofColor _color){
         diago6->indiceB = 4;
         diago6->visible = false;
         diago6->diagonal = true;
-        diago6->dist = 193;
+        diago6->dist = 100;
         
         springs.push_back(diago6);
     }
