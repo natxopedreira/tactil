@@ -175,7 +175,7 @@ void baseShape::update(){
 
 //------------------------------------------------------------
 void baseShape::drawRound(){
-
+    
 	ofPushStyle();
         ofSetColor(0,0,0,150);
 		roundedRect(this->x+3, this->y+3, this->width * escala, this->height * escala,14);
@@ -339,6 +339,30 @@ void baseShape::quadraticBezierVertex(float cpx, float cpy, float x, float y, fl
 	ofBezierVertex(cp1x, cp1y, cp2x, cp2y, x, y);  
 };  
 
+void baseShape::LinedRoundedRectangle(int x,int y,int w,int h,int radius,int lw,ofColor clrColor) 
+{  
+	glDisable(GL_TEXTURE_2D);
+	glShadeModel(GL_SMOOTH);
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+	glColor4ub(clrColor.r,clrColor.g,clrColor.b,clrColor.a);
+	glLineWidth((GLfloat)lw);
+    
+	glBegin(GL_LINE_STRIP);
+    for(float i=(float)M_PI;i<=1.5f*M_PI;i+=0.1f)
+        glVertex2f(radius*cos(i)+x+radius,radius*sin(i)+y+radius);
+    for(float i=1.5f*(float)M_PI;i<=2*M_PI; i+=0.1f)
+        glVertex2f(radius*cos(i)+x+w-radius,radius*sin(i)+y+radius);
+    for(float i=0;i<=0.5f*M_PI; i+=0.1f)
+        glVertex2f(radius*cos(i)+x+w-radius,radius*sin(i)+y+h-radius);
+    for(float i=0.5f*(float)M_PI;i<=M_PI;i+=0.1f) 
+        glVertex2f(radius*cos(i)+x+radius,radius*sin(i)+y+h-radius);
+    glVertex2i(x,y+radius);
+	glEnd();
+    
+	glEnable(GL_TEXTURE_2D);
+	glDisable(GL_BLEND); 
+}
 
 void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	/// cambias de color

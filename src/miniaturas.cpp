@@ -15,8 +15,9 @@ miniaturas::miniaturas(){
 	_kMuellesDiagonales = .0;
 	_kHorizontal = .0;
 	_kmuelles = .0;
-	_dampCajasMiniaturas = .0;
-	
+	_dampCajasMiniaturas = .175;
+	k = .325;
+    
 	_listas = false;
     
     

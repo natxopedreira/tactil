@@ -12,6 +12,7 @@
 
 #include "ofMain.h"
 #include "ofxTweenzor.h"
+#include "redondo.h"
 
 class baseShape : public ofRectangle {
 public:
@@ -22,6 +23,8 @@ public:
 	void roundedRect(float x, float y, float w, float h, float r);  
 	void quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY);
 	
+    void LinedRoundedRectangle(int x,int y,int w,int h,int radius,int lw,ofColor clrColor);
+    
 	void    addForce( ofPoint _force );
 	bool    suicidate();
     void    crece(int _altura);
