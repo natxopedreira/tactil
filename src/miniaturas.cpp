@@ -125,17 +125,7 @@ void miniaturas::update(){
         for (vector<thumb*>::iterator itThumb2 = itThumb; itThumb2!=thumbs.end(); ++itThumb2) {
             (*itThumb)->addRepulsionForce((*itThumb2),50,80);
         }
-        /*
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(2),110,150);
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(3),110,150);
-        
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(8),145,180);
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(9),145,180);
-        
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(5),110,150);
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(6),110,150);
-        (*itThumb)->addRepulsionForce(anclaVisualizador->puntos.at(7),110,150);
-       */
+
         ofRectangle r;
         r.set(anclaVisualizador->x, anclaVisualizador->y, anclaVisualizador->width, (anclaVisualizador->height));
         
@@ -194,8 +184,6 @@ void miniaturas::limpiaMinis(){
 	txt_cast_mini.clear();
 	txt_eng_mini.clear();
 	txt_fr_mini.clear();
-    
-
 }
 
 // ---------------------------------------
@@ -233,7 +221,6 @@ void miniaturas::creaGrid(ofColor _color){
 		// los movemos al origen, deberias de hacerlo en el de antes
 		
 		thumbs[i]->color.set(_color.r, _color.g, _color.b);
-		
 		thumbs[i]->cambiate(_color.r, _color.g, _color.b, 0.1*i);
 
     }
@@ -270,7 +257,7 @@ void miniaturas::creaGrid(ofColor _color){
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                   tabla[x][y+1]->getCenter().x, tabla[x][y+1]->getCenter().y);
-                sp->visible = false;
+                //sp->visible = true;
                 springs.push_back(sp);
             }
             
@@ -295,7 +282,7 @@ void miniaturas::creaGrid(ofColor _color){
                     
                     //cout << "distancia muelle horisontal " <<  sp->dist << endl;
                     
-                    sp->visible = false;
+                    //sp->visible = true;
 					sp->horizontal = true;
                     springs.push_back(sp);
                     
@@ -333,7 +320,7 @@ void miniaturas::creaGrid(ofColor _color){
                 sp->indiceB = 4;
                 sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                   tabla[x+1][y+1]->getCenter().x, tabla[x+1][y+1]->getCenter().y);
-                //sp->visible = true;
+               //sp->visible = true;
                 sp->diagonal = true;
                 springs.push_back(sp);
             }
@@ -348,18 +335,6 @@ void miniaturas::creaGrid(ofColor _color){
 	 |             |
 	 p3 -p5-p6-p7- p2
 	 */
-	if(thumbs.size()>4){
-        Spring * anclaP2 = new Spring();
-        anclaP2->k = k;
-        anclaP2->rectA = thumbs[4];  // D
-        anclaP2->rectB = anclaVisualizador;
-        anclaP2->indiceA = 4;
-        anclaP2->indiceB = 2;
-        anclaP2->visible = false;
-        anclaP2->dist = 80;	
-        
-        springs.push_back(anclaP2);
-    }
 
 	
 	Spring * anclaP3 = new Spring();
@@ -370,108 +345,150 @@ void miniaturas::creaGrid(ofColor _color){
 	anclaP3->indiceB = 3;
 	anclaP3->visible = false;
 	anclaP3->dist = 80;
+    springs.push_back(anclaP3);
     
-	if(thumbs.size()>0){
-        Spring * anclaP5 = new Spring();
-        anclaP5->k = k;
-        anclaP5->rectA = thumbs[1];  // D
-        anclaP5->rectB = anclaVisualizador;
-        anclaP5->indiceA = 4;
-        anclaP5->indiceB = 5;
-        anclaP5->visible = false;
-        anclaP5->dist = 80;
-        springs.push_back(anclaP5);
-        
-        Spring * diago0 = new Spring();
-        diago0->k = k;
-        diago0->rectA = anclaVisualizador;
-        diago0->rectB = thumbs[1];  // D
-        diago0->indiceA = 3;
-        diago0->indiceB = 4;
-        diago0->visible = false;
-        diago0->diagonal = true;
-        diago0->dist = 100;
-        springs.push_back(diago0);
-        
-        Spring * diago3 = new Spring();
-        diago3->k = k;
-        diago3->rectA = anclaVisualizador;
-        diago3->rectB = thumbs[1];  // D
-        diago3->indiceA = 6;
-        diago3->indiceB = 4;
-        diago3->visible = false;
-        diago3->diagonal = true;
-        diago3->dist = 100;
-        springs.push_back(diago3);
-    }
-    if(thumbs.size()>2){
-        Spring * anclaP6 = new Spring();
-        anclaP6->k = k;
-        anclaP6->rectA = thumbs[2];  // D
-        anclaP6->rectB = anclaVisualizador;
-        anclaP6->indiceA = 4;
-        anclaP6->indiceB = 6;
-        anclaP6->visible = false;
-        anclaP6->dist = 80;
-        springs.push_back(anclaP6);
-        
-        Spring * diago2 = new Spring();
-        diago2->k = k;
-        diago2->rectA = anclaVisualizador;
-        diago2->rectB = thumbs[2];  // D
-        diago2->indiceA = 5;
-        diago2->indiceB = 4;
-        diago2->visible = false;
-        diago2->diagonal = true;
-        diago2->dist = 100;
-        springs.push_back(diago2);
-        
-        Spring * diago5 = new Spring();
-        diago5->k = k;
-        diago5->rectA = anclaVisualizador;
-        diago5->rectB = thumbs[2];  // D
-        diago5->indiceA = 7;
-        diago5->indiceB = 4;
-        diago5->visible = false;
-        diago5->diagonal = true;
-        diago5->dist = 100;
-        springs.push_back(diago5);
-	}
-    if(thumbs.size()>3){
-        Spring * anclaP7 = new Spring();
-        anclaP7->k = k;
-        anclaP7->rectA = thumbs[3];  // D
-        anclaP7->rectB = anclaVisualizador;
-        anclaP7->indiceA = 4;
-        anclaP7->indiceB = 7;
-        anclaP7->visible = false;
-        anclaP7->dist = 80;
-        springs.push_back(anclaP7);
-        
-        Spring * diago4 = new Spring();
-        diago4->k = k;
-        diago4->rectA = anclaVisualizador;
-        diago4->rectB = thumbs[3];  // D
-        diago4->indiceA = 6;
-        diago4->indiceB = 4;
-        diago4->visible = false;
-        diago4->diagonal = true;
-        diago4->dist = 100;
-        springs.push_back(diago4);
-        
-        Spring * diago7 = new Spring();
-        diago7->k = k;
-        diago7->rectA = anclaVisualizador;
-        diago7->rectB = thumbs[3];  // D
-        diago7->indiceA = 2;
-        diago7->indiceB = 4;
-        diago7->diagonal = true;
-        diago7->visible = false;
-        diago7->dist = 100;
-        springs.push_back(diago7);
-    }
     
+    
+    
+    if(thumbs.size()>1){
+    /// si hay mas de una sigue
+         cout << "hay " << thumbs.size() << " miniaturas" << endl;
+        
+        //if(thumbs.size()>1){
+           
+        
+            Spring * anclaP5 = new Spring();
+            anclaP5->k = k;
+            anclaP5->rectA = thumbs[1];  // D
+            anclaP5->rectB = anclaVisualizador;
+            anclaP5->indiceA = 4;
+            anclaP5->indiceB = 5;
+            anclaP5->visible = false;
+            anclaP5->dist = 80;
+            springs.push_back(anclaP5);
+        
+            Spring * diago0 = new Spring();
+            diago0->k = k;
+            diago0->rectA = anclaVisualizador;
+            diago0->rectB = thumbs[1];  // D
+            diago0->indiceA = 3;
+            diago0->indiceB = 4;
+            diago0->visible = false;
+            diago0->diagonal = true;
+            diago0->dist = 100;
+            springs.push_back(diago0);
+        
+            Spring * diago3 = new Spring();
+            diago3->k = k;
+            diago3->rectA = anclaVisualizador;
+            diago3->rectB = thumbs[1];  // D
+            diago3->indiceA = 6;
+            diago3->indiceB = 4;
+            diago3->visible = false;
+            diago3->diagonal = true;
+            diago3->dist = 100;
+            springs.push_back(diago3);
+        //}
+        
+        if(thumbs.size()>2){
+            Spring * anclaP6 = new Spring();
+            anclaP6->k = k;
+            anclaP6->rectA = thumbs[2];  // D
+            anclaP6->rectB = anclaVisualizador;
+            anclaP6->indiceA = 4;
+            anclaP6->indiceB = 6;
+            anclaP6->visible = false;
+            anclaP6->dist = 80;
+            springs.push_back(anclaP6);
+        
+            Spring * diago2 = new Spring();
+            diago2->k = k;
+            diago2->rectA = anclaVisualizador;
+            diago2->rectB = thumbs[2];  // D
+            diago2->indiceA = 5;
+            diago2->indiceB = 4;
+            diago2->visible = false;
+            diago2->diagonal = true;
+            diago2->dist = 100;
+            springs.push_back(diago2);
+        
+            Spring * diago5 = new Spring();
+            diago5->k = k;
+            diago5->rectA = anclaVisualizador;
+            diago5->rectB = thumbs[2];  // D
+            diago5->indiceA = 7;
+            diago5->indiceB = 4;
+            diago5->visible = false;
+            diago5->diagonal = true;
+            diago5->dist = 100;
+            springs.push_back(diago5);
+        }
+        
+        if(thumbs.size()>3){
+            Spring * anclaP7 = new Spring();
+            anclaP7->k = k;
+            anclaP7->rectA = thumbs[3];  // D
+            anclaP7->rectB = anclaVisualizador;
+            anclaP7->indiceA = 4;
+            anclaP7->indiceB = 7;
+            anclaP7->visible = false;
+            anclaP7->dist = 80;
+            springs.push_back(anclaP7);
+        
+            Spring * diago4 = new Spring();
+            diago4->k = k;
+            diago4->rectA = anclaVisualizador;
+            diago4->rectB = thumbs[3];  // D
+            diago4->indiceA = 6;
+            diago4->indiceB = 4;
+            diago4->visible = false;
+            diago4->diagonal = true;
+            diago4->dist = 100;
+            springs.push_back(diago4);
+        
+            Spring * diago7 = new Spring();
+            diago7->k = k;
+            diago7->rectA = anclaVisualizador;
+            diago7->rectB = thumbs[3];  // D
+            diago7->indiceA = 2;
+            diago7->indiceB = 4;
+            diago7->diagonal = true;
+            diago7->visible = false;
+            diago7->dist = 100;
+            springs.push_back(diago7);
+        }
+    
+        
+        
+        if(thumbs.size()>4){
+            Spring * diago6 = new Spring();
+            diago6->k = k;
+            diago6->rectA = anclaVisualizador;
+            diago6->rectB = thumbs[4];  // D
+            diago6->indiceA = 7;
+            diago6->indiceB = 4;
+            diago6->visible = false;
+            diago6->diagonal = true;
+            diago6->dist = 100;
+            
+            springs.push_back(diago6);
+        //}
+        
+        //if(thumbs.size()>4){
+            Spring * anclaP2 = new Spring();
+            anclaP2->k = k;
+            anclaP2->rectA = thumbs[4];  // D
+            anclaP2->rectB = anclaVisualizador;
+            anclaP2->indiceA = 4;
+            anclaP2->indiceB = 2;
+            anclaP2->visible = false;
+            anclaP2->dist = 80;	
+            
+            springs.push_back(anclaP2);
+        }
 
+        
+    }
 	
 	Spring * diago1 = new Spring();
 	diago1->k = k;
@@ -482,23 +499,6 @@ void miniaturas::creaGrid(ofColor _color){
 	diago1->visible = false;
 	diago1->diagonal = true;
 	diago1->dist = 100;
-	
-    
-    if(thumbs.size()>4){
-        Spring * diago6 = new Spring();
-        diago6->k = k;
-        diago6->rectA = anclaVisualizador;
-        diago6->rectB = thumbs[4];  // D
-        diago6->indiceA = 7;
-        diago6->indiceB = 4;
-        diago6->visible = false;
-        diago6->diagonal = true;
-        diago6->dist = 100;
-        
-        springs.push_back(diago6);
-    }
-	
-    springs.push_back(anclaP3);
 	springs.push_back(diago1);
     
 	///

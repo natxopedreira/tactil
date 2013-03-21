@@ -22,6 +22,7 @@ public:
     void    setup();
     void    update();
     void    drawVisualizador();
+    void    drawVisualizadorSombra();
     
     void    cargaImagen(string _url);
     void    ponTexto(string _titularPie,string _pie, string _informacion);
@@ -56,6 +57,7 @@ private:
     bool    imgVisible;
     bool    drag;
     bool    verInfo;
+    ofPoint mousePrev;
     
     string  wrapString(string text, int width, ofTrueTypeFont & _ft);
 };

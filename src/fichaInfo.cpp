@@ -110,7 +110,7 @@ void fichaInfo::update(){
         
         for (vector<baseShape*>::iterator itRectR = itRect; itRectR!=rectangulos.end(); ++itRectR) {
             
-            if((*itRect) != (*itRectR) && !(*itRect)->useBtnIdioma && !(*itRectR)->useBtnIdioma){
+            if((*itRect) != (*itRectR) && !(*itRect)->useBtnIdioma && !(*itRectR)->useBtnIdioma && !(*itRectR)->principal){
                 (*itRectR)->addRepulsionForce((*itRect), 80, 80);
             }
         }
@@ -168,9 +168,9 @@ void fichaInfo::draw(){
 	ofSetColor(255, 255, 255,255);
     
     /// muelles
-	for(int j = 0; j < muelles.size(); j++){
+	/*for(int j = 0; j < muelles.size(); j++){
 		muelles.at(j)->draw();
-	}
+	}*/
 	
     /// PINTA LOS BOTONES y EL AREA
     btnImagenes.drawButton();
@@ -209,9 +209,9 @@ void fichaInfo::drawSombra(){
 	ofSetColor(255, 255, 255,255);
     
     /// muelles
-	for(int j = 0; j < muelles.size(); j++){
+	/*for(int j = 0; j < muelles.size(); j++){
 		muelles.at(j)->draw();
-	}
+	}*/
 	
     /// PINTA LOS BOTONES y EL AREA
     btnImagenes.drawButton();
@@ -251,31 +251,37 @@ void fichaInfo::collideWith( fichaInfo *_body ){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
+    
+    
     switch (minis.lenguaje) {
         case IDIOMA_CAST:
-            areaGrande.ponTexto(minis.titular_cast_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));    
-            //areaGrande.ponTexto(minis.pies_cast_titular_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));
+            if(idLeader < minis.titular_cast_mini.size() && idLeader < minis.pies_cast_cuerpo_mini.size() && idLeader < minis.txt_cast_mini.size()){
+                areaGrande.ponTexto(minis.titular_cast_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));   
+            }
             break;
             
         case IDIOMA_GAL:
-            areaGrande.ponTexto(minis.titular_gal_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
-            //areaGrande.ponTexto(minis.pies_gal_titular_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
+            if(idLeader < minis.titular_gal_mini.size() && idLeader < minis.pies_gal_cuerpo_mini.size() && idLeader < minis.txt_gal_mini.size()){
+                areaGrande.ponTexto(minis.titular_gal_mini.at(idLeader), minis.pies_gal_cuerpo_mini.at(idLeader), minis.txt_gal_mini.at(idLeader));
+            }
             break;
             
         case IDIOMA_ENG:
-            areaGrande.ponTexto(minis.titular_eng_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
-            //areaGrande.ponTexto(minis.pies_eng_titular_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
+            if(idLeader < minis.titular_eng_mini.size() && idLeader < minis.pies_eng_cuerpo_mini.size() && idLeader < minis.txt_eng_mini.size()){
+                areaGrande.ponTexto(minis.titular_eng_mini.at(idLeader), minis.pies_eng_cuerpo_mini.at(idLeader), minis.txt_eng_mini.at(idLeader));
+            }
             break;
             
         case IDIOMA_FR:
-            areaGrande.ponTexto(minis.titular_fr_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
-            //areaGrande.ponTexto(minis.pies_fr_titular_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
+            if(idLeader < minis.titular_fr_mini.size() && idLeader < minis.pies_fr_cuerpo_mini.size() && idLeader < minis.txt_fr_mini.size()){
+                areaGrande.ponTexto(minis.titular_fr_mini.at(idLeader), minis.pies_fr_cuerpo_mini.at(idLeader), minis.txt_fr_mini.at(idLeader));
+            }
             break;
             
         default:
             break;
     }
-    areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
+    if(idLeader < minis.urls_mini.size()) areaGrande.cargaImagen(minis.urls_mini.at(idLeader));
 }
 
 
@@ -706,12 +712,16 @@ void fichaInfo::cargaXml(string _ulr){
                         rectangulos.at(3)->titular_eng.push_back(datosXml.getValue("titulo_eng", ""));
                         rectangulos.at(3)->titular_fr.push_back(datosXml.getValue("titulo_fr", ""));
                         
+                        
+                        
+                        
+                        
                         // comprobamos los pies
                         
                         // castellano
                         if(datosXml.pushTag("pie_cast")){
                             rectangulos.at(3)->pies_cast_titular.push_back(datosXml.getValue("titular", ""));
-                            rectangulos.at(3)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));
+                            rectangulos.at(3)->pies_cast_cuerpo.push_back(datosXml.getValue("cuerpo", ""));                            
                             datosXml.popTag();
                         }    
                         // gallego
@@ -825,9 +835,9 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			py = e.y;
             
 			// mira si es un boton
-			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado){
-				idLeader = i;
-                
+			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
+				//idLeader = i;
+                seccionActiva = i;
                 areaGrande.crece(0);
                 
                 cambiaSeccion(i);

@@ -13,13 +13,15 @@ visualizador::visualizador(){
     imgVisible = false;
 
     fuente.loadFont("SegoeSb.ttf", 13,96, true);
+    fuente.setSpaceSize(.8);
     
-    fuenteCuerpo.loadFont("SegoeL.ttf", 10,90, true);
+    fuenteCuerpo.loadFont("SegoeL.ttf", 10,96, true);
     fuenteCuerpo.setLineHeight(15);
+    fuenteCuerpo.setSpaceSize(.8);
     
-    fuenteInfo.loadFont("SegoeL.ttf", 12 ,90, true);
+    fuenteInfo.loadFont("SegoeL.ttf", 12 ,96, true);
     fuenteInfo.setLineHeight(18);
-
+    fuenteInfo.setSpaceSize(.8);
     
     offsetDrag.set(0, 0);
     verPie = false;
@@ -70,6 +72,22 @@ void visualizador::update(){
     
     visor.update();
 }
+// ---------------------------------------
+void visualizador::drawVisualizadorSombra(){
+    // drawRound(); // la base
+//    ofSetColor(255, 255, 255);
+    ofSetColor(0, 0, 0);
+    
+   ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
+    
+    
+    
+    
+
+    
+    btnInfo.drawRound();
+}
+
 
 // ---------------------------------------
 void visualizador::drawVisualizador(){
@@ -205,19 +223,17 @@ void visualizador::mouseDragged(ofMouseEventArgs & args){
 
         ofPoint p = getCenter();
         ofPoint diff	= ofPoint(args.x, args.y) - p;
-        
-        addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y));
-        //moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+
+        //addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y).normalize()*1.5);
+        moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
 
     }
 }
 
 // ---------------------------------------
 void visualizador::mousePressed(ofMouseEventArgs & args){
-    ofRectangle rect; // area de visualizacion de la imagen
-    rect.set(this->x+visor.x + 10, this->y + visor.y + 10, visor.getAnchoMax(), visor.getAltoMax());
-    
-    if(this->inside(args.x, args.y) && (!rect.inside(args.x, args.y) || verInfo)){
+
+    if(this->inside(args.x, args.y)){
         offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
         drag = true;
     }else{

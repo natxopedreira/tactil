@@ -40,7 +40,11 @@ void thumb::urdate(){
 void thumb::drawThumb(){
     //drawRound();
 	ofPushStyle();
-	ofSetColor(255,255,255);
+    
+    ofSetColor(0,0,0,200);
+    roundedRect(x-((width-cambioY)/2) + width/2 + 3, y-((height-cambioY)/2) + height/2 + 3, (width-cambioY) * escala, (height-cambioY) * escala, 10);
+    
+	ofSetColor(255,255,255,255);
     
     
     

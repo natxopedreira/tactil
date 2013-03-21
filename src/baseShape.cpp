@@ -144,9 +144,11 @@ void baseShape::update(){
     this->x += vel.x;
 	this->y += vel.y;
 	
-	
-    acc *= 0;
-	
+	if(principal){
+        acc *= .9;
+	}else{
+         acc *= 0;
+    }
 	puntos.at(0).set(this->x,this->y);
 	puntos.at(1).set(this->x+this->width * escala,this->y);
     puntos.at(2).set(this->x+265 * escala,this->y+this->height * escala);
@@ -175,8 +177,12 @@ void baseShape::update(){
 void baseShape::drawRound(){
 
 	ofPushStyle();
-		ofSetColor(color);
-		roundedRect(this->x, this->y, this->width * escala, this->height * escala,14);
+        ofSetColor(0,0,0,150);
+		roundedRect(this->x+3, this->y+3, this->width * escala, this->height * escala,14);
+    
+        ofSetColor(color.r,color.g,color.b,255);
+		
+        roundedRect(this->x, this->y, this->width * escala, this->height * escala,14);
 	
 	if(cambiandose){
 		/// dibujamos la cortina
