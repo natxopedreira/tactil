@@ -39,17 +39,17 @@ void boton::drawContxt(ofTrueTypeFont & fuente){
     if(botonIdiomaCheck){
        
         ofSetColor(0, 0, 0, 190);
-        roundedRect(this->x+2, this->y+2, this->width, this->height,6);
+        ofRectRounded(this->x+2, this->y+2, this->width, this->height,6);
         
         ofSetColor(idiomaActivoColor.r, idiomaActivoColor.g, idiomaActivoColor.b, idiomaActivoColor.a);
-        roundedRect(this->x, this->y, this->width, this->height,6);
+        ofRectRounded(this->x, this->y, this->width, this->height,6);
     }else{
         ofSetColor(idiomaColor.r, idiomaColor.g, idiomaColor.b, idiomaColor.a);
        
         if(nombre != "ESP" && nombre != "FR"){
             ofRect(this->x, this->y, this->width, this->height);
         }else{
-            roundedRect(this->x, this->y, this->width, this->height,6);
+            ofRectRounded(this->x, this->y, this->width, this->height,6);
         }
         // roundedRect(this->x, this->y, this->width, this->height,6);
     }

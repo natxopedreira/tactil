@@ -3,8 +3,9 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	ofSetVerticalSync(true);
-    ofSetCircleResolution(50);
+    
 	ofBackground(255,0,0);
+    ofSetCircleResolution(400);
     
     Tweenzor::init();
     

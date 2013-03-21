@@ -177,20 +177,20 @@ void baseShape::update(){
 void baseShape::drawRound(){
     
 	ofPushStyle();
-        ofSetColor(0,0,0,150);
-		roundedRect(this->x+3, this->y+3, this->width * escala, this->height * escala,14);
+
+    ofSetColor(0,0,0,150);
+    ofRectRounded(this->x+3, this->y+3, this->width * escala, this->height * escala,16);
     
-        ofSetColor(color.r,color.g,color.b,255);
-		
-        roundedRect(this->x, this->y, this->width * escala, this->height * escala,14);
-	
+    ofSetColor(color.r,color.g,color.b,255);
+    ofRectRounded(this->x, this->y, this->width * escala, this->height * escala,16);
+    
 	if(cambiandose){
 		/// dibujamos la cortina
 		ofSetColor(colorCambio);
-		roundedRect(this->x, this->y, this->width * escala, (this->height-cambioY) * escala ,14);
-		
+		ofRectRounded(this->x, this->y, this->width * escala, (this->height-cambioY) * escala ,16);
 	}
-    
+
+    ofPopStyle();
     
     /// debug de los puntos para verlos
     /*
@@ -311,58 +311,41 @@ void baseShape::addRepulsionForce(baseShape *p, float radius, float scale){
 
 //------------------------------------------------------------
 void baseShape::bounceOffWalls(){
+    // sometimes it makes sense to damped, when we hit
+	bool bDampedOnCollision = true;
+	bool bDidICollide = false;
+    
+	// what are the walls
+	float minx = 0;
+	float miny = 0;
+	float maxx = ofGetWidth()-width;
+	float maxy = ofGetHeight()-height;
+    
+	if (x > maxx){
+		x = maxx; // move to the edge, (important!)
+		vel.x *= -1;
+		bDidICollide = true;
+	} else if (x < minx){
+		x = minx; // move to the edge, (important!)
+		vel.x *= -1;
+		bDidICollide = true;
+	}
+    
+	if (y > maxy){
+		y = maxy; // move to the edge, (important!)
+		vel.y *= -1;
+		bDidICollide = true;
+	} else if (y < miny){
+		y = miny; // move to the edge, (important!)
+		vel.y *= -1;
+		bDidICollide = true;
+	}
+    
+	if (bDidICollide == true && bDampedOnCollision == true){
+		vel *= 0.3;
+	}
 }
 
-
-///
-void baseShape::roundedRect(float x, float y, float w, float h, float r) {  
-    ofBeginShape();  
-        ofVertex(x+r, y);  
-        ofVertex(x+w-r, y);  
-        quadraticBezierVertex(x+w, y, x+w, y+r, x+w-r, y);  
-        ofVertex(x+w, y+h-r);  
-        quadraticBezierVertex(x+w, y+h, x+w-r, y+h, x+w, y+h-r);  
-        ofVertex(x+r, y+h);  
-        quadraticBezierVertex(x, y+h, x, y+h-r, x+r, y+h);  
-        ofVertex(x, y+r);  
-        quadraticBezierVertex(x, y, x+r, y, x, y+r);  
-    ofEndShape();  
-}  
-
-void baseShape::quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY) {  
-	float cp1x = prevX + 2.0/3.0*(cpx - prevX);  
-	float cp1y = prevY + 2.0/3.0*(cpy - prevY);  
-	float cp2x = cp1x + (x - prevX)/3.0;  
-	float cp2y = cp1y + (y - prevY)/3.0;  
-	
-	// finally call cubic Bezier curve function  
-	ofBezierVertex(cp1x, cp1y, cp2x, cp2y, x, y);  
-};  
-
-void baseShape::LinedRoundedRectangle(int x,int y,int w,int h,int radius,int lw,ofColor clrColor) 
-{  
-	glDisable(GL_TEXTURE_2D);
-	glShadeModel(GL_SMOOTH);
-	glEnable(GL_BLEND);
-	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
-	glColor4ub(clrColor.r,clrColor.g,clrColor.b,clrColor.a);
-	glLineWidth((GLfloat)lw);
-    
-	glBegin(GL_LINE_STRIP);
-    for(float i=(float)M_PI;i<=1.5f*M_PI;i+=0.1f)
-        glVertex2f(radius*cos(i)+x+radius,radius*sin(i)+y+radius);
-    for(float i=1.5f*(float)M_PI;i<=2*M_PI; i+=0.1f)
-        glVertex2f(radius*cos(i)+x+w-radius,radius*sin(i)+y+radius);
-    for(float i=0;i<=0.5f*M_PI; i+=0.1f)
-        glVertex2f(radius*cos(i)+x+w-radius,radius*sin(i)+y+h-radius);
-    for(float i=0.5f*(float)M_PI;i<=M_PI;i+=0.1f) 
-        glVertex2f(radius*cos(i)+x+radius,radius*sin(i)+y+h-radius);
-    glVertex2i(x,y+radius);
-	glEnd();
-    
-	glEnable(GL_TEXTURE_2D);
-	glDisable(GL_BLEND); 
-}
 
 void baseShape::cambiate(int _r,int _g, int _b, float _delay){
 	/// cambias de color

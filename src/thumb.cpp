@@ -29,10 +29,10 @@ void thumb::urdate(){
             }else{
                 ofSetColor(255,255,255,120);
             }
-            roundedRect(0, 0, (width-cambioY) * escala, (height-cambioY) * escala, 10);
+            ofRectRounded(0, 0, (width-cambioY) * escala, (height-cambioY) * escala, 10);
         }else{
             ofSetColor(255,255,255);
-            roundedRect(0, 0, (width-cambioY) * escala, (height-cambioY) * escala, 10);
+            ofRectRounded(0, 0, (width-cambioY) * escala, (height-cambioY) * escala, 10);
         }
     mascara.end();
 }
@@ -42,7 +42,7 @@ void thumb::drawThumb(){
 	ofPushStyle();
     
     ofSetColor(0,0,0,200);
-    roundedRect(x-((width-cambioY)/2) + width/2 + 3, y-((height-cambioY)/2) + height/2 + 3, (width-cambioY) * escala, (height-cambioY) * escala, 10);
+    ofRectRounded(x-((width-cambioY)/2) + width/2 + 3, y-((height-cambioY)/2) + height/2 + 3, (width-cambioY) * escala, (height-cambioY) * escala, 10);
     
 	ofSetColor(255,255,255,255);
     

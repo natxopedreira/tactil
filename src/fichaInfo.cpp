@@ -12,9 +12,9 @@ fichaInfo::fichaInfo(){
 
 	idLeader = 0;
     
-    kmuelles = 0.325;
-	kHorizontal = 0.325;
-	kMuellesDiagonales = 0.325;
+    kmuelles = 0.0325;
+	kHorizontal = 0.0325;
+	kMuellesDiagonales = 0.0325;
 	
 	dampCajasMiniaturas = 0.175;
 	dampcajas = 0.33;
@@ -104,7 +104,7 @@ void fichaInfo::update(){
     areaGrande.width = anchoGrande;
     areaGrande.height = altoGrande;
     
-    if(areaGrande.getCenter().x > 1910 || areaGrande.getCenter().x <0 || areaGrande.getCenter().y > 1070 || areaGrande.getCenter().y < 0 ) debesMorir = true;
+  //  if(areaGrande.getCenter().x > 1910 || areaGrande.getCenter().x <0 || areaGrande.getCenter().y > 1070 || areaGrande.getCenter().y < 0 ) debesMorir = true;
     
     // update rectangulos
     for (vector<baseShape*>::iterator itRect = rectangulos.begin(); itRect!=rectangulos.end(); ++itRect) {
@@ -126,6 +126,8 @@ void fichaInfo::update(){
 
     
     // movemos las miniaturas
+    areaGrande.bounceOffWalls();
+    
     
 	areaGrande.update();
     minis.update();

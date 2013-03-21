@@ -71,6 +71,8 @@ void visualizador::update(){
     btnInfo.y += difY * .5;
     
     visor.update();
+    
+    
 }
 // ---------------------------------------
 void visualizador::drawVisualizadorSombra(){

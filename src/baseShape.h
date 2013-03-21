@@ -20,10 +20,8 @@ public:
 	~baseShape();
 	string  nombre;
 	
-	void roundedRect(float x, float y, float w, float h, float r);  
-	void quadraticBezierVertex(float cpx, float cpy, float x, float y, float prevX, float prevY);
 	
-    void LinedRoundedRectangle(int x,int y,int w,int h,int radius,int lw,ofColor clrColor);
+    void ofRoundedRect(float x,float y,float w,float h,float r);
     
 	void    addForce( ofPoint _force );
 	bool    suicidate();
