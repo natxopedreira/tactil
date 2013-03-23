@@ -50,7 +50,7 @@ visualizador::~visualizador(){
 
 // ---------------------------------------
 void visualizador::setup(){
-    visor.setup(473, 287);
+    visor.setup(503, 308);
     ofRegisterMouseEvents(this);
 }
 
@@ -202,7 +202,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     pie = wrapString(_pie,470,fuenteCuerpo);
     titularPie = _titularPie;
     cont = x + 200;
-    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height - 54;
+    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height - 24;
 
     crece(altoTexto);
     

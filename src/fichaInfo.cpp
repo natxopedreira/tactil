@@ -29,7 +29,7 @@ fichaInfo::fichaInfo(){
     anchoGrande = 60;
     altoGrande = 60;
     
-    visualizadorWidth = 497;
+    visualizadorWidth = 528;
     visualizadorheight = 400;
 
     totalFichas = 0;
@@ -326,7 +326,7 @@ void fichaInfo::cargaMinis(int _index){
     
 	///cargamos las miniaturas
     
-    int px = areaGrande.x;
+    int px = areaGrande.x + areaGrande.width;
     int py = areaGrande.posyrect + areaGrande.poshrect + 180;
     
     minis.limpiaMinis(); // borras las que hay

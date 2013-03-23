@@ -25,7 +25,7 @@ baseShape::baseShape(){
     
     */
 	
-    ofPoint p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14;
+    ofPoint p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15;
 	
 	p0.set(0,0);
 	p1.set(0,0);
@@ -42,6 +42,7 @@ baseShape::baseShape(){
     p12.set(0,0);
     p13.set(0,0);
     p14.set(0,0);
+    p15.set(0,0);
 	
 	puntos.push_back(p0);
 	puntos.push_back(p1);
@@ -58,6 +59,7 @@ baseShape::baseShape(){
     puntos.push_back(p12);
     puntos.push_back(p13);
     puntos.push_back(p14);
+    puntos.push_back(p15);
 	
 	vel.set(0, 0);
     acc.set(0,0,0);
@@ -155,22 +157,23 @@ void baseShape::update(){
     puntos.at(4).set(this->getCenter());
     
     //// separacion de 60,50 + 10 de margen
+    //float distaciaAl2 = ofDist(this->x, this->y + this->height,  puntos.at(2).x,  puntos.at(2).y);
     
 	puntos.at(3).set(this->x + 25,this->y+this->height * escala);
 	puntos.at(5).set(this->x+85 * escala,this->y+this->height * escala);
 	puntos.at(6).set(this->x+145 * escala,this->y+this->height * escala);
 	puntos.at(7).set(this->x+205 * escala,this->y+this->height * escala);
-	
     puntos.at(8).set(this->x+this->width * escala,this->y+(this->height/2) * escala);
 	puntos.at(9).set(this->x,this->y+(this->height/2) * escala);
-	
     puntos.at(10).set(this->x+this->width * escala,this->y+this->height * escala);
-    
     puntos.at(11).set(this->x,this->y+this->height);
-    
     puntos.at(12).set(this->x+325 * escala,this->y+this->height * escala);
     puntos.at(13).set(this->x+385 * escala,this->y+this->height * escala);
     puntos.at(14).set(this->x+445 * escala,this->y+this->height * escala);
+    puntos.at(15).set((this->x+this->width)- ofDist(puntos.at(11).x, puntos.at(11).y, puntos.at(3).x, puntos.at(3).y),this->y+this->height * escala);
+   
+    
+
 }
 
 //------------------------------------------------------------
@@ -193,13 +196,16 @@ void baseShape::drawRound(){
     ofPopStyle();
     
     /// debug de los puntos para verlos
+    
     /*
-    ofSetColor(0);
     for (int i  = 0 ; i < puntos.size(); i++) {
+        ofSetColor(0);
         ofCircle(puntos[i].x, puntos[i].y, 5);
+        ofSetColor(255,255, 255);
+        ofDrawBitmapString(ofToString(i), ofPoint(puntos[i].x, puntos[i].y));
     }
-	ofPopStyle();
-    */
+	*/
+    
 }
 
 
