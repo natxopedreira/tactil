@@ -36,6 +36,8 @@ void boton::desactivate(){
 }
 
 void boton::drawContxt(ofTrueTypeFont & fuente){
+    ofPushStyle();
+    
     if(botonIdiomaCheck){
        
         ofSetColor(0, 0, 0, 190);
@@ -43,39 +45,35 @@ void boton::drawContxt(ofTrueTypeFont & fuente){
         
         ofSetColor(idiomaActivoColor.r, idiomaActivoColor.g, idiomaActivoColor.b, idiomaActivoColor.a);
         ofRectRounded(this->x, this->y, this->width, this->height,6);
+        
+        ofSetColor(255);
+        if(nombre != "FR" ){
+            fuente.drawString(nombre, this->x + 10, this->y + 15);
+        }else{
+            fuente.drawString(nombre, this->x + 13, this->y + 15);
+        }
+        
     }else{
         ofSetColor(idiomaColor.r, idiomaColor.g, idiomaColor.b, idiomaColor.a);
        
         if(nombre != "ESP" && nombre != "FR"){
             ofRect(this->x, this->y, this->width, this->height);
         }else{
-            ofRectRounded(this->x, this->y, this->width, this->height,6);
-        }
-        // roundedRect(this->x, this->y, this->width, this->height,6);
-    }
-    
-    
-    //
-    //drawRound();
-    
-    ofPushStyle();
-    if(botonIdiomaCheck){
-        ofSetColor(255);
-    }else{
-        ofSetColor(20);
-    }
+            if(nombre == "ESP"){
+                ofRectRounded(this->x, this->y, this->width+4, this->height,6);
+            }else{
+                ofRectRounded(this->x, this->y, this->width, this->height,6);
+            }
             
-    if(botonIdiomaCheck){
-        if(nombre != "FR" ){
-            fuente.drawString(nombre, this->x + 8, this->y + 15);
-        }else{
-            fuente.drawString(nombre, this->x + 12, this->y + 15);
         }
         
-    }else if(nombre == "FR"){
-        fuente.drawString(nombre, this->x + 12, this->y + 15);
-    }else {
-        fuente.drawString(nombre, this->x + 5, this->y + 15);
+        ofSetColor(20);
+        if(nombre != "FR" ){
+            fuente.drawString(nombre, this->x + 10, this->y + 15);
+        }else{
+            fuente.drawString(nombre, this->x + 13, this->y + 15);
+        }
     }
+    
    ofPopStyle();
 }

@@ -353,7 +353,7 @@ void miniaturas::creaGrid(ofColor _color){
     
     if(thumbs.size()>1){
         /// si hay mas de una sigue
-        cout << "hay " << thumbs.size() << " miniaturas" << endl;
+        //cout << "hay " << thumbs.size() << " miniaturas" << endl;
         
         //if(thumbs.size()>1){
         

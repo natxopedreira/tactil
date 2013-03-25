@@ -564,7 +564,7 @@ void fichaInfo::construFigura(){
     
     
     ///botones de idioma
-    castellano.width = 38;
+    castellano.width = 40;
     castellano.height = 22;
     castellano.x = 0;
     castellano.y = 0;
@@ -572,21 +572,21 @@ void fichaInfo::construFigura(){
     castellano.botonIdiomaCheck = true;
     castellano.useBtnIdioma = true;
     
-    gallego.width = 38;
+    gallego.width = 40;
     gallego.height = 22;
     gallego.x = castellano.x + castellano.width;
     gallego.y = 0;
     gallego.nombre = "GAL";
     gallego.useBtnIdioma = true;
     
-    ingles.width = 38;
+    ingles.width = 40;
     ingles.height = 22;
     ingles.x = gallego.x + gallego.width;
     ingles.y = 0;
     ingles.nombre = "ENG"; 
     ingles.useBtnIdioma = true;
     
-    frances.width = 38;
+    frances.width = 40;
     frances.height = 22;
     frances.x = ingles.x + ingles.width;
     frances.y = 0;
@@ -608,10 +608,10 @@ void fichaInfo::construFigura(){
     rectangulos.push_back(&frances);
     rectangulos.push_back(&cerrar);
     
-    frances.idiomaColor.set(255,255,255,255);
-    ingles.idiomaColor.set(255,255,255,255);
-    gallego.idiomaColor.set(255,255,255,255);
-    castellano.idiomaColor.set(255,255,255,255);
+    frances.idiomaColor.set(236, 232, 220, 255);
+    ingles.idiomaColor.set(236, 232, 220, 255);
+    gallego.idiomaColor.set(236, 232, 220, 255);
+    castellano.idiomaColor.set(236, 232, 220, 255);
     
     frances.idiomaActivoColor.set(255, 143, 95,255);
     ingles.idiomaActivoColor.set(255, 143, 95,255);
