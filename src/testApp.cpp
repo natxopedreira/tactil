@@ -48,6 +48,7 @@ void testApp::setup(){
     veloBlur.end();
     
     //blur.setup(1920, 1080, 4, .1, 4);
+    animacionFondo.setup();
 }
 
 //--------------------------------------------------------------
@@ -85,7 +86,8 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
     ofSetColor(255, 255,255,255);
-    plano.draw(0, 0);
+   // plano.draw(0, 0);
+    animacionFondo.draw();
     
     ofSetColor(0,0,0,180);
     ofRect(0,0,1920,1080);
