@@ -99,6 +99,10 @@ void fichaInfo::setup(string _ulrXml){
     
     //cargamos datos
     cargaXml(_ulrXml);
+    
+    
+    ////
+    zoomImagen.setup(ofPoint(500,600), 400, 500,ofColor(233, 186, 118));
 }
 
 //--------------------------------------------------------------
@@ -205,7 +209,8 @@ void fichaInfo::draw(){
         cerrar.drawContxt(fuenteBotones);
     }
     
-
+    /// zooooom
+    zoomImagen.draw();
 }
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
@@ -934,8 +939,10 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
     
 }
-
-
+//--------------------------------------------------------------
+void fichaInfo::setTuioClient (ofxTuioClient * _tuioClient){
+    zoomImagen.setTuioClient(_tuioClient);
+}
 ///-----------------
 ///----------------- VALORES GUI 
 ///-----------------

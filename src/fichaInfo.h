@@ -15,6 +15,7 @@
 #include "Spring.h"
 #include "miniaturas.h"
 #include "ofxXmlSettings.h"
+#include "fichaZoom.h"
 /*
  ANIMACION ES
  
@@ -61,6 +62,9 @@ public:
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
     
+    /// tuio
+    void	setTuioClient (ofxTuioClient * _tuioClient);
+    
 	boton   btnImagenes;
 	boton   btnCuadros;
 	boton   btnPeriodicos;
@@ -90,5 +94,7 @@ public:
     
     ofTrueTypeFont  fuenteBotones;
     ofxXmlSettings  datosXml;
+    
+    fichaZoom zoomImagen;
 };
 #endif

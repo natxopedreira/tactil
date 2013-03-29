@@ -1,9 +1,12 @@
 #pragma once
 
 #include "ofMain.h"
-#include "fichaInfo.h"
+#include "ofxTuio.h"
 #include "ofxGui.h"
 #include "ofxTweenzor.h"
+
+
+#include "fichaInfo.h"
 #include "mar.h"
 /*
  quiero crear una clase fichaInfo para mostrar todos
@@ -47,4 +50,6 @@ class testApp : public ofBaseApp{
 	vector<fichaInfo *> fichas;
     
     mar animacionFondo;
+    
+    ofxTuioClient   tuioClient;
 };

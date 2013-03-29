@@ -34,11 +34,14 @@ void testApp::setup(){
 	
     plano.loadImage("plano.jpg");
     
+    tuioClient.start(3333);
+    
     /////////////////////
     /////////////////////
 	fichaInfo * ficha = new fichaInfo();
 	ficha->setup("interactivo.xml");
-
+    
+    ficha->setTuioClient(&tuioClient);
 	fichas.push_back(ficha);
     
     veloBlur.allocate(1920, 1080);
@@ -54,6 +57,8 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
+    tuioClient.getMessage();
+    
     
     for (int i = fichas.size()-1; i >= 0 ; i--){
         fichas[i]->update();
@@ -86,8 +91,17 @@ void testApp::draw(){
     }
 
     
+    
+    
+    
     ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
     gui.draw();
+    
+    
+    /// cursor tuio
+    ofSetColor(30, 255, 255);
+    
+    tuioClient.drawCursors();
 }
 
 
@@ -143,6 +157,7 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 void testApp::keyPressed(int key){
     fichaInfo * ficha = new fichaInfo();
 	ficha->setup("interactivo.xml");
+    ficha->setTuioClient(&tuioClient);
     
 	fichas.push_back(ficha);
 }
