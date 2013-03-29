@@ -608,10 +608,10 @@ void fichaInfo::construFigura(){
     rectangulos.push_back(&frances);
     rectangulos.push_back(&cerrar);
     
-    frances.idiomaColor.set(236, 232, 220, 255);
-    ingles.idiomaColor.set(236, 232, 220, 255);
-    gallego.idiomaColor.set(236, 232, 220, 255);
-    castellano.idiomaColor.set(236, 232, 220, 255);
+    frances.idiomaColor.set(236, 255, 255, 255);
+    ingles.idiomaColor.set(236, 255, 255, 255);
+    gallego.idiomaColor.set(236, 255, 255, 255);
+    castellano.idiomaColor.set(236, 255, 255, 255);
     
     frances.idiomaActivoColor.set(255, 143, 95,255);
     ingles.idiomaActivoColor.set(255, 143, 95,255);

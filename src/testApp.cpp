@@ -69,18 +69,6 @@ void testApp::update(){
             fichas.erase(fichas.begin()+i);
         }
     }
-    /*
-    veloBlur.begin();
-    ofClear(0);
-    ofSetColor(0,0,0,180);
-    ofRect(0,0,1920,1080);
-    ofTranslate(3, 3);
-    
-    for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
-        (*itFichas)->drawSombra();
-    }
-    veloBlur.end();
-   */
 }
 
 //--------------------------------------------------------------
@@ -91,7 +79,6 @@ void testApp::draw(){
     
     ofSetColor(0,0,0,180);
     ofRect(0,0,1920,1080);
-  //  veloBlur.draw(0, 0);
     
     ofSetColor(255, 255,255,255);
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {

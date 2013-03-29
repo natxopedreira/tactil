@@ -19,9 +19,9 @@ visualizador::visualizador(){
     fuenteCuerpo.setLineHeight(15);
     fuenteCuerpo.setSpaceSize(.8);
     
-    fuenteInfo.loadFont("SegoeL.ttf", 12 ,96, true);
-    fuenteInfo.setLineHeight(18);
-    fuenteInfo.setSpaceSize(.8);
+    //fuenteInfo.loadFont("SegoeL.ttf", 11 ,96, true);
+    //fuenteInfo.setLineHeight(15);
+    //fuenteInfo.setSpaceSize(.8);
     
     offsetDrag.set(0, 0);
     verPie = false;
@@ -134,8 +134,8 @@ void visualizador::drawVisualizador(){
         //ofSetColor(0,210);
         //ofRect(posxrect, posyrect, poswrect-24, poshrect-50);
         ofSetColor(0);
-        
-        fuenteInfo.drawString(informacion, posxrect+10, posyrect + 24);
+        fuenteCuerpo.drawString(informacion, posxrect+10, posyrect + 24);
+       // fuenteInfo.drawString(informacion, posxrect+10, posyrect + 24);
     }
     
     
@@ -206,8 +206,10 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
 
     crece(altoTexto);
     
-    informacion = wrapString(_informacion,460,fuenteInfo);
-    altoTextoInfo = fuenteInfo.getStringBoundingBox(informacion, 0, 0).height;
+    //informacion = wrapString(_informacion,460,fuenteInfo);
+    informacion = wrapString(_informacion,460,fuenteCuerpo);
+    //altoTextoInfo = fuenteInfo.getStringBoundingBox(informacion, 0, 0).height;
+    altoTextoInfo = fuenteCuerpo.getStringBoundingBox(informacion, 0, 0).height;
     
     if(altoTextoInfo > (this->height * this->escala)){
         desfaseAltoTextoInfo = altoTextoInfo - (this->height * this->escala) + 40;
