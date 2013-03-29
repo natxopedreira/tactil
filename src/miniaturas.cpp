@@ -22,6 +22,8 @@ miniaturas::miniaturas(){
     
     
     lenguaje = IDIOMA_CAST;
+    
+    zoomVisible = false;
 }
 
 // ---------------------------------------
@@ -85,9 +87,6 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
 	/// create el grid
     /// si hay minis
     if(thumbs.size()>0) creaGrid(_color);
-    
-    
-   
 }
 
 // ---------------------------------------
@@ -670,7 +669,7 @@ void miniaturas::creaGrid(ofColor _color){
     */
 	///
 	/// PONGO LA TENSION UNA VEZ COLOCADOS LOS MUELLES
-	
+    
 	cambiaKDiagonal(_kMuellesDiagonales);
 	cambiaKHorizontal(_kHorizontal);
 	cambiaK(_kmuelles);
@@ -708,7 +707,9 @@ void miniaturas::creaGrid(ofColor _color){
     
     
 }
-
+void miniaturas::viendoZoom(bool _visible){
+    zoomVisible = _visible;
+}
 ///-----------------
 ///----------------- VALORES GUI 
 ///-----------------

@@ -8,7 +8,7 @@ class Spring {
 public:
 	
     Spring();
-	~Spring();
+	// ~Spring();
 	
     void update();
     void draw();

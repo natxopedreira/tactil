@@ -37,6 +37,8 @@ public:
     void    update();
     void    drawCircle();
     void    creaGrid(ofColor _color);
+    
+    void    viendoZoom(bool _visible);
 	
     ofPoint origen;
     vector<thumb*>  thumbs; /// cambiamos el vector para ser de baseShape
@@ -54,6 +56,7 @@ public:
     float   k,damp;
     
 	bool    _listas; // si las minis esta colocadas
+    bool    zoomVisible; // si se esta viendo una imagen en grande
     
     int miniActiva;
     vector<string>  urls_mini;

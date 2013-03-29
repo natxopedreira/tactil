@@ -62,18 +62,21 @@ fichaInfo::~fichaInfo(){
 
 //--------------------------------------------------------------
 void fichaInfo::setup(string _ulrXml){
+    areaGrande.setup();
     
     fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
     fuenteBotones.setLineHeight(18);
     
 	construFigura();
     /////
-    areaGrande.setup();
+   
     
 	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
 	ofAddListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
 	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
 	
+    
+    
     
 	//inicias la miniatura
     /// le indicamos las anclas al area grande (para enganchar las minis)
@@ -426,11 +429,11 @@ void fichaInfo::construFigura(){
 	Spring * muImageCuadros3 = new Spring();
 	Spring * muImageCuadros4 = new Spring();
 	Spring * muImageCuadros5 = new Spring();
-	Spring * aux = new Spring();
+	//Spring * aux = new Spring();
 	Spring * aux2 = new Spring();
 	Spring * aux3 = new Spring();
 	Spring * aux4 = new Spring();
-    Spring * aux5 = new Spring();
+    //Spring * aux5 = new Spring();
 	
 	
 	//////////////////////////
@@ -514,12 +517,12 @@ void fichaInfo::construFigura(){
 	muImageCuadros5->dist = 66;
 	//muImageCuadros5->visible = false;
 	//////////////////////////
-	aux->k = kmuelles;
-	aux->rectA = &btnPeriodicos;
-	aux->rectB = &areaGrande;
-	aux->indiceA = 10;
-	aux->indiceB = 10;
-	aux->dist = 590;
+	//aux->k = kmuelles;
+	//aux->rectA = &btnPeriodicos;
+	//aux->rectB = &areaGrande;
+	//aux->indiceA = 10;
+	//aux->indiceB = 10;
+	//aux->dist = 590;
 	//aux->visible = false;
 	//////////////////////////
 	aux2->k = kmuelles;
@@ -557,7 +560,7 @@ void fichaInfo::construFigura(){
 	muelles.push_back(muImageCuadros3);
 	muelles.push_back(muImageCuadros4);
 	muelles.push_back(muImageCuadros5);
-	muelles.push_back(aux2);
+    muelles.push_back(aux2);
 	muelles.push_back(aux3);
 	muelles.push_back(aux4);
     
