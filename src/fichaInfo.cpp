@@ -69,6 +69,8 @@ void fichaInfo::setup(string _ulrXml){
     
 	construFigura();
     /////
+    
+    
    
     
 	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
@@ -100,9 +102,17 @@ void fichaInfo::setup(string _ulrXml){
     //cargamos datos
     cargaXml(_ulrXml);
     
-    
+
+
     ////
     zoomImagen.setup(ofPoint(500,600), 400, 500,ofColor(233, 186, 118));
+    
+    btnZoom.x = 500;
+    btnZoom.y = 600;
+    btnZoom.width = 30;
+    btnZoom.height = 30;
+    btnZoom.color.set(255, 0, 0,200);
+    btnZoom.nombre = "Z";
 }
 
 //--------------------------------------------------------------
@@ -168,6 +178,14 @@ void fichaInfo::update(){
     castellano.y += dCasty * .5;
     cerrar.y += dClosey * .5;
     
+    
+    
+    float difX = (areaGrande.x + areaGrande.width - 12)-(btnZoom.x + btnZoom.width);
+    float difY = (areaGrande.y + 320)-(btnZoom.y + btnZoom.height);
+    
+    btnZoom.x += difX * .4;
+    btnZoom.y += difY * .5;
+    
 }
 
 //--------------------------------------------------------------
@@ -207,10 +225,19 @@ void fichaInfo::draw(){
         if(gallego.botonIdiomaCheck)  gallego.drawContxt(fuenteBotones);
         if(castellano.botonIdiomaCheck)  castellano.drawContxt(fuenteBotones);
         cerrar.drawContxt(fuenteBotones);
+        
+        
     }
     
     /// zooooom
     zoomImagen.draw();
+    
+    if(areaGrande.verPie){
+        ofPushStyle();
+        ofSetColor(btnZoom.color);
+        ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
+        ofPopStyle();
+    }
 }
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
@@ -219,11 +246,7 @@ void fichaInfo::drawSombra(){
     
 	ofSetColor(255, 255, 255,255);
     
-    /// muelles
-	/*for(int j = 0; j < muelles.size(); j++){
-		muelles.at(j)->draw();
-	}*/
-	
+
     /// PINTA LOS BOTONES y EL AREA
     btnImagenes.drawButton();
 	btnCuadros.drawButton();
@@ -835,6 +858,13 @@ void fichaInfo::cargaXml(string _ulr){
 void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
+    ////boton de zoom ??
+    if(btnZoom.inside(ofPoint(e.x,e.y))){
+        cout << "ver zoooom" << endl;
+        
+        return;
+    }
+    
     
 	for(int i = 0; i < rectangulos.size(); i++){
         /// compruebas si estas drageando una caja

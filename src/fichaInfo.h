@@ -70,6 +70,7 @@ public:
 	boton   btnPeriodicos;
     boton   castellano, gallego, ingles, frances;
     boton   cerrar;
+    boton   btnZoom;
     
     miniaturas  minis;
 	visualizador    areaGrande;

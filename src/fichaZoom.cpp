@@ -149,7 +149,7 @@ void fichaZoom::tuioUpdated(ofxTuioCursor &tuioCursor){
 			ofPoint newStaCursorToCenter = ofPoint(newRadioToCenter*cos(newAngleToCenter),newRadioToCenter*sin(newAngleToCenter)); // Set the NEW vector from the static finger to the center of the keyboard
             
 			resize(scaleF);											// RESIZE the scale diference proportion
-			rotate(rotateF);										// ROTATE the diference in angle
+			//rotate(rotateF);										// ROTATE the diference in angle
 			position = oldLoc[sta] + newStaCursorToCenter;			// MOVE	the draged distance
             
             
@@ -157,6 +157,7 @@ void fichaZoom::tuioUpdated(ofxTuioCursor &tuioCursor){
         
 		oldLoc[0] = cursorsOnBorder[0].loc;
 		oldLoc[1] = cursorsOnBorder[1].loc;
+        
 	}
 }
 
