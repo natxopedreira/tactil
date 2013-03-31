@@ -99,5 +99,6 @@ public:
     fichaZoom zoomImagen;
     
     ofImage imgBtnZoom;
+    ofImage imgBtnClose;
 };
 #endif

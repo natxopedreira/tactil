@@ -105,7 +105,7 @@ void fichaInfo::setup(string _ulrXml){
 
 
     ////
-    
+    imgBtnClose.loadImage("close.png");
     imgBtnZoom.loadImage("zoom.png");
     
     btnZoom.x = 500;
@@ -225,13 +225,15 @@ void fichaInfo::draw(){
         if(ingles.botonIdiomaCheck)  ingles.drawContxt(fuenteBotones);
         if(gallego.botonIdiomaCheck)  gallego.drawContxt(fuenteBotones);
         if(castellano.botonIdiomaCheck)  castellano.drawContxt(fuenteBotones);
-        cerrar.drawContxt(fuenteBotones);
-        
+        //cerrar.drawContxt(fuenteBotones);
+        //ofRectRounded(cerrar.x, cerrar.y, cerrar.width, cerrar.height, 5);
+        ofCircle(cerrar.x+15.5, cerrar.y+15.5, 11);
+        imgBtnClose.draw(cerrar.x, cerrar.y);
+       //cerrar.drawRound();
         
     }
     
-    /// zooooom
-    zoomImagen.draw();
+    
     
     if(areaGrande.verPie){
         ofPushStyle();
@@ -240,6 +242,9 @@ void fichaInfo::draw(){
         //ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
         ofPopStyle();
     }
+    
+    /// zooooom
+    zoomImagen.draw();
 }
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
@@ -627,8 +632,8 @@ void fichaInfo::construFigura(){
     frances.useBtnIdioma = true;
     
     ///boton cerrar ficha
-    cerrar.width = 20;
-    cerrar.height = 22;
+    cerrar.width = 30;
+    cerrar.height = 30;
     cerrar.x = 10;
     cerrar.y = 10;
     cerrar.nombre = "X";
@@ -864,9 +869,45 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     if(btnZoom.inside(ofPoint(e.x,e.y))){
         // zooooooom
         zoomImagen.setup(ofPoint(areaGrande.x - 400, areaGrande.y + 250), 400, 500,rectangulos.at(seccionActiva)->color);
-        
         zoomImagen.colorBase.set(rectangulos.at(seccionActiva)->color);
         zoomImagen.cargaImagen(minis.urls_mini.at(idLeader));
+        
+        
+        // pones el titulo a la ventana de zoom
+        switch (minis.lenguaje) {
+            case IDIOMA_CAST:
+                if(idLeader < minis.titular_cast_mini.size() && idLeader < minis.pies_cast_cuerpo_mini.size() && idLeader < minis.txt_cast_mini.size()){
+                    zoomImagen.titulo =minis.titular_cast_mini.at(idLeader);
+                }
+                break;
+                
+            case IDIOMA_GAL:
+                if(idLeader < minis.titular_gal_mini.size() && idLeader < minis.pies_gal_cuerpo_mini.size() && idLeader < minis.txt_gal_mini.size()){
+                    zoomImagen.titulo =minis.titular_gal_mini.at(idLeader);
+                }
+                break;
+                
+            case IDIOMA_ENG:
+                if(idLeader < minis.titular_eng_mini.size() && idLeader < minis.pies_eng_cuerpo_mini.size() && idLeader < minis.txt_eng_mini.size()){
+                     zoomImagen.titulo =minis.titular_eng_mini.at(idLeader);
+                }
+                break;
+                
+            case IDIOMA_FR:
+                if(idLeader < minis.titular_fr_mini.size() && idLeader < minis.pies_fr_cuerpo_mini.size() && idLeader < minis.txt_fr_mini.size()){
+                   zoomImagen.titulo =minis.titular_fr_mini.at(idLeader);
+                }
+                break;
+                
+            default:
+                break;
+        }
+        
+        
+        
+        
+        
+        
         return;
     }
     

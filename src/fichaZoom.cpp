@@ -17,6 +17,9 @@ fichaZoom::fichaZoom(){
     
 	width = 0;
 	height = 0;
+    
+    visible = false;
+    titulo = "";
 }
 
 //---------------------------------
@@ -27,7 +30,9 @@ void fichaZoom::setup(ofPoint _pto, int _ancho, int _alto, ofColor _color){
 	height = _alto;
     
     colorBase.set(_color);
-    visible = false;
+    
+    fuente.loadFont("SegoeSb.ttf", 13,96, true);
+    fuente.setSpaceSize(.8);
 }
 
 //---------------------------------
@@ -44,14 +49,20 @@ void fichaZoom::draw(){
         ofTranslate(position.x,position.y);
         ofRotateZ(ofRadToDeg(angle));
     
-        ofRectRounded(-width*0.5, -height*0.5, width, height, 14);
+        ofRectRounded(-width*0.5, -height*0.5, width, height + 20, 14);
         ofSetColor(colorBase);
-        ofRectRounded(-width*0.5 - 3, -height*0.5 -3, width, height, 14);
+        ofRectRounded(-width*0.5 - 3, -height*0.5 -3, width, height + 20, 14);
     
         ofSetColor(255, 255, 255);
-        imagen.draw(-width*0.5 + 10, -height*0.5 + 10, width - 20, height - 20);
-	ofPopMatrix();
+        imagen.draw(-width*0.5 + 10, -height*0.5 + 10, width - 25, height - 25);
+    
         
+	ofPopMatrix();
+    
+    ofPushStyle();
+        ofSetColor(0,0,0);
+        fuente.drawString(titulo, position.x - width*0.5 + 10,position.y + height*0.5 + 5);
+    ofPopStyle();
 }
 
 //---------------------------------

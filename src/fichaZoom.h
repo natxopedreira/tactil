@@ -44,8 +44,11 @@ class fichaZoom{
     bool isOver(ofPoint _loc);
     bool isOnBorder(ofPoint _loc);
     
+    ofTrueTypeFont  fuente;
+    
     bool    visible;
     ofColor colorBase;
+    string titulo;
     
 #ifdef USE_TUIO
 	ofxTuioClient * tuioClient;
