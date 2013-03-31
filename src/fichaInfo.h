@@ -97,5 +97,7 @@ public:
     ofxXmlSettings  datosXml;
     
     fichaZoom zoomImagen;
+    
+    ofImage imgBtnZoom;
 };
 #endif

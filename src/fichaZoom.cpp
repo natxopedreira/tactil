@@ -27,24 +27,31 @@ void fichaZoom::setup(ofPoint _pto, int _ancho, int _alto, ofColor _color){
 	height = _alto;
     
     colorBase.set(_color);
+    visible = false;
 }
 
 //---------------------------------
 void fichaZoom::update(){
-
+    if((position.x - width + 5 *.5) < 0 ) position.x += 20;
 }
 
 //---------------------------------
 void fichaZoom::draw(){
-
+    if(!visible) return;
     // Draw the keyboard frame
 	ofPushMatrix();
-        ofSetColor(colorBase);
+        ofSetColor(0,0,0,200);
         ofTranslate(position.x,position.y);
         ofRotateZ(ofRadToDeg(angle));
     
-        ofRectRounded(-width*0.5, -height*0.5, width, height, 20);
+        ofRectRounded(-width*0.5, -height*0.5, width, height, 14);
+        ofSetColor(colorBase);
+        ofRectRounded(-width*0.5 - 3, -height*0.5 -3, width, height, 14);
+    
+        ofSetColor(255, 255, 255);
+        imagen.draw(-width*0.5 + 10, -height*0.5 + 10, width - 20, height - 20);
 	ofPopMatrix();
+        
 }
 
 //---------------------------------
@@ -82,7 +89,7 @@ void fichaZoom::setTuioClient (ofxTuioClient * _tuioClient){
 void fichaZoom::tuioAdded(ofxTuioCursor &tuioCursor){
 	ofPoint loc = ofPoint(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
     
-	if (isOver(loc)){					// IF the cursor is over the keyboard
+	if (isOver(loc) && visible){					// IF the cursor is over the keyboard
 					// ... and is not pressing a key
 			//if (isOnBorder(loc)){		// ... and wish location is near the borders 
             tCursor c;
@@ -101,7 +108,24 @@ void fichaZoom::tuioAdded(ofxTuioCursor &tuioCursor){
 			//}
     }
 }
-
+//---------------------------------
+void fichaZoom::cargaImagen(string _url){
+    imagen.loadImage("imagenes/full/"+_url);
+    float scalaTemp = 0;
+    
+    
+    if((height/width) > imagen.getHeight()/imagen.getWidth()){
+        anchoImagen = width/imagen.getWidth();
+    }else {
+        anchoImagen = height/imagen.getHeight();
+    }
+    
+    ////// ya sabes la escala
+    width = imagen.getWidth() * anchoImagen + 20;
+    height = imagen.getHeight() * anchoImagen + 20;
+    
+    visible = true;
+}
 //---------------------------------
 void fichaZoom::resize(float _resize){
 	width *= _resize;
@@ -110,6 +134,8 @@ void fichaZoom::resize(float _resize){
 
 //---------------------------------
 void fichaZoom::tuioUpdated(ofxTuioCursor &tuioCursor){
+    if(!visible) return;
+    
 	// First it will update the information of the fingers that are over the border
 	for ( int i = 0; i < cursorsOnBorder.size(); i++)
 		if (cursorsOnBorder[i].idN == tuioCursor.getSessionId())

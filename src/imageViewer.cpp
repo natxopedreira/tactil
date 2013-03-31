@@ -48,9 +48,8 @@ void imageViewer::update(){
     ofPushMatrix();
     ofClear(255);
     ofSetColor(255);
-    ofScale(escalaX, escalaY);
     if(imagen.isAllocated() && !esVideo){
-        imagen.draw(0,0, imagen.width, imagen.height);
+        imagen.draw(0,0, imagen.width*escalaX, imagen.height*escalaX);
         
     }else if(esVideo){
         vidrio.draw(0,0, 320,240);
@@ -80,18 +79,23 @@ void imageViewer::cargaImagen(string _url){
     if(extensionArchivo != ".mov"){
     
         imagen.loadImage(_url);
-        float ratio = imagen.getWidth()/imagen.getHeight();
     
-        escalaX = anchoMax / imagen.getWidth();
-        escalaY = altoMax / imagen.getWidth()*ratio;
+        if((altoMax/anchoMax) > imagen.getHeight()/imagen.getWidth()){
+            escalaX = anchoMax/imagen.getWidth();
+        }else {
+            escalaX = altoMax/imagen.getHeight();
+        }
+
     }else{
         // eres un vidrio
         esVideo = true;
         vidrio.loadMovie(_url);
         
-        float ratio = vidrio.getWidth()/vidrio.getHeight();
-        escalaX = anchoMax / vidrio.getWidth();
-        escalaY = altoMax / vidrio.getWidth()*ratio;
+        if((altoMax/anchoMax) > vidrio.getHeight()/vidrio.getWidth()){
+            escalaX = anchoMax/vidrio.getWidth();
+        }else {
+            escalaX = altoMax/vidrio.getHeight();
+        }
     }
 
 }

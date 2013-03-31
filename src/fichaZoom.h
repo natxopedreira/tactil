@@ -34,6 +34,7 @@ class fichaZoom{
     void setup(ofPoint _pto, int _ancho, int _alto, ofColor _color);
     void update();
     void draw();
+    void cargaImagen(string _url);
     
     // Acctions
 	void rotate(float _angle){ angle += _angle;};
@@ -42,7 +43,8 @@ class fichaZoom{
     
     bool isOver(ofPoint _loc);
     bool isOnBorder(ofPoint _loc);
-
+    
+    bool    visible;
     ofColor colorBase;
     
 #ifdef USE_TUIO
@@ -64,7 +66,8 @@ private:
     ofPoint	position;							// Cartesian coordinates of the cent
 	float	angle;								// The keyboard could be rotated.
 	float	width,height;						// Width and Height
-    
+    ofImage imagen;
+    float anchoImagen;
     
     ofEvent<float>      scaling;
 	ofEvent<float>      rotation;

@@ -105,7 +105,8 @@ void fichaInfo::setup(string _ulrXml){
 
 
     ////
-    zoomImagen.setup(ofPoint(500,600), 400, 500,ofColor(233, 186, 118));
+    
+    imgBtnZoom.loadImage("zoom.png");
     
     btnZoom.x = 500;
     btnZoom.y = 600;
@@ -148,7 +149,7 @@ void fichaInfo::update(){
     
 	areaGrande.update();
     minis.update();
-    
+    zoomImagen.update();
     
     /// algo de elasticidad para los botones de los idiomas
     float dFrx = (areaGrande.x + areaGrande.width - frances.width)-(frances.x);
@@ -180,7 +181,7 @@ void fichaInfo::update(){
     
     
     
-    float difX = (areaGrande.x + areaGrande.width - 12)-(btnZoom.x + btnZoom.width);
+    float difX = (areaGrande.x + areaGrande.width - 14)-(btnZoom.x + btnZoom.width);
     float difY = (areaGrande.y + 320)-(btnZoom.y + btnZoom.height);
     
     btnZoom.x += difX * .4;
@@ -234,8 +235,9 @@ void fichaInfo::draw(){
     
     if(areaGrande.verPie){
         ofPushStyle();
-        ofSetColor(btnZoom.color);
-        ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
+        ofSetColor(255,255,255);
+        imgBtnZoom.draw(int(btnZoom.x),int(btnZoom.y));
+        //ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
         ofPopStyle();
     }
 }
@@ -860,8 +862,11 @@ void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     ////boton de zoom ??
     if(btnZoom.inside(ofPoint(e.x,e.y))){
-        cout << "ver zoooom" << endl;
+        // zooooooom
+        zoomImagen.setup(ofPoint(areaGrande.x - 400, areaGrande.y + 250), 400, 500,rectangulos.at(seccionActiva)->color);
         
+        zoomImagen.colorBase.set(rectangulos.at(seccionActiva)->color);
+        zoomImagen.cargaImagen(minis.urls_mini.at(idLeader));
         return;
     }
     
@@ -878,6 +883,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
 				//idLeader = i;
+                zoomImagen.visible = false;
                 seccionActiva = i;
                 areaGrande.crece(0);
                 
@@ -894,7 +900,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
-            
+            zoomImagen.visible = false;
             
             idLeader = i;
 			px = e.x;
@@ -918,9 +924,8 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         ///  && rectangulos.at(i)->useBtnIdioma
         //if(rectangulos.at(i)->useBtnIdioma) cout << rectangulos.at(i)->y << " -- " << rectangulos.at(i)->x << endl;
         
-        if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
-            
-            if(rectangulos.at(i)->useBtnIdioma){
+        if(rectangulos.at(i)->inside(ofPoint(e.x, e.y)) && rectangulos.at(i)->useBtnIdioma){
+                zoomImagen.visible = false;
                 string n = rectangulos.at(i)->nombre;
                 
                 if(n == "ESP"){
@@ -959,9 +964,9 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                 if(n== "X"){
                     debesMorir = true;
                 }
-                
-            }
-        } 
+        }else if (rectangulos.at(i)->inside(ofPoint(e.x, e.y))) {
+            zoomImagen.visible = false;
+        }
     }
     
 }

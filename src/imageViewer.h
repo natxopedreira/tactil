@@ -25,6 +25,8 @@ public:
     
     float   getAltoMax();
     float   getAnchoMax();
+    
+    
 private:
     float   anchoMax, altoMax;
     ofFbo   fbo;

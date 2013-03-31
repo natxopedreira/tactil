@@ -54,6 +54,7 @@ public:
     
 private:
     ofImage imagen;
+    
     bool    imgVisible;
     bool    drag;
     bool    verInfo;
