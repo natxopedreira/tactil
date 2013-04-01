@@ -5,9 +5,10 @@
 #include "ofxGui.h"
 #include "ofxTweenzor.h"
 
-
+/// clases perso
 #include "fichaInfo.h"
 #include "mar.h"
+#include "controllerHotSpot.h"
 /*
  quiero crear una clase fichaInfo para mostrar todos
  los contenidos de un punto en el mapa
@@ -21,19 +22,20 @@
 class testApp : public ofBaseApp{
 
 	public:
-		void setup();
-		void update();
-		void draw();
+		void    setup();
+		void    update();
+		void    draw();
 		
-		void btnCambiaK(float & v);
-		void btnCambiaDamp(float & v);
+		void    btnCambiaK(float & v);
+		void    btnCambiaDamp(float & v);
 	
-		void btnCambiaKHorizontal(float & v);
-		void btnCambiaKDiagonal(float & v);
-		void btnCambiaDampMiniaturas(float & v);
-        void keyPressed(int key);
+		void    btnCambiaKHorizontal(float & v);
+		void    btnCambiaKDiagonal(float & v);
+		void    btnCambiaDampMiniaturas(float & v);
+        void    keyPressed(int key);
     
-		// parte del gui
+        void    lanzaFicha();
+		// ---------------------- parte del gui
 		ofxPanel gui;
 		ofxFloatSlider kMuelles;
 		ofxFloatSlider kMuellesDiagonales;
@@ -43,13 +45,13 @@ class testApp : public ofBaseApp{
 	
 		float	kmuelles, kmuellesDiagonales, kmuellesHorizontales;
 		float   dampcajas, dampcajasMiniaturas;
+        bool    verGui;
     
-    ofImage plano;
-    ofFbo   veloBlur;
-
-	vector<fichaInfo *> fichas;
-    
-    mar animacionFondo;
-    
-    ofxTuioClient   tuioClient;
+		// ---------------------- 
+        ofImage ciudad, ciudadMask, leyenda;
+        ofShader mascara;
+        ofxTuioClient   tuioClient;
+        vector<fichaInfo *> fichas;
+        mar animacionFondo;
+        controllerHotSpot puntosMapa;
 };

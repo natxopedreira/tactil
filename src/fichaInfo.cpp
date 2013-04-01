@@ -249,7 +249,7 @@ void fichaInfo::draw(){
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
     
-    //ofPushStyle();
+    ofPushStyle();
     
 	ofSetColor(255, 255, 255,255);
     
@@ -264,6 +264,8 @@ void fichaInfo::drawSombra(){
     // PINTA EL AREA
     areaGrande.drawVisualizador();
     minis.drawCircle();
+    
+    ofPopStyle();
 }
 //  callback animacion del inicio
 //--------------------------------------------------------------

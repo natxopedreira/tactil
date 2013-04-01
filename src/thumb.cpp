@@ -44,10 +44,10 @@ void thumb::drawThumb(){
     ofSetColor(0,0,0,200);
     ofRectRounded(x-((width-cambioY)/2) + width/2 + 3, y-((height-cambioY)/2) + height/2 + 3, (width-cambioY) * escala, (height-cambioY) * escala, 10);
     
-	ofSetColor(255,255,255,255);
+	ofSetColor(150,150,150,255);
+    ofRectRounded(x-((width-cambioY)/2) + width/2 + 1, y-((height-cambioY)/2) + height/2 + 1, (width-cambioY) * escala - 1, (height-cambioY) * escala - 1, 10);
     
-    
-    
+    ofSetColor(255,255,255,255);
 	//ofPopStyle();
     if(img.getWidth()>0 && cambioY<.1){
        // img.draw(x, y, 50, 50);

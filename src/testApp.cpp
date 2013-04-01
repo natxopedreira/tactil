@@ -3,9 +3,9 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	ofSetVerticalSync(true);
+    ofEnableAlphaBlending();
     
-	ofBackground(255,0,0);
-    ofSetCircleResolution(400);
+	ofBackground(0,0,0);
     
     Tweenzor::init();
     
@@ -15,7 +15,32 @@ void testApp::setup(){
     kmuelles = 0.0325;
 	kmuellesDiagonales = 0.0325;
 	kmuellesHorizontales = 0.0325;
-	
+
+    leyenda.loadImage("leyenda.png");
+    ciudad.loadImage("ciudad.jpg");
+    ciudadMask.loadImage("ciudad_mask.jpg");
+    
+    tuioClient.start(3333);
+    
+    
+    // ----- mar de fondo
+    animacionFondo.setup();
+
+    
+    // ----- shader con la mascara
+    mascara.load("composite");
+    mascara.begin();
+	mascara.setUniformTexture("Tex0", ciudad.getTextureReference(), 0);
+	mascara.setUniformTexture("Tex1", ciudadMask.getTextureReference(), 1);
+	mascara.end();
+    
+    
+    // ----- hotspots del mapa
+    puntosMapa.setup();
+    
+    
+    verGui = false;
+    
 	/// gui para el modo debug
     gui.setup("ajustes");
     gui.add(kMuelles.setup("k muelles", kmuelles, .0, 1));
@@ -32,26 +57,17 @@ void testApp::setup(){
     dampCajasMiniaturas.addListener(this, &testApp::btnCambiaDampMiniaturas);
 	dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	
-    plano.loadImage("plano.jpg");
     
-    tuioClient.start(3333);
+    
     
     /////////////////////
     /////////////////////
-	fichaInfo * ficha = new fichaInfo();
-	ficha->setup("interactivo.xml");
+	//fichaInfo * ficha = new fichaInfo();
+	//ficha->setup("interactivo.xml");
+    //ficha->setTuioClient(&tuioClient);
     
-    ficha->setTuioClient(&tuioClient);
-	fichas.push_back(ficha);
-    
-    veloBlur.allocate(1920, 1080);
-    
-    veloBlur.begin();
-    ofClear(0);
-    veloBlur.end();
-    
-    //blur.setup(1920, 1080, 4, .1, 4);
-    animacionFondo.setup();
+	//fichas.push_back(ficha);
+
 }
 
 //--------------------------------------------------------------
@@ -78,14 +94,75 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    ofSetColor(255, 255,255,255);
-   // plano.draw(0, 0);
+    ofSetColor(255, 255,255);
+    // animacion mar
     animacionFondo.draw();
     
-    ofSetColor(0,0,0,180);
-    ofRect(0,0,1920,1080);
     
-    ofSetColor(255, 255,255,255);
+    ///////////////////////////////////
+    ///////////////////////////////////
+    // shader mascara para la ciudad
+	mascara.begin();
+    
+	glActiveTexture(GL_TEXTURE0_ARB);
+	ciudad.getTextureReference().bind();
+	glActiveTexture(GL_TEXTURE1_ARB);
+	ciudadMask.getTextureReference().bind();
+    
+	//draw a quad the size of the frame
+	glBegin(GL_QUADS);
+    
+	//move the mask around with the mouse by modifying the texture coordinates
+
+        glMultiTexCoord2d(GL_TEXTURE0_ARB, 0, 0);
+        glMultiTexCoord2d(GL_TEXTURE1_ARB, 0, 0);		
+        glVertex2f( 0, 0);
+    
+        glMultiTexCoord2d(GL_TEXTURE0_ARB, 1920, 0);
+        glMultiTexCoord2d(GL_TEXTURE1_ARB, 1920, 0);		
+        glVertex2f( 1920, 0);
+    
+        glMultiTexCoord2d(GL_TEXTURE0_ARB, 1920, 1080);
+        glMultiTexCoord2d(GL_TEXTURE1_ARB, 1920, 1080);
+        glVertex2f( 1920, 1080);
+    
+        glMultiTexCoord2d(GL_TEXTURE0_ARB, 0, 1080);
+        glMultiTexCoord2d(GL_TEXTURE1_ARB, 0, 1080);		
+        glVertex2f( 0,1080 );
+    
+	glEnd();
+    
+	//deactive and clean up
+	glActiveTexture(GL_TEXTURE1_ARB);
+	ciudadMask.getTextureReference().unbind();
+	glActiveTexture(GL_TEXTURE0_ARB);
+	ciudad.getTextureReference().unbind();
+    
+	mascara.end();
+    
+    
+    // ----- leyenda del tactil
+    leyenda.draw(805, 426);
+    
+    // ----- hotspots del mapa
+    puntosMapa.draw();
+    
+    
+    
+    // velo negro
+    if(fichas.size()>0){
+        ofPushStyle();
+        ofSetColor(0, 0, 0, 180);
+        ofRect(0, 0, 1920, 1080);
+        ofPopStyle();
+    }
+    
+
+    
+    
+    
+    
+    // ----- fichas
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
     }
@@ -93,9 +170,25 @@ void testApp::draw(){
     
     
     
+    stringstream str;
     
-    ofDrawBitmapString(ofToString(ofGetFrameRate()), 50, 50);
-    gui.draw();
+    str << "[e] ver/ocultar el mensaje" << endl
+    << "" << endl
+    << "[d] SI mover puntos" <<  endl
+    << "[o] NO mover puntos" <<   endl
+    << "" << endl
+    << "[s] para guardar los puntos" <<  endl
+    << "" << endl
+    << "[g] para ver/ocultar GUI" <<  endl
+    << "" << endl
+    << "fps: " <<  ofToString(ofGetFrameRate()) << endl
+    << "" << endl;
+    
+    ofDrawBitmapString(str.str(),10,10);
+    
+    if(verGui){
+        gui.draw();
+    }
     
     
     /// cursor tuio
@@ -104,7 +197,15 @@ void testApp::draw(){
     tuioClient.drawCursors();
 }
 
+//--------------------------------------------------------------
+void testApp::lanzaFicha(){
+      fichaInfo * ficha = new fichaInfo();
+      ficha->setup("interactivo.xml");
+      ficha->setTuioClient(&tuioClient);
+    
+      fichas.push_back(ficha);
 
+}
 /*
  //////////////////////////////////////////////////////////////////////////////////////////////
  //////////////////////////////////////////////////////////////////////////////////////////////
@@ -155,10 +256,28 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
-    fichaInfo * ficha = new fichaInfo();
-	ficha->setup("interactivo.xml");
-    ficha->setTuioClient(&tuioClient);
+    switch (key) {
+        case 'f':
+            lanzaFicha();
+            break;
+            
+        case 's':
+            puntosMapa.savePositions(); 
+            break; 
+            
+        case 'd':
+            puntosMapa.debugOn(); 
+            break; 
+            
+        case 'o':
+            puntosMapa.debugOff(); 
+            break;
+            
+        case 'g':
+            verGui = !verGui; 
+            break; 
+    }
     
-	fichas.push_back(ficha);
+
 }
 
