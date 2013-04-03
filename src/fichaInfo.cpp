@@ -872,7 +872,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         // zooooooom
         zoomImagen.setup(ofPoint(areaGrande.x - 400, areaGrande.y + 250), 400, 500,rectangulos.at(seccionActiva)->color);
         zoomImagen.colorBase.set(rectangulos.at(seccionActiva)->color);
-        zoomImagen.cargaImagen(minis.urls_mini.at(idLeader));
+       
         
         
         // pones el titulo a la ventana de zoom
@@ -892,6 +892,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
             case IDIOMA_ENG:
                 if(idLeader < minis.titular_eng_mini.size() && idLeader < minis.pies_eng_cuerpo_mini.size() && idLeader < minis.txt_eng_mini.size()){
                      zoomImagen.titulo =minis.titular_eng_mini.at(idLeader);
+                     
                 }
                 break;
                 
@@ -907,6 +908,9 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         
         
         
+        if(idLeader < minis.urls_mini.size()){
+            zoomImagen.cargaImagen(minis.urls_mini.at(idLeader));
+        }
         
         
         
