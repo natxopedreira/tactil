@@ -270,7 +270,7 @@ void fichaInfo::drawSombra(){
 //  callback animacion del inicio
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
-   // cout << "onCompleteCambio" << endl;
+    
     cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
 }
 
@@ -294,12 +294,13 @@ void fichaInfo::collideWith( fichaInfo *_body ){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-    
+
     
     switch (minis.lenguaje) {
         case IDIOMA_CAST:
             if(idLeader < minis.titular_cast_mini.size() && idLeader < minis.pies_cast_cuerpo_mini.size() && idLeader < minis.txt_cast_mini.size()){
-                areaGrande.ponTexto(minis.titular_cast_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));   
+                areaGrande.ponTexto(minis.titular_cast_mini.at(idLeader), minis.pies_cast_cuerpo_mini.at(idLeader), minis.txt_cast_mini.at(idLeader));  
+                   
             }
             break;
             
@@ -371,6 +372,7 @@ void fichaInfo::cargaMinis(int _index){
     
     minis.limpiaMinis(); // borras las que hay
     
+    
     for (int i = 0; i<rectangulos.at(seccionActiva)->urls.size(); i++) {
         
         minis.urls_mini.push_back(rectangulos.at(seccionActiva)->urls.at(i));
@@ -398,7 +400,7 @@ void fichaInfo::cargaMinis(int _index){
         minis.titular_fr_mini.push_back(rectangulos.at(seccionActiva)->titular_fr.at(i));
         
         
-        cout << rectangulos.at(seccionActiva)->titular_cast.at(i) << endl;
+       // cout << rectangulos.at(seccionActiva)->titular_cast.at(i) << endl;
     }
     
     //cout << minis.pies_gal_titular_mini.size() << endl;

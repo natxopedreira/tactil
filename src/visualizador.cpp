@@ -182,6 +182,8 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     cont = x + 200;
     altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height - 24;
 
+    
+    
     crece(altoTexto);
     
     //informacion = wrapString(_informacion,460,fuenteInfo);

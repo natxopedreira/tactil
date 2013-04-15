@@ -179,11 +179,29 @@ void miniaturas::limpiaMinis(){
     }
     
 	thumbs.clear();
-    urls_mini.clear();
     
-	txt_cast_mini.clear();
-	txt_eng_mini.clear();
-	txt_fr_mini.clear();
+    urls_mini.clear();
+    txt_cast_mini.clear();
+    txt_eng_mini.clear();
+    txt_fr_mini.clear();
+    txt_gal_mini.clear();
+    
+    titular_cast_mini.clear();
+    titular_eng_mini.clear();
+    titular_fr_mini.clear();
+    titular_gal_mini.clear();
+    
+    pies_cast_titular_mini.clear();
+    pies_cast_cuerpo_mini.clear();
+    
+    pies_gal_titular_mini.clear();
+    pies_gal_cuerpo_mini.clear();
+    
+    pies_eng_titular_mini.clear();
+    pies_eng_cuerpo_mini.clear();
+    
+    pies_fr_titular_mini.clear();
+    pies_fr_cuerpo_mini.clear();
 }
 
 // ---------------------------------------
