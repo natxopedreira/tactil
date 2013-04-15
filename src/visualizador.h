@@ -36,7 +36,7 @@ public:
     imageViewer visor;
     
     ofRectangle areaPieTitular;
-    ofTrueTypeFont  fuente,fuenteCuerpo;//fuenteInfo;
+    ofTrueTypeFont  fuente,fuenteCuerpo, fuenteInfo;
     ofVec2f offsetDrag;
     
     string  titularPie, pie, informacion;

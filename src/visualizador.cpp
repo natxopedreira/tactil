@@ -13,15 +13,16 @@ visualizador::visualizador(){
     imgVisible = false;
 
     fuente.loadFont("SegoeSb.ttf", 13,96, true);
+    fuente.setLineHeight(13);
     fuente.setSpaceSize(.8);
     
     fuenteCuerpo.loadFont("SegoeL.ttf", 10,96, true);
-    fuenteCuerpo.setLineHeight(15);
+    fuenteCuerpo.setLineHeight(13);
     fuenteCuerpo.setSpaceSize(.8);
     
-    //fuenteInfo.loadFont("SegoeL.ttf", 11 ,96, true);
-    //fuenteInfo.setLineHeight(15);
-    //fuenteInfo.setSpaceSize(.8);
+    fuenteInfo.loadFont("SegoeL.ttf", 10 ,96, true);
+    fuenteInfo.setLineHeight(8);
+    fuenteInfo.setSpaceSize(.8);
     
     offsetDrag.set(0, 0);
     verPie = false;
@@ -77,8 +78,7 @@ void visualizador::update(){
 }
 // ---------------------------------------
 void visualizador::drawVisualizadorSombra(){
-    // drawRound(); // la base
-//    ofSetColor(255, 255, 255);
+
     ofSetColor(0, 0, 0);
     
    ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
@@ -104,59 +104,36 @@ void visualizador::drawVisualizador(){
     
     
     
-   // ofPushStyle();
-    
-    
     if(imgVisible && !verInfo){
         ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
-
-        
         visor.draw(posxrect,posyrect);
         
-    }else{
-        //ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
     }
     
     
     ofSetColor(0, 0, 0);
     
     
-    if(!verInfo) fuente.drawString(titularPie, this->x + 12, this->y + visor.getAltoMax() + 37);
-    
+    if(verPie){
+        fuente.drawString(titularPie, this->x + 12, this->y + visor.getAltoMax() + 37);
+    }
     
     
     areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 24, rect.height + 24);
     
     
     if(verPie && cantidadCrece == altoTexto){
-        fuenteCuerpo.drawString(pie, posxrect, this->y + visor.getAltoMax() + 56);
+       fuenteInfo.drawString(pie, posxrect, this->y + visor.getAltoMax() + 56);
     }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
         
-        //ofSetColor(0,210);
-        //ofRect(posxrect, posyrect, poswrect-24, poshrect-50);
         ofSetColor(0);
         fuenteCuerpo.drawString(informacion, posxrect+10, posyrect + 24);
-       // fuenteInfo.drawString(informacion, posxrect+10, posyrect + 24);
     }
     
     
     
     btnInfo.drawRound();
     
-    
-    //ofSetColor(0);
-    //ofDrawBitmapString(btnInfo.nombre, ofPoint(btnInfo.x + 8, btnInfo.y + 20));
-    
- //   ofPopStyle();
-    /*
-    if(btnInfo.activo){
-        ofPushStyle();
-            ofNoFill();
-            ofSetColor(0);
-            ofSetLineWidth(2);
-            btnInfo.roundedRect(btnInfo.x,btnInfo.y,btnInfo.width,btnInfo.height,5);
-        ofPopStyle();
-    }*/
 }
 // ---------------------------------------
 string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {  

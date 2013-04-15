@@ -79,12 +79,12 @@ void imageViewer::cargaImagen(string _url){
     if(extensionArchivo != ".mov"){
     
         imagen.loadImage(_url);
-    
-        if((altoMax/anchoMax) > imagen.getHeight()/imagen.getWidth()){
-            escalaX = anchoMax/imagen.getWidth();
-        }else {
-            escalaX = altoMax/imagen.getHeight();
-        }
+        escalaX = anchoMax / imagen.getWidth();
+        /*
+        if(imagen.getHeight() * escalaX > altoMax){
+            escalaX = altoMax / imagen.getHeight();
+        } 
+        */
 
     }else{
         // eres un vidrio

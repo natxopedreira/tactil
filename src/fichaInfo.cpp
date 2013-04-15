@@ -396,6 +396,9 @@ void fichaInfo::cargaMinis(int _index){
         minis.titular_gal_mini.push_back(rectangulos.at(seccionActiva)->titular_gal.at(i));
         minis.titular_eng_mini.push_back(rectangulos.at(seccionActiva)->titular_eng.at(i));
         minis.titular_fr_mini.push_back(rectangulos.at(seccionActiva)->titular_fr.at(i));
+        
+        
+        cout << rectangulos.at(seccionActiva)->titular_cast.at(i) << endl;
     }
     
     //cout << minis.pies_gal_titular_mini.size() << endl;
