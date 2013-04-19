@@ -51,20 +51,27 @@ visualizador::~visualizador(){
 
 // ---------------------------------------
 void visualizador::setup(){
-    visor.setup(503, 308);
+  //  visor.setup(503, 308);
 
     ofRegisterMouseEvents(this);
+    
+    visorZoom.set(this->x+12,this->y+12,503,308);
+	visorZoom.minZoom = 0.f;
+   // visorZoom.maxZoom = 10.f;
+   // visorZoom.setZoom(.8);
+    visorZoom.deltaTime = 0.016f;
 }
 
 // ---------------------------------------
 void visualizador::update(){
-
+    
+    
     poswrect = this->width;
     poshrect = this->height;
     posxrect = this->x+12;
     posyrect = this->y+12;
     
-   
+    visorZoom.setPosition(posxrect, posyrect);
     
     float difX = (this->x + this->width)-(btnInfo.x);
     float difY = (this->y + this->height)-(btnInfo.y);
@@ -72,8 +79,9 @@ void visualizador::update(){
     btnInfo.x += difX * .4;
     btnInfo.y += difY * .5;
     
-    visor.update();
+ //   visor.update();
     
+    visorZoom.update();
     
 }
 // ---------------------------------------
@@ -105,9 +113,9 @@ void visualizador::drawVisualizador(){
     
     
     if(imgVisible && !verInfo){
-        ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
-        visor.draw(posxrect,posyrect);
-        
+        //ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
+        //visor.draw(posxrect,posyrect);
+        visorZoom.draw(imagenZoom);
     }
     
     
@@ -115,7 +123,7 @@ void visualizador::drawVisualizador(){
     
     
     if(verPie){
-        fuente.drawString(titularPie, this->x + 12, this->y + visor.getAltoMax() + 37);
+        fuente.drawString(titularPie, this->x + 12, this->y + 308 + 37);
     }
     
     
@@ -123,7 +131,7 @@ void visualizador::drawVisualizador(){
     
     
     if(verPie && cantidadCrece == altoTexto){
-       fuenteInfo.drawString(pie, posxrect, this->y + visor.getAltoMax() + 56);
+       fuenteInfo.drawString(pie, posxrect, this->y + 308 + 56);
     }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
         
         ofSetColor(0);
@@ -171,8 +179,39 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
 
 // ---------------------------------------
 void visualizador::cargaImagen(string _url){
-    visor.cargaImagen("imagenes/full/"+_url);
-    imgVisible = true;
+    //visor.cargaImagen("imagenes/full/"+_url);
+    if (imagenZoom.isAllocated()){
+         imagenZoom.clear();
+    }
+    imgVisible = false;
+    imagenZoom.loadImage("imagenes/full/"+_url);
+   
+    if (imagenZoom.isAllocated()) {
+        
+        /// cojo el ancho y alto
+        int ancho = imagenZoom.getWidth();
+        int alto = imagenZoom.getHeight();
+        
+        // creo un valor
+        float ratio = 0;
+        
+        if(alto<ancho){
+            ratio = alto/308;
+        }else {
+            ratio = ancho/503;
+        }
+        
+
+        visorZoom.maxZoom = ratio;
+        visorZoom.setZoom(ratio);
+        
+        imgVisible = true;
+    }else{
+        
+        imgVisible = false;
+    }
+    
+    
 }
 
 // ---------------------------------------
@@ -203,6 +242,18 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
 // ---------------------------------------
 void visualizador::mouseDragged(ofMouseEventArgs & args){
         /// estas drageando un boton o el visualizador
+    if(visorZoom.inside(args.x, args.y)){
+        
+        ofTouchEventArgs touch;
+        touch.x = args.x;
+        touch.y = args.y;
+        touch.id = args.button;
+        visorZoom.touchMoved(touch); //fw event to cam
+        
+        return;
+    }
+    
+    
     if(drag){
 
         ofPoint p = getCenter();
@@ -210,16 +261,32 @@ void visualizador::mouseDragged(ofMouseEventArgs & args){
 
         //addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y).normalize()*1.5);
         moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
-
     }
 }
 
 // ---------------------------------------
 void visualizador::mousePressed(ofMouseEventArgs & args){
 
+    if(visorZoom.inside(args.x, args.y)){
+    
+        ofTouchEventArgs touch;
+        touch.x = args.x;
+        touch.y = args.y;
+        touch.id = args.button;
+        visorZoom.touchDown(touch); //fw event to cam
+        
+        return;
+    }
+    
     if(this->inside(args.x, args.y)){
+        
         offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
         drag = true;
+        
+        
+        
+
+        
     }else{
         drag = false;
     }
@@ -227,12 +294,28 @@ void visualizador::mousePressed(ofMouseEventArgs & args){
 
 // ---------------------------------------
 void visualizador::mouseReleased(ofMouseEventArgs & args){
+    if(visorZoom.inside(args.x, args.y)){
+        
+        ofTouchEventArgs touch;
+        touch.x = args.x;
+        touch.y = args.y;
+        touch.id = args.button;
+        visorZoom.touchUp(touch); //fw event to cam
+        
+        return;
+    }
+    
+    
+    
     if(drag){
         drag = false;
         offsetDrag.set(0, 0);
     }
     if(btnInfo.inside(ofPoint(args.x,args.y)) && !verInfo){
         //cout << "mira texto" << endl;
+        
+        
+        
         
         verInfo = !verInfo;
         btnInfo.activo = verInfo;

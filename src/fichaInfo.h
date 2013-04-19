@@ -15,7 +15,7 @@
 #include "Spring.h"
 #include "miniaturas.h"
 #include "ofxXmlSettings.h"
-#include "fichaZoom.h"
+//#include "fichaZoom.h"
 /*
  ANIMACION ES
  
@@ -63,14 +63,14 @@ public:
 	vector<Spring*> muelles;
     
     /// tuio
-    void	setTuioClient (ofxTuioClient * _tuioClient);
+   // void	setTuioClient (ofxTuioClient * _tuioClient);
     
 	boton   btnImagenes;
 	boton   btnCuadros;
 	boton   btnPeriodicos;
     boton   castellano, gallego, ingles, frances;
     boton   cerrar;
-    boton   btnZoom;
+    //boton   btnZoom;
     
     miniaturas  minis;
 	visualizador    areaGrande;
@@ -96,9 +96,9 @@ public:
     ofTrueTypeFont  fuenteBotones;
     ofxXmlSettings  datosXml;
     
-    fichaZoom zoomImagen;
+    //fichaZoom zoomImagen;
     
-    ofImage imgBtnZoom;
+   // ofImage imgBtnZoom;
     ofImage imgBtnClose;
 };
 #endif

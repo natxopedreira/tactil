@@ -201,7 +201,7 @@ void testApp::draw(){
 void testApp::lanzaFicha(){
       fichaInfo * ficha = new fichaInfo();
       ficha->setup("01_playa_de_riazor.xml");
-      ficha->setTuioClient(&tuioClient);
+     // ficha->setTuioClient(&tuioClient);
     
       fichas.push_back(ficha);
 

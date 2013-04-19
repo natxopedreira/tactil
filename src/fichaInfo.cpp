@@ -106,14 +106,14 @@ void fichaInfo::setup(string _ulrXml){
 
     ////
     imgBtnClose.loadImage("close.png");
-    imgBtnZoom.loadImage("zoom.png");
-    
+   // imgBtnZoom.loadImage("zoom.png");
+    /*
     btnZoom.x = 500;
     btnZoom.y = 600;
     btnZoom.width = 30;
     btnZoom.height = 30;
     btnZoom.color.set(255, 0, 0,200);
-    btnZoom.nombre = "Z";
+    btnZoom.nombre = "Z";*/
 }
 
 //--------------------------------------------------------------
@@ -149,7 +149,7 @@ void fichaInfo::update(){
     
 	areaGrande.update();
     minis.update();
-    zoomImagen.update();
+    //zoomImagen.update();
     
     /// algo de elasticidad para los botones de los idiomas
     float dFrx = (areaGrande.x + areaGrande.width - frances.width)-(frances.x);
@@ -180,13 +180,13 @@ void fichaInfo::update(){
     cerrar.y += dClosey * .5;
     
     
-    
+  /*  
     float difX = (areaGrande.x + areaGrande.width - 14)-(btnZoom.x + btnZoom.width);
     float difY = (areaGrande.y + 320)-(btnZoom.y + btnZoom.height);
     
     btnZoom.x += difX * .4;
     btnZoom.y += difY * .5;
-    
+    */
 }
 
 //--------------------------------------------------------------
@@ -234,17 +234,17 @@ void fichaInfo::draw(){
     }
     
     
-    
+    /*
     if(areaGrande.verPie){
         ofPushStyle();
         ofSetColor(255,255,255);
         imgBtnZoom.draw(int(btnZoom.x),int(btnZoom.y));
         //ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
         ofPopStyle();
-    }
+    }*/
     
     /// zooooom
-    zoomImagen.draw();
+   // zoomImagen.draw();
 }
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
@@ -873,7 +873,7 @@ void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
 //--------------------------------------------------------------
 void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     ////boton de zoom ??
-    if(btnZoom.inside(ofPoint(e.x,e.y))){
+  /*  if(btnZoom.inside(ofPoint(e.x,e.y))){
         // zooooooom
         zoomImagen.setup(ofPoint(areaGrande.x - 400, areaGrande.y + 250), 400, 500,rectangulos.at(seccionActiva)->color);
         zoomImagen.colorBase.set(rectangulos.at(seccionActiva)->color);
@@ -921,7 +921,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         
         return;
     }
-    
+    */
     
 	for(int i = 0; i < rectangulos.size(); i++){
         /// compruebas si estas drageando una caja
@@ -935,7 +935,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
 				//idLeader = i;
-                zoomImagen.visible = false;
+             //   zoomImagen.visible = false;
                 seccionActiva = i;
                 areaGrande.crece(0);
                 
@@ -952,7 +952,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
-            zoomImagen.visible = false;
+           // zoomImagen.visible = false;
             
             idLeader = i;
 			px = e.x;
@@ -977,7 +977,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         //if(rectangulos.at(i)->useBtnIdioma) cout << rectangulos.at(i)->y << " -- " << rectangulos.at(i)->x << endl;
         
         if(rectangulos.at(i)->inside(ofPoint(e.x, e.y)) && rectangulos.at(i)->useBtnIdioma){
-                zoomImagen.visible = false;
+               // zoomImagen.visible = false;
                 string n = rectangulos.at(i)->nombre;
                 
                 if(n == "ESP"){
@@ -1016,8 +1016,6 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
                 if(n== "X"){
                     debesMorir = true;
                 }
-        }else if (rectangulos.at(i)->inside(ofPoint(e.x, e.y))) {
-            zoomImagen.visible = false;
         }
     }
     
@@ -1027,9 +1025,9 @@ void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
     
 }
 //--------------------------------------------------------------
-void fichaInfo::setTuioClient (ofxTuioClient * _tuioClient){
+/*void fichaInfo::setTuioClient (ofxTuioClient * _tuioClient){
     zoomImagen.setTuioClient(_tuioClient);
-}
+}*/
 ///-----------------
 ///----------------- VALORES GUI 
 ///-----------------

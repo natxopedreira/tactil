@@ -12,7 +12,8 @@
 
 #include "baseShape.h"
 #include "boton.h"
-#include "imageViewer.h"
+
+#include "SimplePanZoom.h"
 
 class visualizador : public baseShape {
 public:
@@ -33,7 +34,9 @@ public:
     void    mouseMoved(ofMouseEventArgs & args);
 
     boton   btnInfo;
-    imageViewer visor;
+    SimplePanZoom visorZoom;
+    ofImage imagenZoom;
+    //imageViewer visor;
     
     ofRectangle areaPieTitular;
     ofTrueTypeFont  fuente,fuenteCuerpo, fuenteInfo;
