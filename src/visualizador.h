@@ -36,7 +36,6 @@ public:
     boton   btnInfo;
     SimplePanZoom visorZoom;
     ofImage imagenZoom;
-    //imageViewer visor;
     
     ofRectangle areaPieTitular;
     ofTrueTypeFont  fuente,fuenteCuerpo, fuenteInfo;

@@ -51,14 +51,10 @@ visualizador::~visualizador(){
 
 // ---------------------------------------
 void visualizador::setup(){
-  //  visor.setup(503, 308);
-
     ofRegisterMouseEvents(this);
     
     visorZoom.set(this->x+12,this->y+12,503,308);
 	visorZoom.minZoom = 0.f;
-   // visorZoom.maxZoom = 10.f;
-   // visorZoom.setZoom(.8);
     visorZoom.deltaTime = 0.016f;
 }
 
@@ -79,8 +75,6 @@ void visualizador::update(){
     btnInfo.x += difX * .4;
     btnInfo.y += difY * .5;
     
- //   visor.update();
-    
     visorZoom.update();
     
 }
@@ -88,14 +82,7 @@ void visualizador::update(){
 void visualizador::drawVisualizadorSombra(){
 
     ofSetColor(0, 0, 0);
-    
-   ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
-    
-    
-    
-    
-
-    
+    ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
     btnInfo.drawRound();
 }
 
@@ -114,7 +101,6 @@ void visualizador::drawVisualizador(){
     
     if(imgVisible && !verInfo){
         //ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
-        //visor.draw(posxrect,posyrect);
         visorZoom.draw(imagenZoom);
     }
     
