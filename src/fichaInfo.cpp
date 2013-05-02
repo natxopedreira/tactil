@@ -672,7 +672,7 @@ void fichaInfo::construFigura(){
 void fichaInfo::cargaXml(string _ulr){
     
     
-    int idBuscado = 0;
+    int idBuscado = 17;
     
     if(datosXml.loadFile(_ulr)){
         //has cargado el xml
@@ -682,6 +682,8 @@ void fichaInfo::cargaXml(string _ulr){
         totalFichas = datosXml.getNumTags("ficha");
         
         for (int i = 0; i< totalFichas; i++) {
+            
+            
             
             if (datosXml.pushTag("ficha", i)){
                 if(datosXml.getValue("id", -1) == idBuscado){
@@ -693,6 +695,9 @@ void fichaInfo::cargaXml(string _ulr){
                     //
                     
                     totalImagenes = datosXml.getNumTags("image");
+                    
+                    
+                    
                     for (int j=0; j<totalImagenes; j++) {
                         datosXml.pushTag("image", j);
                         rectangulos.at(2)->urls.push_back(datosXml.getValue("url", ""));

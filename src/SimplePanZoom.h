@@ -35,7 +35,7 @@ public:
     
 	void    update();
     void    draw( ofBaseHasTexture &_bTex );
-
+    
     float   minZoom;
 	float   maxZoom;
     float   desiredZoom;

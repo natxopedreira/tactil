@@ -21,7 +21,7 @@ visualizador::visualizador(){
     fuenteCuerpo.setSpaceSize(.8);
     
     fuenteInfo.loadFont("SegoeL.ttf", 10 ,96, true);
-    fuenteInfo.setLineHeight(8);
+    fuenteInfo.setLineHeight(17);
     fuenteInfo.setSpaceSize(.8);
     
     offsetDrag.set(0, 0);
@@ -53,8 +53,9 @@ visualizador::~visualizador(){
 void visualizador::setup(){
     ofRegisterMouseEvents(this);
     
-    visorZoom.set(this->x+12,this->y+12,503,308);
+    visorZoom.set(this->x+12,this->y+12, 503, 308);
 	visorZoom.minZoom = 0.f;
+    visorZoom.maxZoom = 2.0f;
     visorZoom.deltaTime = 0.016f;
 }
 
@@ -175,20 +176,26 @@ void visualizador::cargaImagen(string _url){
     if (imagenZoom.isAllocated()) {
         
         /// cojo el ancho y alto
-        int ancho = imagenZoom.getWidth();
-        int alto = imagenZoom.getHeight();
+        /// cojo el ancho y alto
+        int anchoImagenZoom = imagenZoom.getWidth();
+        int altoImagenZoom = imagenZoom.getHeight();
         
         // creo un valor
         float ratio = 0;
-        
-        if(alto<ancho){
-            ratio = alto/308;
+
+        if(anchoImagenZoom<altoImagenZoom){
+            ratio = 503.0/ anchoImagenZoom;
         }else {
-            ratio = ancho/503;
+            ratio = 350.0 / altoImagenZoom;
+            cout << "aqui" << endl;
         }
         
-
-        visorZoom.maxZoom = ratio;
+        
+        
+        ratio = static_cast<float>(static_cast<int>(ceil(ratio * 10.))) / 10.;
+        //cout << "ancho de " << ancho*ratio << " / alto de " << alto*ratio << " / zoom de " << (ratio) << endl;
+        
+        visorZoom.minZoom = ratio;
         visorZoom.setZoom(ratio);
         
         imgVisible = true;
@@ -205,7 +212,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     pie = wrapString(_pie,470,fuenteCuerpo);
     titularPie = _titularPie;
     cont = x + 200;
-    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height - 24;
+    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height ;
 
     
     

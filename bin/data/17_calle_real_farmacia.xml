@@ -1,0 +1,488 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>17</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>17_CALLE_REAL_FARMACIA/171-farmacia.jpg</url>
+			
+			<titulo_cast>Farmacia Pardo Reguera</titulo_cast>
+			<titulo_gal>Praia de Riazor</titulo_gal>	
+			<titulo_eng>The Pardo Reguera pharmacy</titulo_eng>
+			<titulo_fr>Pharmacie Pardo Reguera</titulo_fr>
+			
+			<pie_cast>
+				<titular>Farmacia Pardo Reguera</titular>
+				<cuerpo>Farmacia Pardo Reguera de la calle Real, a principios de siglo.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Farmacia Pardo Reguera</titular>
+				<cuerpo>Farmacia Pardo Reguera da rúa Real, ao comezo do século XX.&#10;&#10;FFoto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Pardo Reguera pharmacy</titular>
+				<cuerpo>The Pardo Reguera pharmacy in Calle Real, at the beginning of the 20th Century.&#10;&#10;Photograph: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pharmacie Pardo Reguera</titular>
+				<cuerpo>Pharmacie Pardo Reguera, rue Real, au début de siècle.&#10;&#10;Photographie : collection R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>17_CALLE_REAL_FARMACIA/172-Postal-0518-CALLE-REAL.jpg</url>
+			
+			<titulo_cast>Calle Real</titulo_cast>
+			<titulo_gal>Rúa Real</titulo_gal>	
+			<titulo_eng>Calle Real</titulo_eng>
+			<titulo_fr>Rue Real</titulo_fr>
+			
+			<pie_cast>
+				<titular>Calle Real</titular>
+				<cuerpo>El final de la calle Real, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Rúa Real</titular>
+				<cuerpo>O cabo da rúa Real, á fin do século XIX-comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Calle Real</titular>
+				<cuerpo>The end of Calle Real, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Rue Real</titular>
+				<cuerpo>Au bout de la rue Real, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+			
+		</image>
+
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/173-Pardo-retrato.jpg</url>
+			
+			<titulo_cast>Gumersindo Pardo Reguera</titulo_cast>
+			<titulo_gal>Gumersindo Pardo Reguera</titulo_gal>	
+			<titulo_eng>Gumersindo Pardo Reguera</titulo_eng>
+			<titulo_fr>Gumersindo Pardo Reguera</titulo_fr>
+			
+			<pie_cast>
+				<titular>Gumersindo Pardo Reguera</titular>
+				<cuerpo>Autorretrato de Gumersindo Pardo Reguera (1895).&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Gumersindo Pardo Reguera</titular>
+				<cuerpo>Autorretrato de Gumersindo Pardo Reguera (1895).&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Gumersindo Pardo Reguera</titular>
+				<cuerpo>Autorretrato de Gumersindo Pardo Reguera&#10;&#10;(Self-portrait of Gumersindo Pardo Reguera) (1895).&#10;&#10;Photograph: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Gumersindo Pardo Reguera</titular>
+				<cuerpo>Autorretrato de Gumersindo Pardo Reguera (1895).&#10;&#10;Photographie : collection R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/174-chocolate.jpg</url>
+			
+			<titulo_cast>Tomando chocolate</titulo_cast>
+			<titulo_gal>Tomando chocolate</titulo_gal>	
+			<titulo_eng>Tomando chocolate</titulo_eng>
+			<titulo_fr>Tomando chocolate</titulo_fr>
+			
+			<pie_cast>
+				<titular>Tomando chocolate</titular>
+				<cuerpo>Tomando chocolate (sin datar), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Tomando chocolate</titular>
+				<cuerpo>Tomando chocolate (sen datar), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Tomando chocolate</titular>
+				<cuerpo>Tomando chocolate (Having a Chocolate) (undated), by Gumersindo Pardo Reguera.&#10;&#10;Photograph: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Tomando chocolate</titular>
+				<cuerpo>Tomando chocolate (sans date), de Gumersindo Pardo Reguera.&#10;&#10;Photographie : collection R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/175-retrato-de-hombre.jpg</url>
+			
+			<titulo_cast>Retrato de hombre</titulo_cast>
+			<titulo_gal>Retrato de hombre</titulo_gal>	
+			<titulo_eng>Retrato de hombre</titulo_eng>
+			<titulo_fr>Retrato de hombre</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Retrato de hombre (1895), de Pablo Ruiz Picasso.&#10;&#10;Se trata de Antonio Pardo Reguera, uno de los amigos de Pablo, como podemos deducir de su parecido con el niño de Tomando chocolate.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Retrato de hombre (1895), de Pablo Ruiz Picasso.&#10;&#10;Trátase de Antonio Pardo Reguera, un dos amigos de Pablo, como podemos deducir da súa semellanza co neno de Tomando chocolate.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Retrato de hombre (Portrait of a Man) (1895), by Pablo Ruiz Picasso.&#10;&#10;It was Antonio Pardo Reguera, one of Pablo’s friends, as can be deduced from his resemblance of the kid portrayed in Tomando chocolate (Having a Chocolate).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Retrato de hombre (1895), de Pablo Ruiz Picasso. Il s'agit d'Antonio Pardo Reguera, l'un des amis de Pablo, étant donné les ressemblances avec l'enfant de Tomando chocolate.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/176-mondando.jpg</url>
+			
+			<titulo_cast>Retrato de hombre</titulo_cast>
+			<titulo_gal>Retrato de hombre</titulo_gal>	
+			<titulo_eng>Retrato de hombre</titulo_eng>
+			<titulo_fr>Retrato de hombre</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Mondando patatas (1894), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Mondando patatas (1894), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Mondando patatas (Peeling Potatoes) (1894), by Gumersindo Pardo Reguera.&#10;&#10;Photograph: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>Mondando patatas (1894), de Gumersindo Pardo Reguera.&#10;&#10;Photographie : collection R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/177-muchacha-pies.jpg</url>
+			
+			<titulo_cast>Retrato de hombre</titulo_cast>
+			<titulo_gal>Retrato de hombre</titulo_gal>	
+			<titulo_eng>Retrato de hombre</titulo_eng>
+			<titulo_fr>Retrato de hombre</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>La muchacha de los pies descalzos (1895), de Pablo Ruiz Picasso.&#10;&#10;Se trata de la misma modelo que pinta Gumersindo un año antes en Mondando patatas.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>La muchacha de los pies descalzos (1895), de Pablo Ruiz Picasso.&#10;&#10;Vén sendo a mesma modelo que pinta Gumersindo un ano antes en Mondando patatas.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>La muchacha de los pies descalzos&#10;&#10;(The Barefoot Girl) (1895), by Pablo Ruiz Picasso.&#10;&#10;The same model was painted one year earlier by Gumersindo in Mondando patatas (Peeling Potatoes).&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de hombre</titular>
+				<cuerpo>La muchacha de los pies descalzos (1895), de Pablo Ruiz Picasso.&#10;&#10;D'après le même modèle de Mondando patatas, peint une année auparavant par Gumersindo.&#10;&#10;Musée Picasso de Paris. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/178-costales-pardo1894.jpg</url>
+			
+			<titulo_cast>Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), de Gumersindo Pardo Reguera.&#10;&#10;Foto: colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales&#10;&#10;(Portrait of Ramón Pérez Costales) (1894), by Gumersindo Pardo Reguera.&#10;&#10;Picture: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), de Gumersindo Pardo Reguera.&#10;&#10;Photographie : collection R. Ventureira/E. Pardo..</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>17_CALLE_REAL_FARMACIA/179-costales-picasso.jpg</url>
+			
+			<titulo_cast>Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales&#10;&#10;(Portrait of Ramón Pérez Costales) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En el número 92 de la calle Real se encontraba la farmacia de Gumersindo Pardo Reguera, que además era pintor. Hoy sigue existiendo en ese punto un local de este tipo, si bien la familia propietaria es otra. Pablo iba recoger a esta farmacia a su amigo Antonio, hijo de Gumersindo, y aprovechaba para ver lo que andaba pintando el padre de éste, el farmacéutico.&#10;&#10;Gumersindo fue uno de los inspiradores del Picasso coruñés, según han constatado las investigaciones recientes realizadas por Elena Pardo y Rubén Ventureira. Compartió al menos tres modelos con el malagueño: el farmacéutico pinta un año antes de que lo haga Pablo tanto a la muchacha de los pies descalzos como a Pérez Costales. Y Pablo, al igual que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Los descendientes del farmacéutico aún recuerdan hoy una frase del  Antonio niño: "Papá, me voy con Picazzo", en la que simulaba el acento andaluz de su amigo.
+			</txt_cast>
+			
+			<txt_gal>
+			No número 92 da rúa Real atopábase a farmacia de Gumersindo Pardo Reguera, que ademais era pintor. Hoxe segue existindo nese punto un local deste tipo, aínda que a familia propietaria é outra. Pablo ía recoller a esta farmacia ao seu amigo Antonio, fillo de Gumersindo, e aproveitaba para ver o que andaba pintando o pai deste, o farmacéutico.&#10;&#10;Gumersindo foi un dos inspiradores do Picasso coruñés, segundo constataron investigacións recentes. Compartiu polo menos tres modelos co malagueño: o farmacéutico pinta un ano antes de que o faga Pablo tanto á rapaza dos pés descalzos como a Pérez Costales. E Pablo, do mesmo xeito que Gumersindo, retrata a Antonio Pardo Reguera.&#10;&#10;Os descendentes do farmacéutico aínda lembran hoxe unha frase do  Antonio neno: "Papá, voume con Picazzo", na que simulaba o acento andaluz do seu amigo.
+			</txt_gal>
+						
+			<txt_eng>
+			Gumersindo Pardo Reguera, who was himself also a painter, owned a pharmacy at 92 Calle Real. The same business is still today open at the same house, although it belongs to another family now. Pablo used to pop in to see his friend Antonio, Gumersindo’s son, and he would also take the opportunity to have a look at the chemist’s latests paintings.&#10;&#10;Gumersindo was one of the inspirations for the Coruñan Picaso, according to recent research. They shared at least three models. The pharmaceutical painted the barefoot girl one year before Pablo did; both of them also portrayed Antonio Pardo Reguera.&#10;&#10;The chemist’s descendants recall how Antonio used to say as a kid: "Dad, I’m going out with Picazzo", mocking his friend’s Andalusian accent.
+			</txt_eng>
+						
+			<txt_fr>
+			La pharmacie de Gumersindo Pardo Reguera, peintre lui aussi, était située au 92 rue Real. De nos jours, il existe toujours dans les lieux un établissement de ce genre, bien que la famille propriétaire ait changé. Pablo allait chercher là-bas son copain Antonio, fils de Gumersindo, et en profitait pour jeter un coup d'œil aux peintures du père, le pharmacien.&#10;&#10;Gumersindo fut l'un des inspirateurs de Picasso à La Corogne, selon des recherches récentes. Il partagea au moins trois modèles avec l'artiste de Malaga : le pharmacien peint, une année avant que Pablo ne le fasse, la fillette aux pieds nus et Pérez Costales. Et Pablo, comme Gumersindo, fit aussi un portrait d'Antonio Pardo Reguera.&#10;&#10;Les descendants du pharmacien rappellent encore une phrase du petit Antonio : "Papa, je m'en vais avec Picazzo", forçant l'accent andalou de son petit copain.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

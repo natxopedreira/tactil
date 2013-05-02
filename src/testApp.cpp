@@ -4,6 +4,7 @@
 void testApp::setup(){
 	ofSetVerticalSync(true);
     ofEnableAlphaBlending();
+  //  ofSetLogLevel(OF_LOG_VERBOSE);
     
 	ofBackground(0,0,0);
     
@@ -200,7 +201,7 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::lanzaFicha(){
       fichaInfo * ficha = new fichaInfo();
-      ficha->setup("01_playa_de_riazor.xml");
+      ficha->setup("17_calle_real_farmacia.xml");
      // ficha->setTuioClient(&tuioClient);
     
       fichas.push_back(ficha);

@@ -38,16 +38,16 @@ void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
     
     _bTex.getTextureReference().bind();
     
-//    ofMesh  mesh;
-//    mesh.setMode(OF_PRIMITIVE_TRIANGLE_STRIP);
-//    mesh.addTexCoord();
+    //    ofMesh  mesh;
+    //    mesh.setMode(OF_PRIMITIVE_TRIANGLE_STRIP);
+    //    mesh.addTexCoord();
     
     glBegin(GL_QUADS);
     
-    glTexCoord2f(-offset.x + 0      * zoom  , -offset.y + 0      * zoom);   glVertex3f(x,y,0);
-    glTexCoord2f(-offset.x + width  * zoom  , -offset.y + 0      * zoom);   glVertex3f(x+width,y,0);
-    glTexCoord2f(-offset.x + width  * zoom  , -offset.y + height * zoom);   glVertex3f(x+width,y+height,0);
-    glTexCoord2f(-offset.x + 0      * zoom  , -offset.y + height * zoom);   glVertex3f(x,y+height,0);
+    glTexCoord2f(-offset.x + 0      * 1.0f/zoom  , -offset.y + 0      * 1.0f/zoom);   glVertex3f(x,y,0);
+    glTexCoord2f(-offset.x + width  * 1.0f/zoom  , -offset.y + 0      * 1.0f/zoom);   glVertex3f(x+width,y,0);
+    glTexCoord2f(-offset.x + width  * 1.0f/zoom  , -offset.y + height * 1.0f/zoom);   glVertex3f(x+width,y+height,0);
+    glTexCoord2f(-offset.x + 0      * 1.0f/zoom  , -offset.y + height * 1.0f/zoom);   glVertex3f(x,y+height,0);
     
     glEnd();
     _bTex.getTextureReference().unbind();
@@ -85,13 +85,20 @@ void SimplePanZoom::applyConstrains(){
         desiredOffset.y = 0;
     }
     
-    if ( desiredOffset.x < -(maxOffset.x - width * zoom) ){
-        desiredOffset.x = -(maxOffset.x - width * zoom);
+    if ( desiredOffset.x < -(maxOffset.x - width * 1.0/zoom) ){
+        desiredOffset.x = -(maxOffset.x - width * 1.0/zoom);
     }
     
-    if ( desiredOffset.y < -(maxOffset.y - height * zoom) ){
-        desiredOffset.y = -(maxOffset.y - height * zoom);
+    if ( desiredOffset.y < -(maxOffset.y - height * 1.0/zoom) ){
+        desiredOffset.y = -(maxOffset.y - height * 1.0/zoom);
     }
+    
+    if(zoom>maxZoom){
+        setZoom(maxZoom);
+    }else if (zoom<minZoom) {
+        setZoom(minZoom);
+    }
+    
 }
 
 //------------------------------------ Events
