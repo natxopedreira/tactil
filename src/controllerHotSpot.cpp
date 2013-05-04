@@ -16,8 +16,11 @@ void  controllerHotSpot::setup(){
     
     loadPositions();
     
+    ofRegisterMouseEvents(this);
     
     idPress = -1;
+    
+    
     /*
     for (int i = 0; i< cuantos; i++) {
         hotSpot pto;
@@ -27,8 +30,6 @@ void  controllerHotSpot::setup(){
         
         puntos.push_back(pto);
     }*/
-    
-   
 }
 
 // ------------------------------
@@ -46,7 +47,7 @@ void controllerHotSpot::draw(){
 // ------------------------------
 void controllerHotSpot::debugOn(){
     if(! editable){
-        ofRegisterMouseEvents(this);
+       // ofRegisterMouseEvents(this);
         editable = true;
     }
 }
@@ -55,7 +56,7 @@ void controllerHotSpot::debugOn(){
 // ------------------------------
 void controllerHotSpot::debugOff(){
     if(editable){
-        ofUnregisterMouseEvents(this);
+        //ofUnregisterMouseEvents(this);
         editable = false;
     }
 }
@@ -67,14 +68,19 @@ void controllerHotSpot::mouseMoved(ofMouseEventArgs & arg){
 
 // ------------------------------
 void controllerHotSpot::mouseDragged(ofMouseEventArgs & arg){
-    if(idPress >=0 && puntos.size() > idPress){
     
-        puntos.at(idPress).setPosition(ofPoint(arg.x, arg.y));
+    
+    if(idPress >=0 && puntos.size() > idPress){
+        if (editable) {
+            puntos.at(idPress).setPosition(ofPoint(arg.x, arg.y));
+        }
     }
 }
 
 // ------------------------------
 void controllerHotSpot::mousePressed(ofMouseEventArgs & arg){
+    //if(!editable) return;
+    
     for (int i = 0; i< cuantos; i++) {
         ofRectangle rect;
         
@@ -83,7 +89,6 @@ void controllerHotSpot::mousePressed(ofMouseEventArgs & arg){
         if(rect.inside(arg.x, arg.y)){
             idPress = i;
             
-            cout << i+1 << endl;
             return;
         }
     }
@@ -91,6 +96,15 @@ void controllerHotSpot::mousePressed(ofMouseEventArgs & arg){
 
 // ------------------------------
 void controllerHotSpot::mouseReleased(ofMouseEventArgs & arg){
+    if(!editable && (idPress >=0 && puntos.size() > idPress)){
+        
+        customDataEvent event;
+        event.nombre = puntos.at(idPress).urlXml;
+        event.valor = idPress+1;
+        
+        ofNotifyEvent(verFicha,event);
+    }
+    
     if(idPress >=0) idPress = -1;
 }
 
@@ -135,7 +149,7 @@ ofxXmlSettings settings;
             hotSpot pto;
             pto.setup(settings.getValue("index", 0));
             pto.setPosition(ofPoint(settings.getValue("x", 0),settings.getValue("y", 0)));
-            
+            pto.urlXml = settings.getValue("url", "");
             puntos.push_back(pto);
             
             settings.popTag();

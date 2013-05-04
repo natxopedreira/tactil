@@ -1,0 +1,208 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>19</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>19_CAPILLA_SAN_ANDRES/142-postales-0302-CAPILLA-SAN-ANDRES.jpg</url>
+			
+			<titulo_cast>Capilla de San Andrés</titulo_cast>
+			<titulo_gal>Capela do Santo André</titulo_gal>	
+			<titulo_eng>San Andrés chapel</titulo_eng>
+			<titulo_fr>Chapelle de San Andrés</titulo_fr>
+			
+			<pie_cast>
+				<titular>Capilla de San Andrés</titular>
+				<cuerpo>La capilla de San Andrés, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Capela do Santo André</titular>
+				<cuerpo>A capela do Santo André, ao remate do séculoXIX ou comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>San Andrés chapel</titular>
+				<cuerpo>The San Andrés chapel, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Chapelle de San Andrés</titular>
+				<cuerpo>La chapelle de San Andrés, à la fin du XIXe siècle-au début du XXe.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La reedificada capilla de San Andrés se abrió al público el 17 de mayo de 1890, un año y pico antes de la llegada de los Ruiz Picasso a la ciudad.&#10;&#10;Pertenece al estilo neorrománico. El arquitecto de la obra fue Faustino Domínguez Coumes-Gay, el mismo que firmó los proyectos del Instituto da Guarda, el teatro Principal y la casa de Payo Gómez 14 donde vivió Picasso durante su estancia en A Coruña.&#10;&#10;Desde su reapertura, la capilla lució en su interior siete esculturas de Isidoro Brocos, profesor de Pablo en la Escuela Provincial de Bellas Artes: San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro y San Andrés.
+			</txt_cast>
+			
+			<txt_gal>
+			A reedificada capela de Santo André abriuse ao público o 17 de maio de 1890, un ano e pico antes da chegada dos Ruiz Picasso á cidade.&#10;&#10;Pertence ao estilo neorrománico. O arquitecto da obra foi Faustino Domínguez Coumes-Gay, o mesmo que asinou os proxectos do Instituto da Guarda, o teatro Principal e a casa de Payo Gómez 14 onde viviu Picasso durante a súa estancia na Coruña.&#10;&#10;Desde a súa reapertura, a capela luciu no seu interior sete esculturas de Isidoro Brocos, profesor de Pablo na Escola Provincial de Belas Artes: San Eusebio, a Virxe das Dores, a Virxe do Carme, a Virxe da Luz, Santa Rita de Casia, San Pedro e Santo André.
+			</txt_gal>
+						
+			<txt_eng>
+			The re-built San Andrés chapel opened on May 17th, 1890, more than a year before the Ruiz Picassos arrived in the city.&#10;&#10;Its style is Neo-Romanesque. The architect was Faustino Domínguez Coumes-Gay, who was also the author of the projects for the Guarda secondary school, the Principal theatre and the house at 14 Payo Gómez where Picasso lived while in A Coruña.&#10;&#10;Since it re-opened, the inside of the chapel displayed seven sculptures by Isidoro Brocos, Pablo’s professor at the Provincial School of Fine Arts: they represented Saint Eusebio, the Virgin of Dolores, the Virgin of Carmen, the Virgin of Light, Saint Rita de Casia, Saint Pedro and Saint Andrés.
+			</txt_eng>
+						
+			<txt_fr>
+			La chapelle de San Andrés rebâtie ouvrit ses portes le 17 mai 1890, une année et demie avant l'arrivée des Ruiz Picasso à La Corogne.&#10;&#10;C'est du style néoroman. L'architecte de l'œuvre fut Faustino Dmínguez Coumes-Gay, responsable des projets de l'Institut da Guarda, du Théâtre principal et de la maison située au 14 rue Payo Gómez où Picasso vécut pendant son séjour à La Corogne.&#10;&#10;Depuis sa réouverture, la chapelle disposait à l'intérieur de sept sculptures d'Isidoro Brocos, professeur à l'école provinciale de Beaux-Arts : San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro et San Andrés.
+			</txt_fr>
+			
+		</image>
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>19_CAPILLA_SAN_ANDRES/141-capilla-dibujo.jpg</url>
+			
+			<titulo_cast>Capilla de San Andrés</titulo_cast>
+			<titulo_gal>Capela do Santo André</titulo_gal>	
+			<titulo_eng>San Andrés chapel</titulo_eng>
+			<titulo_fr>Chapelle de San Andrés</titulo_fr>
+			
+			<pie_cast>
+				<titular>Capilla de San Andrés</titular>
+				<cuerpo>Dibujo de la capilla de San Andrés, en 1892.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Capela do Santo André</titular>
+				<cuerpo>Debuxo da capela do Santo André, no 1892.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>San Andrés chapel</titular>
+				<cuerpo>Drawing of the San Andrés chapel, in 1892.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Chapelle de San Andrés</titular>
+				<cuerpo>Dessin de la chapelle de San Andrés, en 1892.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La reedificada capilla de San Andrés se abrió al público el 17 de mayo de 1890, un año y pico antes de la llegada de los Ruiz Picasso a la ciudad.&#10;&#10;Pertenece al estilo neorrománico. El arquitecto de la obra fue Faustino Domínguez Coumes-Gay, el mismo que firmó los proyectos del Instituto da Guarda, el teatro Principal y la casa de Payo Gómez 14 donde vivió Picasso durante su estancia en A Coruña.&#10;&#10;Desde su reapertura, la capilla lució en su interior siete esculturas de Isidoro Brocos, profesor de Pablo en la Escuela Provincial de Bellas Artes: San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro y San Andrés.
+			</txt_cast>
+			
+			<txt_gal>
+			A reedificada capela de Santo André abriuse ao público o 17 de maio de 1890, un ano e pico antes da chegada dos Ruiz Picasso á cidade.&#10;&#10;Pertence ao estilo neorrománico. O arquitecto da obra foi Faustino Domínguez Coumes-Gay, o mesmo que asinou os proxectos do Instituto da Guarda, o teatro Principal e a casa de Payo Gómez 14 onde viviu Picasso durante a súa estancia na Coruña.&#10;&#10;Desde a súa reapertura, a capela luciu no seu interior sete esculturas de Isidoro Brocos, profesor de Pablo na Escola Provincial de Belas Artes: San Eusebio, a Virxe das Dores, a Virxe do Carme, a Virxe da Luz, Santa Rita de Casia, San Pedro e Santo André.
+			</txt_gal>
+						
+			<txt_eng>
+			The re-built San Andrés chapel opened on May 17th, 1890, more than a year before the Ruiz Picassos arrived in the city.&#10;&#10;Its style is Neo-Romanesque. The architect was Faustino Domínguez Coumes-Gay, who was also the author of the projects for the Guarda secondary school, the Principal theatre and the house at 14 Payo Gómez where Picasso lived while in A Coruña.&#10;&#10;Since it re-opened, the inside of the chapel displayed seven sculptures by Isidoro Brocos, Pablo’s professor at the Provincial School of Fine Arts: they represented Saint Eusebio, the Virgin of Dolores, the Virgin of Carmen, the Virgin of Light, Saint Rita de Casia, Saint Pedro and Saint Andrés.
+			</txt_eng>
+						
+			<txt_fr>
+			La chapelle de San Andrés rebâtie ouvrit ses portes le 17 mai 1890, une année et demie avant l'arrivée des Ruiz Picasso à La Corogne.&#10;&#10;C'est du style néoroman. L'architecte de l'œuvre fut Faustino Dmínguez Coumes-Gay, responsable des projets de l'Institut da Guarda, du Théâtre principal et de la maison située au 14 rue Payo Gómez où Picasso vécut pendant son séjour à La Corogne.&#10;&#10;Depuis sa réouverture, la chapelle disposait à l'intérieur de sept sculptures d'Isidoro Brocos, professeur à l'école provinciale de Beaux-Arts : San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro et San Andrés.
+			</txt_fr>
+			
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>19_CAPILLA_SAN_ANDRES/144-Brocos.jpg</url>
+			
+			<titulo_cast>Isidoro Brocos</titulo_cast>
+			<titulo_gal>Isidoro Brocos</titulo_gal>	
+			<titulo_eng>Isidoro Brocos</titulo_eng>
+			<titulo_fr>Isidoro Brocos</titulo_fr>
+			
+			<pie_cast>
+				<titular>Isidoro Brocos</titular>
+				<cuerpo>Cuadro de Isidoro Brocos, por Joaquín Vaamonde Cornide.&#10;&#10;Museo de Belas Artes de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Isidoro Brocos</titular>
+				<cuerpo>Cadro de Isidoro Brocos, por Joaquín Vaamonde Cornide.&#10;&#10;Museo de Belas Artes da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Isidoro Brocos</titular>
+				<cuerpo>Isidoro Brocos’ painting, by Joaquín Vaamonde Cornide.&#10;&#10;Museo de Belas Artes de A Coruña.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Isidoro Brocos</titular>
+				<cuerpo>Tableau d'Isidoro Brocos, de Joaquín Vaamonde Cornide.&#10;&#10;Musée de Beaux-Arts de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La reedificada capilla de San Andrés se abrió al público el 17 de mayo de 1890, un año y pico antes de la llegada de los Ruiz Picasso a la ciudad.&#10;&#10;Pertenece al estilo neorrománico. El arquitecto de la obra fue Faustino Domínguez Coumes-Gay, el mismo que firmó los proyectos del Instituto da Guarda, el teatro Principal y la casa de Payo Gómez 14 donde vivió Picasso durante su estancia en A Coruña.&#10;&#10;Desde su reapertura, la capilla lució en su interior siete esculturas de Isidoro Brocos, profesor de Pablo en la Escuela Provincial de Bellas Artes: San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro y San Andrés.
+			</txt_cast>
+			
+			<txt_gal>
+			A reedificada capela de Santo André abriuse ao público o 17 de maio de 1890, un ano e pico antes da chegada dos Ruiz Picasso á cidade.&#10;&#10;Pertence ao estilo neorrománico. O arquitecto da obra foi Faustino Domínguez Coumes-Gay, o mesmo que asinou os proxectos do Instituto da Guarda, o teatro Principal e a casa de Payo Gómez 14 onde viviu Picasso durante a súa estancia na Coruña.&#10;&#10;Desde a súa reapertura, a capela luciu no seu interior sete esculturas de Isidoro Brocos, profesor de Pablo na Escola Provincial de Belas Artes: San Eusebio, a Virxe das Dores, a Virxe do Carme, a Virxe da Luz, Santa Rita de Casia, San Pedro e Santo André.
+			</txt_gal>
+						
+			<txt_eng>
+			The re-built San Andrés chapel opened on May 17th, 1890, more than a year before the Ruiz Picassos arrived in the city.&#10;&#10;Its style is Neo-Romanesque. The architect was Faustino Domínguez Coumes-Gay, who was also the author of the projects for the Guarda secondary school, the Principal theatre and the house at 14 Payo Gómez where Picasso lived while in A Coruña.&#10;&#10;Since it re-opened, the inside of the chapel displayed seven sculptures by Isidoro Brocos, Pablo’s professor at the Provincial School of Fine Arts: they represented Saint Eusebio, the Virgin of Dolores, the Virgin of Carmen, the Virgin of Light, Saint Rita de Casia, Saint Pedro and Saint Andrés.
+			</txt_eng>
+						
+			<txt_fr>
+			La chapelle de San Andrés rebâtie ouvrit ses portes le 17 mai 1890, une année et demie avant l'arrivée des Ruiz Picasso à La Corogne.&#10;&#10;C'est du style néoroman. L'architecte de l'œuvre fut Faustino Dmínguez Coumes-Gay, responsable des projets de l'Institut da Guarda, du Théâtre principal et de la maison située au 14 rue Payo Gómez où Picasso vécut pendant son séjour à La Corogne.&#10;&#10;Depuis sa réouverture, la chapelle disposait à l'intérieur de sept sculptures d'Isidoro Brocos, professeur à l'école provinciale de Beaux-Arts : San Eusebio, la Virgen de los Dolores, la Virgen del Carmen, la Virgen de la Luz, Santa Rita de Casia, San Pedro et San Andrés.
+			</txt_fr>
+			
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

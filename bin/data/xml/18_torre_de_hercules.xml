@@ -1,0 +1,300 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>18</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>18_TORRE_DE_HERCULES/183-Torre-1895.jpg</url>
+			
+			<titulo_cast>Torre de Hércules</titulo_cast>
+			<titulo_gal>Torre de Hércules</titulo_gal>	
+			<titulo_eng>Torre de Hércules</titulo_eng>
+			<titulo_fr>Torre de Hércules</titulo_fr>
+			
+			<pie_cast>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Fotografía de la Torre de Hércules publicada en 1895.&#10;&#10;Colección: R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Fotografía da Torre de Hércules publicada en 1895.&#10;&#10;Colección: R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Photograph of the Tower of Hercules, published in 1895.&#10;&#10;R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Photographie : de la Tour d'Hercule publiée en 1895.&#10;&#10;Collection : R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>18_TORRE_DE_HERCULES/184-periodiquillo-La-Coruna.jpg</url>
+			
+			<titulo_cast>Periodiquillo La Coruña</titulo_cast>
+			<titulo_gal>Periodiquillo La Coruña</titulo_gal>	
+			<titulo_eng>Periodiquillo La Coruña</titulo_eng>
+			<titulo_fr>Periodiquillo La Coruña</titulo_fr>
+			
+			<pie_cast>
+				<titular>Periodiquillo La Coruña</titular>
+				<cuerpo>Periodiquillo La Coruña (1894), de Pablo Ruiz Picasso.&#10;&#10;A la izquierda representa a la Torre de Hércules como un dulce.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Periodiquillo La Coruña</titular>
+				<cuerpo>Periodiquillo La Coruña (1894), de Pablo Ruiz Picasso.&#10;&#10;Á esquerda representa a Torre de Hércules como un doce.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Periodiquillo La Coruña</titular>
+				<cuerpo>Amateur magazine La Coruña (1894), by Pablo Ruiz Picasso.&#10;&#10;On the left side, he depicts the Tower of Hercules as a candy sweet.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Periodiquillo La Coruña</titular>
+				<cuerpo>Journal La Coruña (1894), de Pablo Ruiz Picasso.&#10;&#10;À gauche, il représente la Tour d'Hercule comme un bonbon.&#10;&#10;Musée Picasso de Paris. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>18_TORRE_DE_HERCULES/181-torre-de-hercules.jpg</url>
+			
+			<titulo_cast>Torre de Hércules</titulo_cast>
+			<titulo_gal>Torre de Hércules</titulo_gal>	
+			<titulo_eng>Torre de Hércules</titulo_eng>
+			<titulo_fr>Torre de Hércules</titulo_fr>
+			
+			<pie_cast>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Torre de Hércules (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Torre de Hércules (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Torre de Hércules (Tower of Hercules) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Torre de Hércules</titular>
+				<cuerpo>Torre de Hércules (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>18_TORRE_DE_HERCULES/187-hercules-MPB-111.jpg</url>
+			
+			<titulo_cast>Desnudo masculino blandiendo una maza</titulo_cast>
+			<titulo_gal>Desnudo masculino blandiendo una maza</titulo_gal>	
+			<titulo_eng>Desnudo masculino blandiendo una maza</titulo_eng>
+			<titulo_fr>Desnudo masculino blandiendo una maza</titulo_fr>
+			
+			<pie_cast>
+				<titular>Desnudo masculino blandiendo una maza</titular>
+				<cuerpo>Desnudo masculino blandiendo una maza (1894).&#10;&#10;Sostenemos que se trata de un Hércules.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Desnudo masculino blandiendo una maza</titular>
+				<cuerpo>Desnudo masculino blandiendo una maza (1894).&#10;&#10;Coidamos que se trata dun Hércules.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Desnudo masculino blandiendo una maza</titular>
+				<cuerpo>Desnudo masculino blandiendo una maza (Male Naked Holding a Mallet) (1894).&#10;&#10;We believe that the depiction is of a Hercules.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Desnudo masculino blandiendo una maza</titular>
+				<cuerpo>Desnudo masculino blandiendo una maza (1894). Nous pensons qu'il s'agit d'un Hercule.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>18_TORRE_DE_HERCULES/185-Anuncio-fabrica-chocolate.jpg</url>
+			
+			<titulo_cast>La Torre Gran Fábrica de Chocolates</titulo_cast>
+			<titulo_gal>La Torre Gran Fábrica de Chocolates</titulo_gal>	
+			<titulo_eng>La Torre Gran Fábrica de Chocolates</titulo_eng>
+			<titulo_fr>La Torre Gran Fábrica de Chocolates</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Torre Gran Fábrica de Chocolates</titular>
+				<cuerpo>Anuncio de La Torre Gran Fábrica de Chocolates, en 1891.&#10;&#10;Seguramente Picasso se inspiró en este logotipo para realizar su dibujo de "la torre de caramelo".</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Torre Gran Fábrica de Chocolates</titular>
+				<cuerpo>Anuncio de La Torre Gran Fábrica de Chocolates, en 1891.&#10;&#10;Seguramente Picasso inspirouse neste logotipo para realizar o seu debuxo da torre de caramelo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Torre Gran Fábrica de Chocolates</titular>
+				<cuerpo>Advertisement of La Torre Gran Fábrica de Chocolates, 1891.&#10;&#10;Picasso probably got inspiration from this logo in his drawing "the candy tower".</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Torre Gran Fábrica de Chocolates</titular>
+				<cuerpo>Annonce de La Torre Gran Fábrica de Chocolates, en 1891.&#10;&#10;Il est fort probable que Picasso s'inspire de ce logotype pour esquisser son dessin "tour de bonbon".</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>18_TORRE_DE_HERCULES/186-avrillon-cerveza.jpg</url>
+			
+			<titulo_cast>Fábrica de cervezas</titulo_cast>
+			<titulo_gal>Fábrica de cervexas</titulo_gal>	
+			<titulo_eng>Beer factory</titulo_eng>
+			<titulo_fr>Brasserie</titulo_fr>
+			
+			<pie_cast>
+				<titular>Fábrica de cervezas</titular>
+				<cuerpo>Anuncio de la fábrica de cervezas de Juan B. Avrillón en el que aparece la torre de Hércules, en 1891.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Fábrica de cervexas</titular>
+				<cuerpo>Anuncio da fábrica de cervexas de Juan B. Avrillón no que aparece a Torre de Hércules, no 1891.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Beer factory</titular>
+				<cuerpo>Advertisement by Juan B. Avrillón’s beer factory, featuring the Tower of Hercules, 1891.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Brasserie</titular>
+				<cuerpo>Affiche de la brasserie de Juan B. Avrillón avec la tour d'Hercule, en 1891.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Es el símbolo de A Coruña. El faro más antiguo del mundo, erigido en el siglo I, fue designado por la Unesco en el 2009 como Patrimonio de la Humanidad. Romano de origen, conserva en su interior gran parte de la estructura original, que en el siglo XVIII fue revestida con granito. Picasso la pintó al óleo, en una vista tomada entre el Orzán y San Roque. Y también la dibujó en uno de sus periodiquillos, añadiendo el apodo de "torre de caramelo". El artista ha explicado que así la llamaba su padre por el tono de su piedra exterior, el granito que se colocó en la reforma dieciochesca. Pero el hecho es que en un anuncio de la época de una fábrica de chocolates aparece el faro dibujado como lo hizo Picasso, así que ésta pudo ser su inspiración. Por cierto, según su biógrafo Richardson, uno de los periodiquillos que realizó Picasso en A Coruña se titulaba Torre de Hércules, pero  no se conserva ningún ejemplar.&#10;&#10;Durante su estancia en A Coruña, Picasso también dibuja un Hércules con una maza. Tiene una versión anterior de este héroe, fechada en 1890, que según el artista realizó a partir de un ejemplar de yeso que había en su casa.
+			</txt_cast>
+			
+			<txt_gal>
+			É o símbolo da Coruña. O faro máis antigo do mundo, erixido no século I, foi designado pola Unesco no 2009 como Patrimonio da Humanidade. Romano de orixe, conserva no seu interior gran parte da estrutura orixinal, que no século XVIII foi revestida con granito. Picasso pintouna ao óleo, nunha vista tomada entre o Orzán e San Roque. E tamén a debuxou nun dos seus periodiquillos, engadindo o alcume de "torre de caramelo". O artista explicou que así a chamaba o seu pai polo ton da súa pedra exterior, o granito que se colocou na reforma do Dezaoito. Pero o feito é que nun anuncio da época dunha fábrica de chocolates aparece o faro debuxado como o fixo Picasso, así que esta puido ser a súa inspiración. Por certo, segundo o seu biógrafo Richardson, un dos periodiquillos que realizou Picasso na Coruña titulábase Torre de Hércules, pero non se conserva ningún exemplar.&#10;&#10;Durante a súa estancia na Coruña, Picasso tamén debuxa un Hércules cunha maza. Ten unha versión anterior deste heroe, datada en 1890, que segundo o artista realizou a partir dun exemplar de xeso que había na súa casa.
+			</txt_gal>
+						
+			<txt_eng>
+			It is A Coruña’s icon. The oldest working lighthouse in the world, built in the 1st Century, was enshrined as World Heritage by Unesco in 2009. Originally Roman, it preserves within most of its original structure, which was covered in granite in the 18th Century. Picasso did an oil painting of it, an outlook from somewhere between Orzán and San Roque. And he also drew it in one of his amateur magazines, adding the nickname “candy tower”. The artist explained that this was the expression used by his father due to the color of the stone used during the 18th-Century reform. However, the advertisement of a chocolate factory of the time had the tower drawn in a similar way to the one depicted by Picasso, so this might have been his inspiration. According to Richardson, his biographer, one of the amateur magazines that Picasso put together while in A Coruña was entitled Torre de Hércules (Tower of Hercules), but no copy has been preserved.&#10;&#10;During his stay in A Coruña, Picasso also drew an Hercules holding a mallet. He had a previous version of the hero, dated 1890, which according to himself he made from a plaster reproduction they had at home.
+			</txt_eng>
+						
+			<txt_fr>
+			C'est le symbole de La Corogne, le phare le plus ancien du monde, érigé au Ire siècle et désigné en 2009 par l'Unesco, Patrimoine de l'Humanité. D'origine romaine, la Tour conserve à l'intérieur sa structure originale, étant chemisée par un parement de granit au XVIIIe siècle.&#10;&#10;Picasso la peignit à l'huile, dans une vue prise entre l'Orzán et San Roque. Et il la dessina aussi dans l'un de ses revues, ajoutant le pseudonyme "tour de bonbon". L'artiste expliqua que son père la dénommait ainsi, dû à la couleur de la pierre extérieure, le granit. Mais, le fait c'est que dans une annonce de l'époque, le phare est dessiné comme Picasso le fait ultérieurement, de façon que l'annonce aurait pu lui servir d'inspiration. D'après son biographe Richardson, l'un des journaux réalisés par Picasso à La Corogne s'intitulait Torre de Hércules, mais il n'existe plus aucun exemplaire.&#10;&#10;Pendant son séjour à La Corogne, Picasso dessina aussi un Hercule avec sa massue. Il y a une version antérieure, datée de 1890, que selon l'artiste, il réalisa d'après la bosse, à partir d'un modèle en plâtre qu'il y avait chez lui.
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

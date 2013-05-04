@@ -40,7 +40,7 @@ void testApp::setup(){
     puntosMapa.setup();
     
     
-    verGui = false;
+    verGui = true;
     
 	/// gui para el modo debug
     gui.setup("ajustes");
@@ -49,7 +49,9 @@ void testApp::setup(){
 	gui.add(kMuellesDiagonales.setup("k diag", kmuellesDiagonales, .0, 1));
     gui.add(dampCajasMiniaturas.setup("damp miniaturas", dampcajasMiniaturas, .0, 5));
     gui.add(dampCajas.setup("damp cajas", dampcajas, .0, 5));
-    
+    gui.add(puntosDebug.setup("editar puntos", false));
+    gui.add(guardarPosicionesPuntos.setup("guardar puntos", false));
+    gui.add(fps.setup("fps", ""));
 	gui.loadFromFile("settings.xml");
 	
     kMuelles.addListener(this, &testApp::btnCambiaK);
@@ -58,8 +60,11 @@ void testApp::setup(){
     dampCajasMiniaturas.addListener(this, &testApp::btnCambiaDampMiniaturas);
 	dampCajas.addListener(this, &testApp::btnCambiaDamp);
 	
+    puntosDebug.addListener(this,&testApp::editarPuntos);
+    guardarPosicionesPuntos.addListener(this,&testApp::guardarPuntos);
     
     
+    ofAddListener(puntosMapa.verFicha,this, &testApp::verFicha);
     
     /////////////////////
     /////////////////////
@@ -75,7 +80,7 @@ void testApp::setup(){
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
     tuioClient.getMessage();
-    
+    fps = ofToString(ofGetFrameRate());
     
     for (int i = fichas.size()-1; i >= 0 ; i--){
         fichas[i]->update();
@@ -91,6 +96,7 @@ void testApp::update(){
             fichas.erase(fichas.begin()+i);
         }
     }
+    
 }
 
 //--------------------------------------------------------------
@@ -171,14 +177,9 @@ void testApp::draw(){
     
     
     
-    stringstream str;
+  /*  stringstream str;
     
     str << "[e] ver/ocultar el mensaje" << endl
-    << "" << endl
-    << "[d] SI mover puntos" <<  endl
-    << "[o] NO mover puntos" <<   endl
-    << "" << endl
-    << "[s] para guardar los puntos" <<  endl
     << "" << endl
     << "[g] para ver/ocultar GUI" <<  endl
     << "" << endl
@@ -186,7 +187,7 @@ void testApp::draw(){
     << "" << endl;
     
     ofDrawBitmapString(str.str(),10,10);
-    
+   */ 
     if(verGui){
         gui.draw();
     }
@@ -201,12 +202,25 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::lanzaFicha(){
       fichaInfo * ficha = new fichaInfo();
-      ficha->setup("17_calle_real_farmacia.xml");
+      ficha->setup("xml/17_calle_real_farmacia.xml",17);
      // ficha->setTuioClient(&tuioClient);
     
       fichas.push_back(ficha);
 
 }
+
+
+//--------------------------------------------------------------
+void testApp::verFicha(customDataEvent & info){
+    
+    
+    fichaInfo * ficha = new fichaInfo();
+    ficha->setup(info.nombre, info.valor);
+    
+    fichas.push_back(ficha);
+    
+}
+
 /*
  //////////////////////////////////////////////////////////////////////////////////////////////
  //////////////////////////////////////////////////////////////////////////////////////////////
@@ -216,9 +230,22 @@ void testApp::lanzaFicha(){
  //////////////////////////////////////////////////////////////////////////////////////////////
  //////////////////////////////////////////////////////////////////////////////////////////////
  */
+//--------------------------------------------------------------
+void testApp::guardarPuntos(bool & r){
+    if (r) {
+        puntosMapa.savePositions();
+        guardarPosicionesPuntos.value = false;
+    }
+}
 
-
-
+//--------------------------------------------------------------
+void testApp::editarPuntos(bool & r){
+    if(r){
+        puntosMapa.debugOn();
+    }else {
+        puntosMapa.debugOff();
+    }
+}
 //--------------------------------------------------------------
 void testApp::btnCambiaK(float & v){
     /// seteamos un nuevo valor k para los muelles
@@ -260,18 +287,6 @@ void testApp::keyPressed(int key){
     switch (key) {
         case 'f':
             lanzaFicha();
-            break;
-            
-        case 's':
-            puntosMapa.savePositions(); 
-            break; 
-            
-        case 'd':
-            puntosMapa.debugOn(); 
-            break; 
-            
-        case 'o':
-            puntosMapa.debugOff(); 
             break;
             
         case 'g':

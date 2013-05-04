@@ -1,12 +1,12 @@
 <mesa>
 <!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
 <ficha>
-	<id>0</id>
+	<id>1</id>
 	<!-- fotografias -->
 	<images>
 		<image tipo="img">
 			<!-- playa -->
-			<url>1_PLAYA_DE_RIAZOR/11_Riazor.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/11-Riazor.jpg</url>
 			
 			<titulo_cast>Playa de Riazor</titulo_cast>
 			<titulo_gal>Praia de Riazor</titulo_gal>	
@@ -55,7 +55,7 @@
 		
 		<image tipo="img">
 			<!-- balneario -->
-			<url>1_PLAYA_DE_RIAZOR/12_Riazor_balneario.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/12-Riazor-balneario.jpg</url>
 			
 			<titulo_cast>Balneario de Riazor</titulo_cast>
 			<titulo_gal>Balneario de Riazor</titulo_gal>	
@@ -104,7 +104,7 @@
 		
 		<image tipo="img">
 			<!-- casetas -->
-			<url>1_PLAYA_DE_RIAZOR/13_Riazor_casetas.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/13-Riazor-casetas.jpg</url>
 						
 			<titulo_cast>La playa de Riazor</titulo_cast>
 			<titulo_gal>A praia de Riazor</titulo_gal>	
@@ -153,7 +153,7 @@
 		
 		<image tipo="img">
 			
-			<url>1_PLAYA_DE_RIAZOR/14_postales_0041_RIAZOR.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/14-postales-0041-RIAZOR.jpg</url>
 						
 			<titulo_cast>La playa de Riazor</titulo_cast>
 			<titulo_gal>A praia de Riazor</titulo_gal>	
@@ -201,7 +201,7 @@
 		
 		<image tipo="img">
 			
-			<url>1_PLAYA_DE_RIAZOR/15_postal_1011_MALECON.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/15-postal-1011-MALECON.jpg</url>
 						
 			<titulo_cast>El malecón de Riazor</titulo_cast>
 			<titulo_gal>O peitoril de Riazor</titulo_gal>	
@@ -253,7 +253,7 @@
 	<!-- cuadros -->
 	<cuadros>
 		<cuadro tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/16-camino-MPB_111.401_2008_10_07.jpg</url>
 									
 			<titulo_cast>Camino de Riazor</titulo_cast>
 			<titulo_gal>Camiño de Riazor</titulo_gal>	
@@ -300,7 +300,7 @@
 		</cuadro>
 		
 		<cuadro tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/17_barca_riazor.jpg</url>
+			<url>1_PLAYA_DE_RIAZOR/17-barca-riazor-MPB_111.400_2008_10_07.jpg</url>
 									
 			<titulo_cast>Barca</titulo_cast>
 			<titulo_gal>Barca</titulo_gal>	
@@ -349,28 +349,28 @@
 	
 	<!-- //////////////////// periodicos //////////////////// -->
 	<periodicos>
-		<!-- <periodico tipo="img">
-			<url></url>
+		<periodico tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/18-Cronica.jpg</url>
 			
 			<pie_cast>
-				<titular></titular>
-				<cuerpo></cuerpo>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia describiendo la playa de Riazor.&#10;&#10;La Voz de Galicia, 20-8-1893.</cuerpo>
 			</pie_cast>
 			
 			<pie_gal>
-				<titular></titular>
-				<cuerpo></cuerpo>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia describindo a praia de Riazor.&#10;&#10;La Voz de Galicia, 20-8-1893.</cuerpo>
 			</pie_gal>
 						
 			<pie_eng>
-				<titular></titular>
-				<cuerpo></cuerpo>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronicle published in La Voz de Galicia on the Riazor beach.&#10;&#10;La Voz de Galicia, 20-8-1893.</cuerpo>
 			</pie_eng>
 
 			
 			<pie_fr>
-				<titular></titular>
-				<cuerpo></cuerpo>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronique du journal La Voz de Galicia, décrivant la plage de Riazor.&#10;&#10;La Voz de Galicia, le 20 août 1893.</cuerpo>
 			</pie_fr>	
 			
 			<txt_cast>
@@ -393,7 +393,7 @@
 			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
 			</txt_fr>
 			
-		</periodico>-->
+		</periodico>
 	</periodicos>
 	
 </ficha>

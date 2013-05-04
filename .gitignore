@@ -3,3 +3,5 @@ build/*
 *.xcconfig
 *.xcodeproj
 *.plist
+*.jpg
+*.DS_Store

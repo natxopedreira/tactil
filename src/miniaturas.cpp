@@ -298,8 +298,6 @@ void miniaturas::creaGrid(ofColor _color){
                     sp->dist = ofDist(tabla[x][y]->getCenter().x, tabla[x][y]->getCenter().y,
                                       tabla[x+1][y]->getCenter().x, tabla[x+1][y]->getCenter().y);
                     
-                    //cout << "distancia muelle horisontal " <<  sp->dist << endl;
-                    
                     //sp->visible = true;
 					sp->horizontal = true;
                     springs.push_back(sp);
@@ -370,7 +368,6 @@ void miniaturas::creaGrid(ofColor _color){
     
     if(thumbs.size()>1){
         /// si hay mas de una sigue
-        //cout << "hay " << thumbs.size() << " miniaturas" << endl;
         
         //if(thumbs.size()>1){
         
@@ -588,7 +585,6 @@ void miniaturas::creaGrid(ofColor _color){
     
     if(thumbs.size()>1){
     /// si hay mas de una sigue
-         cout << "hay " << thumbs.size() << " miniaturas" << endl;
         
         //if(thumbs.size()>1){
            

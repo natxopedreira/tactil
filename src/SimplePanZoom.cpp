@@ -135,7 +135,6 @@ void SimplePanZoom::touchMoved(ofTouchEventArgs &touch){
 		// 1 finger >> pan
 		p = lastTouch[ touchIDOrder[0] ] - ofVec2f(touch.x,touch.y) ;
 		desiredOffset = desiredOffset - p * (maxZoom/zoom);
-        //cout << (maxZoom/zoom)<< endl;
         
 		applyConstrains();
         

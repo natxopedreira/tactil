@@ -1,0 +1,350 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>31</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>31_JARDINES_MENDEZ_NUNEZ/318-postales-0175-MENDEZ-NUNEZ.jpg</url>
+			
+			<titulo_cast>Jardines de Méndez Núñez</titulo_cast>
+			<titulo_gal>Xardíns de Méndez Núñez</titulo_gal>	
+			<titulo_eng>Méndez Núñez Gardens</titulo_eng>
+			<titulo_fr>Jardins de Méndez Núñez</titulo_fr>
+			
+			<pie_cast>
+				<titular>Jardines de Méndez Núñez</titular>
+				<cuerpo>Los jardines de Méndez Núñez y los Cantones, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Xardíns de Méndez Núñez</titular>
+				<cuerpo>Os xardíns de Méndez Núñez e os Cantóns, á fin do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Méndez Núñez Gardens</titular>
+				<cuerpo>The Méndez Núñez Gardens and the Cantones, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Jardins de Méndez Núñez</titular>
+				<cuerpo>Les jardins de Méndez Núñez et les rues Cantones, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/311-palomar.jpg</url>
+									
+			<titulo_cast>Palomar</titulo_cast>
+			<titulo_gal>Palomar</titulo_gal>	
+			<titulo_eng>Palomar</titulo_eng>
+			<titulo_fr>Palomar</titulo_fr>
+			
+			<pie_cast>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar. Cuadro que José Ruiz Blasco pintó durante su estancia en A Coruña.&#10;&#10;En la actualidad pertenece a una familia herculina. Foto: Elena Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar. Cadro que José Ruiz Blasco pintou durante a súa estadía na Coruña.&#10;&#10;Na actualidade pertence a unha familia coruñesa. Foto: Elena Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar (Dovecot). Painting done by José Ruiz Blasco during his time in A Coruña.&#10;&#10;Today, it belongs to a Coruñan family. Photograph by Elena Pardo.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar. Tableau peint par José Ruiz Blasco pendant son séjour à La Corogne.&#10;&#10;Actuellement, il fait partie de la collection privée d'une famille de La Corogne. Photographie : Elena Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/312-palomar-picasso.jpg</url>
+									
+			<titulo_cast>Palomar</titulo_cast>
+			<titulo_gal>Palomar</titulo_gal>	
+			<titulo_eng>Palomar</titulo_eng>
+			<titulo_fr>Palomar</titulo_fr>
+			
+			<pie_cast>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar (1894), de Pablo Ruiz Picasso. Claramente inspirado en el cuadro de su padre.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar (1894), de Pablo Ruiz Picasso. Claramente inspirado no cadro do seu pai.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar (Dovecot) (1894), by Pablo Ruiz Picasso. It was obviously inspired by his father’s painting.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Palomar</titular>
+				<cuerpo>Palomar (1894), de Pablo Ruiz Picasso. Clairement inspiré du tableau de son père.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/313-MPB_110.jpg</url>
+									
+			<titulo_cast>Dos palomas en un palomar</titulo_cast>
+			<titulo_gal>Dos palomas en un palomar</titulo_gal>	
+			<titulo_eng>Dos palomas en un palomar</titulo_eng>
+			<titulo_fr>Dos palomas en un palomar</titulo_fr>
+			
+			<pie_cast>
+				<titular>Dos palomas en un palomar</titular>
+				<cuerpo>Dos palomas en un palomar (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Dos palomas en un palomar</titular>
+				<cuerpo>Dos palomas en un palomar (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Dos palomas en un palomar</titular>
+				<cuerpo>Dos palomas en un palomar (Two Doves in a Dovecot) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Dos palomas en un palomar</titular>
+				<cuerpo>Dos palomas en un palomar (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/315-critica-marzo94.jpg</url>
+									
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Dura crítica de La Voz de Galicia a Ruiz Blasco.&#10;&#10;La Voz de Galicia, 9-3-94.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Dura crítica de La Voz de Galicia a Ruiz Blasco.&#10;&#10;La Voz de Galicia, 9-3-94.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Negative review of Ruiz Blasco in La Voz de Galicia.&#10;&#10;La Voz de Galicia, 9-3-94.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Critique négative du journal La Voz de Galicia de Ruiz Blasco.&#10;&#10;La Voz de Galicia, le 9 mars 94.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/316-critica-junio-94.jpg</url>
+									
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Buena crítica de La Voz de Galicia a Ruiz Blasco.&#10;&#10;La Voz de Galicia, 8-6-94</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Boa crítica de La Voz de Galicia a Ruiz Blasco.&#10;&#10;La Voz de Galicia, 8-6-94.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Positive review of Ruiz Blasco in La Voz de Galicia.&#10;&#10;La Voz de Galicia, 8-6-94.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Critique positive du journal La Voz de Galicia de Ruiz Blasco.&#10;&#10;La Voz de Galicia, le 8 juin 94.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>31_JARDINES_MENDEZ_NUNEZ/317-critica-25-octubre-94.jpg</url>
+									
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Durísima crítica de La Voz de Galicia a Ruiz Blasco, publicada el día en que su hijo Pablo cumplía 13 años.&#10;&#10;La Voz de Galicia, 25-10-94</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Durísima crítica de La Voz de Galicia a Ruiz Blasco, publicada o día en que o seu fillo Pablo cumpría 13 años.&#10;&#10;La Voz de Galicia, 25-10-94.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Very negative review of Ruiz Blasco in La Voz de Galicia, published on the same day that Pablo, his son, turned 13.&#10;&#10;La Voz de Galicia, 25-10-94.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Critique très négative du journal La Voz de Galicia de Ruiz Blasco, publiée le jour du 13e anniversaire de son fils Pablo.&#10;&#10;La Voz de Galicia, le 25 octobre 94.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Por Méndez Núñez paseaban a menudo José Ruiz Blasco y familia. Precisamente, durante un paseo del padre de Picasso por los jardines ocurrió un hecho fundamental. A la vuelta de la caminata, don José observó uno de sus cuadros de palomas y comprobó que su hijo le había terminado con gran precisión las patitas. En esta época, a don José ya le fallaba la vista. El padre decidió entonces ceder a Pablo su paleta y sus pinceles, cual alternativa torera. Una familia coruñesa conserva hoy un cuadro de Ruiz Blasco titulado Palomar, y se dice que las patitas las pintó Pablo, que hizo su propia versión de esa obra.&#10;&#10;Don José llegó a A Coruña con la idea de alcanzar el reconocimiento artístico que no tenía en Málaga. De hecho, consta su intención de exponer al poco de su llegada, en noviembre de 1891, pero no consta que esta muestra se realizase. Sí expuso a posteriori. Primero en marzo de 1894, cuando recibe una crítica mala en La Voz de Galicia. En junio de ese año expone una marina que resulta elogiada en ese periódico. Y el 25 de octubre de ese año, día del cumpleaños de su hijo Pablo, vuelve a sufrir una crítica negativa.
+			</txt_cast>
+			
+			<txt_gal>
+			Por Méndez Núñez paseaban a miúdo José Ruiz Blasco e familia. Precisamente, durante un paseo do pai de Picasso polos xardíns ocorreu un feito fundamental. Á volta da camiñada, don José observou un dos seus cadros de pombas e comprobou que o seu fillo lle terminara con gran precisión as patiñas. Nesta época, a don José xa lle fallaba a vista. O pai decidiu entón ceder a Pablo a súa paleta e os seus pinceis, cal alternativa toureira. Unha familia coruñesa conserva hoxe un cadro de Ruiz Blasco titulado Pombal, e dise que as patiñas pintounas Pablo, que fixo a súa propia versión desa obra.&#10;&#10;Don José chegou á Coruña coa idea de alcanzar o recoñecemento artístico que non tiña en Málaga. De feito, consta a súa intención de expor ao pouco da súa chegada, en novembro de 1891, pero non consta que esta mostra se realizase. Si expuxo a posteriori. Primeiro en marzo de 1894, cando recibe unha crítica mala en La Voz de Galicia. En xuño dese ano expón unha mariña que resulta eloxiada nese xornal. E o 25 de outubro dese ano, día dos aniversarios do seu fillo Pablo, volve sufrir unha crítica negativa.
+			</txt_gal>
+						
+			<txt_eng>
+			José Ruiz Blasco and his family used to go for a stroll in Méndez Núñez. It was precisely after one of those walks that a major event happened. When he was back, don José checked one of his paintings of doves only to discover that his son had very accurately completed the bird’s tiny legs. By that time, he was starting to lose his sight. The father then resolved to hand Pablo his palette and paintbrushes, just like a veteran bullfighter would bless his young pupil as a fully-fledged matador. Today, one Coruñan family keeps a painting by Ruiz Blasco which is entitled Palomar (Dovecot), thought to be the one where Pablo painted the legs; he would later paint his own full version of this work.&#10;&#10;José arrived in A Coruña seeking for the artistic recognition that he had been denied back in Malaga. In fact, we know that he intended to host an exhibition soon after his arrival, in November 1891, although its celebration is not confirmed. He did display works afterwards. First, in March 1894, when he got a negative review by La Voz de Galicia. In June that year, he exhibited a seascape praised by the newspaper. Finally, on October 25th, on Pablo's birthday, he got another negative review.
+			</txt_eng>
+						
+			<txt_fr>
+			José Ruiz Blasco et sa famille promenaient souvent dans les jardins de Méndez Núñez. Un jour de ballade advint un événement fondamental. En rentrant de la promenade, Don José observa l'un de ses tableaux de colombes et remarqua que son fils avait terminé avec une énorme précision les pattes. À l'époque, la vision manquait à Don José. Le père décida alors de céder à Pablo sa palette et ses pinceaux, comme s'il s'agissait d'une alternative entre matadores. Une famille de La Corogne garde encore le tableau de Ruiz Blasco, intitulé Pigeonnier, on croit que les pattes furent peintes par Picasso, qui réalisa à son tour une version de cette œuvre.&#10;&#10;Don José arriva à La Corogne avec l'idée d'atteindre la reconnaissance artistique dont il manquait à Malaga. En fait, il a été constaté son intention de faire une exposition peu après son arrivée, en novembre 1891, mais il n'existe pas de constatation de sa réalisation. Cependant, son œuvre fut exposée a posteriori. D'abord, en mars 1894, quand il reçut une critique négative dans le journal La Voz de Galicia. En juin, il expose une marine, vantée par le journal. Et le 25 octobre du même an, jour de l'anniversaire de son fils Pablo, il reçoit encore une autre critique négative.
+			</txt_fr>
+						
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,834 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>11</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>11_SU_CASA/111-Payogomezfachada.jpg</url>
+			
+			<titulo_cast>La vivienda de los Ruiz Picasso</titulo_cast>
+			<titulo_gal>A vivenda dos Ruiz Picasso</titulo_gal>	
+			<titulo_eng>The Ruiz Picassos' home</titulo_eng>
+			<titulo_fr>La maison des Ruiz Picasso</titulo_fr>
+			
+			<pie_cast>
+				<titular>La vivienda de los Ruiz Picasso</titular>
+				<cuerpo>Plano original de fachada de la casa de Payo Gómez 14.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A vivenda dos Ruiz Picasso</titular>
+				<cuerpo>Plano orixinal da fachada da casa de Payo Gómez 14.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Ruiz Picassos' home</titular>
+				<cuerpo>Original plan of the house façade at 14 Payo Gómez.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La maison des Ruiz Picasso</titular>
+				<cuerpo>Plan original de la façade de la maison au 14 rue Payo Gómez.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>11_SU_CASA/112-Payoplanta.jpg</url>
+			
+			<titulo_cast>La vivienda de los Ruiz Picasso</titulo_cast>
+			<titulo_gal>A vivenda dos Ruiz Picasso</titulo_gal>	
+			<titulo_eng>The Ruiz Picassos' home</titulo_eng>
+			<titulo_fr>La maison des Ruiz Picasso</titulo_fr>
+			
+			<pie_cast>
+				<titular>La vivienda de los Ruiz Picasso</titular>
+				<cuerpo>Planos original de distribución de los pisos de la casa de Payo Gómez 14.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A vivenda dos Ruiz Picasso</titular>
+				<cuerpo>Plano orixinal de distribución dos andares da casa de Payo Gómez 14.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Ruiz Picassos' home</titular>
+				<cuerpo>Original plan with the layout of flats at 14 Payo Gómez.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La maison des Ruiz Picasso</titular>
+				<cuerpo>Plan original de la distribution des étages de la maison au 14 rue Payo Gómez.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>11_SU_CASA/113-la-casa.jpg</url>
+			
+			<titulo_cast>La vivienda de los Ruiz Picasso</titulo_cast>
+			<titulo_gal>A vivenda dos Ruiz Picasso</titulo_gal>	
+			<titulo_eng>The Ruiz Picassos' home</titulo_eng>
+			<titulo_fr>La maison des Ruiz Picasso</titulo_fr>
+			
+			<pie_cast>
+				<titular>La vivienda de los Ruiz Picasso</titular>
+				<cuerpo>Vista de la casa de Payo Gómez, 14, en 1891-1892.&#10;&#10;Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A vivenda dos Ruiz Picasso</titular>
+				<cuerpo>Vista da casa de Payo Gómez, 14, en 1891-1892.&#10;&#10;Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Ruiz Picassos' home</titular>
+				<cuerpo>The house at 14 Payo Gómez, circa 1891-1892.&#10;&#10;R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La maison des Ruiz Picasso</titular>
+				<cuerpo>Vue de la maison au 14 rue Payo Gómez, en 1891-1892.&#10;&#10;Collection R. Ventureira/E. Pardo</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>11_SU_CASA/114-padron.jpg</url>
+			
+			<titulo_cast>Padrón de A Coruña</titulo_cast>
+			<titulo_gal>Padrón da Coruña</titulo_gal>	
+			<titulo_eng>A Coruña register</titulo_eng>
+			<titulo_fr>La maison des Ruiz Picasso</titulo_fr>
+			
+			<pie_cast>
+				<titular>Padrón de A Coruña</titular>
+				<cuerpo>Padrón de A Coruña en 1894. En Payo Gómez, 14, solo aparecen los padres de Picasso:&#10;&#10;se trata de un error en el registro, pues también vivían sus hijos y la criada.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Padrón da Coruña</titular>
+				<cuerpo>Padrón da Coruña en 1894. En Payo Gómez, 14, só aparecen os pais de Picasso:&#10;&#10;trátase dun erro no rexistro, pois tamén vivían os seus fillos e a criada.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>A Coruña register</titular>
+				<cuerpo>A Coruña register, 1894. Only Picasso’s parents were registered at 14 Payo Gómez&#10;&#10;This is a mistake, since their kids and the servant also lived there.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Recensement citoyen</titular>
+				<cuerpo>Recensement citoyen de La Corogne de 1894.&#10;&#10;Il s'agit d'une erreur, puisqu'au 14 rue Payo Gómez habitaient les parents mais aussi les fils et la bonne.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+			
+		</image>
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>11_SU_CASA/115-auto-MPB_111.jpg</url>
+			
+			<titulo_cast>Autorretrato</titulo_cast>
+			<titulo_gal>Autorretrato</titulo_gal>	
+			<titulo_eng>Self-portrait</titulo_eng>
+			<titulo_fr>Autoportrait</titulo_fr>
+			
+			<pie_cast>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años (1894), de Pablo Ruiz Picasso.&#10;&#10;El primer autorretrato conocido del artista.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años (1894), de Pablo Ruiz Picasso.&#10;&#10;O primeiro autorretrato coñecido do artista.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Self-portrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años (Self-portrait of Picasso Aged 12 or 13) (1894), by Pablo Ruiz Picasso.&#10;&#10;The first known self-portrait of the artist.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Autoportrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años (1894), de Pablo Ruiz Picasso.&#10;&#10;Le premier autoportrait connu de l'artiste.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/116-auto2-MPB_111.jpg</url>
+			
+			<titulo_cast>Autorretrato</titulo_cast>
+			<titulo_gal>Autorretrato</titulo_gal>	
+			<titulo_eng>Self-portrait</titulo_eng>
+			<titulo_fr>Autoportrait</titulo_fr>
+			
+			<pie_cast>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años tocado con una boina (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años tocado con una boina (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Self-portrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años tocado con una boina&#10;&#10;(Self-portrait of Picasso aged 12 or 13 Wearing a Beret) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Autoportrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años tocado con una boina (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/117-auto3-MPB_111.jpg</url>
+			
+			<titulo_cast>Autorretrato</titulo_cast>
+			<titulo_gal>Autorretrato</titulo_gal>	
+			<titulo_eng>Self-portrait</titulo_eng>
+			<titulo_fr>Autoportrait</titulo_fr>
+			
+			<pie_cast>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años vestido de marinero (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Autorretrato</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años vestido de marinero (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Self-portrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años vestido de marinero&#10;&#10;(Self-portrait of Picasso Aged 12 or 13, Dressed Up as a Sailor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Autoportrait</titular>
+				<cuerpo>Autorretrato de Picasso a los 12 o 13 años vestido de marinero (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/118-Dona-Maria.jpg</url>
+			
+			<titulo_cast>Madre del artista</titulo_cast>
+			<titulo_gal>Nai do artista</titulo_gal>	
+			<titulo_eng>Artist’s Mother</titulo_eng>
+			<titulo_fr>Madre del artista</titulo_fr>
+			
+			<pie_cast>
+				<titular>Madre del artista</titular>
+				<cuerpo>Busto de la madre del artista (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Nai do artista</titular>
+				<cuerpo>Busto de la madre del artista (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Artist’s Mother</titular>
+				<cuerpo>Busto de la madre del artista&#10;&#10;(Bust of the Artist’s Mother) (1894-1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Madre del artista</titular>
+				<cuerpo>Busto de la madre del artista (1894-1895), de Pablo Ruiz Picasso. Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/119-Don-Jose.jpg</url>
+			
+			<titulo_cast>Padre del artista</titulo_cast>
+			<titulo_gal>Pai do artista</titulo_gal>	
+			<titulo_eng>Artist’s Father</titulo_eng>
+			<titulo_fr>Padre del artista</titulo_fr>
+			
+			<pie_cast>
+				<titular>Padre del artista</titular>
+				<cuerpo>Retrato, de medio cuerpo, del padre del artista (1-1-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pai do artista</titular>
+				<cuerpo>Retrato, de medio cuerpo, del padre del artista (1-1-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Artist’s Father</titular>
+				<cuerpo>Retrato, de medio cuerpo, del padre del artista (Half-length Portrait of the Artist’s Father) (1-1-1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Padre del artista</titular>
+				<cuerpo>Retrato, de medio cuerpo, del padre del artista (1-1-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1110-Lola1.jpg</url>
+			
+			<titulo_cast>Lola</titulo_cast>
+			<titulo_gal>Lola</titulo_gal>	
+			<titulo_eng>Lola</titulo_eng>
+			<titulo_fr>Lola</titulo_fr>
+			
+			<pie_cast>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, bordando (12-10-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, bordando (12-10-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, bordando&#10;&#10;(Lola Sitting Down and Embroidering) (12-10-1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, bordando (12-10-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1111-Lola2.jpg</url>
+			
+			<titulo_cast>Lola</titulo_cast>
+			<titulo_gal>Lola</titulo_gal>	
+			<titulo_eng>Lola</titulo_eng>
+			<titulo_fr>Lola</titulo_fr>
+			
+			<pie_cast>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, con una muñeca (1985), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, con una muñeca (1985), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, con una muñeca (Lola Sitting Down with a Doll) (1985), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Lola</titular>
+				<cuerpo>Lola, sentada, con una muñeca (1985), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1112-Lolaconmantilla.jpg</url>
+			
+			<titulo_cast>Lola</titulo_cast>
+			<titulo_gal>Lola</titulo_gal>	
+			<titulo_eng>Lola</titulo_eng>
+			<titulo_fr>Lola</titulo_fr>
+			
+			<pie_cast>
+				<titular>Lola</titular>
+				<cuerpo>Retrato de Lola con mantilla (1894), de Pablo Ruiz Picasso.&#10;&#10;Museo Picasso de Málaga (Bernard Ruiz Picasso).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Lola</titular>
+				<cuerpo>Retrato de Lola con mantilla (1894), de Pablo Ruiz Picasso.&#10;&#10;Museo Picasso de Málaga (Bernard Ruiz Picasso).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Lola</titular>
+				<cuerpo>Retrato de Lola con mantilla&#10;&#10;(Portrait of Lola Wearing a Mantilla (1894), by Pablo Ruiz Picasso.&#10;&#10;Museum Picasso de Málaga (Bernard Ruiz Picasso).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Lola</titular>
+				<cuerpo>Retrato de Lola con mantilla (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Málaga (Bernard Ruiz Picasso).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1113-MPB_111.jpg</url>
+			
+			<titulo_cast>Conchita</titulo_cast>
+			<titulo_gal>Conchita</titulo_gal>	
+			<titulo_eng>Conchita</titulo_eng>
+			<titulo_fr>Conchita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (Portrait of Conchita) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1114-Conchita2.jpg</url>
+			
+			<titulo_cast>Conchita</titulo_cast>
+			<titulo_gal>Conchita</titulo_gal>	
+			<titulo_eng>Conchita</titulo_eng>
+			<titulo_fr>Conchita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (Portrait of Conchita) (1894-1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1115-Conchita3.jpg</url>
+			
+			<titulo_cast>Conchita</titulo_cast>
+			<titulo_gal>Conchita</titulo_gal>	
+			<titulo_eng>Conchita</titulo_eng>
+			<titulo_fr>Conchita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (Portrait of Conchita) (1894-1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>11_SU_CASA/1116-Clipper.jpg</url>
+			
+			<titulo_cast>Clipper</titulo_cast>
+			<titulo_gal>Clipper</titulo_gal>	
+			<titulo_eng>Clipper</titulo_eng>
+			<titulo_fr>Clipper</titulo_fr>
+			
+			<pie_cast>
+				<titular>Clipper</titular>
+				<cuerpo>Clipper (1895), de Pablo Ruiz Picasso. El perro de Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Clipper</titular>
+				<cuerpo>Clipper (1895), de Pablo Ruiz Picasso. El perro de Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Clipper</titular>
+				<cuerpo>Clipper (1895), by Pablo Ruiz Picasso. It was Picasso’s dog.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Clipper</titular>
+				<cuerpo>Clipper (1895), de Pablo Ruiz Picasso. Le chien de Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando Picasso llegó a A Coruña en 1891 solo había tres casas construidas en la calle Payo Gómez. El niño y su familia se instalaron en el número 14 de esa vía.&#10;&#10;La vivienda de los Ruiz Picasso contaba con diez estancias, repartidas a ambos lados y al final de un largo pasillo. Era una típica casa coruñesa, con galería de madera por las fachadas trasera y delantera. Pablo ocupó la habitación más cercana a un gran armario, que iba del suelo al techo, situado en el pasillo. La vivienda se conserva hoy, armario incluido, en muy buen estado. Según el padrón de habitantes de 1894, de los tres pisos de la finca el suyo era el único que estaba ocupado. En el bajo había un almacén.&#10;&#10;Picasso retrata la vida casera en Payo Gómez. Su padre, recostado. Su madre, leyendo el periódico. Lola, bordando. También pinta a Clipper, su perro, cuyo nombre tiene origen en los veleros así llamados, abundantes en A Coruña de la época. Y se dibuja a él mismo, en los que son sus tres primeros autorretratos conocidos.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando Picasso chegou á Coruña en 1891 só había tres casas construídas na rúa Payo Gómez. O neno e a súa familia instaláronse no número 14 desa vía.&#10;&#10;A vivenda dos Ruiz Picasso contaba con dez estancias, repartidas a ambos os dous lados e ao final dun longo corredor. Era unha típica casa coruñesa, con galería de madeira polas fachadas traseira e dianteira. Pablo ocupou a habitación máis próxima a un gran armario, que ía do chan ao teito, situado no corredor. A vivenda consérvase hoxe, armario incluído, en moi bo estado. Segundo o padrón de habitantes de 1894, dos tres pisos da leira o seu era o único que estaba ocupado. No baixo había un almacén.&#10;&#10;Picasso retrata a vida caseira en Payo Gómez. O seu pai, recostado. A súa nai, lendo o xornal. Lola, bordando. Tamén pinta a Clipper, o seu can, que colle o nome dos veleiros así chamados, abundantes na Coruña da época. E debúxase a el mesmo, nos que son os seu tres primeiros autorretratos coñecidos.
+			</txt_gal>
+						
+			<txt_eng>
+			When Picasso arrived in A Coruña in 1891, only three houses existed in Payo Gómez Street. The kid and his family settled at number 14.&#10;&#10;The Ruiz Picassos' home was made up by ten rooms arranged on both sides and at the end of a long corridor. It was a typically Coruñan flat, with a wooden gallery on both the main and the back façades. Pablo took up a room near a big wardrobe in the corridor which covered the whole wall from the floor to the ceiling. The flat is currently preserved, including the wardrobe, in a good condition. According to the 1894 register, that was the only flat in use at the time. The ground floor hosted a store.&#10;&#10;Picasso depicted life at home in Payo Gómez: his father, lying down; his mother, reading the paper; Lola, embroidering. He also painted his dog, Clipper, named after a type of sailing ships which could regularly be spotted in A Coruña at the time. And he also drew himself, thus creating his three first known self-portraits.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque Picasso arriva à La Corogne, en 1891, il n'y avait que trois maisons rue Payo Gómez. L'enfant et sa famille s'y installèrent au 14.&#10;&#10;La maison des Ruiz Picasso comptait dix pièces, distribuées à droite, à gauche et au bout d'un long couloir. Il s'agissait d'une maison de style traditionnel de La Corogne, avec une galerie en bois sur la façade principale et une autre, sur l'arrière. Le petit Pablo occupa la chambre la plus proche d'une grande armoire, allant du sol au plafond et située dans le couloir. La demeure se conserve encore, l'armoire aussi, en bon état.&#10;&#10;D'après le recensement municipal de 1894, l'immeuble comportait trois étages, dont celui des Picasso était le seul à être habité. Au rez-de-chaussée, il y avait un entrepôt.
+Picasso dépeint la vie familiale rue Payo Gómez. Son père, appuyé sur son dos. Sa mère, en train de lire le journal. Lola brodant. Il peint aussi Clipper, son chien, dont le prénom est issu des voiliers ainsi baptisés, étant à l'époque nombreux à La Corogne. Picasso se peint soi-même. Ce sont ses trois premiers autoportraits connus.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,608 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>6</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>6_PLAZA_DE_TOROS/61-Postal-0011-PLAZA-TOROS.jpg</url>
+			
+			<titulo_cast>Antigua plaza de toros</titulo_cast>
+			<titulo_gal>Antiga praza de touros</titulo_gal>	
+			<titulo_eng>Old bullring</titulo_eng>
+			<titulo_fr>Ancienne place de taureaux</titulo_fr>
+			
+			<pie_cast>
+				<titular>Antigua plaza de toros</titular>
+				<cuerpo>Antigua plaza de toros, a finales del XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Antiga praza de touros</titular>
+				<cuerpo>Antiga praza de touros, ao remate do XIX ou comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Old bullring</titular>
+				<cuerpo>Old bullring, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ancienne place de taureaux</titular>
+				<cuerpo>Ancienne place de taureaux à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>6_PLAZA_DE_TOROS/68-minuto2.jpg</url>
+			
+			<titulo_cast>Antigua plaza de toros</titulo_cast>
+			<titulo_gal>Antiga praza de touros</titulo_gal>	
+			<titulo_eng>Old bullring</titulo_eng>
+			<titulo_fr>Ancienne place de taureaux</titulo_fr>
+			
+			<pie_cast>
+				<titular>Antigua plaza de toros</titular>
+				<cuerpo>Enrique Vargas, El Minuto, en una fotografía publicada en 1894.&#10;&#10;Revista ilustrada Pan y Toros, 30-11-1896.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Antiga praza de touros</titular>
+				<cuerpo>Enrique Vargas, El Minuto, nunha fotografía publicada en 1894.&#10;&#10;Revista ilustrada Pan y Toros, 30-11-1896.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Old bullring</titular>
+				<cuerpo>Enrique Vargas, El Minuto, in a photograph published in 1894.&#10;&#10;Revista ilustrada Pan y Toros (Bread and Bulls Illustrated Magazine), 30-11-1896.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ancienne place de taureaux</titular>
+				<cuerpo>Enrique Vargas, El Minuto, photographie publiée en 1894.&#10;&#10;Revista ilustrada Pan y Toros, le 30 novembre 1896.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/62-MPB_110.869_2010_03_16.jpg</url>
+			
+			<titulo_cast>La corrida y seis estudios de palomas</titulo_cast>
+			<titulo_gal>La corrida y seis estudios de palomas</titulo_gal>	
+			<titulo_eng>La corrida y seis estudios de palomas</titulo_eng>
+			<titulo_fr>La corrida y seis estudios de palomas</titulo_fr>
+			
+			<pie_cast>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>La corrida y seis estudios de palomas (1892), de Pablo Ruiz Picasso.&#10;&#10;Este dibujo se corresponde con una medio corrida celebrada el 28 de agosto de 1892, en la que lidió El Toledano, que sufre una voltereta en el segundo de la tarde, tal y como refleja la obra de Pablo.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>La corrida y seis estudios de palomas (1892), de Pablo Ruiz Picasso.&#10;&#10;Este debuxo correspóndese cunha corrida curta celebrada o 28 de agosto do 1892, na que lidiou El Toledano, que sofre unha reviravolta no segundo da tarde, tal e como reflicte a obra de Pablo.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>La corrida y seis estudios de palomas (The Bullfight and Six Studies of Doves) (1892), by Pablo Ruiz Picasso.&#10;&#10;This drawing was inspired by the "half bullfight" held on the 28th of August, 1892, featuring El Toledano, who was gored by the second bull, as Pablo’s work reflected.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>La corrida y seis estudios de palomas (1892), de Pablo Ruiz Picasso.&#10;&#10;Ce dessin correspond à une démi-corrida, ayant eu lieu le 28 août 1892, et dont le matador El Toledano se fait voltiger par son deuxième taureau, comme le représente l'œuvre de Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/63-MPB_110.jpg</url>
+			
+			<titulo_cast>La corrida y seis estudios de palomas</titulo_cast>
+			<titulo_gal>La corrida y seis estudios de palomas</titulo_gal>	
+			<titulo_eng>La corrida y seis estudios de palomas</titulo_eng>
+			<titulo_fr>La corrida y seis estudios de palomas</titulo_fr>
+			
+			<pie_cast>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>El último toro (1892), de Pablo Ruiz Picasso. Esta pieza también la realizó en el festejo del 28 de agosto de 1892: el segundo de la tarde se puso a correr durante la lidia, y en este dibujo se ve a un subalterno corriendo delante del astado, como para colocarlo para que le pongan las banderillas.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>El último toro (1892), de Pablo Ruiz Picasso. Esta peza tamén a realizou na feira do 28 de agosto de 1892: o segundo da tarde botou a correr durante a lidia, e neste debuxo vese un subalterno correndo diante do astado, como para axeitalo para que lle poñan as banderillas.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>El último toro (The Last Bull) (1892), by Pablo Ruiz Picasso. This work was also done following the event held on the 28th of August, 1892: the second bull started running around during the fight; the drawing depicts a member of the matador’s team running in front of the animal, as if trying to place it for the banderillas.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La corrida y seis estudios de palomas</titular>
+				<cuerpo>El último toro (1892), de Pablo Ruiz Picasso. Dessin réalisé aussi lors de la corrida du 28 août 1892 : le deuxième taureau se mit à courir pendant le combat et Picasso peint le torero devant l'animal aidant, en quelque sorte, à placer le taureau, avant que les banderilles ne soient posées.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/64-Escena-taurina.jpg</url>
+			
+			<titulo_cast>Escena taurina</titulo_cast>
+			<titulo_gal>Escena taurina</titulo_gal>	
+			<titulo_eng>Escena taurina</titulo_eng>
+			<titulo_fr>Escena taurina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Escena taurina</titular>
+				<cuerpo>Escena taurina (1892), de Pablo Ruiz Picasso. En este dibujo vemos a un astado con media estocada (como el tercero que lidió El Toledano) y que está echando sangre por la boca; es el reverso de La corrida y seis estudios de palomas, lo que impulsa a creer que lo realizó el mismo día. Este fue el último toro de la tarde, lo que se corresponde con el título del dibujo, que puso a mano el mismo Picassso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Escena taurina</titular>
+				<cuerpo>Escena taurina (1892), de Pablo Ruiz Picasso.  No debuxo vemos un astado con media estocada (como o terceiro que lidiou El Toledano, e que está botando sangue pola boca; no reverso de La corrida y seis estudios de palomas, o que leva a crer que o realizou o meso día. Este foi o último touro da tarde, o que corresponde co título do debuxo, que escribiu a man o mesmo Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Escena taurina</titular>
+				<cuerpo>Escena taurina (Bullfighting Scene) (1892), by Pablo Ruiz Picasso. This drawing shows a bull with a thrust half way in (just like what happened to the third bull fought by El Toledano) and with its mouth bleeding; it was drawn on the reverse side of La corrida y seis estudios de palomas (The Bullfight and Six Studies of Doves), what leads to thinking that both were done on the same day. This was the event’s last bull, which matches the drawing title, handwritten by Picasso himself.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Escena taurina</titular>
+				<cuerpo>Escena taurina (1892), de Pablo Ruiz Picasso. Ce dessin montre la démi-estocade donnée à un taureau (similaire au troisième taureau combattu par El Toledano), le sang sortant alors par la bouche ; dessin sur le dos de La corrida y seis estudios de palomas, ce qui fait penser que tous les deux dessins ont été faits le même jour. Celui-ci, dernier taureau de l'après-midi, correspond avec le titre du dessin, écrit à la main par Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/66-Corrida.jpg</url>
+			
+			<titulo_cast>Corrida</titulo_cast>
+			<titulo_gal>Corrida</titulo_gal>	
+			<titulo_eng>Corrida</titulo_eng>
+			<titulo_fr>Corrida</titulo_fr>
+			
+			<pie_cast>
+				<titular>Corrida</titular>
+				<cuerpo>Corrida (2-9-1894), de Pablo Ruiz Picasso. Este dibujo lo data el propio Picasso, por lo que no hay duda que corresponde la corrida del 2 de septiembre de 1894, en la que el matador es El Minuto. El torero, muleta en mano, espera en solitario en el ruedo la muerte del astado.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Corrida</titular>
+				<cuerpo>Corrida (2-9-1894), de Pablo Ruiz Picasso. Este debuxo dátao o propio Picasso, polo que non hai dúbida de que corresponde á corrida do 2 de setembro do 1894, na que o matador é El Minuto. O toureiro, muleta na man, espera en solitario a morte do astado.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Corrida</titular>
+				<cuerpo>Corrida (Bullfight) (2-9-1894), by Pablo Ruiz Picasso. This drawing was dated by Picasso himself, hence there is no doubt that it relates to the bullfight held on the 2nd of September, 1894, with El Minuto as the event’s matador. The bullfighter holds the red cape while waiting alone for the bull to die on the clay.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Corrida</titular>
+				<cuerpo>Corrida (2-9-1894), de Pablo Ruiz Picasso. Ce dessin fut daté par Picasso, lors de la corrida du 2 septembre 1894 étant le torero, El Minuto. Le matador, la muleta dans la main, attend tout seul dans l'arène la mort du taureau.&#10;&#10;Musée Picasso de Paris. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/67-MPB_110.jpg</url>
+			
+			<titulo_cast>Corrida</titulo_cast>
+			<titulo_gal>Corrida</titulo_gal>	
+			<titulo_eng>Corrida</titulo_eng>
+			<titulo_fr>Corrida</titulo_fr>
+			
+			<pie_cast>
+				<titular>Corrida</titular>
+				<cuerpo>El brindis y otros croquis (1894), de Pablo Ruiz Picasso. Museu Picasso de Barcelona. El Museo Picasso de Barcelona fecha este dibujo en 1895, pero el artista no lo data. En la crónica publicada por La Voz de Galicia de la corrida del 2 de septiembre de 1894 se constata que el torero realizó un "speech". El niño escribe debajo del torero "El brindis del m...". Después de la "eme", la hoja se corta. Creemos que que el artista quiso captar ese "speech" a la presidencia al que se refiere el periódico. Pensamos que Picasso escribió "El brindis del minuto" antes de cortar el dibujo justo después de la "eme". Si aceptamos esta suposición, el dibujo pasaría a estar datado en 1894. Y tiene más sentido que datarlo en 1895, pues durante este año Picasso no pudo asistir en A Coruña a ninguna corrida.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Corrida</titular>
+				<cuerpo>El brindis y otros croquis (1894), de Pablo Ruiz Picasso. Museu Picasso de Barcelona. O Museo Picasso de Barcelona data este debuxo en 1895, pero o artista non o apunta. Na crónica publicada por  La Voz de Galicia da corrida do 2 de setembro do 1894 constátase que o toureiro fixo un "speech". O neno escribe debaixo do toureiro: "El brindis del m…". Despois do "m" a folla cúrtase. Cremos que o artista quixo captar ese "speech" á presidencia, á que se refire o xornal. Pensamos que Picasso escribiu "El brindis del minuto", antes de curtar o debuxo mesmo despois do "m". Se aceptamos esta suposición, o debuxo ha pasar a estar datado no 1894. E ten máis tino que datalo no 1895, pois neste ano Picasso non puido asistir na Coruña a ningunha corrida.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Corrida</titular>
+				<cuerpo>El brindis y otros croquis (The Bull Offering and Other Drafts) (1894), by Pablo Ruiz Picasso. Museu Picasso de Barcelona. The Museo Picasso of Barcelona has dated this drawing in 1895, but the artist left no indication of date. The chronicle published in La Voz de Galicia recounting the bullfight held on the 2nd of September, 1894, confirms that there was a speech by the matador. Under the figure of the bullfighter, the young artist wrote "The bull offering by the m...". Nothing can be read after the M, as the paper is torn. We believe that the painter intended to reflect the matador’s speech to the president’s stand referred to by the newspaper. Picasso wrote, we think, "The bull offering by the minuto" just before tearing the drawing right after the M. Following this theory, the drawing would then have to be dated in 1894. This makes more sense than dating it in 1895, since Picasso was not able to attend any bullfight that year in A Coruña.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Corrida</titular>
+				<cuerpo>El brindis y otros croquis (1894), de Pablo Ruiz Picasso. Museu Picasso de Barcelone. Le Musée Picasso de Barcelone date ce dessin de 1895, mais l'artiste ne l'avait pas fait. D'après la chronique du journal La Voz de Galicia de la corrida du 2 septembre 1894, le torero fit un " speech ". Le petit artiste écrit au-dessous du torero " El brindis del m... ". Suite à la lettre " m ", la feuille est déchirée. Nous pensons que l'artiste voulut reproduire ce " speech " dirigé au président et dont la chronique parle. Picasso aurait écrit " El brindis del minuto " avant de ne couper le dessin, juste après la " m ". Si cette hypothèse était correcte, le dessin daterait de 1894. Une supposition sans doute beaucoup plus plausible, étant donné qu'en 1895 Picasso n'assista à aucune corrida à La Corogne.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/73-Corrida-de-toros.jpg</url>
+			
+			<titulo_cast>Corrida de toros</titulo_cast>
+			<titulo_gal>Corrida de toros</titulo_gal>	
+			<titulo_eng>Corrida de toros</titulo_eng>
+			<titulo_fr>Corrida de toros</titulo_fr>
+			
+			<pie_cast>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso. Aunque realizado en A Coruña, este dibujo tiene el detalle de que en la puerta de salida de corrales se puede leer "Plaza de toros de Málaga".&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso. Aínda que realizado na Coruña, este debuxo ten o detalle de que na porta de saída dos currais pódese ler: "Plaza de toros de Málaga".&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (Bullfight) (1892), by Pablo Ruiz Picasso. Even if it was drawn in A Coruña, a closer look into this work reveals the detail of a sign over the corral gate which reads "Malaga bullring".&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso. Bien que le dessin ait été réalisé à La Corogne, sur la porte de sortie des corrales, il écrit " Plaza de toros de Málaga ".&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>6_PLAZA_DE_TOROS/74-corrida-de-toros.jpg</url>
+			
+			<titulo_cast>Corrida de toros</titulo_cast>
+			<titulo_gal>Corrida de toros</titulo_gal>	
+			<titulo_eng>Corrida de toros</titulo_eng>
+			<titulo_fr>Corrida de toros</titulo_fr>
+			
+			<pie_cast>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (Bullfight) (1892), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Corrida de toros</titular>
+				<cuerpo>Corrida de toros (1892), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+						
+		</cuadro>
+		
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>6_PLAZA_DE_TOROS/65-cronica-30-agosto-92a.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre la corrida del 28-8-1892.&#10;&#10;La Voz de Galicia, 30-8-1892.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre a corrida do 28-8-1892.&#10;&#10;La Voz de Galicia, 30-8-1892.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>News feature published in La Voz de Galicia on the bullfight held on the 28th of August, 1892.&#10;&#10;La Voz de Galicia, 30-8-1892.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronique du journal La Voz de Galicia de la corrida du 28 août 1892.&#10;&#10;La Voz de Galicia, le 30 août 1892.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>6_PLAZA_DE_TOROS/69-corrida-491894a.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre la corrida del 2-9-1894.&#10;&#10;La Voz de Galicia, 4-9-1894.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre a corrida do 2-9-1894.&#10;&#10;La Voz de Galicia, 4-9-1894.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Voz de Galicia’s chronicle on the bullfight held on the 2nd of September, 1894.&#10;&#10;La Voz de Galicia, 4-9-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronique du journal La Voz de Galicia de la corrida du 2 septembre 1894.&#10;&#10;La Voz de Galicia, le 4 septembre 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>6_PLAZA_DE_TOROS/71-gaceta-de-galicia-23_10_1894.jpg</url>
+			
+			<titulo_cast>Gaceta de Galicia</titulo_cast>
+			<titulo_gal>Gaceta de Galicia</titulo_gal>	
+			<titulo_eng>Gaceta de Galicia</titulo_eng>
+			<titulo_fr>Gaceta de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>Gaceta de Galicia</titular>
+				<cuerpo>Noticia del periódico Gaceta de Galicia sobre el reto de El Minuto al Guerra.&#10;&#10;Gaceta de Galicia, 23-10-1894.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Gaceta de Galicia</titular>
+				<cuerpo>Noticia do periódico Gaceta de Galicia sobre o reto de El Minuto ao Guerra.&#10;&#10;Gaceta de Galicia, 23-10-1894..</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Gaceta de Galicia</titular>
+				<cuerpo>News piece published in the newspaper Gaceta de Galicia about the challenge by El Minuto to El Guerra.&#10;&#10;Gaceta de Galicia, 23-10-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Gaceta de Galicia</titular>
+				<cuerpo>Article du journal Gaceta de Galicia à propos du défi de El Minuto à El Guerra.&#10;&#10;Gaceta de Galicia, le 23 octobre 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Como se recoge en un artículo de La Voz de Galicia de la época, A Coruña "no tiene sangre torera". No había demasiada afición, y de hecho la plaza, con capacidad para 10.000 espectadores, estaba infrautilizada.&#10;&#10;El contacto inicial de la obra de Pablo con la temática taurina, que será una constante en su vida artística, se produce en Málaga: de hecho, el primer óleo que se conoce del artista es El picador, realizado en su ciudad natal. Pero en A Coruña comienza a practicar esta temática con asiduidad.&#10;&#10;Las investigaciones realizadas por Elena Pardo y Rubén Ventureira permiten documentar que Picasso acudió en varias ocasiones a la plaza coruñesa. Así, el 28 de agosto de 1892 asiste a una medio corrida (se lidian tres toros) con El Toledano como matador y realiza tres dibujos, bien al natural o bien a su regreso a casa, situada muy cerca de la plaza de toros. Repite presencia el 2 de septiembre de 1894: en esa ocasión lidia El Minuto y Pablo firma dos dibujos. Además, Picasso realiza más dibujos de temática taurina durante su estancia en A Coruña, pero no se ha podido precisar todavía a qué corridas se corresponde.
+			</txt_cast>
+			
+			<txt_gal>
+			Como se recolle nun artigo de La Voz de Galicia da época, A Coruña "no tiene sangre torera". Non había demasiada afección, e de feito a praza, con capacidade para 10.000 espectadores, estaba infrautilizada.&#10;&#10;O contacto inicial da obra de Pablo coa temática taurina, que será unha constante na súa vida artística, prodúcese en Málaga: de feito, o primeiro óleo que se coñece do artista é O picador, realizado na súa cidade natal. Pero na Coruña comeza a practicar esta temática con asiduidade.&#10;&#10;As investigacións realizadas por Elena Pardo e Rubén Ventureira permiten documentar que Picasso acudiu en varias ocasións á praza coruñesa. Así, o 28 de agosto de 1892 asiste a unha medio corrida (lídanse tres touros) co Toledano como matador e realiza tres debuxos, ben ao natural ou ben ao seu regreso a casa, situada moi preto da praza de touros. Repite presenza o 2 de setembro de 1894: nesa ocasión lida El Minuto e Pablo asina dous debuxos. Ademais, Picasso realiza máis debuxos de temática taurina durante a súa estancia na Coruña, pero non se puido precisar aínda a que corridas se corresponde.
+			</txt_gal>
+						
+			<txt_eng>
+			The city of A Coruña, as stated at the time in a feature published in La Voz de Galicia, "lacks true bullfighting spirit". There were not many fans; indeed, the bullring, which could accomodate 10,000 spectators, was underused.&#10;&#10;The bullfighthing topic, a permanent feature throughout his career, first reflected on Pablo’s work while in Malaga. In fact, his first known picture is El picador (The picador), which he painted in his native city. But once in A Coruña, he kept working regularly on the theme. Researches conducted by Elena Pardo and Rubén Ventureira allow to assert that Picasso went to the Coruñan bullring on several occasions. On the 28th of August, 1892, he attended a "half bullfight" (only three bulls were fought), featuring El Toledano as the matador, and he did three drawings, either on the spot or once back home, which was very close to the bullring. He went again on the 2nd of September, 1894; that day, the bullfighter was El Minuto and he did two drawings.
+
+Picasso did some more bullfighting drawings while living in A Coruña; nevertheless, the particular events they were inspired by have not been identified yet.
+			</txt_eng>
+						
+			<txt_fr>
+			Un article de l'époque, du journal La Voz de Galicia, raconte "qu'il n'y a pas d'aficionados" à La Corogne. En fait, la capacité des gradins de l'arène était de 10.000 spectateurs, mais elle était souvent sous-utilisée.&#10;&#10;La première prise de contact de l'œuvre de Picasso avec la tauromachie, qui deviendrait une constante, se produit à Malaga ; le premier tableau à l'huile connu de l'artiste, El picador, est réalisé dans sa ville natale. Mais il commence à travailler assidûment là-dessus pendant son séjour à La Corogne.&#10;&#10;Les recherches menées par Elena Pardo et Rubén Ventureira montrent que Picasso fréquente à plusieurs reprises la place de toros de La Corogne. Le 28 août 1892, lors d'une démi-corrida (combat de trois taureaux, au lieu d'en avoir six) dont El Toledano comme matador, Picasso réalise trois dessins, soit d'après nature, soit une foi chez lui, étant donné que la maison familiale se trouvait très proche. Le 2 septembre 1894, il se rend à nouveau à la place. Le torero était El Minuto et Pablo signe ses deux dessins.&#10;&#10;À La Corogne, Picasso en peint d'autres à une thématique taurine, mais il n'a pas encore été possible de préciser les corridas avec lesquelles se correspondent les dessins.
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

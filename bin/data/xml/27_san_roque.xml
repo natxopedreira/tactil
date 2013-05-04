@@ -1,0 +1,157 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>27</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>27_SAN_ROQUE/271-San-Roque-94.jpg</url>
+			
+			<titulo_cast>Playa de Riazor</titulo_cast>
+			<titulo_gal>Praia de Riazor</titulo_gal>	
+			<titulo_eng>Riazor beach</titulo_eng>
+			<titulo_fr>Plage de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa de Riazor</titular>
+				<cuerpo>Alquería (1894), de Pablo Ruiz Picasso. Una casa del lugar de San Roque.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013..</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praia de Riazor</titular>
+				<cuerpo>Alquería (1894), de Pablo Ruiz Picasso. Unha casa do lugar de San Roque.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Riazor beach</titular>
+				<cuerpo>Alquería (1894), by Pablo Ruiz Picasso. A house in the San Roque area.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Plage de Riazor</titular>
+				<cuerpo>Alquería (1894), de Pablo Ruiz Picasso. Une maison de l'endroit de San Roque.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época en la que Picasso vivió en A Coruña, San Roque da Fora era un lugar fronterizo. Pertenecía al municipio de A Coruña, pero lindaba con el vecino de Oza, que la metrópoli se anexionó en 1912.&#10;&#10;El político coruñés Emilio González López, que era natural de ese enclave, hizo esta descripción del lugar a comienzos de siglo: "Nací (…) en San Roque d'Afora, en el extremo sur occidental de la ensenada del Orzán (…). San Roque se repartía en dos municipios, separadas ambas partes por un enflaquecido riachuelo (…) La parte derecha del riachuelo correspondía al distinguidísimo Ayuntamiento de La Coruña, capital de Galicia; y la de la izquierda, a la muy modesta parroquia de San Pedro de Visma, la más marítima y occidental del vecino Ayuntamiento de Santa María de Oza".&#10;&#10;Picasso realizó en uno de sus cuadernos coruñeses un dibujo de San Roque: una casa de labor agrícola y ganadera. En la obra aparece una gallina, y ningún cerdo, que era el animal más abundante en la zona. De hecho, San Roque era conocida como Cerdópolis, pues allí se criaban gran parte de los cerdos que se consumían en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época na que Picasso viviu na Coruña, San Roque da Fora era un lugar fronteirizo. Pertencía ao municipio da Coruña, pero lindaba co veciño de Oza, que a metrópole se anexionou en 1912.&#10;&#10;O político coruñés Emilio González López, que era natural dese enclave, fixo esta descrición do lugar a comezos de século: "Nacín (…) en San Roque d'Afora, no extremo sur occidental da enseada do Orzán (…). San Roque repartíase en dous municipios, separadas ambas as partes por un enflaquecido regato (…) A parte dereita do regato correspondía ao distinguidísimo Concello da Coruña, capital de Galicia; e a da esquerda, á moi modesta parroquia de San Pedro de Visma, a máis marítima e occidental do veciño Concello de Santa María de Oza".&#10;&#10;Picasso realizou nun dos seus cadernos coruñeses un debuxo de San Roque: unha casa de labor agrícola e gandeiro. Na obra aparece unha galiña, e ningún porco, que era o animal máis abundante na zona. De feito, San Roque era coñecida como Cerdópole, pois alí criábanse gran parte dos porcos que se consumían na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			In the Coruñan days of Picasso, San Roque da Fora was a border place. It belonged to the municipality of A Coruña, although it had a boundary with the neighbouring Oza, annexed by the metropolitan area in 1912.&#10;&#10;The Coruñan politician Emilio González López, a local, described the place at the beginning of the 20th Century: "I was born (…) in San Roque d’Afora, on the Southernmost tip of the Orzán bay (...). San Roque was divided into two different municipalities, split by a weak river current (...). The river's hand-right shore belonged to the very distinguished Town Council of A Coruña, Galicia’s capital city, whereas the left shore was part of the very modest parish of San Pedro de Visma, the most coastal and Westernmost area of the neighbouring Town Council of Santa María de Oza".&#10;&#10;Picasso drew San Roque on one of his Coruñan notebooks. He did an outlook of a farming house. There was a hen in the drawing, but no pig could be seen, in spite of the fact that it was the most common animal in the area – indeed, San Roque was nicknamed Cerdópolis, as it was there that most of the pigs that the city demanded were bred.
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

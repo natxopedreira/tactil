@@ -1,0 +1,585 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>12</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>12_CASA_COSTALES/125-padron-Perez-Costales.jpg</url>
+			
+			<titulo_cast>Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>La familia de Pérez Costales, en el padrón de 1894.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>A familia de Pérez Costales, no padrón de 1894.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>The Pérez Costales family, in the 1894 register.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Famille Pérez Costales, recensement citoyen de 1894.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>12_CASA_COSTALES/126-casa.jpg</url>
+			
+			<titulo_cast>Casa de Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Casa de Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Casa de Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Casa de Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>La mansión de Costales.&#10;&#10;Detrás, a la derecha, la casa donde residió Picasso.&#10;&#10;1891-1892. Foto: Hauser y Menet. Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>A mansión de Costales.&#10;&#10;Detrás, á dereita, a casa onde residiu Picasso.&#10;&#10;1891-1892. Foto: Hauser y Menet. Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Costales’ mansion.&#10;&#10;On the background, at the right-hand side, is the house were Picasso used to live. 1891-1892.&#10;&#10;Photograph: Hauser y Menet. R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Le manoir de Costales.&#10;&#10;Au fond à droite, la maison où Picasso a vécu. 1891-1892.&#10;&#10;Photographie : "Hauser y Menet". Collection : R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>12_CASA_COSTALES/127-planos-casa.jpg</url>
+			
+			<titulo_cast>Casa de Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Casa de Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Casa de Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Casa de Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Distribución de la casa de Costales, según los planos del proyecto de 1890.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Distribución da casa de Costales, segundo os planos do proxecto de 1890.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Layout of Costales’ house, according to the 1890 project plans.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de Ramón Pérez Costales</titular>
+				<cuerpo>Répartition de la maison de Costales, d'après les plans du projet de 1890.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/121-Retrato-Costales.jpg</url>
+			
+			<titulo_cast>Retrato de Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Retrato de Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Retrato Pérez Costales</titulo_eng>
+			<titulo_fr>Retrato de Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales&#10;&#10;(Portrait of Ramón Pérez Costales), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/122-La-Enferma.jpg</url>
+			
+			<titulo_cast>La enferma</titulo_cast>
+			<titulo_gal>La enferma</titulo_gal>	
+			<titulo_eng>La enferma</titulo_eng>
+			<titulo_fr>La enferma</titulo_fr>
+			
+			<pie_cast>
+				<titular>La enferma</titular>
+				<cuerpo>La enferma (1894), de Pablo Ruiz Picasso.&#10;&#10;De espaldas, el doctor Pérez Costales.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La enferma</titular>
+				<cuerpo>La enferma (1894), de Pablo Ruiz Picasso.&#10;&#10;De costas, o doutor Pérez Costales.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La enferma</titular>
+				<cuerpo>La enferma (The Sick) (1894), by Pablo Ruiz Picasso.&#10;&#10;Doctor Pérez Costales can be seen from his back.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La enferma</titular>
+				<cuerpo>La enferma (1894), de Pablo Ruiz Picasso.&#10;&#10;Vue de derrière du médecin Pérez Costales.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/123-Delfina.jpg</url>
+			
+			<titulo_cast>Delfina Bresson</titulo_cast>
+			<titulo_gal>Delfina Bresson</titulo_gal>	
+			<titulo_eng>Delfina Bresson</titulo_eng>
+			<titulo_fr>Delfina Bresson</titulo_fr>
+			
+			<pie_cast>
+				<titular>Delfina Bresson</titular>
+				<cuerpo>Retrato de Delfina Bresson, por Gumersindo Pardo Reguera.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Delfina Bresson</titular>
+				<cuerpo>Retrato de Delfina Bresson, por Gumersindo Pardo Reguera.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Delfina Bresson</titular>
+				<cuerpo>Retrato de Delfina Bresson&#10;&#10;(Portrait of Delfina Bresson), by Gumersindo Pardo Reguera.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Delfina Bresson</titular>
+				<cuerpo>Retrato de Delfina Bresson, par Gumersindo Pardo Reguera.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/124-Modesto-Castilla.jpg</url>
+			
+			<titulo_cast>Modesto Castilla</titulo_cast>
+			<titulo_gal>Modesto Castilla</titulo_gal>	
+			<titulo_eng>Modesto Castilla</titulo_eng>
+			<titulo_fr>Modesto Castilla</titulo_fr>
+			
+			<pie_cast>
+				<titular>Modesto Castilla</titular>
+				<cuerpo>Modesto Castilla vestido de moro (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Modesto Castilla</titular>
+				<cuerpo>Modesto Castilla vestido de moro (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Modesto Castilla</titular>
+				<cuerpo>Modesto Castilla vestido de moro.&#10;&#10;(Modesto Castilla Dressed Up as a Moor) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Modesto Castilla</titular>
+				<cuerpo>Modesto Castilla vestido de moro (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/128-alcoba-MPB_110.jpg</url>
+			
+			<titulo_cast>Alcoba de la casa de Costales</titulo_cast>
+			<titulo_gal>Alcoba de la casa de Costales</titulo_gal>	
+			<titulo_eng>Alcoba de la casa de Costales</titulo_eng>
+			<titulo_fr>Alcoba de la casa de Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Alcoba de la casa de Costales (1895), por Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Cuarto da casa de Costales (1895), por Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Costales’ house bedroom (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Chambre à coucher, chez Costales (1895), par Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/129-costales-cosa-MPB_110.jpg</url>
+			
+			<titulo_cast>Alcoba de la casa de Costales</titulo_cast>
+			<titulo_gal>Alcoba de la casa de Costales</titulo_gal>	
+			<titulo_eng>Alcoba de la casa de Costales</titulo_eng>
+			<titulo_fr>Alcoba de la casa de Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Interior de la casa de Costales (1895), por Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Interior da casa de Costales (1895), por Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Inside view of Costales’ house (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Alcoba de la casa de Costales</titular>
+				<cuerpo>Maison de Costales vue de l'intérieur (1895), par Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>12_CASA_COSTALES/1210-pi.jpg</url>
+			
+			<titulo_cast>Pi y Margall</titulo_cast>
+			<titulo_gal>Pi y Margall</titulo_gal>	
+			<titulo_eng>Pi y Margall</titulo_eng>
+			<titulo_fr>Pi y Margall</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Pi y Margall, segundo presidente de la República.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Pi y Margall, segundo presidente da República.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Pi y Margall, the second president of the Republic.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Pi y Margall, deuxième président de la Première république espagnole.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>12_CASA_COSTALES/1211-Pi-a.jpg</url>
+			
+			<titulo_cast>Pi y Margall</titulo_cast>
+			<titulo_gal>Pi y Margall</titulo_gal>	
+			<titulo_eng>Pi y Margall</titulo_eng>
+			<titulo_fr>Pi y Margall</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre la visita de Pi y Margall a A Coruña.&#10;&#10;La Voz de Galicia, 20-9-1892.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre a visita de Pi y Margall á Coruña.&#10;&#10;La Voz de Galicia, 20-9-1892.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Pi y Margall</titular>
+				<cuerpo>La Voz de Galicia’s report on Pi y Margall’s trip to a A Coruña.&#10;&#10;La Voz de Galicia, 20-9-1892.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Chronique du journal La Voz de Galicia, lors de la visite de Pi y Margall à La Corogne.&#10;&#10;La Voz de Galicia, le 20 septembre 1892.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>12_CASA_COSTALES/1212-casa.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia en la que se describe la mansión de Costales.&#10;&#10;La Voz de Galicia, 30-3-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Crónica de La Voz de Galicia na que se describe a mansión de Costales.&#10;&#10;La Voz de Galicia, 30-3-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Pi y Margall</titular>
+				<cuerpo>La Voz de Galicia’s feature describing Costales’ mansion.&#10;&#10;La Voz de Galicia, 30-3-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pi y Margall</titular>
+				<cuerpo>Chronique du journal La Voz de Galicia, décrivant le manoir de Costales.&#10;&#10;La Voz de Galicia, le 30 mars 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Al poco de la llegada de los Ruiz Picasso a A Coruña, el doctor Pérez Costales y su familia se instalaron en una lujosa mansión que cuya fachada delantera daba al número 12 de Teresa Herrera y la trasera al 11 de Payo Gómez.&#10;&#10;En esta casa residían, además del doctor, su segunda mujer Delfina, la hija de ésta de un matrimonio anterior, Valentina; un hijo de Costales de una relación anterior, Modesto; la pequeña María, que era hija de estos dos últimos; y dos criadas.&#10;&#10;Pérez Costales, que había sido ministro en la I República, fue el primer mecenas de Picasso y el impulsor de su primera exposición. Pablo iba a su casa a comer un día a la semana. El malagueño retrató tanto al doctor como a Modesto Castilla. Ya adulto, recordaba que en el primer sitio donde vio banderas republicanas fue la casa de Costales, cuando Pi y Margall visitó A Coruña en 1892.
+			</txt_cast>
+			
+			<txt_gal>
+			Ao pouco da chegada dos Ruiz Picasso á Coruña, o doutor Pérez Costales e a súa familia instaláronse nunha luxosa mansión que tiña a fachada dianteira dando ao número 12 de Teresa Herrera e a traseira ao 11 de Payo Gómez.&#10;&#10;Nesta casa residían, ademais do doutor, a súa segunda muller Delfina, a filla desta dun matrimonio anterior, Valentina; un fillo de Costales dunha relación anterior, Modesto; a pequena María, que era filla destes dous últimos; e dúas criadas.&#10;&#10;Pérez Costales, que fora ministro na I República, foi o primeiro mecenas de Picasso e o impulsor da súa primeira exposición. Pablo ía á súa casa a comer un día á semana. O malagueño retratou tanto ao doutor como a Modesto Castilla. Xa adulto, lembraba que no primeiro sitio onde viu bandeiras republicanas foi na casa de Costales, cando Pi y Margall visitou A Coruña en 1892.
+			</txt_gal>
+						
+			<txt_eng>
+			Soon after the Ruiz Picassos arrived in A Coruña, doctor Pérez Costales and his family settled in a luxurious mansion whose front side was at 12 Teresa Herrera, with the back at 11 Payo Gómez.&#10;&#10;Besides the doctor, here lived his second wife, Delfina; her daughter from a previous marriage, Valentina; a son of Costales from an earlier relationship, Modesto; little María, who was the daughter of both of them, and two servants.&#10;&#10;Pérez Costales had been a Minister during the First Republic and became Picasso’s first artistic sponsor and the promoter of his first exhibition. Pablo used to have lunch at his home once a week. The Malaga-born painter portrayed both the doctor and Modesto Castilla. As an adult, he recalled that the first time he ever saw the Republican flag was at Costales’ place, when Pi y Margall travelled to A Coruña in 1892.
+			</txt_eng>
+						
+			<txt_fr>
+			Suite à l'arrivée des Ruiz Picasso à La Corogne, le docteur Pérez Costales et sa famille s'installèrent dans un manoir de luxe, dont la façade de devant donnait au 12 rue Teresa Herrera, et celle d'arrière au 11 rue Payo Gómez.&#10;&#10;Il y habitait le docteur avec sa deuxième épouse, Delfina ; la fille de Delfina, née d'un autre mariage, Valentina ; un fils de Costales d'une relation antérieure, Modesto ; la petite Marie, fille du couple, et deux bonnes.&#10;&#10;Pérez Costales, ancien ministre de la Première République, fut le premier mécène de Picasso et le promoteur de sa première exposition. Pablo allait manger chez Costales une fois par semaine. L'artiste fit le portrait du docteur et de Modesto Castilla. Le Picasso adulte expliquerait plus tard qu'il remarqua chez Costales pour la première fois des drapeaux républicains, lors de la visite en 1892 à La Corogne de Pi y Margall.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,160 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>10</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>10_ESTACION_FERROCARRIL/101-Estacion-Ferrocarril.jpg</url>
+			
+			<titulo_cast>La estación de ferrocarril</titulo_cast>
+			<titulo_gal>A estación de ferrocarril</titulo_gal>	
+			<titulo_eng>Railway station</titulo_eng>
+			<titulo_fr>>La gare de train</titulo_fr>
+			
+			<pie_cast>
+				<titular>La estación de ferrocarril</titular>
+				<cuerpo>La Estación de Ferrocarril, en los años 80 del siglo XIX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A estación de ferrocarril</titular>
+				<cuerpo>A Estación do Ferrocarril, nos anos 80 do século XIX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Riazor beach</titular>
+				<cuerpo>The railway station, in the1880s.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La gare de train</titular>
+				<cuerpo>La gare de train, années 80 du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Aunque se desconoce la fecha exacta, se supone que la familia Ruiz Blasco llegó a A Coruña en septiembre de 1895. Tomaron un vapor en Málaga con destino a la ciudad herculina, pero Picasso recordaba ya de adulto que los mayores se marearon y se decidió poner fin a la singladura en Vigo. De ahí fueron en ferrocarril hasta A Coruña, según lo recogido por Montañés en Picasso: The Last Years. "Cuando el vapor paró en Vigo -narra Picasso-, mis padres decidieron terminar el viaje en tren. Cuando llegamos a la estación de La Coruña, mi padre nos dejó a cargo del equipaje mientras se fue a buscar un vehículo que nos llevara a la fonda. Resultó ser un carro, tirado por un par de bueyes. Así fue como llegamos a la fonda. Y en aquellos tiempos, la estación de tren estaba bastante alejada de la ciudad". El carro de bueyes al que se refiere Picasso es un rippert que hacía el trayecto entre la estación y el centro de la ciudad.&#10;&#10;La marcha de A Coruña de los Ruiz Picasso se produjo el 14 de abril de 1895, en ferrocarril. Viajaron junto a Pérez Costales y su mujer, que decidieron irse a vivir a Málaga.
+			</txt_cast>
+			
+			<txt_gal>
+			Aínda que se descoñece a data exacta, suponse que a familia Ruiz Blasco chegou á Coruña en setembro de 1891. Tomaron un vapor en Málaga con destino á cidade herculina, pero Picasso lembraba xa de adulto que os maiores se marearon e decidiuse pór fin á navegación en Vigo. De aí foron en ferrocarril até A Coruña, segundo o recollido por Montañés en Picasso: The Last Years. "Cando o vapor parou en Vigo -narra Picasso-, os meus pais decidiron rematar a viaxe en tren. Cando chegamos á estación da Coruña, o meu pai deixounos a cargo da equipaxe mentres foi buscar un vehículo que nos levase á fonda. Resultou ser un carro, tirado por un par de bois. Así foi como chegamos á fonda. E naqueles tempos, a estación de tren estaba bastante afastada da cidade". O carro de bois ao que se refire Picasso é un rippert que facía o traxecto entre a estación e o centro da cidade.&#10;&#10;A marcha da Coruña dos Ruiz Picasso produciuse o 14 de abril de 1895, en ferrocarril. Viaxaron xunto a Pérez Costales e a súa muller, que decidiron marchar a vivir a Málaga
+			</txt_gal>
+						
+			<txt_eng>
+			Although the precise date is unknown, the Ruiz Blasco family is supposed to have arrived in A Coruña in September 1891. They took a steamboat in Malaga towards the Herculean city, although Picasso recalled a stopover in Vigo, according to Montañés’ Picasso: The Last Years. "When the ship stopped in Vigo –Picasso recounted-, my parents resolved to finish the trip by train. When we reached the station in La Coruña, my father left us in charge of the luggage while he went for a car to take us to the boarding house. It turned out to be a kart pulled by a pair of oxen. And so we got to the boarding house. In those years, the railway station was rather far away from the town".&#10;&#10;The Ruiz Picassos departed from A Coruña by train on the 14th of April, 1895. Along with them travelled Pérez Costales and his wife, who had decided to move to Malaga.
+			</txt_eng>
+						
+			<txt_fr>
+			Bien que la date exacte reste inconnue, la famille Ruiz Blasco serait arrivé probablement à La Corogne en septembre 1891. Ils prirent un bateau à vapeur à Malaga, à destination de la ville galicienne. Mais Picasso raconta plus tard que les majeurs souffrirent du mal de mer et que la famille décida de terminer leur voyage à Vigo. Depuis là-bas, ils voyagèrent en train jusqu'à La Corogne, selon Montañés écrit dans Picasso: The Last Years. "Quand le bateau à vapeur s'arrêta à Vigo -raconte Picasso-, mes parents décidèrent de terminer le voyage par le train. Quand nous arrivâmes à la gare de La Corogne, mon père nous laissa en charge de nos bagages et il partit à la recherche d'un véhicule nous emmenant à la pension. Il s'agissait d'un chariot tiré par deux bœufs. Et c'est ainsi que nous arrivâmes à la pension. À l'époque, la gare de train était très éloignée de la ville". Le chariot de bœufs dont Picasso parle était un omnibus rippert faisant le parcours de la gare au centre ville.&#10;&#10;Le départ par train de la famille Ruiz Picasso de La Corogne se produisit le 14 avril 1895. La famille voyagea avec Pérez Costales et sa femme, ayant décidé de s'installer à Malaga.
+			</txt_fr>
+			
+		</image>
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>10_ESTACION_FERROCARRIL/102-marcha-Costales.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La marcha de Costales de A Coruña, en La Voz de Galicia.&#10;&#10;La Voz de Galicia, 16-4-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>A marcha de Costales da Coruña, en La Voz de Galicia.&#10;&#10;La Voz de Galicia, 16-4-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Costales’ departure from A Coruña, in La Voz de Galicia.&#10;&#10;La Voz de Galicia, 16-4-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Le départ de Costales de La Corogne, dans La Voz de Galicia.&#10;&#10;La Voz de Galicia, le 16 avril 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Aunque se desconoce la fecha exacta, se supone que la familia Ruiz Blasco llegó a A Coruña en septiembre de 1895. Tomaron un vapor en Málaga con destino a la ciudad herculina, pero Picasso recordaba ya de adulto que los mayores se marearon y se decidió poner fin a la singladura en Vigo. De ahí fueron en ferrocarril hasta A Coruña, según lo recogido por Montañés en Picasso: The Last Years. "Cuando el vapor paró en Vigo -narra Picasso-, mis padres decidieron terminar el viaje en tren. Cuando llegamos a la estación de La Coruña, mi padre nos dejó a cargo del equipaje mientras se fue a buscar un vehículo que nos llevara a la fonda. Resultó ser un carro, tirado por un par de bueyes. Así fue como llegamos a la fonda. Y en aquellos tiempos, la estación de tren estaba bastante alejada de la ciudad". El carro de bueyes al que se refiere Picasso es un rippert que hacía el trayecto entre la estación y el centro de la ciudad.&#10;&#10;La marcha de A Coruña de los Ruiz Picasso se produjo el 14 de abril de 1895, en ferrocarril. Viajaron junto a Pérez Costales y su mujer, que decidieron irse a vivir a Málaga.
+			</txt_cast>
+			
+			<txt_gal>
+			Aínda que se descoñece a data exacta, suponse que a familia Ruiz Blasco chegou á Coruña en setembro de 1891. Tomaron un vapor en Málaga con destino á cidade herculina, pero Picasso lembraba xa de adulto que os maiores se marearon e decidiuse pór fin á navegación en Vigo. De aí foron en ferrocarril até A Coruña, segundo o recollido por Montañés en Picasso: The Last Years. "Cando o vapor parou en Vigo -narra Picasso-, os meus pais decidiron rematar a viaxe en tren. Cando chegamos á estación da Coruña, o meu pai deixounos a cargo da equipaxe mentres foi buscar un vehículo que nos levase á fonda. Resultou ser un carro, tirado por un par de bois. Así foi como chegamos á fonda. E naqueles tempos, a estación de tren estaba bastante afastada da cidade". O carro de bois ao que se refire Picasso é un rippert que facía o traxecto entre a estación e o centro da cidade.&#10;&#10;A marcha da Coruña dos Ruiz Picasso produciuse o 14 de abril de 1895, en ferrocarril. Viaxaron xunto a Pérez Costales e a súa muller, que decidiron marchar a vivir a Málaga
+			</txt_gal>
+						
+			<txt_eng>
+			Although the precise date is unknown, the Ruiz Blasco family is supposed to have arrived in A Coruña in September 1891. They took a steamboat in Malaga towards the Herculean city, although Picasso recalled a stopover in Vigo, according to Montañés’ Picasso: The Last Years. "When the ship stopped in Vigo –Picasso recounted-, my parents resolved to finish the trip by train. When we reached the station in La Coruña, my father left us in charge of the luggage while he went for a car to take us to the boarding house. It turned out to be a kart pulled by a pair of oxen. And so we got to the boarding house. In those years, the railway station was rather far away from the town".&#10;&#10;The Ruiz Picassos departed from A Coruña by train on the 14th of April, 1895. Along with them travelled Pérez Costales and his wife, who had decided to move to Malaga.
+			</txt_eng>
+						
+			<txt_fr>
+			Bien que la date exacte reste inconnue, la famille Ruiz Blasco serait arrivé probablement à La Corogne en septembre 1891. Ils prirent un bateau à vapeur à Malaga, à destination de la ville galicienne. Mais Picasso raconta plus tard que les majeurs souffrirent du mal de mer et que la famille décida de terminer leur voyage à Vigo. Depuis là-bas, ils voyagèrent en train jusqu'à La Corogne, selon Montañés écrit dans Picasso: The Last Years. "Quand le bateau à vapeur s'arrêta à Vigo -raconte Picasso-, mes parents décidèrent de terminer le voyage par le train. Quand nous arrivâmes à la gare de La Corogne, mon père nous laissa en charge de nos bagages et il partit à la recherche d'un véhicule nous emmenant à la pension. Il s'agissait d'un chariot tiré par deux bœufs. Et c'est ainsi que nous arrivâmes à la pension. À l'époque, la gare de train était très éloignée de la ville". Le chariot de bœufs dont Picasso parle était un omnibus rippert faisant le parcours de la gare au centre ville.&#10;&#10;Le départ par train de la famille Ruiz Picasso de La Corogne se produisit le 14 avril 1895. La famille voyagea avec Pérez Costales et sa femme, ayant décidé de s'installer à Malaga.
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

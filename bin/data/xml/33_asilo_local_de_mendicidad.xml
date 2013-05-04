@@ -1,0 +1,204 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>33</id>
+	<!-- fotografias -->
+	<images></images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>33_ASILO_LOCAL_DE_MENDICIDAD/331-gorra-otra-vez.jpg</url>
+									
+			<titulo_cast>Retrato de un hombre barbudo</titulo_cast>
+			<titulo_gal>Retrato de un hombre barbudo</titulo_gal>	
+			<titulo_eng>Retrato de un hombre barbudo</titulo_eng>
+			<titulo_fr>Retrato de un hombre barbudo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de un hombre barbudo</titular>
+				<cuerpo>Retrato de un hombre barbudo (1895), de Pablo Ruiz Picasso. Seguramente el modelo es el mismo que el de El hombre de la gorra.&#10;&#10;Museo Picasso de Málaga. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de un hombre barbudo</titular>
+				<cuerpo>Retrato de un hombre barbudo (1895), de Pablo Ruiz Picasso. Seguramente o modelo é o mesmo que o de El hombre de la gorra.&#10;&#10;Museo Picasso de Málaga. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de un hombre barbudo</titular>
+				<cuerpo>Retrato de un hombre barbudo (Portrait of a Bearded Man) (1895), by Pablo Ruiz Picasso. The model was very probably the same as in El hombre de la gorra (Man with a Cap).&#10;&#10;Museo Picasso de Málaga. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de un hombre barbudo</titular>
+				<cuerpo>Retrato de un hombre barbudo (1895), de Pablo Ruiz Picasso. Sûrement, le modèle est le même que celui d'El hombre de la gorra.&#10;&#10;Musée Picasso de Malaga. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1895, último año de su estancia en la ciudad, Picasso realiza numerosos retratos de mendigos, y los exhibe incluso en sus primeras exposiciones, realizadas en la calle Real. En aquella época, A Coruña contaba con dos instituciones ejemplares para atender a los más desfavorecidos: el Asilo Local de la Mendicidad y la Cocina Económica.&#10;&#10;El Asilo Local de la Mendicidad estaba situado en la calle del Socorro (hoy Juan Canalejo). Fundado en 1862 por Juana de Vega, una de las grandes damas coruñesas, contaba con 140 camas y dos comedores.&#10;&#10;La Cocina Económica, que hoy sigue abierta, se encontraba entonces en el número 17 de la calle Sol. Su presidente era el mecenas de Picasso, el doctor Pérez Costales, quien la había refundado después de haber estado cerrada por problemas económicos. Por 20 céntimos se podía comer un menú aceptable: taza de caldo gallego (5 céntimos), 600 gramos de pan (5 céntimos) y bacalao guisado con patatas (10 céntimos). Las raciones se pagaban con bonos: los particulares se los daban a los mendigos, en lugar de limosna en metálico. Seguramente, los mendigos de los cuadros de Picasso frecuentaban estas dos instituciones benéficas.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1895, último ano da súa estancia na cidade, Picasso realiza numerosos retratos de esmoleiros, e exhíbeos mesmo nas súas primeiras exposicións, realizadas na rúa Real. Naquela época, A Coruña contaba con dúas institucións exemplares para atender aos máis desfavorecidos: o Asilo Local da Mendicidade e a Cociña Económica.&#10;&#10;O Asilo Local da Mendicidade estaba situado na rúa do Socorro (hoxe Juan Canalejo). Fundada en 1862 por Juana de Vega, unha das grandes damas coruñesas, contaba con 140 camas e dous comedores.&#10;&#10;A Cociña Económica, que hoxe segue aberta, atopábase entón no número 17 da rúa Sol. O seu presidente era o mecenas de Picasso, o doutor Pérez Costales, quen a refundara despois de estar pechada por problemas económicos. Por 20 céntimos podíase comer un menú aceptable: cunca de caldo galego (5 céntimos), 600 gramos de pan (5 céntimos) e bacallau guisado con patacas (10 céntimos). As racións pagábanse con bonos: os particulares dábanllelos aos esmoleiros, en lugar de esmola en metálico. Seguramente, os esmoleiros dos cadros de Picasso frecuentaban estas dúas institucións benéficas.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1895, his last year in the city, Picasso painted many portraits of beggars, and he even displayed some of them in his first exhibitions held in Calle Real. At the time, A Coruña had two shelters where the down-and-outs were taken care of: the Beggars Home and the Charitable Diner.&#10;&#10;The Beggars Home was located in Calle Socorro (now Calle Juan Canalejo). It had been founded in 1862 by Juana de Vega, one of A Coruña’s great ladies, and had 140 beds and two canteens. The Charitable Diner, still open today, was at 17 Calle Sol. It was chaired by Picasso’s patron, Doctor Pérez Costales, who had re-opened it after a closure due to lack of resources. 20 cents would buy an acceptable menu, consisting of a bowl of Galician stock (5 cents), 600 gr of bread (5 cents) and cooked cod with potatoes (10 cents). Meals were paid for with vouchers, which citizens would give away to beggars, rather than cash. The beggars that appear in Picasso’s paintings were very probably regulars at these two charities.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1895, dernière année passée à La Corogne, avant son départ, Picasso réalisa beaucoup de portraits de mendiants, et il les expose lors de ses premières expositions dans des salles de rue Real. À l'époque, La Corogne disposait de deux institutions exemplaires qui s'occupaient des plus pauvres : l'asile local de la mendicité et la cuisine économique.&#10;&#10;L'asile local de la mendicité se trouvait rue del Socorro (aujourd'hui Juan Canalejo). Fondé en 1862 par Juana de Vega, l'une de grandes dames de La Corogne, disposait de 140 lits et deux salles à manger.&#10;&#10;La cuisine économique, toujours ouverte, se situait à l'époque au 17 rue Sol. Son président était le mécène de Picasso, le docteur Pérez Costales, l'ayant refondée suite à sa clôture pour des raisons économiques. Un menu passable coûtait 20 centimes : une tasse de soupe à la galicienne (5 centimes), 600 grammes de pain (5 centimes) et morue fraîche aux pommes de terres (10 centimes). Les portions étaient payées avec des tickets de ravitaillement : les particuliers en donnaient aux mendiants, au lieu de leur donner de l'argent. À coup sûr, les mendiants des tableaux de Picasso fréquentaient ces deux institutions bénéfiques.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>33_ASILO_LOCAL_DE_MENDICIDAD/332-boina.jpg</url>
+									
+			<titulo_cast>Hombre con boina</titulo_cast>
+			<titulo_gal>Hombre con boina</titulo_gal>	
+			<titulo_eng>Hombre con boina</titulo_eng>
+			<titulo_fr>Hombre con boina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Hombre con boina</titular>
+				<cuerpo>Hombre con boina (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Hombre con boina</titular>
+				<cuerpo>Hombre con boina (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Hombre con boina</titular>
+				<cuerpo>Hombre con boina (Man with a Beret) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Hombre con boina</titular>
+				<cuerpo>Hombre con boina (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1895, último año de su estancia en la ciudad, Picasso realiza numerosos retratos de mendigos, y los exhibe incluso en sus primeras exposiciones, realizadas en la calle Real. En aquella época, A Coruña contaba con dos instituciones ejemplares para atender a los más desfavorecidos: el Asilo Local de la Mendicidad y la Cocina Económica.&#10;&#10;El Asilo Local de la Mendicidad estaba situado en la calle del Socorro (hoy Juan Canalejo). Fundado en 1862 por Juana de Vega, una de las grandes damas coruñesas, contaba con 140 camas y dos comedores.&#10;&#10;La Cocina Económica, que hoy sigue abierta, se encontraba entonces en el número 17 de la calle Sol. Su presidente era el mecenas de Picasso, el doctor Pérez Costales, quien la había refundado después de haber estado cerrada por problemas económicos. Por 20 céntimos se podía comer un menú aceptable: taza de caldo gallego (5 céntimos), 600 gramos de pan (5 céntimos) y bacalao guisado con patatas (10 céntimos). Las raciones se pagaban con bonos: los particulares se los daban a los mendigos, en lugar de limosna en metálico. Seguramente, los mendigos de los cuadros de Picasso frecuentaban estas dos instituciones benéficas.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1895, último ano da súa estancia na cidade, Picasso realiza numerosos retratos de esmoleiros, e exhíbeos mesmo nas súas primeiras exposicións, realizadas na rúa Real. Naquela época, A Coruña contaba con dúas institucións exemplares para atender aos máis desfavorecidos: o Asilo Local da Mendicidade e a Cociña Económica.&#10;&#10;O Asilo Local da Mendicidade estaba situado na rúa do Socorro (hoxe Juan Canalejo). Fundada en 1862 por Juana de Vega, unha das grandes damas coruñesas, contaba con 140 camas e dous comedores.&#10;&#10;A Cociña Económica, que hoxe segue aberta, atopábase entón no número 17 da rúa Sol. O seu presidente era o mecenas de Picasso, o doutor Pérez Costales, quen a refundara despois de estar pechada por problemas económicos. Por 20 céntimos podíase comer un menú aceptable: cunca de caldo galego (5 céntimos), 600 gramos de pan (5 céntimos) e bacallau guisado con patacas (10 céntimos). As racións pagábanse con bonos: os particulares dábanllelos aos esmoleiros, en lugar de esmola en metálico. Seguramente, os esmoleiros dos cadros de Picasso frecuentaban estas dúas institucións benéficas.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1895, his last year in the city, Picasso painted many portraits of beggars, and he even displayed some of them in his first exhibitions held in Calle Real. At the time, A Coruña had two shelters where the down-and-outs were taken care of: the Beggars Home and the Charitable Diner.&#10;&#10;The Beggars Home was located in Calle Socorro (now Calle Juan Canalejo). It had been founded in 1862 by Juana de Vega, one of A Coruña’s great ladies, and had 140 beds and two canteens. The Charitable Diner, still open today, was at 17 Calle Sol. It was chaired by Picasso’s patron, Doctor Pérez Costales, who had re-opened it after a closure due to lack of resources. 20 cents would buy an acceptable menu, consisting of a bowl of Galician stock (5 cents), 600 gr of bread (5 cents) and cooked cod with potatoes (10 cents). Meals were paid for with vouchers, which citizens would give away to beggars, rather than cash. The beggars that appear in Picasso’s paintings were very probably regulars at these two charities.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1895, dernière année passée à La Corogne, avant son départ, Picasso réalisa beaucoup de portraits de mendiants, et il les expose lors de ses premières expositions dans des salles de rue Real. À l'époque, La Corogne disposait de deux institutions exemplaires qui s'occupaient des plus pauvres : l'asile local de la mendicité et la cuisine économique.&#10;&#10;L'asile local de la mendicité se trouvait rue del Socorro (aujourd'hui Juan Canalejo). Fondé en 1862 par Juana de Vega, l'une de grandes dames de La Corogne, disposait de 140 lits et deux salles à manger.&#10;&#10;La cuisine économique, toujours ouverte, se situait à l'époque au 17 rue Sol. Son président était le mécène de Picasso, le docteur Pérez Costales, l'ayant refondée suite à sa clôture pour des raisons économiques. Un menu passable coûtait 20 centimes : une tasse de soupe à la galicienne (5 centimes), 600 grammes de pain (5 centimes) et morue fraîche aux pommes de terres (10 centimes). Les portions étaient payées avec des tickets de ravitaillement : les particuliers en donnaient aux mendiants, au lieu de leur donner de l'argent. À coup sûr, les mendiants des tableaux de Picasso fréquentaient ces deux institutions bénéfiques.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>33_ASILO_LOCAL_DE_MENDICIDAD/333-viejo.jpg</url>
+									
+			<titulo_cast>Retrato de viejo</titulo_cast>
+			<titulo_gal>Retrato de viejo</titulo_gal>	
+			<titulo_eng>Retrato de viejo</titulo_eng>
+			<titulo_fr>Retrato de viejo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Retrato de viejo (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Retrato de viejo (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Retrato de viejo (Portrait of an Old Man) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Retrato de viejo (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1895, último año de su estancia en la ciudad, Picasso realiza numerosos retratos de mendigos, y los exhibe incluso en sus primeras exposiciones, realizadas en la calle Real. En aquella época, A Coruña contaba con dos instituciones ejemplares para atender a los más desfavorecidos: el Asilo Local de la Mendicidad y la Cocina Económica.&#10;&#10;El Asilo Local de la Mendicidad estaba situado en la calle del Socorro (hoy Juan Canalejo). Fundado en 1862 por Juana de Vega, una de las grandes damas coruñesas, contaba con 140 camas y dos comedores.&#10;&#10;La Cocina Económica, que hoy sigue abierta, se encontraba entonces en el número 17 de la calle Sol. Su presidente era el mecenas de Picasso, el doctor Pérez Costales, quien la había refundado después de haber estado cerrada por problemas económicos. Por 20 céntimos se podía comer un menú aceptable: taza de caldo gallego (5 céntimos), 600 gramos de pan (5 céntimos) y bacalao guisado con patatas (10 céntimos). Las raciones se pagaban con bonos: los particulares se los daban a los mendigos, en lugar de limosna en metálico. Seguramente, los mendigos de los cuadros de Picasso frecuentaban estas dos instituciones benéficas.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1895, último ano da súa estancia na cidade, Picasso realiza numerosos retratos de esmoleiros, e exhíbeos mesmo nas súas primeiras exposicións, realizadas na rúa Real. Naquela época, A Coruña contaba con dúas institucións exemplares para atender aos máis desfavorecidos: o Asilo Local da Mendicidade e a Cociña Económica.&#10;&#10;O Asilo Local da Mendicidade estaba situado na rúa do Socorro (hoxe Juan Canalejo). Fundada en 1862 por Juana de Vega, unha das grandes damas coruñesas, contaba con 140 camas e dous comedores.&#10;&#10;A Cociña Económica, que hoxe segue aberta, atopábase entón no número 17 da rúa Sol. O seu presidente era o mecenas de Picasso, o doutor Pérez Costales, quen a refundara despois de estar pechada por problemas económicos. Por 20 céntimos podíase comer un menú aceptable: cunca de caldo galego (5 céntimos), 600 gramos de pan (5 céntimos) e bacallau guisado con patacas (10 céntimos). As racións pagábanse con bonos: os particulares dábanllelos aos esmoleiros, en lugar de esmola en metálico. Seguramente, os esmoleiros dos cadros de Picasso frecuentaban estas dúas institucións benéficas.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1895, his last year in the city, Picasso painted many portraits of beggars, and he even displayed some of them in his first exhibitions held in Calle Real. At the time, A Coruña had two shelters where the down-and-outs were taken care of: the Beggars Home and the Charitable Diner.&#10;&#10;The Beggars Home was located in Calle Socorro (now Calle Juan Canalejo). It had been founded in 1862 by Juana de Vega, one of A Coruña’s great ladies, and had 140 beds and two canteens. The Charitable Diner, still open today, was at 17 Calle Sol. It was chaired by Picasso’s patron, Doctor Pérez Costales, who had re-opened it after a closure due to lack of resources. 20 cents would buy an acceptable menu, consisting of a bowl of Galician stock (5 cents), 600 gr of bread (5 cents) and cooked cod with potatoes (10 cents). Meals were paid for with vouchers, which citizens would give away to beggars, rather than cash. The beggars that appear in Picasso’s paintings were very probably regulars at these two charities.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1895, dernière année passée à La Corogne, avant son départ, Picasso réalisa beaucoup de portraits de mendiants, et il les expose lors de ses premières expositions dans des salles de rue Real. À l'époque, La Corogne disposait de deux institutions exemplaires qui s'occupaient des plus pauvres : l'asile local de la mendicité et la cuisine économique.&#10;&#10;L'asile local de la mendicité se trouvait rue del Socorro (aujourd'hui Juan Canalejo). Fondé en 1862 par Juana de Vega, l'une de grandes dames de La Corogne, disposait de 140 lits et deux salles à manger.&#10;&#10;La cuisine économique, toujours ouverte, se situait à l'époque au 17 rue Sol. Son président était le mécène de Picasso, le docteur Pérez Costales, l'ayant refondée suite à sa clôture pour des raisons économiques. Un menu passable coûtait 20 centimes : une tasse de soupe à la galicienne (5 centimes), 600 grammes de pain (5 centimes) et morue fraîche aux pommes de terres (10 centimes). Les portions étaient payées avec des tickets de ravitaillement : les particuliers en donnaient aux mendiants, au lieu de leur donner de l'argent. À coup sûr, les mendiants des tableaux de Picasso fréquentaient ces deux institutions bénéfiques.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>33_ASILO_LOCAL_DE_MENDICIDAD/334-vieja.jpg</url>
+									
+			<titulo_cast>Perfil de mujer gallega</titulo_cast>
+			<titulo_gal>Perfil de mujer gallega</titulo_gal>	
+			<titulo_eng>Perfil de mujer gallega</titulo_eng>
+			<titulo_fr>Perfil de mujer gallega</titulo_fr>
+			
+			<pie_cast>
+				<titular>Perfil de mujer gallega</titular>
+				<cuerpo>Perfil de mujer gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;Colección privada. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Perfil de mujer gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;Colección privada. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Perfil de mujer gallega (Profile of a Galician Woman) (1895), by Pablo Ruiz Picasso.&#10;&#10;Private collection. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de viejo</titular>
+				<cuerpo>Perfil de mujer gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;Collection privée. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1895, último año de su estancia en la ciudad, Picasso realiza numerosos retratos de mendigos, y los exhibe incluso en sus primeras exposiciones, realizadas en la calle Real. En aquella época, A Coruña contaba con dos instituciones ejemplares para atender a los más desfavorecidos: el Asilo Local de la Mendicidad y la Cocina Económica.&#10;&#10;El Asilo Local de la Mendicidad estaba situado en la calle del Socorro (hoy Juan Canalejo). Fundado en 1862 por Juana de Vega, una de las grandes damas coruñesas, contaba con 140 camas y dos comedores.&#10;&#10;La Cocina Económica, que hoy sigue abierta, se encontraba entonces en el número 17 de la calle Sol. Su presidente era el mecenas de Picasso, el doctor Pérez Costales, quien la había refundado después de haber estado cerrada por problemas económicos. Por 20 céntimos se podía comer un menú aceptable: taza de caldo gallego (5 céntimos), 600 gramos de pan (5 céntimos) y bacalao guisado con patatas (10 céntimos). Las raciones se pagaban con bonos: los particulares se los daban a los mendigos, en lugar de limosna en metálico. Seguramente, los mendigos de los cuadros de Picasso frecuentaban estas dos instituciones benéficas.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1895, último ano da súa estancia na cidade, Picasso realiza numerosos retratos de esmoleiros, e exhíbeos mesmo nas súas primeiras exposicións, realizadas na rúa Real. Naquela época, A Coruña contaba con dúas institucións exemplares para atender aos máis desfavorecidos: o Asilo Local da Mendicidade e a Cociña Económica.&#10;&#10;O Asilo Local da Mendicidade estaba situado na rúa do Socorro (hoxe Juan Canalejo). Fundada en 1862 por Juana de Vega, unha das grandes damas coruñesas, contaba con 140 camas e dous comedores.&#10;&#10;A Cociña Económica, que hoxe segue aberta, atopábase entón no número 17 da rúa Sol. O seu presidente era o mecenas de Picasso, o doutor Pérez Costales, quen a refundara despois de estar pechada por problemas económicos. Por 20 céntimos podíase comer un menú aceptable: cunca de caldo galego (5 céntimos), 600 gramos de pan (5 céntimos) e bacallau guisado con patacas (10 céntimos). As racións pagábanse con bonos: os particulares dábanllelos aos esmoleiros, en lugar de esmola en metálico. Seguramente, os esmoleiros dos cadros de Picasso frecuentaban estas dúas institucións benéficas.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1895, his last year in the city, Picasso painted many portraits of beggars, and he even displayed some of them in his first exhibitions held in Calle Real. At the time, A Coruña had two shelters where the down-and-outs were taken care of: the Beggars Home and the Charitable Diner.&#10;&#10;The Beggars Home was located in Calle Socorro (now Calle Juan Canalejo). It had been founded in 1862 by Juana de Vega, one of A Coruña’s great ladies, and had 140 beds and two canteens. The Charitable Diner, still open today, was at 17 Calle Sol. It was chaired by Picasso’s patron, Doctor Pérez Costales, who had re-opened it after a closure due to lack of resources. 20 cents would buy an acceptable menu, consisting of a bowl of Galician stock (5 cents), 600 gr of bread (5 cents) and cooked cod with potatoes (10 cents). Meals were paid for with vouchers, which citizens would give away to beggars, rather than cash. The beggars that appear in Picasso’s paintings were very probably regulars at these two charities.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1895, dernière année passée à La Corogne, avant son départ, Picasso réalisa beaucoup de portraits de mendiants, et il les expose lors de ses premières expositions dans des salles de rue Real. À l'époque, La Corogne disposait de deux institutions exemplaires qui s'occupaient des plus pauvres : l'asile local de la mendicité et la cuisine économique.&#10;&#10;L'asile local de la mendicité se trouvait rue del Socorro (aujourd'hui Juan Canalejo). Fondé en 1862 par Juana de Vega, l'une de grandes dames de La Corogne, disposait de 140 lits et deux salles à manger.&#10;&#10;La cuisine économique, toujours ouverte, se situait à l'époque au 17 rue Sol. Son président était le mécène de Picasso, le docteur Pérez Costales, l'ayant refondée suite à sa clôture pour des raisons économiques. Un menu passable coûtait 20 centimes : une tasse de soupe à la galicienne (5 centimes), 600 grammes de pain (5 centimes) et morue fraîche aux pommes de terres (10 centimes). Les portions étaient payées avec des tickets de ravitaillement : les particuliers en donnaient aux mendiants, au lieu de leur donner de l'argent. À coup sûr, les mendiants des tableaux de Picasso fréquentaient ces deux institutions bénéfiques.
+			</txt_fr>
+						
+		</cuadro>
+
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos></periodicos>
+	
+</ficha>
+</mesa>

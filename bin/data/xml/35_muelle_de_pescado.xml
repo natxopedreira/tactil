@@ -1,0 +1,205 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>35</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>35_MUELES_DE_PESCADO/351-postales-0539-MUELLES-PESCADO.jpg</url>
+			
+			<titulo_cast>El muelle del pescado</titulo_cast>
+			<titulo_gal>O peirao do peixe</titulo_gal>	
+			<titulo_eng>The fish dock</titulo_eng>
+			<titulo_fr>Le quai de poisson</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa de Riazor</titular>
+				<cuerpo>El muelle del pescado, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O peirao do peixe</titular>
+				<cuerpo>O peirao do peixe, ao cabo do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The fish dock</titular>
+				<cuerpo>The fish dock, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Le quai de poisson</titular>
+				<cuerpo>Le quai de poisson, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Antonina Vallentin preguntó a Picasso por la modelo de La muchacha de los pies descalzos. Esto le respondió el maestro malagueño: "Las muchachas pobres de nuestro país van siempre con los pies desnudos y esta pequeña tenía los suyos llenos de sabañones".&#10;&#10;Según Antonio D. Olano, esta muchacha era "hija de pescadores que vendían su mercancía en la lonja". La cría "madrugaba mucho para ayudarlos a la preparación de la mercancía", se extiende este periodista.&#10;&#10;Se supone que Olano se referirá a las niñas jornaleras que trabajan en el muelle del pescado. Algunas de ellas, como se puede comprobar en las fotografías antiguas, iban descalzas.&#10;&#10;En todo caso, la identidad de esta niña sigue siendo un misterio, puesto que aparece también descalza en un cuadro pintado un año antes por Gumersindo Pardo Reguera, y lo hace pelando patatas, como correspondería a la hija de una criada.&#10;&#10;Palau i Fabre, uno de los mejores biógrafos de Picasso, asegura que esta niña fue una modelo pagada por su padre para que Pablo mejorase su técnica.
+			</txt_cast>
+			
+			<txt_gal>
+			Antonina Vallentin preguntou a Picasso pola modelo da rapariga dos pés descalzos. Isto respondeulle o mestre malagueño: "Las muchachas pobres de nuestro país van siempre con los pies desnudos y esta pequeña tenía los suyos llenos de sabañones".&#10;&#10;Segundo Antonio D. Olano, esta rapariga era "filla de pescadores que vendían a súa mercadoría na lonxa", A rapaza "madrugaba moito para axudalos á preparación da mercadoría”, esténdese este xornalista.&#10;&#10;Suponse que Olano se refería ás nenas xornaleiras que traballan no peirao do peixe. Algunhas delas, como se pode comprobar nas fotografías antigas, ían descalzas.&#10;&#10;En todo caso, a identidade desta nena segue sendo un misterio, posto que aparece tamén descalza nun cadro pintado un ano antes por Gumersindo Pardo Reguera, e faino pelando patacas, como correspondería á filla dunha criada.&#10;&#10;Palau i Fabre, un dos mellores biógrafos de Picasso, asegura que esta nena foi unha modelo pagada polo seu pai para que Pablo mellorase a súa técnica.
+			</txt_gal>
+						
+			<txt_eng>
+			Antonina Vallentin once asked Picasso about the model in La muchacha de los pies descalzos (The barefoot girl). The Malaga-born master answered: "Our country’s poor girls are always barefoot, and this one had hers full of chilblains".&#10;&#10;According to Antonio D. Olano, the girl was "the daughter of a fisherman who sold his product at the fish market". The girl "woke up very early in the morning to help them get the stock ready", the journalist explained. Olano is supposed to refer to the day laborer girls who used to work in the fish dock. Some of them used to walk around barefoot, as can be checked in old photographs.&#10;&#10;The girl’s identity, nevertheless, is still a mystery, as she was also depicted one year earlier in a painting by Gumersindo Pardo Reguera, where she appeared peeling potatoes, a task which would correspond to a servant’s daughter.&#10;&#10;Palau i Fabre, one of Picasso’s best biographers, asserts that the girl was a model paid by Pablo’s father so that he could improve his technique.
+			</txt_eng>
+						
+			<txt_fr>
+			Antonina Vallentin s'intéressa à l'identité du modèle qui inspira Les fillettes aux pieds nus. Picasso répondit : "Les fillettes pauvres de notre pays vont toujours pieds nus et cette petite avait les siens avec beaucoup d'engelures".&#10;&#10;Selon Antonio D. Olano, cette femme était "fille de poissonniers qui vendaient leur marchandise à la criée", raconte ce journaliste.&#10;&#10;Probablement, Olano faisait allusion aux filles journalières travaillant au quai du poisson. Certaines d'entre elles, comme il est possible de vérifier sur des photographies anciennes, allaient pieds nus.&#10;&#10;En tout cas, l'identité de cette fille reste un mystère, puisqu'elle parait aussi pieds nus dans un tableau peint une année auparavant par Gumersindo Pardo Reguera, alors qu'elle était en train d'éplucher des pommes, tâche accomplie par les filles des bonnes.&#10;&#10;Palau i Fabre, l'un des meilleurs biographes de Picasso, croit que cette fillette était un modèle payé par son père pour que Picasso puisse améliorer sa technique.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>35_MUELES_DE_PESCADO/352-Postal-0542-MUELLE-PESCADO.jpg</url>
+			
+			<titulo_cast>El muelle del pescado</titulo_cast>
+			<titulo_gal>O peirao do peixe</titulo_gal>	
+			<titulo_eng>The fish dock</titulo_eng>
+			<titulo_fr>Le quai de poisson</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa de Riazor</titular>
+				<cuerpo>El muelle del pescado, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O peirao do peixe</titular>
+				<cuerpo>O peirao do peixe, ao cabo do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The fish dock</titular>
+				<cuerpo>The fish dock, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Le quai de poisson</titular>
+				<cuerpo>Le quai de poisson, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Antonina Vallentin preguntó a Picasso por la modelo de La muchacha de los pies descalzos. Esto le respondió el maestro malagueño: "Las muchachas pobres de nuestro país van siempre con los pies desnudos y esta pequeña tenía los suyos llenos de sabañones".&#10;&#10;Según Antonio D. Olano, esta muchacha era "hija de pescadores que vendían su mercancía en la lonja". La cría "madrugaba mucho para ayudarlos a la preparación de la mercancía", se extiende este periodista.&#10;&#10;Se supone que Olano se referirá a las niñas jornaleras que trabajan en el muelle del pescado. Algunas de ellas, como se puede comprobar en las fotografías antiguas, iban descalzas.&#10;&#10;En todo caso, la identidad de esta niña sigue siendo un misterio, puesto que aparece también descalza en un cuadro pintado un año antes por Gumersindo Pardo Reguera, y lo hace pelando patatas, como correspondería a la hija de una criada.&#10;&#10;Palau i Fabre, uno de los mejores biógrafos de Picasso, asegura que esta niña fue una modelo pagada por su padre para que Pablo mejorase su técnica.
+			</txt_cast>
+			
+			<txt_gal>
+			Antonina Vallentin preguntou a Picasso pola modelo da rapariga dos pés descalzos. Isto respondeulle o mestre malagueño: "Las muchachas pobres de nuestro país van siempre con los pies desnudos y esta pequeña tenía los suyos llenos de sabañones".&#10;&#10;Segundo Antonio D. Olano, esta rapariga era "filla de pescadores que vendían a súa mercadoría na lonxa", A rapaza "madrugaba moito para axudalos á preparación da mercadoría”, esténdese este xornalista.&#10;&#10;Suponse que Olano se refería ás nenas xornaleiras que traballan no peirao do peixe. Algunhas delas, como se pode comprobar nas fotografías antigas, ían descalzas.&#10;&#10;En todo caso, a identidade desta nena segue sendo un misterio, posto que aparece tamén descalza nun cadro pintado un ano antes por Gumersindo Pardo Reguera, e faino pelando patacas, como correspondería á filla dunha criada.&#10;&#10;Palau i Fabre, un dos mellores biógrafos de Picasso, asegura que esta nena foi unha modelo pagada polo seu pai para que Pablo mellorase a súa técnica.
+			</txt_gal>
+						
+			<txt_eng>
+			Antonina Vallentin once asked Picasso about the model in La muchacha de los pies descalzos (The barefoot girl). The Malaga-born master answered: "Our country’s poor girls are always barefoot, and this one had hers full of chilblains".&#10;&#10;According to Antonio D. Olano, the girl was "the daughter of a fisherman who sold his product at the fish market". The girl "woke up very early in the morning to help them get the stock ready", the journalist explained. Olano is supposed to refer to the day laborer girls who used to work in the fish dock. Some of them used to walk around barefoot, as can be checked in old photographs.&#10;&#10;The girl’s identity, nevertheless, is still a mystery, as she was also depicted one year earlier in a painting by Gumersindo Pardo Reguera, where she appeared peeling potatoes, a task which would correspond to a servant’s daughter.&#10;&#10;Palau i Fabre, one of Picasso’s best biographers, asserts that the girl was a model paid by Pablo’s father so that he could improve his technique.
+			</txt_eng>
+						
+			<txt_fr>
+			Antonina Vallentin s'intéressa à l'identité du modèle qui inspira Les fillettes aux pieds nus. Picasso répondit : "Les fillettes pauvres de notre pays vont toujours pieds nus et cette petite avait les siens avec beaucoup d'engelures".&#10;&#10;Selon Antonio D. Olano, cette femme était "fille de poissonniers qui vendaient leur marchandise à la criée", raconte ce journaliste.&#10;&#10;Probablement, Olano faisait allusion aux filles journalières travaillant au quai du poisson. Certaines d'entre elles, comme il est possible de vérifier sur des photographies anciennes, allaient pieds nus.&#10;&#10;En tout cas, l'identité de cette fille reste un mystère, puisqu'elle parait aussi pieds nus dans un tableau peint une année auparavant par Gumersindo Pardo Reguera, alors qu'elle était en train d'éplucher des pommes, tâche accomplie par les filles des bonnes.&#10;&#10;Palau i Fabre, l'un des meilleurs biographes de Picasso, croit que cette fillette était un modèle payé par son père pour que Picasso puisse améliorer sa technique.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,161 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>16</id>
+	<!-- fotografias -->
+	<images>
+		<!--<image tipo="img">
+			<!-- playa -->
+			<url>15_CALLE_REAL/1592  postales 1133 CALLE REAL.jpg</url>
+			
+			<titulo_cast>Calle Real</titulo_cast>
+			<titulo_gal>Calle Real</titulo_gal>	
+			<titulo_eng>Calle Real</titulo_eng>
+			<titulo_fr>Rue Real</titulo_fr>
+			
+			<pie_cast>
+				<titular>Calle Real</titular>
+				<cuerpo>El principio de la calle Real, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Calle Real</titular>
+				<cuerpo> O empezo da rúa Real, á fin do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Calle Real</titular>
+				<cuerpo>The starting point of calle Real, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Calle Real</titular>
+				<cuerpo>Début de la rue Real, à la fin du XIXe siècle-au début du XXe.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Picasso también realizó su segunda exposición en A Coruña. Aunque en la crítica incluida en La Voz de Galicia no se cita el local, su biógrafo John Richardson la sitúa en el número 54 de la calle Real. Hoy día en ese punto se halla un local de la churrería Bonilla. En 1895 había una paragüería.&#10;&#10;Pablo expuso El hombre de la gorra, el retrato de un conocido mendigo de la ciudad. La crítica de La Voz, publicada el 3 de marzo de 1895, fue también buena. Se encuadra en la sección De sol a sol, la dedicada a las noticias locales, esta vez como primera noticia. El hijo de Ruiz Blasco comparte protagonismo con una joven de 11 o 12 años llamada Blanca Villarroel e hija de un teniente coronel. Al contrario que Pablo, Blanca dejaría los pinceles en su juventud. Con este retrato, Picasso insiste en su interés por los mendigos, los desheredados de la tierra, que será una constante en su obra y que por ejemplo aflorará de nuevo en su famosa etapa azul.&#10;&#10;El malagueño conservó El hombre de la gorra en su poder hasta su muerte y actualmente pertenece al Museo Picasso de París. 
+			</txt_cast>
+			
+			<txt_gal>
+			Picasso tamén realizou a súa segunda exposición na Coruña. Aínda que na crítica incluída en La Voz de Galicia non se cita o local, o seu biógrafo John Richardson sitúaa no número 54 da rúa Real. Hoxe en día nese punto áchase un local da churrería Bonilla. En 1895 había unha tenda de paraugas.&#10;&#10;Pablo expuxo O home da gorra, o retrato dun coñecido esmoleiro da cidade. A crítica de La Voz, publicada o 3 de marzo de 1895 e achada por Ángel Padín en 1991, foi tamén boa. Encádrase na sección De sol a sol, dedicada ás noticias locais, esta vez como primeira noticia. O fillo de Ruiz Blasco comparte protagonismo cunha moza de 11 ou 12 anos chamada Blanca Villarroel e filla dun tenente coronel. Ao contrario que Pablo, Blanca deixaría os pinceis na súa mocidade. Con este retrato, Picasso insiste no seu interese polos esmoleiros, os desherdados da terra, que será unha constante na súa obra e que por exemplo aflorará de novo na súa famosa etapa azul.&#10;&#10;O malagueño conservou O home da gorra no seu poder até a súa morte e actualmente pertence ao Museo Picasso de París.
+			</txt_gal>
+						
+			<txt_eng>
+			Picasso’s second exhibition was also held in A Coruña. Although the review published by La Voz de Galicia did not mention its precise location, his biographer John Richardson places it at 54 Calle Real. Today, the ground floor belongs to churrería Bonilla. In 1895, it was taken up by an umbrella store.&#10;&#10;Pablo put on display El hombre de la gorra (The man with the cap), which portrayed a well-known local beggar. La Voz’s review, published on March 3rd, 1895 and found by Ángel Padín in 1991, was positive again. It was included in the De sol a sol section, devoted to local news, as the main piece. Ruiz Blasco’s son shared the central role with a young lady, aged 11 or 12, called Blanca Villarroel, the daughter of a lieutenant colonel. Unlike Pablo, Blanca gave up painting during her youth. With this portrait, Picasso expressed again his interest in beggars and the dispossessed, a constant feature of his career which was to become obvious yet again during his famous blue stage.&#10;&#10;The Malaga-born artist kept El hombre de la gorra with him up until his death. It currently belongs to the Picasso Museum, Paris.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso exposa une deuxième fois à La Corogne. Bien que la critique publiée par La Voz de Galicia ne précise pas dans quelle salle, c'est son biographe, John Richardson, qui la situe au 54 rue Real. Actuellement, ce point abrite le commerce de beignets Bonilla. En 1895, il y avait un magasin de parapluies.&#10;&#10;Pablo exposa L'homme à la casquette, le portrait d'un mendiant très connu de la ville. La critique de La Voz, publiée le 3 mars 1895 et découverte par Ángel Padín, fut aussi positive. Il s'agissait du premier article de la rubrique De sol a sol, dédiée à l'information locale. Le fils de Ruiz Blasco partage le rôle principal avec une jeune fille de 11 ou 12 ans, Blanca Villaroel, fille d'un lieutenant-colonel. Au contraire que Pablo, Blanca laisserait les pinceaux dans sa jeunesse. Avec ce portrait, Picasso se réaffirme dans son intérêt pour les mendiants, les déshérités de la terre, devenant une constante dans son œuvre et que, par exemple, ressortira à nouveau lors de son étape bleue.&#10;&#10;L'artiste de Malaga garda sa peinture L'homme à la casquette avec lui jusqu'à la fin de ses jours et actuellement appartient au Mussé Picasso de Paris.
+			</txt_fr>
+			
+		</image>-->
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>16_CALLE_REAL_54/162-hombre-gorra-PWI-94148-1.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>El hombre de la gorra (1895), de Pablo Ruiz Picasso.&#10;&#10;Cuadro que expuso en su segunda exposición.&#10;&#10;Museo Picasso de París.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>El hombre de la gorra (1895), de Pablo Ruiz Picasso. Cadro que expuxo na súa segunda exposición.&#10;&#10;Museo Picasso de París.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>El hombre de la gorra (The Man with the Cap) (1895), by Pablo Ruiz Picasso.&#10;&#10;Painting displayed in his second exhibition. Museo Picasso de París.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>El hombre de la gorra (1895), de Pablo Ruiz Picasso.&#10;&#10;Tableau exposé lors de sa deuxième exposition.&#10;&#10;Musée Picasso de Paris.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Picasso también realizó su segunda exposición en A Coruña. Aunque en la crítica incluida en La Voz de Galicia no se cita el local, su biógrafo John Richardson la sitúa en el número 54 de la calle Real. Hoy día en ese punto se halla un local de la churrería Bonilla. En 1895 había una paragüería.&#10;&#10;Pablo expuso El hombre de la gorra, el retrato de un conocido mendigo de la ciudad. La crítica de La Voz, publicada el 3 de marzo de 1895, fue también buena. Se encuadra en la sección De sol a sol, la dedicada a las noticias locales, esta vez como primera noticia. El hijo de Ruiz Blasco comparte protagonismo con una joven de 11 o 12 años llamada Blanca Villarroel e hija de un teniente coronel. Al contrario que Pablo, Blanca dejaría los pinceles en su juventud. Con este retrato, Picasso insiste en su interés por los mendigos, los desheredados de la tierra, que será una constante en su obra y que por ejemplo aflorará de nuevo en su famosa etapa azul.&#10;&#10;El malagueño conservó El hombre de la gorra en su poder hasta su muerte y actualmente pertenece al Museo Picasso de París. 
+			</txt_cast>
+			
+			<txt_gal>
+			Picasso tamén realizou a súa segunda exposición na Coruña. Aínda que na crítica incluída en La Voz de Galicia non se cita o local, o seu biógrafo John Richardson sitúaa no número 54 da rúa Real. Hoxe en día nese punto áchase un local da churrería Bonilla. En 1895 había unha tenda de paraugas.&#10;&#10;Pablo expuxo O home da gorra, o retrato dun coñecido esmoleiro da cidade. A crítica de La Voz, publicada o 3 de marzo de 1895 e achada por Ángel Padín en 1991, foi tamén boa. Encádrase na sección De sol a sol, dedicada ás noticias locais, esta vez como primeira noticia. O fillo de Ruiz Blasco comparte protagonismo cunha moza de 11 ou 12 anos chamada Blanca Villarroel e filla dun tenente coronel. Ao contrario que Pablo, Blanca deixaría os pinceis na súa mocidade. Con este retrato, Picasso insiste no seu interese polos esmoleiros, os desherdados da terra, que será unha constante na súa obra e que por exemplo aflorará de novo na súa famosa etapa azul.&#10;&#10;O malagueño conservou O home da gorra no seu poder até a súa morte e actualmente pertence ao Museo Picasso de París.
+			</txt_gal>
+						
+			<txt_eng>
+			Picasso’s second exhibition was also held in A Coruña. Although the review published by La Voz de Galicia did not mention its precise location, his biographer John Richardson places it at 54 Calle Real. Today, the ground floor belongs to churrería Bonilla. In 1895, it was taken up by an umbrella store.&#10;&#10;Pablo put on display El hombre de la gorra (The man with the cap), which portrayed a well-known local beggar. La Voz’s review, published on March 3rd, 1895 and found by Ángel Padín in 1991, was positive again. It was included in the De sol a sol section, devoted to local news, as the main piece. Ruiz Blasco’s son shared the central role with a young lady, aged 11 or 12, called Blanca Villarroel, the daughter of a lieutenant colonel. Unlike Pablo, Blanca gave up painting during her youth. With this portrait, Picasso expressed again his interest in beggars and the dispossessed, a constant feature of his career which was to become obvious yet again during his famous blue stage.&#10;&#10;The Malaga-born artist kept El hombre de la gorra with him up until his death. It currently belongs to the Picasso Museum, Paris.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso exposa une deuxième fois à La Corogne. Bien que la critique publiée par La Voz de Galicia ne précise pas dans quelle salle, c'est son biographe, John Richardson, qui la situe au 54 rue Real. Actuellement, ce point abrite le commerce de beignets Bonilla. En 1895, il y avait un magasin de parapluies.&#10;&#10;Pablo exposa L'homme à la casquette, le portrait d'un mendiant très connu de la ville. La critique de La Voz, publiée le 3 mars 1895 et découverte par Ángel Padín, fut aussi positive. Il s'agissait du premier article de la rubrique De sol a sol, dédiée à l'information locale. Le fils de Ruiz Blasco partage le rôle principal avec une jeune fille de 11 ou 12 ans, Blanca Villaroel, fille d'un lieutenant-colonel. Au contraire que Pablo, Blanca laisserait les pinceaux dans sa jeunesse. Avec ce portrait, Picasso se réaffirme dans son intérêt pour les mendiants, les déshérités de la terre, devenant une constante dans son œuvre et que, par exemple, ressortira à nouveau lors de son étape bleue.&#10;&#10;L'artiste de Malaga garda sa peinture L'homme à la casquette avec lui jusqu'à la fin de ses jours et actuellement appartient au Mussé Picasso de Paris.
+			</txt_fr>
+				
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+						<!-- playa -->
+			<url>16_CALLE_REAL_54/161-critica.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crítica de La Voz de Galicia sobre la segunda exposición de Picasso.&#10;&#10;La Voz de Galicia, 3-3-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crítica de La Voz de Galicia sobre a segunda exposición de Picasso.&#10;&#10;La Voz de Galicia, 3-3-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Voz de Galicia’s review on Picasso’s second exhition.&#10;&#10;La Voz de Galicia, 3-3-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Critique de La Voz de Galicia de la 2e exposition de Picasso.&#10;&#10;La Voz de Galicia, le 3 mars 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Picasso también realizó su segunda exposición en A Coruña. Aunque en la crítica incluida en La Voz de Galicia no se cita el local, su biógrafo John Richardson la sitúa en el número 54 de la calle Real. Hoy día en ese punto se halla un local de la churrería Bonilla. En 1895 había una paragüería.&#10;&#10;Pablo expuso El hombre de la gorra, el retrato de un conocido mendigo de la ciudad. La crítica de La Voz, publicada el 3 de marzo de 1895, fue también buena. Se encuadra en la sección De sol a sol, la dedicada a las noticias locales, esta vez como primera noticia. El hijo de Ruiz Blasco comparte protagonismo con una joven de 11 o 12 años llamada Blanca Villarroel e hija de un teniente coronel. Al contrario que Pablo, Blanca dejaría los pinceles en su juventud. Con este retrato, Picasso insiste en su interés por los mendigos, los desheredados de la tierra, que será una constante en su obra y que por ejemplo aflorará de nuevo en su famosa etapa azul.&#10;&#10;El malagueño conservó El hombre de la gorra en su poder hasta su muerte y actualmente pertenece al Museo Picasso de París. 
+			</txt_cast>
+			
+			<txt_gal>
+			Picasso tamén realizou a súa segunda exposición na Coruña. Aínda que na crítica incluída en La Voz de Galicia non se cita o local, o seu biógrafo John Richardson sitúaa no número 54 da rúa Real. Hoxe en día nese punto áchase un local da churrería Bonilla. En 1895 había unha tenda de paraugas.&#10;&#10;Pablo expuxo O home da gorra, o retrato dun coñecido esmoleiro da cidade. A crítica de La Voz, publicada o 3 de marzo de 1895 e achada por Ángel Padín en 1991, foi tamén boa. Encádrase na sección De sol a sol, dedicada ás noticias locais, esta vez como primeira noticia. O fillo de Ruiz Blasco comparte protagonismo cunha moza de 11 ou 12 anos chamada Blanca Villarroel e filla dun tenente coronel. Ao contrario que Pablo, Blanca deixaría os pinceis na súa mocidade. Con este retrato, Picasso insiste no seu interese polos esmoleiros, os desherdados da terra, que será unha constante na súa obra e que por exemplo aflorará de novo na súa famosa etapa azul.&#10;&#10;O malagueño conservou O home da gorra no seu poder até a súa morte e actualmente pertence ao Museo Picasso de París.
+			</txt_gal>
+						
+			<txt_eng>
+			Picasso’s second exhibition was also held in A Coruña. Although the review published by La Voz de Galicia did not mention its precise location, his biographer John Richardson places it at 54 Calle Real. Today, the ground floor belongs to churrería Bonilla. In 1895, it was taken up by an umbrella store.&#10;&#10;Pablo put on display El hombre de la gorra (The man with the cap), which portrayed a well-known local beggar. La Voz’s review, published on March 3rd, 1895 and found by Ángel Padín in 1991, was positive again. It was included in the De sol a sol section, devoted to local news, as the main piece. Ruiz Blasco’s son shared the central role with a young lady, aged 11 or 12, called Blanca Villarroel, the daughter of a lieutenant colonel. Unlike Pablo, Blanca gave up painting during her youth. With this portrait, Picasso expressed again his interest in beggars and the dispossessed, a constant feature of his career which was to become obvious yet again during his famous blue stage.&#10;&#10;The Malaga-born artist kept El hombre de la gorra with him up until his death. It currently belongs to the Picasso Museum, Paris.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso exposa une deuxième fois à La Corogne. Bien que la critique publiée par La Voz de Galicia ne précise pas dans quelle salle, c'est son biographe, John Richardson, qui la situe au 54 rue Real. Actuellement, ce point abrite le commerce de beignets Bonilla. En 1895, il y avait un magasin de parapluies.&#10;&#10;Pablo exposa L'homme à la casquette, le portrait d'un mendiant très connu de la ville. La critique de La Voz, publiée le 3 mars 1895 et découverte par Ángel Padín, fut aussi positive. Il s'agissait du premier article de la rubrique De sol a sol, dédiée à l'information locale. Le fils de Ruiz Blasco partage le rôle principal avec une jeune fille de 11 ou 12 ans, Blanca Villaroel, fille d'un lieutenant-colonel. Au contraire que Pablo, Blanca laisserait les pinceaux dans sa jeunesse. Avec ce portrait, Picasso se réaffirme dans son intérêt pour les mendiants, les déshérités de la terre, devenant une constante dans son œuvre et que, par exemple, ressortira à nouveau lors de son étape bleue.&#10;&#10;L'artiste de Malaga garda sa peinture L'homme à la casquette avec lui jusqu'à la fin de ses jours et actuellement appartient au Mussé Picasso de Paris.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

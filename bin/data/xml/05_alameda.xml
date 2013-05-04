@@ -1,0 +1,589 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>5</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>05_alameda/51-angeles.jpg</url>
+			
+			<titulo_cast>Ángeles</titulo_cast>
+			<titulo_gal>Ángeles</titulo_gal>	
+			<titulo_eng>Ángeles</titulo_eng>
+			<titulo_fr>Ángeles</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ángeles</titular>
+				<cuerpo>Ángeles Méndez Gil, a los 13 años de edad.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ángeles</titular>
+				<cuerpo>Ángeles Méndez Gil, aos 13 anos de idade.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Riazor beach</titular>
+				<cuerpo>Ángeles Méndez Gil, aged 13.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Plage de Riazor</titular>
+				<cuerpo>Ángeles Méndez Gil, à l'âge de 13 ans.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>05_alameda/53-Maria17dudosiess.jpg</url>
+			
+			<titulo_cast>María Méndez Gil</titulo_cast>
+			<titulo_gal>María Méndez Gil</titulo_gal>	
+			<titulo_eng>María Méndez Gil</titulo_eng>
+			<titulo_fr>María Méndez Gil</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, en su etapa adolescente.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, na súa etapa adolescente.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, as a teenager.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, lors de son adolescence.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>05_alameda/61-plaza-de-Mina.jpg</url>
+			
+			<titulo_cast>Plaza de Mina</titulo_cast>
+			<titulo_gal>Praza de Mina</titulo_gal>	
+			<titulo_eng>Mina square</titulo_eng>
+			<titulo_fr>Place de Mina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Plaza de Mina</titular>
+				<cuerpo>La plaza de Mina, a principios del siglo XIX.&#10;&#10;A la derecha se inicia la calle Alameda.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praza de Mina</titular>
+				<cuerpo>A praza de Mina, ao empezar o século XX.&#10;&#10;Á dereita comeza a rúa Alameda.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Mina square</titular>
+				<cuerpo>Mina square, at the end of the 19th Century.&#10;&#10;Alameda Street starts on the right-hand side.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Place de Mina</titular>
+				<cuerpo>Place de Mina, au début du XIXe siècle.&#10;&#10;À droite, rue Alameda.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>05_alameda/62-plaza-de-Mina-otra.jpg</url>
+			
+			<titulo_cast>Plaza de Mina</titulo_cast>
+			<titulo_gal>Praza de Mina</titulo_gal>	
+			<titulo_eng>Mina square</titulo_eng>
+			<titulo_fr>Place de Mina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Plaza de Mina</titular>
+				<cuerpo>La plaza de Mina, a principios del siglo XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praza de Mina</titular>
+				<cuerpo>A praza de Mina, ao empezar o século XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Mina square</titular>
+				<cuerpo>Mina square, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Place de Mina</titular>
+				<cuerpo>Place de Mina, au début du XIXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>05_alameda/52-ang-MPB_111.jpg</url>
+			
+			<titulo_cast>Niña con la cabeza apoyada en una mano</titulo_cast>
+			<titulo_gal>Niña con la cabeza apoyada en una mano</titulo_gal>	
+			<titulo_eng>Niña con la cabeza apoyada en una mano</titulo_eng>
+			<titulo_fr>Niña con la cabeza apoyada en una mano</titulo_fr>
+			
+			<pie_cast>
+				<titular>Niña con la cabeza apoyada en una mano</titular>
+				<cuerpo>Niña con la cabeza apoyada en una mano (1894), de Pablo Ruiz Picasso.&#10;&#10;Seguramente se trata de Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Niña con la cabeza apoyada en una mano</titular>
+				<cuerpo>Niña con la cabeza apoyada en una mano (1894), de Pablo Ruiz Picasso.&#10;&#10;Trátase seguramente de Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Niña con la cabeza apoyada en una mano</titular>
+				<cuerpo>Niña con la cabeza apoyada en una mano (Girl Holding her Head on her Hand) (1894), by Pablo Ruiz Picasso.&#10;&#10;The girl is very probably Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Niña con la cabeza apoyada en una mano</titular>
+				<cuerpo>Niña con la cabeza apoyada en una mano (1894), de Pablo Ruiz Picasso.&#10;&#10;Sûrement, il s'agit d'Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>05_alameda/54-Maria-Mendez-Pardo-Reguera.jpg</url>
+			
+			<titulo_cast>María Méndez Gil</titulo_cast>
+			<titulo_gal>María Méndez Gil</titulo_gal>	
+			<titulo_eng>María Méndez Gil</titulo_eng>
+			<titulo_fr>María Méndez Gil</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, retratada por Gumersindo Pardo Reguera en 1897.&#10;&#10;Foto: Colección E. Pardo / R. Ventureira.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, retratada por Gumersindo Pardo Reguera en 1897.&#10;&#10;Foto: Colección E. Pardo / R. Ventureira.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, portrayed by Gumersindo Pardo Reguera in 1897.&#10;&#10;Photo: Colección E. Pardo / R. Ventureira.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, portrait de Gumersindo Pardo Reguera en 1897.&#10;&#10;Photographie : Collection E. Pardo / R. Ventureira.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>05_alameda/60-El-Panteon.jpg</url>
+			
+			<titulo_cast>El Panteón</titulo_cast>
+			<titulo_gal>El Panteón</titulo_gal>	
+			<titulo_eng>El Panteón</titulo_eng>
+			<titulo_fr>El Panteón</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Panteón</titular>
+				<cuerpo>El Panteón (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Picasso dibuja un Cupido apuntando a una niña.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>El Panteón</titular>
+				<cuerpo>El Panteón (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Picasso debuxa un Cupido apuntando a unha nena.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>El Panteón</titular>
+				<cuerpo>El Panteón (The Pantheon) (1894-1895), by Pablo Ruiz Picasso.&#10;&#10;Picasso drew a Cupid pointing at a girl.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>El Panteón</titular>
+				<cuerpo>El Panteón (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Picasso dessine un Cupidon pointant à une fille.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>05_alameda/55-Padron-Alameda.jpg</url>
+			
+			<titulo_cast>Hoja del padrón de 1894</titulo_cast>
+			<titulo_gal>Folla do padrón de 1894</titulo_gal>	
+			<titulo_eng>Sheet of the 1894 local register</titulo_eng>
+			<titulo_fr>Feuille du recensement citoyen</titulo_fr>
+			
+			<pie_cast>
+				<titular>Hoja del padrón de 1894</titular>
+				<cuerpo>Hoja del padrón de 1894 en la que aparece&#10;&#10;la familia Méndez Gil en el número 4 de la calle Alameda.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Folla do padrón de 1894</titular>
+				<cuerpo>Folla do padrón de 1894 no que aparece&#10;&#10;a familia Méndez Gil no número 4 da rúa Alameda.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Feuille du recensement citoyen</titular>
+				<cuerpo>Feuille du recensement citoyen municipal&#10;&#10;avec les coordonnées de la famille Méndez Gil: 4 rue Alameda.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Méndez Gil</titular>
+				<cuerpo>María Méndez Gil, portrait de Gumersindo Pardo Reguera en 1897.&#10;&#10;Photographie : Collection E. Pardo / R. Ventureira.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>05_alameda/56-MPB_110_927_P97.jpg</url>
+			
+			<titulo_cast>Literatura preceptiva</titulo_cast>
+			<titulo_gal>Literatura preceptiva</titulo_gal>	
+			<titulo_eng>Preceptive literature</titulo_eng>
+			<titulo_fr>Literatura preceptiva</titulo_fr>
+			
+			<pie_cast>
+				<titular>Literatura preceptiva</titular>
+				<cuerpo>Literatura preceptiva. Retórica y Poética (1893-1894).&#10;&#10;En otro de los libros que Picasso usó en el instituto escribió "Sta. Ángeles Méndez Gil".&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Literatura preceptiva</titular>
+				<cuerpo>Literatura preceptiva. Retórica y Poética (1893-1894).&#10;&#10;Noutro dos libros que Picasso usou no instituto escribiu: "Sta. Ángeles Méndez Gil".&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Preceptive literature</titular>
+				<cuerpo>Literatura preceptiva.&#10;&#10;Retórica y Poética (Preceptive literature. Rhetorics and Poetry) (1893-1894).&#10;&#10;In another book used by Picasso in secondary school, he wrote "Sta. Ángeles Méndez Gil".&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Literatura preceptiva</titular>
+				<cuerpo>Literatura preceptiva. Retórica y Poética (1893-1894).&#10;&#10;Dans un autre de ses livres utilisés à l'institut, Picasso écrivit : "Sta. Ángeles Méndez Gil".&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>05_alameda/57-MPB_110_928_P5.jpg</url>
+			
+			<titulo_cast>Ejercicios de análisis literario</titulo_cast>
+			<titulo_gal>Ejercicios de análisis literario</titulo_gal>	
+			<titulo_eng>Exercises of literary analysis</titulo_eng>
+			<titulo_fr>Ejercicios de análisis literario</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas selectas en prosa&#10;&#10;y composiciones poéticas castellanas (1893-1894).&#10;&#10;Portada de uno de los libros que Picasso estudió en el instituto.&#10;&#10;Incluye anagramas con las iniciales de Pablo Picasso y Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Portada dun dos libros que Picasso estudou no instituto.&#10;&#10;Inclúe anagramas coas iniciais de Pablo Picasso e Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Exercises of literary analysis</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas selectas en prosa&#10;&#10;y composiciones poéticas castellanas&#10;&#10;(Exercises of literary analysis and collection of Castilian selected prose pieces and poetry compositions) (1893-1894).&#10;&#10;Cover book of one of the books that Picasso used in secondary school.&#10;&#10;Anagrams can be seen depicting Pablo Picasso and Ángeles Méndez Gil’s initials.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas selectas en prosa&#10;&#10;y composiciones poéticas castellanas (1893-1894).&#10;&#10;Couverture d'un des manuels d'étude de Picasso à l'institut.&#10;&#10;Le livre inclut des anagrammes avec les initiales de Pablo Picasso et Ángeles Méndez Gil.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>05_alameda/58-MPB_110_928_P646.jpg</url>
+			
+			<titulo_cast>Ejercicios de análisis literario</titulo_cast>
+			<titulo_gal>Ejercicios de análisis literario</titulo_gal>	
+			<titulo_eng>Exercises of literary analysis</titulo_eng>
+			<titulo_fr>Ejercicios de análisis literario</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso escribió su nombre y el de Ángeles junto al de la ciudad (Coruña).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso escribiu o seu nome e o de Ángeles a carón do da cidade (Coruña).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Exercises of literary analysis</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas&#10;&#10;(Exercises of literary analysis and collection of Castilian selected prose pieces and poetry compositions) (1893-1894).&#10;&#10;Picasso wrote his name and Ángeles’ next to that of the city (Coruña).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso écrivit son prénom et celui d'Ángeles à côté de celui de la ville (Coruña).&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>05_alameda/59-MPB110_928_P3.jpg</url>
+			
+			<titulo_cast>Ejercicios de análisis literario</titulo_cast>
+			<titulo_gal>Ejercicios de análisis literario</titulo_gal>	
+			<titulo_eng>Exercises of literary analysis</titulo_eng>
+			<titulo_fr>Ejercicios de análisis literario</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso escribió las iniciales A.G., por Ángeles [Méndez] Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso escribiu as iniciais A.G., por Ángeles [Méndez] Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Exercises of literary analysis</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas&#10;&#10;(Exercises of literary analysis and collection of Castilian selected prose pieces and poetry compositions) (1893-1894).&#10;&#10;Picasso wrote the initials A.G., which stand for Ángeles [Méndez] Gil.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ejercicios de análisis literario</titular>
+				<cuerpo>Ejercicios de análisis literario y colección de piezas&#10;&#10;selectas en prosa y composiciones poéticas castellanas (1893-1894).&#10;&#10;Picasso écrivit les initiales A.G., d'Ángeles [Méndez] Gil.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la calle Alameda, cercana a la residencia de los Ruiz Picasso, vivían las hermanas Méndez Gil, María y Ángeles. María fue compañera de clase de Pablo en el instituto. La criada de la familia la llevaba  al centro educativo junto a su hermana pequeña, Ángeles.&#10;&#10;Picasso se enamoró de Ángeles, a la que regalaba dibujos con palomas que ésta rechazaba. En sus libros de texto del instituto queda constatado ese amor, plasmado en anagramas en los que Pablo une sus iniciales con las de Ángeles. El nombre de María también figura en alguno de estos volúmenes. Descendientes coruñeses de las dos hermanas aseguran que a Pablo le gustaban las dos.&#10;&#10;Las dos muchachas eran hijas de un prestigioso abogado y político de la época, Eduardo Méndez Brandón.
+			</txt_cast>
+			
+			<txt_gal>
+			Na rúa Alameda, próxima á residencia dos Ruiz Picasso, vivían as irmás Méndez Gil, María e Ángeles. María foi compañeira de clase de Pablo no instituto. A criada da familia levábaa ao centro educativo xunto á súa irmá pequena, Ángeles.&#10;&#10;Picasso namorouse de Ángeles, á que regalaba debuxos con pombas que esta rexeitaba. Nos seus libros de texto do instituto queda constatado ese amor, plasmado en anagramas nos que Pablo une as súas iniciais coas de Ángeles. O nome de María tamén figura nalgún destes volumes. Descendentes coruñeses das dúas irmás aseguran que a Pablo lle gustaban as dúas.&#10;&#10;As dúas raparigas eran fillas dun prestixioso avogado e político da época, Eduardo Méndez Brandón.
+			</txt_gal>
+						
+			<txt_eng>
+			The Méndez Gil sisters, María and Ángeles, lived in Alameda Street, near the Ruiz Picassos’ house. María was Pablo’s classmate in secondary school. The family servant used to take her to school along with her little sister, Ángeles.&#10;&#10;Picasso fell in love with Ángeles; he presented her with dove drawings that she rejected. His love is recorded in the school books, captured in anagrams where Pablo wrote his initials and linked them with those of Ángeles. María’s name can also be read in those books. Some of the Coruñan descendants of the sisters have it that Pablo fancied both of them.&#10;&#10;The girls’ father was a respected lawyer and politician of the time called Eduardo Méndez Brandón.
+			</txt_eng>
+						
+			<txt_fr>
+			Près de la maison familiale des Ruiz Picasso, rue Alameda, habitaient les sœurs Méndez Gil, María et Ángeles. María était camarade de classe de Pablo à l'institut. La bonne de la famille l'emmenait en cours, en compagnie de sa sœur cadette Ángeles.&#10;&#10;Picasso tomba amoureux d'Ángeles. Il lui offrait des dessins de colombes qu'elle rejetait. Dans ses livres de texte, Picasso exprima son amour: il dessina des anagrammes avec ses propres initiales et celles d'Ángeles. Le prénom de María apparaît aussi dans l'un de ces manuels. Descendants de La Corogne des deux sœurs trouvent que Pablo aurait tombé amoureux des deux filles.&#10;&#10;À l'époque, le père des fillettes était un prestigieux avocat et politicien, Eduardo Méndez Brandón.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

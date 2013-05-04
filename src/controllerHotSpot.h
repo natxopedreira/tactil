@@ -12,6 +12,12 @@
 #include "hotSpot.h"
 #include "ofxXmlSettings.h"
 
+class customDataEvent{  
+public:  
+    string nombre;  
+    int valor;   
+};
+
 class controllerHotSpot {
     
 public:
@@ -27,6 +33,8 @@ public:
     void    debugOff();
     
     vector<hotSpot> puntos;
+    
+    ofEvent<customDataEvent> verFicha;
     
     int cuantos;
     int idPress;

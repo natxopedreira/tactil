@@ -1,0 +1,489 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>24</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>24_CUARTEL_DE_ATOCHA/242-postal-191-CUARTEL-ALFONSO-XII.jpg</url>
+			
+			<titulo_cast>El cuartel de Atocha</titulo_cast>
+			<titulo_gal>O cuartel de Afonso XII</titulo_gal>	
+			<titulo_eng>The Alfonso XII barracks</titulo_eng>
+			<titulo_fr>Quartier d'Alphonse XIIe</titulo_fr>
+			
+			<pie_cast>
+				<titular>El cuartel de Atocha</titular>
+				<cuerpo>El cuartel de Atocha, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O cuartel de Afonso XII</titular>
+				<cuerpo>O cuartel de Afonso XII (hoxe en día de Atocha) ao remate do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Alfonso XII barracks</titular>
+				<cuerpo>The Alfonso XII barracks (now known as Atocha), circa end of the 19th Century-beginnig of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Quartier d'Alphonse XIIe</titular>
+				<cuerpo>Quartier d'Alphonse XIIe (aujourd'hui quartier d'Atocha), à la fin du XIXe siècle-au début du XXe.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>24_CUARTEL_DE_ATOCHA/243-postales-0189-CAMPO-LENA-Y-CUARTEL.jpg</url>
+			
+			<titulo_cast>El cuartel de Atocha</titulo_cast>
+			<titulo_gal>O cuartel de Afonso XII</titulo_gal>	
+			<titulo_eng>The Alfonso XII barracks</titulo_eng>
+			<titulo_fr>Quartier d'Alphonse XIIe</titulo_fr>
+			
+			<pie_cast>
+				<titular>El cuartel de Atocha</titular>
+				<cuerpo>El cuartel de Atocha y la plaza de España, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O cuartel de Afonso XII</titular>
+				<cuerpo>O cuartel de Afonso XII (hoxe en día de Atocha) e a praza de España (daquela, Campo da Leña), ao remate do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Alfonso XII barracks</titular>
+				<cuerpo>The Alfonso XII barracks (now known as Atocha) and Plaza de España (then called Campo da Leña), circa end of the 19th Century-beginnig of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Quartier d'Alphonse XIIe</titular>
+				<cuerpo>Quartier d'Alphonse XIIe (aujourd'hui quartier d'Atocha) et place d'España (ancienne Campo da Leña), à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+			
+		</image>
+		
+
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/244-MPB_110.jpg</url>
+			
+			<titulo_cast>Escena de una batalla</titulo_cast>
+			<titulo_gal>Escena de una batalla</titulo_gal>	
+			<titulo_eng>Escena de una batalla</titulo_eng>
+			<titulo_fr>Escena de una batalla</titulo_fr>
+			
+			<pie_cast>
+				<titular>Escena de una batalla</titular>
+				<cuerpo>Escena de una batalla (1893-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Escena de una batalla</titular>
+				<cuerpo>Escena de una batalla (Battle Scene) (1893-1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Escena de una batalla</titular>
+				<cuerpo>Escena de una batalla (1893-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Escena de una batalla</titular>
+				<cuerpo>Escena de una batalla (1893-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/245-MPB_111.jpg</url>
+			
+			<titulo_cast>Paisaje con soldado a caballo</titulo_cast>
+			<titulo_gal>Paisaje con soldado a caballo</titulo_gal>	
+			<titulo_eng>Paisaje con soldado a caballo</titulo_eng>
+			<titulo_fr>Paisaje con soldado a caballo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Paisaje con soldado a caballo</titular>
+				<cuerpo>Paisaje con soldado a caballo (2-1-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Paisaje con soldado a caballo</titular>
+				<cuerpo>Paisaje con soldado a caballo (2-1-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Paisaje con soldado a caballo</titular>
+				<cuerpo>Paisaje con soldado a caballo&#10;&#10;(Landscape With a Soldier Riding a Horse) (2-1-1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Paisaje con soldado a caballo</titular>
+				<cuerpo>Paisaje con soldado a caballo (2-1-1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/246-soldados-tienda.jpg</url>
+			
+			<titulo_cast>Soldados bajo una tienda</titulo_cast>
+			<titulo_gal>Soldados bajo una tienda</titulo_gal>	
+			<titulo_eng>Soldados bajo una tienda</titulo_eng>
+			<titulo_fr>Soldados bajo una tienda</titulo_fr>
+			
+			<pie_cast>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Soldados bajo una tienda (1894), de Pablo Ruiz Picasso.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Soldados bajo una tienda (1894), de Pablo Ruiz Picasso.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Soldados bajo una tienda (Soldiers Under a Store) (1894), by Pablo Ruiz Picasso.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Soldados bajo una tienda (1894), de Pablo Ruiz Picasso.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/247-Dos-caballeros.jpg</url>
+			
+			<titulo_cast>Soldados bajo una tienda</titulo_cast>
+			<titulo_gal>Soldados bajo una tienda</titulo_gal>	
+			<titulo_eng>Soldados bajo una tienda</titulo_eng>
+			<titulo_fr>Soldados bajo una tienda</titulo_fr>
+			
+			<pie_cast>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Dos caballeros (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Dos caballeros (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Dos caballeros (Two Gentlemen) (1894), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Soldados bajo una tienda</titular>
+				<cuerpo>Dos caballeros (1894), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/248-La-Batalla.jpg</url>
+			
+			<titulo_cast>La batalla</titulo_cast>
+			<titulo_gal>La batalla</titulo_gal>	
+			<titulo_eng>La batalla</titulo_eng>
+			<titulo_fr>La batalla</titulo_fr>
+			
+			<pie_cast>
+				<titular>La batalla</titular>
+				<cuerpo>La batalla (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La batalla</titular>
+				<cuerpo>La batalla (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La batalla</titular>
+				<cuerpo>La batalla (The Battle) (1894), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La batalla</titular>
+				<cuerpo>La batalla (1894), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/249-Soldado-del-siglo-XVIII.jpg</url>
+			
+			<titulo_cast>Soldado del siglo XVIII</titulo_cast>
+			<titulo_gal>Soldado del siglo XVIII</titulo_gal>	
+			<titulo_eng>Soldado del siglo XVIII</titulo_eng>
+			<titulo_fr>Soldado del siglo XVIII</titulo_fr>
+			
+			<pie_cast>
+				<titular>Soldado del siglo XVIII</titular>
+				<cuerpo>Soldado del siglo XVIII (1894-95), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Soldado del siglo XVIII</titular>
+				<cuerpo>Soldado del siglo XVIII (1894-95), de Pablo Ruiz Picasso. Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Soldado del siglo XVIII</titular>
+				<cuerpo>Soldado del siglo XVIII (18th-Century Soldier) (1894-95), by Pablo Ruiz Picasso. Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Soldado del siglo XVIII</titular>
+				<cuerpo>Soldado del siglo XVIII (1894-95), de Pablo Ruiz Picasso. Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>24_CUARTEL_DE_ATOCHA/250-Personaje-con-pistola-y-espada.jpg</url>
+			
+			<titulo_cast>Personaje con pistola y espada</titulo_cast>
+			<titulo_gal>Personaje con pistola y espada</titulo_gal>	
+			<titulo_eng>Personaje con pistola y espada</titulo_eng>
+			<titulo_fr>Personaje con pistola y espada</titulo_fr>
+			
+			<pie_cast>
+				<titular>Personaje con pistola y espada</titular>
+				<cuerpo>Personaje con pistola y espada (1894-95), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012..</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Personaje con pistola y espada</titular>
+				<cuerpo>Personaje con pistola y espada (1894-95), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Personaje con pistola y espada</titular>
+				<cuerpo>Personaje con pistola y espada (Character Holding a Gun and a Sword) (1894-95), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Personaje con pistola y espada</titular>
+				<cuerpo>Personaje con pistola y espada (1894-95), de Pablo Ruiz Picasso. Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En A Coruña que vivió Picasso había una gran presencia militar.&#10;&#10;Entre los edificios destacaban la Capitanía General; el castillo de San Antón; los cuarteles del Príncipe Alfonso XII, Macanaz y caballería; y el parque de artillería. Tenían su sede en la ciudad regimientos de infantería como el de Zamora (número 8), Murcia (número 37) y Luzón (número 58), o el Batallón Cazadores de Reus número 16.&#10;&#10;El tema militar atrajo a Picasso por varios motivos. Uno de ellos fue que Román Navarro era ayudante de su padre en la Escuela de Bellas Artes. Navarro, que era militar de carrera, realiza numerosas obras de esta temática, que sin duda el pequeño Pablo imita.&#10;&#10;Además, el malagueño realiza en la ciudad varios dibujos sin duda inspirados en la guerra del Riff que se desarrolló entre España y Marruecos en 1893. Juan Picasso y González, primo hermano de María Picasso y tío de Pablo, realiza una acción valerosa, se convertirá en un héroe y recibirá la Laureada de San Fernando.
+			</txt_cast>
+			
+			<txt_gal>
+			Na Coruña que viviu Picasso había unha gran presenza militar.&#10;&#10;Entre os edificios destacaban a Capitanía Xeral; o castelo de Santo Antón; os cuarteis do Príncipe Alfonso XII, Macanaz e cabalaría; e o parque de artillaría. Tiñan a súa sede na cidade rexementos de infantaría como o de Zamora (número 8), Murcia (número 37) e Luzón (número 58), ou o Batallón Cazadores de Reus número 16.&#10;&#10;O tema militar atraeu a Picasso por varios motivos. Un deles foi que Román Navarro era axudante do seu pai na Escola de Belas Artes. Navarro, que era militar de carreira, realiza numerosas obras desta temática, que sen dúbida o pequeno Pablo imita.&#10;&#10;Ademais, o malagueño realiza na cidade varios debuxos sen dúbida inspirados na guerra do Riff que se desenvolveu entre España e Marrocos en 1893. Juan Picasso e González, curmán de María Picasso e tío de Pablo, realiza unha acción valerosa, converterase nun heroe e recibirá a Laureada de San Fernando.
+			</txt_gal>
+						
+			<txt_eng>
+			There was a strong military presence in A Coruña during the Picasso years.&#10;&#10;The major sites were Capitanía General, the San Antón Castle, the Príncipe Alfonso XII barracks, Macanaz and cavalry, and the artillery park. Several infantry regiments, such as Zamora (number 8), Murcia (no. 37) and Luzón (no. 58) were based in the city, as was the battalion called Cazadores de Reus no. 16.&#10;&#10;Picasso felt attracted to the military subject due to several reasons. One was the fact that Román Navarro worked as his father's assistant at the School of Fine Arts. Navarro, a professional military man, used to do paintings around the theme, which little Pablo undoubltedly tried to imitate.&#10;&#10;Besides, while in the city, the Malaga-born painter also did some drawings inspired by the Riff war, in which Spain and Morocco battled each other in 1893. During the conflict, Juan Picasso y González, María Picasso's cousin and Pablo's uncle, became a hero after a brave performance and was awarded the Laureada de San Fernando.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque où Picasso habita à La Corogne, il y avait une présence militaire énorme.&#10;&#10;Parmi les bâtiments, ils ressortissaient l'État-major de la région militaire ; le château de San Antón ; les quartiers du Prince Alphonse XIIe, Macanaz et cavalerie ; et le parc de l'artillerie. Dans la ville, ils avaient leur siège différents régiments d'infanterie comme celui de Zamora (8e), Murcia (37e) et Luzón (58e) ou le Bataillon Chasseurs de Reus (16e).&#10;&#10;La question militaire attira l'attention de Picasso pour des raisons différentes. Román Navarro était l'assistant de son père à l'école de Beaux-Arts. Navarro, étant militaire, réalise de nombreuses œuvres de cette thématique, que le petit artiste imite sans doute.&#10;&#10;En outre, l'artiste de Malaga réalise à La Corogne plusieurs dessins inspirés sans doute de la guerre du Rif, qui eut lieu entre l'Espagne et le Maroc en 1893. Juan Picasso y González, cousin de María Picasso et oncle de Pablo, réalise une action courageuse, il deviendra un héros et recevra la Laureada de San Fernando, la plus haute distinction militaire en Espagne.
+			</txt_fr>
+				
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

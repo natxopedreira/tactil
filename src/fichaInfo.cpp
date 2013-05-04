@@ -61,7 +61,7 @@ fichaInfo::~fichaInfo(){
 
 
 //--------------------------------------------------------------
-void fichaInfo::setup(string _ulrXml){
+void fichaInfo::setup(string _ulrXml, int idXml){
     areaGrande.setup();
     
     fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
@@ -93,16 +93,16 @@ void fichaInfo::setup(string _ulrXml){
 	ofAddListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
     abierta = true;
 
-
-    Tweenzor::add(&anchoGrande, anchoGrande, visualizadorWidth, .3, 1.f, EASE_IN_OUT_CUBIC);
-    Tweenzor::add(&altoGrande, altoGrande, visualizadorheight, .1, 1.f, EASE_IN_OUT_CUBIC);
-	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
     
     
     //cargamos datos
-    cargaXml(_ulrXml);
+    cargaXml(_ulrXml, idXml);
     
-
+    
+    
+    Tweenzor::add(&anchoGrande, anchoGrande, visualizadorWidth, .3, 1.f, EASE_IN_OUT_CUBIC);
+    Tweenzor::add(&altoGrande, altoGrande, visualizadorheight, .1, 1.f, EASE_IN_OUT_CUBIC);
+	Tweenzor::addCompleteListener( Tweenzor::getTween(&anchoGrande), this, &fichaInfo::onCompleteCambio);
 
     ////
     imgBtnClose.loadImage("close.png");
@@ -270,8 +270,13 @@ void fichaInfo::drawSombra(){
 //  callback animacion del inicio
 //--------------------------------------------------------------
 void fichaInfo::onCompleteCambio(float* arg){
+    /// en cuanto se termina la animacion inicial, cambias la seccion
     
-    cambiaSeccion(2); /// en cuanto se termina la animacion inicial, cambias la seccion
+    if (totalImagenes==0) {
+         cambiaSeccion(3);
+    }else{
+        cambiaSeccion(2);
+    }
 }
 
 
@@ -669,10 +674,10 @@ void fichaInfo::construFigura(){
 
 // datos del xml
 //--------------------------------------------------------------
-void fichaInfo::cargaXml(string _ulr){
+void fichaInfo::cargaXml(string _ulr, int idXml){
+    cout << "imagenes " << _ulr << endl;
     
-    
-    int idBuscado = 17;
+    int idBuscado = idXml;
     
     if(datosXml.loadFile(_ulr)){
         //has cargado el xml
@@ -695,7 +700,7 @@ void fichaInfo::cargaXml(string _ulr){
                     //
                     
                     totalImagenes = datosXml.getNumTags("image");
-                    
+                    cout << "imagenes " << totalImagenes << endl;
                     
                     
                     for (int j=0; j<totalImagenes; j++) {
@@ -751,6 +756,10 @@ void fichaInfo::cargaXml(string _ulr){
                     datosXml.pushTag("cuadros");
                     // le pasamos los cuadros al boton correspondiente que es el num 3 del vector
                     totalCuadros = datosXml.getNumTags("cuadro");
+                    
+                     cout << "cuadros " << totalCuadros << endl;
+                    
+                    
                     for (int k=0; k<totalCuadros; k++) {
                         datosXml.pushTag("cuadro", k);
                         rectangulos.at(3)->urls.push_back(datosXml.getValue("url", ""));
@@ -767,7 +776,7 @@ void fichaInfo::cargaXml(string _ulr){
                         
                         
                         
-                        
+                       
                         
                         // comprobamos los pies
                         
@@ -865,6 +874,8 @@ void fichaInfo::cargaXml(string _ulr){
         if(totalCuadros==0)  btnCuadros.desactivate();
         if(totalImagenes==0)  btnImagenes.desactivate();
         if(totalperiodicos==0)  btnPeriodicos.desactivate();
+        
+       
     }
 }
 

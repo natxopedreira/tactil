@@ -1,0 +1,211 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>28</id>
+	<!-- fotografias -->
+	<images>
+	
+		<image tipo="img">
+			<!-- playa -->
+			<url>28_ESTATUA_DANIEL_CARBALLO/281-postales-0405-ESTATUA-DANIEL-CARBALLO.jpg</url>
+			
+			<titulo_cast>Daniel Carballo</titulo_cast>
+			<titulo_gal>Daniel Carballo</titulo_gal>	
+			<titulo_eng>Daniel Carballo</titulo_eng>
+			<titulo_fr>Daniel Carballo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Daniel Carballo</titular>
+				<cuerpo>El monumento a Daniel Carballo, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Daniel Carballo</titular>
+				<cuerpo>O monumento a Daniel Carballo, ao cabo do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Daniel Carballo</titular>
+				<cuerpo>Monument to Daniel Carballo, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Daniel Carballo</titular>
+				<cuerpo>Monument érigé a Daniel Carballo, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La estatua de Daniel Carballo fue inaugurada en 1896, al año siguiente de la marcha de los Ruiz Picasso de A Coruña. Sin embargo, uno de los miembros de la familia, don José Ruiz, colaboró a la construcción de esta pieza situada en los jardines de Méndez Núñez. Lo hizo, en 1894, con una donación de una peseta. También ayudaron otros profesores de la Escuela Provincial de Bellas Artes.&#10;&#10;Fue el Circo de Artesanos el que abrió la campaña de donaciones. En la comisión que se formó para tal fin figuraba el mecenas de Picasso, el doctor Ramón Pérez Costales.&#10;&#10;Daniel Carballo fue un diputado a Cortes impulsó la construcción del ferrocarril del Noroeste, el derribo de las murallas exteriores de la ciudad, la explanación de los terrenos donde se levantó la plaza de María Pita, la aprobación del proyecto del Palacio Municipal, la construcción del muelle y desembarcaderos del puerto, la creación del Instituto de Segunda Enseñanza y la construcción del cuartel de Atocha y el Hospital Militar.
+			</txt_cast>
+			
+			<txt_gal>
+			A estatua de Daniel Carballo foi inaugurada en 1896, ao ano seguinte da marcha dos Ruiz Picasso da Coruña. Con todo, un dos membros da familia, don José Ruiz, colaborou na construción desta peza situada nos xardíns de Méndez Núñez. Fíxoo, en 1894, cunha doazón dunha peseta. Tamén axudaron outros profesores da Escola Provincial de Belas Artes.&#10;&#10;Foi o Circo de Artesáns o que abriu a campaña de doazóns. Na comisión que se formou para tal fin figuraba o mecenas de Picasso, o doutor Ramón Pérez Costales.&#10;&#10;Daniel Carballo foi un deputado a Cortes que impulsou a construción do ferrocarril do Noroeste, a derruba das murallas exteriores da cidade, a explanación dos terreos onde se levantou a praza de María Pita, a aprobación do proxecto do Palacio Municipal, a construción do peirao e desembarcadoiros do porto, a creación do Instituto de Segundo Ensino e a construción do cuartel de Atocha e o Hospital Militar.
+			</txt_gal>
+						
+			<txt_eng>
+			The statue of Daniel Carballo was unveiled in 1896, the year after the Ruiz Picassos left A Coruña. However, one of the family members, José Ruiz, contributed to the the monument’s building in the Méndez Núñez Gardens. He did so by donating one peseta. Other professors at the Provincial School of Fine Arts helped too.&#10;&#10;It was the Circo de Artesanos (Craftsmen Association) that promoted the donation campaign. Picasso’s patron, doctor Ramón Pérez Costales, was one of the members of the comission in charge of the project.&#10;&#10;Daniel Carballo was a Member of Parliament who gave thrust to a number of projects including the construction of the Northwest railway, the demolition of the outer city walls, the preparation of the area where the Plaza de María Pita would be set, the building of the port’s dock and disembarking area, the creation of the Secondary School and the building up of the Atocha barracks and the military hospital.
+			</txt_eng>
+						
+			<txt_fr>
+			La statue de Daniel Carballo fut inaugurée en 1896, l'année suivante au départ des Ruiz Picasso de La Corogne. Cependant, l'un des membres de la famille, Don José Ruiz, collabora dans la construction de cette pièce, située dans les jardins de Méndez Núñez. En 1894, il donna une peseta. D'autres professeurs de l'École provinciale de Beaux-Arts contribuèrent aussi.&#10;&#10;C'est le Circo d'Artisans qui entama la campagne de donations. La commission constituée à ce sujet était intégrée par le mécène de Picasso, le docteur Ramón Pérez Costales.&#10;&#10;Daniel Carballo fut député aux états généraux, poussant la construction du chemin de fer du Nord-ouest, la démolition des remparts extérieurs de la ville, l'aplanissement des terrains de la place de Maria Pita, l'adoption du projet du Palais municipal, la construction du quai et des débarcadères du port, la création de l'Institut d'Enseignement Secondaire et la construction du quartier d'Atocha et de l'Hôpital militaire.
+			</txt_fr>
+			
+		</image>
+			
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+	
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		
+		<periodico tipo="img">
+			<url>28_ESTATUA_DANIEL_CARBALLO/282-donacion-Blasco.jpg</url>
+			
+			<titulo_cast>Ruiz Blasco</titulo_cast>
+			<titulo_gal>Ruiz Blasco</titulo_gal>	
+			<titulo_eng>Ruiz Blasco</titulo_eng>
+			<titulo_fr>Ruiz Blasco</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Página de La Voz de Galicia en la que aparece Ruiz Blasco en la relación de donantes para levantar la estatua a Daniel Carballo.&#10;&#10;La Voz de Galicia, 8-1-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Páxina de La Voz de Galicia na que aparece Ruiz Blasco na relación de donantes para erguer a estatua a Daniel Carballo.&#10;&#10;La Voz de Galicia, 8-1-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Page published in La Voz de Galicia which includes Ruiz Blasco within the list of donors who contributed to the raising of the statue of Daniel Carballo.&#10;&#10;La Voz de Galicia, 8-1-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Page du journal La Voz de Galicia avec la liste de donateurs, Ruiz Blasco entre autres, pour ériger la statue de Daniel Carballo.&#10;&#10;La Voz de Galicia, le 8 janvier 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La estatua de Daniel Carballo fue inaugurada en 1896, al año siguiente de la marcha de los Ruiz Picasso de A Coruña. Sin embargo, uno de los miembros de la familia, don José Ruiz, colaboró a la construcción de esta pieza situada en los jardines de Méndez Núñez. Lo hizo, en 1894, con una donación de una peseta. También ayudaron otros profesores de la Escuela Provincial de Bellas Artes.&#10;&#10;Fue el Circo de Artesanos el que abrió la campaña de donaciones. En la comisión que se formó para tal fin figuraba el mecenas de Picasso, el doctor Ramón Pérez Costales.&#10;&#10;Daniel Carballo fue un diputado a Cortes impulsó la construcción del ferrocarril del Noroeste, el derribo de las murallas exteriores de la ciudad, la explanación de los terrenos donde se levantó la plaza de María Pita, la aprobación del proyecto del Palacio Municipal, la construcción del muelle y desembarcaderos del puerto, la creación del Instituto de Segunda Enseñanza y la construcción del cuartel de Atocha y el Hospital Militar.
+			</txt_cast>
+			
+			<txt_gal>
+			A estatua de Daniel Carballo foi inaugurada en 1896, ao ano seguinte da marcha dos Ruiz Picasso da Coruña. Con todo, un dos membros da familia, don José Ruiz, colaborou na construción desta peza situada nos xardíns de Méndez Núñez. Fíxoo, en 1894, cunha doazón dunha peseta. Tamén axudaron outros profesores da Escola Provincial de Belas Artes.&#10;&#10;Foi o Circo de Artesáns o que abriu a campaña de doazóns. Na comisión que se formou para tal fin figuraba o mecenas de Picasso, o doutor Ramón Pérez Costales.&#10;&#10;Daniel Carballo foi un deputado a Cortes que impulsou a construción do ferrocarril do Noroeste, a derruba das murallas exteriores da cidade, a explanación dos terreos onde se levantou a praza de María Pita, a aprobación do proxecto do Palacio Municipal, a construción do peirao e desembarcadoiros do porto, a creación do Instituto de Segundo Ensino e a construción do cuartel de Atocha e o Hospital Militar.
+			</txt_gal>
+						
+			<txt_eng>
+			The statue of Daniel Carballo was unveiled in 1896, the year after the Ruiz Picassos left A Coruña. However, one of the family members, José Ruiz, contributed to the the monument’s building in the Méndez Núñez Gardens. He did so by donating one peseta. Other professors at the Provincial School of Fine Arts helped too.&#10;&#10;It was the Circo de Artesanos (Craftsmen Association) that promoted the donation campaign. Picasso’s patron, doctor Ramón Pérez Costales, was one of the members of the comission in charge of the project.&#10;&#10;Daniel Carballo was a Member of Parliament who gave thrust to a number of projects including the construction of the Northwest railway, the demolition of the outer city walls, the preparation of the area where the Plaza de María Pita would be set, the building of the port’s dock and disembarking area, the creation of the Secondary School and the building up of the Atocha barracks and the military hospital.
+			</txt_eng>
+						
+			<txt_fr>
+			La statue de Daniel Carballo fut inaugurée en 1896, l'année suivante au départ des Ruiz Picasso de La Corogne. Cependant, l'un des membres de la famille, Don José Ruiz, collabora dans la construction de cette pièce, située dans les jardins de Méndez Núñez. En 1894, il donna une peseta. D'autres professeurs de l'École provinciale de Beaux-Arts contribuèrent aussi.&#10;&#10;C'est le Circo d'Artisans qui entama la campagne de donations. La commission constituée à ce sujet était intégrée par le mécène de Picasso, le docteur Ramón Pérez Costales.&#10;&#10;Daniel Carballo fut député aux états généraux, poussant la construction du chemin de fer du Nord-ouest, la démolition des remparts extérieurs de la ville, l'aplanissement des terrains de la place de Maria Pita, l'adoption du projet du Palais municipal, la construction du quai et des débarcadères du port, la création de l'Institut d'Enseignement Secondaire et la construction du quartier d'Atocha et de l'Hôpital militaire.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>28_ESTATUA_DANIEL_CARBALLO/283a-meritos-Carballo.jpg</url>
+			
+			<titulo_cast>Ruiz Blasco</titulo_cast>
+			<titulo_gal>Ruiz Blasco</titulo_gal>	
+			<titulo_eng>Ruiz Blasco</titulo_eng>
+			<titulo_fr>Ruiz Blasco</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Páginas de La Voz de Galicia en las que se resaltan los méritos de Daniel Carballo.&#10;&#10;La Voz de Galicia, 11-11-1894.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Páxinas de La Voz de Galicia nas que se resaltan os méritos de Daniel Carballo.&#10;&#10;La Voz de Galicia, 11-11-1894</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Pages published in La Voz de Galicia praising Daniel Carballo’s achievements.&#10;&#10;La Voz de Galicia, 11-11-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ruiz Blasco</titular>
+				<cuerpo>Pages du journal La Voz de Galicia, soulignant les mérites de Daniel Carballo.&#10;&#10;La Voz de Galicia, le 11 novembre 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La estatua de Daniel Carballo fue inaugurada en 1896, al año siguiente de la marcha de los Ruiz Picasso de A Coruña. Sin embargo, uno de los miembros de la familia, don José Ruiz, colaboró a la construcción de esta pieza situada en los jardines de Méndez Núñez. Lo hizo, en 1894, con una donación de una peseta. También ayudaron otros profesores de la Escuela Provincial de Bellas Artes.&#10;&#10;Fue el Circo de Artesanos el que abrió la campaña de donaciones. En la comisión que se formó para tal fin figuraba el mecenas de Picasso, el doctor Ramón Pérez Costales.&#10;&#10;Daniel Carballo fue un diputado a Cortes impulsó la construcción del ferrocarril del Noroeste, el derribo de las murallas exteriores de la ciudad, la explanación de los terrenos donde se levantó la plaza de María Pita, la aprobación del proyecto del Palacio Municipal, la construcción del muelle y desembarcaderos del puerto, la creación del Instituto de Segunda Enseñanza y la construcción del cuartel de Atocha y el Hospital Militar.
+			</txt_cast>
+			
+			<txt_gal>
+			A estatua de Daniel Carballo foi inaugurada en 1896, ao ano seguinte da marcha dos Ruiz Picasso da Coruña. Con todo, un dos membros da familia, don José Ruiz, colaborou na construción desta peza situada nos xardíns de Méndez Núñez. Fíxoo, en 1894, cunha doazón dunha peseta. Tamén axudaron outros profesores da Escola Provincial de Belas Artes.&#10;&#10;Foi o Circo de Artesáns o que abriu a campaña de doazóns. Na comisión que se formou para tal fin figuraba o mecenas de Picasso, o doutor Ramón Pérez Costales.&#10;&#10;Daniel Carballo foi un deputado a Cortes que impulsou a construción do ferrocarril do Noroeste, a derruba das murallas exteriores da cidade, a explanación dos terreos onde se levantou a praza de María Pita, a aprobación do proxecto do Palacio Municipal, a construción do peirao e desembarcadoiros do porto, a creación do Instituto de Segundo Ensino e a construción do cuartel de Atocha e o Hospital Militar.
+			</txt_gal>
+						
+			<txt_eng>
+			The statue of Daniel Carballo was unveiled in 1896, the year after the Ruiz Picassos left A Coruña. However, one of the family members, José Ruiz, contributed to the the monument’s building in the Méndez Núñez Gardens. He did so by donating one peseta. Other professors at the Provincial School of Fine Arts helped too.&#10;&#10;It was the Circo de Artesanos (Craftsmen Association) that promoted the donation campaign. Picasso’s patron, doctor Ramón Pérez Costales, was one of the members of the comission in charge of the project.&#10;&#10;Daniel Carballo was a Member of Parliament who gave thrust to a number of projects including the construction of the Northwest railway, the demolition of the outer city walls, the preparation of the area where the Plaza de María Pita would be set, the building of the port’s dock and disembarking area, the creation of the Secondary School and the building up of the Atocha barracks and the military hospital.
+			</txt_eng>
+						
+			<txt_fr>
+			La statue de Daniel Carballo fut inaugurée en 1896, l'année suivante au départ des Ruiz Picasso de La Corogne. Cependant, l'un des membres de la famille, Don José Ruiz, collabora dans la construction de cette pièce, située dans les jardins de Méndez Núñez. En 1894, il donna une peseta. D'autres professeurs de l'École provinciale de Beaux-Arts contribuèrent aussi.&#10;&#10;C'est le Circo d'Artisans qui entama la campagne de donations. La commission constituée à ce sujet était intégrée par le mécène de Picasso, le docteur Ramón Pérez Costales.&#10;&#10;Daniel Carballo fut député aux états généraux, poussant la construction du chemin de fer du Nord-ouest, la démolition des remparts extérieurs de la ville, l'aplanissement des terrains de la place de Maria Pita, l'adoption du projet du Palais municipal, la construction du quai et des débarcadères du port, la création de l'Institut d'Enseignement Secondaire et la construction du quartier d'Atocha et de l'Hôpital militaire.
+			</txt_fr>
+			
+		</periodico>
+		
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,205 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>3</id>
+	<!-- fotografias -->
+	<images>		
+		<image tipo="img">
+			<!-- balneario -->
+			<url>03_SANTA_MARGARITA/32-clichy.jpg</url>
+			
+			<titulo_cast>Estudio en el Bulevar de Clichy</titulo_cast>
+			<titulo_gal>Estudo no Bulevar de Clichy</titulo_gal>	
+			<titulo_eng>Study at the Clichy Boulevard</titulo_eng>
+			<titulo_fr>Studio Boulevard de Clichy</titulo_fr>
+			
+			<pie_cast>
+				<titular>Estudio en el Bulevar de Clichy</titular>
+				<cuerpo>Picasso, en su estudio en el Bulevar de Clichy (París), en 1910.&#10;&#10;Uno de los cuadros que cuelga de la pared es Monte de Santa Margarita.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Estudo no Bulevar de Clichy</titular>
+				<cuerpo>Picasso, no seu estudo no Bulevar de Clichy (París), no 1910.&#10;&#10;Un dos cadros que colga da parede é Monte de Santa Margarita.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Study at the Clichy Boulevard</titular>
+				<cuerpo>Picasso, in his study at the Clichy Boulevard (Paris), in 1910.&#10;&#10;One of the pictures hanging on the wall is Monte de Santa Margarita.&#10;&#10;(Santa Margarita Hill) © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Studio Boulevard de Clichy</titular>
+				<cuerpo>Picasso, dans son studio Boulevard de Clichy (Paris), en 1910.&#10;&#10;L'un des tableaux accrochés au mur est Monte de Santa Margarita.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El monte de Santa Margarita fue uno de los puntos de la ciudad que Picasso pintó al óleo. Lo hizo el año de su marcha, en 1895. Presidiendo el paisaje se halla uno de los molinos que había en la zona. Antes, en 1894, había dibujado en uno de sus cuadernos el camino hacia este monte.&#10;&#10;Santa Margarita era escenario a menudo de uno de los entretenimientos adolescentes y juveniles más de moda de la época: las guerras a pedradas, conocidas como pedreas. Así lo recordará Picasso en los años 20 cuando lo visite en París el coruñés Ramón María Tenreiro.&#10;&#10;La tabla del monte de Santa Margarita es una de las obras coruñesas que le acompañaron durante su vida, de estudio en estudio. Así, en una foto tomada en 1910 en su estudio en el bulevar de Clichy se puede observar esta pequeña obra colgada de una de las paredes.
+			</txt_cast>
+			
+			<txt_gal>
+			O monte de Santa Margarita foi un dos puntos da cidade que Picasso pintou ao óleo. Fíxoo o ano da súa marcha, en 1895. Presidindo a paisaxe áchase un dos muíños que había na zona. Esa táboa é unha das obras coruñesas que lle acompañaron durante a súa vida; así, nunha foto tomada en 1910 no seu estudo no bulevar de Clichy pódese observar esta pequena obra colgada dunha das paredes. Antes, en 1894, debuxara nun dos seus cadernos o camiño cara a este monte.&#10;&#10;Santa Margarita era escenario a miúdo dun dos entretementos adolescentes e xuvenís máis de moda da época: as guerras a pedradas. Así o lembrará Picasso nos anos 20 cando o visite en París o coruñés Ramón María Tenreiro. Na pedra angular, Pardo Bazán fai mención a estas pedreas: "(…) Cada raparigo escondía o seu proxectil no oco da man: máis de doce brazos fixeron á vez o molinete, e unha nube de pedras, vencendo a gravidade, subiu en busca da cabeza do intrépido adaíl. A lei caballeresca das pedreas infantís, que manda non disparar senón ás pernas, alí non se observaba; nin que lei había de observarse con semellante adversario? Pero el, rápido e precavido, esquivou a nube correndo como un gamo á parte oposta do adarve; e sen perder paso nin carreira, fixo o molinete á súa vez, e a pedra, asubiando ao nivel da terra como un réptil, foi a percutir a canela de Cartucho, que exhalou un berro de dor. "Barajitas con ese, que me rompeu a canela! Pedras, puño, pedras nel!".
+			</txt_gal>
+						
+			<txt_eng>
+			Santa Margarita Hill was one of the city spots that Picasso painted in oil. He did so in 1895, the year of this departure. One of the windmills that existed then in the area stands out in the landscape. One year earlier, in 1894, he had drawn the path towards the hill on one of his notebooks.&#10;&#10;Santa Margarita used to be the place for some of the most fashionable youth pastimes of those years: the stone fights. This was recalled by Picasso in the 1920s, when the Coruñan Ramón María Tenreiro visited him in Paris.&#10;&#10;The Santa Margarita Hill board is one of the Coruñan works of art that he took along from one studio to another. Indeed, a picture taken in 1910 inside his studio in Clichy Boulevard shows this small work hanging on a wall.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso peint à l'huile le mont de Santa Margarita de La Corogne en 1895, l'an de son départ. L'un des moulins existants sur les lieux, présidant le paysage. Cette œuvre va accompagner Picasso tout au long de sa vie ; sur une photographie prise en 1910 dans son studio situé boulevard de Clichy, l'on remarque cette petite œuvre accrochée sur l'un des murs. Un an auparavant, en 1894, il avait dessiné le chemin menant au mont.&#10;&#10;À l'époque, Santa Margarita était souvent le théâtre de l'un des passe-temps préférés des adolescents : les affrontements de jets de pierres. Picasso s'en souviendrait encore, lors de la visite à Paris de Ramón María Tenreiro. Emilia Pardo Bazán écrit là-dessus dans La pierre angulaire : (...) Chaque gamin cachait son projectile dans le creux de leur main : plus de douze bras firent au même temps le moulinet, et un nuage de pierres, vaincrant la gravité, monta à la recherche du champion intrépide. La loi de chevalerie des jets de pierre d'enfants, ordonnant tirer dans les jambes, n'était pas respectée là ; quelle loi observer avec cet adversaire? Mais lui, rapide et prévoyant, il évita le nuage et partit en courant comme un zèbre, de l'autre côté du chemin ; et sans perdre un instant, il fit à son tour le moulinet, et la pierre, sifflant au ras de terre comme un reptile, percuta contre la jambe de Cartouche, qui exhala un cri de douleur. "Tapez-le. Il m'a cassé la tibia ! Jetez-lui des pierres, frappez-le !
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>03_SANTA_MARGARITA/31-Santa-Margarita.jpg</url>
+			
+			<titulo_cast>El monte de Santa Margarita</titulo_cast>
+			<titulo_gal>O monte de Santa Margarita</titulo_gal>	
+			<titulo_eng>Santa Margarita Hill</titulo_eng>
+			<titulo_fr>Le mont de Santa Margarita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Monte de Santa Margarita</titular>
+				<cuerpo>Monte de Santa Margarita (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Monte de Santa Margarita</titular>
+				<cuerpo>Monte de Santa Margarita (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Monte de Santa Margarita</titular>
+				<cuerpo>(Santa Margarita Hill) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Monte de Santa Margarita</titular>
+				<cuerpo>Monte de Santa Margarita (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El monte de Santa Margarita fue uno de los puntos de la ciudad que Picasso pintó al óleo. Lo hizo el año de su marcha, en 1895. Presidiendo el paisaje se halla uno de los molinos que había en la zona. Antes, en 1894, había dibujado en uno de sus cuadernos el camino hacia este monte.&#10;&#10;Santa Margarita era escenario a menudo de uno de los entretenimientos adolescentes y juveniles más de moda de la época: las guerras a pedradas, conocidas como pedreas. Así lo recordará Picasso en los años 20 cuando lo visite en París el coruñés Ramón María Tenreiro.&#10;&#10;La tabla del monte de Santa Margarita es una de las obras coruñesas que le acompañaron durante su vida, de estudio en estudio. Así, en una foto tomada en 1910 en su estudio en el bulevar de Clichy se puede observar esta pequeña obra colgada de una de las paredes.
+			</txt_cast>
+			
+			<txt_gal>
+			O monte de Santa Margarita foi un dos puntos da cidade que Picasso pintou ao óleo. Fíxoo o ano da súa marcha, en 1895. Presidindo a paisaxe áchase un dos muíños que había na zona. Esa táboa é unha das obras coruñesas que lle acompañaron durante a súa vida; así, nunha foto tomada en 1910 no seu estudo no bulevar de Clichy pódese observar esta pequena obra colgada dunha das paredes. Antes, en 1894, debuxara nun dos seus cadernos o camiño cara a este monte.&#10;&#10;Santa Margarita era escenario a miúdo dun dos entretementos adolescentes e xuvenís máis de moda da época: as guerras a pedradas. Así o lembrará Picasso nos anos 20 cando o visite en París o coruñés Ramón María Tenreiro. Na pedra angular, Pardo Bazán fai mención a estas pedreas: "(…) Cada raparigo escondía o seu proxectil no oco da man: máis de doce brazos fixeron á vez o molinete, e unha nube de pedras, vencendo a gravidade, subiu en busca da cabeza do intrépido adaíl. A lei caballeresca das pedreas infantís, que manda non disparar senón ás pernas, alí non se observaba; nin que lei había de observarse con semellante adversario? Pero el, rápido e precavido, esquivou a nube correndo como un gamo á parte oposta do adarve; e sen perder paso nin carreira, fixo o molinete á súa vez, e a pedra, asubiando ao nivel da terra como un réptil, foi a percutir a canela de Cartucho, que exhalou un berro de dor. "Barajitas con ese, que me rompeu a canela! Pedras, puño, pedras nel!".
+			</txt_gal>
+						
+			<txt_eng>
+			Santa Margarita Hill was one of the city spots that Picasso painted in oil. He did so in 1895, the year of this departure. One of the windmills that existed then in the area stands out in the landscape. One year earlier, in 1894, he had drawn the path towards the hill on one of his notebooks.&#10;&#10;Santa Margarita used to be the place for some of the most fashionable youth pastimes of those years: the stone fights. This was recalled by Picasso in the 1920s, when the Coruñan Ramón María Tenreiro visited him in Paris.&#10;&#10;The Santa Margarita Hill board is one of the Coruñan works of art that he took along from one studio to another. Indeed, a picture taken in 1910 inside his studio in Clichy Boulevard shows this small work hanging on a wall.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso peint à l'huile le mont de Santa Margarita de La Corogne en 1895, l'an de son départ. L'un des moulins existants sur les lieux, présidant le paysage. Cette œuvre va accompagner Picasso tout au long de sa vie ; sur une photographie prise en 1910 dans son studio situé boulevard de Clichy, l'on remarque cette petite œuvre accrochée sur l'un des murs. Un an auparavant, en 1894, il avait dessiné le chemin menant au mont.&#10;&#10;À l'époque, Santa Margarita était souvent le théâtre de l'un des passe-temps préférés des adolescents : les affrontements de jets de pierres. Picasso s'en souviendrait encore, lors de la visite à Paris de Ramón María Tenreiro. Emilia Pardo Bazán écrit là-dessus dans La pierre angulaire : (...) Chaque gamin cachait son projectile dans le creux de leur main : plus de douze bras firent au même temps le moulinet, et un nuage de pierres, vaincrant la gravité, monta à la recherche du champion intrépide. La loi de chevalerie des jets de pierre d'enfants, ordonnant tirer dans les jambes, n'était pas respectée là ; quelle loi observer avec cet adversaire? Mais lui, rapide et prévoyant, il évita le nuage et partit en courant comme un zèbre, de l'autre côté du chemin ; et sans perdre un instant, il fit à son tour le moulinet, et la pierre, sifflant au ras de terre comme un reptile, percuta contre la jambe de Cartouche, qui exhala un cri de douleur. "Tapez-le. Il m'a cassé la tibia ! Jetez-lui des pierres, frappez-le !
+			</txt_fr>
+		</cuadro>
+	
+	
+		<cuadro tipo="img">
+			<url>03_SANTA_MARGARITA/33-camino-MPB_111.jpg</url>
+									
+			<titulo_cast>Fachada de una casa</titulo_cast>
+			<titulo_gal>Fachada de una casa</titulo_gal>	
+			<titulo_eng>Fachada de una casa</titulo_eng>
+			<titulo_fr>Fachada de una casa</titulo_fr>
+			
+			<pie_cast>
+				<titular>Fachada de una casa</titular>
+				<cuerpo>Fachada de una casa de arrabal (1894), de Pablo Ruiz Picasso.&#10;&#10;El pintor escribe a la derecha "Del camino de Sta. Margarita (Coruña)".&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Fachada de una casa</titular>
+				<cuerpo>Fachada de una casa de arrabal (1894), de Pablo Ruiz Picasso.&#10;&#10;O pintor escribe á dereita "Del camino de Sta. Margarita (Coruña)".&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Fachada de una casa</titular>
+				<cuerpo>Fachada de una casa de arrabal (Façade of a House in the Outskirts) (1894), by Pablo Ruiz Picasso.&#10;&#10;On the right-hand side, the painter wrote "In the path to Sta. Margarita (Coruña)".&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Fachada de una casa de arrabal (1894), de Pablo Ruiz Picasso.&#10;&#10;Le peintre écrit à droite "Del camino de Sta. Margarita (Coruña)".&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El monte de Santa Margarita fue uno de los puntos de la ciudad que Picasso pintó al óleo. Lo hizo el año de su marcha, en 1895. Presidiendo el paisaje se halla uno de los molinos que había en la zona. Antes, en 1894, había dibujado en uno de sus cuadernos el camino hacia este monte.&#10;&#10;Santa Margarita era escenario a menudo de uno de los entretenimientos adolescentes y juveniles más de moda de la época: las guerras a pedradas, conocidas como pedreas. Así lo recordará Picasso en los años 20 cuando lo visite en París el coruñés Ramón María Tenreiro.&#10;&#10;La tabla del monte de Santa Margarita es una de las obras coruñesas que le acompañaron durante su vida, de estudio en estudio. Así, en una foto tomada en 1910 en su estudio en el bulevar de Clichy se puede observar esta pequeña obra colgada de una de las paredes.
+			</txt_cast>
+			
+			<txt_gal>
+			O monte de Santa Margarita foi un dos puntos da cidade que Picasso pintou ao óleo. Fíxoo o ano da súa marcha, en 1895. Presidindo a paisaxe áchase un dos muíños que había na zona. Esa táboa é unha das obras coruñesas que lle acompañaron durante a súa vida; así, nunha foto tomada en 1910 no seu estudo no bulevar de Clichy pódese observar esta pequena obra colgada dunha das paredes. Antes, en 1894, debuxara nun dos seus cadernos o camiño cara a este monte.&#10;&#10;Santa Margarita era escenario a miúdo dun dos entretementos adolescentes e xuvenís máis de moda da época: as guerras a pedradas. Así o lembrará Picasso nos anos 20 cando o visite en París o coruñés Ramón María Tenreiro. Na pedra angular, Pardo Bazán fai mención a estas pedreas: "(…) Cada raparigo escondía o seu proxectil no oco da man: máis de doce brazos fixeron á vez o molinete, e unha nube de pedras, vencendo a gravidade, subiu en busca da cabeza do intrépido adaíl. A lei caballeresca das pedreas infantís, que manda non disparar senón ás pernas, alí non se observaba; nin que lei había de observarse con semellante adversario? Pero el, rápido e precavido, esquivou a nube correndo como un gamo á parte oposta do adarve; e sen perder paso nin carreira, fixo o molinete á súa vez, e a pedra, asubiando ao nivel da terra como un réptil, foi a percutir a canela de Cartucho, que exhalou un berro de dor. "Barajitas con ese, que me rompeu a canela! Pedras, puño, pedras nel!".
+			</txt_gal>
+						
+			<txt_eng>
+			Santa Margarita Hill was one of the city spots that Picasso painted in oil. He did so in 1895, the year of this departure. One of the windmills that existed then in the area stands out in the landscape. One year earlier, in 1894, he had drawn the path towards the hill on one of his notebooks.&#10;&#10;Santa Margarita used to be the place for some of the most fashionable youth pastimes of those years: the stone fights. This was recalled by Picasso in the 1920s, when the Coruñan Ramón María Tenreiro visited him in Paris.&#10;&#10;The Santa Margarita Hill board is one of the Coruñan works of art that he took along from one studio to another. Indeed, a picture taken in 1910 inside his studio in Clichy Boulevard shows this small work hanging on a wall.
+			</txt_eng>
+						
+			<txt_fr>
+			Picasso peint à l'huile le mont de Santa Margarita de La Corogne en 1895, l'an de son départ. L'un des moulins existants sur les lieux, présidant le paysage. Cette œuvre va accompagner Picasso tout au long de sa vie ; sur une photographie prise en 1910 dans son studio situé boulevard de Clichy, l'on remarque cette petite œuvre accrochée sur l'un des murs. Un an auparavant, en 1894, il avait dessiné le chemin menant au mont.&#10;&#10;À l'époque, Santa Margarita était souvent le théâtre de l'un des passe-temps préférés des adolescents : les affrontements de jets de pierres. Picasso s'en souviendrait encore, lors de la visite à Paris de Ramón María Tenreiro. Emilia Pardo Bazán écrit là-dessus dans La pierre angulaire : (...) Chaque gamin cachait son projectile dans le creux de leur main : plus de douze bras firent au même temps le moulinet, et un nuage de pierres, vaincrant la gravité, monta à la recherche du champion intrépide. La loi de chevalerie des jets de pierre d'enfants, ordonnant tirer dans les jambes, n'était pas respectée là ; quelle loi observer avec cet adversaire? Mais lui, rapide et prévoyant, il évita le nuage et partit en courant comme un zèbre, de l'autre côté du chemin ; et sans perdre un instant, il fit à son tour le moulinet, et la pierre, sifflant au ras de terre comme un reptile, percuta contre la jambe de Cartouche, qui exhala un cri de douleur. "Tapez-le. Il m'a cassé la tibia ! Jetez-lui des pierres, frappez-le !
+			</txt_fr>
+						
+		</cuadro>
+
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

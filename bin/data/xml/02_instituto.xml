@@ -1,0 +1,440 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>2</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>02_INSTITUTO/221-instituto.jpg</url>
+			
+			<titulo_cast>Instituto Eusebio da Guarda</titulo_cast>
+			<titulo_gal>Instituto Eusebio da Guarda</titulo_gal>	
+			<titulo_eng>Eusebio da Guarda secondary school</titulo_eng>
+			<titulo_fr>L'institut Eusebio da Guarda</titulo_fr>
+			
+			<pie_cast>
+				<titular>Instituto Eusebio da Guarda</titular>
+				<cuerpo>El instituto, a finales del siglo XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Instituto Eusebio da Guarda</titular>
+				<cuerpo>O instituto, a fin do século XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Eusebio da Guarda secondary school</titular>
+				<cuerpo>The secondary school, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>L'institut Eusebio da Guarda</titular>
+				<cuerpo>L'institut à la fin du XIXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</image>
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>02_INSTITUTO/226-companeros.jpg</url>
+									
+			<titulo_cast>Firmas de los compañeros de Picasso</titulo_cast>
+			<titulo_gal>Sinaturas dos compañeiros de Picasso</titulo_gal>	
+			<titulo_eng>Signatures of Picasso’s classmates</titulo_eng>
+			<titulo_fr>Signatures des camarades de classe de Picasso</titulo_fr>
+			
+			<pie_cast>
+				<titular>Firmas de los compañeros de Picasso</titular>
+				<cuerpo>Firmas de los compañeros de Picasso en una página de un libro que empleó en el instituto.&#10;&#10;Libro Literatura preceptiva: Retórica y Poética, página 182.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Sinaturas dos compañeiros de Picasso</titular>
+				<cuerpo>Sinaturas dos compañeiros de Picasso nunha páxina dun libro que empregou no instituto.&#10;&#10;Libro Literatura preceptiva: Retórica y Poética, páxina 182.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Signatures of Picasso’s classmates</titular>
+				<cuerpo>Signatures of Picasso’s classmates on a book that he used while in secondary school.&#10;&#10;Literatura preceptiva: Retórica y Poética (Preceptive Literature: Rhetorics and Poetry), page 182.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Signatures des camarades de classe de Picasso</titular>
+				<cuerpo>Signatures des camarades de classe de Picasso sur la page d'un livre utilisé en cours.&#10;&#10;Livre Literatura preceptiva: Retórica y Poética, page 182.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/222-Traslado-de-matricula.jpg"</url>
+			
+			<titulo_cast>Traslado de la matrícula de Picasso</titulo_cast>
+			<titulo_gal>Traslado da matrícula de Picasso</titulo_gal>	
+			<titulo_eng>Transfer of Picasso’s enrolment</titulo_eng>
+			<titulo_fr>Picasso s'inscrit à l'institut</titulo_fr>
+			
+			<pie_cast>
+				<titular>Traslado de la matrícula de Picasso</titular>
+				<cuerpo>Traslado de la matrícula de Picasso&#10;&#10;desde el instituto de Málaga al de A Coruña.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña).</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Traslado da matrícula de Picasso</titular>
+				<cuerpo>Traslado da matrícula de Picasso&#10;&#10;do instituto de Málaga ao da Coruña.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña).</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Transfer of Picasso’s enrolment</titular>
+				<cuerpo>Transfer of Picasso’s enrolment&#10;&#10;from his secondary school in Malaga to A Coruña.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Picasso s'inscrit à l'institut</titular>
+				<cuerpo>Picasso s'inscrit à&#10;&#10;l'institut de La Corogne provenant de Malaga.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/223-certificado-oficial-estudios.jpg"</url>
+			
+			<titulo_cast>Certificado oficial de estudios</titulo_cast>
+			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
+			<titulo_eng>Official certificate of education</titulo_eng>
+			<titulo_fr>Certificat d'études</titulo_fr>
+			
+			<pie_cast>
+				<titular>Certificado oficial de estudios</titular>
+				<cuerpo>Certificado oficial de estudios de Pablo Ruiz Picasso.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Certificado oficial de estudos</titular>
+				<cuerpo>Certificado oficial de estudos de Pablo Ruiz Picasso.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Official certificate of education</titular>
+				<cuerpo>Pablo Ruiz Picasso’s official certificate of education.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña).</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Certificat d'études</titular>
+				<cuerpo>Certificat d'études de Pablo Ruiz Picasso.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+	
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/224-pago-al-estado-por-Retorica.jpg"</url>
+			
+			<titulo_cast>Pago al estado por la matriculación</titulo_cast>
+			<titulo_gal>Pago ao Estado pola matriculación</titulo_gal>	
+			<titulo_eng>Enrolment fee payment</titulo_eng>
+			<titulo_fr>Droits d'inscriptions</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pago al estado por la matriculación</titular>
+				<cuerpo>Pago al estado por la matriculación en la asignatura de Historia de España,&#10;&#10;del curso 92-93. Lleva la firma del propio Picasso.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pago ao Estado pola matriculación</titular>
+				<cuerpo>Pago ao Estado pola matriculación na asignatura de Historia de España do curso 92-93.&#10;&#10;Leva a sinatura de Picasso. Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Enrolment fee payment</titular>
+				<cuerpo>Enrolment fee payment for the subject of Spanish History,&#10;&#10;academic year 92-93. It has the signature of Picasso himself.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Paiement à l'État des droits d'inscriptions</titular>
+				<cuerpo>Paiement à l'État des droits d'inscriptions au cours&#10;&#10;d'Histoire de l'Espagne, pour l'année scolaire 92/93, avec la signature de Picasso.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/225-pago-al-estado-por-historia-pablo-firma.jpg"</url>
+			
+			<titulo_cast>Pago al estado por la matriculación</titulo_cast>
+			<titulo_gal>Pago ao Estado pola matriculación</titulo_gal>	
+			<titulo_eng>Enrolment fee payment</titulo_eng>
+			<titulo_fr>Droits d'inscriptions</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pago al estado por la matriculación</titular>
+				<cuerpo>Pago al estado por la matriculación en la asignatura de Retórica y Poética, del curso 93-94.&#10;&#10;Lleva la firma del padre de Picasso.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pago ao Estado pola matriculación</titular>
+				<cuerpo>Pago ao Estado pola matriculación na asignatura de Retórica e Poética do curso 93-94.&#10;&#10;Asinado polo pai de Picasso.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Enrolment fee payment</titular>
+				<cuerpo>Enrolment fee payment for the subject of Rhetorics and Poetry, academic year 93-94.&#10;&#10;It has Picasso’s father’s signature.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Paiement à l'État des droits d'inscriptions</titular>
+				<cuerpo>Paiement à l'État des droits d'inscriptions au cours&#10;&#10;de Rhétorique et de poétique, pour l'année scolaire 93/94,&#10;&#10;avec la signature du père de Picasso.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/227-antonio.jpg"</url>
+			
+			<titulo_cast>Certificado oficial de estudios</titulo_cast>
+			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
+			<titulo_eng>Official certificate of education</titulo_eng>
+			<titulo_fr>Certificat d'études</titulo_fr>
+			
+			<pie_cast>
+				<titular>Certificado oficial de estudios</titular>
+				<cuerpo>Certificado oficial de estudios de Antonio Pardo García&#10;&#10;(después cambió su segundo apellido a Reguera),&#10;&#10;uno de los mejores amigos coruñeses de Picasso.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Certificado oficial de estudos</titular>
+				<cuerpo>Certificado oficial de estudos de Antonio Pardo García&#10;&#10;(despois trocou o seu segundo apelido a Reguera),&#10;&#10;un dos mellores amigos coruñeses de Picasso.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Official certificate of education</titular>
+				<cuerpo>Official certificate of education belonging to Antonio Pardo García&#10;&#10;(who would later change his second surname to Reguera),&#10;&#10;one of Picasso’s best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Certificat d'études</titular>
+				<cuerpo>Certificat d'études d'Antonio Pardo García&#10;&#10;(il changerait plus tard son deuxième nom de famille en Reguera),&#10;&#10;l'un de meilleurs amis de Picasso à La Corogne.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+	
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/228-constantino.jpg"</url>
+			
+			<titulo_cast>Certificado oficial de estudios</titulo_cast>
+			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
+			<titulo_eng>Official certificate of education</titulo_eng>
+			<titulo_fr>Certificat d'études</titulo_fr>
+			
+			<pie_cast>
+				<titular>Certificado oficial de estudios</titular>
+				<cuerpo>Certificado oficial de estudios de Constantino Sardiña Muíños,&#10;&#10;uno de los mejores amigos coruñeses de Picasso.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Certificado oficial de estudos</titular>
+				<cuerpo>Certificado oficial de estudos de Constantino Sardiña Muíños,&#10;&#10;un dos mellores amigos coruñeses de Picasso.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Official certificate of education</titular>
+				<cuerpo>Official certificate of education belonging to Constantino Sardiña Muíños,&#10;&#10;one of Picasso’s best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Certificat d'études</titular>
+				<cuerpo>Certificat d'études de Constantino Sardiña Muíños,&#10;&#10;l'un de meilleurs amis de Picasso à La Corogne.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>
+	
+		<periodico tipo="img">
+			<url>"02_INSTITUTO/229-Maria.jpg"</url>
+			
+			<titulo_cast>Certificado oficial de estudios</titulo_cast>
+			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
+			<titulo_eng>Official certificate of education</titulo_eng>
+			<titulo_fr>Certificat d'études</titulo_fr>
+			
+			<pie_cast>
+				<titular>Certificado oficial de estudios</titular>
+				<cuerpo>Certificado oficial de estudios de María Méndez Gil,&#10;&#10;una de las mejores amigas coruñesas de Picasso y hermana de su querida Ángeles.&#10;&#10;Archivo del Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Certificado oficial de estudos</titular>
+				<cuerpo>Certificado oficial de estudos de María Méndez Gil,&#10;&#10;unha das mellores amigas coruñesas de Picasso e irmá da súa querida Ángeles.&#10;&#10;Arquivo do Instituto Salvador de Madariaga (A Coruña)</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Official certificate of education</titular>
+				<cuerpo>Official certificate of education belonging to María Méndez Gil,&#10;&#10;one of Picasso’s best Coruñan friends and sister of his beloved Ángeles.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Certificat d'études</titular>
+				<cuerpo>Certificat d'études de María Méndez Gil,&#10;&#10;l'une de meilleures amies de Picasso à La Corogne et soeur de sa bien-aimée Ángeles.&#10;&#10;Archives de l'Institut Salvador de Madariaga (La Corogne)</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Instituto Provincial de Segunda Enseñanza ocupaba parte de la primera planta y la segunda del edificio Eusebio da Guarda, mientras que el bajo era en su totalidad para servicio de la Escuela Provincial de Bellas Artes. Pablo estudia en el instituto en los cursos 1891-92, 92-93 y 93-94.&#10;&#10;En el curso 91-92 saca un notable en Geografía en junio y aprueba Latín y Castellano con un bien en septiembre. En el 92-93, logra sendos aprobados en junio en Latín y Castellano e Historia de España. En el 93-94 llega la debacle: en septiembre suspende dos asignaturas (Retórica y Poética e Historia Universal) y aprueba otra (Aritmética y Álgebra), mientras que de Francés no se llega a examinar.&#10;&#10;El edificio del Eusebio da Guarda lo pagó en su integridad el gran benefactor coruñés Eusebio da Guarda, que invirtió un millón de pesetas. Por ello le levantaron en el exterior una estatua, la primera que se erigió en la ciudad.
+			</txt_cast>
+			
+			<txt_gal>
+			O Instituto Provincial de Segundo Ensino ocupaba parte da primeira planta e a segunda do edificio Eusebio da Guarda, mentres que o baixo era na súa totalidade para servizo da Escola Provincial de Belas Artes. Pablo estuda no instituto nos cursos 1891-92, 92-93 e 93-94.&#10;&#10;No curso 91-92 saca un notable en Xeografía en xuño e aproba Latín e Castelán cun ben en setembro. No 92-93, logra senllos aprobados en xuño en Latín e Castelán e Historia de España. No 93-94 chega o desastre: en setembro suspende dúas materias (Retórica e Poética e Historia Universal) e aproba outra (Aritmética e Álxebra), mentres que de Francés non se chega a examinar.&#10;&#10;O edificio do Eusebio da Guarda pagouno na súa integridade o gran benefactor coruñés Eusebio da Guarda, que investiu un millón de pesetas. Por iso levantáronlle no exterior unha estatua, a primeira que se erixiu na cidade.
+			</txt_gal>
+						
+			<txt_eng>
+			The Provincial Secondary School was located on the first and second floors of the Eusebio da Guarda building; the ground floor was entirely devoted to the Provincial School of Fine Arts. Pablo was a student at this school during the academic years 1891-92, 92-93 and 93-94.&#10;&#10;In the course 91-92, he was awarded a B in Geography in June, then in September he passed Latin and Castilian and Spanish History, both with a C. In the academic year 93-94, his marks were a disaster. In September, he failed in two subjects (Rhetorics and Poetry and Universal History) and passed one (Arithmetics and Algebra), while he did not even take the French examination.&#10;&#10;The Eusebio da Guarda building was fully funded by the great Coruñan benefactor Eusebio da Guarda, who invested one million pesetas on it. In appreciation of his generosity, a statue of him was built outside. It was the first one ever erected in the city.  
+			</txt_eng>
+						
+			<txt_fr>
+			L'Institut d'enseignement secondaire occupait une partie du 1re étage et le 2e étage du bâtiment Eusebio da Guarda, tandis que le rez-de-chaussée était destiné dans son intégrité à l'école provinciale des Beaux-Arts. Pablo étudie à l'institut pendant les années scolaires 1891/92, 92/93 et 93/94.&#10;&#10;L'année scolaire 91/92 il a une mention bien en Géographie, en juin, et une mention assez bien en Latin et en Langue espagnole, en septembre. L'année 92-93, il obtient une mention passable, en juin, en Latin, Langue espagnole et Histoire de l'Espagne. Cependant, en 93/94, c'est la catastrophe : il échoue en Rhétorique et poétique et en Histoire universelle et réussit en Arithmétique et algèbre, tandis qu'il ne passe même pas son examen de Français.&#10;&#10;Le bâtiment abritant l'Institut Eusebio da Guarda fut payé par le bienfaiteur de La Corogne Eusebio da Guarda, qui investit un million de pesetas. En signe de remerciement, une statue de lui fut érigée à l'extérieur, la première de la ville.
+			</txt_fr>
+			
+		</periodico>	
+	
+	</periodicos>
+	
+</ficha>
+</mesa>

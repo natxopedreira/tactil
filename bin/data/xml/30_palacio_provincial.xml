@@ -1,0 +1,449 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>30</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/301-Teatro-Principal.jpg</url>
+			
+			<titulo_cast>El Palacio Provincial y Teatro Principal</titulo_cast>
+			<titulo_gal>O Palacio Provincial e Teatro Principal</titulo_gal>	
+			<titulo_eng>The Provincial Palace and the Main Theatre</titulo_eng>
+			<titulo_fr>Palais provincial et Théâtre provincial</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Palacio Provincial y Teatro Principal</titular>
+				<cuerpo>El Palacio Provincial y Teatro Principal, en los años 80 del siglo XIX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O Palacio Provincial e Teatro Principal</titular>
+				<cuerpo>O Palacio Provincial e Teatro Principal, nos anos 80 do século XIX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Provincial Palace and the Main Theatre</titular>
+				<cuerpo>The Provincial Palace and the Main Theatre, in the 1880s.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Palais provincial et Théâtre provincial</titular>
+				<cuerpo>Palais provincial et Théâtre provincial, années 80, du XIXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/303-Ruiz-Blasco.jpg</url>
+			
+			<titulo_cast>José Ruiz Blasco</titulo_cast>
+			<titulo_gal>José Ruiz Blasco</titulo_gal>	
+			<titulo_eng>José Ruiz Blasco</titulo_eng>
+			<titulo_fr>José Ruiz Blasco</titulo_fr>
+			
+			<pie_cast>
+				<titular>José Ruiz Blasco</titular>
+				<cuerpo>Foto de José Ruiz Blasco (Málaga, hacia 1870). Foto realizada por Francisco Rojo e Hijo.&#10;&#10;Colección Rafael Inglada (fondos Blasco-Naranjo).</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>José Ruiz Blasco</titular>
+				<cuerpo>Foto de José Ruiz Blasco (Málaga, cara 1870). Foto realizada por Francisco Rojo e Hijo.&#10;&#10;Colección Rafael Inglada (fondos Blasco-Naranjo).</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>José Ruiz Blasco</titular>
+				<cuerpo>Picture of José Ruiz Blasco (Málaga, circa 1870). Photograph by Rojo e Hijo.&#10;&#10;Rafael Inglada collection (Blasco-Naranjo funds).</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>José Ruiz Blasco</titular>
+				<cuerpo>Photographie de José Ruiz Blasco (Malaga, vers 1870). Photographie réalisée par Francisco Rojo et fils.&#10;&#10;Collection Rafael Inglada (fonds Blasco-Naranjo).</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/306-Manuel-Murguia.jpg</url>
+			
+			<titulo_cast>Manuel Murguía</titulo_cast>
+			<titulo_gal>Manuel Murguía</titulo_gal>	
+			<titulo_eng>Manuel Murguía</titulo_eng>
+			<titulo_fr>Manuel Murguía</titulo_fr>
+			
+			<pie_cast>
+				<titular>Manuel Murguía</titular>
+				<cuerpo>Manuel Murguía. Real Academia Galega.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Manuel Murguía</titular>
+				<cuerpo>Manuel Murguía. Real Academia Galega.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Manuel Murguía</titular>
+				<cuerpo>Manuel Murguía. Royal Galician Academy.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Manuel Murguía</titular>
+				<cuerpo> Manuel Murguía. Royale Académie de Galice.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/305-Eduardo-Pondal.jpg</url>
+			
+			<titulo_cast>Eduardo Pondal</titulo_cast>
+			<titulo_gal>Eduardo Pondal</titulo_gal>	
+			<titulo_eng>Eduardo Pondal</titulo_eng>
+			<titulo_fr>Eduardo Pondal</titulo_fr>
+			
+			<pie_cast>
+				<titular>Eduardo Pondal</titular>
+				<cuerpo>Eduardo Pondal. Real Academia Galega.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Eduardo Pondal</titular>
+				<cuerpo>Eduardo Pondal. Real Academia Galega.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Eduardo Pondal</titular>
+				<cuerpo>Eduardo Pondal. Royal Galician Academy.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Eduardo Pondal</titular>
+				<cuerpo>Eduardo Pondal. Royale Académie de Galice.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/307-Andres-Martinez-Salazar.jpg</url>
+			
+			<titulo_cast>Andrés Martínez Salazar</titulo_cast>
+			<titulo_gal>Andrés Martínez Salazar</titulo_gal>	
+			<titulo_eng>Andrés Martínez Salazar</titulo_eng>
+			<titulo_fr>Andrés Martínez Salazar</titulo_fr>
+			
+			<pie_cast>
+				<titular>Andrés Martínez Salazar</titular>
+				<cuerpo>Andrés Martínez Salazar. Real Academia Galega.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Andrés Martínez Salazar</titular>
+				<cuerpo>Andrés Martínez Salazar. Real Academia Galega.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Andrés Martínez Salazar</titular>
+				<cuerpo>Andrés Martínez Salazar. Royal Galician Academy.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Andrés Martínez Salazar</titular>
+				<cuerpo>Andrés Martínez Salazar. Royale Académie de Galice.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/308-Eugenio-Carre.jpg</url>
+			
+			<titulo_cast>Eugenio Carré</titulo_cast>
+			<titulo_gal>Eugenio Carré</titulo_gal>	
+			<titulo_eng>Eugenio Carré</titulo_eng>
+			<titulo_fr>Eugenio Carré</titulo_fr>
+			
+			<pie_cast>
+				<titular>Eugenio Carré</titular>
+				<cuerpo>Eugenio Carré. Real Academia Galega.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Eugenio Carré</titular>
+				<cuerpo>Eugenio Carré. Real Academia Galega.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Eugenio Carré</titular>
+				<cuerpo>Eugenio Carré. Royal Galician Academy.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Eugenio Carré</titular>
+				<cuerpo>Eugenio Carré. Royale Académie de Galice.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>30_PALACIO_PROVINCIAL/309-Galo-Salinas.jpg</url>
+			
+			<titulo_cast>Galo Salinas</titulo_cast>
+			<titulo_gal>Galo Salinas</titulo_gal>	
+			<titulo_eng>Galo Salinas</titulo_eng>
+			<titulo_fr>Galo Salinas</titulo_fr>
+			
+			<pie_cast>
+				<titular>Galo Salinas</titular>
+				<cuerpo>Galo Salinas. Real Academia Galega.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Galo Salinas</titular>
+				<cuerpo>Galo Salinas. Real Academia Galega.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Galo Salinas</titular>
+				<cuerpo>Galo Salinas. Royal Galician Academy.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Galo Salinas</titular>
+				<cuerpo>Galo Salinas. Royale Académie de Galice.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>30_PALACIO_PROVINCIAL/304-Retrato-Costales-Gumer.jpg</url>
+			
+			<titulo_cast>Ramón Pérez Costales</titulo_cast>
+			<titulo_gal>Ramón Pérez Costales</titulo_gal>	
+			<titulo_eng>Ramón Pérez Costales</titulo_eng>
+			<titulo_fr>Ramón Pérez Costales</titulo_fr>
+			
+			<pie_cast>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), por Gumersindo Pardo Reguera.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), por Gumersindo Pardo Reguera.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (Portrait of Ramón Pérez Costales) (1894), by Gumersindo Pardo Reguera.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Ramón Pérez Costales</titular>
+				<cuerpo>Retrato de Ramón Pérez Costales (1894), par Gumersindo Pardo Reguera.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+						
+		</cuadro>
+
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+		
+			<url>30_PALACIO_PROVINCIAL/302-Real-Academia.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica en La Voz de Galicia de la sesión inaugural de la Real Academia.&#10;&#10;La Voz de Galicia, 19-2-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica en La Voz de Galicia da sesión inaugural da Real Academia.&#10;&#10;La Voz de Galicia, 19-2-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronicle published in La Voz de Galicia on the Royal Academy’s opening session.&#10;&#10;La Voz de Galicia, 19-2-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronique parue dans le journal La Voz de Galicia de la séance inaugurale de l'Académie Royale.&#10;&#10;La Voz de Galicia, le 19 février 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En la época que Picasso vivió en A Coruña, el Palacio Provincial, sede de la Diputación, se hallaba situado en el mismo edificio que el Teatro Principal. En concreto, se situaba en la calle Riego de Agua con esquinas a Real y Bailén por la fachada principal, y a la Marina por la posterior.&#10;&#10En el Palacio Principal se celebró el 17 de febrero de 1895 la sesión inaugural de la Academia Gallega, destinada a ser el motor cultural de la región. Don José Ruiz, un mes y pico después del fallecimiento de su hija Conchita, sale de su abatimiento para asistir a esa reunión. En el edificio de la Diputación se reúnen este domingo desde profesores de Bellas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes de la cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas o Eugenio Carré. Don José Ruiz va de la mano de su amigo Pérez Costales, a quien acompaña también su hijo Modesto Castilla. Finalmente, las divergencias entre Murguía y Pardo Bazán frustrarán el nacimiento de la Real Academia, pero quedará plantada su semilla para su creación en 1906.
+			</txt_cast>
+			
+			<txt_gal>
+			Na época que Picasso viviu na Coruña, o Palacio Provincial, sede da Deputación, achábase situado no mesmo edificio que o Teatro Principal. En concreto, situábase na rúa Rego de Auga con esquinas a Real e Bailén pola fachada principal, e á Mariña pola posterior.&#10;&#10;No Palacio Principal celebrouse o 17 de febreiro de 1895 a sesión inaugural da Academia Galega, destinada a ser o motor cultural da rexión. Don José Ruiz, un mes e pico despois do falecemento da súa filla Conchita, sae do seu abatemento para asistir a esa reunión. No edificio da Deputación reúnense este domingo desde profesores de Belas Artes (Deus, Brocos, Ruiz Blasco) a grandes referentes da cultura, como Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz vai da man do seu amigo Pérez Costales, a quen acompaña tamén o seu fillo Modesto Castilla. Finalmente, as diverxencias entre Murguía e Pardo Bazán frustrarán o nacemento da Real Academia, pero quedará plantada a súa semente para a súa creación en 1906.
+			</txt_gal>
+						
+			<txt_eng>
+			At the time of Picasso’s Coruñan years, the Provicial Palace, the site of the Provincial Council, used to be located in the same building as the Main Theatre. It stood at Calle Riego de Agua with Calle Real and Calle Bailén on the main façade; the back one faced La Marina.&#10;&#10;On February 17th, 1895, the Provincial Palace hosted the opening session of the Galician Academy, which was expected to become the region’s cultural engine. Just over a month after the death of his daughter Conchita, Mr José Ruiz left his bereavement to attend the meeting. That day, the Provincial Council premises witnessed a gathering of Fine Arts professors (Deus, Brocos, Ruiz Blasco) and iconic figures of culture such as Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas and Eugenio Carré. José Ruiz went along with his friend Pérez Costales and the son of the latter, Modesto Castilla. In the end, the opposed approaches by Murguía and Pardo Bazán thwarted the Royal Academy’s birth, but the seed had been sown for its creation in 1906.
+			</txt_eng>
+						
+			<txt_fr>
+			À l'époque de Picasso à La Corogne, le Palais provincial, siège de la Députation, se trouvait dans le même bâtiment du Théâtre provincial. Plus précisément, rue Riego de Agua, donnant sur les rues Réal et Bailén, côté façade de devant, et La Marina, à l'arrière.&#10;&#10;Le Palais provincial accueillit le 17 février 1895 la séance inaugurale de l'Académie Royale de Galice, destinée à devenir le moteur culturel de la région. Don José Ruiz, un mois et quelques après la mort de sa fille Conchita, sort de son abattement pour assister à la réunion. Le bâtiment de la Députation rassemble ce dimanche-là des professeurs de Beaux-Arts (Deus, Brocos, Ruiz Blasco), ainsi que d'autres personnages de la culture : Manuel Murguía, Eduardo Pondal, Martínez Salazar, Galo Salinas ou Eugenio Carré. Don José Ruiz assiste avec son cher ami Pérez Costales, à son tour accompagné de son fils Modesto Castilla.&#10;&#10;Finalement, les divergences entre Murguía et Pardo Bazán font échouer la naissance de la Académie Royale, même si la semence fut déposée pour sa création en 1906.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

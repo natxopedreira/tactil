@@ -1,0 +1,256 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>7</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>07_OBELISCO/71-postales-0088-OBELISCO.jpg</url>
+			
+			<titulo_cast>El Obelisco</titulo_cast>
+			<titulo_gal>O Obelisco</titulo_gal>	
+			<titulo_eng>The Obelisk</titulo_eng>
+			<titulo_fr>L'Obélisque</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Obelisco</titular>
+				<cuerpo>El Obelisco a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O Obelisco</titular>
+				<cuerpo>O Obelisco ao rematar o século XIX ou comezar o XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Obelisk</titular>
+				<cuerpo>The Obelisk, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>L'Obélisque</titular>
+				<cuerpo>L'Obélisque à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Obelisco, uno de los símbolos de A Coruña, se inauguró durante la estancia de Picasso y su familia en la ciudad. Aconteció el 10 de febrero de 1895, justo un mes después de la muerte de la hermana pequeña de Pablo, Conchita.&#10;&#10;La ciudad se engalanó esa mañana de domingo para la inauguración. Pero el agua y el viento deslucieron el acto, hasta el punto que el temporal rompió los paraguas de muchos de los asistentes. Acisclo Campano, el peculiar profesor de Física y Química del instituto, grabó en la base del monumento unas planchas con datos meteorológicos. Acisclo no le dio clase a Picasso, pero este ya de adulto lo recordó con cariño en una conversación en París con Ramón María Tenreiro. El profesor era republicano y amigo de Pérez Costales y de José Ruiz Blasco.&#10;&#10;El Obelisco, que fue erigido en honor del entonces diputado Aureliano Linares Rivas, pasó desde entonces a presidir el Cantón Grande, donde las familias coruñesas exhibían sus mejores galas los domingos.
+			</txt_cast>
+			
+			<txt_gal>
+			O Obelisco, un dos símbolos da Coruña, inaugurouse durante a estancia de Picasso e a súa familia na cidade. Aconteceu o 10 de febreiro de 1895, xusto un mes despois da morte da irmá pequena de Pablo, Conchita.&#10;&#10;A cidade engalanouse esa mañá de domingo para a inauguración. Pero a auga e o vento desluciron o acto, até o punto que o temporal rompeu os paraugas de moitos dos asistentes. Acisclo Campano, o peculiar profesor de Física e Química do instituto, gravou na base do monumento uns ferros con datos meteorolóxicos. Acisclo non lle deu clase a Picasso, pero este xa de adulto lembrouno con agarimo nunha conversa en París con Ramón María Tenreiro. O profesor era republicano e amigo de Pérez Costales e de José Ruiz Blasco.&#10;&#10;O Obelisco, que foi erixido en honra do entón deputado Aureliano Linares Rivas, pasou desde entón a presidir o Cantón Grande, onde as familias coruñesas exhibían as súas mellores galas os domingos.
+			</txt_gal>
+						
+			<txt_eng>
+			The Obelisk, one of the icons of A Coruña, was unveiled when Picasso’s family lived in the city. The opening day was the 10th of February, 1895, exactly one month after the death of Conchita, Pablo’s little sister.&#10;&#10;That Sunday morning, the city got decorated for the unveiling. However, the rain and the wind somehow spoiled the event; the umbrellas of many of the people who attended were broken by the wind gusts. Acisclo Campano, the singular Physics and Chemistry teacher at the secondary school, engraved some planks including meteorological data on the monument’s base. Acisclo was not Picasso’s teacher; nevertheless, he would recall him affectionately later, as an adult, while talking to Ramón María Tenreiro in Paris. The teacher was a republican and a friend of Pérez Costales and José Ruiz Blasco.&#10;&#10;The Obelisk, erected in honor of the then member of Parliament Aureliano Linares Rivas, became a major presence at the Cantón Grande, where Coruñan families would walk around in their best clothes on Sundays.
+			</txt_eng>
+						
+			<txt_fr>
+			L'Obélisque est l'un des symboles de La Corogne. Il fut inauguré pendant le séjour de Picasso et de sa famille dans la ville. L'inauguration eut lieu le 10 février 1895, un mois après la mort de la sœur cadette de Pablo, Conchita.&#10;&#10;La ville se prépara ce dimanche-là pour l'inauguration, mais la pluie et le vent gâchèrent l'acte. Les parapluies de nombreux des assistants cassèrent. Acisclo Campano, un professeur de Physique et de chimie assez bizarre de l'institut, grava sur le socle du monument des données météorologiques. Acisclo ne dispensa pas de cours à Picasso, mais plus tard, l'artiste parlerait avec tendresse de lui à Ramón María Tenreiro. Le professeur était républicain et ami de Pérez Costales et de José Ruiz Blasco.&#10;&#10;L'Obélisque, érigé en honneur du député Aureliano Linares Rivas, préside toujours la rue Cantón Grande, à l'époque point de rencontre des familles de La Corogne, habillées en tenue de soirée pour l'occasion.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>07_OBELISCO/72-Postal-2280-MENDEZ-NUNEZ.jpg</url>
+			
+			<titulo_cast>El Obelisco</titulo_cast>
+			<titulo_gal>O Obelisco</titulo_gal>	
+			<titulo_eng>The Obelisk</titulo_eng>
+			<titulo_fr>L'Obélisque</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Obelisco</titular>
+				<cuerpo>El Obelisco y los jardines de Méndez Núñez, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O Obelisco</titular>
+				<cuerpo>O Obelisco e os xardíns de Méndez Núñez, ao cabo do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Obelisk</titular>
+				<cuerpo>The Obelisk and the Méndez Núñez gardens, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>L'Obélisque</titular>
+				<cuerpo>L'Obélisque et les jardins de Méndez Núñez, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Obelisco, uno de los símbolos de A Coruña, se inauguró durante la estancia de Picasso y su familia en la ciudad. Aconteció el 10 de febrero de 1895, justo un mes después de la muerte de la hermana pequeña de Pablo, Conchita.&#10;&#10;La ciudad se engalanó esa mañana de domingo para la inauguración. Pero el agua y el viento deslucieron el acto, hasta el punto que el temporal rompió los paraguas de muchos de los asistentes. Acisclo Campano, el peculiar profesor de Física y Química del instituto, grabó en la base del monumento unas planchas con datos meteorológicos. Acisclo no le dio clase a Picasso, pero este ya de adulto lo recordó con cariño en una conversación en París con Ramón María Tenreiro. El profesor era republicano y amigo de Pérez Costales y de José Ruiz Blasco.&#10;&#10;El Obelisco, que fue erigido en honor del entonces diputado Aureliano Linares Rivas, pasó desde entonces a presidir el Cantón Grande, donde las familias coruñesas exhibían sus mejores galas los domingos.
+			</txt_cast>
+			
+			<txt_gal>
+			O Obelisco, un dos símbolos da Coruña, inaugurouse durante a estancia de Picasso e a súa familia na cidade. Aconteceu o 10 de febreiro de 1895, xusto un mes despois da morte da irmá pequena de Pablo, Conchita.&#10;&#10;A cidade engalanouse esa mañá de domingo para a inauguración. Pero a auga e o vento desluciron o acto, até o punto que o temporal rompeu os paraugas de moitos dos asistentes. Acisclo Campano, o peculiar profesor de Física e Química do instituto, gravou na base do monumento uns ferros con datos meteorolóxicos. Acisclo non lle deu clase a Picasso, pero este xa de adulto lembrouno con agarimo nunha conversa en París con Ramón María Tenreiro. O profesor era republicano e amigo de Pérez Costales e de José Ruiz Blasco.&#10;&#10;O Obelisco, que foi erixido en honra do entón deputado Aureliano Linares Rivas, pasou desde entón a presidir o Cantón Grande, onde as familias coruñesas exhibían as súas mellores galas os domingos.
+			</txt_gal>
+						
+			<txt_eng>
+			The Obelisk, one of the icons of A Coruña, was unveiled when Picasso’s family lived in the city. The opening day was the 10th of February, 1895, exactly one month after the death of Conchita, Pablo’s little sister.&#10;&#10;That Sunday morning, the city got decorated for the unveiling. However, the rain and the wind somehow spoiled the event; the umbrellas of many of the people who attended were broken by the wind gusts. Acisclo Campano, the singular Physics and Chemistry teacher at the secondary school, engraved some planks including meteorological data on the monument’s base. Acisclo was not Picasso’s teacher; nevertheless, he would recall him affectionately later, as an adult, while talking to Ramón María Tenreiro in Paris. The teacher was a republican and a friend of Pérez Costales and José Ruiz Blasco.&#10;&#10;The Obelisk, erected in honor of the then member of Parliament Aureliano Linares Rivas, became a major presence at the Cantón Grande, where Coruñan families would walk around in their best clothes on Sundays.
+			</txt_eng>
+						
+			<txt_fr>
+			L'Obélisque est l'un des symboles de La Corogne. Il fut inauguré pendant le séjour de Picasso et de sa famille dans la ville. L'inauguration eut lieu le 10 février 1895, un mois après la mort de la sœur cadette de Pablo, Conchita.&#10;&#10;La ville se prépara ce dimanche-là pour l'inauguration, mais la pluie et le vent gâchèrent l'acte. Les parapluies de nombreux des assistants cassèrent. Acisclo Campano, un professeur de Physique et de chimie assez bizarre de l'institut, grava sur le socle du monument des données météorologiques. Acisclo ne dispensa pas de cours à Picasso, mais plus tard, l'artiste parlerait avec tendresse de lui à Ramón María Tenreiro. Le professeur était républicain et ami de Pérez Costales et de José Ruiz Blasco.&#10;&#10;L'Obélisque, érigé en honneur du député Aureliano Linares Rivas, préside toujours la rue Cantón Grande, à l'époque point de rencontre des familles de La Corogne, habillées en tenue de soirée pour l'occasion.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>07_OBELISCO/73-Postal-2277-VISTA-CANTONES.jpg</url>
+			
+			<titulo_cast>El Obelisco</titulo_cast>
+			<titulo_gal>O Obelisco</titulo_gal>	
+			<titulo_eng>The Obelisk</titulo_eng>
+			<titulo_fr>L'Obélisque</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Obelisco</titular>
+				<cuerpo>El Obelisco y el Cantón Grande, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O Obelisco</titular>
+				<cuerpo>O Obelisco e o Cantón Grande, ao cabo do século XIX-comezo do XX&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Obelisk</titular>
+				<cuerpo>The Obelisk and the Cantón Grande, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>L'Obélisque</titular>
+				<cuerpo>L'Obélisque et la rue Cantón Grande, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Obelisco, uno de los símbolos de A Coruña, se inauguró durante la estancia de Picasso y su familia en la ciudad. Aconteció el 10 de febrero de 1895, justo un mes después de la muerte de la hermana pequeña de Pablo, Conchita.&#10;&#10;La ciudad se engalanó esa mañana de domingo para la inauguración. Pero el agua y el viento deslucieron el acto, hasta el punto que el temporal rompió los paraguas de muchos de los asistentes. Acisclo Campano, el peculiar profesor de Física y Química del instituto, grabó en la base del monumento unas planchas con datos meteorológicos. Acisclo no le dio clase a Picasso, pero este ya de adulto lo recordó con cariño en una conversación en París con Ramón María Tenreiro. El profesor era republicano y amigo de Pérez Costales y de José Ruiz Blasco.&#10;&#10;El Obelisco, que fue erigido en honor del entonces diputado Aureliano Linares Rivas, pasó desde entonces a presidir el Cantón Grande, donde las familias coruñesas exhibían sus mejores galas los domingos.
+			</txt_cast>
+			
+			<txt_gal>
+			O Obelisco, un dos símbolos da Coruña, inaugurouse durante a estancia de Picasso e a súa familia na cidade. Aconteceu o 10 de febreiro de 1895, xusto un mes despois da morte da irmá pequena de Pablo, Conchita.&#10;&#10;A cidade engalanouse esa mañá de domingo para a inauguración. Pero a auga e o vento desluciron o acto, até o punto que o temporal rompeu os paraugas de moitos dos asistentes. Acisclo Campano, o peculiar profesor de Física e Química do instituto, gravou na base do monumento uns ferros con datos meteorolóxicos. Acisclo non lle deu clase a Picasso, pero este xa de adulto lembrouno con agarimo nunha conversa en París con Ramón María Tenreiro. O profesor era republicano e amigo de Pérez Costales e de José Ruiz Blasco.&#10;&#10;O Obelisco, que foi erixido en honra do entón deputado Aureliano Linares Rivas, pasou desde entón a presidir o Cantón Grande, onde as familias coruñesas exhibían as súas mellores galas os domingos.
+			</txt_gal>
+						
+			<txt_eng>
+			The Obelisk, one of the icons of A Coruña, was unveiled when Picasso’s family lived in the city. The opening day was the 10th of February, 1895, exactly one month after the death of Conchita, Pablo’s little sister.&#10;&#10;That Sunday morning, the city got decorated for the unveiling. However, the rain and the wind somehow spoiled the event; the umbrellas of many of the people who attended were broken by the wind gusts. Acisclo Campano, the singular Physics and Chemistry teacher at the secondary school, engraved some planks including meteorological data on the monument’s base. Acisclo was not Picasso’s teacher; nevertheless, he would recall him affectionately later, as an adult, while talking to Ramón María Tenreiro in Paris. The teacher was a republican and a friend of Pérez Costales and José Ruiz Blasco.&#10;&#10;The Obelisk, erected in honor of the then member of Parliament Aureliano Linares Rivas, became a major presence at the Cantón Grande, where Coruñan families would walk around in their best clothes on Sundays.
+			</txt_eng>
+						
+			<txt_fr>
+			L'Obélisque est l'un des symboles de La Corogne. Il fut inauguré pendant le séjour de Picasso et de sa famille dans la ville. L'inauguration eut lieu le 10 février 1895, un mois après la mort de la sœur cadette de Pablo, Conchita.&#10;&#10;La ville se prépara ce dimanche-là pour l'inauguration, mais la pluie et le vent gâchèrent l'acte. Les parapluies de nombreux des assistants cassèrent. Acisclo Campano, un professeur de Physique et de chimie assez bizarre de l'institut, grava sur le socle du monument des données météorologiques. Acisclo ne dispensa pas de cours à Picasso, mais plus tard, l'artiste parlerait avec tendresse de lui à Ramón María Tenreiro. Le professeur était républicain et ami de Pérez Costales et de José Ruiz Blasco.&#10;&#10;L'Obélisque, érigé en honneur du député Aureliano Linares Rivas, préside toujours la rue Cantón Grande, à l'époque point de rencontre des familles de La Corogne, habillées en tenue de soirée pour l'occasion.
+			</txt_fr>
+			
+		</image>
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>07_OBELISCO/75-familia-gallega.jpg</url>
+			
+			<titulo_cast>Familia gallega endomingada</titulo_cast>
+			<titulo_gal>Familia gallega endomingada</titulo_gal>	
+			<titulo_eng>Familia gallega endomingada</titulo_eng>
+			<titulo_fr>Familia gallega endomingada</titulo_fr>
+			
+			<pie_cast>
+				<titular>Familia gallega endomingada</titular>
+				<cuerpo>Familia gallega endomingada (1895), de Pablo Ruiz Picasso.&#10;&#10;Las familias coruñesas vestían sus mejores galas los domingos para pasear por los Cantones.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Familia gallega endomingada</titular>
+				<cuerpo>Familia gallega endomingada (1895), de Pablo Ruiz Picasso.&#10;&#10;As familias coruñesas vestían as súas mellores roupas os domingos para pasear polos Cantóns.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Familia gallega endomingada</titular>
+				<cuerpo>Familia gallega endomingada (Galician family on a Sunday) (1895), by Pablo Ruiz Picasso.&#10;&#10;Coruñan families used to dress up in their best clothes and go for a stroll in the Cantones.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Familia gallega endomingada</titular>
+				<cuerpo>Familia gallega endomingada (1895), de Pablo Ruiz Picasso.&#10;&#10;Les familles de La Corogne s'habillaient en tenue de soirée pour se promener dans les rues des Cantones.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Obelisco, uno de los símbolos de A Coruña, se inauguró durante la estancia de Picasso y su familia en la ciudad. Aconteció el 10 de febrero de 1895, justo un mes después de la muerte de la hermana pequeña de Pablo, Conchita.&#10;&#10;La ciudad se engalanó esa mañana de domingo para la inauguración. Pero el agua y el viento deslucieron el acto, hasta el punto que el temporal rompió los paraguas de muchos de los asistentes. Acisclo Campano, el peculiar profesor de Física y Química del instituto, grabó en la base del monumento unas planchas con datos meteorológicos. Acisclo no le dio clase a Picasso, pero este ya de adulto lo recordó con cariño en una conversación en París con Ramón María Tenreiro. El profesor era republicano y amigo de Pérez Costales y de José Ruiz Blasco.&#10;&#10;El Obelisco, que fue erigido en honor del entonces diputado Aureliano Linares Rivas, pasó desde entonces a presidir el Cantón Grande, donde las familias coruñesas exhibían sus mejores galas los domingos.
+			</txt_cast>
+			
+			<txt_gal>
+			O Obelisco, un dos símbolos da Coruña, inaugurouse durante a estancia de Picasso e a súa familia na cidade. Aconteceu o 10 de febreiro de 1895, xusto un mes despois da morte da irmá pequena de Pablo, Conchita.&#10;&#10;A cidade engalanouse esa mañá de domingo para a inauguración. Pero a auga e o vento desluciron o acto, até o punto que o temporal rompeu os paraugas de moitos dos asistentes. Acisclo Campano, o peculiar profesor de Física e Química do instituto, gravou na base do monumento uns ferros con datos meteorolóxicos. Acisclo non lle deu clase a Picasso, pero este xa de adulto lembrouno con agarimo nunha conversa en París con Ramón María Tenreiro. O profesor era republicano e amigo de Pérez Costales e de José Ruiz Blasco.&#10;&#10;O Obelisco, que foi erixido en honra do entón deputado Aureliano Linares Rivas, pasou desde entón a presidir o Cantón Grande, onde as familias coruñesas exhibían as súas mellores galas os domingos.
+			</txt_gal>
+						
+			<txt_eng>
+			The Obelisk, one of the icons of A Coruña, was unveiled when Picasso’s family lived in the city. The opening day was the 10th of February, 1895, exactly one month after the death of Conchita, Pablo’s little sister.&#10;&#10;That Sunday morning, the city got decorated for the unveiling. However, the rain and the wind somehow spoiled the event; the umbrellas of many of the people who attended were broken by the wind gusts. Acisclo Campano, the singular Physics and Chemistry teacher at the secondary school, engraved some planks including meteorological data on the monument’s base. Acisclo was not Picasso’s teacher; nevertheless, he would recall him affectionately later, as an adult, while talking to Ramón María Tenreiro in Paris. The teacher was a republican and a friend of Pérez Costales and José Ruiz Blasco.&#10;&#10;The Obelisk, erected in honor of the then member of Parliament Aureliano Linares Rivas, became a major presence at the Cantón Grande, where Coruñan families would walk around in their best clothes on Sundays.
+			</txt_eng>
+						
+			<txt_fr>
+			L'Obélisque est l'un des symboles de La Corogne. Il fut inauguré pendant le séjour de Picasso et de sa famille dans la ville. L'inauguration eut lieu le 10 février 1895, un mois après la mort de la sœur cadette de Pablo, Conchita.&#10;&#10;La ville se prépara ce dimanche-là pour l'inauguration, mais la pluie et le vent gâchèrent l'acte. Les parapluies de nombreux des assistants cassèrent. Acisclo Campano, un professeur de Physique et de chimie assez bizarre de l'institut, grava sur le socle du monument des données météorologiques. Acisclo ne dispensa pas de cours à Picasso, mais plus tard, l'artiste parlerait avec tendresse de lui à Ramón María Tenreiro. Le professeur était républicain et ami de Pérez Costales et de José Ruiz Blasco.&#10;&#10;L'Obélisque, érigé en honneur du député Aureliano Linares Rivas, préside toujours la rue Cantón Grande, à l'époque point de rencontre des familles de La Corogne, habillées en tenue de soirée pour l'occasion.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>07_OBELISCO/74 Obelisco.jpg</url>
+			
+			<titulo_cast>El Obelisco</titulo_cast>
+			<titulo_gal>O Obelisco</titulo_gal>	
+			<titulo_eng>The Obelisk</titulo_eng>
+			<titulo_fr>L'Obélisque</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre la inauguración del Obelisco.&#10;&#10;La Voz de Galicia, 12-2-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crónica de La Voz de Galicia sobre a inauguración do Obelisco.&#10;&#10;La Voz de Galicia, 12-2-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Voz de Galicia’s chronicle on the unveiling of the Obelisk.&#10;&#10;La Voz de Galicia, 12-2-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Chronique de La Voz de Galicia de la cérémonie d'inauguration de l'Obélisque.&#10;&#10;La Voz de Galicia, le 12 février 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El Obelisco, uno de los símbolos de A Coruña, se inauguró durante la estancia de Picasso y su familia en la ciudad. Aconteció el 10 de febrero de 1895, justo un mes después de la muerte de la hermana pequeña de Pablo, Conchita.&#10;&#10;La ciudad se engalanó esa mañana de domingo para la inauguración. Pero el agua y el viento deslucieron el acto, hasta el punto que el temporal rompió los paraguas de muchos de los asistentes. Acisclo Campano, el peculiar profesor de Física y Química del instituto, grabó en la base del monumento unas planchas con datos meteorológicos. Acisclo no le dio clase a Picasso, pero este ya de adulto lo recordó con cariño en una conversación en París con Ramón María Tenreiro. El profesor era republicano y amigo de Pérez Costales y de José Ruiz Blasco.&#10;&#10;El Obelisco, que fue erigido en honor del entonces diputado Aureliano Linares Rivas, pasó desde entonces a presidir el Cantón Grande, donde las familias coruñesas exhibían sus mejores galas los domingos.
+			</txt_cast>
+			
+			<txt_gal>
+			O Obelisco, un dos símbolos da Coruña, inaugurouse durante a estancia de Picasso e a súa familia na cidade. Aconteceu o 10 de febreiro de 1895, xusto un mes despois da morte da irmá pequena de Pablo, Conchita.&#10;&#10;A cidade engalanouse esa mañá de domingo para a inauguración. Pero a auga e o vento desluciron o acto, até o punto que o temporal rompeu os paraugas de moitos dos asistentes. Acisclo Campano, o peculiar profesor de Física e Química do instituto, gravou na base do monumento uns ferros con datos meteorolóxicos. Acisclo non lle deu clase a Picasso, pero este xa de adulto lembrouno con agarimo nunha conversa en París con Ramón María Tenreiro. O profesor era republicano e amigo de Pérez Costales e de José Ruiz Blasco.&#10;&#10;O Obelisco, que foi erixido en honra do entón deputado Aureliano Linares Rivas, pasou desde entón a presidir o Cantón Grande, onde as familias coruñesas exhibían as súas mellores galas os domingos.
+			</txt_gal>
+						
+			<txt_eng>
+			The Obelisk, one of the icons of A Coruña, was unveiled when Picasso’s family lived in the city. The opening day was the 10th of February, 1895, exactly one month after the death of Conchita, Pablo’s little sister.&#10;&#10;That Sunday morning, the city got decorated for the unveiling. However, the rain and the wind somehow spoiled the event; the umbrellas of many of the people who attended were broken by the wind gusts. Acisclo Campano, the singular Physics and Chemistry teacher at the secondary school, engraved some planks including meteorological data on the monument’s base. Acisclo was not Picasso’s teacher; nevertheless, he would recall him affectionately later, as an adult, while talking to Ramón María Tenreiro in Paris. The teacher was a republican and a friend of Pérez Costales and José Ruiz Blasco.&#10;&#10;The Obelisk, erected in honor of the then member of Parliament Aureliano Linares Rivas, became a major presence at the Cantón Grande, where Coruñan families would walk around in their best clothes on Sundays.
+			</txt_eng>
+						
+			<txt_fr>
+			L'Obélisque est l'un des symboles de La Corogne. Il fut inauguré pendant le séjour de Picasso et de sa famille dans la ville. L'inauguration eut lieu le 10 février 1895, un mois après la mort de la sœur cadette de Pablo, Conchita.&#10;&#10;La ville se prépara ce dimanche-là pour l'inauguration, mais la pluie et le vent gâchèrent l'acte. Les parapluies de nombreux des assistants cassèrent. Acisclo Campano, un professeur de Physique et de chimie assez bizarre de l'institut, grava sur le socle du monument des données météorologiques. Acisclo ne dispensa pas de cours à Picasso, mais plus tard, l'artiste parlerait avec tendresse de lui à Ramón María Tenreiro. Le professeur était républicain et ami de Pérez Costales et de José Ruiz Blasco.&#10;&#10;L'Obélisque, érigé en honneur du député Aureliano Linares Rivas, préside toujours la rue Cantón Grande, à l'époque point de rencontre des familles de La Corogne, habillées en tenue de soirée pour l'occasion.
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

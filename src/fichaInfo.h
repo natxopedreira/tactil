@@ -31,11 +31,11 @@ public:
 	~fichaInfo();
 	//////////////////////////////////////////////////////
     //////////////////////////////////////////////////////
-    void    setup(string _ulrXml);
+    void    setup(string _ulrXml, int idXml);
 	void    update();
 	void    draw();
     void    drawSombra();
-    void    cargaXml(string _ulr);
+    void    cargaXml(string _ulr, int idXml);
     
 	void    _mouseDragged(ofMouseEventArgs &e);
 	void    _mousePressed(ofMouseEventArgs &e);

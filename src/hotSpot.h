@@ -24,6 +24,8 @@ public:
     int dameIndex();
     
     int ancho, alto;   
+    
+    string  urlXml;
 private:
     ofPoint posicion;
     bool editable;

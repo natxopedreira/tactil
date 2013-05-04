@@ -1,0 +1,209 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>9</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>09_CAMINO_NUEVO/94-Postal-1038-CAMINO-NUEVO.jpg</url>
+			
+			<titulo_cast>El Camino Nuevo</titulo_cast>
+			<titulo_gal>O Camiño Novo</titulo_gal>	
+			<titulo_eng>Camino Nuevo</titulo_eng>
+			<titulo_fr>Le Camino Nuevo</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Camino Nuevo</titular>
+				<cuerpo>El Camino Nuevo, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>O Camiño Novo</titular>
+				<cuerpo>O Camiño Novo, ao remate do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino Nuevo</titular>
+				<cuerpo>Camino Nuevo, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Le Camino Nuevo</titular>
+				<cuerpo>Le Camino Nuevo à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A primera hora de la mañana del 4 de febrero de 1894, cinco mozos del barrio de Santa Margarita entraron en la churrería del Camino Nuevo, situada cerca de la vivienda de los Ruiz Picasso. El churrero atendió las sus numerosas peticiones de los chavales, pero cuando llegó la hora de pagar los muchachos se dieron a la fuga. Salió tras ellos, pero los chavales lo amenazaron con una navaja y revólveres. Incluso pegaron algún tiro al aire. El suceso fue muy comentado en la ciudad y captó la atención de Pablo, que dibujó la casa del churrero del Camino Nuevo en el álbum que le acababan de regalar sus padres. Para que quedase claro, añadió información adicional en la trasera del dibujo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;El de la casa del churrero es el segundo dibujo del primer cuaderno de su vida, que inicia el 1 de febrero de 1894. Con ese álbum, Pablo sale a la calle a dibujar al natural. Nace así el Picasso paisajista.
+			</txt_cast>
+			
+			<txt_gal>
+			Á primeira hora da mañá do 4 de febreiro de 1894, cinco mozos do barrio de Santa Margarita entraron na churrería do Camiño Novo, situada preto da vivenda dos Ruiz Picasso. O churreiro atendeu as súas numerosas peticións dos rapaces, pero cando chegou a hora de pagar os rapaces saíron liscando. Saíu tras eles, pero os rapaces ameazárono cunha navalla e revólveres. Mesmo pegaron algún tiro ao aire. O suceso foi moi comentado na cidade e captou a atención de Pablo, que debuxou a casa do churreiro do Camiño Novo no álbum que lle acababan de regalar os seus pais. Para que quedara claro, engadiu información adicional na traseira do debuxo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;O da casa do churreiro é o segundo debuxo do primeiro caderno da súa vida, que inicia o 1 de febreiro de 1894. Con ese álbum, Pablo sae á rúa a debuxar ao natural. Nace así o Picasso paisaxista.
+			</txt_gal>
+						
+			<txt_eng>
+			Early in the morning of the 4th of February, 1894, five young men from the Santa Margarita neighbourhood entered the churrería in Camino Nuevo, near the Ruiz Picassos’ family home. The shopkeeper served their plentiful demands, but when it was time to pay, they ran away. He chased them, but the kids threatened him with a knife and guns. They even fired warning shots. There was much talk in the city about the incident, which also got Pablo’s attention. He drew the churrero’s house on the notebook that he had just been given by his parents. To make it clear, he added some information on the previous drawing’s reverse side. "On the spot / First churrero’s house / At Camino Nuevo (Coruña)".&#10;&#10;That drawing was the second one on his first notebook, which he started off on the 1st of February, 1894. With this album, Pablo began to go out and draw on the spot. The landscapist Picasso was born.
+			</txt_eng>
+						
+			<txt_fr>
+			Au petit matin du 4 février 1894, cinq garçons du quartier de Santa Margarita se rendirent chez le marchand de beignets rue Camino Nuevo, près de la maison des Ruiz Picasso. Le marchand s'occupa de nombreuses demandes de gamins, mais l'heure venue de régler, les garçons s'enfuirent. Le marchand fut même menacé avec un couteau et avec des revolvers. Ils tirèrent dans l'air. L'épisode saisit l'attention de Picasso, et il dessinerait la maison du marchand de beignets rue Camino Nuevo sur l'album que ses parents venaient de lui offrir. Il ajouta quelques informations additionnelles au dos du dessin. "D'après nature/1re maison du marchand de beignets/camino nuevo (Corogne)".&#10;&#10;La maison du marchand de beignets est le deuxième dessin du premier cahier de sa vie, qu'il commence le 1er février 1894. Pablo allait dans les rues dessiner d'après nature sur ce cahier. Picasso venait de naître.
+			</txt_fr>
+			
+		</image>
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<!-- playa -->
+			<url>09_CAMINO_NUEVO/91-churrero-MPB_111.jpg</url>
+			
+			<titulo_cast>Juan Flórez</titulo_cast>
+			<titulo_gal>Juan Flórez</titulo_gal>	
+			<titulo_eng>Juan Flórez</titulo_eng>
+			<titulo_fr>Juan Flórez</titulo_fr>
+			
+			<pie_cast>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Fachada principal de una casa de los arrabales de A Coruña (1894).&#10;&#10;En su trasera pone que es la casa del churrero del Camino Nuevo.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Fachada principal de una casa de los arrabales de A Coruña (1894).&#10;&#10;Na súa traseira identifícaa como a casa do churreiro do Camiño Novo.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Fachada principal de una casa de los arrabales de A Coruña&#10;&#10;(Main Façade of a House in A Coruña’s Outskirts) (1894).&#10;&#10;A text on the reverse side points out that this house belonged to the churrero in Camino Nuevo.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Fachada principal de una casa de los arrabales de A Coruña (1894).&#10;&#10;Maison identifiée au dos comme celle d'un marchand de beignets du Camino Nuevo.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A primera hora de la mañana del 4 de febrero de 1894, cinco mozos del barrio de Santa Margarita entraron en la churrería del Camino Nuevo, situada cerca de la vivienda de los Ruiz Picasso. El churrero atendió las sus numerosas peticiones de los chavales, pero cuando llegó la hora de pagar los muchachos se dieron a la fuga. Salió tras ellos, pero los chavales lo amenazaron con una navaja y revólveres. Incluso pegaron algún tiro al aire. El suceso fue muy comentado en la ciudad y captó la atención de Pablo, que dibujó la casa del churrero del Camino Nuevo en el álbum que le acababan de regalar sus padres. Para que quedase claro, añadió información adicional en la trasera del dibujo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;El de la casa del churrero es el segundo dibujo del primer cuaderno de su vida, que inicia el 1 de febrero de 1894. Con ese álbum, Pablo sale a la calle a dibujar al natural. Nace así el Picasso paisajista.
+			</txt_cast>
+			
+			<txt_gal>
+			Á primeira hora da mañá do 4 de febreiro de 1894, cinco mozos do barrio de Santa Margarita entraron na churrería do Camiño Novo, situada preto da vivenda dos Ruiz Picasso. O churreiro atendeu as súas numerosas peticións dos rapaces, pero cando chegou a hora de pagar os rapaces saíron liscando. Saíu tras eles, pero os rapaces ameazárono cunha navalla e revólveres. Mesmo pegaron algún tiro ao aire. O suceso foi moi comentado na cidade e captou a atención de Pablo, que debuxou a casa do churreiro do Camiño Novo no álbum que lle acababan de regalar os seus pais. Para que quedara claro, engadiu información adicional na traseira do debuxo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;O da casa do churreiro é o segundo debuxo do primeiro caderno da súa vida, que inicia o 1 de febreiro de 1894. Con ese álbum, Pablo sae á rúa a debuxar ao natural. Nace así o Picasso paisaxista.
+			</txt_gal>
+						
+			<txt_eng>
+			Early in the morning of the 4th of February, 1894, five young men from the Santa Margarita neighbourhood entered the churrería in Camino Nuevo, near the Ruiz Picassos’ family home. The shopkeeper served their plentiful demands, but when it was time to pay, they ran away. He chased them, but the kids threatened him with a knife and guns. They even fired warning shots. There was much talk in the city about the incident, which also got Pablo’s attention. He drew the churrero’s house on the notebook that he had just been given by his parents. To make it clear, he added some information on the previous drawing’s reverse side. "On the spot / First churrero’s house / At Camino Nuevo (Coruña)".&#10;&#10;That drawing was the second one on his first notebook, which he started off on the 1st of February, 1894. With this album, Pablo began to go out and draw on the spot. The landscapist Picasso was born.
+			</txt_eng>
+						
+			<txt_fr>
+			Au petit matin du 4 février 1894, cinq garçons du quartier de Santa Margarita se rendirent chez le marchand de beignets rue Camino Nuevo, près de la maison des Ruiz Picasso. Le marchand s'occupa de nombreuses demandes de gamins, mais l'heure venue de régler, les garçons s'enfuirent. Le marchand fut même menacé avec un couteau et avec des revolvers. Ils tirèrent dans l'air. L'épisode saisit l'attention de Picasso, et il dessinerait la maison du marchand de beignets rue Camino Nuevo sur l'album que ses parents venaient de lui offrir. Il ajouta quelques informations additionnelles au dos du dessin. "D'après nature/1re maison du marchand de beignets/camino nuevo (Corogne)".&#10;&#10;La maison du marchand de beignets est le deuxième dessin du premier cahier de sa vie, qu'il commence le 1er février 1894. Pablo allait dans les rues dessiner d'après nature sur ce cahier. Picasso venait de naître.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<!-- playa -->
+			<url>09_CAMINO_NUEVO/92-casa-texto-MPB_111.jpg</url>
+			
+			<titulo_cast>Juan Flórez</titulo_cast>
+			<titulo_gal>Juan Flórez</titulo_gal>	
+			<titulo_eng>Juan Flórez</titulo_eng>
+			<titulo_fr>Juan Flórez</titulo_fr>
+			
+			<pie_cast>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Trasera de un dibujo donde se lee&#10;&#10;"Del natural/1ª casa del churrero (1) / Del camino nuevo (Coruña) / (1) 7c.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Traseira dun debuxo no que se le&#10;&#10;"Del natural/1ª casa del churrero (1) / Del camino nuevo (Coruña) / (1) 7c.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Reverse side of a drawing, which reads&#10;&#10;"On the spot / First churrero’s house (1) / At Camino Nuevo (Coruña) / (1) 7c.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Juan Flórez</titular>
+				<cuerpo>Au dos du dessin, écrit à la main&#10;&#10;"Del natural/1ª casa del churrero (1) / Del camino nuevo (Coruña) / (1) 7c" "Du naturel/1re maison du marchand de beignets (1) / camino nuevo (Corogne) / (1) 7c ".&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A primera hora de la mañana del 4 de febrero de 1894, cinco mozos del barrio de Santa Margarita entraron en la churrería del Camino Nuevo, situada cerca de la vivienda de los Ruiz Picasso. El churrero atendió las sus numerosas peticiones de los chavales, pero cuando llegó la hora de pagar los muchachos se dieron a la fuga. Salió tras ellos, pero los chavales lo amenazaron con una navaja y revólveres. Incluso pegaron algún tiro al aire. El suceso fue muy comentado en la ciudad y captó la atención de Pablo, que dibujó la casa del churrero del Camino Nuevo en el álbum que le acababan de regalar sus padres. Para que quedase claro, añadió información adicional en la trasera del dibujo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;El de la casa del churrero es el segundo dibujo del primer cuaderno de su vida, que inicia el 1 de febrero de 1894. Con ese álbum, Pablo sale a la calle a dibujar al natural. Nace así el Picasso paisajista.
+			</txt_cast>
+			
+			<txt_gal>
+			Á primeira hora da mañá do 4 de febreiro de 1894, cinco mozos do barrio de Santa Margarita entraron na churrería do Camiño Novo, situada preto da vivenda dos Ruiz Picasso. O churreiro atendeu as súas numerosas peticións dos rapaces, pero cando chegou a hora de pagar os rapaces saíron liscando. Saíu tras eles, pero os rapaces ameazárono cunha navalla e revólveres. Mesmo pegaron algún tiro ao aire. O suceso foi moi comentado na cidade e captou a atención de Pablo, que debuxou a casa do churreiro do Camiño Novo no álbum que lle acababan de regalar os seus pais. Para que quedara claro, engadiu información adicional na traseira do debuxo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;O da casa do churreiro é o segundo debuxo do primeiro caderno da súa vida, que inicia o 1 de febreiro de 1894. Con ese álbum, Pablo sae á rúa a debuxar ao natural. Nace así o Picasso paisaxista.
+			</txt_gal>
+						
+			<txt_eng>
+			Early in the morning of the 4th of February, 1894, five young men from the Santa Margarita neighbourhood entered the churrería in Camino Nuevo, near the Ruiz Picassos’ family home. The shopkeeper served their plentiful demands, but when it was time to pay, they ran away. He chased them, but the kids threatened him with a knife and guns. They even fired warning shots. There was much talk in the city about the incident, which also got Pablo’s attention. He drew the churrero’s house on the notebook that he had just been given by his parents. To make it clear, he added some information on the previous drawing’s reverse side. "On the spot / First churrero’s house / At Camino Nuevo (Coruña)".&#10;&#10;That drawing was the second one on his first notebook, which he started off on the 1st of February, 1894. With this album, Pablo began to go out and draw on the spot. The landscapist Picasso was born.
+			</txt_eng>
+						
+			<txt_fr>
+			Au petit matin du 4 février 1894, cinq garçons du quartier de Santa Margarita se rendirent chez le marchand de beignets rue Camino Nuevo, près de la maison des Ruiz Picasso. Le marchand s'occupa de nombreuses demandes de gamins, mais l'heure venue de régler, les garçons s'enfuirent. Le marchand fut même menacé avec un couteau et avec des revolvers. Ils tirèrent dans l'air. L'épisode saisit l'attention de Picasso, et il dessinerait la maison du marchand de beignets rue Camino Nuevo sur l'album que ses parents venaient de lui offrir. Il ajouta quelques informations additionnelles au dos du dessin. "D'après nature/1re maison du marchand de beignets/camino nuevo (Corogne)".&#10;&#10;La maison du marchand de beignets est le deuxième dessin du premier cahier de sa vie, qu'il commence le 1er février 1894. Pablo allait dans les rues dessiner d'après nature sur ce cahier. Picasso venait de naître.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<!-- playa -->
+			<url>09_CAMINO_NUEVO/93-cronica-Voz.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Noticia de La Voz de Galicia sobre el atraco al churrero del Camino Nuevo.&#10;&#10;La Voz de Galicia, 6-2-1894.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Noticia de La Voz de Galicia sobre o asalto ao churreiro do Camiño Novo.&#10;&#10;La Voz de Galicia, 6-2-1894.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>News item published in La Voz de Galicia recounting the incident at the churrero’s store in Camino Nuevo.&#10;&#10;La Voz de Galicia, 6-2-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Article de La Voz de Galicia du vol commis contre le marchand de beignets du Camino Nuevo.&#10;&#10;La Voz de Galicia, le 6 février 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A primera hora de la mañana del 4 de febrero de 1894, cinco mozos del barrio de Santa Margarita entraron en la churrería del Camino Nuevo, situada cerca de la vivienda de los Ruiz Picasso. El churrero atendió las sus numerosas peticiones de los chavales, pero cuando llegó la hora de pagar los muchachos se dieron a la fuga. Salió tras ellos, pero los chavales lo amenazaron con una navaja y revólveres. Incluso pegaron algún tiro al aire. El suceso fue muy comentado en la ciudad y captó la atención de Pablo, que dibujó la casa del churrero del Camino Nuevo en el álbum que le acababan de regalar sus padres. Para que quedase claro, añadió información adicional en la trasera del dibujo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;El de la casa del churrero es el segundo dibujo del primer cuaderno de su vida, que inicia el 1 de febrero de 1894. Con ese álbum, Pablo sale a la calle a dibujar al natural. Nace así el Picasso paisajista.
+			</txt_cast>
+			
+			<txt_gal>
+			Á primeira hora da mañá do 4 de febreiro de 1894, cinco mozos do barrio de Santa Margarita entraron na churrería do Camiño Novo, situada preto da vivenda dos Ruiz Picasso. O churreiro atendeu as súas numerosas peticións dos rapaces, pero cando chegou a hora de pagar os rapaces saíron liscando. Saíu tras eles, pero os rapaces ameazárono cunha navalla e revólveres. Mesmo pegaron algún tiro ao aire. O suceso foi moi comentado na cidade e captou a atención de Pablo, que debuxou a casa do churreiro do Camiño Novo no álbum que lle acababan de regalar os seus pais. Para que quedara claro, engadiu información adicional na traseira do debuxo anterior: "Del natural / 1ª casa del churrero / Del camino nuevo (Coruña)".&#10;&#10;O da casa do churreiro é o segundo debuxo do primeiro caderno da súa vida, que inicia o 1 de febreiro de 1894. Con ese álbum, Pablo sae á rúa a debuxar ao natural. Nace así o Picasso paisaxista.
+			</txt_gal>
+						
+			<txt_eng>
+			Early in the morning of the 4th of February, 1894, five young men from the Santa Margarita neighbourhood entered the churrería in Camino Nuevo, near the Ruiz Picassos’ family home. The shopkeeper served their plentiful demands, but when it was time to pay, they ran away. He chased them, but the kids threatened him with a knife and guns. They even fired warning shots. There was much talk in the city about the incident, which also got Pablo’s attention. He drew the churrero’s house on the notebook that he had just been given by his parents. To make it clear, he added some information on the previous drawing’s reverse side. "On the spot / First churrero’s house / At Camino Nuevo (Coruña)".&#10;&#10;That drawing was the second one on his first notebook, which he started off on the 1st of February, 1894. With this album, Pablo began to go out and draw on the spot. The landscapist Picasso was born.
+			</txt_eng>
+						
+			<txt_fr>
+			Au petit matin du 4 février 1894, cinq garçons du quartier de Santa Margarita se rendirent chez le marchand de beignets rue Camino Nuevo, près de la maison des Ruiz Picasso. Le marchand s'occupa de nombreuses demandes de gamins, mais l'heure venue de régler, les garçons s'enfuirent. Le marchand fut même menacé avec un couteau et avec des revolvers. Ils tirèrent dans l'air. L'épisode saisit l'attention de Picasso, et il dessinerait la maison du marchand de beignets rue Camino Nuevo sur l'album que ses parents venaient de lui offrir. Il ajouta quelques informations additionnelles au dos du dessin. "D'après nature/1re maison du marchand de beignets/camino nuevo (Corogne)".&#10;&#10;La maison du marchand de beignets est le deuxième dessin du premier cahier de sa vie, qu'il commence le 1er février 1894. Pablo allait dans les rues dessiner d'après nature sur ce cahier. Picasso venait de naître.
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

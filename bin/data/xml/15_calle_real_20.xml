@@ -1,0 +1,539 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>15</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>15_CALLE_REAL/1592--postales-1133-CALLE-REAL.jpg</url>
+			
+			<titulo_cast>Calle Real</titulo_cast>
+			<titulo_gal>Calle Real</titulo_gal>	
+			<titulo_eng>Calle Real</titulo_eng>
+			<titulo_fr>Rue Real</titulo_fr>
+			
+			<pie_cast>
+				<titular>Calle Real</titular>
+				<cuerpo>El principio de la calle Real, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Calle Real</titular>
+				<cuerpo> O empezo da rúa Real, á fin do século XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Calle Real</titular>
+				<cuerpo>The starting point of calle Real, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Calle Real</titular>
+				<cuerpo>Début de la rue Real, à la fin du XIXe siècle-au début du XXe.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/154-barbudo-baston.jpg</url>
+			
+			<titulo_cast>Viejo barbudo con bastón</titulo_cast>
+			<titulo_gal>Viejo barbudo con bastón</titulo_gal>	
+			<titulo_eng>Viejo barbudo con bastón</titulo_eng>
+			<titulo_fr>Viejo barbudo con bastón</titulo_fr>
+			
+			<pie_cast>
+				<titular>Viejo barbudo con bastón</titular>
+				<cuerpo>Viejo barbudo con bastón, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Viejo barbudo con bastón</titular>
+				<cuerpo>Viejo barbudo con bastón, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Viejo barbudo con bastón</titular>
+				<cuerpo>Viejo barbudo con bastón (Old Bearded Man with a Walking Stick), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Viejo barbudo con bastón</titular>
+				<cuerpo>Viejo barbudo con bastón, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/155-barbudo-blanconegro.jpg</url>
+			
+			<titulo_cast>Cabeza de viejo barbudo</titulo_cast>
+			<titulo_gal>Cabeza de viejo barbudo</titulo_gal>	
+			<titulo_eng>Cabeza de viejo barbudo</titulo_eng>
+			<titulo_fr>Cabeza de viejo barbudo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Cabeza de viejo barbudo</titular>
+				<cuerpo>Cabeza de viejo barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Cabeza de viejo barbudo</titular>
+				<cuerpo>Cabeza de viejo barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Cabeza de viejo barbudo</titular>
+				<cuerpo>Cabeza de viejo barbudo (Old Bearded Man’s Head), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Cabeza de viejo barbudo</titular>
+				<cuerpo>Cabeza de viejo barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/156-barbudo-bn-otro.jpg</url>
+			
+			<titulo_cast>Viejo barbudo de perfil</titulo_cast>
+			<titulo_gal>Viejo barbudo de perfil</titulo_gal>	
+			<titulo_eng>Viejo barbudo de perfil</titulo_eng>
+			<titulo_fr>Viejo barbudo de perfil</titulo_fr>
+			
+			<pie_cast>
+				<titular>Viejo barbudo de perfil</titular>
+				<cuerpo>Viejo barbudo de perfil, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Viejo barbudo de perfil</titular>
+				<cuerpo>Viejo barbudo de perfil, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Viejo barbudo de perfil</titular>
+				<cuerpo>Viejo barbudo de perfil (Old Bearded Man Seen from the Side), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Viejo barbudo de perfil</titular>
+				<cuerpo>Viejo barbudo de perfil, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/157-barbudo-obispo-otra.jpg</url>
+			
+			<titulo_cast>Retrato de hombre barbudo</titulo_cast>
+			<titulo_gal>Retrato de hombre barbudo</titulo_gal>	
+			<titulo_eng>Retrato de hombre barbudo</titulo_eng>
+			<titulo_fr>Retrato de hombre barbudo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de hombre barbudo</titular>
+				<cuerpo>Retrato de hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de hombre barbudo</titular>
+				<cuerpo>Retrato de hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de hombre barbudo</titular>
+				<cuerpo>Retrato de Hombre Barbudo (Portrait of a Bearded Man), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de hombre barbudo</titular>
+				<cuerpo>Retrato de hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/158-barbudo-obispo.jpg</url>
+			
+			<titulo_cast>Retrato de viejo barbudo</titulo_cast>
+			<titulo_gal>Retrato de viejo barbudo</titulo_gal>	
+			<titulo_eng>Retrato de viejo barbudo</titulo_eng>
+			<titulo_fr>Retrato de viejo barbudo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de viejo barbudo</titular>
+				<cuerpo>Retrato de viejo barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de viejo barbudo</titular>
+				<cuerpo>Retrato de viejo barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de viejo barbudo</titular>
+				<cuerpo>Retrato de viejo barbudo (Portrait of a Bearded Man), by Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de viejo barbudo</titular>
+				<cuerpo>Retrato de viejo barbudo, de Pablo Ruiz Picasso (1895). Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/159-barbudo-pandereta.jpg</url>
+			
+			<titulo_cast>Hombre barbudo</titulo_cast>
+			<titulo_gal>Hombre barbudo</titulo_gal>	
+			<titulo_eng>Hombre barbudo</titulo_eng>
+			<titulo_fr>Hombre barbudo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Hombre barbudo</titular>
+				<cuerpo>Hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Hombre barbudo</titular>
+				<cuerpo>Hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Hombre barbudo</titular>
+				<cuerpo>Hombre barbudo (Bearded Man), by Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Hombre barbudo</titular>
+				<cuerpo>Hombre barbudo, de Pablo Ruiz Picasso (1895).&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>15_CALLE_REAL/1591-pareja-de-viejos.jpg</url>
+			
+			<titulo_cast>Pareja de viejos</titulo_cast>
+			<titulo_gal>Pareja de viejos</titulo_gal>	
+			<titulo_eng>Pareja de viejos</titulo_eng>
+			<titulo_fr>Pareja de viejos</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pareja de viejos</titular>
+				<cuerpo>Pareja de viejos, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2012.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pareja de viejos</titular>
+				<cuerpo> Pareja de viejos, de Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Pareja de viejos</titular>
+				<cuerpo>Pareja de viejos (An Elderly Couple), by Pablo Ruiz Picasso (1895).&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pareja de viejos</titular>
+				<cuerpo>Pareja de viejos, de Pablo Ruiz Picasso (1895).&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+						<!-- playa -->
+			<url>15_CALLE_REAL/151-critica.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crítica de La Voz de Galicia sobre la primera exposición de Picasso.&#10;&#10;La Voz de Galicia, 21-2-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Crítica de La Voz de Galicia sobre a primeira exposición de Picasso.&#10;&#10;La Voz de Galicia, 21-2-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Voz de Galicia’s review on Picasso’s first exhibition.&#10;&#10;La Voz de Galicia, 21-2-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Critique du journal La Voz de Galicia de la 1re exposition de Picasso.&#10;&#10;La Voz de Galicia, le 21 février 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+						<!-- playa -->
+			<url>15_CALLE_REAL/152-Diario-de-Galicia.jpg</url>
+			
+			<titulo_cast>El Diario de Galicia</titulo_cast>
+			<titulo_gal>El Diario de Galicia</titulo_gal>	
+			<titulo_eng>El Diario de Galicia</titulo_eng>
+			<titulo_fr>El Diario de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>El Diario de Galicia</titular>
+				<cuerpo>Crítica de El Diario de Galicia sobre la primera exposición de Picasso.&#10;&#10;Diario de Galicia, 22-2-1895.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>El Diario de Galicia</titular>
+				<cuerpo>Crítica de El Diario de Galicia sobre a primeira exposición de Picasso.&#10;&#10;Diario de Galicia, 22-2-1895.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>El Diario de Galicia</titular>
+				<cuerpo>El Diario de Galicia’s review on Picasso’s first exhibition.&#10;&#10;Diario de Galicia, 22-2-1895.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>El Diario de Galicia</titular>
+				<cuerpo>Critique du journal El Diario de Galicia de la 1re exposition de Picasso.&#10;&#10;Diario de Galicia, le 22 février 1895.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+						<!-- playa -->
+			<url>15_CALLE_REAL/153-anuncio.jpg</url>
+			
+			<titulo_cast>Joaquín de la Torre</titulo_cast>
+			<titulo_gal>Joaquín de la Torre</titulo_gal>	
+			<titulo_eng>Joaquín de la Torre</titulo_eng>
+			<titulo_fr>Joaquín de la Torre</titulo_fr>
+			
+			<pie_cast>
+				<titular>Joaquín de la Torre</titular>
+				<cuerpo>Anuncio del almacén de Joaquín de la Torre, donde Picasso expuso por primera vez.&#10;&#10;La Voz de Galicia, 27-4-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Joaquín de la Torre</titular>
+				<cuerpo>Anuncio do almacén de Joaquín de la Torre, onde Picasso expuxo por primeira vez.&#10;&#10;La Voz de Galicia, 27-4-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Joaquín de la Torre</titular>
+				<cuerpo>Advertisement of Joaquín de la Torre’s store, which hosted Picasso’s first ever individual exhibition.&#10;&#10;La Voz de Galicia, 27-4-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Joaquín de la Torre</titular>
+				<cuerpo>Annonce du magasin de Joaquín de la Torre où Picasso expose pour la première fois.&#10;&#10;La Voz de Galicia, le 27 avril 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En febrero de 1895, al mes siguiente de la muerte de su hermana Conchita, Pablo expone en solitario en la calle Real, entonces y ahora la vía más señera de A Coruña. La ciudad gallega está asistiendo en esos momentos a la explosión creativa del artista. El escenario elegido es un establecimiento de muebles sin demasiada solera, el de los herederos de Joaquín Latorre, situado en el número 20 de la calle Real y que había sido inaugurado en 1892. Se trata de la primera exposición individual de su vida. Las críticas fueron fantásticas. "Continúe de esa manera y no dude que alcanzará días de gloria y un porvenir brillante", lo elogió La Voz de Galicia, en una pieza que fue localizada por el estudioso Ángel Padín. Elena Pardo y Rubén Ventureira hallaron recientemente una segunda crítica, que se pudo leer en el Diario de Galicia y en la que se emparentan los inicios de Pablo con los de Giotto, el pintor, escultor y arquitecto italiano del Trecento.&#10;&#10;Se desconoce cuáles fueron exactamente los cuadros que exhibió, pero podrían ser tres estudios de cabeza de un mismo modelo, un mendigo barbudo.
+			</txt_cast>
+			
+			<txt_gal>
+			En febreiro de 1895, ao mes seguinte da morte da súa irmá Conchita, Pablo expón en solitario na rúa Real, entón e agora a vía máis senlleira da Coruña. A cidade galega está a asistir neses momentos á explosión creativa do artista. O escenario elixido é un establecemento de mobles sen demasiada soleira, o dos herdeiros de Joaquín Latorre, situado no número 20 da rúa Real e que fora inaugurado en 1892. Trátase da primeira exposición individual da súa vida. As críticas foron fantásticas. "Continúe desa maneira e non dubide que alcanzará días de gloria e un porvir brillante", eloxiouno La Voz de Galicia, nunha peza que foi localizada polo estudoso Ángel Padín. Elena Pardo e Rubén Ventureira acharon recentemente unha segunda crítica, que se puido ler no Diario de Galicia e na que se emparentan os inicios de Pablo cos de Giotto, o pintor, escultor e arquitecto italiano do Trecento.&#10;&#10;Descoñécese cales foron exactamente os cadros que exhibiu, pero poderían ser tres estudos de cabeza dun mesmo modelo, un esmoleiro barbudo.
+			</txt_gal>
+						
+			<txt_eng>
+			In February 1895, the month following his sister Conchita’s death, Pablo exhibited on his own at Calle Real, now and then A Coruña’s most iconic street. At the time, the Galician town was witnessing the artist’s creative boom. The place chosen for the exhibition was a furniture store without much tradition, owned by Joaquín Latorre’s heirs, located at 20 Calle Real, which had opened in 1892. This was his first ever personal exhibition. He got extraordinary reviews. "Keep on that path and no doubt there are glory days and a bright future to come", praised La Voz de Galicia, in a text found by the investigator Ángel Padín.&#10;&#10;Elena Pardo and Rubén Ventureira recently found another review, published in Diario de Galicia, where Pablo’s beginnings are linked to those of Giotto, an Italian painter, sculptor and architect of the Trecento.&#10;&#10;It is not known which particular pictures he put on display; it could have been three studies of the head of the same model, a bearded beggar.
+			</txt_eng>
+						
+			<txt_fr>
+			En février 1985, un mois après la mort de sa petite sœur Conchita, Picasso expose pour la première fois ses œuvres à une salle rue Real. À l'époque, et encore de nos jours, il s'agissait d'une rue de La Corogne sans égal. La ville fut témoin de l'explosion créative de l'artiste. La salle d'exposition choisie, non meublée et pas trop prestigieuse, était située au 20 rue Real et appartenait aux héritiers de Joaquín Latorre. La salle avait été inaugurée en 1892. Il s'agit de la première exposition en solitaire de sa vie. Les critiques furent fantastiques. "Suivez dans cette ligne et n'ayez pas de doutes que vous atteindriez jours de gloire et un avenir brillant", vanta le journal La Voz de Galicia, dans un article trouvé par l'investigateur Ángel Padín. À leur tour, Elena Pardo et Rubén Ventureira ont récemment récupéré une autre critique publiée dans le journal Diario de Galicia, comparant les débuts de Pablo avec ceux de Giotto, peintre, sculpteur et architecte Italien du Trecento.&#10;&#10;On ne connaît pas exactement les tableaux y exposés, peut-être s'agirait-il de trois études de tête d'un même modèle, un mendiant barbu.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,301 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>25</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>25_LA_MARINA/251-La-Marina.jpg</url>
+			
+			<titulo_cast>La avenida de la Marina</titulo_cast>
+			<titulo_gal>A avenida da Mariña</titulo_gal>	
+			<titulo_eng>The Avenida de la Marina</titulo_eng>
+			<titulo_fr>Avenue de la Marina</titulo_fr>
+			
+			<pie_cast>
+				<titular>La avenida de la Marina</titular>
+				<cuerpo>La avenida de la Marina, a finales del siglo XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A avenida da Mariña</titular>
+				<cuerpo>A avenida da Mariña, ao remate do século XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Avenida de la Marina</titular>
+				<cuerpo>The Avenida de la Marina, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Avenue de la Marina</titular>
+				<cuerpo>Avenue de la Marina, à la fin du XIXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando el periodista gallego Antonio D. Olano visitó a Picasso en Francia los años 70, el consagrado artista le preguntó sobre la arquitectura más significativa de la ciudad: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Los coruñeses tuvieron el buen gusto de conservarlas. La arquitectura de galerías era y es una seña de la ciudad, especialmente simbolizada en las casas de la avenida de la Marina.&#10;&#10;Estas casas de la Marina siguen siendo hoy la principal postal de la ciudad, si bien ha variado su entorno desde que Picasso abandonó la ciudad en 1895. Los sucesivos rellenos alejaron del mar las galerías. En los tiempos de Picasso, el mar llegaba hasta los soportales de éstas.&#10;&#10;La casa donde vivió Picasso en la calle Payo Gómez pertenecía a este estilo arquitectónico tradicional coruñés, con galería tanto por la parte trasera como delantera.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando o xornalista galego Antonio D. Olano visitou a Picasso en Francia polos anos 70, o consagrado artista preguntoulle sobre a arquitectura máis significativa da cidade: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Os coruñeses tiveron o bo gusto de conservalas. A arquitectura de galerías era e é un signo da cidade, especialmente simbolizada nas casas da avenida da Mariña.&#10;&#10;Estas casas da Mariña seguen sendo hoxe a principal postal da urbe, aínda que variou a súa contorna desde que Picasso abandonou a cidade en 1895. Os sucesivos recheos afastaron do mar as galerías. Nos tempos de Picasso, o mar chegaba até os soportais destas.&#10;&#10;A casa onde viviu Picasso na rúa Payo Gómez pertencía a este estilo arquitectónico tradicional coruñés, con galería tanto pola parte traseira como dianteira.
+			</txt_gal>
+						
+			<txt_eng>
+			When the Galician journalist Antonio D. Olano visited Picasso in France at the beginning of the 1970s, the world-renowned artist asked him about the city’s most notorious architectural feature: “I suppose there is a lot of new buildings. Have they destroyed the galleries? Or have they been sensible enough to preserve them?” Indeed, Coruñans had been sensible enough and took good care of them. Galleries were, and are still today, an iconic sight of the city which is epitomized by the façades of La Marina avenue.&#10;&#10;Those houses keep their significance as the image for a city postcard, but the area has changed a great deal since Picasso's departure in 1895. Public works in the port docks opened a gap between the sea and the buildings, whereas the water would reach their gates back in his Coruñan days.&#10;&#10;The house where Picasso lived in Payo Gómez belonged to that traditional, local architectural style, with galleries both on the front and the back façades.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque le journaliste Galicien Antonio D. Olano rendit visite à Picasso en France dans les années 70, l'artiste déjà renommé s'intéresse pour l'architecture de la ville : "Je suppose qu'il doit avoir beaucoup de constructions nouvelles. Les galeries existent-elles toujours ? Ou par contre a-t-on su les garder ?" Les gens de La Corogne ont su les garder. L'architecture des galeries était, il l'est toujours, un signe d'identité de la ville, notamment symbolisée sur l'avenue de la Marina.&#10;&#10;Ces maisons sont toujours la carte de présentation de la ville, même si les alentours ont beaucoup changé depuis le départ de Picasso en 1895. L'aménagement et le remplissage des espaces proches éloignèrent la mer des galeries, puisqu'au temps de Picasso, la mer atteignit les arcades des galeries.&#10;&#10;La maison où Picasso vécut, rue Payo Gómez, appartenait à ce style architectonique traditionnel de La Corogne, avec galerie sur le devant et sur l'arrière.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>25_LA_MARINA/252-La-Marina-diferente.jpg</url>
+			
+			<titulo_cast>La avenida de la Marina</titulo_cast>
+			<titulo_gal>A avenida da Mariña</titulo_gal>	
+			<titulo_eng>The Avenida de la Marina</titulo_eng>
+			<titulo_fr>Avenue de la Marina</titulo_fr>
+			
+			<pie_cast>
+				<titular>La avenida de la Marina</titular>
+				<cuerpo>La avenida de la Marina, a finales del siglo XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A avenida da Mariña</titular>
+				<cuerpo>A avenida da Mariña, ao remate do século XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Avenida de la Marina</titular>
+				<cuerpo>The Avenida de la Marina, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Avenue de la Marina</titular>
+				<cuerpo>Avenue de la Marina, à la fin du XIXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando el periodista gallego Antonio D. Olano visitó a Picasso en Francia los años 70, el consagrado artista le preguntó sobre la arquitectura más significativa de la ciudad: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Los coruñeses tuvieron el buen gusto de conservarlas. La arquitectura de galerías era y es una seña de la ciudad, especialmente simbolizada en las casas de la avenida de la Marina.&#10;&#10;Estas casas de la Marina siguen siendo hoy la principal postal de la ciudad, si bien ha variado su entorno desde que Picasso abandonó la ciudad en 1895. Los sucesivos rellenos alejaron del mar las galerías. En los tiempos de Picasso, el mar llegaba hasta los soportales de éstas.&#10;&#10;La casa donde vivió Picasso en la calle Payo Gómez pertenecía a este estilo arquitectónico tradicional coruñés, con galería tanto por la parte trasera como delantera.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando o xornalista galego Antonio D. Olano visitou a Picasso en Francia polos anos 70, o consagrado artista preguntoulle sobre a arquitectura máis significativa da cidade: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Os coruñeses tiveron o bo gusto de conservalas. A arquitectura de galerías era e é un signo da cidade, especialmente simbolizada nas casas da avenida da Mariña.&#10;&#10;Estas casas da Mariña seguen sendo hoxe a principal postal da urbe, aínda que variou a súa contorna desde que Picasso abandonou a cidade en 1895. Os sucesivos recheos afastaron do mar as galerías. Nos tempos de Picasso, o mar chegaba até os soportais destas.&#10;&#10;A casa onde viviu Picasso na rúa Payo Gómez pertencía a este estilo arquitectónico tradicional coruñés, con galería tanto pola parte traseira como dianteira.
+			</txt_gal>
+						
+			<txt_eng>
+			When the Galician journalist Antonio D. Olano visited Picasso in France at the beginning of the 1970s, the world-renowned artist asked him about the city’s most notorious architectural feature: “I suppose there is a lot of new buildings. Have they destroyed the galleries? Or have they been sensible enough to preserve them?” Indeed, Coruñans had been sensible enough and took good care of them. Galleries were, and are still today, an iconic sight of the city which is epitomized by the façades of La Marina avenue.&#10;&#10;Those houses keep their significance as the image for a city postcard, but the area has changed a great deal since Picasso's departure in 1895. Public works in the port docks opened a gap between the sea and the buildings, whereas the water would reach their gates back in his Coruñan days.&#10;&#10;The house where Picasso lived in Payo Gómez belonged to that traditional, local architectural style, with galleries both on the front and the back façades.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque le journaliste Galicien Antonio D. Olano rendit visite à Picasso en France dans les années 70, l'artiste déjà renommé s'intéresse pour l'architecture de la ville : "Je suppose qu'il doit avoir beaucoup de constructions nouvelles. Les galeries existent-elles toujours ? Ou par contre a-t-on su les garder ?" Les gens de La Corogne ont su les garder. L'architecture des galeries était, il l'est toujours, un signe d'identité de la ville, notamment symbolisée sur l'avenue de la Marina.&#10;&#10;Ces maisons sont toujours la carte de présentation de la ville, même si les alentours ont beaucoup changé depuis le départ de Picasso en 1895. L'aménagement et le remplissage des espaces proches éloignèrent la mer des galeries, puisqu'au temps de Picasso, la mer atteignit les arcades des galeries.&#10;&#10;La maison où Picasso vécut, rue Payo Gómez, appartenait à ce style architectonique traditionnel de La Corogne, avec galerie sur le devant et sur l'arrière.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>25_LA_MARINA/253-postales-0135-MUELLE-MARINA.jpg</url>
+			
+			<titulo_cast>Galerías de la Marina</titulo_cast>
+			<titulo_gal>Galerías da Mariña</titulo_gal>	
+			<titulo_eng>The Marina’s galleries</titulo_eng>
+			<titulo_fr>Galeries de la Marina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Galerías de la Marina</titular>
+				<cuerpo>Galerías de la Marina, a finales del siglo XIX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Galerías da Mariña</titular>
+				<cuerpo>Galerías da Mariña, ao remate do século XIX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Marina’s galleries</titular>
+				<cuerpo>The Marina’s galleries, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Galeries de la Marina</titular>
+				<cuerpo>Galeries de la Marina, à la fin du XIXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando el periodista gallego Antonio D. Olano visitó a Picasso en Francia los años 70, el consagrado artista le preguntó sobre la arquitectura más significativa de la ciudad: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Los coruñeses tuvieron el buen gusto de conservarlas. La arquitectura de galerías era y es una seña de la ciudad, especialmente simbolizada en las casas de la avenida de la Marina.&#10;&#10;Estas casas de la Marina siguen siendo hoy la principal postal de la ciudad, si bien ha variado su entorno desde que Picasso abandonó la ciudad en 1895. Los sucesivos rellenos alejaron del mar las galerías. En los tiempos de Picasso, el mar llegaba hasta los soportales de éstas.&#10;&#10;La casa donde vivió Picasso en la calle Payo Gómez pertenecía a este estilo arquitectónico tradicional coruñés, con galería tanto por la parte trasera como delantera.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando o xornalista galego Antonio D. Olano visitou a Picasso en Francia polos anos 70, o consagrado artista preguntoulle sobre a arquitectura máis significativa da cidade: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Os coruñeses tiveron o bo gusto de conservalas. A arquitectura de galerías era e é un signo da cidade, especialmente simbolizada nas casas da avenida da Mariña.&#10;&#10;Estas casas da Mariña seguen sendo hoxe a principal postal da urbe, aínda que variou a súa contorna desde que Picasso abandonou a cidade en 1895. Os sucesivos recheos afastaron do mar as galerías. Nos tempos de Picasso, o mar chegaba até os soportais destas.&#10;&#10;A casa onde viviu Picasso na rúa Payo Gómez pertencía a este estilo arquitectónico tradicional coruñés, con galería tanto pola parte traseira como dianteira.
+			</txt_gal>
+						
+			<txt_eng>
+			When the Galician journalist Antonio D. Olano visited Picasso in France at the beginning of the 1970s, the world-renowned artist asked him about the city’s most notorious architectural feature: “I suppose there is a lot of new buildings. Have they destroyed the galleries? Or have they been sensible enough to preserve them?” Indeed, Coruñans had been sensible enough and took good care of them. Galleries were, and are still today, an iconic sight of the city which is epitomized by the façades of La Marina avenue.&#10;&#10;Those houses keep their significance as the image for a city postcard, but the area has changed a great deal since Picasso's departure in 1895. Public works in the port docks opened a gap between the sea and the buildings, whereas the water would reach their gates back in his Coruñan days.&#10;&#10;The house where Picasso lived in Payo Gómez belonged to that traditional, local architectural style, with galleries both on the front and the back façades.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque le journaliste Galicien Antonio D. Olano rendit visite à Picasso en France dans les années 70, l'artiste déjà renommé s'intéresse pour l'architecture de la ville : "Je suppose qu'il doit avoir beaucoup de constructions nouvelles. Les galeries existent-elles toujours ? Ou par contre a-t-on su les garder ?" Les gens de La Corogne ont su les garder. L'architecture des galeries était, il l'est toujours, un signe d'identité de la ville, notamment symbolisée sur l'avenue de la Marina.&#10;&#10;Ces maisons sont toujours la carte de présentation de la ville, même si les alentours ont beaucoup changé depuis le départ de Picasso en 1895. L'aménagement et le remplissage des espaces proches éloignèrent la mer des galeries, puisqu'au temps de Picasso, la mer atteignit les arcades des galeries.&#10;&#10;La maison où Picasso vécut, rue Payo Gómez, appartenait à ce style architectonique traditionnel de La Corogne, avec galerie sur le devant et sur l'arrière.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>25_LA_MARINA/254-Marina.jpg</url>
+			
+			<titulo_cast>La avenida de la Marina</titulo_cast>
+			<titulo_gal>A avenida da Mariña</titulo_gal>	
+			<titulo_eng>The Avenida de la Marina</titulo_eng>
+			<titulo_fr>Avenue de la Marina</titulo_fr>
+			
+			<pie_cast>
+				<titular>La avenida de la Marina</titular>
+				<cuerpo>La avenida de la Marina, en 1895.&#10;&#10;Revista Blanco y Negro, enero de 1896.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A avenida da Mariña</titular>
+				<cuerpo>A avenida da Mariña, no 1895.&#10;&#10;Revista Blanco y Negro, xaneiro do 1896.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The Avenida de la Marina</titular>
+				<cuerpo>The Avenida de la Marina, in 1895.&#10;&#10;Blanco y Negro magazine, January 1896.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Avenue de la Marina</titular>
+				<cuerpo>Avenue de la Marina, en 1895.&#10;&#10;Revue Blanco y Negro, janvier 1896.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Cuando el periodista gallego Antonio D. Olano visitó a Picasso en Francia los años 70, el consagrado artista le preguntó sobre la arquitectura más significativa de la ciudad: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Los coruñeses tuvieron el buen gusto de conservarlas. La arquitectura de galerías era y es una seña de la ciudad, especialmente simbolizada en las casas de la avenida de la Marina.&#10;&#10;Estas casas de la Marina siguen siendo hoy la principal postal de la ciudad, si bien ha variado su entorno desde que Picasso abandonó la ciudad en 1895. Los sucesivos rellenos alejaron del mar las galerías. En los tiempos de Picasso, el mar llegaba hasta los soportales de éstas.&#10;&#10;La casa donde vivió Picasso en la calle Payo Gómez pertenecía a este estilo arquitectónico tradicional coruñés, con galería tanto por la parte trasera como delantera.
+			</txt_cast>
+			
+			<txt_gal>
+			Cando o xornalista galego Antonio D. Olano visitou a Picasso en Francia polos anos 70, o consagrado artista preguntoulle sobre a arquitectura máis significativa da cidade: "Supongo que han construido mucho ¿Destruyeron las galerías? ¿O tienen el buen gusto de conservarlas?". Os coruñeses tiveron o bo gusto de conservalas. A arquitectura de galerías era e é un signo da cidade, especialmente simbolizada nas casas da avenida da Mariña.&#10;&#10;Estas casas da Mariña seguen sendo hoxe a principal postal da urbe, aínda que variou a súa contorna desde que Picasso abandonou a cidade en 1895. Os sucesivos recheos afastaron do mar as galerías. Nos tempos de Picasso, o mar chegaba até os soportais destas.&#10;&#10;A casa onde viviu Picasso na rúa Payo Gómez pertencía a este estilo arquitectónico tradicional coruñés, con galería tanto pola parte traseira como dianteira.
+			</txt_gal>
+						
+			<txt_eng>
+			When the Galician journalist Antonio D. Olano visited Picasso in France at the beginning of the 1970s, the world-renowned artist asked him about the city’s most notorious architectural feature: “I suppose there is a lot of new buildings. Have they destroyed the galleries? Or have they been sensible enough to preserve them?” Indeed, Coruñans had been sensible enough and took good care of them. Galleries were, and are still today, an iconic sight of the city which is epitomized by the façades of La Marina avenue.&#10;&#10;Those houses keep their significance as the image for a city postcard, but the area has changed a great deal since Picasso's departure in 1895. Public works in the port docks opened a gap between the sea and the buildings, whereas the water would reach their gates back in his Coruñan days.&#10;&#10;The house where Picasso lived in Payo Gómez belonged to that traditional, local architectural style, with galleries both on the front and the back façades.
+			</txt_eng>
+						
+			<txt_fr>
+			Lorsque le journaliste Galicien Antonio D. Olano rendit visite à Picasso en France dans les années 70, l'artiste déjà renommé s'intéresse pour l'architecture de la ville : "Je suppose qu'il doit avoir beaucoup de constructions nouvelles. Les galeries existent-elles toujours ? Ou par contre a-t-on su les garder ?" Les gens de La Corogne ont su les garder. L'architecture des galeries était, il l'est toujours, un signe d'identité de la ville, notamment symbolisée sur l'avenue de la Marina.&#10;&#10;Ces maisons sont toujours la carte de présentation de la ville, même si les alentours ont beaucoup changé depuis le départ de Picasso en 1895. L'aménagement et le remplissage des espaces proches éloignèrent la mer des galeries, puisqu'au temps de Picasso, la mer atteignit les arcades des galeries.&#10;&#10;La maison où Picasso vécut, rue Payo Gómez, appartenait à ce style architectonique traditionnel de La Corogne, avec galerie sur le devant et sur l'arrière.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

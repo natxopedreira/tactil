@@ -1,0 +1,401 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>34</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/341-JuntaDefensa1893.jpg</url>
+			
+			<titulo_cast>Los miembros de la Junta de Defensa</titulo_cast>
+			<titulo_gal>Os membros da Xunta de Defensa</titulo_gal>	
+			<titulo_eng>The members of the Defense Junta</titulo_eng>
+			<titulo_fr>Les membres du Conseil de défense</titulo_fr>
+			
+			<pie_cast>
+				<titular>Los miembros de la Junta de Defensa</titular>
+				<cuerpo>Los miembros de la Junta de Defensa encarcelada, en el cuartel de Santo Domingo, en julio de 1893. Fila de abajo, de izquierda a derecha: José Aznar, José L. Pereira, Ernesto Freire, Nicasio Pérez, Juan Mª Muñoz, Eduardo Carricarte. Segunda fila, de izquierda a derecha: Ramón Prieto Puga, Manuel Martínez Sixto, Eduardo Verdiñas, Manuel Martínez Pérez, Evaristo Babé, Ramón Bernárdez, José Soto, Ramón Pérez Costales, José Rodríguez Martínez, Gonzalo Pita da Veiga, Salvador Golpe, Acisclo Campano, Juan Antonio Vela. Tercera fila, de izquierda a derecha: Julián Parrón, Andrés Souto Ramos, Luis Miranda, Pedro Barrié, José Marchesi Dalmau, Luis Carnicero, Tomás Rico Gimeno, Miguel M. Ortiz, José Lozano, Juan Antonio García, José López Trigo. Cuarta fila, de izquierda a derecha: Ramón Barreiro, Hilario Hervada, Carlos Martínez Esparís, Valentín Molina, José Martínez Fontenla, Joaquín Rey, Manuel Iglesias Pacio, Fermín Bescansa, Ramón Cerviño y Salvador Vela.
+&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Os membros da Xunta de Defensa</titular>
+				<cuerpo>Os membros da Xunta de Defensa encarcerada, no cuartel de Santo Domingo, en xullo do 1893. Na ringleira de abaixo, de esquerda a dereita: José Aznar, José L. Pereira, Ernesto Freire, Nicasio Pérez, Juan Mª Muñoz, Eduardo Carricarte. Segunda liña, de esquerda a dereita: Ramón Prieto Puga, Manuel Martínez Sixto, Eduardo Verdiñas, Manuel Martínez Pérez, Evaristo Babé, Ramón Bernárdez, José Soto, Ramón Pérez Costales, José Rodríguez Martínez, Gonzalo Pita da Veiga, Salvador Golpe, Acisclo Campano, Juan Antonio Vela. Terceira ringleira, de esquerda a dereita: Julián Parrón, Andrés Souto Ramos, Luis Miranda, Pedro Barrié, José Marchesi Dalmau, Luis Carnicero, Tomás Rico Gimeno, Miguel M. Ortiz, José Lozano, Juan Antonio García, José López Trigo. Cuarta liña, de esquerda a dereita: Ramón Barreiro, Hilario Hervada, Carlos Martínez Esparís, Valentín Molina, José Martínez Fontenla, Joaquín Rey, Manuel Iglesias Pacio, Fermín Bescansa, Ramón Cerviño e Salvador Vela.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The members of the Defense Junta</titular>
+				<cuerpo>The members of the Defense Junta, which was put into prison in the Santo Domingo barracks, in July 1893. Bottom row, left to right: José Aznar, José L. Pereira, Ernesto Freire, Nicasio Pérez, Juan Mª Muñoz, Eduardo Carricarte. Second row, left to right: Ramón Prieto Puga, Manuel Martínez Sixto, Eduardo Verdiñas, Manuel Martínez Pérez, Evaristo Babé, Ramón Bernárdez, José Soto, Ramón Pérez Costales, José Rodríguez Martínez, Gonzalo Pita da Veiga, Salvador Golpe, Acisclo Campano, Juan Antonio Vela. Third row, left to right: Julián Parrón, Andrés Souto Ramos, Luis Miranda, Pedro Barrié, José Marchesi Dalmau, Luis Carnicero, Tomás Rico Gimeno, Miguel M. Ortiz, José Lozano, Juan Antonio García, José López Trigo. Fourth row, left to right: Ramón Barreiro, Hilario Hervada, Carlos Martínez Esparís, Valentín Molina, José Martínez Fontenla, Joaquín Rey, Manuel Iglesias Pacio, Fermín Bescansa, Ramón Cerviño and Salvador Vela.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Les membres du Conseil de défense</titular>
+				<cuerpo>Les membres du Conseil de défense incarcéré, dans le quartier de Santo Domingo, en juillet 1893. En bas, de gauche vers la droite : José Aznar, José L. Pereira, Ernesto Freire, Nicasio Pérez, Juan Mª Muñoz, Eduardo Carricarte. 2e rang, de gauche à droite : Ramón Prieto Puga, Manuel Martínez Sixto, Eduardo Verdiñas, Manuel Martínez Pérez, Evaristo Babé, Ramón Bernárdez, José Soto, Ramón Pérez Costales, José Rodríguez Martínez, Gonzalo Pita da Veiga, Salvador Golpe, Acisclo Campano, Juan Antonio Vela. 3e rang, de gauche à droite : Julián Parrón, Andrés Souto Ramos, Luis Miranda, Pedro Barrié, José Marchesi Dalmau, Luis Carnicero, Tomás Rico Gimeno, Miguel M. Ortiz, José Lozano, Juan Antonio García, José López Trigo. Cuarta fila, de izquierda a derecha: Ramón Barreiro, Hilario Hervada, Carlos Martínez Esparís, Valentín Molina, José Martínez Fontenla, Joaquín Rey, Manuel Iglesias Pacio, Fermín Bescansa, Ramón Cerviño y Salvador Vela.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+									
+			<titulo_cast>Camino de Riazor</titulo_cast>
+			<titulo_gal>Camiño de Riazor</titulo_gal>	
+			<titulo_eng>Camino de Riazor</titulo_eng>
+			<titulo_fr>Camino de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Camiño de Riazor</titular>
+				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Camino de Riazor</titular>
+				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+						
+		</cuadro>-->
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/342-14-marzo-1893.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Una de las primeras noticias de La Voz de Galicia sobre la supresión de la Capitanía.&#10;&#10;La Voz de Galicia, 14-3-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Unha das primeiras noticias de La Voz de Galicia sobre a supresión da Capitanía.&#10;&#10;La Voz de Galicia, 14-3-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>One of the first news pieces published in La Voz de Galicia on the withdrawal of the Captaincy.&#10;&#10;La Voz de Galicia, 14-3-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>L'un des premières articles du journal La Voz de Galicia, racontant la suppression de la région militaire.&#10;&#10;La Voz de Galicia, le 14 mars 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/343-21-junio-1893.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Intervención de Sánchez Bregua en el Senado a favor de la permanencia de la Capitanía en la ciudad.&#10;&#10;La Voz de Galicia, 21-6-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Intervención de Sánchez Bregua no Senado a favor da permanencia da Capitanía na cidade.&#10;&#10;La Voz de Galicia, 21-6-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Sánchez Bregua’s speech at the Senate, defending that the city should keep its Captaincy.&#10;&#10;La Voz de Galicia, 21-6-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Intervention de Sánchez Bregua au Sénat en faveur de la permanence de la région militaire à La Corogne.&#10;&#10;La Voz de Galicia, le 21 juin 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/344-20-julio-1893.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Junta de Defensa, encarcelada en el cuartel de Santo Domingo.&#10;&#10;La Voz de Galicia, 20-7-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>A Xunta de Defensa, presa no cuartel de Santo Domingo.&#10;&#10;La Voz de Galicia, 20-7-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>The Defense Junta, imprisoned in the Santo Domingo barracks.&#10;&#10;La Voz de Galicia, 20-7-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Le Conseil de défense, incarcéré dans le quartier de Santo Domingo.&#10;&#10;La Voz de Galicia, le 20 juillet 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/345-21-julio1893a.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Junta de Defensa, encarcelada en el cuartel de Santo Domingo.&#10;&#10;La Voz de Galicia, 21-7-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>A Xunta de Defensa, presa no cuartel de Santo Domingo.&#10;&#10;La Voz de Galicia, 21-7-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>The Defense Junta, imprisoned in the Santo Domingo barracks.&#10;&#10;La Voz de Galicia, 21-7-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Le Conseil de défense, incarcéré dans le quartier de Santo Domingo.&#10;&#10;La Voz de Galicia, le 21 juillet 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/346-22-julio-1893a.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Junta de Defensa, en libertad.&#10;&#10;La Voz de Galicia, 22-7-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>A Xunta de Defensa, en liberdade.&#10;&#10;La Voz de Galicia, 22-7-1893.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>The Defensa Junta, freed again.&#10;&#10;La Voz de Galicia, 22-7-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Le Conseil de défense, en liberté.&#10;&#10;La Voz de Galicia, le 22 juillet 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+		<periodico tipo="img">
+		
+			<url>34_CUARTEL_DE_SANTO_DOMINGO/347-2-agosto1893.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La Capitanía se queda en A Coruña.&#10;&#10;La Voz de Galicia, 2-8-1893.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>A Capitanía fica na Coruña.&#10;&#10;La Voz de Galicia, 2-8-189.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>The Captaincy remains in A Coruña.&#10;&#10;La Voz de Galicia, 2-8-1893.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>La région militaire reste à La Corogne.&#10;&#10;La Voz de Galicia, Le 2 août 1893.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En marzo de 1893, la ciudad se conmocionó. El ministerio de Guerra decidió una nueva división territorial militar. El distrito Noroeste, que hasta entonces contemplaba las capitanías generales de Burgos, Valladolid y A Coruña, se reestructuraría para agrupar a trece provincias y tendría León como capital. Ante la pérdida de rango, la ciudad se rebela. En los meses sucesivos, se sucederán las movilizaciones. Las autoridades no se quedan atrás: dan un paso al frente y pasan a encabezar las protestas.&#10;&#10;Se constituye una activa Junta de Defensa para defender la capitalidad militar, que acaba encarcelada en el cuartel de Santo Domingo. Uno de los miembros más activos de este grupo es el doctor Pérez Costales. Son liberados el 21 de julio y marchan en comitiva por la ciudad. Al paso por la calle Real, los coruñeses ven llorar emocionado, desde el balcón de su casa de la calle Real, a uno de los prohombres locales, Eusebio da Guarda.&#10;&#10;Finalmente, el 31 de julio de 1893 se anuncia que A Coruña conservará la capitalidad militar y cesan las movilizaciones.
+			</txt_cast>
+			
+			<txt_gal>
+			En marzo de 1893, a cidade conmocionouse. O Ministerio de Guerra decidiu unha nova división territorial militar. O distrito Noroeste, que até entón atinxía as capitanías xerais de Burgos, Valladolid e A Coruña, reestruturaríase para agrupar trece provincias e tería León como capital. Ante a perda de rango, a cidade rebélase. Nos meses sucesivos, sucederanse as mobilizacións. As autoridades non quedan atrás: dan un paso á fronte e pasan a encabezar as protestas.&#10;&#10;Constitúese unha activa Xunta de Defensa para defender a capitalidade militar, que acaba encarcerada no cuartel de Santo Domingo. Un dos membros máis activos deste grupo é o doutor Pérez Costales. Son liberados o 21 de xullo e marchan en comitiva pola cidade. Ao paso pola rúa Real, os coruñeses ven chorar emocionado, desde o balcón da súa casa a un dos prohomes locais, Eusebio da Guarda.&#10;&#10;Finalmente, o 31 de xullo de 1893 anúnciase que A Coruña conservará a capitalidade militar e cesan as mobilizacións.
+			</txt_gal>
+						
+			<txt_eng>
+			The city received shocking news in March 1893. The Ministry of War redefined the Spanish Military Divisions. As a result, the North-West District, up until then having General Captaincies in Burgos, Valladolid and A Coruña, was re-structured with León as the new capital. The city rebelled in the face of such a downgrading, sparking  regular revolts; the local authorities resolved to step forward and lead the protests.&#10;&#10;An active Defense Junta was set up in order to preserve the city’s condition as a military capital; the group ended up imprisoned in the Santo Domingo barracks. One of its most active members was Doctor Pérez Costales. On July 21st, they were freed, and celebrated marching around the city. At Calle Real, Coruñans could see how a local outstanding figure gazed upon the scene from the balcony of his house, getting emotional and crying - it was Eusebio da Guarda.&#10;&#10;Finally, on July 31st, 1893 the announcement was made that A Coruña would keep its status as a military capital and the revolts came to an end.
+			</txt_eng>
+						
+			<txt_fr>
+			En mars 1893, la ville s'ébranla. Le ministère de la Guerre créa une nouvelle division territoriale militaire. Le district nord-ouest, jusqu'à ce moment-là incluant les états généraux de Burgos, Valladolid et La Corogne, allait se restructurer pour rassembler treize provinces, dont Léon deviendrait la capitale. Par crainte de la perte de catégorie, la ville se révolte. Les moins suivants, les mobilisations se succédèrent. Et les autorités entêtent les protestations.&#10;&#10;Une assemblée de la défense très active se constitue pour la défense de la capitalité militaire et serait incarcérée dans le quartier de Santo Domingo. L'un des membres actives de ce groupe, c'était le docteur Pérez Costales. Ils furent libérés le 21 juillet et ils parcourent en cortège la ville. En passant par la rue Real, les citoyens de La Corogne remarquèrent les pleurs émus, depuis le balcon de sa maison de la rue Real, l'une des autorités locales, Eusebio da Guarda.&#10;&#10;Finalement, le 31 juillet 1893 il fut annoncé que La Corogne garderait la capitalité militaire, de façon que les mobilisations cessent.
+			</txt_fr>
+			
+		</periodico>
+		
+	</periodicos>
+	
+</ficha>
+</mesa>

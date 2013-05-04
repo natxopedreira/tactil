@@ -1,0 +1,399 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>23</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>23_PLAZA_DE_PONTEVEDRA/231-plaza-del-instituto.jpg</url>
+			
+			<titulo_cast>La plaza del Instituto</titulo_cast>
+			<titulo_gal>A praza do Instituto</titulo_gal>	
+			<titulo_eng>The secondary school square</titulo_eng>
+			<titulo_fr>La place de l'Institut</titulo_fr>
+			
+			<pie_cast>
+				<titular>La plaza del Instituto</titular>
+				<cuerpo>La plaza del Instituto, a finales del siglo XIX-principios del XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A praza do Instituto</titular>
+				<cuerpo>A praza do Instituto, nos últimos anos do século XIX e primeiros do XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The secondary school square</titular>
+				<cuerpo>The secondary school square, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La place de l'Institut</titular>
+				<cuerpo>La place de l'Institut, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+		</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>23_PLAZA_DE_PONTEVEDRA/232-Postal-0411-FUENTE-PLAZA-PONTEVEDRA.jpg</url>
+			
+			<titulo_cast>La plaza del Instituto</titulo_cast>
+			<titulo_gal>A praza do Instituto</titulo_gal>	
+			<titulo_eng>The secondary school square</titulo_eng>
+			<titulo_fr>La place de l'Institut</titulo_fr>
+			
+			<pie_cast>
+				<titular>La plaza del Instituto</titular>
+				<cuerpo>La plaza del Instituto, a finales del siglo XIX-principios del XX. A la derecha, la fuente.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>A praza do Instituto</titular>
+				<cuerpo>A praza do Instituto, nos últimos anos do século XIX e primeiros do XX. Á dereita, a fonte.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>The secondary school square</titular>
+				<cuerpo>The secondary school square, circa end of the 19th Century-beginning of the 20th Century. The fountain can be seen on the right-hand side.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La place de l'Institut</titular>
+				<cuerpo>La place de l'Institut, à la fin du XIXe siècle-au début du XXe siècle. À droite, la fontaine.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>23_PLAZA_DE_PONTEVEDRA/237-plaza-de-Neptuno.jpg</url>
+			
+			<titulo_cast>Plaza de Neptuno</titulo_cast>
+			<titulo_gal>Praza de Neptuno</titulo_gal>	
+			<titulo_eng>Plaza de Neptuno</titulo_eng>
+			<titulo_fr>Place de Neptuno</titulo_fr>
+			
+			<pie_cast>
+				<titular>Plaza de Neptuno</titular>
+				<cuerpo>Fuente de la plaza de Neptuno, en A Coruña, en 1891. La Ilustración Ibérica, 24 de enero de 1891.&#10;&#10;Colección: R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praza de Neptuno</titular>
+				<cuerpo>Fonte da praza de Neptuno, na Coruña, en 1891. La Ilustración Ibérica, 24 de xaneiro do 1891.&#10;&#10;Colección: R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Plaza de Neptuno</titular>
+				<cuerpo>Fountain at Plaza de Neptuno, in A Coruña, 1891. La Ilustración Ibérica, January 24th, 1891.&#10;&#10;R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Place de Neptuno</titular>
+				<cuerpo>Fontaine place de Neptuno, à La Corogne, en 1891. La Ilustración Ibérica, le 24 janvier 1891.&#10;&#10;Collection : R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>23_PLAZA_DE_PONTEVEDRA/238-postal-141-FUENTE-MARINA.jpg</url>
+			
+			<titulo_cast>Fuente de la Marina</titulo_cast>
+			<titulo_gal>Fonte da Marina</titulo_gal>	
+			<titulo_eng>La Marina fountain</titulo_eng>
+			<titulo_fr>Fontaine de la Marina</titulo_fr>
+			
+			<pie_cast>
+				<titular>Fuente de la Marina</titular>
+				<cuerpo>Fuente de la Marina, en A Coruña, a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Fonte da Marina</titular>
+				<cuerpo>Fonte da Marina, na Coruña, pola fin do XIX e comezo do XX.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Marina fountain</titular>
+				<cuerpo>La Marina fountain, in A Coruña, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Fontaine de la Marina</titular>
+				<cuerpo>Fontaine de la Marina, à La Corogne, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+			
+		</image>
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		
+		<cuadro tipo="img">
+			<url>23_PLAZA_DE_PONTEVEDRA/233-criada.jpg</url>
+			
+			<titulo_cast>Retrato de la criada de la casa</titulo_cast>
+			<titulo_gal>Retrato de la criada de la casa</titulo_gal>	
+			<titulo_eng>Retrato de la criada de la casa</titulo_eng>
+			<titulo_fr>Retrato de la criada de la casa</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de la criada de la casa</titular>
+				<cuerpo>Retrato de la criada de la casa (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de la criada de la casa</titular>
+				<cuerpo>Retrato de la criada de la casa (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de la criada de la casa</titular>
+				<cuerpo>Retrato de la criada de la casa (Portrait of the House Servant) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de la criada de la casa</titular>
+				<cuerpo>Retrato de la criada de la casa (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>23_PLAZA_DE_PONTEVEDRA/234-esperando-la-vez.jpg</url>
+			
+			<titulo_cast>Esperando la vez</titulo_cast>
+			<titulo_gal>Esperando la vez</titulo_gal>	
+			<titulo_eng>Esperando la vez</titulo_eng>
+			<titulo_fr>Esperando la vez</titulo_fr>
+			
+			<pie_cast>
+				<titular>Esperando la vez</titular>
+				<cuerpo>Esperando la vez (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Esperando la vez</titular>
+				<cuerpo>Esperando la vez (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Esperando la vez</titular>
+				<cuerpo>Esperando la vez (Waiting for her Turn) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Esperando la vez</titular>
+				<cuerpo>Esperando la vez (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>23_PLAZA_DE_PONTEVEDRA/236-aguadores-MPB_110.jpg</url>
+			
+			<titulo_cast>Azul y Blanco</titulo_cast>
+			<titulo_gal>Azul y Blanco</titulo_gal>	
+			<titulo_eng>Azul y Blanco</titulo_eng>
+			<titulo_fr>Azul y Blanco</titulo_fr>
+			
+			<pie_cast>
+				<titular>Azul y Blanco</titular>
+				<cuerpo>Azul y Blanco, revista manuscrita (24-9-1894), de Pablo Ruiz Picasso. En uno de sus periodiquillos coruñeses Pablo incluye una conversación entre aguadores.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Azul y Blanco</titular>
+				<cuerpo>Azul y Blanco, revista manuscrita (24-9-1894), de Pablo Ruiz Picasso. Nun dos seus periodiquillos coruñeses Pablo inclúe unha conversa entre augadores.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Azul y Blanco</titular>
+				<cuerpo>Azul y Blanco, amateur magazine (24-9-1894), by Pablo Ruiz Picasso. In one of his Coruñan magazines, Pablo included a conversation between waterboys.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Azul y Blanco</titular>
+				<cuerpo>Azul y Blanco, revue manuscrite (24-9-1894), de Pablo Ruiz Picasso. Dans l'un de ses journaux, réalisé à La Corogne, Pablo reproduit une conversation parmi les porteurs d'eau.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+						
+		</cuadro>
+		
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>23_PLAZA_DE_PONTEVEDRA/235-la-vez-en-la-voz.jpg</url>
+			
+			<titulo_cast>La Voz de Galicia</titulo_cast>
+			<titulo_gal>La Voz de Galicia</titulo_gal>	
+			<titulo_eng>La Voz de Galicia</titulo_eng>
+			<titulo_fr>La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Noticia de La Voz de Galicia sobre la espera en las fuentes de A Coruña para rellenar las sellas.&#10;&#10;En la de la plaza de Pontevedra, la más cercana a la casa de Pablo, es de tres horas y cuarto.&#10;&#10;La Voz de Galicia, 13-10-1894.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Noticia de La Voz de Galicia sobre a espera nas fontes da Coruña para encher as sellas.&#10;&#10;Na praza de Pontevedra, a máis achegada á casa de Pablo, é de tres horas e cuarto.&#10;&#10;La Voz de Galicia, 13-10-1894.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>News item in La Voz de Galicia about the waiting times in Coruñan fountains when queueing for water.&#10;&#10;It was three hours and 15 minutes at the one in Plaza de Pontevedra, the closest one to Picasso’s house.&#10;&#10;La Voz de Galicia, 13-10-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>La Voz de Galicia</titular>
+				<cuerpo>Article du journal La Voz de Galicia, décrivant de longues queues pour remplir les seaux d'eau aux fontaines de La Corogne.&#10;&#10;Dans la place de Pontevedra, où il y avait la fontaine la plus proche de chez Pablo, l'attente était de trois heures et quart.&#10;&#10;La Voz de Galicia, le 13 octobre 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La plaza de Pontevedra era una de las salas de juegos de Picasso y sus amigos Constantino Sardina Muíños y Antonio Pardo Reguera.&#10;&#10;En una conversación con el periodista Olano, el artista malagueño recuerda que jugaban a los toros en ese espacio público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;En esta plaza se hallaba también una fuente donde la criada de los Ruiz Picasso iba a llenar su sella. Entonces no había agua corriente en la mayoría de las casas de la ciudad. Pablo realiza un dibujo titulado Esperando la vez, en el que se ve a una mujer aguardando para llenar su recipiente de agua. En el caso de esta fuente, la más cercana a su casa, para realizar esta labor había que esperar en ocasiones hasta tres horas y cuarto. En la fuente se reunían criadas y aguadores, a los que Picasso dibuja en uno de sus periodiquillos coruñeses manteniendo esta conversación:&#10;&#10;&#10;&#10;Non he visto pueblo más embustero que este Madrid&#10;&#10;¿Por qué nos harán ir a todos los fuegos&#10;&#10;Hombre para apagarlos&#10;&#10;¿Entonces para qué dice en todas las casas "aseguradora de incendios"
+			</txt_cast>
+			
+			<txt_gal>
+			A praza de Pontevedra era unha das salas de xogos de Picasso e os seus amigos Constantino Sardina Muíños e Antonio Pardo Reguera. Nunha conversación co xornalista Olano, o artista malagueño lembra que xogaban aos touros nese espazo público: "La chaqueta, de muleta; y yo, de toro".&#10;&#10;Nesta praza achábase tamén unha fonte onde a criada dos Ruiz Picasso ía encher a súa sella. Entón non había auga corrente na maioría das casas da cidade. Pablo realiza un debuxo titulado Esperando a vez, no que se ve a unha muller agardando para encher o seu recipiente de auga. No caso desta fonte, a máis próxima á súa casa, para realizar este labor había que esperar ás veces até tres horas e cuarto. Na fonte reuníanse criadas e augadores, aos que Picasso debuxa nun dos seus xornais coruñeses mantendo esta conversación:&#10;&#10;&#10;&#10;-Non vin pobo máis mentireiro que este Madrid&#10;&#10;-Por que nos farán ir a todos os lumes&#10;&#10;-Home para apagalos&#10;&#10;-Daquela, para que di en todas as casas "aseguradora de incendios"
+			</txt_gal>
+						
+			<txt_eng>
+			Plaza de Pontevedra was a favourite playground for Picasso and his friends Constantino Sardina Muíños and Antonio Pardo Reguera. Speaking with Olano, a journalist, the Malaga-born artist would later recall how they played bullfighting at the square: "A jacket would be the red cape, and I would be the bull".&#10;&#10;There was a fountain in the square where the Ruiz Picassos' servant used to go in order to get some water. At the time, most houses in the city lacked running water. Pablo made a drawing, entitled Esperando la vez (Waiting for her turn), where a woman stands with her bucket ready to be filled up. This was the nearest fountain to their house, and sometimes people would have to queue for more than three hours before it was their turn. Servants and waterboys met and socialized around the fountain. Picasso drew them in one of his Coruñan amateur magazines, while having the following conversation:&#10;&#10;&#10;&#10;-	I have never seen a people more liar than in Madrid.&#10;&#10;-	Why do they ask us to come around every time there is a fire?&#10;&#10;-	Well, to put it out.&#10;&#10;-	Then, why do all houses have a sign reading “fire insured"?
+			</txt_eng>
+						
+			<txt_fr>
+			La place de Pontevedra était l'une des salles de jeux de Picasso et de ses copains Constantino Sardina Muíños et Antonio Pardo Reguera. Dans une conversation avec le journaliste Olano, l'artiste de Malaga rappelle qu'ils jouaient là-bas aux taureaux : "La veste, comme muleta ; moi, le taureau".&#10;&#10;Il y avait aussi dans cette place une fontaine où la bonne des Ruiz Picasso allait remplir son seau. À l'époque, il n'y avait pas d'eau courante dans la plupart des maisons de la ville. Pablo réalise un dessin intitulé Esperando la vez, où l'on voit une femme, attendant pour remplir son récipient d'eau. C'était la fontaine la plus proche de chez lui, mais quelques fois, il fallait attendre jusqu'à trois ou quatre heures. Dans la fontaine se rassemblaient des bonnes et des porteurs d'eaux que Picasso dessine dans une de ses journaux de La Corogne, pendant qu'ils entretiennent la conversation qui suit :&#10;&#10;&#10;&#10;Je ne connais pas un peuple plus menteur que celui de Madrid&#10;&#10;Pourquoi nous feront-ils aller à tous les feux ?&#10;&#10;Ben, pour les éteindre&#10;&#10;Et alors, pourquoi dans toutes les maisons ont-ils écrit "assurance incendie" ?
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

@@ -1,0 +1,494 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>13</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/132-Costalescarta.jpg</url>
+			
+			<titulo_cast>Notificación del doctor Pérez Costales</titulo_cast>
+			<titulo_gal>Notificación do doutor Pérez Costales</titulo_gal>	
+			<titulo_eng>Pérez Costales’ report</titulo_eng>
+			<titulo_fr>Retrato de Conchita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Notificación del doctor Pérez Costales</titular>
+				<cuerpo>Notificación del doctor Pérez Costales al alcalde de A Coruña sobre la muerte de Conchita Ruiz Picasso.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Notificación do doutor Pérez Costales</titular>
+				<cuerpo>Notificación do doutor Pérez Costales ao alcalde da Coruña sobre a morte de Conchita Ruiz Picasso.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Pérez Costales’ report</titular>
+				<cuerpo>Doctor Pérez Costales’ report on the death of Conchita Ruiz Picasso, addressed to the mayor of A Coruña.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Attestation délivrée par le docteur Pérez Costales</titular>
+				<cuerpo>Attestation délivrée par le docteur Pérez Costales au maire de La Corogne, lors du décès de Conchita Ruiz Picasso.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/133-pulverizador.jpg</url>
+			
+			<titulo_cast>Pulverizador de desinfección</titulo_cast>
+			<titulo_gal>Pulverizador de desinfección</titulo_gal>	
+			<titulo_eng>Disinfection spray</titulo_eng>
+			<titulo_fr>Pulvérisateur de désinfection</titulo_fr>
+			
+			<pie_cast>
+				<titular>Pulverizador de desinfección</titular>
+				<cuerpo>Pulverizador de desinfección similar al que usó Pérez Costales en Payo Gómez.&#10;&#10;Imagen extraída de Revue des instruments de chirurgie, número 1: 1893, París.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Pulverizador de desinfección</titular>
+				<cuerpo>Pulverizador de desinfección semellante ao que usou Pérez Costales en Payo Gómez.&#10;&#10;Imaxe extraída de Revue des instruments de chirurgie, número 1: 1893, París.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Disinfection spray</titular>
+				<cuerpo>Disinfection spray similar to the one used by Pérez Costales in Payo Gómez.&#10;&#10;Image taken from Revue des instruments de chirurgie, número 1: 1893, París.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Pulvérisateur de désinfection</titular>
+				<cuerpo>Pulvérisateur de désinfection similaire à celui qui a été utilisé par Pérez Costales dans la maison de rue Payo Gómez.&#10;&#10;Image extraite de Revue des instruments de chirurgie, numéro 1 : 1893, Paris.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/134-Fraga-carta.jpg</url>
+			
+			<titulo_cast>Notificación del médico</titulo_cast>
+			<titulo_gal>Notificación do médico</titulo_gal>	
+			<titulo_eng>Notificación del médico</titulo_eng>
+			<titulo_fr>Notificación del médico</titulo_fr>
+			
+			<pie_cast>
+				<titular>Notificación del médico</titular>
+				<cuerpo>Notificación del médico municipal Emilio Fraga sobre la muerte de Conchita Ruiz Picasso.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Notificación do médico</titular>
+				<cuerpo>Notificación do médico municipal Emilio Fraga sobre a morte de Conchita Ruiz Picasso.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Doctor report</titular>
+				<cuerpo>Municipal doctor Emilio Fraga’s report on the death of Conchita Ruiz Picasso.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Attestation délivrée par le médecin</titular>
+				<cuerpo>Attestation délivrée par le médecin de la ville Emilio Fraga, faisant foi de la mort de Conchita Ruiz Picasso.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/135-Fraga-limpieza.jpg</url>
+			
+			<titulo_cast>Notificación del médico</titulo_cast>
+			<titulo_gal>Notificación do médico</titulo_gal>	
+			<titulo_eng>Notificación del médico</titulo_eng>
+			<titulo_fr>Notificación del médico</titulo_fr>
+			
+			<pie_cast>
+				<titular>Notificación del médico</titular>
+				<cuerpo>Notificación del médico municipal Emilio Fraga al día siguiente de la muerte de Conchita Ruiz Picasso.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Notificación do médico</titular>
+				<cuerpo>Notificación do médico municipal Emilio Fraga ao día seguinte da morte de Conchita Ruiz Picasso.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Doctor report</titular>
+				<cuerpo>Municipal doctor Emilio Fraga’s report, on the day after Conchita Ruiz Picasso’s passing.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Attestation délivrée par le médecin</titular>
+				<cuerpo>Attestation délivrée par le médecin de la ville Emilio Fraga le lendemain de la mort de Conchita Ruiz Picasso.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/136-defuncion1.jpg</url>
+			
+			<titulo_cast>Certificado de Defunción</titulo_cast>
+			<titulo_gal>Certificado de Defunción</titulo_gal>	
+			<titulo_eng>Death certificate</titulo_eng>
+			<titulo_fr>Attestation faisant</titulo_fr>
+			
+			<pie_cast>
+				<titular>Certificado de Defunción</titular>
+				<cuerpo>Certificado de Defunción.&#10;&#10;Parroquia de Santa Lucía (A Coruña).</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Certificado de Defunción</titular>
+				<cuerpo>Certificado de Defunción.&#10;&#10;Parroquia de Santa Lucía (A Coruña).</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Death certificate</titular>
+				<cuerpo>Death certificate.&#10;&#10;Parish of Santa Lucía (A Coruña).</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Attestation faisant</titular>
+				<cuerpo>Attestation faisant foi du décès.&#10;&#10;Paroisse de Santa Lucía (La Corogne).</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/137-Solicitud-cruz.jpg</url>
+			
+			<titulo_cast>Solicitud al Ayuntamiento</titulo_cast>
+			<titulo_gal>Solicitude ao Concello</titulo_gal>	
+			<titulo_eng>Request issued</titulo_eng>
+			<titulo_fr>Demande présentée</titulo_fr>
+			
+			<pie_cast>
+				<titular>Solicitud al Ayuntamiento</titular>
+				<cuerpo>Solicitud al Ayuntamiento para colocar una cruz de mármol sobre la sepultura de Conchita realizada por José Ruiz Blasco el 3 de abril de 1895.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Solicitude ao Concello</titular>
+				<cuerpo>Solicitude ao Concello para colocar unha cruz de mármore sobre a sepultura de Conchita, realizada por José Ruiz Blasco o 3 de abril do 1895.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Request issued</titular>
+				<cuerpo>Request issued by José Ruiz Blasco addressed to the Town Council on April 3rd, 1895, in order to have a marble cross placed on Conchita’s grave.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Demande présentée</titular>
+				<cuerpo>Demande présentée par José Ruiz Blasco à la Mairie le 3 avril 1895 pour ériger une croix en marbre sur la tombe de Conchita.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/138-colocacion-cruz.jpg</url>
+			
+			<titulo_cast>Antonio Budiño</titulo_cast>
+			<titulo_gal>Antonio Budiño</titulo_gal>	
+			<titulo_eng>Antonio Budiño</titulo_eng>
+			<titulo_fr>Antonio Budiño</titulo_fr>
+			
+			<pie_cast>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>Listado del capellán del cementerio, Antonio Budiño, en el que consta la colocación de una cruz el 8 de julio de 1895 sobre la sepultura de Conchita, "Mª de la Concepción Ruiz".&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>Listado do capellán do cemiterio, Antonio Budiño, no que consta a colocación dunha cruz o 8 de xullo do 1895 sobre a sepultura de Conchita, "Mª de la Concepción Ruiz".&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>List made by the cemetery’s chaplain, Antonio Budiño, which includes the placing of a cross, on July 8th, 1895, on Conchita’s (Mª de la Concepción Ruiz) grave.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>Notes du chapelain du cimetière, Antonio Budiño, faisant foi de l'emplacement d'une croix, le 8 juillet 1895, sur la sépulture de Conchita, "Mª de la Concepción Ruiz".&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>13_CEMENTERIO/1312-cementerio.jpg</url>
+			
+			<titulo_cast>Antonio Budiño</titulo_cast>
+			<titulo_gal>Antonio Budiño</titulo_gal>	
+			<titulo_eng>Antonio Budiño</titulo_eng>
+			<titulo_fr>Antonio Budiño</titulo_fr>
+			
+			<pie_cast>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>El cementerio de San Amaro, hacia los años 20.&#10;&#10;A la izquierda, la zona de párvulos.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>O cemiterio de Santo Amaro, polos anos 20.&#10;&#10;Á esquerda, a zona de párvulos.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>The San Amaro Cemetery, circa the 1920s.&#10;&#10;On the left-hand side is the infants area.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Antonio Budiño</titular>
+				<cuerpo>Cimetière de San Amaro, vers les années 20.&#10;&#10;À gauche, la zone consacrée à l'inhumation de petits-enfants.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>13_CEMENTERIO/131-Conchita-por-Pablo.jpg</url>
+			
+			<titulo_cast>Retrato de Conchita</titulo_cast>
+			<titulo_gal>Retrato de Conchita</titulo_gal>	
+			<titulo_eng>Retrato de Conchita</titulo_eng>
+			<titulo_fr>Retrato de Conchita</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2012</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Retrato de Conchita</titular>
+				<cuerpo>Retrato de Conchita&#10;&#10;(Portrait of Conchita) (1894-1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Retrato de Conchita</titular>
+				<cuerpo>Retrato de Conchita (1894-1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribió Picasso el 6 de enero de 1936. Es un fragmento de uno de sus crípticos textos poéticos. Tiene el valor de que cita, tantos años después, a Conchita, su hermana fallecida.&#10;&#10;La niña, de 7 años, murió víctima de la difteria el 10 de enero de 1895 pese a los cuidados de Pérez Costales. Se procedió a la desinfección de la casa tras el fallecimiento. Según una investigación reciente realizada por Elena Pardo y Rubén Ventureira, el suero que la habría curado llegó diez días tarde y Conchita fue enterrada en condiciones  modestas, en una sepultura de tierra, gratuita, de la zona de párvulos de San Amaro. Poco antes de abandonar A Coruña, José Ruiz Blasco solicitó instalar una cruz de mármol sobre esa sepultura.&#10;&#10;Pablo hizo un pacto con Dios para evitar la muerte de su hermana: "Si salvas a Conchita, dejo de pintar", juró. Pero Conchita falleció y Pablo asumió la pintura como una vocación divina.
+			</txt_cast>
+			
+			<txt_gal>
+			"(…) Modelo oyendo una niña llorar en la cuna por la tarde desesperada conchita de nácar y de concha mientras el trigo hace su pan en la paleta del pintor", escribiu Picasso o 6 de xaneiro de 1936. É un fragmento dun dos seus crípticos textos poéticos. Ten o valor de que cita, tantos anos despois, a Conchita, a súa irmá falecida.&#10;&#10;A nena, de 7 anos, morreu vítima da difteria o 10 de xaneiro de 1895 a pesar dos coidados de Pérez Costales. Procedeuse á desinfección da casa tras o falecemento. Segundo unha investigación recente, o soro que a curaría chegou dez días tarde e Conchita foi enterrada en condicións  modestas, nunha sepultura de terra, gratuíta, da zona de párvulos de Santo Amaro. Pouco antes de abandonar A Coruña, José Ruiz Blasco solicitou instalar unha cruz de mármore sobre esa sepultura.&#10;&#10;Pablo fixo un pacto con Deus para evitar a morte da súa irmá: "Si salvas a Conchita, dejo de pintar", xurou. Pero Conchita faleceu e Pablo asumiu a pintura como unha vocación divina.
+			</txt_gal>
+						
+			<txt_eng>
+			On the 6th of January, 1936, Picasso wrote: "(…) I am modelling while I hear a girl crying in her cradle, in the afternoon, desperate nacre and shell conchita, while wheat turns into bread on the painter’s palette". It is a fragment of one of his cryptic poetry texts. Its value resides on his mention of Conchita, his dead sister, so many years later.&#10;&#10;The 7-year-old girl died of diphteria on the 10th of January, 1895, in spite of Pérez Costales’ care. After the passing, the house was disinfected. According to a recent research work, the serum that might have saved her arrived ten days late. Conchita was buried modestly, in a free-of-charge ground tomb, within the infants area of the San Amaro Cemetery. Just before leaving A Coruña, José Ruiz Blasco requested that a marble cross be placed on the grave.&#10;&#10;Pablo attempted a desperate agreement with God to prevent his sister’s death: "If you save Conchita, I’ll give up painting", he swore. But Conchita died and Pablo took up painting as a God-given vocation.
+			</txt_eng>
+						
+			<txt_fr>
+			"Modèle écoutant une fille pleurer dans son berceau l'après-midi désespérée petite coquille en nacre et en écaille pendant que le blé fait son pain dans la palette du peintre". Il s'agit d'un fragment de l'un de ses cryptiques textes poétiques. Le texte parle, bien des années plus tard, de Conchita, sa petite sœur décédée.&#10;&#10;La petite est décédée, à l'age de 7 ans, victime de la diphtérie le 10 janvier 1895, malgré les soins de Pérez Costales. La maison fut désinfectée après la mort. Des recherches sur le sujet ont conclu que le sérum qui l'aurait guérie arriva dix jours après la mort de la fille et Conchite fut inhumée dans des conditions modestes sous une tombe en terre, gratuite, dans la zone pour les petits-enfants du cimetière de San Amaro. Peu avant que la famille ne quitte La Corogne, José Ruiz Blasco demanda d'installer une croix en marbre blanc sur la sépulture.&#10;&#10;Pablo fit un pacte avec Dieu afin d'empêcher la mort de sa sœur : "Si tu sauves Conchita, j'arrête la peinture", il jura. Mais Conchita décéda et Pablo assuma la peinture telle qu'une vocation divine.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

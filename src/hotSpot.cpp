@@ -25,7 +25,8 @@ void hotSpot::setup(int _numXml){
 
 // ------------------------------
 void hotSpot::setPosition(ofPoint _pos){
-    posicion.set(_pos);
+    
+    posicion.set(ofPoint(_pos.x-ancho/2, _pos.y-alto/2));
 }
 
 // ------------------------------

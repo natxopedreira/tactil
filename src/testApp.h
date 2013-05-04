@@ -32,7 +32,11 @@ class testApp : public ofBaseApp{
 		void    btnCambiaKHorizontal(float & v);
 		void    btnCambiaKDiagonal(float & v);
 		void    btnCambiaDampMiniaturas(float & v);
+        void    editarPuntos(bool & r);
+        void    guardarPuntos(bool & r);
         void    keyPressed(int key);
+    
+        void    verFicha(customDataEvent & info);
     
         void    lanzaFicha();
 		// ---------------------- parte del gui
@@ -42,6 +46,9 @@ class testApp : public ofBaseApp{
 		ofxFloatSlider kMuellesHorizontales;
 		ofxFloatSlider dampCajas;
 		ofxFloatSlider dampCajasMiniaturas;
+        ofxToggle   puntosDebug;
+        ofxToggle   guardarPosicionesPuntos;
+        ofxLabel    fps;
 	
 		float	kmuelles, kmuellesDiagonales, kmuellesHorizontales;
 		float   dampcajas, dampcajasMiniaturas;

@@ -1,0 +1,771 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>32</id>
+	<!-- fotografias -->
+	<images>
+		<!--<image tipo="img">
+			
+			<url>1_PLAYA_DE_RIAZOR/11_Riazor.jpg</url>
+			
+			<titulo_cast>Playa de Riazor</titulo_cast>
+			<titulo_gal>Praia de Riazor</titulo_gal>	
+			<titulo_eng>Riazor beach</titulo_eng>
+			<titulo_fr>Plage de Riazor</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa de Riazor</titular>
+				<cuerpo>Playa de Riazor a finales del siglo XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praia de Riazor</titular>
+				<cuerpo>Praia de Riazor a fins do século XIX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Riazor beach</titular>
+				<cuerpo>Riazor beach, at the end of the 19th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Plage de Riazor</titular>
+				<cuerpo>Plage de Riazor à la fin du XIXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows:"Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</image>-->
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+	
+		<cuadro tipo="img">
+			<url>32_ARRABALES/321-caserio.jpg</url>
+									
+			<titulo_cast>Casa de campo</titulo_cast>
+			<titulo_gal>Casa de campo</titulo_gal>	
+			<titulo_eng>Casa de campo</titulo_eng>
+			<titulo_fr>Casa de campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (Countryside  House) (1893), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/322-Aldeanos-y-carro-93.jpg</url>
+									
+			<titulo_cast>Aldeanos y carro</titulo_cast>
+			<titulo_gal>Aldeanos y carro</titulo_gal>	
+			<titulo_eng>Aldeanos y carro</titulo_eng>
+			<titulo_fr>Aldeanos y carro</titulo_fr>
+			
+			<pie_cast>
+				<titular>Aldeanos y carro</titular>
+				<cuerpo>Aldeanos y carro (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Aldeanos y carro</titular>
+				<cuerpo>Aldeanos y carro (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Aldeanos y carro</titular>
+				<cuerpo>Aldeanos y carro (Peasants and Kart) (1893), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Aldeanos y carro</titular>
+				<cuerpo>Aldeanos y carro (1893), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/323-Casa-de-campo-9394.jpg</url>
+									
+			<titulo_cast>Casa de campo</titulo_cast>
+			<titulo_gal>Casa de campo</titulo_gal>	
+			<titulo_eng>Casa de campo</titulo_eng>
+			<titulo_fr>Casa de campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893-94), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893-94), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (Countryside House) (1893-94), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1893-94), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/324-caserio-en-el-campo-94.jpg</url>
+									
+			<titulo_cast>Caserío en el campo</titulo_cast>
+			<titulo_gal>Caserío en el campo</titulo_gal>	
+			<titulo_eng>Countryside Farmhouse</titulo_eng>
+			<titulo_fr>Caserío en el campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Caserío en el campo (1894), de Pablo Ruiz Picasso. Una casa del lugar de San Roque.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Caserío en el campo (1894), de Pablo Ruiz Picasso. Unha casa do lugar de San Roque.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Countryside Farmhouse</titular>
+				<cuerpo>Countryside Farmhouse (1894), by Pablo Ruiz Picasso. A house in the San Roque area.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Caserío en el campo (1894), de Pablo Ruiz Picasso. Une maison de l'endroit de San Roque.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/325-casa-campo-cobertizo-94.jpg</url>
+									
+			<titulo_cast>Caserío en el campo</titulo_cast>
+			<titulo_gal>Caserío en el campo</titulo_gal>	
+			<titulo_eng>Countryside Farmhouse</titulo_eng>
+			<titulo_fr>Caserío en el campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Casa de campo y cobertizo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Casa de campo y cobertizo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Countryside Farmhouse</titular>
+				<cuerpo>Casa de campo y cobertizo (Countryside House and Hut) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Casa de campo y cobertizo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/326-MPB_110.jpg</url>
+									
+			<titulo_cast>Caserío en el campo</titulo_cast>
+			<titulo_gal>Caserío en el campo</titulo_gal>	
+			<titulo_eng>Countryside Farmhouse</titulo_eng>
+			<titulo_fr>Caserío en el campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Puerta con el número 20 (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Puerta con el número 20 (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Countryside Farmhouse</titular>
+				<cuerpo>Puerta con el número 20 (Door Numbered 20) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Caserío en el campo</titular>
+				<cuerpo>Puerta con el número 20 (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/327-tarde-campo-94.jpg</url>
+									
+			<titulo_cast>Tarde en el campo</titulo_cast>
+			<titulo_gal>Tarde en el campo</titulo_gal>	
+			<titulo_eng>Tarde en el campo</titulo_eng>
+			<titulo_fr>Tarde en el campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Tarde en el campo</titular>
+				<cuerpo>Tarde en el campo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Tarde en el campo</titular>
+				<cuerpo>Tarde en el campo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Tarde en el campo</titular>
+				<cuerpo>Tarde en el campo (Afternoon at the Countryside) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Tarde en el campo</titular>
+				<cuerpo>Tarde en el campo (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/328-subastado-94.jpg</url>
+									
+			<titulo_cast>Casa de campo</titulo_cast>
+			<titulo_gal>Casa de campo</titulo_gal>	
+			<titulo_eng>Casa de campo</titulo_eng>
+			<titulo_fr>Casa de campo</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1894), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (Countryside House) (1894), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de campo</titular>
+				<cuerpo>Casa de campo (1894), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/329-casa-arrabal-95.jpg</url>
+									
+			<titulo_cast>Casa de arrabal</titulo_cast>
+			<titulo_gal>Casa de arrabal</titulo_gal>	
+			<titulo_eng>Casa de arrabal</titulo_eng>
+			<titulo_fr>Casa de arrabal</titulo_fr>
+			
+			<pie_cast>
+				<titular>Casa de arrabal</titular>
+				<cuerpo>Casa de arrabal (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Casa de arrabal</titular>
+				<cuerpo>Casa de arrabal (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Casa de arrabal</titular>
+				<cuerpo>Casa de arrabal (House in the Outskirts) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Casa de arrabal</titular>
+				<cuerpo>Casa de arrabal (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/330-Dos-mujeres-95.jpg</url>
+									
+			<titulo_cast>Dos mujeres arrodilladas</titulo_cast>
+			<titulo_gal>Dos mujeres arrodilladas</titulo_gal>	
+			<titulo_eng>Dos mujeres arrodilladas</titulo_eng>
+			<titulo_fr>Dos mujeres arrodilladas</titulo_fr>
+			
+			<pie_cast>
+				<titular>Dos mujeres arrodilladas</titular>
+				<cuerpo>Dos mujeres arrodilladas, lavando sus ropas en el río (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Dos mujeres arrodilladas</titular>
+				<cuerpo>Dos mujeres arrodilladas, lavando sus ropas en el río (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Dos mujeres arrodilladas</titular>
+				<cuerpo>Dos mujeres arrodilladas, lavando sus ropas en el río (Two Women Kneeling Down and Washing their Clothes in the River) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Dos mujeres arrodilladas</titular>
+				<cuerpo>Dos mujeres arrodilladas, lavando sus ropas en el río (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/331-aldeanos-gallegos-95.jpg</url>
+									
+			<titulo_cast>Aldeanos gallegos</titulo_cast>
+			<titulo_gal>Aldeanos gallegos</titulo_gal>	
+			<titulo_eng>Aldeanos gallegos</titulo_eng>
+			<titulo_fr>Aldeanos gallegos</titulo_fr>
+			
+			<pie_cast>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Aldeanos gallegos (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Aldeanos gallegos (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Aldeanos gallegos (Galician Peasants) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Aldeanos gallegos (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/332-Dibujo-preparatorio-95.jpg</url>
+									
+			<titulo_cast>Dibujo preparatorio</titulo_cast>
+			<titulo_gal>Dibujo preparatorio</titulo_gal>	
+			<titulo_eng>Dibujo preparatorio</titulo_eng>
+			<titulo_fr>Dibujo preparatorio</titulo_fr>
+			
+			<pie_cast>
+				<titular>Dibujo preparatorio</titular>
+				<cuerpo>Dibujo preparatorio de 'Aldeanos gallegos' (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Dibujo preparatorio</titular>
+				<cuerpo>Dibujo preparatorio de 'Aldeanos gallegos' (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Dibujo preparatorio</titular>
+				<cuerpo>Dibujo preparatorio de 'Aldeanos gallegos' (Draft Drawing for 'Galician Peasants') (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Dibujo preparatorio</titular>
+				<cuerpo>Dibujo preparatorio de 'Aldeanos gallegos' (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/333-Escena-popular-gallega-95.jpg</url>
+									
+			<titulo_cast>Escena popular gallega</titulo_cast>
+			<titulo_gal>Escena popular gallega</titulo_gal>	
+			<titulo_eng>Escena popular gallega</titulo_eng>
+			<titulo_fr>Escena popular gallega</titulo_fr>
+			
+			<pie_cast>
+				<titular>Escena popular gallega</titular>
+				<cuerpo>Escena popular gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Escena popular gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Escena popular gallega (Popular Galician Scene) (1895), by Pablo Ruiz Picasso.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Aldeanos gallegos</titular>
+				<cuerpo>Escena popular gallega (1895), de Pablo Ruiz Picasso.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+		<cuadro tipo="img">
+			<url>32_ARRABALES/334-carro-de-heno-95.jpg</url>
+									
+			<titulo_cast>Carro de heno</titulo_cast>
+			<titulo_gal>Carro de heno</titulo_gal>	
+			<titulo_eng>Carro de heno</titulo_eng>
+			<titulo_fr>Carro de heno</titulo_fr>
+			
+			<pie_cast>
+				<titular>Carro de heno</titular>
+				<cuerpo>Carro de heno (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Carro de heno</titular>
+				<cuerpo>Carro de heno (1895), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Carro de heno</titular>
+				<cuerpo>Carro de heno (Kart Loaded with Hay) (1895), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Carro de heno</titular>
+				<cuerpo>Carro de heno (1895), de Pablo Ruiz Picasso. Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			A Coruña tenía una extensión de solo 7,85 kilómetros cuadrados cuando Picasso y su familia llegaron a la ciudad en 1891. El vecino municipio de Oza, que se anexionaría en 1912, lo superaba por mucho en tamaño: 28, 99 kilómetros cuadrados.&#10;&#10;El municipio coruñés contaba con cuatro parroquias: las tres históricas (Santiago, Santa María y San Jorge) y San Nicolás. Los Ruiz Picasso vivían en esta última, en Payo Gómez, que era la zona por la que entonces se estaba expandiendo la ciudad.&#10;&#10;Aún había entonces muchos núcleos rurales en la ciudad. Y el niño Picasso presta especial atención a ellos, así como a los del vecino municipio de Oza, que era considerado "la huerta de la ciudad".&#10;&#10;Un buen puñado de obras de Pablo reflejan esa vida campesina y agrícola que convivía entonces con la otra Coruña, la industrial y pesquera.
+			</txt_cast>
+			
+			<txt_gal>
+			A Coruña tiña unha extensión de só 7,85 quilómetros cadrados cando Picasso e a súa familia chegaron á cidade en 1891. O veciño municipio de Oza, que se anexionaría en 1912, superábao por moito en tamaño: 28, 99 quilómetros cadrados.&#10;&#10;O municipio coruñés contaba con catro parroquias: As tres históricas (Santiago, Santa María e San Xurxo) e San Nicolás. Os Ruiz Picasso vivían nesta última, en Payo Gómez, que era a zona pola que entón se estaba expandindo a cidade.&#10;&#10;Aínda había daquela moitos núcleos rurais na cidade. E o neno Picasso presta especial atención a eles, así como aos do veciño municipio de Oza, que era considerado "a horta da cidade".&#10;&#10;Un bo puñado de obras de Pablo reflicten esa vida campesiña e agrícola que convivía por aquel tempo coa outra Coruña, a industrial e pesqueira.
+			</txt_gal>
+						
+			<txt_eng>
+			A Coruña had a surface of just 7.85 sq km when Picasso and his family arrived in 1891. The neighbouring municipality of Oza, which would be annexed in 1912, was much bigger: it had 28.99 sq km.&#10;&#10;There were four parishes in A Coruña: the three historical ones (Santiago, Santa María and San Jorge), plus San Nicolás. The Ruiz Picassos lived in the latter, in Calle Payo Gómez, on the side of the city which was growing at the time.&#10;&#10;There still were a lot of rural areas around the city then. The child Picasso was particularly interested in them and in those of the Oza municipality, which was known as “the city’s vegetable garden”. A handful of works by Pablo reflect that peasants’ lifestyle which coexisted with the other Coruña, that of the industrial and fishing activities.
+			</txt_eng>
+						
+			<txt_fr>
+			La Corogne avait l'extension exiguë de 7,85 kilomètres carrés quand Picasso et sa famille y arrivèrent en 1891. La commune voisine d'Oza, qui s'annexa en 1912, était beaucoup plus large : 28,99 kilomètres carrés.&#10;&#10;La ville de La Corogne était composée de quatre paroisses : dont trois d'elles historiques (Santiago, Santa María et San Jorge) et San Nicolás. Les Ruiz Picasso habitaient dans cette dernière, rue Payo Gómez, zone d'élargissement de la commune à l'époque.&#10;&#10;Il y avait beaucoup de noyaux de population rurale dans la ville. Et le petit Picasso y faisait beaucoup d'attention, ainsi qu'à ceux de la commune voisine d'Oza, ayant la considération de "potager de la ville". Un bon nombre d'œuvres de Picasso reflètent la vie paysanne et agricole coexistante à l'époque avec La Corogne industrielle et de pêche.
+			</txt_fr>
+						
+		</cuadro>
+		
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

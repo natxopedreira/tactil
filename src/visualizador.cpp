@@ -187,14 +187,12 @@ void visualizador::cargaImagen(string _url){
             ratio = 503.0/ anchoImagenZoom;
         }else {
             ratio = 350.0 / altoImagenZoom;
-            cout << "aqui" << endl;
         }
         
         
         
         ratio = static_cast<float>(static_cast<int>(ceil(ratio * 10.))) / 10.;
-        //cout << "ancho de " << ancho*ratio << " / alto de " << alto*ratio << " / zoom de " << (ratio) << endl;
-        
+
         visorZoom.minZoom = ratio;
         visorZoom.setZoom(ratio);
         
@@ -305,10 +303,7 @@ void visualizador::mouseReleased(ofMouseEventArgs & args){
         offsetDrag.set(0, 0);
     }
     if(btnInfo.inside(ofPoint(args.x,args.y)) && !verInfo){
-        //cout << "mira texto" << endl;
-        
-        
-        
+
         
         verInfo = !verInfo;
         btnInfo.activo = verInfo;

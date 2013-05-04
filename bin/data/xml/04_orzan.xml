@@ -1,0 +1,208 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>4</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>04_ORZAN/41-playa-foto.jpg</url>
+			
+			<titulo_cast>Playa del Orzán</titulo_cast>
+			<titulo_gal>Praia do Orzán</titulo_gal>	
+			<titulo_eng>Orzán beach</titulo_eng>
+			<titulo_fr>Plage de l'Orzán</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa del Orzán</titular>
+				<cuerpo>Vista de la playa del Orzán a finales del siglo XIX-principios del XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praia do Orzán</titular>
+				<cuerpo>Vista da praia do Orzán á fin do século XIX ou comezo do XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Orzán beach</titular>
+				<cuerpo>Outlook of the Orzán beach, circa end of the 19th Century – beginning of the 20th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Plage de l'Orzán</titular>
+				<cuerpo>Vue de la plage de l'Orzán à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La playa del Orzán era una de las zonas de juego infantiles de la época. Los chavales solían hacer pellas para acudir a los arenales a saltar las olas o a organizar batallas de piedras. De hecho, La Voz de Galicia da cuenta de una gran pedrea, en febrero de 1894, en la que participaron nada menos que 200 alumnos del instituto Eusebio da Guarda. Durante ese curso, Picasso estudió en ese centro educativo.&#10;&#10;Picasso pintó la playa del Orzán en una pequeña tela el año de su marcha.&#10;&#10;El sabor salado de las aguas de este arenal quedó grabado en la memoria del artista malagueño. Cuando el periodista gallego Olano lo visitó en los años 60, le llevó en una ocasión percebes. El reencuentro con este sabor de la infancia hizo afirmar a Picasso:  "Es como comerse el Orzán".
+			</txt_cast>
+			
+			<txt_gal>
+			A praia do Orzán era unha das zonas de xogo infantís da época. Os rapaces adoitaban faltar a clase para acudir aos areais a saltar as ondas ou a organizar batallas de pedras. De feito, La Voz de Galicia dá conta dunha gran pedrea, en febreiro de 1894, na que participaron nada menos que 200 alumnos do instituto Eusebio da Guarda. Durante ese curso, Picasso estudou nese centro educativo.&#10;&#10;Picasso pintou a praia do Orzán nunha pequena tea o ano da súa marcha.&#10;&#10;O sabor salgado das augas deste areal quedou gravado na memoria do artista malagueño. Cando o xornalista galego Olano visitouno nos anos 60, levoulle nunha ocasión percebes. O reencontro con este sabor da infancia fixo afirmar a Picasso: "Es como comerse el Orzán".
+			</txt_gal>
+						
+			<txt_eng>
+			The Orzán beach was at the time a stage for childhood games. Kids would skip class and go down to the beaches to jump in the waves and fight throwing stones. In fact, the newspaper La Voz de Galicia reported a big fight in February 1894, in which no less than 200 pupils of the Eusebio da Guarda Secondary School were involved. Picasso was attending the school in that academic year.&#10;&#10;Picasso painted the Orzán beach on a small piece of fabric the year of his departure.&#10;&#10;The beach water’s salty taste became imprinted in the Malaga-born artist’s memory. When the Galician journalist Olano visited him in the 1960s, he took along some goose barnacles for him. Encountering again that childhood taste, Picasso said: "It feels like eating the Orzán bay".
+			</txt_eng>
+						
+			<txt_fr>
+			La plage de l'Orzán était à l'époque lieu de jeux d'enfants. Les gamins qui faisaient l'école buissonnière s'y rendaient pour aller sauter des vagues ou même participer à des échanges de jets de pierres. En fait, le journal La Voz de Galicia raconte un affrontement, en février 1894, auquel participèrent 200 élèves de l'Institut Eusebio da Guarda. Pendant cette année scolaire, Picasso suivit des études dans ce centre éducatif.&#10;&#10;Picasso peignit la plage de l'Orzán sur une toute petite toile l'an de son départ.&#10;&#10;Le goût salé des eaux de ce banc de sable resta gravé dans la mémoire de l'artiste, né à Malaga. Au cours des années 60, le journaliste Galicien Olano lui rendit visite ; il lui emporta des pouce-pieds. Pour Picasso, la rencontre avec ce goût d'enfance fut : "comme manger [la plage de] l'Orzán".
+			</txt_fr>
+			
+		</image>
+		
+		
+		<image tipo="img">
+			<!-- balneario -->
+			<url>04_ORZAN/42-Postal-0995-ORZAN.jpg</url>
+			
+			<titulo_cast>Playa del Orzán</titulo_cast>
+			<titulo_gal>Praia do Orzán</titulo_gal>	
+			<titulo_eng>Orzán beach</titulo_eng>
+			<titulo_fr>Plage de l'Orzán</titulo_fr>
+			
+			<pie_cast>
+				<titular>Playa del Orzán</titular>
+				<cuerpo>Vista de la playa del Orzán a finales del siglo XIX-principios del XX.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Praia do Orzán</titular>
+				<cuerpo>Vista da praia do Orzán á fin do século XIX ou comezo do XX.&#10;&#10;Arquivo Municipal de A Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Orzán beach</titular>
+				<cuerpo>Outlook of the Orzán beach, circa end of the 19th Century – beginning of the 20th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Plage de l'Orzán</titular>
+				<cuerpo>Vue de la plage de l'Orzán à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La playa del Orzán era una de las zonas de juego infantiles de la época. Los chavales solían hacer pellas para acudir a los arenales a saltar las olas o a organizar batallas de piedras. De hecho, La Voz de Galicia da cuenta de una gran pedrea, en febrero de 1894, en la que participaron nada menos que 200 alumnos del instituto Eusebio da Guarda. Durante ese curso, Picasso estudió en ese centro educativo.&#10;&#10;Picasso pintó la playa del Orzán en una pequeña tela el año de su marcha.&#10;&#10;El sabor salado de las aguas de este arenal quedó grabado en la memoria del artista malagueño. Cuando el periodista gallego Olano lo visitó en los años 60, le llevó en una ocasión percebes. El reencuentro con este sabor de la infancia hizo afirmar a Picasso:  "Es como comerse el Orzán".
+			</txt_cast>
+			
+			<txt_gal>
+			A praia do Orzán era unha das zonas de xogo infantís da época. Os rapaces adoitaban faltar a clase para acudir aos areais a saltar as ondas ou a organizar batallas de pedras. De feito, La Voz de Galicia dá conta dunha gran pedrea, en febreiro de 1894, na que participaron nada menos que 200 alumnos do instituto Eusebio da Guarda. Durante ese curso, Picasso estudou nese centro educativo.&#10;&#10;Picasso pintou a praia do Orzán nunha pequena tea o ano da súa marcha.&#10;&#10;O sabor salgado das augas deste areal quedou gravado na memoria do artista malagueño. Cando o xornalista galego Olano visitouno nos anos 60, levoulle nunha ocasión percebes. O reencontro con este sabor da infancia fixo afirmar a Picasso: "Es como comerse el Orzán".
+			</txt_gal>
+						
+			<txt_eng>
+			The Orzán beach was at the time a stage for childhood games. Kids would skip class and go down to the beaches to jump in the waves and fight throwing stones. In fact, the newspaper La Voz de Galicia reported a big fight in February 1894, in which no less than 200 pupils of the Eusebio da Guarda Secondary School were involved. Picasso was attending the school in that academic year.&#10;&#10;Picasso painted the Orzán beach on a small piece of fabric the year of his departure.&#10;&#10;The beach water’s salty taste became imprinted in the Malaga-born artist’s memory. When the Galician journalist Olano visited him in the 1960s, he took along some goose barnacles for him. Encountering again that childhood taste, Picasso said: "It feels like eating the Orzán bay".
+			</txt_eng>
+						
+			<txt_fr>
+			La plage de l'Orzán était à l'époque lieu de jeux d'enfants. Les gamins qui faisaient l'école buissonnière s'y rendaient pour aller sauter des vagues ou même participer à des échanges de jets de pierres. En fait, le journal La Voz de Galicia raconte un affrontement, en février 1894, auquel participèrent 200 élèves de l'Institut Eusebio da Guarda. Pendant cette année scolaire, Picasso suivit des études dans ce centre éducatif.&#10;&#10;Picasso peignit la plage de l'Orzán sur une toute petite toile l'an de son départ.&#10;&#10;Le goût salé des eaux de ce banc de sable resta gravé dans la mémoire de l'artiste, né à Malaga. Au cours des années 60, le journaliste Galicien Olano lui rendit visite ; il lui emporta des pouce-pieds. Pour Picasso, la rencontre avec ce goût d'enfance fut : "comme manger [la plage de] l'Orzán".
+			</txt_fr>
+			
+		</image>
+
+		
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>04_ORZAN/43-Orzan.jpg</url>
+			
+			<titulo_cast>Orzán</titulo_cast>
+			<titulo_gal>Orzán</titulo_gal>	
+			<titulo_eng>Orzán</titulo_eng>
+			<titulo_fr>Orzán</titulo_fr>
+			
+			<pie_cast>
+				<titular>Orzán</titular>
+				<cuerpo>Orzán (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Orzán</titular>
+				<cuerpo>Orzán (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Orzán</titular>
+				<cuerpo>Orzán (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Orzán</titular>
+				<cuerpo>Orzán (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La playa del Orzán era una de las zonas de juego infantiles de la época. Los chavales solían hacer pellas para acudir a los arenales a saltar las olas o a organizar batallas de piedras. De hecho, La Voz de Galicia da cuenta de una gran pedrea, en febrero de 1894, en la que participaron nada menos que 200 alumnos del instituto Eusebio da Guarda. Durante ese curso, Picasso estudió en ese centro educativo.&#10;&#10;Picasso pintó la playa del Orzán en una pequeña tela el año de su marcha.&#10;&#10;El sabor salado de las aguas de este arenal quedó grabado en la memoria del artista malagueño. Cuando el periodista gallego Olano lo visitó en los años 60, le llevó en una ocasión percebes. El reencuentro con este sabor de la infancia hizo afirmar a Picasso:  "Es como comerse el Orzán".
+			</txt_cast>
+			
+			<txt_gal>
+			A praia do Orzán era unha das zonas de xogo infantís da época. Os rapaces adoitaban faltar a clase para acudir aos areais a saltar as ondas ou a organizar batallas de pedras. De feito, La Voz de Galicia dá conta dunha gran pedrea, en febreiro de 1894, na que participaron nada menos que 200 alumnos do instituto Eusebio da Guarda. Durante ese curso, Picasso estudou nese centro educativo.&#10;&#10;Picasso pintou a praia do Orzán nunha pequena tea o ano da súa marcha.&#10;&#10;O sabor salgado das augas deste areal quedou gravado na memoria do artista malagueño. Cando o xornalista galego Olano visitouno nos anos 60, levoulle nunha ocasión percebes. O reencontro con este sabor da infancia fixo afirmar a Picasso: "Es como comerse el Orzán".
+			</txt_gal>
+						
+			<txt_eng>
+			The Orzán beach was at the time a stage for childhood games. Kids would skip class and go down to the beaches to jump in the waves and fight throwing stones. In fact, the newspaper La Voz de Galicia reported a big fight in February 1894, in which no less than 200 pupils of the Eusebio da Guarda Secondary School were involved. Picasso was attending the school in that academic year.&#10;&#10;Picasso painted the Orzán beach on a small piece of fabric the year of his departure.&#10;&#10;The beach water’s salty taste became imprinted in the Malaga-born artist’s memory. When the Galician journalist Olano visited him in the 1960s, he took along some goose barnacles for him. Encountering again that childhood taste, Picasso said: "It feels like eating the Orzán bay".
+			</txt_eng>
+						
+			<txt_fr>
+			La plage de l'Orzán était à l'époque lieu de jeux d'enfants. Les gamins qui faisaient l'école buissonnière s'y rendaient pour aller sauter des vagues ou même participer à des échanges de jets de pierres. En fait, le journal La Voz de Galicia raconte un affrontement, en février 1894, auquel participèrent 200 élèves de l'Institut Eusebio da Guarda. Pendant cette année scolaire, Picasso suivit des études dans ce centre éducatif.&#10;&#10;Picasso peignit la plage de l'Orzán sur une toute petite toile l'an de son départ.&#10;&#10;Le goût salé des eaux de ce banc de sable resta gravé dans la mémoire de l'artiste, né à Malaga. Au cours des années 60, le journaliste Galicien Olano lui rendit visite ; il lui emporta des pouce-pieds. Pour Picasso, la rencontre avec ce goût d'enfance fut : "comme manger [la plage de] l'Orzán".
+			</txt_fr>
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<periodico tipo="img">
+			<url>04_ORZAN/44-Pedrea-en-La-Voz.jpg</url>
+			
+			<titulo_cast>Noticia en La Voz de Galicia</titulo_cast>
+			<titulo_gal>Noticia en La Voz de Galicia</titulo_gal>	
+			<titulo_eng>Newspiece in La Voz de Galicia</titulo_eng>
+			<titulo_fr>Article publié dans La Voz de Galicia</titulo_fr>
+			
+			<pie_cast>
+				<titular>Noticia en La Voz de Galicia</titular>
+				<cuerpo>Noticia en La Voz de Galicia sobre&#10;&#10;una gran pedrea entre alumnos del instituto en la playa del Orzán.&#10;&#10;Ese curso 93-94, Pablo estudió en el citado centro.&#10;&#10;La Voz de Galicia, 28-2-1894</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Noticia en La Voz de Galicia</titular>
+				<cuerpo>Noticia en La Voz de Galicia sobre&#10;&#10;unha gran lea a pedradas entre alumnos do instituto na praia do Orzán.&#10;&#10;Ese curso 93-94, Pablo estudou no citado centro.&#10;&#10;La Voz de Galicia, 28-2-1894</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Newspiece in La Voz de Galicia</titular>
+				<cuerpo>Newspiece published in the newspaper La Voz de Galicia&#10;&#10;regarding a big stone fight between students of the secondary school at Orzán beach.&#10;&#10;Pablo was a student of the education centre during that academic year 93-94.&#10;&#10;La Voz de Galicia, 28-2-1894.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Article publié dans La Voz de Galicia</titular>
+				<cuerpo>Article publié dans le journal La Voz de Galicia&#10;&#10;à propos de l'affrontement entre étudiants de l'institut à coups&#10;&#10;de jets de pierre, ayant eu lieu sur la plage de l'Orzán.&#10;&#10;Pendant cette année scolaire 93/94, Pablo étudia dans cet établissement.&#10;&#10;La Voz de Galicia, le 28 février 1894.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			La playa del Orzán era una de las zonas de juego infantiles de la época. Los chavales solían hacer pellas para acudir a los arenales a saltar las olas o a organizar batallas de piedras. De hecho, La Voz de Galicia da cuenta de una gran pedrea, en febrero de 1894, en la que participaron nada menos que 200 alumnos del instituto Eusebio da Guarda. Durante ese curso, Picasso estudió en ese centro educativo.&#10;&#10;Picasso pintó la playa del Orzán en una pequeña tela el año de su marcha.&#10;&#10;El sabor salado de las aguas de este arenal quedó grabado en la memoria del artista malagueño. Cuando el periodista gallego Olano lo visitó en los años 60, le llevó en una ocasión percebes. El reencuentro con este sabor de la infancia hizo afirmar a Picasso:  "Es como comerse el Orzán".
+			</txt_cast>
+			
+			<txt_gal>
+			A praia do Orzán era unha das zonas de xogo infantís da época. Os rapaces adoitaban faltar a clase para acudir aos areais a saltar as ondas ou a organizar batallas de pedras. De feito, La Voz de Galicia dá conta dunha gran pedrea, en febreiro de 1894, na que participaron nada menos que 200 alumnos do instituto Eusebio da Guarda. Durante ese curso, Picasso estudou nese centro educativo.&#10;&#10;Picasso pintou a praia do Orzán nunha pequena tea o ano da súa marcha.&#10;&#10;O sabor salgado das augas deste areal quedou gravado na memoria do artista malagueño. Cando o xornalista galego Olano visitouno nos anos 60, levoulle nunha ocasión percebes. O reencontro con este sabor da infancia fixo afirmar a Picasso: "Es como comerse el Orzán".
+			</txt_gal>
+						
+			<txt_eng>
+			The Orzán beach was at the time a stage for childhood games. Kids would skip class and go down to the beaches to jump in the waves and fight throwing stones. In fact, the newspaper La Voz de Galicia reported a big fight in February 1894, in which no less than 200 pupils of the Eusebio da Guarda Secondary School were involved. Picasso was attending the school in that academic year.&#10;&#10;Picasso painted the Orzán beach on a small piece of fabric the year of his departure.&#10;&#10;The beach water’s salty taste became imprinted in the Malaga-born artist’s memory. When the Galician journalist Olano visited him in the 1960s, he took along some goose barnacles for him. Encountering again that childhood taste, Picasso said: "It feels like eating the Orzán bay".
+			</txt_eng>
+						
+			<txt_fr>
+			La plage de l'Orzán était à l'époque lieu de jeux d'enfants. Les gamins qui faisaient l'école buissonnière s'y rendaient pour aller sauter des vagues ou même participer à des échanges de jets de pierres. En fait, le journal La Voz de Galicia raconte un affrontement, en février 1894, auquel participèrent 200 élèves de l'Institut Eusebio da Guarda. Pendant cette année scolaire, Picasso suivit des études dans ce centre éducatif.&#10;&#10;Picasso peignit la plage de l'Orzán sur une toute petite toile l'an de son départ.&#10;&#10;Le goût salé des eaux de ce banc de sable resta gravé dans la mémoire de l'artiste, né à Malaga. Au cours des années 60, le journaliste Galicien Olano lui rendit visite ; il lui emporta des pouce-pieds. Pour Picasso, la rencontre avec ce goût d'enfance fut : "comme manger [la plage de] l'Orzán".
+			</txt_fr>
+			
+		</periodico>
+	</periodicos>
+	
+</ficha>
+</mesa>

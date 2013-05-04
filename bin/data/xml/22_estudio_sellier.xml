@@ -1,0 +1,299 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>22</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>22_ESTUDIO_SELLIER/221-Sellier.jpg</url>
+			
+			<titulo_cast>José Sellier</titulo_cast>
+			<titulo_gal>José Sellier</titulo_gal>	
+			<titulo_eng>José Sellier</titulo_eng>
+			<titulo_fr>José Sellier</titulo_fr>
+			
+			<pie_cast>
+				<titular>José Sellier</titular>
+				<cuerpo>José Sellier y su mujer, en los jardines de Méndez Núñez, en 1915.&#10;&#10;Foto cedida por José Luis Castro de Paz.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>José Sellier</titular>
+				<cuerpo>José Sellier e a súa dona, nos xardíns de Méndez Núñez, no 1915.&#10;&#10;Foto cedida por José Luis Castro de Paz.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>José Sellier</titular>
+				<cuerpo>José Sellier and his wife, at the Méndez Núñez Gardens, in 1915.&#10;&#10;Photograph courtesy of José Luis Castro de Paz.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>José Sellier</titular>
+				<cuerpo>José Sellier et sa femme, dans les jardins de Méndez Núñez, en 1915.&#10;&#10;Photographie : cédée par José Luis Castro de Paz.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El fotógrafo José Sellier y su esposa residen desde 1888 en el primer piso del número 9 de la calle de San Andrés. En el bajo de su vivienda instala su estudio fotográfico. Sellier es autor del único testimonio gráfico que se conserva de la estancia de los Ruiz Picasso en A Coruña: se trata de una foto de Lola, la hermana de Pablo. Suponemos que la foto se realizó entre 1891 y 1892, cuando su hermana tenía entre 7 y 8 años.&#10;&#10;En el dorso, se dedica la imagen a María de la Paz Ruiz Blasco, tía de la retratada. Lo curioso del hecho es que está escrita en un gallego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era la dirección de la tía María de la Paz en Málaga.&#10;&#10;Ya tras la marcha de Picasso, José Sellier se convertirá en mayo de 1897 en el pionero del cine español, con el rodaje de Orzán, oleaje; Plaza de Mina y Fábrica de gas.
+			</txt_cast>
+			
+			<txt_gal>
+			O fotógrafo José Sellier e a súa esposa residen desde 1888 no primeiro piso do número 9 da rúa de San Andrés. No baixo da súa vivenda instala o seu estudo fotográfico. Sellier é autor do único testemuño gráfico que se conserva da estancia dos Ruiz Picasso na Coruña: trátase dunha foto de Lola, a irmá de Pablo. Supomos que a foto se realizou entre 1891 e 1892, cando a súa irmá tiña entre 7 e 8 anos.&#10;&#10;No dorso, dedícase a imaxe a María de la Paz Ruiz Blasco, tía da retratada. O curioso do feito é que está escrita nun galego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era a dirección da tía María de la Paz en Málaga.&#10;&#10;Xa tras a marcha de Picasso, José Sellier converterase en maio de 1897 no pioneiro do cinema español, coa rodaxe de Orzán, oleaje; Plaza de Mina e Fábrica de gas.
+			</txt_gal>
+						
+			<txt_eng>
+			The photographer José Sellier and his wife lived on the first floor at 9 San Andrés since 1888. He set up his photographic study on the ground floor. Sellier was the author of the only photographic evidence of the Ruiz Picassos years in A Coruña: it is a photograph of Lola, Pablo’s sister. We believe that the picture was taken at some point between 1891 and 1892, when she was 7 or 8.&#10;&#10;On the reverse side, the image is dedicated to María de la Paz Ruiz Blasco, the portrayed girl’s aunt. In a very peculiar Galician, it reads: "My beloved aunt / I love you so much / Your niece, Dolores / Casas-quemadas 18". 18 Casas Quemadas was aunt María de la Paz’s Malagan address.&#10;&#10;After Picasso left the city, José Sellier became a pioneer of Spanish cinema in May 1897, by filming Orzán, oleaje (Orzán’s swell) Plaza de Mina and Fábrica de gas (Gas factory).
+			</txt_eng>
+						
+			<txt_fr>
+			Le photographe José Sellier et son épouse habitent depuis 1888, au premier étage, du 9 de la rue San Andrés. Au rez-de-chaussée, il installe son studio de photographie. Sellier est l'auteur du seule document graphique témoignant le séjour des Ruiz Picasso à La Corogne : il s'agit d'une photographie de Lola, la petite sœur de Picasso. Nous supposons que la photo se prit entre 1891 et 1892, lorsque la petite avait entre 7 et 8 ans.&#10;&#10;Au dos de la photographie, il y a une dédicace à María de la Paz Ruiz Blasco, tante de la fille. C'est vraiment curieux qu'elle est écrite en galicien, avec des mots assez bizarres : "Eu meu querida tía/a miña querida tía/Querereiye muyto, su/sobrina Dolores / Casas-quemadas 18". [Je ma chérie tante/ma chérie tante/Je vous aime beaucoup, votre/nièce Dolores/Casas-quemadas 18 ]. 18 Casas Quemadas, étant l'adresse de sa tante María de la Paz, à Malaga.&#10;&#10;Après le départ de Picasso, José Sellier deviendra en mai 1897, le pionnier du cinéma en espagnol, avec le tournage de Orzán, oleaje; Plaza de Mina et Fábrica de gas.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>22_ESTUDIO_SELLIER/222-anuncio-Sellier.jpg</url>
+			
+			<titulo_cast>José Sellier</titulo_cast>
+			<titulo_gal>José Sellier</titulo_gal>	
+			<titulo_eng>José Sellier</titulo_eng>
+			<titulo_fr>José Sellier</titulo_fr>
+			
+			<pie_cast>
+				<titular>José Sellier</titular>
+				<cuerpo>Anuncio del estudio de José Sellier en la calle de San Andrés.&#10;&#10;Foto: Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>José Sellier</titular>
+				<cuerpo>Anuncio do estudo de José Sellier na rúa de San Andrés.&#10;&#10;Foto: Colección R. Ventureira / E. Pardo.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>José Sellier</titular>
+				<cuerpo>Advertisement of José Sellier’s study in Calle San Andrés.&#10;&#10;Photograph: R. Ventureira / E. Pardo collection.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>José Sellier</titular>
+				<cuerpo>Affiche du studio de José Sellier, rue San Andrés.&#10;&#10;Photographie : Collection R. Ventureira/E. Pardo.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El fotógrafo José Sellier y su esposa residen desde 1888 en el primer piso del número 9 de la calle de San Andrés. En el bajo de su vivienda instala su estudio fotográfico. Sellier es autor del único testimonio gráfico que se conserva de la estancia de los Ruiz Picasso en A Coruña: se trata de una foto de Lola, la hermana de Pablo. Suponemos que la foto se realizó entre 1891 y 1892, cuando su hermana tenía entre 7 y 8 años.&#10;&#10;En el dorso, se dedica la imagen a María de la Paz Ruiz Blasco, tía de la retratada. Lo curioso del hecho es que está escrita en un gallego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era la dirección de la tía María de la Paz en Málaga.&#10;&#10;Ya tras la marcha de Picasso, José Sellier se convertirá en mayo de 1897 en el pionero del cine español, con el rodaje de Orzán, oleaje; Plaza de Mina y Fábrica de gas.
+			</txt_cast>
+			
+			<txt_gal>
+			O fotógrafo José Sellier e a súa esposa residen desde 1888 no primeiro piso do número 9 da rúa de San Andrés. No baixo da súa vivenda instala o seu estudo fotográfico. Sellier é autor do único testemuño gráfico que se conserva da estancia dos Ruiz Picasso na Coruña: trátase dunha foto de Lola, a irmá de Pablo. Supomos que a foto se realizou entre 1891 e 1892, cando a súa irmá tiña entre 7 e 8 anos.&#10;&#10;No dorso, dedícase a imaxe a María de la Paz Ruiz Blasco, tía da retratada. O curioso do feito é que está escrita nun galego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era a dirección da tía María de la Paz en Málaga.&#10;&#10;Xa tras a marcha de Picasso, José Sellier converterase en maio de 1897 no pioneiro do cinema español, coa rodaxe de Orzán, oleaje; Plaza de Mina e Fábrica de gas.
+			</txt_gal>
+						
+			<txt_eng>
+			The photographer José Sellier and his wife lived on the first floor at 9 San Andrés since 1888. He set up his photographic study on the ground floor. Sellier was the author of the only photographic evidence of the Ruiz Picassos years in A Coruña: it is a photograph of Lola, Pablo’s sister. We believe that the picture was taken at some point between 1891 and 1892, when she was 7 or 8.&#10;&#10;On the reverse side, the image is dedicated to María de la Paz Ruiz Blasco, the portrayed girl’s aunt. In a very peculiar Galician, it reads: "My beloved aunt / I love you so much / Your niece, Dolores / Casas-quemadas 18". 18 Casas Quemadas was aunt María de la Paz’s Malagan address.&#10;&#10;After Picasso left the city, José Sellier became a pioneer of Spanish cinema in May 1897, by filming Orzán, oleaje (Orzán’s swell) Plaza de Mina and Fábrica de gas (Gas factory).
+			</txt_eng>
+						
+			<txt_fr>
+			Le photographe José Sellier et son épouse habitent depuis 1888, au premier étage, du 9 de la rue San Andrés. Au rez-de-chaussée, il installe son studio de photographie. Sellier est l'auteur du seule document graphique témoignant le séjour des Ruiz Picasso à La Corogne : il s'agit d'une photographie de Lola, la petite sœur de Picasso. Nous supposons que la photo se prit entre 1891 et 1892, lorsque la petite avait entre 7 et 8 ans.&#10;&#10;Au dos de la photographie, il y a une dédicace à María de la Paz Ruiz Blasco, tante de la fille. C'est vraiment curieux qu'elle est écrite en galicien, avec des mots assez bizarres : "Eu meu querida tía/a miña querida tía/Querereiye muyto, su/sobrina Dolores / Casas-quemadas 18". [Je ma chérie tante/ma chérie tante/Je vous aime beaucoup, votre/nièce Dolores/Casas-quemadas 18 ]. 18 Casas Quemadas, étant l'adresse de sa tante María de la Paz, à Malaga.&#10;&#10;Après le départ de Picasso, José Sellier deviendra en mai 1897, le pionnier du cinéma en espagnol, avec le tournage de Orzán, oleaje; Plaza de Mina et Fábrica de gas.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>22_ESTUDIO_SELLIER/224-calle-San-Andres.jpg</url>
+			
+			<titulo_cast>Calle San Andrés</titulo_cast>
+			<titulo_gal>Calle San Andrés</titulo_gal>	
+			<titulo_eng>Calle San Andrés</titulo_eng>
+			<titulo_fr>Rue San Andrés</titulo_fr>
+			
+			<pie_cast>
+				<titular>Calle San Andrés</titular>
+				<cuerpo>La calle de San Andrés, a finales del siglo XIX-principios del XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Calle San Andrés</titular>
+				<cuerpo>A rúa de San Andrés, ao cabo do século XIX-comezo do XX.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Calle San Andrés</titular>
+				<cuerpo>Calle San Andrés, circa end of the 19th Century-beginning of the 20th Century.&#10;&#10;Archive of the Galician Kingdom.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Rue San Andrés</titular>
+				<cuerpo>Rue San Andrés, à la fin du XIXe siècle-au début du XXe siècle.&#10;&#10;Arquivo do Reino de Galicia.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El fotógrafo José Sellier y su esposa residen desde 1888 en el primer piso del número 9 de la calle de San Andrés. En el bajo de su vivienda instala su estudio fotográfico. Sellier es autor del único testimonio gráfico que se conserva de la estancia de los Ruiz Picasso en A Coruña: se trata de una foto de Lola, la hermana de Pablo. Suponemos que la foto se realizó entre 1891 y 1892, cuando su hermana tenía entre 7 y 8 años.&#10;&#10;En el dorso, se dedica la imagen a María de la Paz Ruiz Blasco, tía de la retratada. Lo curioso del hecho es que está escrita en un gallego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era la dirección de la tía María de la Paz en Málaga.&#10;&#10;Ya tras la marcha de Picasso, José Sellier se convertirá en mayo de 1897 en el pionero del cine español, con el rodaje de Orzán, oleaje; Plaza de Mina y Fábrica de gas.
+			</txt_cast>
+			
+			<txt_gal>
+			O fotógrafo José Sellier e a súa esposa residen desde 1888 no primeiro piso do número 9 da rúa de San Andrés. No baixo da súa vivenda instala o seu estudo fotográfico. Sellier é autor do único testemuño gráfico que se conserva da estancia dos Ruiz Picasso na Coruña: trátase dunha foto de Lola, a irmá de Pablo. Supomos que a foto se realizou entre 1891 e 1892, cando a súa irmá tiña entre 7 e 8 anos.&#10;&#10;No dorso, dedícase a imaxe a María de la Paz Ruiz Blasco, tía da retratada. O curioso do feito é que está escrita nun galego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era a dirección da tía María de la Paz en Málaga.&#10;&#10;Xa tras a marcha de Picasso, José Sellier converterase en maio de 1897 no pioneiro do cinema español, coa rodaxe de Orzán, oleaje; Plaza de Mina e Fábrica de gas.
+			</txt_gal>
+						
+			<txt_eng>
+			The photographer José Sellier and his wife lived on the first floor at 9 San Andrés since 1888. He set up his photographic study on the ground floor. Sellier was the author of the only photographic evidence of the Ruiz Picassos years in A Coruña: it is a photograph of Lola, Pablo’s sister. We believe that the picture was taken at some point between 1891 and 1892, when she was 7 or 8.&#10;&#10;On the reverse side, the image is dedicated to María de la Paz Ruiz Blasco, the portrayed girl’s aunt. In a very peculiar Galician, it reads: "My beloved aunt / I love you so much / Your niece, Dolores / Casas-quemadas 18". 18 Casas Quemadas was aunt María de la Paz’s Malagan address.&#10;&#10;After Picasso left the city, José Sellier became a pioneer of Spanish cinema in May 1897, by filming Orzán, oleaje (Orzán’s swell) Plaza de Mina and Fábrica de gas (Gas factory).
+			</txt_eng>
+						
+			<txt_fr>
+			Le photographe José Sellier et son épouse habitent depuis 1888, au premier étage, du 9 de la rue San Andrés. Au rez-de-chaussée, il installe son studio de photographie. Sellier est l'auteur du seule document graphique témoignant le séjour des Ruiz Picasso à La Corogne : il s'agit d'une photographie de Lola, la petite sœur de Picasso. Nous supposons que la photo se prit entre 1891 et 1892, lorsque la petite avait entre 7 et 8 ans.&#10;&#10;Au dos de la photographie, il y a une dédicace à María de la Paz Ruiz Blasco, tante de la fille. C'est vraiment curieux qu'elle est écrite en galicien, avec des mots assez bizarres : "Eu meu querida tía/a miña querida tía/Querereiye muyto, su/sobrina Dolores / Casas-quemadas 18". [Je ma chérie tante/ma chérie tante/Je vous aime beaucoup, votre/nièce Dolores/Casas-quemadas 18 ]. 18 Casas Quemadas, étant l'adresse de sa tante María de la Paz, à Malaga.&#10;&#10;Après le départ de Picasso, José Sellier deviendra en mai 1897, le pionnier du cinéma en espagnol, avec le tournage de Orzán, oleaje; Plaza de Mina et Fábrica de gas.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<!--<cuadro tipo="img">
+			<url>22_ESTUDIO_SELLIER/223a Lola.jpg</url>
+			
+			<titulo_cast>Retrato de Lola</titulo_cast>
+			<titulo_gal>Retrato de Lola</titulo_gal>	
+			<titulo_eng>Portrait of Lola</titulo_eng>
+			<titulo_fr>Portrait de Lola</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de Lola</titular>
+				<cuerpo>Retrato de Lola vestida de gallega, por José Sellier (frontal).&#10;&#10;Foto cedida por los herederos de Ricardo Huelín.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de Lola</titular>
+				<cuerpo>Retrato de Lola vestida de galega, por José Sellier (frontal).&#10;&#10;Foto cedida polos herdeiros de Ricardo Huelín.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Portrait of Lola</titular>
+				<cuerpo>Portrait of Lola dressed up in a typical Galician costume, by José Sellier (front view).&#10;&#10;Photograph courtesy of Ricardo Huelín’s heirs.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Portrait de Lola</titular>
+				<cuerpo>Portrait de Lola habillée en costume traditionnel galicien, par José Sellier (recto).&#10;&#10;Photographie : cédée par les héritiers de Ricardo Huelín.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El fotógrafo José Sellier y su esposa residen desde 1888 en el primer piso del número 9 de la calle de San Andrés. En el bajo de su vivienda instala su estudio fotográfico. Sellier es autor del único testimonio gráfico que se conserva de la estancia de los Ruiz Picasso en A Coruña: se trata de una foto de Lola, la hermana de Pablo. Suponemos que la foto se realizó entre 1891 y 1892, cuando su hermana tenía entre 7 y 8 años.&#10;&#10;En el dorso, se dedica la imagen a María de la Paz Ruiz Blasco, tía de la retratada. Lo curioso del hecho es que está escrita en un gallego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era la dirección de la tía María de la Paz en Málaga.&#10;&#10;Ya tras la marcha de Picasso, José Sellier se convertirá en mayo de 1897 en el pionero del cine español, con el rodaje de Orzán, oleaje; Plaza de Mina y Fábrica de gas.
+			</txt_cast>
+			
+			<txt_gal>
+			O fotógrafo José Sellier e a súa esposa residen desde 1888 no primeiro piso do número 9 da rúa de San Andrés. No baixo da súa vivenda instala o seu estudo fotográfico. Sellier é autor do único testemuño gráfico que se conserva da estancia dos Ruiz Picasso na Coruña: trátase dunha foto de Lola, a irmá de Pablo. Supomos que a foto se realizou entre 1891 e 1892, cando a súa irmá tiña entre 7 e 8 anos.&#10;&#10;No dorso, dedícase a imaxe a María de la Paz Ruiz Blasco, tía da retratada. O curioso do feito é que está escrita nun galego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era a dirección da tía María de la Paz en Málaga.&#10;&#10;Xa tras a marcha de Picasso, José Sellier converterase en maio de 1897 no pioneiro do cinema español, coa rodaxe de Orzán, oleaje; Plaza de Mina e Fábrica de gas.
+			</txt_gal>
+						
+			<txt_eng>
+			The photographer José Sellier and his wife lived on the first floor at 9 San Andrés since 1888. He set up his photographic study on the ground floor. Sellier was the author of the only photographic evidence of the Ruiz Picassos years in A Coruña: it is a photograph of Lola, Pablo’s sister. We believe that the picture was taken at some point between 1891 and 1892, when she was 7 or 8.&#10;&#10;On the reverse side, the image is dedicated to María de la Paz Ruiz Blasco, the portrayed girl’s aunt. In a very peculiar Galician, it reads: "My beloved aunt / I love you so much / Your niece, Dolores / Casas-quemadas 18". 18 Casas Quemadas was aunt María de la Paz’s Malagan address.&#10;&#10;After Picasso left the city, José Sellier became a pioneer of Spanish cinema in May 1897, by filming Orzán, oleaje (Orzán’s swell) Plaza de Mina and Fábrica de gas (Gas factory).
+			</txt_eng>
+						
+			<txt_fr>
+			Le photographe José Sellier et son épouse habitent depuis 1888, au premier étage, du 9 de la rue San Andrés. Au rez-de-chaussée, il installe son studio de photographie. Sellier est l'auteur du seule document graphique témoignant le séjour des Ruiz Picasso à La Corogne : il s'agit d'une photographie de Lola, la petite sœur de Picasso. Nous supposons que la photo se prit entre 1891 et 1892, lorsque la petite avait entre 7 et 8 ans.&#10;&#10;Au dos de la photographie, il y a une dédicace à María de la Paz Ruiz Blasco, tante de la fille. C'est vraiment curieux qu'elle est écrite en galicien, avec des mots assez bizarres : "Eu meu querida tía/a miña querida tía/Querereiye muyto, su/sobrina Dolores / Casas-quemadas 18". [Je ma chérie tante/ma chérie tante/Je vous aime beaucoup, votre/nièce Dolores/Casas-quemadas 18 ]. 18 Casas Quemadas, étant l'adresse de sa tante María de la Paz, à Malaga.&#10;&#10;Après le départ de Picasso, José Sellier deviendra en mai 1897, le pionnier du cinéma en espagnol, avec le tournage de Orzán, oleaje; Plaza de Mina et Fábrica de gas.
+			</txt_fr>
+						
+		</cuadro>-->
+		<cuadro tipo="img">
+			<url>22_ESTUDIO_SELLIER/223b-Lola.jpg</url>
+			
+			<titulo_cast>Retrato de Lola</titulo_cast>
+			<titulo_gal>Retrato de Lola</titulo_gal>	
+			<titulo_eng>Portrait of Lola</titulo_eng>
+			<titulo_fr>Portrait de Lola</titulo_fr>
+			
+			<pie_cast>
+				<titular>Retrato de Lola</titular>
+				<cuerpo>Retrato de Lola vestida de gallega, por José Sellier (trasera).&#10;&#10;Foto cedida por los herederos de Ricardo Huelín.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>Retrato de Lola</titular>
+				<cuerpo>Retrato de Lola vestida de galega, por José Sellier (traseira).&#10;&#10;Foto cedida polos herdeiros de Ricardo Huelín.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>Portrait of Lola</titular>
+				<cuerpo>Portrait of Lola dressed up in a typical Galician costume, by José Sellier (back view).&#10;&#10;Photograph courtesy of Ricardo Huelín’s heirs.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>Portrait de Lola</titular>
+				<cuerpo>Portrait de Lola habillée en costume traditionnel galicien, par José Sellier (verso).&#10;&#10;Photographie : cédée par les héritiers de Ricardo Huelín.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			El fotógrafo José Sellier y su esposa residen desde 1888 en el primer piso del número 9 de la calle de San Andrés. En el bajo de su vivienda instala su estudio fotográfico. Sellier es autor del único testimonio gráfico que se conserva de la estancia de los Ruiz Picasso en A Coruña: se trata de una foto de Lola, la hermana de Pablo. Suponemos que la foto se realizó entre 1891 y 1892, cuando su hermana tenía entre 7 y 8 años.&#10;&#10;En el dorso, se dedica la imagen a María de la Paz Ruiz Blasco, tía de la retratada. Lo curioso del hecho es que está escrita en un gallego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era la dirección de la tía María de la Paz en Málaga.&#10;&#10;Ya tras la marcha de Picasso, José Sellier se convertirá en mayo de 1897 en el pionero del cine español, con el rodaje de Orzán, oleaje; Plaza de Mina y Fábrica de gas.
+			</txt_cast>
+			
+			<txt_gal>
+			O fotógrafo José Sellier e a súa esposa residen desde 1888 no primeiro piso do número 9 da rúa de San Andrés. No baixo da súa vivenda instala o seu estudo fotográfico. Sellier é autor do único testemuño gráfico que se conserva da estancia dos Ruiz Picasso na Coruña: trátase dunha foto de Lola, a irmá de Pablo. Supomos que a foto se realizou entre 1891 e 1892, cando a súa irmá tiña entre 7 e 8 anos.&#10;&#10;No dorso, dedícase a imaxe a María de la Paz Ruiz Blasco, tía da retratada. O curioso do feito é que está escrita nun galego un tanto peculiar: "Eu meu querida tía / a miña querida tía / Querereiye muyto, su / sobrina Dolores / Casas-quemadas 18". Casas Quemadas 18 era a dirección da tía María de la Paz en Málaga.&#10;&#10;Xa tras a marcha de Picasso, José Sellier converterase en maio de 1897 no pioneiro do cinema español, coa rodaxe de Orzán, oleaje; Plaza de Mina e Fábrica de gas.
+			</txt_gal>
+						
+			<txt_eng>
+			The photographer José Sellier and his wife lived on the first floor at 9 San Andrés since 1888. He set up his photographic study on the ground floor. Sellier was the author of the only photographic evidence of the Ruiz Picassos years in A Coruña: it is a photograph of Lola, Pablo’s sister. We believe that the picture was taken at some point between 1891 and 1892, when she was 7 or 8.&#10;&#10;On the reverse side, the image is dedicated to María de la Paz Ruiz Blasco, the portrayed girl’s aunt. In a very peculiar Galician, it reads: "My beloved aunt / I love you so much / Your niece, Dolores / Casas-quemadas 18". 18 Casas Quemadas was aunt María de la Paz’s Malagan address.&#10;&#10;After Picasso left the city, José Sellier became a pioneer of Spanish cinema in May 1897, by filming Orzán, oleaje (Orzán’s swell) Plaza de Mina and Fábrica de gas (Gas factory).
+			</txt_eng>
+						
+			<txt_fr>
+			Le photographe José Sellier et son épouse habitent depuis 1888, au premier étage, du 9 de la rue San Andrés. Au rez-de-chaussée, il installe son studio de photographie. Sellier est l'auteur du seule document graphique témoignant le séjour des Ruiz Picasso à La Corogne : il s'agit d'une photographie de Lola, la petite sœur de Picasso. Nous supposons que la photo se prit entre 1891 et 1892, lorsque la petite avait entre 7 et 8 ans.&#10;&#10;Au dos de la photographie, il y a une dédicace à María de la Paz Ruiz Blasco, tante de la fille. C'est vraiment curieux qu'elle est écrite en galicien, avec des mots assez bizarres : "Eu meu querida tía/a miña querida tía/Querereiye muyto, su/sobrina Dolores / Casas-quemadas 18". [Je ma chérie tante/ma chérie tante/Je vous aime beaucoup, votre/nièce Dolores/Casas-quemadas 18 ]. 18 Casas Quemadas, étant l'adresse de sa tante María de la Paz, à Malaga.&#10;&#10;Après le départ de Picasso, José Sellier deviendra en mai 1897, le pionnier du cinéma en espagnol, avec le tournage de Orzán, oleaje; Plaza de Mina et Fábrica de gas.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>

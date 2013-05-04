@@ -1,0 +1,253 @@
+<mesa>
+<!-- ficha vacia como modelo, un archivo por cada pto del mapa -->
+<ficha>
+	<id>20</id>
+	<!-- fotografias -->
+	<images>
+		<image tipo="img">
+			<!-- playa -->
+			<url>20_PLAZA_DE_MARIA_PITA/201-foto-1880-M-PITA.jpg</url>
+			
+			<titulo_cast>María Pita</titulo_cast>
+			<titulo_gal>María Pita</titulo_gal>	
+			<titulo_eng>María Pita</titulo_eng>
+			<titulo_fr>María Pita</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Pita</titular>
+				<cuerpo>Foto de María Pita en 1880.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Pita</titular>
+				<cuerpo>Foto de María Pita en 1880.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Pita</titular>
+				<cuerpo>Photograph of María Pita in 1880.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Pita</titular>
+				<cuerpo>Photographie de la place de María Pita en 1880.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1891, María Pita contaba con doce casas construidas, estando casi cerrada la parte sur y desmontada y nivelada toda la plaza. Ya se habían desarrollado sus primeros árboles y se habían colocado las primeras farolas de mechero de gas.&#10;&#10;La actual estatua de María Pita, que se instaló en 1998, es obra de José Castiñeiras. Pero está inspirada en un diseño de José González Giménez. ¿Quién era González Giménez? Un enemigo de Ruiz Blasco, el padre de Picasso. Ambos trabajaban como profesores en la Escuela de Bellas Artes y los enfrentamientos de González Giménez con la cúpula directiva eran constantes. El mal ambiente que este profesor generó en la Escuela fue una de las causas menores de la marcha de Ruiz Blasco de la ciudad.&#10;&#10;González Jiménez fue, en 1890, el ganador del concurso convocado por el gobierno local para elegir el diseño de la estatua a la heroína local, pera la obra no se llegó a ejecutar. El boceto se conserva en el Archivo Municipal, y fue recuperado cuando, en 1996, se decidió remodelar la plaza y colocar en ella una estatua.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1891, María Pita contaba con doce casas construídas, estando case pechada a parte sur e desmontada e nivelada toda a praza. Xa medraran as súas primeiras árbores e colocáronse os primeiros farois de chisqueiro de gas.&#10;&#10;A actual estatua de María Pita, que se instalou en 1998, é obra de José Castiñeiras. Pero está inspirada nun deseño de José González Giménez. Quen era González Giménez? Un inimigo de Ruiz Blasco, o pai de Picasso. Ambos traballaban como profesores na Escola de Belas Artes e os enfrontamentos de González Giménez coa cúpula directiva eran constantes. O mal ambiente que este profesor xerou na Escola foi unha das causas menores da marcha de Ruiz Blasco da cidade.&#10;&#10;González Jiménez foi, en 1890, o gañador do concurso convocado polo goberno local para elixir o deseño da estatua á heroína local, pera a obra non se chegou a executar. O bosquexo consérvase no Arquivo Municipal, e foi recuperado cando, en 1996, se decidiu remodelar a praza e colocar nela unha estatua.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1891, Plaza de María Pita had twelve houses overall, with the south side almost enclosed; the whole square was levelled. The first trees were growing up and a few gas-fuelled streetlamps were already in place.&#10;&#10;The current statue of María Pita, installed in 1998, was made by José Castiñeiras, although it took inspiration from a design by José González Giménez. Who was this man? He was an enemy of Ruiz Blasco, Picasso’s father. They were both professors at the School of Fine Arts, and González Giménez constantly had confrontations with the school’s directive board. The bad atmosphere that this professor created at the school was a minor contributing cause to Ruiz Blasco’s departure from the city.&#10;&#10;In 1890, González Giménez won the competition organized by the Town Council to design the statue of the local heroin, but the piece never got to be made. The draft was kept at the Municipal Archive, and it was recovered in 1996, when the decision was made to refurbish the square and place a statue in it.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1891, dans la Place de María Pita, il y avait douze maisons construites, constituant la partie sud presque une enceinte enclose et étant toute la place au même niveau. Les premiers arbres avaient poussé et les premiers lampadaires de briquet à gaz avaient été déjà installés.&#10;&#10;La statue actuelle de Maria Pita, érigée en 1998, c'est une œuvre de José Castiñeiras, mais il s'inspire d'un dessin de José González Giménez. Qui était-ce González Giménez ? Un ennemi de Ruiz Blasco, le père de Picasso. Tous les deux travaillaient comme professeurs dans l'École de Beaux-Arts et les affrontements de González Giménez et la direction étaient une constante. Le mauvais climat créé par ce professeur dans l'École fut l'une des raisons mineures, déterminant le départ de Ruiz Blasco de La Corogne.&#10;&#10;González Jiménez gagna en 1890 le concours organisé par le gouvernement de la ville afin de choisir le dessin de la statue de l'héroïne locale, mais l'œuvre ne se réalisa pas. Le canevas existe toujours dans les Archives Municipales, et fut récupéré en 1996, quand la place fut refaite et après qu'il eut été décidé d'y installer une statue.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>20_PLAZA_DE_MARIA_PITA/202-MariaPita1888a.jpg</url>
+			
+			<titulo_cast>María Pita</titulo_cast>
+			<titulo_gal>María Pita</titulo_gal>	
+			<titulo_eng>María Pita</titulo_eng>
+			<titulo_fr>María Pita</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Pita</titular>
+				<cuerpo>Proyecto de la estatua de María Pita en siglo XIX, de González Giménez. De 1888.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Pita</titular>
+				<cuerpo>Proxecto da estatua de María Pita no século XIX, de González Giménez. De 1888.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Pita</titular>
+				<cuerpo>Project for the María Pita statue in the 19th Century, by González Giménez. 1888.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Pita</titular>
+				<cuerpo>Ébauche de la statue de María Pita, au XIXe siècle, de González Giménez. 1888.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1891, María Pita contaba con doce casas construidas, estando casi cerrada la parte sur y desmontada y nivelada toda la plaza. Ya se habían desarrollado sus primeros árboles y se habían colocado las primeras farolas de mechero de gas.&#10;&#10;La actual estatua de María Pita, que se instaló en 1998, es obra de José Castiñeiras. Pero está inspirada en un diseño de José González Giménez. ¿Quién era González Giménez? Un enemigo de Ruiz Blasco, el padre de Picasso. Ambos trabajaban como profesores en la Escuela de Bellas Artes y los enfrentamientos de González Giménez con la cúpula directiva eran constantes. El mal ambiente que este profesor generó en la Escuela fue una de las causas menores de la marcha de Ruiz Blasco de la ciudad.&#10;&#10;González Jiménez fue, en 1890, el ganador del concurso convocado por el gobierno local para elegir el diseño de la estatua a la heroína local, pera la obra no se llegó a ejecutar. El boceto se conserva en el Archivo Municipal, y fue recuperado cuando, en 1996, se decidió remodelar la plaza y colocar en ella una estatua.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1891, María Pita contaba con doce casas construídas, estando case pechada a parte sur e desmontada e nivelada toda a praza. Xa medraran as súas primeiras árbores e colocáronse os primeiros farois de chisqueiro de gas.&#10;&#10;A actual estatua de María Pita, que se instalou en 1998, é obra de José Castiñeiras. Pero está inspirada nun deseño de José González Giménez. Quen era González Giménez? Un inimigo de Ruiz Blasco, o pai de Picasso. Ambos traballaban como profesores na Escola de Belas Artes e os enfrontamentos de González Giménez coa cúpula directiva eran constantes. O mal ambiente que este profesor xerou na Escola foi unha das causas menores da marcha de Ruiz Blasco da cidade.&#10;&#10;González Jiménez foi, en 1890, o gañador do concurso convocado polo goberno local para elixir o deseño da estatua á heroína local, pera a obra non se chegou a executar. O bosquexo consérvase no Arquivo Municipal, e foi recuperado cando, en 1996, se decidiu remodelar a praza e colocar nela unha estatua.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1891, Plaza de María Pita had twelve houses overall, with the south side almost enclosed; the whole square was levelled. The first trees were growing up and a few gas-fuelled streetlamps were already in place.&#10;&#10;The current statue of María Pita, installed in 1998, was made by José Castiñeiras, although it took inspiration from a design by José González Giménez. Who was this man? He was an enemy of Ruiz Blasco, Picasso’s father. They were both professors at the School of Fine Arts, and González Giménez constantly had confrontations with the school’s directive board. The bad atmosphere that this professor created at the school was a minor contributing cause to Ruiz Blasco’s departure from the city.&#10;&#10;In 1890, González Giménez won the competition organized by the Town Council to design the statue of the local heroin, but the piece never got to be made. The draft was kept at the Municipal Archive, and it was recovered in 1996, when the decision was made to refurbish the square and place a statue in it.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1891, dans la Place de María Pita, il y avait douze maisons construites, constituant la partie sud presque une enceinte enclose et étant toute la place au même niveau. Les premiers arbres avaient poussé et les premiers lampadaires de briquet à gaz avaient été déjà installés.&#10;&#10;La statue actuelle de Maria Pita, érigée en 1998, c'est une œuvre de José Castiñeiras, mais il s'inspire d'un dessin de José González Giménez. Qui était-ce González Giménez ? Un ennemi de Ruiz Blasco, le père de Picasso. Tous les deux travaillaient comme professeurs dans l'École de Beaux-Arts et les affrontements de González Giménez et la direction étaient une constante. Le mauvais climat créé par ce professeur dans l'École fut l'une des raisons mineures, déterminant le départ de Ruiz Blasco de La Corogne.&#10;&#10;González Jiménez gagna en 1890 le concours organisé par le gouvernement de la ville afin de choisir le dessin de la statue de l'héroïne locale, mais l'œuvre ne se réalisa pas. Le canevas existe toujours dans les Archives Municipales, et fut récupéré en 1996, quand la place fut refaite et après qu'il eut été décidé d'y installer une statue.
+			</txt_fr>
+			
+		</image>
+		
+		<image tipo="img">
+			<!-- playa -->
+			<url>20_PLAZA_DE_MARIA_PITA/202-MariaPita1890-1.jpg</url>
+			
+			<titulo_cast>María Pita</titulo_cast>
+			<titulo_gal>María Pita</titulo_gal>	
+			<titulo_eng>María Pita</titulo_eng>
+			<titulo_fr>María Pita</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Pita</titular>
+				<cuerpo>Proyecto de la estatua de María Pita en siglo XIX, de González Giménez. De 1890.&#10;&#10;Archivo Municipal de A Coruña.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Pita</titular>
+				<cuerpo>Proxecto da estatua de María Pita no século XIX, de González Giménez. De 1890.&#10;&#10;Arquivo Municipal da Coruña.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Pita</titular>
+				<cuerpo>Project for the María Pita statue in the 19th Century, by González Giménez. 1890.&#10;&#10;A Coruña Municipal Archive.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Pita</titular>
+				<cuerpo>Ébauche de la statue de María Pita, au XIXe siècle, de González Giménez. 1890.&#10;&#10;Archives Municipales de La Corogne.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1891, María Pita contaba con doce casas construidas, estando casi cerrada la parte sur y desmontada y nivelada toda la plaza. Ya se habían desarrollado sus primeros árboles y se habían colocado las primeras farolas de mechero de gas.&#10;&#10;La actual estatua de María Pita, que se instaló en 1998, es obra de José Castiñeiras. Pero está inspirada en un diseño de José González Giménez. ¿Quién era González Giménez? Un enemigo de Ruiz Blasco, el padre de Picasso. Ambos trabajaban como profesores en la Escuela de Bellas Artes y los enfrentamientos de González Giménez con la cúpula directiva eran constantes. El mal ambiente que este profesor generó en la Escuela fue una de las causas menores de la marcha de Ruiz Blasco de la ciudad.&#10;&#10;González Jiménez fue, en 1890, el ganador del concurso convocado por el gobierno local para elegir el diseño de la estatua a la heroína local, pera la obra no se llegó a ejecutar. El boceto se conserva en el Archivo Municipal, y fue recuperado cuando, en 1996, se decidió remodelar la plaza y colocar en ella una estatua.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1891, María Pita contaba con doce casas construídas, estando case pechada a parte sur e desmontada e nivelada toda a praza. Xa medraran as súas primeiras árbores e colocáronse os primeiros farois de chisqueiro de gas.&#10;&#10;A actual estatua de María Pita, que se instalou en 1998, é obra de José Castiñeiras. Pero está inspirada nun deseño de José González Giménez. Quen era González Giménez? Un inimigo de Ruiz Blasco, o pai de Picasso. Ambos traballaban como profesores na Escola de Belas Artes e os enfrontamentos de González Giménez coa cúpula directiva eran constantes. O mal ambiente que este profesor xerou na Escola foi unha das causas menores da marcha de Ruiz Blasco da cidade.&#10;&#10;González Jiménez foi, en 1890, o gañador do concurso convocado polo goberno local para elixir o deseño da estatua á heroína local, pera a obra non se chegou a executar. O bosquexo consérvase no Arquivo Municipal, e foi recuperado cando, en 1996, se decidiu remodelar a praza e colocar nela unha estatua.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1891, Plaza de María Pita had twelve houses overall, with the south side almost enclosed; the whole square was levelled. The first trees were growing up and a few gas-fuelled streetlamps were already in place.&#10;&#10;The current statue of María Pita, installed in 1998, was made by José Castiñeiras, although it took inspiration from a design by José González Giménez. Who was this man? He was an enemy of Ruiz Blasco, Picasso’s father. They were both professors at the School of Fine Arts, and González Giménez constantly had confrontations with the school’s directive board. The bad atmosphere that this professor created at the school was a minor contributing cause to Ruiz Blasco’s departure from the city.&#10;&#10;In 1890, González Giménez won the competition organized by the Town Council to design the statue of the local heroin, but the piece never got to be made. The draft was kept at the Municipal Archive, and it was recovered in 1996, when the decision was made to refurbish the square and place a statue in it.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1891, dans la Place de María Pita, il y avait douze maisons construites, constituant la partie sud presque une enceinte enclose et étant toute la place au même niveau. Les premiers arbres avaient poussé et les premiers lampadaires de briquet à gaz avaient été déjà installés.&#10;&#10;La statue actuelle de Maria Pita, érigée en 1998, c'est une œuvre de José Castiñeiras, mais il s'inspire d'un dessin de José González Giménez. Qui était-ce González Giménez ? Un ennemi de Ruiz Blasco, le père de Picasso. Tous les deux travaillaient comme professeurs dans l'École de Beaux-Arts et les affrontements de González Giménez et la direction étaient une constante. Le mauvais climat créé par ce professeur dans l'École fut l'une des raisons mineures, déterminant le départ de Ruiz Blasco de La Corogne.&#10;&#10;González Jiménez gagna en 1890 le concours organisé par le gouvernement de la ville afin de choisir le dessin de la statue de l'héroïne locale, mais l'œuvre ne se réalisa pas. Le canevas existe toujours dans les Archives Municipales, et fut récupéré en 1996, quand la place fut refaite et après qu'il eut été décidé d'y installer une statue.
+			</txt_fr>
+			
+		</image>
+		
+	</images>
+	
+	<!-- cuadros -->
+	<cuadros>
+		<cuadro tipo="img">
+			<url>20_PLAZA_DE_MARIA_PITA/204-periodiquillo.jpg</url>
+			
+			<titulo_cast>María Pita</titulo_cast>
+			<titulo_gal>María Pita</titulo_gal>	
+			<titulo_eng>María Pita</titulo_eng>
+			<titulo_fr>María Pita</titulo_fr>
+			
+			<pie_cast>
+				<titular>María Pita</titular>
+				<cuerpo>Periodiquillo La Coruña (1894) de Pablo Ruiz Picasso.&#10;&#10;El malagueño informa sobre las fiestas dedicadas a María Pita.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular>María Pita</titular>
+				<cuerpo>Periodiquillo La Coruña (1894) de Pablo Ruiz Picasso.&#10;&#10;O malagueño informa sobre as festas dedicadas a María Pita.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular>María Pita</titular>
+				<cuerpo>Amateur magazine La Coruña (1894), by Pablo Ruiz Picasso.&#10;&#10;The artist reported on the fiesta celebrated in honor of María Pita.&#10;&#10;Museo Picasso de París. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular>María Pita</titular>
+				<cuerpo>Journal La Coruña (1894) de Pablo Ruiz Picasso.&#10;&#10;L'artiste, né à Malaga, parle des fêtes de María Pita.&#10;&#10;Musée Picasso de Paris. © Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			En 1891, María Pita contaba con doce casas construidas, estando casi cerrada la parte sur y desmontada y nivelada toda la plaza. Ya se habían desarrollado sus primeros árboles y se habían colocado las primeras farolas de mechero de gas.&#10;&#10;La actual estatua de María Pita, que se instaló en 1998, es obra de José Castiñeiras. Pero está inspirada en un diseño de José González Giménez. ¿Quién era González Giménez? Un enemigo de Ruiz Blasco, el padre de Picasso. Ambos trabajaban como profesores en la Escuela de Bellas Artes y los enfrentamientos de González Giménez con la cúpula directiva eran constantes. El mal ambiente que este profesor generó en la Escuela fue una de las causas menores de la marcha de Ruiz Blasco de la ciudad.&#10;&#10;González Jiménez fue, en 1890, el ganador del concurso convocado por el gobierno local para elegir el diseño de la estatua a la heroína local, pera la obra no se llegó a ejecutar. El boceto se conserva en el Archivo Municipal, y fue recuperado cuando, en 1996, se decidió remodelar la plaza y colocar en ella una estatua.
+			</txt_cast>
+			
+			<txt_gal>
+			En 1891, María Pita contaba con doce casas construídas, estando case pechada a parte sur e desmontada e nivelada toda a praza. Xa medraran as súas primeiras árbores e colocáronse os primeiros farois de chisqueiro de gas.&#10;&#10;A actual estatua de María Pita, que se instalou en 1998, é obra de José Castiñeiras. Pero está inspirada nun deseño de José González Giménez. Quen era González Giménez? Un inimigo de Ruiz Blasco, o pai de Picasso. Ambos traballaban como profesores na Escola de Belas Artes e os enfrontamentos de González Giménez coa cúpula directiva eran constantes. O mal ambiente que este profesor xerou na Escola foi unha das causas menores da marcha de Ruiz Blasco da cidade.&#10;&#10;González Jiménez foi, en 1890, o gañador do concurso convocado polo goberno local para elixir o deseño da estatua á heroína local, pera a obra non se chegou a executar. O bosquexo consérvase no Arquivo Municipal, e foi recuperado cando, en 1996, se decidiu remodelar a praza e colocar nela unha estatua.
+			</txt_gal>
+						
+			<txt_eng>
+			In 1891, Plaza de María Pita had twelve houses overall, with the south side almost enclosed; the whole square was levelled. The first trees were growing up and a few gas-fuelled streetlamps were already in place.&#10;&#10;The current statue of María Pita, installed in 1998, was made by José Castiñeiras, although it took inspiration from a design by José González Giménez. Who was this man? He was an enemy of Ruiz Blasco, Picasso’s father. They were both professors at the School of Fine Arts, and González Giménez constantly had confrontations with the school’s directive board. The bad atmosphere that this professor created at the school was a minor contributing cause to Ruiz Blasco’s departure from the city.&#10;&#10;In 1890, González Giménez won the competition organized by the Town Council to design the statue of the local heroin, but the piece never got to be made. The draft was kept at the Municipal Archive, and it was recovered in 1996, when the decision was made to refurbish the square and place a statue in it.
+			</txt_eng>
+						
+			<txt_fr>
+			En 1891, dans la Place de María Pita, il y avait douze maisons construites, constituant la partie sud presque une enceinte enclose et étant toute la place au même niveau. Les premiers arbres avaient poussé et les premiers lampadaires de briquet à gaz avaient été déjà installés.&#10;&#10;La statue actuelle de Maria Pita, érigée en 1998, c'est une œuvre de José Castiñeiras, mais il s'inspire d'un dessin de José González Giménez. Qui était-ce González Giménez ? Un ennemi de Ruiz Blasco, le père de Picasso. Tous les deux travaillaient comme professeurs dans l'École de Beaux-Arts et les affrontements de González Giménez et la direction étaient une constante. Le mauvais climat créé par ce professeur dans l'École fut l'une des raisons mineures, déterminant le départ de Ruiz Blasco de La Corogne.&#10;&#10;González Jiménez gagna en 1890 le concours organisé par le gouvernement de la ville afin de choisir le dessin de la statue de l'héroïne locale, mais l'œuvre ne se réalisa pas. Le canevas existe toujours dans les Archives Municipales, et fut récupéré en 1996, quand la place fut refaite et après qu'il eut été décidé d'y installer une statue.
+			</txt_fr>
+						
+		</cuadro>
+	</cuadros>
+	
+	<!-- //////////////////// periodicos //////////////////// -->
+	<periodicos>
+		<!-- <periodico tipo="img">
+			<url></url>
+			
+			<pie_cast>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_cast>
+			
+			<pie_gal>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_gal>
+						
+			<pie_eng>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_eng>
+
+			
+			<pie_fr>
+				<titular></titular>
+				<cuerpo></cuerpo>
+			</pie_fr>	
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: 'Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)'.
+			</txt_cast>
+			
+			<txt_cast>
+			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_cast>
+			
+			<txt_gal>
+			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			</txt_gal>
+						
+			<txt_eng>
+			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea’s wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			</txt_eng>
+						
+			<txt_fr>
+			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			</txt_fr>
+			
+		</periodico>-->
+	</periodicos>
+	
+</ficha>
+</mesa>
