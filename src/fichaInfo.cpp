@@ -675,7 +675,7 @@ void fichaInfo::construFigura(){
 // datos del xml
 //--------------------------------------------------------------
 void fichaInfo::cargaXml(string _ulr, int idXml){
-    cout << "imagenes " << _ulr << endl;
+   // cout << "cargaXml " << _ulr << endl;
     
     int idBuscado = idXml;
     
@@ -700,7 +700,7 @@ void fichaInfo::cargaXml(string _ulr, int idXml){
                     //
                     
                     totalImagenes = datosXml.getNumTags("image");
-                    cout << "imagenes " << totalImagenes << endl;
+                    //cout << "imagenes " << totalImagenes << endl;
                     
                     
                     for (int j=0; j<totalImagenes; j++) {
@@ -757,7 +757,7 @@ void fichaInfo::cargaXml(string _ulr, int idXml){
                     // le pasamos los cuadros al boton correspondiente que es el num 3 del vector
                     totalCuadros = datosXml.getNumTags("cuadro");
                     
-                     cout << "cuadros " << totalCuadros << endl;
+                    //cout << "cuadros " << totalCuadros << endl;
                     
                     
                     for (int k=0; k<totalCuadros; k++) {
