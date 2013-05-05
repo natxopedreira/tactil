@@ -4,4 +4,5 @@ build/*
 *.xcodeproj
 *.plist
 *.jpg
+*.zip
 *.DS_Store

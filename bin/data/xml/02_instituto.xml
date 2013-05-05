@@ -60,7 +60,7 @@
 									
 			<titulo_cast>Firmas de los compañeros de Picasso</titulo_cast>
 			<titulo_gal>Sinaturas dos compañeiros de Picasso</titulo_gal>	
-			<titulo_eng>Signatures of Picasso’s classmates</titulo_eng>
+			<titulo_eng>Signatures of Picasso's classmates</titulo_eng>
 			<titulo_fr>Signatures des camarades de classe de Picasso</titulo_fr>
 			
 			<pie_cast>
@@ -74,8 +74,8 @@
 			</pie_gal>
 						
 			<pie_eng>
-				<titular>Signatures of Picasso’s classmates</titular>
-				<cuerpo>Signatures of Picasso’s classmates on a book that he used while in secondary school.&#10;&#10;Literatura preceptiva: Retórica y Poética (Preceptive Literature: Rhetorics and Poetry), page 182.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+				<titular>Signatures of Picasso's classmates</titular>
+				<cuerpo>Signatures of Picasso's classmates on a book that he used while in secondary school.&#10;&#10;Literatura preceptiva: Retórica y Poética (Preceptive Literature: Rhetorics and Poetry), page 182.&#10;&#10;Museu Picasso de Barcelona. © Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
 			</pie_eng>
 
 			
@@ -106,11 +106,11 @@
 	<!-- //////////////////// periodicos //////////////////// -->
 	<periodicos>
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/222-Traslado-de-matricula.jpg"</url>
+			<url>02_INSTITUTO/222-Traslado-de-matricula.jpg</url>
 			
 			<titulo_cast>Traslado de la matrícula de Picasso</titulo_cast>
 			<titulo_gal>Traslado da matrícula de Picasso</titulo_gal>	
-			<titulo_eng>Transfer of Picasso’s enrolment</titulo_eng>
+			<titulo_eng>Transfer of Picasso's enrolment</titulo_eng>
 			<titulo_fr>Picasso s'inscrit à l'institut</titulo_fr>
 			
 			<pie_cast>
@@ -124,8 +124,8 @@
 			</pie_gal>
 						
 			<pie_eng>
-				<titular>Transfer of Picasso’s enrolment</titular>
-				<cuerpo>Transfer of Picasso’s enrolment&#10;&#10;from his secondary school in Malaga to A Coruña.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+				<titular>Transfer of Picasso's enrolment</titular>
+				<cuerpo>Transfer of Picasso's enrolment&#10;&#10;from his secondary school in Malaga to A Coruña.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
 			</pie_eng>
 
 			
@@ -153,7 +153,7 @@
 		</periodico>
 		
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/223-certificado-oficial-estudios.jpg"</url>
+			<url>02_INSTITUTO/223-certificado-oficial-estudios.jpg</url>
 			
 			<titulo_cast>Certificado oficial de estudios</titulo_cast>
 			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
@@ -172,7 +172,7 @@
 						
 			<pie_eng>
 				<titular>Official certificate of education</titular>
-				<cuerpo>Pablo Ruiz Picasso’s official certificate of education.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña).</cuerpo>
+				<cuerpo>Pablo Ruiz Picasso's official certificate of education.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña).</cuerpo>
 			</pie_eng>
 
 			
@@ -200,7 +200,7 @@
 		</periodico>
 	
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/224-pago-al-estado-por-Retorica.jpg"</url>
+			<url>02_INSTITUTO/224-pago-al-estado-por-Retorica.jpg</url>
 			
 			<titulo_cast>Pago al estado por la matriculación</titulo_cast>
 			<titulo_gal>Pago ao Estado pola matriculación</titulo_gal>	
@@ -247,7 +247,7 @@
 		</periodico>
 
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/225-pago-al-estado-por-historia-pablo-firma.jpg"</url>
+			<url>02_INSTITUTO/225-pago-al-estado-por-historia-pablo-firma.jpg</url>
 			
 			<titulo_cast>Pago al estado por la matriculación</titulo_cast>
 			<titulo_gal>Pago ao Estado pola matriculación</titulo_gal>	
@@ -266,7 +266,7 @@
 						
 			<pie_eng>
 				<titular>Enrolment fee payment</titular>
-				<cuerpo>Enrolment fee payment for the subject of Rhetorics and Poetry, academic year 93-94.&#10;&#10;It has Picasso’s father’s signature.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+				<cuerpo>Enrolment fee payment for the subject of Rhetorics and Poetry, academic year 93-94.&#10;&#10;It has Picasso's father's signature.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
 			</pie_eng>
 
 			
@@ -294,7 +294,7 @@
 		</periodico>
 
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/227-antonio.jpg"</url>
+			<url>02_INSTITUTO/227-antonio.jpg</url>
 			
 			<titulo_cast>Certificado oficial de estudios</titulo_cast>
 			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
@@ -313,7 +313,7 @@
 						
 			<pie_eng>
 				<titular>Official certificate of education</titular>
-				<cuerpo>Official certificate of education belonging to Antonio Pardo García&#10;&#10;(who would later change his second surname to Reguera),&#10;&#10;one of Picasso’s best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+				<cuerpo>Official certificate of education belonging to Antonio Pardo García&#10;&#10;(who would later change his second surname to Reguera),&#10;&#10;one of Picasso's best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
 			</pie_eng>
 
 			
@@ -341,7 +341,7 @@
 		</periodico>
 	
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/228-constantino.jpg"</url>
+			<url>02_INSTITUTO/228-constantino.jpg</url>
 			
 			<titulo_cast>Certificado oficial de estudios</titulo_cast>
 			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
@@ -360,7 +360,7 @@
 						
 			<pie_eng>
 				<titular>Official certificate of education</titular>
-				<cuerpo>Official certificate of education belonging to Constantino Sardiña Muíños,&#10;&#10;one of Picasso’s best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+				<cuerpo>Official certificate of education belonging to Constantino Sardiña Muíños,&#10;&#10;one of Picasso's best Coruñan friends.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
 			</pie_eng>
 
 			
@@ -388,7 +388,7 @@
 		</periodico>
 	
 		<periodico tipo="img">
-			<url>"02_INSTITUTO/229-Maria.jpg"</url>
+			<url>02_INSTITUTO/229-Maria.jpg</url>
 			
 			<titulo_cast>Certificado oficial de estudios</titulo_cast>
 			<titulo_gal>Certificado oficial de estudos</titulo_gal>	
@@ -407,7 +407,7 @@
 						
 			<pie_eng>
 				<titular>Official certificate of education</titular>
-				<cuerpo>Official certificate of education belonging to María Méndez Gil,&#10;&#10;one of Picasso’s best Coruñan friends and sister of his beloved Ángeles.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
+				<cuerpo>Official certificate of education belonging to María Méndez Gil,&#10;&#10;one of Picasso's best Coruñan friends and sister of his beloved Ángeles.&#10;&#10;Archive of the Salvador de Madariaga Secondary School (A Coruña)</cuerpo>
 			</pie_eng>
 
 			

@@ -199,7 +199,7 @@ void visualizador::cargaImagen(string _url){
         imgVisible = true;
     }else{
         
-        imgVisible = false;
+        //imgVisible = false;
     }
     
     
@@ -207,10 +207,10 @@ void visualizador::cargaImagen(string _url){
 
 // ---------------------------------------
 void visualizador::ponTexto(string _titularPie,string _pie, string _informacion){
-    pie = wrapString(_pie,470,fuenteCuerpo);
+    pie = wrapString(_pie,490,fuenteCuerpo);
     titularPie = _titularPie;
     cont = x + 200;
-    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height ;
+    altoTexto = fuenteCuerpo.getStringBoundingBox(pie, 0, 0).height +10;
 
     
     

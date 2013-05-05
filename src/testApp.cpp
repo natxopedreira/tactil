@@ -65,15 +65,6 @@ void testApp::setup(){
     
     
     ofAddListener(puntosMapa.verFicha,this, &testApp::verFicha);
-    
-    /////////////////////
-    /////////////////////
-	//fichaInfo * ficha = new fichaInfo();
-	//ficha->setup("interactivo.xml");
-    //ficha->setTuioClient(&tuioClient);
-    
-	//fichas.push_back(ficha);
-
 }
 
 //--------------------------------------------------------------
@@ -163,31 +154,13 @@ void testApp::draw(){
         ofRect(0, 0, 1920, 1080);
         ofPopStyle();
     }
-    
 
-    
-    
-    
-    
     // ----- fichas
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
     }
 
-    
-    
-    
-  /*  stringstream str;
-    
-    str << "[e] ver/ocultar el mensaje" << endl
-    << "" << endl
-    << "[g] para ver/ocultar GUI" <<  endl
-    << "" << endl
-    << "fps: " <<  ofToString(ofGetFrameRate()) << endl
-    << "" << endl;
-    
-    ofDrawBitmapString(str.str(),10,10);
-   */ 
+
     if(verGui){
         gui.draw();
     }
@@ -212,7 +185,6 @@ void testApp::lanzaFicha(){
 
 //--------------------------------------------------------------
 void testApp::verFicha(customDataEvent & info){
-    
     
     fichaInfo * ficha = new fichaInfo();
     ficha->setup(info.nombre, info.valor);
@@ -293,7 +265,5 @@ void testApp::keyPressed(int key){
             verGui = !verGui; 
             break; 
     }
-    
-
 }
 

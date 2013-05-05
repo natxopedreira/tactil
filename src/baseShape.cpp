@@ -196,7 +196,6 @@ void baseShape::drawRound(){
     ofPopStyle();
     
     /// debug de los puntos para verlos
-    
     /*
     for (int i  = 0 ; i < puntos.size(); i++) {
         ofSetColor(0);
