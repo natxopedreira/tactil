@@ -167,6 +167,8 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
 // ---------------------------------------
 void visualizador::cargaImagen(string _url){
     //visor.cargaImagen("imagenes/full/"+_url);
+    
+    visorZoom.nosehatocado = true;
     if (imagenZoom.isAllocated()){
          imagenZoom.clear();
     }

@@ -24,6 +24,7 @@ public:
 	float   getZoom(){ return zoom; } //current zoom level
     
 	ofVec2f getOffset(){return -offset;}
+    void    centrate();
 	
     ofVec2f screenToWorld(const ofVec2f & p); //convert a point from current screen units to world units
 	ofVec2f worldToScreen(const ofVec2f & p); //convert a point from world units to current screen units
@@ -45,6 +46,7 @@ public:
     float   smoothFactor;
     float   deltaTime;
     
+    bool    nosehatocado;
     bool    bDebug;
     
 private:

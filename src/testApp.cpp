@@ -185,6 +185,7 @@ void testApp::lanzaFicha(){
 
 //--------------------------------------------------------------
 void testApp::verFicha(customDataEvent & info){
+    if(fichas.size()>0) return;
     
     fichaInfo * ficha = new fichaInfo();
     ficha->setup(info.nombre, info.valor);

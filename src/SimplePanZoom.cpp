@@ -22,14 +22,19 @@ SimplePanZoom::SimplePanZoom(){
 	offset.x = offset.y = desiredOffset.x = desiredOffset.y = 0.0f;
     
     bDebug = true;
+    nosehatocado = true;
 }
 
 void SimplePanZoom::update(){
+    //if(nosehatocado) centrate();
+    
     float time = 1; //deltaTime / 60.0f;
 	zoom = (time * smoothFactor) * desiredZoom + (1.0f - smoothFactor * time) * zoom;
 	offset = (time * smoothFactor) * desiredOffset + (1.0f - smoothFactor * time) * offset;
     
     applyConstrains();
+    
+   //
 }
 
 void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
@@ -118,8 +123,23 @@ void SimplePanZoom::touchDown(ofTouchEventArgs &touch){
 	}
     
 	touching[touch.id] = true;
+    
+    nosehatocado = false;
 }
 
+void SimplePanZoom::centrate(){
+    
+    float diffx = 0;
+    if(maxOffset.x * zoom>503) diffx = 503 - maxOffset.y * zoom;
+    
+    float diffy = 0;
+    
+    if(maxOffset.y * zoom>308) diffy = 308 - maxOffset.y * zoom;
+    
+    desiredOffset.x = offset.x = diffx;
+    desiredOffset.y = offset.x = diffy;
+    
+}
 
 void SimplePanZoom::touchMoved(ofTouchEventArgs &touch){
 	if(!inside(touch.x, touch.y)) touchUp(touch);
