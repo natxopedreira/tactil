@@ -34,6 +34,7 @@ public:
     void    mouseMoved(ofMouseEventArgs & args);
 
     boton   btnInfo;
+    ofImage imagenBtnInfo;
     SimplePanZoom visorZoom;
     ofImage imagenZoom;
     

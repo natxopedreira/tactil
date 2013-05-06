@@ -69,9 +69,9 @@ void fichaInfo::setup(string _ulrXml, int idXml){
     
 	construFigura();
     /////
-    
-    
-   
+    imgPeriodicos.loadImage("iconos/iconPICASSO-periodico.png");
+    imgCuadros.loadImage("iconos/iconPICASSO-pintura.png");
+    imgFotos.loadImage("iconos/iconPICASSO-photo.png");
     
 	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
 	ofAddListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
@@ -202,9 +202,10 @@ void fichaInfo::draw(){
 	}*/
 	
     /// PINTA LOS BOTONES y EL AREA
-    btnImagenes.drawButton();
-	btnCuadros.drawButton();
-	btnPeriodicos.drawButton();
+    btnImagenes.drawButtonImg(imgFotos);
+	btnCuadros.drawButtonImg(imgCuadros);
+    btnPeriodicos.drawButtonImg(imgPeriodicos);
+    
 	areaGrande.drawRound();
     
 
@@ -427,11 +428,17 @@ void fichaInfo::construFigura(){
 	areaGrande.principal = true;
 	areaGrande.damping = dampcajas;
 	
+    //// COLORES DE LAS SECCIONES
+    //// naranjita 233, 186, 118
+    //// azulin 154, 189, 195
+    //// blanco 236, 232, 220
+    //// fotos neuveo 166, 158, 135
+    
 	btnPeriodicos.x = areaGrande.x - 86 ;
 	btnPeriodicos.y = areaGrande.y;
 	btnPeriodicos.width = 60;
 	btnPeriodicos.height = 60;
-	btnPeriodicos.color.set(233, 186, 118);
+	btnPeriodicos.color.set(154, 189, 195);
 	btnPeriodicos.mass = 0.6;
     btnPeriodicos.nombre = "P";
 	btnPeriodicos.useBtn = true;
@@ -441,7 +448,7 @@ void fichaInfo::construFigura(){
 	btnImagenes.y = btnPeriodicos.y -81;
 	btnImagenes.width = 60;
 	btnImagenes.height = 60;
-	btnImagenes.color.set(154, 189, 195);
+	btnImagenes.color.set(166, 158, 135);
 	btnImagenes.mass = 0.6;
     btnImagenes.nombre = "I";
 	btnImagenes.useBtn = true;

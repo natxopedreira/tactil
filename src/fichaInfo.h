@@ -83,6 +83,10 @@ public:
     int visualizadorWidth;
     int visualizadorheight;
     int seccionActiva;
+    
+    ofImage imgPeriodicos;
+    ofImage imgCuadros;
+    ofImage imgFotos;
 
     bool    abierta;
     bool    verIdiomas;

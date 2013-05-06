@@ -29,6 +29,24 @@ void boton::drawButton(){
     if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
 }
 
+
+void boton::drawButtonImg(ofImage & img){
+     drawRound();
+    if(desactivado){
+       
+    }else{
+        ofPushStyle();
+        if(activo){
+            ofSetColor(255, 255, 255, 255);
+        }else {
+            ofSetColor(255, 255, 255, 80);
+        }
+        img.draw(this->x,this->y);
+        
+        ofPopStyle();
+    }
+}
+
 void boton::desactivate(){
     // no quieres ver el boton
     color.set(0,0,0);
