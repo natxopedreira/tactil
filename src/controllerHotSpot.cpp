@@ -101,8 +101,11 @@ void controllerHotSpot::mouseReleased(ofMouseEventArgs & arg){
         customDataEvent event;
         event.nombre = puntos.at(idPress).urlXml;
         event.valor = idPress+1;
+        event.pto.set(arg.x, arg.y);
         
         ofNotifyEvent(verFicha,event);
+        
+      
     }
     
     if(idPress >=0) idPress = -1;
@@ -125,6 +128,7 @@ void controllerHotSpot::savePositions(){
         posiciones.addValue("x", puntos.at(i).damePos().x);
         posiciones.addValue("y", puntos.at(i).damePos().y);
         posiciones.addValue("index", puntos.at(i).dameIndex());
+        posiciones.addValue("url", puntos.at(i).urlXml);
         
         posiciones.popTag();//pop position
     }

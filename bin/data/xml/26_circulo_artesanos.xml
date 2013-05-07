@@ -105,52 +105,52 @@
 	
 	<!-- cuadros -->
 	<cuadros>
-		<!--<cuadro tipo="img">
-			<url>1_PLAYA_DE_RIAZOR/16_camino.jpg</url>
+		<cuadro tipo="img">
+			<url>26_CIRCULO_ARTESANOS/2603-circo.jpg</url>
 									
-			<titulo_cast>Camino de Riazor</titulo_cast>
-			<titulo_gal>Camiño de Riazor</titulo_gal>	
-			<titulo_eng>Camino de Riazor</titulo_eng>
-			<titulo_fr>Camino de Riazor</titulo_fr>
+			<titulo_cast>El Circo Coruñés</titulo_cast>
+			<titulo_gal>O Circo Coruñé</titulo_gal>	
+			<titulo_eng>Teatro Circo</titulo_eng>
+			<titulo_fr>Le Théâtre Circo</titulo_fr>
 			
 			<pie_cast>
-				<titular>Camino de Riazor</titular>
-				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+				<titular>El Circo Coruñés</titular>
+				<cuerpo>El Circo Coruñés, en un dibujo publicado el 15 de julio de 1894 en la revista El Duende (A Coruña).</cuerpo>
 			</pie_cast>
 			
 			<pie_gal>
-				<titular>Camiño de Riazor</titular>
-				<cuerpo>Camiño de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+				<titular>O Circo Coruñé</titular>
+				<cuerpo>O Circo Coruñés, nun debuxo publicado o 15 de xullo de 1894 na revista El Duende (A Coruña).</cuerpo>
 			</pie_gal>
 						
 			<pie_eng>
-				<titular>Camino de Riazor</titular>
-				<cuerpo>Camino de Riazor (On the Way to Riazor) (1894), by Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelona.&#10;&#10;© Sucesión Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+				<titular>Teatro Circo</titular>
+				<cuerpo>Teatro Circo Emilia Pardo Bazán, in a photograph taken in 1903. These premises were built on the same land plot where the Circo Coruñés stood before. A Coruña Municipal Archive.</cuerpo>
 			</pie_eng>
 
 			
 			<pie_fr>
-				<titular>Camino de Riazor</titular>
-				<cuerpo>Camino de Riazor (1894), de Pablo Ruiz Picasso.&#10;&#10;Museu Picasso de Barcelone.&#10;&#10;© Succession Pablo Picasso, VEGAP, Madrid, 2013.</cuerpo>
+				<titular>Le Théâtre Circo</titular>
+				<cuerpo>Le Théâtre Circo Emilia Pardo Bazán, image datée de 1903. Enceinte érigée au début de siècle dans les terrains du Circo de la Corogne. Archives Municipales de La Corogne.</cuerpo>
 			</pie_fr>	
 			
 			<txt_cast>
-			Según uno de sus principales biógrafos, John Richardson, Picasso descubrió por primera vez la desnudez femenina en Riazor o el Orzán. Jugaba cerca de las casetas de la playa 'cuando se encontró cerca de una mujer desnuda y con sus ojos a la altura del vello público'. 'Pablo nunca olvidaría la excitación que le produjo aquella experiencia de mirón. Años más tarde asociaría las casetas de la playa con el misterio del sexo, sobre todo a finales de los años 20, cuando las diminutas casetas de Dinard escenario de sus amores con la adolescente Marie-Thérèse se repitieron una y otra vez en cuadros aparentemente alegres pero aún imbuidos de una mezcla de sexualidad y angustia', se extiende Richardson.&#10;&#10;Una crónica de la época describe así este arenal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			El domingo 14 de febrero de 1892 visitó la ciudad "el famoso propagandista del socialismo obrero en España, Paulino Iglesias o Pablo Iglesias", informó La Voz de Galicia. El fundador del PSOE ofreció un meeting en el Circo de Artesanos, que entonces estaba en la calle Real y que en 1895 se mudó a la calle San Andrés.&#10;&#10;Clamó Pablo Iglesias: "La desigualdad que hoy existe radica en que al obrero no se le dan los medios de cultivo intelectual". Dijo que a la sociedad le faltaba "civilización y cultura". Asombró al pedir la igualdad de sueldos entre hombre y mujer.&#10;&#10;Según Olano, Picasso acudió a ese meeting con su padre, y en el Circo se encontró con uno de sus amores coruñeses, la muchacha de los pies descalzos, hija de una pescantina.
 			</txt_cast>
 			
 			<txt_gal>
-			Segundo un dos seus principais biógrafos, John Richardson, Picasso descubriu por primeira vez a nudez feminina en Riazor ou o Orzán. Xogaba preto das casetas da praia 'cando se atopou preto dunha muller espida e cos seus ollos á altura da pube'. 'Pablo nunca esquecería a excitación que lle produciu aquela experiencia de mirón. Anos máis tarde asociaría as casetas da praia co misterio do sexo, sobre todo a finais dos anos 20, cando as diminutas casetas de Dinard -escenario dos seus amores coa adolescente Marie-Thérèse- se repetiron unha e outra vez en cadros aparentemente alegres pero aínda imbuídos dunha mestura de sexualidade e angustia', esténdese Richardson.&#10;&#10;Unha crónica da época describe así este areal: "Riazor es la playa de moda. En ella se reúne a diario (…) una buena parte de lo más granado de la sociedad coruñesa y de los forasteros que la visitan. Esto es lo que abarca el espectador al primer golpe de vista: el mar, al fondo, se extiende hasta confundirse con el horizonte, el sol que riela sobre la rizada superficie de las aguas, y diseminadas aquí y allá unas sombrillas de colores chillones, destacando sobre la húmeda arena (…)".
+			O domingo 14 de febreiro de 1892 visitou a cidade por primeira vez para expor a súa doutrina "el famoso propagandista del socialismo obrero en España, Paulino Iglesias o Pablo Iglesias", informou La Voz de Galicia. O fundador do PSOE ofreceu un mitin no Circo Coruñes, que estaba situado na Mariña, onde hoxe se atopa a Autoridade Portuaria.&#10;&#10;Clamou Pablo Iglesias: "A desigualdade que hoxe existe radica en que ao obreiro non se lle dan os medios de cultivo intelectual". Dixo que á sociedade faltáballe "civilización e cultura". Asombrou ao pedir a igualdade de soldos entre home e muller.&#10;&#10;Segundo Olano, Picasso acudiu a ese mitin co seu pai, e no Circo atopouse cun dos seus amores coruñeses, a rapaza dos pés descalzos, filla dunha peixeira.
 			</txt_gal>
 						
 			<txt_eng>
-			According to John Richardson, one of his main biographers, Picasso first discovered female nudity in Riazor or Orzán beach. He was playing near the beach huts when "he found himself standing next to a naked woman, his eyes level with her pubic hair. The voyeuristic excitement associated with this occasion is something that Picasso never forgot. Forever afterward beach cabanas would be associated with the mystery of sex, especially in the late 1920s, when the little bathing huts at Dinard the scene of his amours with the teenage Marie-Thérèse Walter recur again and again in paintings (also poems) that are ostensibly playful and yet imbued with a mixture of sexuality and angst”.&#10;&#10;A chronicle of the time described the beach as follows: "Riazor beach is on fashion. The cream of local society and visitors gather on it daily. This is what bathers discover at first sight: on the background, the sea spreads out in the distance until it mixes with the horizon; the sun shimmers above the sea's wavy surface, and here and there, lively coloured umbrellas stand out on the wet sand (…)". 
+			On Sunday, February 14th, 1892, the city received for the first time the visit of "the well-known propagandist of Spanish working-class Socialism, Paulino Iglesias or Pablo Iglesias", according to the news published in La Voz de Galicia. The founder of the Spanish Socialist Party explained his doctrine during a rally held at the Circo Coruñés, in La Marina, on the same location where the Port Authority's headquarters stands today.&#10;&#10;"Today's unequality is based on the fact that the working class lacks the means for intelectual development", Pablo Iglesias asserted that day. He added that society lacked "civilization and culture" and caused some amazement when asking for equal wages for men and women.&#10;&#10;According to Olano, Picasso attended the rally with ihs father, and it was at the Circo that he met one of his Coruñan loves, the barefoot girl, who was the daughter of a fishmonger.
 			</txt_eng>
 						
 			<txt_fr>
-			D'après l'un de ses principaux biographes, John Richardson, Picasso aurait découvert la nudité féminine sur la plage de Riazor ou de l'Orzán. Il était en train de jouer à côté des cabines de bain quand il se trouva près d'une femme nue, ses yeux à la hauteur du poil pubien. Pablo n'allait jamais oublier l'excitation ressentie suite à son expérience de voyeur. Avec le temps, il associera les cabines de bain de la plage aux mystères du sexe, notamment à la fin des années 20, quand les cabines de bain minuscules de Dinard devenues le théâtre de ses amours avec l'adolescente Marie-Thérèse sont systématiquement présentes dans ses tableaux, en apparence gais, mais imbus d'un mélange de sexualité et d'angoisse, raconte Richardson.&#10;&#10;Une chronique de l'époque décrit ce banc de sable : "Riazor, c'est une plage en vogue. Tous les jours, la crème de la société de La Corogne et des vacanciers se rassemblent sur les lieux. Du premier coup d'œil, le spectateur embrasse : la mer, au fond, s'étendant jusqu'à ce que ce qu'elle se confonde avec l'horizon, le soleil qui brasille, la surface de l'eau ridée, et disséminés ici et là quelque parasoleils aux couleurs criardes, ressortissants sur le sable humide […]".
+			Le dimanche 14 février 1892, visita la ville pour la première fois, pour exposer sa doctrine, "le fameux propagandiste du socialisme ouvrier en Espagne, Paulino Iglesias ou Pablo Iglesias", d'après le journal La Voz de Galicia. Le fondateur du PSOE offrit un meeting dans le Circo Coruñés, situé sur la Marina, actuellement abritant l'Autorité portuaire.&#10;&#10;Pablo Iglesias clama : "L'inégalité qui existe aujourd'hui réside dans le fait que l'ouvrier n'obtient pas les moyens de la culture intellectuelle". Il dit que la société manquait de "civilisation et de culture". Il provoqua la surprise en réclamant l'égalité des salaires des hommes et des femmes.&#10;&#10;D'après Olano, Picasso se rendit à ce meeting avec son père et au Circo il rencontra l'un de ses amoureuses de La Corogne, la fillette aux pieds nus, fille d'une pêcheuse.
 			</txt_fr>
 						
-		</cuadro>-->
+		</cuadro>
 	</cuadros>
 	
 	<!-- //////////////////// periodicos //////////////////// -->

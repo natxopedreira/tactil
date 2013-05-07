@@ -1047,6 +1047,33 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
     
 }
+
+
+
+//// comprueba que no haces click inside para propagar el evento
+bool fichaInfo::isInside(ofVec2f pto){
+    bool respuesta = false;
+    /// comprobamos visualizador
+    if (areaGrande.inside(pto)) {
+        respuesta = true;
+    }else if (btnImagenes.inside(pto)) {
+        respuesta = true;
+    }else if (btnCuadros.inside(pto)) {
+        respuesta = true;
+    }else if (btnPeriodicos.inside(pto)) {
+        respuesta = true;
+    }
+    
+    for(int i = 0; i < minis.thumbs.size(); i++){
+        if( minis.thumbs[i]->inside(pto)){
+            respuesta = true;
+        }
+    }
+    return respuesta;
+}
+
+
+
 //--------------------------------------------------------------
 /*void fichaInfo::setTuioClient (ofxTuioClient * _tuioClient){
     zoomImagen.setTuioClient(_tuioClient);

@@ -57,6 +57,10 @@ public:
 	void    cambiaKHorizontal(float v);
 	void    cambiaDampMiniaturas(float v);
     
+    
+    //// comprueba que no haces click inside para propagar el evento
+    bool    isInside(ofVec2f pto);
+    
     //
     // piezas para la figura
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
@@ -87,6 +91,7 @@ public:
     ofImage imgPeriodicos;
     ofImage imgCuadros;
     ofImage imgFotos;
+    
 
     bool    abierta;
     bool    verIdiomas;

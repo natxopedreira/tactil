@@ -57,6 +57,7 @@ public:
     
 private:
     ofImage imagen;
+    ofImage gestos;
     
     bool    imgVisible;
     bool    drag;

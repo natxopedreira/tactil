@@ -17,9 +17,9 @@ void testApp::setup(){
 	kmuellesDiagonales = 0.0325;
 	kmuellesHorizontales = 0.0325;
 
-    leyenda.loadImage("leyenda.png");
-    ciudad.loadImage("ciudad.jpg");
-    ciudadMask.loadImage("ciudad_mask.jpg");
+    leyenda.loadImage("leyenda2.png");
+    ciudad.loadImage("ciudad2.jpg");
+    ciudadMask.loadImage("mascara_ciudad.jpg");
     
     tuioClient.start(3333);
     
@@ -140,7 +140,7 @@ void testApp::draw(){
     
     
     // ----- leyenda del tactil
-    leyenda.draw(805, 426);
+    leyenda.draw(975, 320);
     
     // ----- hotspots del mapa
     puntosMapa.draw();
@@ -185,7 +185,18 @@ void testApp::lanzaFicha(){
 
 //--------------------------------------------------------------
 void testApp::verFicha(customDataEvent & info){
-    if(fichas.size()>0) return;
+    ///if(fichas.size()>0) return;
+    
+    
+    bool usado = false;
+    
+    for (int i = 0; i<fichas.size(); i++) {
+        usado = fichas.at(i)->isInside(info.pto);
+    }
+    
+    if(usado)  return;
+    
+    
     
     fichaInfo * ficha = new fichaInfo();
     ficha->setup(info.nombre, info.valor);

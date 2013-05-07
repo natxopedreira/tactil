@@ -15,7 +15,8 @@
 class customDataEvent{  
 public:  
     string nombre;  
-    int valor;   
+    int valor;
+    ofVec2f pto;
 };
 
 class controllerHotSpot {

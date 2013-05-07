@@ -59,6 +59,7 @@ void visualizador::setup(){
     visorZoom.deltaTime = 0.016f;
     
     imagenBtnInfo.loadImage("iconos/iconPICASSO-informacion.png");
+    gestos.loadImage("gestos.png");
 }
 
 // ---------------------------------------
@@ -105,6 +106,8 @@ void visualizador::drawVisualizador(){
     if(imgVisible && !verInfo){
         //ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
         visorZoom.draw(imagenZoom);
+        
+        gestos.draw(this->x + 452 , this->y+323);
     }
     
     ofPushStyle();
@@ -128,7 +131,7 @@ void visualizador::drawVisualizador(){
     }
     ofPopStyle();
     
-    //imagenBtnInfo.draw(0, 0);
+
     btnInfo.drawButtonImg(imagenBtnInfo);
     
 }

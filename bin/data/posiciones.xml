@@ -1,211 +1,211 @@
 <puntos>
     <punto>
-        <x>249.000000000</x>
-        <y>31.000000000</y>
+        <x>1028.000000000</x>
+        <y>834.000000000</y>
         <index>1</index>
         <url>xml/01_playa_de_riazor.xml</url>
     </punto>
     <punto>
-        <x>306.000000000</x>
-        <y>29.000000000</y>
+        <x>991.000000000</x>
+        <y>750.000000000</y>
         <index>2</index>
         <url>xml/02_instituto.xml</url>
     </punto>
     <punto>
-        <x>373.000000000</x>
-        <y>30.000000000</y>
+        <x>1426.000000000</x>
+        <y>911.000000000</y>
         <index>3</index>
         <url>xml/03_santa_margarita.xml</url>
     </punto>
     <punto>
-        <x>450.000000000</x>
-        <y>33.000000000</y>
+        <x>765.000000000</x>
+        <y>639.000000000</y>
         <index>4</index>
         <url>xml/04_orzan.xml</url>
     </punto>
     <punto>
-        <x>520.000000000</x>
-        <y>32.000000000</y>
+        <x>1119.000000000</x>
+        <y>676.000000000</y>
         <index>5</index>
         <url>xml/05_alameda.xml</url>
     </punto>
     <punto>
-        <x>596.000000000</x>
-        <y>28.000000000</y>
+        <x>1222.000000000</x>
+        <y>851.000000000</y>
         <index>6</index>
         <url>xml/06_plaza_de_toros.xml</url>
     </punto>
     <punto>
-        <x>665.000000000</x>
-        <y>28.000000000</y>
+        <x>1028.000000000</x>
+        <y>559.000000000</y>
         <index>7</index>
         <url>xml/07_obelisco.xml</url>
     </punto>
     <punto>
-        <x>738.000000000</x>
-        <y>28.000000000</y>
+        <x>1630.000000000</x>
+        <y>455.000000000</y>
         <index>8</index>
         <url>xml/08_fabrica_de_tabacos.xml</url>
     </punto>
     <punto>
-        <x>815.000000000</x>
-        <y>26.000000000</y>
+        <x>951.000000000</x>
+        <y>598.000000000</y>
         <index>9</index>
         <url>xml/09_camino_nuevo.xml</url>
     </punto>
     <punto>
-        <x>888.000000000</x>
-        <y>28.000000000</y>
+        <x>1830.000000000</x>
+        <y>363.000000000</y>
         <index>10</index>
         <url>xml/10_estacion_ferrocarril.xml</url>
     </punto>
     <punto>
-        <x>246.000000000</x>
-        <y>117.000000000</y>
+        <x>1045.000000000</x>
+        <y>704.000000000</y>
         <index>11</index>
         <url>xml/11_su_casa.xml</url>
     </punto>
     <punto>
-        <x>307.000000000</x>
-        <y>119.000000000</y>
+        <x>1053.000000000</x>
+        <y>651.000000000</y>
         <index>12</index>
         <url>xml/12_casa_costales.xml</url>
     </punto>
     <punto>
-        <x>373.000000000</x>
-        <y>119.000000000</y>
+        <x>410.000000000</x>
+        <y>358.000000000</y>
         <index>13</index>
         <url>xml/13_cementerio.xml</url>
     </punto>
     <punto>
-        <x>449.000000000</x>
-        <y>119.000000000</y>
+        <x>940.000000000</x>
+        <y>21.000000000</y>
         <index>14</index>
         <url>xml/14_jardin_san_carlos.xml</url>
     </punto>
     <punto>
-        <x>528.000000000</x>
-        <y>118.000000000</y>
+        <x>906.000000000</x>
+        <y>439.000000000</y>
         <index>15</index>
         <url>xml/15_calle_real_20.xml</url>
     </punto>
     <punto>
-        <x>598.000000000</x>
-        <y>116.000000000</y>
+        <x>942.000000000</x>
+        <y>485.000000000</y>
         <index>16</index>
         <url>xml/16_calle_real_54.xml</url>
     </punto>
     <punto>
-        <x>663.000000000</x>
-        <y>117.000000000</y>
+        <x>983.000000000</x>
+        <y>527.000000000</y>
         <index>17</index>
         <url>xml/17_calle_real_farmacia.xml</url>
     </punto>
     <punto>
-        <x>735.000000000</x>
-        <y>117.000000000</y>
+        <x>49.000000000</x>
+        <y>919.000000000</y>
         <index>18</index>
         <url>xml/18_torre_de_hercules.xml</url>
     </punto>
     <punto>
-        <x>813.000000000</x>
-        <y>116.000000000</y>
+        <x>849.000000000</x>
+        <y>533.000000000</y>
         <index>19</index>
-         <url>xml/19_capilla_san_andres.xml</url>
+        <url>xml/19_capilla_san_andres.xml</url>
     </punto>
     <punto>
-        <x>887.000000000</x>
-        <y>119.000000000</y>
+        <x>832.000000000</x>
+        <y>296.000000000</y>
         <index>20</index>
         <url>xml/20_plaza_de_maria_pita.xml</url>
     </punto>
     <punto>
-        <x>242.000000000</x>
-        <y>191.000000000</y>
+        <x>869.000000000</x>
+        <y>388.000000000</y>
         <index>21</index>
         <url>xml/21_teatro_principal.xml</url>
     </punto>
     <punto>
-        <x>306.000000000</x>
-        <y>196.000000000</y>
+        <x>818.000000000</x>
+        <y>479.000000000</y>
         <index>22</index>
         <url>xml/22_estudio_sellier.xml</url>
     </punto>
     <punto>
-        <x>371.000000000</x>
-        <y>194.000000000</y>
+        <x>1090.000000000</x>
+        <y>753.000000000</y>
         <index>23</index>
         <url>xml/23_plaza_de_pontevedra.xml</url>
     </punto>
     <punto>
-        <x>446.000000000</x>
-        <y>200.000000000</y>
+        <x>738.000000000</x>
+        <y>238.000000000</y>
         <index>24</index>
         <url>xml/24_cuartel_alfonso_xxii.xml</url>
     </punto>
     <punto>
-        <x>525.000000000</x>
-        <y>200.000000000</y>
+        <x>889.000000000</x>
+        <y>273.000000000</y>
         <index>25</index>
         <url>xml/25_la_marina.xml</url>
     </punto>
     <punto>
-        <x>594.000000000</x>
-        <y>206.000000000</y>
+        <x>898.000000000</x>
+        <y>566.000000000</y>
         <index>26</index>
         <url>xml/26_circulo_artesanos.xml</url>
     </punto>
     <punto>
-        <x>668.000000000</x>
-        <y>202.000000000</y>
+        <x>609.000000000</x>
+        <y>340.000000000</y>
         <index>27</index>
         <url>xml/27_san_roque.xml</url>
     </punto>
     <punto>
-        <x>735.000000000</x>
-        <y>202.000000000</y>
+        <x>1073.000000000</x>
+        <y>542.000000000</y>
         <index>28</index>
         <url>xml/28_estatua_daniel_carballo.xml</url>
     </punto>
     <punto>
-        <x>813.000000000</x>
-        <y>200.000000000</y>
+        <x>456.000000000</x>
+        <y>58.000000000</y>
         <index>29</index>
-        <url>xml/29.xml</url>
+        <url>xml/28_estatua_daniel_carballo.xml</url>
     </punto>
     <punto>
-        <x>889.000000000</x>
-        <y>197.000000000</y>
+        <x>1014.000000000</x>
+        <y>484.000000000</y>
         <index>30</index>
         <url>xml/30_palacio_provincial.xml</url>
     </punto>
     <punto>
-        <x>232.000000000</x>
-        <y>277.000000000</y>
+        <x>1148.000000000</x>
+        <y>598.000000000</y>
         <index>31</index>
         <url>xml/31_jardines_mendez_nunez.xml</url>
     </punto>
     <punto>
-        <x>303.000000000</x>
-        <y>270.000000000</y>
+        <x>1825.000000000</x>
+        <y>80.000000000</y>
         <index>32</index>
         <url>xml/32_arrabales.xml</url>
     </punto>
     <punto>
-        <x>374.000000000</x>
-        <y>274.000000000</y>
+        <x>284.000000000</x>
+        <y>184.000000000</y>
         <index>33</index>
         <url>xml/33_asilo_local_de_mendicidad.xml</url>
     </punto>
     <punto>
-        <x>449.000000000</x>
-        <y>276.000000000</y>
+        <x>359.000000000</x>
+        <y>186.000000000</y>
         <index>34</index>
         <url>xml/34_cuartel_de_santo_domingo.xml</url>
     </punto>
     <punto>
-        <x>539.000000000</x>
-        <y>276.000000000</y>
+        <x>449.000000000</x>
+        <y>186.000000000</y>
         <index>35</index>
         <url>xml/35_muelle_de_pescado.xml</url>
     </punto>
