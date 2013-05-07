@@ -46,12 +46,20 @@ visualizador::visualizador(){
 
 // ---------------------------------------
 visualizador::~visualizador(){
+#ifdef USE_TUIO
+    
+#else
    ofUnregisterMouseEvents(this);
+#endif
 }
 
 // ---------------------------------------
 void visualizador::setup(){
+#ifdef USE_TUIO
+    
+#else
     ofRegisterMouseEvents(this);
+#endif
     
     visorZoom.set(this->x+12,this->y+12, 503, 308);
 	visorZoom.minZoom = 0.f;
@@ -236,6 +244,9 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     verInfo = false;
     btnInfo.activo = verInfo;
 }
+#ifdef USE_TUIO
+
+#else
 
 // ---------------------------------------
 void visualizador::mouseDragged(ofMouseEventArgs & args){
@@ -280,11 +291,6 @@ void visualizador::mousePressed(ofMouseEventArgs & args){
         
         offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
         drag = true;
-        
-        
-        
-
-        
     }else{
         drag = false;
     }
@@ -328,3 +334,4 @@ void visualizador::mouseReleased(ofMouseEventArgs & args){
 // ---------------------------------------
 void visualizador::mouseMoved(ofMouseEventArgs & args){}
 
+#endif

@@ -2,13 +2,18 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	ofSetVerticalSync(true);
+	ofSetFrameRate(60);
+    //ofSetVerticalSync(true);
     ofEnableAlphaBlending();
-  //  ofSetLogLevel(OF_LOG_VERBOSE);
-    
 	ofBackground(0,0,0);
     
     Tweenzor::init();
+    
+#ifdef USE_TUIO
+    tuioClient.start(3333);
+#endif
+    
+    
     
 	dampcajas = 0.3;
 	dampcajasMiniaturas = 0.3;
@@ -20,9 +25,6 @@ void testApp::setup(){
     leyenda.loadImage("leyenda2.png");
     ciudad.loadImage("ciudad2.jpg");
     ciudadMask.loadImage("mascara_ciudad.jpg");
-    
-    tuioClient.start(3333);
-    
     
     // ----- mar de fondo
     animacionFondo.setup();
@@ -70,7 +72,12 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     Tweenzor::update( ofGetElapsedTimeMillis() );
+    
+#ifdef USE_TUIO
     tuioClient.getMessage();
+#endif
+    
+    
     fps = ofToString(ofGetFrameRate());
     
     for (int i = fichas.size()-1; i >= 0 ; i--){
@@ -167,9 +174,12 @@ void testApp::draw(){
     
     
     /// cursor tuio
-    ofSetColor(30, 255, 255);
     
+    
+#ifdef USE_TUIO
+    ofSetColor(30, 255, 255);
     tuioClient.drawCursors();
+#endif
 }
 
 //--------------------------------------------------------------
@@ -198,9 +208,13 @@ void testApp::verFicha(customDataEvent & info){
     
     
     
+    
     fichaInfo * ficha = new fichaInfo();
     ficha->setup(info.nombre, info.valor);
     
+#ifdef USE_TUIO
+    ficha->setTuioClient(&tuioClient);
+#endif
     fichas.push_back(ficha);
     
 }

@@ -15,6 +15,10 @@
 
 #include "SimplePanZoom.h"
 
+#define USE_TUIO
+
+
+
 class visualizador : public baseShape {
 public:
 	visualizador();
@@ -28,11 +32,15 @@ public:
     void    cargaImagen(string _url);
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
+#ifdef USE_TUIO
+    
+#else
     void    mouseDragged(ofMouseEventArgs & args);
     void    mousePressed(ofMouseEventArgs & args);
     void    mouseReleased(ofMouseEventArgs & args);
     void    mouseMoved(ofMouseEventArgs & args);
-
+#endif
+    
     boton   btnInfo;
     ofImage imagenBtnInfo;
     SimplePanZoom visorZoom;
@@ -48,6 +56,8 @@ public:
     float   desfaseAltoTextoInfo;
     
     bool    verPie;
+    bool    drag;
+    bool    verInfo;
     
     int cont;
     int posxrect;
@@ -60,8 +70,8 @@ private:
     ofImage gestos;
     
     bool    imgVisible;
-    bool    drag;
-    bool    verInfo;
+    
+    
     ofPoint mousePrev;
     
     string  wrapString(string text, int width, ofTrueTypeFont & _ft);

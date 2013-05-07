@@ -1,7 +1,14 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxTuio.h"
+
+
+#define USE_TUIO
+
+#ifdef USE_TUIO
+    #include "ofxTuio.h"
+#endif
+
 #include "ofxGui.h"
 #include "ofxTweenzor.h"
 
@@ -18,6 +25,8 @@
  se asignaran los contenidos a cada instancia
  de fichaInfo
  */
+
+
 
 class testApp : public ofBaseApp{
 
@@ -57,8 +66,11 @@ class testApp : public ofBaseApp{
 		// ---------------------- 
         ofImage ciudad, ciudadMask, leyenda;
         ofShader mascara;
-        ofxTuioClient   tuioClient;
         vector<fichaInfo *> fichas;
         mar animacionFondo;
         controllerHotSpot puntosMapa;
+    
+        #ifdef USE_TUIO
+            ofxTuioClient   tuioClient;
+        #endif
 };

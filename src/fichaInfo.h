@@ -24,6 +24,12 @@
  - CARGAS MINIARUAS
  - CORTINAS MINIATURAS
  */
+#define USE_TUIO
+
+
+#ifdef USE_TUIO
+    #include "ofxTuio.h"
+#endif
 
 class fichaInfo {
 public:
@@ -37,9 +43,7 @@ public:
     void    drawSombra();
     void    cargaXml(string _ulr, int idXml);
     
-	void    _mouseDragged(ofMouseEventArgs &e);
-	void    _mousePressed(ofMouseEventArgs &e);
-	void    _mouseReleased(ofMouseEventArgs &e);
+
 
 	void    _areaGrandeLista(string & s);
 	void    collideWith( fichaInfo *_body );
@@ -66,8 +70,23 @@ public:
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
     
+
+#ifdef USE_TUIO
     /// tuio
-   // void	setTuioClient (ofxTuioClient * _tuioClient);
+    void	setTuioClient(ofxTuioClient * _tuioClient);
+    ofxTuioClient * tuioCliente;
+    
+    // TUIO Events Handlers
+	void	tuioAdded(ofxTuioCursor & tuioCursor);
+	void	tuioRemoved(ofxTuioCursor & tuioCursor);
+	void	tuioUpdated(ofxTuioCursor & tuioCursor);
+#else
+    void    _mouseDragged(ofMouseEventArgs &e);
+	void    _mousePressed(ofMouseEventArgs &e);
+	void    _mouseReleased(ofMouseEventArgs &e);
+    
+#endif
+   // 
     
 	boton   btnImagenes;
 	boton   btnCuadros;

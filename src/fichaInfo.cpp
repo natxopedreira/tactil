@@ -43,10 +43,19 @@ fichaInfo::fichaInfo(){
 
 fichaInfo::~fichaInfo(){
     
-	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mouseDragged);
-	ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
-	ofRemoveListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
-	ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
+    #ifdef USE_TUIO
+        ofRemoveListener(tuioCliente->cursorAdded,this,&fichaInfo::tuioAdded);
+        ofRemoveListener(tuioCliente->cursorRemoved,this,&fichaInfo::tuioRemoved);
+        ofRemoveListener(tuioCliente->cursorUpdated,this,&fichaInfo::tuioUpdated);
+    
+    #else
+    
+        ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mouseDragged);
+        ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
+        ofRemoveListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
+        ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
+    
+    #endif
     
 	for(int i = 0; i < muelles.size(); i++){
         if ( muelles[i] != NULL){
@@ -59,6 +68,16 @@ fichaInfo::~fichaInfo(){
      
 }
 
+#ifdef USE_TUIO
+void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
+    tuioCliente = _tuioClient;
+    
+	// HELP with this in order to be independent from the main.
+	ofAddListener(tuioCliente->cursorAdded,this,&fichaInfo::tuioAdded);
+	ofAddListener(tuioCliente->cursorRemoved,this,&fichaInfo::tuioRemoved);
+	ofAddListener(tuioCliente->cursorUpdated,this,&fichaInfo::tuioUpdated);
+}
+#endif
 
 //--------------------------------------------------------------
 void fichaInfo::setup(string _ulrXml, int idXml){
@@ -73,12 +92,14 @@ void fichaInfo::setup(string _ulrXml, int idXml){
     imgCuadros.loadImage("iconos/iconPICASSO-pintura.png");
     imgFotos.loadImage("iconos/iconPICASSO-photo.png");
     
+    
+#ifdef USE_TUIO
+    
+#else
 	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
 	ofAddListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
 	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
-	
-    
-    
+#endif
     
 	//inicias la miniatura
     /// le indicamos las anclas al area grande (para enganchar las minis)
@@ -886,6 +907,210 @@ void fichaInfo::cargaXml(string _ulr, int idXml){
     }
 }
 
+#ifdef USE_TUIO
+
+///-----------------
+///----------------- EVENTOS TUIO 
+///-----------------
+
+
+void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
+    
+    ofVec2f e;
+    e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
+    /// area de visualizacion ver si estas drageando el visualizador
+    /// o si estas con el pan/zoom del viewer
+    /// mousePressed de visualizador.cpp
+    
+    
+    // drag/zoom del viewer
+    if(areaGrande.visorZoom.inside(e)){
+        
+        ofTouchEventArgs touch;
+        touch.x = e.x;
+        touch.y = e.y;
+        touch.id = tuioCursor.getFingerId();
+        areaGrande.visorZoom.touchDown(touch); //fw event to cam
+        
+        return;
+    }
+    
+    //drag del visualizador
+    if(areaGrande.inside(e.x, e.y)){
+        areaGrande.offsetDrag.set(areaGrande.getCenter().x-e.x,areaGrande.getCenter().y-e.y);
+        areaGrande.drag = true;
+        
+        return;
+    }else{
+        areaGrande.drag = false;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    for(int i = 0; i < rectangulos.size(); i++){
+        /// compruebas si estas drageando una caja
+		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
+			rectangulos.at(i)->leader = true;
+			px = e.x;
+			py = e.y;
+            
+			// mira si es un boton
+			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
+                seccionActiva = i;
+                areaGrande.crece(0);
+                cambiaSeccion(i);
+                return;
+			}
+		}
+	}
+    
+    /// comprueba si esta presionando una miniatura 
+    /// desabilitado el drag en las minis
+    
+    for(int i = 0; i < minis.thumbs.size(); i++){
+        if( minis.thumbs[i]->inside(e.x, e.y)){
+            // zoomImagen.visible = false;
+            
+            idLeader = i;
+			px = e.x;
+			py = e.y;
+            
+            minis.thumbs[i]->activala();
+            
+            cargaImagenes();
+            
+            for(int j = 0; j <  minis.thumbs.size(); j++){
+                if(i!=j) minis.thumbs[j]->desactivala();
+            }
+        }
+    }
+    
+    ///////////////////////////////////////////
+    ///////////////////////////////////////////
+    /// compruebas si quieres otro idioma /////
+    ///////////////////////////////////////////
+    for(int i = 0; i < rectangulos.size(); i++){
+        ///  && rectangulos.at(i)->useBtnIdioma
+        //if(rectangulos.at(i)->useBtnIdioma) cout << rectangulos.at(i)->y << " -- " << rectangulos.at(i)->x << endl;
+        
+        if(rectangulos.at(i)->inside(ofPoint(e.x, e.y)) && rectangulos.at(i)->useBtnIdioma){
+            // zoomImagen.visible = false;
+            string n = rectangulos.at(i)->nombre;
+            
+            if(n == "ESP"){
+                castellano.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_CAST;
+                cargaImagenes();
+                
+            }else{
+                castellano.botonIdiomaCheck = false;
+            }
+            
+            if(n == "GAL") {
+                gallego.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_GAL;
+                cargaImagenes();
+            }else{
+                gallego.botonIdiomaCheck = false;
+            }
+            
+            
+            if (n == "FR") {
+                frances.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_FR;
+                cargaImagenes();
+            }else{
+                frances.botonIdiomaCheck = false;
+            }
+            
+            if (n == "ENG") {
+                ingles.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_ENG;
+                cargaImagenes();
+            }else{
+                ingles.botonIdiomaCheck = false;
+            }
+            if(n== "X"){
+                debesMorir = true;
+            }
+        }
+    }
+}
+void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
+    ofVec2f e;
+    e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
+    /// area de visualizacion ver si estas drageando el visualizador
+    /// o si estas con el pan/zoom del viewer
+    /// mouseReleased de visualizador.cpp
+    
+    
+    if(areaGrande.visorZoom.inside(e.x, e.y)){
+        
+        ofTouchEventArgs touch;
+        touch.x = e.x;
+        touch.y = e.y;
+        touch.id = tuioCursor.getFingerId();
+        areaGrande.visorZoom.touchUp(touch); //fw event to cam
+        
+        return;
+    }
+    
+    
+    
+    if(areaGrande.drag){
+        areaGrande.drag = false;
+        areaGrande.offsetDrag.set(0, 0);
+    }
+    
+    if(areaGrande.btnInfo.inside(e) && !areaGrande.verInfo){
+        areaGrande.verInfo = !areaGrande.verInfo;
+        areaGrande.btnInfo.activo = areaGrande.verInfo;
+        if(!areaGrande.verInfo){
+            areaGrande.verPie = true;
+            areaGrande.crece(areaGrande.altoTexto);         
+        }else{
+            areaGrande.verPie = false;
+            areaGrande.crece(areaGrande.desfaseAltoTextoInfo);
+        }
+        
+    }
+}
+void fichaInfo::tuioUpdated(ofxTuioCursor & tuioCursor){
+    ofVec2f e;
+    e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
+    /// area de visualizacion ver si estas drageando el visualizador
+    /// o si estas con el pan/zoom del viewer
+    /// mouseDragged de visualizador.cpp
+    
+    if(areaGrande.visorZoom.inside(e)){
+        
+        ofTouchEventArgs touch;
+        touch.x = e.x;
+        touch.y = e.y;
+        touch.id = tuioCursor.getFingerId();
+        areaGrande.visorZoom.touchMoved(touch); //fw event to cam
+        
+        return;
+    }
+    
+    
+    if(areaGrande.drag){
+        
+        ofPoint p = areaGrande.getCenter();
+        ofPoint diff	= ofPoint(e.x, e.y) - p;
+        
+        //addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y).normalize()*1.5);
+        areaGrande.moveTo(diff.x+areaGrande.offsetDrag.x,diff.y+areaGrande.offsetDrag.y);
+    }
+}
+#else
 
 ///-----------------
 ///----------------- EVENTOS MOUSE 
@@ -1047,7 +1272,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
 void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
     
 }
-
+#endif
 
 
 //// comprueba que no haces click inside para propagar el evento
