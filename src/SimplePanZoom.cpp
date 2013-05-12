@@ -9,11 +9,12 @@
 #include "SimplePanZoom.h"
 
 SimplePanZoom::SimplePanZoom(){
-    smoothFactor = 0.55;
+    smoothFactor = .1;
 	zoom = desiredZoom =  1.0f;
-	for (int i = 0; i < MAX_TOUCHES; i++){
-		touching[i] = false;
-	}
+    
+    //	for (int i = 0; i < MAX_TOUCHES; i++){
+    //		touching[i] = false;
+    //	}
 	
 	minZoom = 0.1f;
 	maxZoom = 10.0f;
@@ -22,11 +23,13 @@ SimplePanZoom::SimplePanZoom(){
 	offset.x = offset.y = desiredOffset.x = desiredOffset.y = 0.0f;
     
     bDebug = true;
-    nosehatocado = true;
+    
+    this->set(0,0,503,308);
+    
+    zoom = desiredZoom = .4;
 }
 
 void SimplePanZoom::update(){
-    if(nosehatocado) centrate();
     
     float time = 1; //deltaTime / 60.0f;
 	zoom = (time * smoothFactor) * desiredZoom + (1.0f - smoothFactor * time) * zoom;
@@ -34,7 +37,6 @@ void SimplePanZoom::update(){
     
     applyConstrains();
     
-   //
 }
 
 void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
@@ -42,10 +44,6 @@ void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
     maxOffset.y = _bTex.getTextureReference().getHeight();
     
     _bTex.getTextureReference().bind();
-    
-    //    ofMesh  mesh;
-    //    mesh.setMode(OF_PRIMITIVE_TRIANGLE_STRIP);
-    //    mesh.addTexCoord();
     
     glBegin(GL_QUADS);
     
@@ -60,17 +58,12 @@ void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
     
     if (bDebug){
         ofSetRectMode(OF_RECTMODE_CORNER);
-        for (int i = 0; i < MAX_TOUCHES; i++){
-            if (touching[i]) glColor4f(0, 1, 0, 1);
-            else glColor4f(1, 0, 0, 1);
-            float w = 8;
-            ofRect( i * (w + 3), 3, w, w);
-        }
-        
-        //	string order = " touchOrder: ";
-        //	for (int i = 0; i < touchIDOrder.size(); i++){
-        //		order += ofToString( touchIDOrder[i] ) + ", ";
-        //	}
+        //        for (int i = 0; i < MAX_TOUCHES; i++){
+        //            if (touching[i]) glColor4f(0, 1, 0, 1);
+        //            else glColor4f(1, 0, 0, 1);
+        //            float w = 8;
+        //            ofRect( i * (w + 3), 3, w, w);
+        //        }
         
         char msg[1000];
         sprintf(msg, " zoom: %.1f \n offset: %.1f, %.1f \n ", zoom, offset.x, offset.y);
@@ -80,7 +73,19 @@ void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
     }
     
 }
-
+void SimplePanZoom::centrate(){
+    
+    float diffx = 0;
+    if(maxOffset.x * zoom>503) diffx = 503 - maxOffset.x * zoom;
+    
+    float diffy = 0;
+    
+    if(maxOffset.y * zoom>308) diffy = 308 - maxOffset.y * zoom;
+    
+    desiredOffset.x = offset.x = diffx;
+    desiredOffset.y = offset.x = diffy;
+    
+}
 void SimplePanZoom::applyConstrains(){
     
     if ( desiredOffset.x > 0 ){
@@ -90,12 +95,12 @@ void SimplePanZoom::applyConstrains(){
         desiredOffset.y = 0;
     }
     
-    if ( desiredOffset.x < -(maxOffset.x - width * 1.0/zoom) ){
-        desiredOffset.x = -(maxOffset.x - width * 1.0/zoom);
+    if ( desiredOffset.x < -(maxOffset.x - 503 * 1.0/zoom) ){
+        desiredOffset.x = -(maxOffset.x - 503 * 1.0/zoom);
     }
     
-    if ( desiredOffset.y < -(maxOffset.y - height * 1.0/zoom) ){
-        desiredOffset.y = -(maxOffset.y - height * 1.0/zoom);
+    if ( desiredOffset.y < -(maxOffset.y - 308 * 1.0/zoom) ){
+        desiredOffset.y = -(maxOffset.y - 308 * 1.0/zoom);
     }
     
     if(zoom>maxZoom){
@@ -106,121 +111,80 @@ void SimplePanZoom::applyConstrains(){
     
 }
 
-//------------------------------------ Events
-void SimplePanZoom::touchDown(ofTouchEventArgs &touch){
+//------------------------------------ Tuio
+void  SimplePanZoom::tuioAdded(ofxTuioCursor & tuioCursor){
+    ofVec2f pos = ofVec2f(tuioCursor.getX() * ofGetWidth(), tuioCursor.getY() * ofGetHeight());
     
-    if(!inside(touch.x, touch.y)) return;
+    if(inside(pos)){
     
-	touchIDOrder.push_back(touch.id);
-	
-	lastTouch[touch.id].x = touch.x;
-	lastTouch[touch.id].y = touch.y;
+        Finger newFinger;
+        newFinger.set(pos);
+        newFinger.ID = tuioCursor.getFingerId();
+        touches.push_back(newFinger);
     
-	//printf("####### touchDown %d (zoomdif: %f) %f %f \n", touch.id, zoomDiff , touch.x, touch.y);
+        if (touches.size() >= 2){
+            zoomDiff = touches[ touches.size()-2 ].distance( touches[touches.size()-1] );
+        }
+        
+    }
+}
+void  SimplePanZoom::tuioRemoved(ofxTuioCursor & tuioCursor){
     
-	if (touchIDOrder.size() >= 2){
-		zoomDiff = lastTouch[ touchIDOrder[0] ].distance( lastTouch[ touchIDOrder[1] ] );
-	}
-    
-	touching[touch.id] = true;
-    
-    nosehatocado = false;
+    if(touches.size()<=0) return;
+    //cout << "entro a borrar " << touches.size() << endl;
+    for (int i = touches.size()-1; i >= 0; i--) {
+        if (touches[i].ID == tuioCursor.getFingerId() ){
+            touches.erase(touches.begin()+i);
+        }
+    }
 }
 
-void SimplePanZoom::centrate(){
+void  SimplePanZoom::tuioUpdated(ofxTuioCursor & tuioCursor){
+    ofVec2f pos = ofVec2f(tuioCursor.getX() * ofGetWidth(),tuioCursor.getY() * ofGetHeight());
     
-    float diffx = 0;
-    if(maxOffset.x * zoom > 503) diffx = 503 - maxOffset.x * zoom;
+    if(inside(pos)){
     
-    float diffy = 0;
+    for (int i = touches.size()-1; i >= 0; i--) {
+        if (touches[i].ID == tuioCursor.getFingerId() ){
+            ofVec2f diff = touches[i] - pos;
+            touches[i].set(pos);
+            desiredOffset = desiredOffset - diff * (maxZoom/zoom);
+            applyConstrains();
+        }
+    }
     
-    if(maxOffset.y * zoom>308) diffy = 308 - maxOffset.y * zoom;
-    
-    desiredOffset.x =  diffx;
-    desiredOffset.y = diffy;
-    
-}
-
-void SimplePanZoom::touchMoved(ofTouchEventArgs &touch){
-	if(!inside(touch.x, touch.y)) touchUp(touch);
-    
-	ofVec2f p, now;
-	float d;
-	
-	//printf("####### touchMoved %d (%.1f %.1f zoomdif: %f) \n", touch.id, touch.x, touch.y, zoomDiff);
-	if (touching[touch.id] == false) return;
-    
-	if (touchIDOrder.size() == 1){
+    //	}else
+    if (touches.size() >= 2){
         
-		// 1 finger >> pan
-		p = lastTouch[ touchIDOrder[0] ] - ofVec2f(touch.x,touch.y) ;
-		desiredOffset = desiredOffset - p * (maxZoom/zoom);
+        // 2 fingers >> zoom
+        ofVec2f A,B;
+        A.set(touches[ touches.size()-2 ]);
+        B.set(touches[ touches.size()-1 ]);
         
-		applyConstrains();
+        float dist = A.distance( B );
         
-	}else{
-        
-		if (touchIDOrder.size() >= 2){
+        if (dist > MIN_FINGER_DISTANCE ){
             
-			// 2 fingers >> zoom
-			d = lastTouch[ touchIDOrder[0] ].distance( lastTouch[ touchIDOrder[1] ] );
-			if (d > MIN_FINGER_DISTANCE ){
-                
-				//printf(" zoomDiff: %f  d:%f  > zoom: %f\n", zoomDiff, d, zoom);
-				if ( zoomDiff > 0 ){
-					desiredZoom *= ( d / zoomDiff ) ;
-					desiredZoom = ofClamp( desiredZoom, minZoom, maxZoom );
-					float tx = ( lastTouch[0].x + lastTouch[1].x ) * 0.5f ;
-					float ty = ( lastTouch[0].y + lastTouch[1].y ) * 0.5f ;
-					tx -= ofGetWidth() * 0.5f;
-					ty -= ofGetHeight() * 0.5f;
-					//printf(" tx: %f   ty: %f  d / zoomDiff: %f \n", tx, ty, d / zoomDiff);
-					if (desiredZoom > minZoom && desiredZoom < maxZoom){
-						desiredOffset.x += tx * ( 1.0f - d / zoomDiff ) / desiredZoom ;
-						desiredOffset.y += ty * ( 1.0f - d / zoomDiff ) / desiredZoom;
-					}
-					//printf(" zoom after %f \n", zoom);
-				}
-                
-				applyConstrains();
-			}
+            //printf(" zoomDiff: %f  d:%f  > zoom: %f\n", zoomDiff, d, zoom);
+            if ( zoomDiff > 0 ){
+                desiredZoom *= ( dist / zoomDiff ) ;
+                desiredZoom = ofClamp( desiredZoom, minZoom, maxZoom );
+                float tx = ( A.x + B.x ) * 0.5f ;
+                float ty = ( A.y + B.y ) * 0.5f ;
+                tx -= ofGetWidth() * 0.5f;
+                ty -= ofGetHeight() * 0.5f;
+                //printf(" tx: %f   ty: %f  d / zoomDiff: %f \n", tx, ty, d / zoomDiff);
+                if (desiredZoom > minZoom && desiredZoom < maxZoom){
+                    desiredOffset.x += tx * ( 1.0f - dist / zoomDiff ) / desiredZoom ;
+                    desiredOffset.y += ty * ( 1.0f - dist / zoomDiff ) / desiredZoom;
+                }
+                //printf(" zoom after %f \n", zoom);
+            }
             
-			//pan with 2 fingers too
-			if ( touchIDOrder.size() == 2 ){
-				p = 0.5 * ( lastTouch[touch.id] - ofVec2f(touch.x,touch.y) ); //0.5 to average both touch offsets
-				desiredOffset += - p * (zoom-maxZoom);
-			}
-            
-			zoomDiff = d;
-		}
-	}
-    
-	lastTouch[touch.id].x = touch.x;
-	lastTouch[touch.id].y = touch.y;
-}
-
-void SimplePanZoom::touchUp(ofTouchEventArgs &touch){
-	
-    
-	vector<int>::iterator it = std::find(touchIDOrder.begin(), touchIDOrder.end(), touch.id);
-	if ( it == touchIDOrder.end()){
-		//not found! wtf!
-		//printf("wtf at touchup! can't find touchID %d\n", touch.id);
-	}else{
-		//printf("####### touchUp %d (zoomdif: %f) \n", touch.id, zoomDiff);
-		touching[touch.id] = false;
-		lastTouch[touch.id].x = touch.x;
-		lastTouch[touch.id].y = touch.y;
+            applyConstrains();
+        }
         
-		if ( touchIDOrder.size() >= 1) {
-			zoomDiff = -1.0f;
-		}
-        
-		touchIDOrder.erase(it);
+        zoomDiff = dist;
 	}
-}
-
-
-void SimplePanZoom::touchDoubleTap(ofTouchEventArgs &touch){
-    
+    }
 }

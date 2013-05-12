@@ -31,7 +31,27 @@ void boton::drawButton(){
 
 
 void boton::drawButtonImg(ofImage & img){
-     drawRound();
+    //drawRound();
+    //ofRect(this->x, this->y, this->width, this->height);
+    ofPushStyle();
+    
+    ofSetColor(0,0,0,150);
+    ofRect(this->x+3, this->y+3, this->width * escala, this->height * escala);
+    
+    ofSetColor(color.r,color.g,color.b,255);
+    ofRect(this->x, this->y, this->width * escala, this->height * escala);
+    
+	if(cambiandose){
+		/// dibujamos la cortina
+		ofSetColor(colorCambio);
+		//ofRectRounded(this->x, this->y, this->width * escala, (this->height-cambioY) * escala ,16);
+        ofRect(this->x, this->y, this->width * escala, (this->height-cambioY) * escala);
+	}
+    
+    ofPopStyle();
+    
+    
+    
     if(desactivado){
        
     }else{
@@ -53,6 +73,32 @@ void boton::desactivate(){
     desactivado = true;
 }
 
+void boton::drawSintxt(){
+    if(botonIdiomaCheck){
+        ofSetColor(0, 0, 0, 190);
+        //ofRectRounded(this->x+2, this->y+2, this->width, this->height,6);
+        ofRect(this->x+2, this->y+2, this->width, this->height);
+        
+        ofSetColor(idiomaActivoColor.r, idiomaActivoColor.g, idiomaActivoColor.b, idiomaActivoColor.a);
+        //ofRectRounded(this->x, this->y, this->width, this->height,6);
+        ofRect(this->x, this->y, this->width, this->height);
+    }else{
+        
+        ofSetColor(idiomaColor.r, idiomaColor.g, idiomaColor.b, idiomaColor.a);
+        
+        if(nombre != "ESP" && nombre != "FR"){
+            ofRect(this->x, this->y, this->width, this->height);
+        }else{
+            if(nombre == "ESP"){
+                ofRect(this->x, this->y, this->width, this->height);
+            }else{
+                ofRect(this->x, this->y, this->width, this->height);
+            }
+            
+        }
+    }
+}
+
 void boton::drawContxt(ofTrueTypeFont & fuente){
     ofPushStyle();
     
@@ -60,9 +106,12 @@ void boton::drawContxt(ofTrueTypeFont & fuente){
        
         ofSetColor(0, 0, 0, 190);
         ofRectRounded(this->x+2, this->y+2, this->width, this->height,6);
+        //ofRect(this->x+2, this->y+2, this->width, this->height);
         
         ofSetColor(idiomaActivoColor.r, idiomaActivoColor.g, idiomaActivoColor.b, idiomaActivoColor.a);
         ofRectRounded(this->x, this->y, this->width, this->height,6);
+        //ofRect(this->x, this->y, this->width, this->height);
+        
         
         ofSetColor(255);
         if(nombre != "FR" ){
@@ -78,9 +127,11 @@ void boton::drawContxt(ofTrueTypeFont & fuente){
             ofRect(this->x, this->y, this->width, this->height);
         }else{
             if(nombre == "ESP"){
-                ofRectRounded(this->x, this->y, this->width+4, this->height,6);
+                ofRect(this->x, this->y, this->width, this->height);
+                //ofRectRounded(this->x, this->y, this->width+4, this->height,6);
             }else{
-                ofRectRounded(this->x, this->y, this->width, this->height,6);
+                ofRect(this->x, this->y, this->width, this->height);
+                //ofRectRounded(this->x, this->y, this->width, this->height,6);
             }
             
         }

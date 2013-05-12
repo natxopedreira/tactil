@@ -16,6 +16,7 @@
 #include "miniaturas.h"
 #include "ofxXmlSettings.h"
 //#include "fichaZoom.h"
+
 /*
  ANIMACION ES
  
@@ -26,9 +27,8 @@
  */
 #define USE_TUIO
 
-
 #ifdef USE_TUIO
-    #include "ofxTuio.h"
+#include "ofxTuio.h"
 #endif
 
 class fichaInfo {
@@ -70,7 +70,6 @@ public:
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
     
-
 #ifdef USE_TUIO
     /// tuio
     void	setTuioClient(ofxTuioClient * _tuioClient);
@@ -81,11 +80,11 @@ public:
 	void	tuioRemoved(ofxTuioCursor & tuioCursor);
 	void	tuioUpdated(ofxTuioCursor & tuioCursor);
 #else
-    void    _mouseDragged(ofMouseEventArgs &e);
-	void    _mousePressed(ofMouseEventArgs &e);
-	void    _mouseReleased(ofMouseEventArgs &e);
-    
+    void mouseDragged(ofMouseEventArgs & arg);
+    void mousePressed(ofMouseEventArgs & arg);
+    void mouseReleased(ofMouseEventArgs & arg);
 #endif
+
    // 
     
 	boton   btnImagenes;
@@ -128,5 +127,10 @@ public:
     
    // ofImage imgBtnZoom;
     ofImage imgBtnClose;
+    
+    ofRectangle rectanguloArea;
+    
+    ofVec2f ptoInicio;
+    
 };
 #endif

@@ -10,10 +10,14 @@
 #define SIMPLE_PAN_ZOOM
 
 #include "ofMain.h"
+#include "ofxTuio.h"
 
 #define	MAX_TOUCHES		12
 #define MIN_FINGER_DISTANCE 70.0f /* in pixels - zooming when fingers were too close was unaccurate & jumpy*/
 
+struct Finger : public ofVec2f {
+    int ID;
+};
 
 class SimplePanZoom : public ofRectangle {
 public:
@@ -26,13 +30,11 @@ public:
 	ofVec2f getOffset(){return -offset;}
     void    centrate();
 	
-    ofVec2f screenToWorld(const ofVec2f & p); //convert a point from current screen units to world units
-	ofVec2f worldToScreen(const ofVec2f & p); //convert a point from world units to current screen units
-	
-    void    touchDown(ofTouchEventArgs &touch);
-	void    touchMoved(ofTouchEventArgs &touch);
-	void    touchUp(ofTouchEventArgs &touch);
-	void    touchDoubleTap(ofTouchEventArgs &touch);
+    
+    void tuioAdded(ofxTuioCursor & tuioCursor);
+    void tuioRemoved(ofxTuioCursor & tuioCursor);
+    void tuioUpdated(ofxTuioCursor & tuioCursor);
+    
     
 	void    update();
     void    draw( ofBaseHasTexture &_bTex );
@@ -46,7 +48,6 @@ public:
     float   smoothFactor;
     float   deltaTime;
     
-    bool    nosehatocado;
     bool    bDebug;
     
 private:
@@ -58,9 +59,11 @@ private:
     float zoomDiff;
     float zoom;
 	
-    vector<int> touchIDOrder;
-    ofVec2f lastTouch[MAX_TOUCHES];
-    bool touching[MAX_TOUCHES];
+    vector<Finger> touches;
+    
+    //    vector<int> touchIDOrder;
+    //    ofVec2f     lastTouch[MAX_TOUCHES];
+    //    bool        touching[MAX_TOUCHES];
     
 };
 

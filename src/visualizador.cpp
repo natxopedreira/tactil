@@ -38,33 +38,30 @@ visualizador::visualizador(){
     
     desfaseAltoTextoInfo = 0;
     
-    posxrect = 0;
-    posyrect = 0;
+    pos.set(800, 400);
+    
+    
     poswrect = 10;
     poshrect = 10;
-}
-
-// ---------------------------------------
-visualizador::~visualizador(){
-#ifdef USE_TUIO
     
-#else
-   ofUnregisterMouseEvents(this);
-#endif
-}
-
-// ---------------------------------------
-void visualizador::setup(){
-#ifdef USE_TUIO
     
-#else
-    ofRegisterMouseEvents(this);
-#endif
-    
-    visorZoom.set(this->x+12,this->y+12, 503, 308);
+    visorZoom.set(0, 0, 503, 308);
 	visorZoom.minZoom = 0.f;
     visorZoom.maxZoom = 2.0f;
     visorZoom.deltaTime = 0.016f;
+}
+
+// ---------------------------------------
+visualizador::~visualizador(){}
+
+// ---------------------------------------
+void visualizador::setup(){
+    fboImageZoom.allocate(1764, 1080);
+    
+    fboImageZoom.begin();
+    ofClear(255);
+    fboImageZoom.end();
+    
     
     imagenBtnInfo.loadImage("iconos/iconPICASSO-informacion.png");
     gestos.loadImage("gestos.png");
@@ -72,35 +69,58 @@ void visualizador::setup(){
 
 // ---------------------------------------
 void visualizador::update(){
-    
-    
-    poswrect = this->width;
-    poshrect = this->height;
-    posxrect = this->x+12;
-    posyrect = this->y+12;
-    
-    visorZoom.setPosition(posxrect, posyrect);
-    
+
+    float difGrandeX = (pos.x)-(this->x);
+    float difGrandeY = (pos.y)-(this->y);
     float difX = (this->x + this->width)-(btnInfo.x);
-    float difY = (this->y + this->height)-(btnInfo.y);
+    float difY = (this->y + this->height)-(btnInfo.y); 
+    float difZoomX = (pos.x + 12)-(visorZoom.x);
+    float difZoomY = (pos.y + 12)-(visorZoom.y); 
+    
+    
+    
+    this->x += difGrandeX * .7;
+    this->y += difGrandeY * .7;  
+
     
     btnInfo.x += difX * .4;
     btnInfo.y += difY * .5;
     
-    visorZoom.update();
     
+    visorZoom.x += difZoomX * .7;
+    visorZoom.y += difZoomY * .7;
+    
+    
+    poswrect = this->width;
+    poshrect = this->height;
+
+    
+    
+    
+    visorZoom.update();
+     
+
+    
+    vel += acc;
+    vel *= 0.07;
+	pos += vel;
+	acc *= 0;
+    
+
 }
 // ---------------------------------------
 void visualizador::drawVisualizadorSombra(){
 
     ofSetColor(0, 0, 0);
-    ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
+    //ofRect(posxrect, posyrect, poswrect-24, poshrect-24);
+    ofRect(pos, poswrect-24, poshrect-24);
     //btnInfo.drawRound();
 }
 
 
 // ---------------------------------------
 void visualizador::drawVisualizador(){
+    
    // drawRound(); // la base
     ofSetColor(255, 255, 255);
     
@@ -113,10 +133,12 @@ void visualizador::drawVisualizador(){
     
     if(imgVisible && !verInfo){
         //ofRect(posxrect, posyrect, visor.getAnchoMax(), visor.getAltoMax());
-        visorZoom.draw(imagenZoom);
+        visorZoom.draw(fboImageZoom);
         
         gestos.draw(this->x + 452 , this->y+323);
     }
+    
+    
     
     ofPushStyle();
     ofSetColor(0, 0, 0);
@@ -131,11 +153,11 @@ void visualizador::drawVisualizador(){
     
     
     if(verPie && cantidadCrece == altoTexto){
-       fuenteInfo.drawString(pie, posxrect, this->y + 308 + 56);
+       fuenteInfo.drawString(pie, this->x+12, this->y + 308 + 56);
     }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
         
         ofSetColor(0);
-        fuenteCuerpo.drawString(informacion, posxrect+10, posyrect + 24);
+        fuenteCuerpo.drawString(informacion, this->x+15, this->y + 40);
     }
     ofPopStyle();
     
@@ -181,7 +203,9 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
 void visualizador::cargaImagen(string _url){
     //visor.cargaImagen("imagenes/full/"+_url);
     
-    visorZoom.nosehatocado = true;
+
+    
+    //visorZoom.nosehatocado = true;
     if (imagenZoom.isAllocated()){
          imagenZoom.clear();
     }
@@ -190,28 +214,112 @@ void visualizador::cargaImagen(string _url){
    
     if (imagenZoom.isAllocated()) {
         
-        /// cojo el ancho y alto
-        /// cojo el ancho y alto
-        int anchoImagenZoom = imagenZoom.getWidth();
-        int altoImagenZoom = imagenZoom.getHeight();
+        if(imagenZoom.getHeight()<1100){
+        
+        int altoNuevoRatio = 0;
+        int anchoNuevoRatio = 0;
+
+        if(imagenZoom.getWidth() > imagenZoom.getHeight()){
+            /// formato horizontal
+            /// aplicamos el ratio
+            altoNuevoRatio = imagenZoom.getWidth() * 0.61232604373757;
+            anchoNuevoRatio = imagenZoom.getWidth();
+        
+        }else {
+            /// formato vertical
+            /// aplicamos el ratio
+            anchoNuevoRatio = imagenZoom.getHeight() * 1.63311688312;
+            altoNuevoRatio = imagenZoom.getHeight();
+        }
+        
+        /// comprobamos si tenemos que reallocate el fbo
+        /*if(anchoNuevoRatio > fboImageZoom.getWidth() || altoNuevoRatio > fboImageZoom.getHeight()){
+            
+            fboImageZoom.allocate(anchoNuevoRatio, altoNuevoRatio);
+            fboImageZoom.begin();
+            ofClear(255);
+            fboImageZoom.end();
+        
+        }*/
+            fboImageZoom.allocate(1764, 1080);
+            fboImageZoom.begin();
+            ofClear(255);
+            fboImageZoom.end();
+            
+        
+        float desfaseX = (fboImageZoom.getWidth()-imagenZoom.getWidth())/2;
+        float desfaseY = (fboImageZoom.getHeight()-imagenZoom.getHeight())/2;
+        
+        
+        ///pintamos el fbo
+        fboImageZoom.begin();
+        ofClear(255);
+        ofSetColor(255);
+        ofRect(0, 0, fboImageZoom.getWidth(), fboImageZoom.getHeight());
+        imagenZoom.draw(desfaseX, desfaseY);
+        fboImageZoom.end();
+        
         
         // creo un valor
         float ratio = 0;
-
-        if(anchoImagenZoom<altoImagenZoom){
-            ratio = 503.0/ anchoImagenZoom;
+        
+        if(fboImageZoom.getWidth()<fboImageZoom.getHeight()){
+            ratio = 503.0/ fboImageZoom.getWidth();
         }else {
-            ratio = 350.0 / altoImagenZoom;
+            ratio = 308.0 / fboImageZoom.getHeight();
         }
         
-        
-        
-        ratio = static_cast<float>(static_cast<int>(ceil(ratio * 10.))) / 10.;
-
         visorZoom.minZoom = ratio;
         visorZoom.setZoom(ratio);
         
+        //cout << " ------------------------------------------ " << endl;
+        //cout << anchoNuevoRatio << " < " << altoNuevoRatio << endl;
+        //cout << fboImageZoom.getWidth() << " --- fbo --- " << fboImageZoom.getHeight() << endl;
+        
+        
         imgVisible = true;
+            
+            
+        }else{
+            int anchoImagenZoom = imagenZoom.getWidth();
+            int altoImagenZoom = imagenZoom.getHeight();
+            
+            //// eres un periodico
+            fboImageZoom.allocate(anchoImagenZoom, altoImagenZoom);
+            fboImageZoom.begin();
+            ofClear(255);
+            fboImageZoom.end();
+            
+            
+            // creo un valor
+            float ratio = 0;
+            
+            if(anchoImagenZoom<altoImagenZoom){
+                ratio = 503.0/ anchoImagenZoom;
+            }else {
+                ratio = 308.0 / altoImagenZoom;
+            }
+            
+            
+            
+           // ratio = static_cast<float>(static_cast<int>(ceil(ratio * 10.))) / 10.;
+            
+            visorZoom.minZoom = ratio;
+            visorZoom.setZoom(ratio);
+            
+            imgVisible = true;
+            
+
+            
+            fboImageZoom.begin();
+            ofSetColor(255);
+            imagenZoom.draw(0, 0);
+            
+            fboImageZoom.end();
+            
+        }
+        
+        
     }else{
         
         //imgVisible = false;
@@ -232,7 +340,7 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     crece(altoTexto);
     
     //informacion = wrapString(_informacion,460,fuenteInfo);
-    informacion = wrapString(_informacion,460,fuenteCuerpo);
+    informacion = wrapString(_informacion,490,fuenteCuerpo);
     //altoTextoInfo = fuenteInfo.getStringBoundingBox(informacion, 0, 0).height;
     altoTextoInfo = fuenteCuerpo.getStringBoundingBox(informacion, 0, 0).height;
     
@@ -244,94 +352,190 @@ void visualizador::ponTexto(string _titularPie,string _pie, string _informacion)
     verInfo = false;
     btnInfo.activo = verInfo;
 }
+
+
+
+
+
+
+
+
+
+
 #ifdef USE_TUIO
+/// tuio
+
+void visualizador::tuioAdded(ofxTuioCursor & tuioCursor){
+    ofVec2f loc = ofVec2f(tuioCursor.getX() * ofGetWidth(),tuioCursor.getY() * ofGetHeight());
+    
+    
+    //visorZoom.tuioAdded(tuioCursor);
+    //cout << "pto agregado en " << loc.x << "," << loc.y << "esta inside " << inside(loc) << "hay " << cursorsOnBorder.size() << " toques" <<  endl;
+    //
+    
+    
+    if(imgVisible && !verInfo){
+        if (inside(loc) && !visorZoom.inside(loc)){
+            tCursor c;
+            c.idN = tuioCursor.getSessionId();
+            c.loc = loc;
+        
+            // First finger over the photo (first trigger)
+            //
+            if (cursorsOnBorder.size() == 0){   
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = loc;
+            } 
+            // Second finger over the photo (second and finall trigger)
+            //
+            else if (cursorsOnBorder.size() == 1){
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = cursorsOnBorder[0].loc;
+                oldLoc[1] = cursorsOnBorder[1].loc;
+            }
+        }
+    }else {
+        if (inside(loc)){
+            tCursor c;
+            c.idN = tuioCursor.getSessionId();
+            c.loc = loc;
+            
+            // First finger over the photo (first trigger)
+            //
+            if (cursorsOnBorder.size() == 0){   
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = loc;
+            } 
+            // Second finger over the photo (second and finall trigger)
+            //
+            else if (cursorsOnBorder.size() == 1){
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = cursorsOnBorder[0].loc;
+                oldLoc[1] = cursorsOnBorder[1].loc;
+            }
+        }
+    }
+}
+void visualizador::tuioRemoved(ofxTuioCursor & tuioCursor){
+    
+    ofVec2f loc = ofVec2f(tuioCursor.getX() * ofGetWidth(), tuioCursor.getY() * ofGetHeight());
+    
+    
+    //visorZoom.tuioRemoved(tuioCursor);
+    
+    for (int i = 0; i < cursorsOnBorder.size(); i++ ){
+        if (cursorsOnBorder[i].idN == tuioCursor.getSessionId()){
+            cursorsOnBorder.erase(cursorsOnBorder.begin()+i);
+        }
+    }
+}
+
+void visualizador::tuioUpdated(ofxTuioCursor & tuioCursor){
+    ofVec2f loc = ofVec2f( tuioCursor.getX() * ofGetWidth(), tuioCursor.getY() * ofGetHeight() );
+    
+    //visorZoom.tuioUpdated(tuioCursor);
+    
+    if ( inside(loc) ){
+        
+        // Store the position of the fingers over the photo
+        //
+        for ( int i = 0; i < cursorsOnBorder.size(); i++)
+            if (cursorsOnBorder[i].idN == tuioCursor.getSessionId())
+                cursorsOnBorder[i].loc = loc;
+
+            if (cursorsOnBorder.size() == 1 ){
+                ofVec2f oldStaCursorToCenter = pos - oldLoc[0];
+                pos = loc + oldStaCursorToCenter;
+                oldLoc[0] = loc;
+                
+            } 
+    }
+}
 
 #else
-
-// ---------------------------------------
-void visualizador::mouseDragged(ofMouseEventArgs & args){
-        /// estas drageando un boton o el visualizador
-    if(visorZoom.inside(args.x, args.y)){
-        
-        ofTouchEventArgs touch;
-        touch.x = args.x;
-        touch.y = args.y;
-        touch.id = args.button;
-        visorZoom.touchMoved(touch); //fw event to cam
-        
-        return;
-    }
+void visualizador::mouseDragged(ofMouseEventArgs & arg){
+    ofVec2f loc = ofVec2f( arg.x,arg.y);
     
+    //visorZoom.tuioUpdated(tuioCursor);
     
-    if(drag){
-
-        ofPoint p = getCenter();
-        ofPoint diff	= ofPoint(args.x, args.y) - p;
-
-        //addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y).normalize()*1.5);
-        moveTo(diff.x+offsetDrag.x,diff.y+offsetDrag.y);
+    if ( inside(loc) ){
+        
+        // Store the position of the fingers over the photo
+        //
+        for ( int i = 0; i < cursorsOnBorder.size(); i++)
+            if (cursorsOnBorder[i].idN == arg.button)
+                cursorsOnBorder[i].loc = loc;
+        
+        if (cursorsOnBorder.size() == 1 ){
+            ofVec2f oldStaCursorToCenter = pos - oldLoc[0];
+            pos = loc + oldStaCursorToCenter;
+            oldLoc[0] = loc;
+            
+        } 
     }
 }
-
-// ---------------------------------------
-void visualizador::mousePressed(ofMouseEventArgs & args){
-
-    if(visorZoom.inside(args.x, args.y)){
-    
-        ofTouchEventArgs touch;
-        touch.x = args.x;
-        touch.y = args.y;
-        touch.id = args.button;
-        visorZoom.touchDown(touch); //fw event to cam
-        
-        return;
-    }
-    
-    if(this->inside(args.x, args.y)){
-        
-        offsetDrag.set(getCenter().x-args.x,getCenter().y-args.y);
-        drag = true;
-    }else{
-        drag = false;
-    }
-}
-
-// ---------------------------------------
-void visualizador::mouseReleased(ofMouseEventArgs & args){
-    if(visorZoom.inside(args.x, args.y)){
-        
-        ofTouchEventArgs touch;
-        touch.x = args.x;
-        touch.y = args.y;
-        touch.id = args.button;
-        visorZoom.touchUp(touch); //fw event to cam
-        
-        return;
-    }
+void visualizador::mousePressed(ofMouseEventArgs & arg){
+    ofVec2f loc = ofVec2f(arg.x,arg.y);
     
     
+    //visorZoom.tuioAdded(tuioCursor);
+    //cout << "pto agregado en " << loc.x << "," << loc.y << "esta inside " << inside(loc) << "hay " << cursorsOnBorder.size() << " toques" <<  endl;
+    //
     
-    if(drag){
-        drag = false;
-        offsetDrag.set(0, 0);
-    }
-    if(btnInfo.inside(ofPoint(args.x,args.y)) && !verInfo){
-
-        
-        verInfo = !verInfo;
-        btnInfo.activo = verInfo;
-        if(!verInfo){
-            verPie = true;
-            crece(altoTexto);         
-        }else{
-            verPie = false;
-            crece(desfaseAltoTextoInfo);
+    
+    if(imgVisible && !verInfo){
+        if (inside(loc) && !visorZoom.inside(loc)){
+            tCursor c;
+            c.idN = arg.button;
+            c.loc = loc;
+            
+            // First finger over the photo (first trigger)
+            //
+            if (cursorsOnBorder.size() == 0){   
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = loc;
+            } 
+            // Second finger over the photo (second and finall trigger)
+            //
+            else if (cursorsOnBorder.size() == 1){
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = cursorsOnBorder[0].loc;
+                oldLoc[1] = cursorsOnBorder[1].loc;
+            }
         }
-        
+    }else {
+        if (inside(loc)){
+            tCursor c;
+            c.idN = arg.button;
+            c.loc = loc;
+            
+            // First finger over the photo (first trigger)
+            //
+            if (cursorsOnBorder.size() == 0){   
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = loc;
+            } 
+            // Second finger over the photo (second and finall trigger)
+            //
+            else if (cursorsOnBorder.size() == 1){
+                cursorsOnBorder.push_back(c);
+                oldLoc[0] = cursorsOnBorder[0].loc;
+                oldLoc[1] = cursorsOnBorder[1].loc;
+            }
+        }
     }
 }
+void visualizador::mouseReleased(ofMouseEventArgs & arg){
+    ofVec2f loc = ofVec2f(arg.x,arg.y);
+    
+    
+    //visorZoom.tuioRemoved(tuioCursor);
+    
+    for (int i = 0; i < cursorsOnBorder.size(); i++ ){
+        if (cursorsOnBorder[i].idN == arg.button){
+            cursorsOnBorder.erase(cursorsOnBorder.begin()+i);
+        }
+    }
 
-// ---------------------------------------
-void visualizador::mouseMoved(ofMouseEventArgs & args){}
-
+}
 #endif

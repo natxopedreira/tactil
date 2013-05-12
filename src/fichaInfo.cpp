@@ -39,23 +39,26 @@ fichaInfo::fichaInfo(){
     
     verIdiomas = false;
     debesMorir = false;
+    
+    
+    rectanguloArea.set(0,0,1,1);
+    
+    ptoInicio.set(0,0);
 }
 
 fichaInfo::~fichaInfo(){
-    
     #ifdef USE_TUIO
         ofRemoveListener(tuioCliente->cursorAdded,this,&fichaInfo::tuioAdded);
         ofRemoveListener(tuioCliente->cursorRemoved,this,&fichaInfo::tuioRemoved);
         ofRemoveListener(tuioCliente->cursorUpdated,this,&fichaInfo::tuioUpdated);
-    
-    #else
-    
-        ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mouseDragged);
-        ofRemoveListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
-        ofRemoveListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
         ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
-    
+    #else
+        ofRemoveListener(ofEvents().mousePressed,this,&fichaInfo::mousePressed);
+        ofRemoveListener(ofEvents().mouseDragged,this,&fichaInfo::mouseDragged);
+        ofRemoveListener(ofEvents().mouseReleased,this,&fichaInfo::mouseReleased);
+        ofRemoveListener(areaGrande.meCambie, this, &fichaInfo::_areaGrandeLista);
     #endif
+    
     
 	for(int i = 0; i < muelles.size(); i++){
         if ( muelles[i] != NULL){
@@ -65,10 +68,14 @@ fichaInfo::~fichaInfo(){
 	}
 	muelles.clear();	
 	rectangulos.clear();
-     
+    
+    #ifdef USE_TUIO
+        tuioCliente = NULL;
+    #endif
 }
 
 #ifdef USE_TUIO
+
 void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
     tuioCliente = _tuioClient;
     
@@ -79,8 +86,17 @@ void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
 }
 #endif
 
+
+
 //--------------------------------------------------------------
 void fichaInfo::setup(string _ulrXml, int idXml){
+    #ifdef USE_TUIO
+    #else
+    ofAddListener(ofEvents().mousePressed,this,&fichaInfo::mousePressed);
+    ofAddListener(ofEvents().mouseDragged,this,&fichaInfo::mouseDragged);
+    ofAddListener(ofEvents().mouseReleased,this,&fichaInfo::mouseReleased);
+    #endif
+    
     areaGrande.setup();
     
     fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
@@ -88,23 +104,15 @@ void fichaInfo::setup(string _ulrXml, int idXml){
     
 	construFigura();
     /////
-    imgPeriodicos.loadImage("iconos/iconPICASSO-periodico.png");
-    imgCuadros.loadImage("iconos/iconPICASSO-pintura.png");
-    imgFotos.loadImage("iconos/iconPICASSO-photo.png");
+    imgPeriodicos.loadImage("iconos/iconPICASSO-periodico.jpg");
+    imgCuadros.loadImage("iconos/iconPICASSO-pintura.jpg");
+    imgFotos.loadImage("iconos/iconPICASSO-photo.jpg");
     
     
-#ifdef USE_TUIO
-    
-#else
-	ofAddListener(ofEvents().mouseDragged, this, &fichaInfo::_mouseDragged);
-	ofAddListener(ofEvents().mousePressed, this, &fichaInfo::_mousePressed);
-	ofAddListener(ofEvents().mouseReleased, this, &fichaInfo::_mouseReleased);
-#endif
     
 	//inicias la miniatura
     /// le indicamos las anclas al area grande (para enganchar las minis)
     minis.setAncla(&areaGrande);
-	
 	minis._kMuellesDiagonales = kMuellesDiagonales;
 	minis._kHorizontal = kHorizontal;
 	minis._kmuelles = kmuelles;
@@ -127,23 +135,17 @@ void fichaInfo::setup(string _ulrXml, int idXml){
 
     ////
     imgBtnClose.loadImage("close.png");
-   // imgBtnZoom.loadImage("zoom.png");
-    /*
-    btnZoom.x = 500;
-    btnZoom.y = 600;
-    btnZoom.width = 30;
-    btnZoom.height = 30;
-    btnZoom.color.set(255, 0, 0,200);
-    btnZoom.nombre = "Z";*/
+    
+
 }
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
-
+    areaGrande.update();
+    
     areaGrande.width = anchoGrande;
     areaGrande.height = altoGrande;
     
-  //  if(areaGrande.getCenter().x > 1910 || areaGrande.getCenter().x <0 || areaGrande.getCenter().y > 1070 || areaGrande.getCenter().y < 0 ) debesMorir = true;
     
     // update rectangulos
     for (vector<baseShape*>::iterator itRect = rectangulos.begin(); itRect!=rectangulos.end(); ++itRect) {
@@ -165,10 +167,10 @@ void fichaInfo::update(){
 
     
     // movemos las miniaturas
-    areaGrande.bounceOffWalls();
+   // areaGrande.bounceOffWalls();
     
     
-	areaGrande.update();
+	
     minis.update();
     //zoomImagen.update();
     
@@ -201,26 +203,22 @@ void fichaInfo::update(){
     cerrar.y += dClosey * .5;
     
     
-  /*  
-    float difX = (areaGrande.x + areaGrande.width - 14)-(btnZoom.x + btnZoom.width);
-    float difY = (areaGrande.y + 320)-(btnZoom.y + btnZoom.height);
     
-    btnZoom.x += difX * .4;
-    btnZoom.y += difY * .5;
-    */
+    float ancho = btnImagenes.getWidth() + areaGrande.getWidth() + areaGrande.btnInfo.getWidth() + 50;
+    float alto = btnImagenes.getHeight() + areaGrande.getHeight() + areaGrande.btnInfo.getHeight() + 100;
+    
+    if(minis.thumbs.size()>9) alto += 90;
+    
+    rectanguloArea.set(btnImagenes.getX(), btnImagenes.getY(), ancho, alto);
+    
 }
 
 //--------------------------------------------------------------
 void fichaInfo::draw(){
     
-    //ofPushStyle();
     
 	ofSetColor(255, 255, 255,255);
     
-    /// muelles
-	/*for(int j = 0; j < muelles.size(); j++){
-		muelles.at(j)->draw();
-	}*/
 	
     /// PINTA LOS BOTONES y EL AREA
     btnImagenes.drawButtonImg(imgFotos);
@@ -255,18 +253,9 @@ void fichaInfo::draw(){
         
     }
     
+    //ofSetColor(255, 255, 255,105);
+    //ofRect(rectanguloArea);
     
-    /*
-    if(areaGrande.verPie){
-        ofPushStyle();
-        ofSetColor(255,255,255);
-        imgBtnZoom.draw(int(btnZoom.x),int(btnZoom.y));
-        //ofRectRounded(btnZoom.x,btnZoom.y,btnZoom.width,btnZoom.height,10);
-        ofPopStyle();
-    }*/
-    
-    /// zooooom
-   // zoomImagen.draw();
 }
 //--------------------------------------------------------------
 void fichaInfo::drawSombra(){
@@ -395,7 +384,7 @@ void fichaInfo::cargaMinis(int _index){
 	///cargamos las miniaturas
     
     int px = areaGrande.x + areaGrande.width;
-    int py = areaGrande.posyrect + areaGrande.poshrect + 180;
+    int py = areaGrande.pos.y + areaGrande.poshrect + 180;
     
     minis.limpiaMinis(); // borras las que hay
     
@@ -439,8 +428,8 @@ void fichaInfo::cargaMinis(int _index){
 //--------------------------------------------------------------
 void fichaInfo::construFigura(){
     
-	areaGrande.x = 800;
-	areaGrande.y = 300;
+	areaGrande.x = ptoInicio.x;
+	areaGrande.y = ptoInicio.y;
     
     areaGrande.width = 60;
 	areaGrande.height = 60;
@@ -907,8 +896,7 @@ void fichaInfo::cargaXml(string _ulr, int idXml){
     }
 }
 
-#ifdef USE_TUIO
-
+ #ifdef USE_TUIO
 ///-----------------
 ///----------------- EVENTOS TUIO 
 ///-----------------
@@ -918,35 +906,10 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
     
     ofVec2f e;
     e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
-    /// area de visualizacion ver si estas drageando el visualizador
-    /// o si estas con el pan/zoom del viewer
-    /// mousePressed de visualizador.cpp
+
     
-    
-    // drag/zoom del viewer
-    if(areaGrande.visorZoom.inside(e)){
-        
-        ofTouchEventArgs touch;
-        touch.x = e.x;
-        touch.y = e.y;
-        touch.id = tuioCursor.getFingerId();
-        areaGrande.visorZoom.touchDown(touch); //fw event to cam
-        
-        return;
-    }
-    
-    //drag del visualizador
-    if(areaGrande.inside(e.x, e.y)){
-        areaGrande.offsetDrag.set(areaGrande.getCenter().x-e.x,areaGrande.getCenter().y-e.y);
-        areaGrande.drag = true;
-        
-        return;
-    }else{
-        areaGrande.drag = false;
-    }
-    
-    
-    
+    areaGrande.tuioAdded(tuioCursor);
+    areaGrande.visorZoom.tuioAdded(tuioCursor);
     
     
     
@@ -1043,31 +1006,28 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
         }
     }
 }
-void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
+
+void fichaInfo::tuioUpdated(ofxTuioCursor & tuioCursor){
     ofVec2f e;
     e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
     /// area de visualizacion ver si estas drageando el visualizador
     /// o si estas con el pan/zoom del viewer
-    /// mouseReleased de visualizador.cpp
+    /// mouseDragged de visualizador.cpp
     
+    areaGrande.tuioUpdated(tuioCursor);
+    areaGrande.visorZoom.tuioUpdated(tuioCursor);
+}
+
+
+void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
+    ofVec2f e;
+    e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
+    /// area de visualizacion ver si estas drageando el visualizador
+
     
-    if(areaGrande.visorZoom.inside(e.x, e.y)){
-        
-        ofTouchEventArgs touch;
-        touch.x = e.x;
-        touch.y = e.y;
-        touch.id = tuioCursor.getFingerId();
-        areaGrande.visorZoom.touchUp(touch); //fw event to cam
-        
-        return;
-    }
-    
-    
-    
-    if(areaGrande.drag){
-        areaGrande.drag = false;
-        areaGrande.offsetDrag.set(0, 0);
-    }
+    areaGrande.tuioRemoved(tuioCursor);
+    areaGrande.visorZoom.tuioRemoved(tuioCursor);
+
     
     if(areaGrande.btnInfo.inside(e) && !areaGrande.verInfo){
         areaGrande.verInfo = !areaGrande.verInfo;
@@ -1082,114 +1042,51 @@ void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
         
     }
 }
-void fichaInfo::tuioUpdated(ofxTuioCursor & tuioCursor){
-    ofVec2f e;
-    e.set(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight());
-    /// area de visualizacion ver si estas drageando el visualizador
-    /// o si estas con el pan/zoom del viewer
-    /// mouseDragged de visualizador.cpp
-    
-    if(areaGrande.visorZoom.inside(e)){
-        
-        ofTouchEventArgs touch;
-        touch.x = e.x;
-        touch.y = e.y;
-        touch.id = tuioCursor.getFingerId();
-        areaGrande.visorZoom.touchMoved(touch); //fw event to cam
-        
-        return;
-    }
-    
-    
-    if(areaGrande.drag){
-        
-        ofPoint p = areaGrande.getCenter();
-        ofPoint diff	= ofPoint(e.x, e.y) - p;
-        
-        //addForce(ofPoint(diff.x+offsetDrag.x,diff.y+offsetDrag.y).normalize()*1.5);
-        areaGrande.moveTo(diff.x+areaGrande.offsetDrag.x,diff.y+areaGrande.offsetDrag.y);
-    }
-}
+
 #else
+
 
 ///-----------------
 ///----------------- EVENTOS MOUSE 
 ///-----------------
 
-//--------------------------------------------------------------
-void fichaInfo::_mouseDragged(ofMouseEventArgs &e){}
-//--------------------------------------------------------------
-void fichaInfo::_mousePressed(ofMouseEventArgs &e){
-    ////boton de zoom ??
-  /*  if(btnZoom.inside(ofPoint(e.x,e.y))){
-        // zooooooom
-        zoomImagen.setup(ofPoint(areaGrande.x - 400, areaGrande.y + 250), 400, 500,rectangulos.at(seccionActiva)->color);
-        zoomImagen.colorBase.set(rectangulos.at(seccionActiva)->color);
-       
-        
-        
-        // pones el titulo a la ventana de zoom
-        switch (minis.lenguaje) {
-            case IDIOMA_CAST:
-                if(idLeader < minis.titular_cast_mini.size() && idLeader < minis.pies_cast_cuerpo_mini.size() && idLeader < minis.txt_cast_mini.size()){
-                    zoomImagen.titulo =minis.titular_cast_mini.at(idLeader);
-                }
-                break;
-                
-            case IDIOMA_GAL:
-                if(idLeader < minis.titular_gal_mini.size() && idLeader < minis.pies_gal_cuerpo_mini.size() && idLeader < minis.txt_gal_mini.size()){
-                    zoomImagen.titulo =minis.titular_gal_mini.at(idLeader);
-                }
-                break;
-                
-            case IDIOMA_ENG:
-                if(idLeader < minis.titular_eng_mini.size() && idLeader < minis.pies_eng_cuerpo_mini.size() && idLeader < minis.txt_eng_mini.size()){
-                     zoomImagen.titulo =minis.titular_eng_mini.at(idLeader);
-                     
-                }
-                break;
-                
-            case IDIOMA_FR:
-                if(idLeader < minis.titular_fr_mini.size() && idLeader < minis.pies_fr_cuerpo_mini.size() && idLeader < minis.txt_fr_mini.size()){
-                   zoomImagen.titulo =minis.titular_fr_mini.at(idLeader);
-                }
-                break;
-                
-            default:
-                break;
-        }
-        
-        
-        
-        if(idLeader < minis.urls_mini.size()){
-            zoomImagen.cargaImagen(minis.urls_mini.at(idLeader));
-        }
-        
-        
-        
-        return;
-    }
-    */
+
+void fichaInfo::mouseDragged(ofMouseEventArgs & arg){
+    ofVec2f e;
+    e.set(arg.x,arg.y);
+    /// area de visualizacion ver si estas drageando el visualizador
+    /// o si estas con el pan/zoom del viewer
+    /// mouseDragged de visualizador.cpp
+    areaGrande.mouseDragged(arg);
+    //areaGrande.tuioUpdated(tuioCursor);
+    //areaGrande.visorZoom.tuioUpdated(tuioCursor);
+}
+void fichaInfo::mousePressed(ofMouseEventArgs & arg){
+    ofVec2f e;
+    e.set(arg.x,arg.y);
     
-	for(int i = 0; i < rectangulos.size(); i++){
+    areaGrande.mousePressed(arg);
+    //areaGrande.tuioAdded(tuioCursor);
+    //areaGrande.visorZoom.tuioAdded(tuioCursor);
+    
+    
+    
+    
+    
+    
+    
+    for(int i = 0; i < rectangulos.size(); i++){
         /// compruebas si estas drageando una caja
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
 			rectangulos.at(i)->leader = true;
-			
-			
 			px = e.x;
 			py = e.y;
             
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
-				//idLeader = i;
-             //   zoomImagen.visible = false;
                 seccionActiva = i;
                 areaGrande.crece(0);
-                
                 cambiaSeccion(i);
-                
-                
                 return;
 			}
 		}
@@ -1200,7 +1097,7 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
     
     for(int i = 0; i < minis.thumbs.size(); i++){
         if( minis.thumbs[i]->inside(e.x, e.y)){
-           // zoomImagen.visible = false;
+            // zoomImagen.visible = false;
             
             idLeader = i;
 			px = e.x;
@@ -1225,84 +1122,87 @@ void fichaInfo::_mousePressed(ofMouseEventArgs &e){
         //if(rectangulos.at(i)->useBtnIdioma) cout << rectangulos.at(i)->y << " -- " << rectangulos.at(i)->x << endl;
         
         if(rectangulos.at(i)->inside(ofPoint(e.x, e.y)) && rectangulos.at(i)->useBtnIdioma){
-               // zoomImagen.visible = false;
-                string n = rectangulos.at(i)->nombre;
+            // zoomImagen.visible = false;
+            string n = rectangulos.at(i)->nombre;
+            
+            if(n == "ESP"){
+                castellano.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_CAST;
+                cargaImagenes();
                 
-                if(n == "ESP"){
-                    castellano.botonIdiomaCheck = true;
-                    minis.lenguaje = IDIOMA_CAST;
-                    cargaImagenes();
-                    
-                }else{
-                    castellano.botonIdiomaCheck = false;
-                }
-                
-                if(n == "GAL") {
-                    gallego.botonIdiomaCheck = true;
-                    minis.lenguaje = IDIOMA_GAL;
-                    cargaImagenes();
-                }else{
-                    gallego.botonIdiomaCheck = false;
-                }
-                
-                
-                if (n == "FR") {
-                    frances.botonIdiomaCheck = true;
-                    minis.lenguaje = IDIOMA_FR;
-                    cargaImagenes();
-                }else{
-                    frances.botonIdiomaCheck = false;
-                }
-                
-                if (n == "ENG") {
-                    ingles.botonIdiomaCheck = true;
-                    minis.lenguaje = IDIOMA_ENG;
-                    cargaImagenes();
-                }else{
-                    ingles.botonIdiomaCheck = false;
-                }
-                if(n== "X"){
-                    debesMorir = true;
-                }
+            }else{
+                castellano.botonIdiomaCheck = false;
+            }
+            
+            if(n == "GAL") {
+                gallego.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_GAL;
+                cargaImagenes();
+            }else{
+                gallego.botonIdiomaCheck = false;
+            }
+            
+            
+            if (n == "FR") {
+                frances.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_FR;
+                cargaImagenes();
+            }else{
+                frances.botonIdiomaCheck = false;
+            }
+            
+            if (n == "ENG") {
+                ingles.botonIdiomaCheck = true;
+                minis.lenguaje = IDIOMA_ENG;
+                cargaImagenes();
+            }else{
+                ingles.botonIdiomaCheck = false;
+            }
+            if(n== "X"){
+                debesMorir = true;
+            }
         }
     }
-    
 }
-//--------------------------------------------------------------
-void fichaInfo::_mouseReleased(ofMouseEventArgs &e){
+void fichaInfo::mouseReleased(ofMouseEventArgs & arg){
+    ofVec2f e;
+    e.set(arg.x,arg.y);
+    /// area de visualizacion ver si estas drageando el visualizador
+    areaGrande.mouseReleased(arg);
     
+    //areaGrande.tuioRemoved(tuioCursor);
+   // areaGrande.visorZoom.tuioRemoved(tuioCursor);
+    
+    
+    if(areaGrande.btnInfo.inside(e) && !areaGrande.verInfo){
+        areaGrande.verInfo = !areaGrande.verInfo;
+        areaGrande.btnInfo.activo = areaGrande.verInfo;
+        if(!areaGrande.verInfo){
+            areaGrande.verPie = true;
+            areaGrande.crece(areaGrande.altoTexto);         
+        }else{
+            areaGrande.verPie = false;
+            areaGrande.crece(areaGrande.desfaseAltoTextoInfo);
+        }
+        
+    }
 }
 #endif
+
+
 
 
 //// comprueba que no haces click inside para propagar el evento
 bool fichaInfo::isInside(ofVec2f pto){
     bool respuesta = false;
     /// comprobamos visualizador
-    if (areaGrande.inside(pto)) {
-        respuesta = true;
-    }else if (btnImagenes.inside(pto)) {
-        respuesta = true;
-    }else if (btnCuadros.inside(pto)) {
-        respuesta = true;
-    }else if (btnPeriodicos.inside(pto)) {
-        respuesta = true;
-    }
     
-    for(int i = 0; i < minis.thumbs.size(); i++){
-        if( minis.thumbs[i]->inside(pto)){
-            respuesta = true;
-        }
-    }
+    respuesta = rectanguloArea.inside(pto);
+    
     return respuesta;
 }
 
-
-
 //--------------------------------------------------------------
-/*void fichaInfo::setTuioClient (ofxTuioClient * _tuioClient){
-    zoomImagen.setTuioClient(_tuioClient);
-}*/
 ///-----------------
 ///----------------- VALORES GUI 
 ///-----------------

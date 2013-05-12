@@ -12,12 +12,18 @@
 
 #include "baseShape.h"
 #include "boton.h"
-
 #include "SimplePanZoom.h"
 
 #define USE_TUIO
 
+#ifdef USE_TUIO
+#include "ofxTuio.h"
+#endif
 
+struct tCursor {
+	int	idN;
+	ofVec2f loc;
+};
 
 class visualizador : public baseShape {
 public:
@@ -32,19 +38,25 @@ public:
     void    cargaImagen(string _url);
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
-#ifdef USE_TUIO
     
+
+#ifdef USE_TUIO
+    /// tuio
+    void tuioAdded(ofxTuioCursor & tuioCursor);
+    void tuioRemoved(ofxTuioCursor & tuioCursor);
+    void tuioUpdated(ofxTuioCursor & tuioCursor);
 #else
-    void    mouseDragged(ofMouseEventArgs & args);
-    void    mousePressed(ofMouseEventArgs & args);
-    void    mouseReleased(ofMouseEventArgs & args);
-    void    mouseMoved(ofMouseEventArgs & args);
+    void mouseDragged(ofMouseEventArgs & arg);
+    void mousePressed(ofMouseEventArgs & arg);
+    void mouseReleased(ofMouseEventArgs & arg);
 #endif
+
     
     boton   btnInfo;
     ofImage imagenBtnInfo;
     SimplePanZoom visorZoom;
     ofImage imagenZoom;
+    ofFbo   fboImageZoom;
     
     ofRectangle areaPieTitular;
     ofTrueTypeFont  fuente,fuenteCuerpo, fuenteInfo;
@@ -60,19 +72,23 @@ public:
     bool    verInfo;
     
     int cont;
-    int posxrect;
-    int posyrect;
+    //int posxrect;
+    //int posyrect;
     int poswrect;
     int poshrect;
     
+    ofVec2f         pos,vel,acc;
 private:
     ofImage imagen;
     ofImage gestos;
     
     bool    imgVisible;
-    
-    
     ofPoint mousePrev;
+    
+    /// para tuio
+    vector<tCursor>	cursorsOnBorder;
+	ofVec2f         oldLoc[3];
+
     
     string  wrapString(string text, int width, ofTrueTypeFont & _ft);
 };

@@ -51,7 +51,7 @@ void thumb::drawThumb(){
 	//ofPopStyle();
     if(img.getWidth()>0 && cambioY<.1){
        // img.draw(x, y, 50, 50);
-        
+        /*
         ofPushMatrix();
         ofTranslate(x-((width-cambioY)/2) + width/2, y-((height-cambioY)/2) + height/2);
         
@@ -95,6 +95,9 @@ void thumb::drawThumb(){
         
         mascaraShader->end();
         ofPopMatrix();
+        */
+        img.draw(x-((width-cambioY)/2) + width/2, y-((height-cambioY)/2) + height/2);
+        
     }else{
         mascara.draw(x-((width-cambioY)/2) + width/2, y-((height-cambioY)/2) + height/2);
     }
@@ -120,18 +123,13 @@ void thumb::desactivala(){
     activo = false;
 }
 
-void thumb::ponShader(ofShader * _mascaraShader){
-    mascaraShader = _mascaraShader;
+void thumb::ponMascara(){
     
     mascara.allocate(50, 50);
     mascara.begin();
     ofClear(0);
     mascara.end();
     
-    mascaraShader->begin();
-	mascaraShader->setUniformTexture("Tex0", img.getTextureReference(), 0);
-	mascaraShader->setUniformTexture("Tex1", mascara.getTextureReference(), 1);
-	mascaraShader->end();
 
     
 }

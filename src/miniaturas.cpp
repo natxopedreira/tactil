@@ -69,7 +69,7 @@ miniaturas::~miniaturas(){
 // ---------------------------------------
 void miniaturas::setup(float _px, float _py, ofColor _color){
 	_listas = false;
-    maskShader.load("composite");
+    //maskShader.load("composite");
 	//limpiaMinis();
     /// fill the miniatures vector
     for(int i = 0; i < urls_mini.size(); i++){
@@ -79,7 +79,7 @@ void miniaturas::setup(float _px, float _py, ofColor _color){
         b->nombre = "M"+ofToString(i);
         b->img.loadImage("imagenes/thumbs/" + urls_mini.at(i));
         b->ponListeners();
-        b->ponShader(&maskShader);
+        b->ponMascara();
 		thumbs.push_back(b);
     }
    
@@ -210,7 +210,7 @@ void miniaturas::creaGrid(ofColor _color){
     /////// arreglo de Patricio
     /////// thanks !!!!!
     int cuantas = thumbs.size();
-    int numColumnas = 8;
+    int numColumnas = 9;
     //  Crear una tabla de punteros donde re organizar los elementos
     //
     vector< vector<thumb*> > tabla;

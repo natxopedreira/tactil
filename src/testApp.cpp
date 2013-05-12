@@ -2,12 +2,15 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	ofSetFrameRate(60);
-    //ofSetVerticalSync(true);
+	//ofSetFrameRate(60);
+    ofSetVerticalSync(true);
     ofEnableAlphaBlending();
 	ofBackground(0,0,0);
     
     Tweenzor::init();
+    
+    
+    ultimoLanzamiento.set(0,0);
     
 #ifdef USE_TUIO
     tuioClient.start(3333);
@@ -42,7 +45,7 @@ void testApp::setup(){
     puntosMapa.setup();
     
     
-    verGui = true;
+    verGui = false;
     
 	/// gui para el modo debug
     gui.setup("ajustes");
@@ -85,9 +88,13 @@ void testApp::update(){
         if (!fichas[i]->debesMorir ){
             for (int j = i; j >= 0; j--){
                 if (j != i)
-                    if ((fichas[i]->areaGrande.intersects( fichas[j]->areaGrande )) && (fichas[j]->areaGrande.leader)){
-                        fichas[j]->areaGrande.addRepulsionForce( &fichas[i]->areaGrande, 800, 100);
+                    if((fichas[i]->rectanguloArea.intersects(fichas[j]->rectanguloArea)) && (fichas[j]->areaGrande.leader)){
+                        //fichas[j]->areaGrande.addRepulsionForce( &fichas[i]->areaGrande, 100, 100);
+                        //return;
                     }
+                   /* if ((fichas[i]->areaGrande.intersects( fichas[j]->areaGrande )) && (fichas[j]->areaGrande.leader)){
+                        fichas[j]->areaGrande.addRepulsionForce( &fichas[i]->areaGrande, 800, 100);
+                    }*/
             }
         } else {
             delete fichas[i];
@@ -165,6 +172,7 @@ void testApp::draw(){
     // ----- fichas
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
+        cout << (*itFichas)->areaGrande.x << endl;
     }
 
 
@@ -195,7 +203,7 @@ void testApp::lanzaFicha(){
 
 //--------------------------------------------------------------
 void testApp::verFicha(customDataEvent & info){
-    ///if(fichas.size()>0) return;
+    //if(fichas.size()>0) return;
     
     
     bool usado = false;
@@ -209,7 +217,33 @@ void testApp::verFicha(customDataEvent & info){
     
     
     
+    
+    
     fichaInfo * ficha = new fichaInfo();
+    //buscamos un sitio
+    bool encontrado = false;
+    
+    ultimoLanzamiento.set(ofRandom(200,1400),ofRandom(200,700));
+    
+    if(fichas.size()>0){
+        for (int i = 0; i<fichas.size(); i++) {
+            if(ultimoLanzamiento.distance(ofVec2f(fichas.at(i)->px,fichas.at(i)->py))>800){
+                encontrado = true;
+                ///cout << ultimoLanzamiento.distance(ofVec2f(fichas.at(i)->px,fichas.at(i)->py)) << endl;
+            }
+        }
+        if(!encontrado) verFicha(info);
+    }
+    
+    
+  
+    
+    
+    ficha->areaGrande.pos.set(ultimoLanzamiento);
+    
+    
+    
+    
     ficha->setup(info.nombre, info.valor);
     
 #ifdef USE_TUIO
@@ -284,7 +318,7 @@ void testApp::btnCambiaDampMiniaturas(float & v){
 void testApp::keyPressed(int key){
     switch (key) {
         case 'f':
-            lanzaFicha();
+           // lanzaFicha();
             break;
             
         case 'g':

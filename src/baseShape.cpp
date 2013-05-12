@@ -196,14 +196,14 @@ void baseShape::drawRound(){
     ofPopStyle();
     
     /// debug de los puntos para verlos
-    /*
+   /*
     for (int i  = 0 ; i < puntos.size(); i++) {
         ofSetColor(0);
         ofCircle(puntos[i].x, puntos[i].y, 5);
         ofSetColor(255,255, 255);
         ofDrawBitmapString(ofToString(i), ofPoint(puntos[i].x, puntos[i].y));
     }
-	*/
+*/
     
 }
 

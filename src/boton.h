@@ -21,6 +21,7 @@ public:
     void    drawButton();
     void    drawButtonImg(ofImage & img);
     void    drawContxt(ofTrueTypeFont & fuente);
+    void    drawSintxt();
     void    desactivate();
     
     ofColor idiomaActivoColor,idiomaColor;

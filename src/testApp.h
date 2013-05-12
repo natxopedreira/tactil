@@ -9,13 +9,14 @@
     #include "ofxTuio.h"
 #endif
 
+/// clases perso
 #include "ofxGui.h"
 #include "ofxTweenzor.h"
-
-/// clases perso
 #include "fichaInfo.h"
 #include "mar.h"
 #include "controllerHotSpot.h"
+
+
 /*
  quiero crear una clase fichaInfo para mostrar todos
  los contenidos de un punto en el mapa
@@ -24,7 +25,7 @@
  toda la info de cada uno de los puntos, con esa info
  se asignaran los contenidos a cada instancia
  de fichaInfo
- */
+*/
 
 
 
@@ -73,4 +74,6 @@ class testApp : public ofBaseApp{
         #ifdef USE_TUIO
             ofxTuioClient   tuioClient;
         #endif
+    
+    ofVec2f ultimoLanzamiento;
 };
