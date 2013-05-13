@@ -2,6 +2,8 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
+    //ofSetDataPathRoot("../Resources/data/");
+    
 	//ofSetFrameRate(60);
     ofSetVerticalSync(true);
     ofEnableAlphaBlending();
@@ -188,7 +190,7 @@ void testApp::draw(){
     
     
 #ifdef USE_TUIO
-    ofSetColor(30, 255, 255);
+    //ofSetColor(30, 255, 255);
     tuioClient.drawCursors();
 #endif
     

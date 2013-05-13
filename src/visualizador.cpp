@@ -214,7 +214,7 @@ void visualizador::cargaImagen(string _url){
     imagenZoom.loadImage("imagenes/full/"+_url);
    
     if (imagenZoom.isAllocated()) {
-        
+        visorZoom.smoothFactor = .9;
         if(imagenZoom.getHeight()<1100){
         
         int altoNuevoRatio = 0;
@@ -279,6 +279,7 @@ void visualizador::cargaImagen(string _url){
         visorZoom.minZoom = ratio;
         visorZoom.setZoom(ratio);
         
+        
         //cout << " ------------------------------------------ " << endl;
         //cout << anchoNuevoRatio << " < " << altoNuevoRatio << endl;
         //cout << fboImageZoom.getWidth() << " --- fbo --- " << fboImageZoom.getHeight() << endl;
@@ -320,10 +321,6 @@ void visualizador::cargaImagen(string _url){
             
             fboImageZoom.begin();
             ofSetColor(255);
-            ofNoFill();
-            ofRect(1, 1, 0, fboImageZoom.getWidth(), fboImageZoom.getHeight());
-            
-            ofFill();
             imagenZoom.draw(0, 0);
             
             fboImageZoom.end();

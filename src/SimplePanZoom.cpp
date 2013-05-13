@@ -9,7 +9,7 @@
 #include "SimplePanZoom.h"
 
 SimplePanZoom::SimplePanZoom(){
-    smoothFactor = .1;
+    smoothFactor = .7;
 	zoom = desiredZoom =  1.0f;
     
     //	for (int i = 0; i < MAX_TOUCHES; i++){
@@ -26,14 +26,13 @@ SimplePanZoom::SimplePanZoom(){
     
     this->set(0,0,503,308);
     
-    zoom = desiredZoom = .4;
+    //zoom = desiredZoom = .4;
 }
 
 void SimplePanZoom::update(){
-    
-    float time = 1; //deltaTime / 60.0f;
-	zoom = (time * smoothFactor) * desiredZoom + (1.0f - smoothFactor * time) * zoom;
-	offset = (time * smoothFactor) * desiredOffset + (1.0f - smoothFactor * time) * offset;
+    if(smoothFactor>.1) smoothFactor-= .1;
+	zoom = (smoothFactor) * desiredZoom + (1.0f - smoothFactor) * zoom;
+	offset = (smoothFactor) * desiredOffset + (1.0f - smoothFactor) * offset;
     
     applyConstrains();
     
