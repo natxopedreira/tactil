@@ -37,7 +37,7 @@ public:
 	~fichaInfo();
 	//////////////////////////////////////////////////////
     //////////////////////////////////////////////////////
-    void    setup(string _ulrXml, int idXml);
+    void    setup(string _ulrXml, int idXml, ofVec2f pto);
 	void    update();
 	void    draw();
     void    drawSombra();

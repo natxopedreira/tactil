@@ -45,7 +45,8 @@ void hotSpot::draw(){
         ofSetColor(199, 81, 35, 255);
         ofRectRounded(posicion.x,posicion.y, ancho,alto, 8);
         
-        ofSetColor(0, 0, 0, 255);
+        ofSetColor(255,255,255, 255);
+        
         ofDrawBitmapString(ofToString(numeroXml), ofPoint(posicion.x + 10,posicion.y + 20));
     
 

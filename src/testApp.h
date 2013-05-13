@@ -48,7 +48,7 @@ class testApp : public ofBaseApp{
     
         void    verFicha(customDataEvent & info);
     
-        void    lanzaFicha();
+
 		// ---------------------- parte del gui
 		ofxPanel gui;
 		ofxFloatSlider kMuelles;

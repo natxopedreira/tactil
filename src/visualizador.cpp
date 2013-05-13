@@ -38,7 +38,8 @@ visualizador::visualizador(){
     
     desfaseAltoTextoInfo = 0;
     
-    pos.set(800, 400);
+    pos.set(0, 0);
+    //pos.set(800, 400);
     
     
     poswrect = 10;
@@ -241,7 +242,13 @@ void visualizador::cargaImagen(string _url){
             fboImageZoom.end();
         
         }*/
-            fboImageZoom.allocate(1764, 1080);
+            if(anchoNuevoRatio>1764){
+                fboImageZoom.allocate(anchoNuevoRatio, altoNuevoRatio);
+            }else{
+                fboImageZoom.allocate(1764, 1080);
+            }
+            
+            
             fboImageZoom.begin();
             ofClear(255);
             fboImageZoom.end();
@@ -313,6 +320,10 @@ void visualizador::cargaImagen(string _url){
             
             fboImageZoom.begin();
             ofSetColor(255);
+            ofNoFill();
+            ofRect(1, 1, 0, fboImageZoom.getWidth(), fboImageZoom.getHeight());
+            
+            ofFill();
             imagenZoom.draw(0, 0);
             
             fboImageZoom.end();

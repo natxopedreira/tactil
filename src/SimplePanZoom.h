@@ -12,7 +12,7 @@
 #include "ofMain.h"
 #include "ofxTuio.h"
 
-#define	MAX_TOUCHES		12
+#define	MAX_TOUCHES		2
 #define MIN_FINGER_DISTANCE 70.0f /* in pixels - zooming when fingers were too close was unaccurate & jumpy*/
 
 struct Finger : public ofVec2f {

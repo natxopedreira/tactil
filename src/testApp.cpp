@@ -81,6 +81,9 @@ void testApp::update(){
 #endif
     
     
+
+    
+    
     fps = ofToString(ofGetFrameRate());
     
     for (int i = fichas.size()-1; i >= 0 ; i--){
@@ -172,7 +175,7 @@ void testApp::draw(){
     // ----- fichas
     for (vector<fichaInfo*>::iterator itFichas = fichas.begin(); itFichas!=fichas.end(); ++itFichas) {
         (*itFichas)->draw();
-        cout << (*itFichas)->areaGrande.x << endl;
+        //cout << (*itFichas)->areaGrande.x << endl;
     }
 
 
@@ -188,16 +191,24 @@ void testApp::draw(){
     ofSetColor(30, 255, 255);
     tuioClient.drawCursors();
 #endif
-}
-
-//--------------------------------------------------------------
-void testApp::lanzaFicha(){
-      fichaInfo * ficha = new fichaInfo();
-      ficha->setup("xml/17_calle_real_farmacia.xml",17);
-     // ficha->setTuioClient(&tuioClient);
     
-      fichas.push_back(ficha);
-
+    
+    ///////////////looop test
+    for (int i = fichas.size()-1; i >= 0 ; i--){
+        //cout << "fichas pos ::" << fichas[i]->ptoInicio.x << "---::---" << fichas[i]->ptoInicio.y << endl;
+        
+        //cout << "fichas visualizador pos ::" << fichas[i]->areaGrande.pos.x << "---::---" << fichas[i]->areaGrande.pos.y << endl;
+        
+        ofPushStyle();
+        ofSetColor(255, 0, 0);
+        ofCircle(fichas[i]->ptoInicio.x, fichas[i]->ptoInicio.y, 6);
+        ofSetColor(255, 100, 0);
+        ofCircle(fichas[i]->areaGrande.pos.x, fichas[i]->areaGrande.pos.y, 3);
+        ofPopStyle();
+    }
+    
+    
+    
 }
 
 
@@ -223,7 +234,7 @@ void testApp::verFicha(customDataEvent & info){
     //buscamos un sitio
     bool encontrado = false;
     
-    ultimoLanzamiento.set(ofRandom(200,1400),ofRandom(200,700));
+    ultimoLanzamiento.set(ofRandom(200,1400),ofRandom(200,600));
     
     if(fichas.size()>0){
         for (int i = 0; i<fichas.size(); i++) {
@@ -239,12 +250,9 @@ void testApp::verFicha(customDataEvent & info){
   
     
     
-    ficha->areaGrande.pos.set(ultimoLanzamiento);
+   // ficha->areaGrande.pos.set(ultimoLanzamiento);
     
-    
-    
-    
-    ficha->setup(info.nombre, info.valor);
+    ficha->setup(info.nombre, info.valor, ultimoLanzamiento);
     
 #ifdef USE_TUIO
     ficha->setTuioClient(&tuioClient);

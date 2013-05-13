@@ -89,7 +89,9 @@ void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
 
 
 //--------------------------------------------------------------
-void fichaInfo::setup(string _ulrXml, int idXml){
+void fichaInfo::setup(string _ulrXml, int idXml, ofVec2f pto){
+    ptoInicio.set(pto);
+    
     #ifdef USE_TUIO
     #else
     ofAddListener(ofEvents().mousePressed,this,&fichaInfo::mousePressed);
@@ -97,6 +99,7 @@ void fichaInfo::setup(string _ulrXml, int idXml){
     ofAddListener(ofEvents().mouseReleased,this,&fichaInfo::mouseReleased);
     #endif
     
+    areaGrande.pos.set(pto);
     areaGrande.setup();
     
     fuenteBotones.loadFont("SegoeRg.ttf", 9 ,90, true);
@@ -136,12 +139,14 @@ void fichaInfo::setup(string _ulrXml, int idXml){
     ////
     imgBtnClose.loadImage("close.png");
     
-
+    
 }
 
 //--------------------------------------------------------------
 void fichaInfo::update(){
     areaGrande.update();
+    
+    ptoInicio.set(areaGrande.pos);
     
     areaGrande.width = anchoGrande;
     areaGrande.height = altoGrande;
@@ -428,8 +433,8 @@ void fichaInfo::cargaMinis(int _index){
 //--------------------------------------------------------------
 void fichaInfo::construFigura(){
     
-	areaGrande.x = ptoInicio.x;
-	areaGrande.y = ptoInicio.y;
+	//areaGrande.x = ptoInicio.x;
+	//areaGrande.y = ptoInicio.y;
     
     areaGrande.width = 60;
 	areaGrande.height = 60;

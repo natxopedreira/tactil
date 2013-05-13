@@ -66,7 +66,7 @@ void SimplePanZoom::draw( ofBaseHasTexture &_bTex ){
         //        }
         
         char msg[1000];
-        sprintf(msg, " zoom: %.1f \n offset: %.1f, %.1f \n ", zoom, offset.x, offset.y);
+        sprintf(msg, " zoom: %.1f \n offset: %.1f, %.1f \n toques: %1i \n ", zoom, offset.x, offset.y,touches.size());
         glColor4f(1, 1, 1, 1);
         ofDrawBitmapString(msg, 3.0f, 25.0f);
         //ofDrawBitmapString(order, 3.0f, 55.0f);
@@ -115,7 +115,7 @@ void SimplePanZoom::applyConstrains(){
 void  SimplePanZoom::tuioAdded(ofxTuioCursor & tuioCursor){
     ofVec2f pos = ofVec2f(tuioCursor.getX() * ofGetWidth(), tuioCursor.getY() * ofGetHeight());
     
-    if(inside(pos)){
+    if(inside(pos) && touches.size() < MAX_TOUCHES){
     
         Finger newFinger;
         newFinger.set(pos);
