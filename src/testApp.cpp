@@ -282,7 +282,6 @@ void testApp::verFicha(customDataEvent & info){
     for (int i = 0; i<parches.size(); i++) {
         if(parches.at(i).ID == info.valor){
             ///// hay un video
-            
             ficha->hayVideo = true;
             ficha->linksVideos.cast = parches.at(i).urlCastellano;
             ficha->linksVideos.gal = parches.at(i).urlGallego;

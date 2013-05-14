@@ -11,7 +11,9 @@
 
 visualizador::visualizador(){
     imgVisible = false;
-    hayVideo = false;
+    tieneVideo = false;
+    verVidrio = false;
+    
 
     fuente.loadFont("SegoeSb.ttf", 13,96, true);
     fuente.setLineHeight(13);
@@ -28,7 +30,6 @@ visualizador::visualizador(){
     offsetDrag.set(0, 0);
     verPie = false;
     verInfo = false;
-    
     
     btnInfo.width = 50;
     btnInfo.height = 50;
@@ -72,7 +73,7 @@ void visualizador::setup(){
 // ---------------------------------------
 void visualizador::update(){
 
-    if(hayVideo) videoplayer.update();
+    if(verVidrio) videoplayer.update();
     
     float difGrandeX = (pos.x)-(this->x);
     float difGrandeY = (pos.y)-(this->y);
@@ -140,37 +141,38 @@ void visualizador::drawVisualizador(){
         visorZoom.draw(fboImageZoom);
         
         gestos.draw(this->x + 452 , this->y+323);
-    }else if (hayVideo && !verInfo) {
+    }else if (verVidrio && !verInfo) {
         //if(hayVideo) 
         visorZoom.draw(videoplayer);
+    }
+    
+    
+    if(!verVidrio){
         
-        gestos.draw(this->x + 452 , this->y+323);
-    }
+    
+        ofPushStyle();
+        ofSetColor(0, 0, 0);
     
     
-    
-    ofPushStyle();
-    ofSetColor(0, 0, 0);
-    
-    
-    if(verPie){
-        fuente.drawString(titularPie, this->x + 12, this->y + 308 + 37);
-    }
+        if(verPie){
+            fuente.drawString(titularPie, this->x + 12, this->y + 308 + 37);
+        }
     
     
-    areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 24, rect.height + 24);
+        areaPieTitular.set(this->x , this->y + this->height - 15 - 10, rect.width + 24, rect.height + 24);
     
     
-    if(verPie && cantidadCrece == altoTexto){
-       fuenteInfo.drawString(pie, this->x+12, this->y + 308 + 56);
-    }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
+        if(verPie && cantidadCrece == altoTexto){
+            fuenteInfo.drawString(pie, this->x+12, this->y + 308 + 56);
+        }else if (verInfo && cantidadCrece == desfaseAltoTextoInfo){
         
-        ofSetColor(0);
-        fuenteCuerpo.drawString(informacion, this->x+15, this->y + 40);
-    }
-    ofPopStyle();
+            ofSetColor(0);
+            fuenteCuerpo.drawString(informacion, this->x+15, this->y + 40);
+        }
+        ofPopStyle();
     
-
+    }
+    
     btnInfo.drawButtonImg(imagenBtnInfo);
     
 }
@@ -217,7 +219,7 @@ void visualizador::cargaVideo(string _url){
     
     videoplayer.loadMovie(_url);
     if(videoplayer.isLoaded()){
-        hayVideo = true;
+        verVidrio = true;
     }
 
 }
@@ -225,7 +227,7 @@ void visualizador::cargaVideo(string _url){
 // ---------------------------------------
 void visualizador::cargaImagen(string _url){
     //visor.cargaImagen("imagenes/full/"+_url);
-    if(hayVideo) !hayVideo;
+    if(verVidrio) !verVidrio;
 
     
     //visorZoom.nosehatocado = true;

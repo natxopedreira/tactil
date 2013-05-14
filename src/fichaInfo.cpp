@@ -12,6 +12,7 @@ fichaInfo::fichaInfo(){
     
     // video
     hayVideo = false;
+
     linksVideos.cast = "";
     linksVideos.gal = "";
     linksVideos.eng = "";
@@ -1043,6 +1044,7 @@ void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
     
     if(areaGrande.btnInfo.inside(e) && !areaGrande.verInfo){
         areaGrande.verInfo = !areaGrande.verInfo;
+        areaGrande.verVidrio = false;
         areaGrande.btnInfo.activo = areaGrande.verInfo;
         if(!areaGrande.verInfo){
             areaGrande.verPie = true;
@@ -1188,6 +1190,8 @@ void fichaInfo::mouseReleased(ofMouseEventArgs & arg){
     
     if(areaGrande.btnInfo.inside(e) && !areaGrande.verInfo){
         areaGrande.verInfo = !areaGrande.verInfo;
+        areaGrande.verVidrio = false;
+        
         areaGrande.btnInfo.activo = areaGrande.verInfo;
         if(!areaGrande.verInfo){
             areaGrande.verPie = true;

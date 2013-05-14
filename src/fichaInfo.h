@@ -113,6 +113,7 @@ public:
     ofImage imgFotos;
     
     bool    hayVideo; ///indica si hay un video en la ficha
+    
     urlVideo    linksVideos;
     
     bool    abierta;

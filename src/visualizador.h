@@ -78,7 +78,8 @@ public:
     //int posyrect;
     int poswrect;
     int poshrect;
-    bool    hayVideo;
+    bool    tieneVideo;
+    bool    verVidrio;
     
     ofVec2f         pos,vel,acc;
 private:
