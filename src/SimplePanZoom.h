@@ -19,6 +19,11 @@ struct Finger : public ofVec2f {
     int ID;
 };
 
+struct FingerTap : public ofVec2f {
+    int ID;
+    unsigned long tiempo;
+};
+
 class SimplePanZoom : public ofRectangle {
 public:
 	
@@ -49,6 +54,8 @@ public:
     float   deltaTime;
     
     bool    bDebug;
+    bool    tuioDoubleTap;
+    
     
 private:
     void    applyConstrains();
@@ -61,6 +68,7 @@ private:
 	
     vector<Finger> touches;
     
+    FingerTap ultimoTap;
     //    vector<int> touchIDOrder;
     //    ofVec2f     lastTouch[MAX_TOUCHES];
     //    bool        touching[MAX_TOUCHES];

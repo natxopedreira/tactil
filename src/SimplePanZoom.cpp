@@ -23,10 +23,13 @@ SimplePanZoom::SimplePanZoom(){
 	offset.x = offset.y = desiredOffset.x = desiredOffset.y = 0.0f;
     
     bDebug = true;
+    tuioDoubleTap = false;
     
     this->set(0,0,503,308);
     
     //zoom = desiredZoom = .4;
+    
+    tuioDoubleTap = false;
 }
 
 void SimplePanZoom::update(){
@@ -35,6 +38,7 @@ void SimplePanZoom::update(){
 	offset = (smoothFactor) * desiredOffset + (1.0f - smoothFactor) * offset;
     
     applyConstrains();
+    
     
 }
 
@@ -125,6 +129,32 @@ void  SimplePanZoom::tuioAdded(ofxTuioCursor & tuioCursor){
             zoomDiff = touches[ touches.size()-2 ].distance( touches[touches.size()-1] );
         }
         
+        if(ultimoTap.tiempo != .0) {  // only do this if we have a previous tap
+            unsigned long nowTime = ofGetElapsedTimeMillis();
+            
+            unsigned long lastTime = ultimoTap.tiempo;
+            //cout << "nowTime " << nowTime << " :: lastTime " << lastTime << endl;
+            
+            if(nowTime - lastTime < 200) {    // check time different between current and previous tap
+                float dx = tuioCursor.getX() - ultimoTap.x; // horizontal distance
+                float dy = tuioCursor.getY() - ultimoTap.y; // vertical distance
+                float d2 = dx * dx + dy * dy; // square of distance between taps
+                //            println(d2);
+                if(d2 < .2){
+                 tuioDoubleTap = true;
+                    desiredZoom = minZoom;
+                    desiredOffset.set(0, 0);
+                } 
+            }
+        }
+        
+        FingerTap tap;
+        tap.ID = tuioCursor.getFingerId();
+        tap.set(tuioCursor.getX(),tuioCursor.getY());
+        tap.tiempo = ofGetElapsedTimeMillis();
+        
+        ultimoTap = tap; // store info for next tap
+        //ultimoTap
     }
 }
 void  SimplePanZoom::tuioRemoved(ofxTuioCursor & tuioCursor){
@@ -140,6 +170,8 @@ void  SimplePanZoom::tuioRemoved(ofxTuioCursor & tuioCursor){
 
 void  SimplePanZoom::tuioUpdated(ofxTuioCursor & tuioCursor){
     ofVec2f pos = ofVec2f(tuioCursor.getX() * ofGetWidth(),tuioCursor.getY() * ofGetHeight());
+
+    if(tuioDoubleTap) !tuioDoubleTap;
     
     if(inside(pos)){
     
