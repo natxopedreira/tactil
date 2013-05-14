@@ -31,6 +31,13 @@
 #include "ofxTuio.h"
 #endif
 
+struct urlVideo{
+    string cast;
+    string gal;
+    string eng;
+    string fr;
+};
+
 class fichaInfo {
 public:
 	fichaInfo();
@@ -42,9 +49,6 @@ public:
 	void    draw();
     void    drawSombra();
     void    cargaXml(string _ulr, int idXml);
-    
-
-
 	void    _areaGrandeLista(string & s);
 	void    collideWith( fichaInfo *_body );
     
@@ -61,11 +65,9 @@ public:
 	void    cambiaKHorizontal(float v);
 	void    cambiaDampMiniaturas(float v);
     
-    
     //// comprueba que no haces click inside para propagar el evento
     bool    isInside(ofVec2f pto);
     
-    //
     // piezas para la figura
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
@@ -110,7 +112,7 @@ public:
     ofImage imgCuadros;
     ofImage imgFotos;
     
-
+    bool    hayVideo; ///indica si hay un video en la ficha
     bool    abierta;
     bool    verIdiomas;
     bool    debesMorir;

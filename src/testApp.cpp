@@ -196,11 +196,7 @@ void testApp::draw(){
     
     
     ///////////////looop test
-    for (int i = fichas.size()-1; i >= 0 ; i--){
-        //cout << "fichas pos ::" << fichas[i]->ptoInicio.x << "---::---" << fichas[i]->ptoInicio.y << endl;
-        
-        //cout << "fichas visualizador pos ::" << fichas[i]->areaGrande.pos.x << "---::---" << fichas[i]->areaGrande.pos.y << endl;
-        
+   /* for (int i = fichas.size()-1; i >= 0 ; i--){
         ofPushStyle();
         ofSetColor(255, 0, 0);
         ofCircle(fichas[i]->ptoInicio.x, fichas[i]->ptoInicio.y, 6);
@@ -208,7 +204,7 @@ void testApp::draw(){
         ofCircle(fichas[i]->areaGrande.pos.x, fichas[i]->areaGrande.pos.y, 3);
         ofPopStyle();
     }
-    
+    */
     
     
 }
@@ -248,11 +244,6 @@ void testApp::verFicha(customDataEvent & info){
         if(!encontrado) verFicha(info);
     }
     
-    
-  
-    
-    
-   // ficha->areaGrande.pos.set(ultimoLanzamiento);
     
     ficha->setup(info.nombre, info.valor, ultimoLanzamiento);
     
