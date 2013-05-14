@@ -36,6 +36,8 @@ public:
     void    drawVisualizadorSombra();
     
     void    cargaImagen(string _url);
+    void    cargaVideo(string _url);
+    
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
     
@@ -76,6 +78,7 @@ public:
     //int posyrect;
     int poswrect;
     int poshrect;
+    bool    hayVideo;
     
     ofVec2f         pos,vel,acc;
 private:
@@ -88,7 +91,7 @@ private:
     /// para tuio
     vector<tCursor>	cursorsOnBorder;
 	ofVec2f         oldLoc[3];
-
+    ofVideoPlayer   videoplayer;
     
     string  wrapString(string text, int width, ofTrueTypeFont & _ft);
 };

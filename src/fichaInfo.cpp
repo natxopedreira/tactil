@@ -9,7 +9,14 @@
 
 #include "fichaInfo.h"
 fichaInfo::fichaInfo(){
-
+    
+    // video
+    hayVideo = false;
+    linksVideos.cast = "";
+    linksVideos.gal = "";
+    linksVideos.eng = "";
+    linksVideos.fr = "";
+    
 	idLeader = 0;
     
     kmuelles = 0.0325;

@@ -19,6 +19,39 @@ void testApp::setup(){
 #endif
     
     
+    //----- parches para los videos
+    
+    parcheVideo p29;
+    p29.ID = 290;
+    p29.urlCastellano = "castellano.mov";
+    p29.urlGallego = "gallego.mov";
+    p29.urlIngles = "ingles.mov";
+    p29.urlFrances = "frances.mov";
+    
+    
+    parcheVideo p31;
+    p31.ID = 310;
+    p31.urlCastellano = "castellano.mov";
+    p31.urlGallego = "gallego.mov";
+    p31.urlIngles = "ingles.mov";
+    p31.urlFrances = "frances.mov";
+    
+    
+    parcheVideo p12;
+    p12.ID = 120;
+    p12.urlCastellano = "castellano.mov";
+    p12.urlGallego = "gallego.mov";
+    p12.urlIngles = "ingles.mov";
+    p12.urlFrances = "frances.mov";    
+    
+    
+    parches.push_back(p29);
+    parches.push_back(p31);
+    parches.push_back(p12);
+    
+    
+    
+    
     
 	dampcajas = 0.3;
 	dampcajasMiniaturas = 0.3;
@@ -245,7 +278,23 @@ void testApp::verFicha(customDataEvent & info){
     }
     
     
+    ///--- compruebas su id para ver si tiene un video
+    for (int i = 0; i<parches.size(); i++) {
+        if(parches.at(i).ID == info.valor){
+            ///// hay un video
+            
+            ficha->hayVideo = true;
+            ficha->linksVideos.cast = parches.at(i).urlCastellano;
+            ficha->linksVideos.gal = parches.at(i).urlGallego;
+            ficha->linksVideos.eng = parches.at(i).urlIngles;
+            ficha->linksVideos.fr = parches.at(i).urlFrances;
+        }
+    }
+    
+    
     ficha->setup(info.nombre, info.valor, ultimoLanzamiento);
+    
+    
     
 #ifdef USE_TUIO
     ficha->setTuioClient(&tuioClient);

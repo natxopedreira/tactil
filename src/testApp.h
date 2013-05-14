@@ -27,7 +27,13 @@
  de fichaInfo
 */
 
-
+struct parcheVideo{
+    int ID;
+    string urlCastellano;
+    string urlGallego;
+    string urlIngles;
+    string urlFrances;
+};
 
 class testApp : public ofBaseApp{
 
@@ -76,4 +82,6 @@ class testApp : public ofBaseApp{
         #endif
     
     ofVec2f ultimoLanzamiento;
+    
+    vector<parcheVideo> parches;
 };

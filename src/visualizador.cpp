@@ -11,6 +11,7 @@
 
 visualizador::visualizador(){
     imgVisible = false;
+    hayVideo = false;
 
     fuente.loadFont("SegoeSb.ttf", 13,96, true);
     fuente.setLineHeight(13);
@@ -71,6 +72,8 @@ void visualizador::setup(){
 // ---------------------------------------
 void visualizador::update(){
 
+    if(hayVideo) videoplayer.update();
+    
     float difGrandeX = (pos.x)-(this->x);
     float difGrandeY = (pos.y)-(this->y);
     float difX = (this->x + this->width)-(btnInfo.x);
@@ -137,6 +140,11 @@ void visualizador::drawVisualizador(){
         visorZoom.draw(fboImageZoom);
         
         gestos.draw(this->x + 452 , this->y+323);
+    }else if (hayVideo && !verInfo) {
+        //if(hayVideo) 
+        visorZoom.draw(videoplayer);
+        
+        gestos.draw(this->x + 452 , this->y+323);
     }
     
     
@@ -201,9 +209,23 @@ string visualizador::wrapString(string text, int width, ofTrueTypeFont & _ft) {
 } 
 
 // ---------------------------------------
+void visualizador::cargaVideo(string _url){
+    if (imagenZoom.isAllocated()){
+        imagenZoom.clear();
+    }
+    imgVisible = false;
+    
+    videoplayer.loadMovie(_url);
+    if(videoplayer.isLoaded()){
+        hayVideo = true;
+    }
+
+}
+
+// ---------------------------------------
 void visualizador::cargaImagen(string _url){
     //visor.cargaImagen("imagenes/full/"+_url);
-    
+    if(hayVideo) !hayVideo;
 
     
     //visorZoom.nosehatocado = true;
