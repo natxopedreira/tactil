@@ -45,6 +45,7 @@ public:
 	//////////////////////////////////////////////////////
     //////////////////////////////////////////////////////
     void    setup(string _ulrXml, int idXml, ofVec2f pto);
+    void    ponVideoAreaGrande();
 	void    update();
 	void    draw();
     void    drawSombra();
@@ -94,6 +95,7 @@ public:
 	boton   btnPeriodicos;
     boton   castellano, gallego, ingles, frances;
     boton   cerrar;
+    boton   video;
     //boton   btnZoom;
     
     miniaturas  minis;

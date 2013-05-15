@@ -82,6 +82,8 @@ public:
     bool    verVidrio;
     
     ofVec2f         pos,vel,acc;
+    
+    ofVideoPlayer   videoplayer;
 private:
     ofImage imagen;
     ofImage gestos;
@@ -92,7 +94,7 @@ private:
     /// para tuio
     vector<tCursor>	cursorsOnBorder;
 	ofVec2f         oldLoc[3];
-    ofVideoPlayer   videoplayer;
+    
     
     string  wrapString(string text, int width, ofTrueTypeFont & _ft);
 };

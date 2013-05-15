@@ -27,5 +27,6 @@ public:
     ofColor idiomaActivoColor,idiomaColor;
     bool    botonIdiomaCheck;
     bool    botonClose;
+    bool    botonVideo;
 };
 #endif

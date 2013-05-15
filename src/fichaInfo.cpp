@@ -95,7 +95,26 @@ void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
 #endif
 
 
-
+//--------------------------------------------------------------
+void fichaInfo::ponVideoAreaGrande(){
+    switch (minis.lenguaje) {
+        case IDIOMA_CAST:
+                areaGrande.cargaVideo(linksVideos.cast);
+            break;
+        case IDIOMA_GAL:
+            areaGrande.cargaVideo(linksVideos.gal);
+            break;
+        case IDIOMA_ENG:
+            areaGrande.cargaVideo(linksVideos.eng);
+            break;
+        case IDIOMA_FR:
+            areaGrande.cargaVideo(linksVideos.fr);
+            break;        
+        default:
+            break;
+    }
+    
+}
 //--------------------------------------------------------------
 void fichaInfo::setup(string _ulrXml, int idXml, ofVec2f pto){
     ptoInicio.set(pto);
@@ -224,6 +243,10 @@ void fichaInfo::update(){
     
     rectanguloArea.set(btnImagenes.getX(), btnImagenes.getY(), ancho, alto);
     
+    
+    video.x = btnPeriodicos.getX();
+    video.y = btnPeriodicos.getY() + 100;
+    
 }
 
 //--------------------------------------------------------------
@@ -265,6 +288,8 @@ void fichaInfo::draw(){
        //cerrar.drawRound();
         
     }
+    
+    if(hayVideo) video.drawButtonImg(imgPeriodicos);
     
     //ofSetColor(255, 255, 255,105);
     //ofRect(rectanguloArea);
@@ -360,8 +385,10 @@ void fichaInfo::cargaImagenes(){
 
 //--------------------------------------------------------------
 void fichaInfo::cambiaSeccion(int _cuala){
+    
 	seccionActiva = _cuala;
-	
+
+    
 	for(int i = 1; i < rectangulos.size(); i++){
 		if(rectangulos.at(i)->useBtn){
 			/// eres un boton
@@ -384,7 +411,28 @@ void fichaInfo::cambiaSeccion(int _cuala){
 
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){
-	cargaMinis(seccionActiva);
+	if(seccionActiva == 9){
+        minis.limpiaMinis();
+        ponVideoAreaGrande();
+    }else{
+        
+        if(areaGrande.verVidrio){
+            areaGrande.verVidrio=!areaGrande.verVidrio;
+            if(areaGrande.videoplayer.isPlaying()){
+                areaGrande.videoplayer.stop();
+            }
+            if(areaGrande.videoplayer.isLoaded()){
+                areaGrande.videoplayer.closeMovie();
+            }
+        }
+        
+        //cout << "verVidrio " << areaGrande.verVidrio<< endl;
+        //cout << "isPlaying "  << areaGrande.videoplayer.isPlaying() << endl;
+        
+       cargaMinis(seccionActiva);
+    }
+     
+    //cout << "_areaGrandeLista" << endl;
     verIdiomas = true;
 }
 
@@ -682,11 +730,23 @@ void fichaInfo::construFigura(){
     cerrar.useBtnIdioma = true;
     cerrar.botonClose = true;
     
+    
+    ///boton video
+    video.width = 60;
+    video.height = 60;
+    video.x = 0;
+    video.y = 0;
+    video.botonVideo = true;
+    video.useBtn = true;
+    video.color.set(236, 232, 220);
+    
     rectangulos.push_back(&castellano);
     rectangulos.push_back(&gallego);
     rectangulos.push_back(&ingles);
     rectangulos.push_back(&frances);
     rectangulos.push_back(&cerrar);
+    
+    if(hayVideo) rectangulos.push_back(&video);
     
     frances.idiomaColor.set(236, 255, 255, 255);
     ingles.idiomaColor.set(236, 255, 255, 255);
@@ -937,11 +997,20 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
 			px = e.x;
 			py = e.y;
             
+            bool cambiando = false;
+            
+            for (int i = 0; i < minis.thumbs.size(); i++) {
+                cambiando = minis.thumbs.at(i)->cambiandose;
+            }
+            if (cambiando) return;
+            
 			// mira si es un boton
 			if(rectangulos.at(i)->useBtn && !rectangulos.at(i)->desactivado && !rectangulos.at(i)->useBtnIdioma){
                 seccionActiva = i;
                 areaGrande.crece(0);
                 cambiaSeccion(i);
+                
+                //cout << "cambiaSeccion(i)" << i << endl;
                 return;
 			}
 		}

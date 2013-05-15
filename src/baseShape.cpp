@@ -378,8 +378,9 @@ void baseShape::crece(int _altura){
 
 void baseShape::onCompleteCambio(float* arg){
 	color.set(colorCambio.r, colorCambio.g, colorCambio.b);
-	cambiandose = false;
+	
 	ofNotifyEvent(meCambie,nombre,this); //seleccionBoton
+    cambiandose = false;
 }
 
 

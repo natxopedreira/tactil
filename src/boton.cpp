@@ -18,6 +18,7 @@ boton::boton(){
     botonIdiomaCheck = false;
     
     botonClose = false;
+    botonVideo = false;
 }
 
 

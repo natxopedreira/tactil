@@ -218,18 +218,27 @@ void visualizador::cargaVideo(string _url){
     imgVisible = false;
     
     videoplayer.loadMovie(_url);
+    videoplayer.play();
+    
     if(videoplayer.isLoaded()){
         verVidrio = true;
     }
-
+    
+    visorZoom.minZoom = 1;
+    visorZoom.setZoom(1);
 }
 
 // ---------------------------------------
 void visualizador::cargaImagen(string _url){
     //visor.cargaImagen("imagenes/full/"+_url);
-    if(verVidrio) !verVidrio;
-
+   /* if(verVidrio){
+        
+        
+    }verVidrio=!verVidrio;
     
+    cout << "verVidrio " << verVidrio<< endl;
+    cout << "isPlaying "  << videoplayer.isPlaying() << endl;
+    */
     //visorZoom.nosehatocado = true;
     if (imagenZoom.isAllocated()){
          imagenZoom.clear();
@@ -406,7 +415,7 @@ void visualizador::tuioAdded(ofxTuioCursor & tuioCursor){
     //
     
     
-    if(imgVisible && !verInfo){
+    if((imgVisible || verVidrio) && !verInfo){
         if (inside(loc) && !visorZoom.inside(loc)){
             tCursor c;
             c.idN = tuioCursor.getSessionId();

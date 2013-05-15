@@ -22,7 +22,7 @@ void testApp::setup(){
     //----- parches para los videos
     
     parcheVideo p29;
-    p29.ID = 290;
+    p29.ID = 29;
     p29.urlCastellano = "castellano.mov";
     p29.urlGallego = "gallego.mov";
     p29.urlIngles = "ingles.mov";
