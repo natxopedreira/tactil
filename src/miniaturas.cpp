@@ -585,6 +585,32 @@ void miniaturas::creaGrid(ofColor _color){
             springs.push_back(anclaP2);
         }
         
+        if(thumbs.size()>8){
+            Spring * diago6 = new Spring();
+            diago6->k = k;
+            diago6->rectA = anclaVisualizador;
+            diago6->rectB = thumbs[8];  // D
+            diago6->indiceA = 5;
+            diago6->indiceB = 4;
+            diago6->visible = false;
+            diago6->diagonal = true;
+            diago6->dist = 100;
+            
+            springs.push_back(diago6);
+            //}
+            
+            //if(thumbs.size()>4){
+            Spring * anclaP2 = new Spring();
+            anclaP2->k = k;
+            anclaP2->rectA = thumbs[8];  // D
+            anclaP2->rectB = anclaVisualizador;
+            anclaP2->indiceA = 4;
+            anclaP2->indiceB = 3;
+            anclaP2->visible = false;
+            anclaP2->dist = 80;	
+           
+            springs.push_back(anclaP2);
+        }
     }
 	
 	Spring * diago1 = new Spring();

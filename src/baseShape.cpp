@@ -203,7 +203,7 @@ void baseShape::drawRound(){
         ofSetColor(255,255, 255);
         ofDrawBitmapString(ofToString(i), ofPoint(puntos[i].x, puntos[i].y));
     }
-*/
+    */
     
 }
 
