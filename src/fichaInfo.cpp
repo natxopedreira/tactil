@@ -12,6 +12,7 @@ fichaInfo::fichaInfo(){
     
     // video
     hayVideo = false;
+    limpiandoParaVideo  =   false;
 
     linksVideos.cast = "";
     linksVideos.gal = "";
@@ -52,6 +53,8 @@ fichaInfo::fichaInfo(){
     rectanguloArea.set(0,0,1,1);
     
     ptoInicio.set(0,0);
+    
+    tiempoVidaInactivo = 30000;
 }
 
 fichaInfo::~fichaInfo(){
@@ -97,6 +100,11 @@ void fichaInfo::setTuioClient(ofxTuioClient * _tuioClient){
 
 //--------------------------------------------------------------
 void fichaInfo::ponVideoAreaGrande(){
+    limpiandoParaVideo = false;
+    
+    if(areaGrande.verInfo) areaGrande.verInfo = false;
+    if(!areaGrande.verVidrio) areaGrande.verVidrio = true;
+   
     switch (minis.lenguaje) {
         case IDIOMA_CAST:
                 areaGrande.cargaVideo(linksVideos.cast);
@@ -117,6 +125,9 @@ void fichaInfo::ponVideoAreaGrande(){
 }
 //--------------------------------------------------------------
 void fichaInfo::setup(string _ulrXml, int idXml, ofVec2f pto){
+    
+    tiempoVivo = ofGetElapsedTimeMillis();
+    
     ptoInicio.set(pto);
     
     #ifdef USE_TUIO
@@ -247,6 +258,20 @@ void fichaInfo::update(){
     video.x = btnPeriodicos.getX();
     video.y = btnPeriodicos.getY() + 100;
     
+    
+    if(limpiandoParaVideo){
+        ///estas limpiando la ficha para cargar el video
+        if (minis.thumbsSalida.size()==0 && minis.thumbs.size()==0) {
+            
+            ponVideoAreaGrande();
+        }
+    }
+    
+    
+    /// compruebas si debe morir por inactivididad
+    if((ofGetElapsedTimeMillis() - tiempoVivo) > tiempoVidaInactivo){
+        debesMorir = true;
+    }
 }
 
 //--------------------------------------------------------------
@@ -348,7 +373,6 @@ void fichaInfo::collideWith( fichaInfo *_body ){
 void fichaInfo::cargaImagenes(){
     /// cada vez que click una mini
     /// cargas el contenido en el area de visualizacion
-
     
     switch (minis.lenguaje) {
         case IDIOMA_CAST:
@@ -412,9 +436,11 @@ void fichaInfo::cambiaSeccion(int _cuala){
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){
 	if(seccionActiva == 9){
-        if(!areaGrande.verVidrio) areaGrande.verVidrio = true;
+        
         minis.limpiaMinis();
-        ponVideoAreaGrande();
+        limpiandoParaVideo = true;
+        
+        //ponVideoAreaGrande();
     }else{
         
         if(areaGrande.verVidrio){
@@ -427,7 +453,7 @@ void fichaInfo::_areaGrandeLista(string & s){
             }
         }
         
-        //cout << "verVidrio " << areaGrande.verVidrio<< endl;
+        //cout << "verVidrio " << areaGrande.verVidrio<< endl; 
         //cout << "isPlaying "  << areaGrande.videoplayer.isPlaying() << endl;
         
        cargaMinis(seccionActiva);
@@ -986,6 +1012,10 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
     areaGrande.visorZoom.tuioAdded(tuioCursor);
     
     
+    if(areaGrande.inside(e)) {
+        /// has tocado dentro asi que reseteas el tiempo
+        tiempoVivo = ofGetElapsedTimeMillis();
+    }
     
     
     for(int i = 0; i < rectangulos.size(); i++){
@@ -1011,6 +1041,10 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
                 //cout << "cambiaSeccion(i)" << i << endl;
                 return;
 			}
+            
+            /// has tocado dentro asi que reseteas el tiempo
+            tiempoVivo = ofGetElapsedTimeMillis();
+            
 		}
 	}
     
@@ -1032,6 +1066,10 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             for(int j = 0; j <  minis.thumbs.size(); j++){
                 if(i!=j) minis.thumbs[j]->desactivala();
             }
+            
+            /// has tocado dentro asi que reseteas el tiempo
+            tiempoVivo = ofGetElapsedTimeMillis();
+            
         }
     }
     
@@ -1083,6 +1121,10 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             if(n== "X"){
                 debesMorir = true;
             }
+            
+            /// has tocado dentro asi que reseteas el tiempo
+            tiempoVivo = ofGetElapsedTimeMillis();
+            
         }
     }
 }
@@ -1131,6 +1173,10 @@ void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
                 areaGrande.videoplayer.closeMovie();
             }
         }
+        
+        /// has tocado dentro asi que reseteas el tiempo
+        tiempoVivo = ofGetElapsedTimeMillis();
+        
     }
 }
 

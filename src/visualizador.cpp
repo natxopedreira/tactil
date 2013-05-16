@@ -143,6 +143,7 @@ void visualizador::drawVisualizador(){
         gestos.draw(this->x + 452 , this->y+323);
     }else if (verVidrio && !verInfo) {
         //if(hayVideo) 
+        if(!videoplayer.isLoaded()) ofRect(0,0,200,700);
         visorZoom.draw(videoplayer);
     }
     
@@ -216,14 +217,13 @@ void visualizador::cargaVideo(string _url){
         imagenZoom.clear();
     }
     imgVisible = false;
-    
     videoplayer.loadMovie(_url);
     videoplayer.play();
     
     if(videoplayer.isLoaded()){
-        verVidrio = true;
+       
     }
-    
+     verVidrio = true;
     visorZoom.minZoom = 1;
     visorZoom.setZoom(1);
 }

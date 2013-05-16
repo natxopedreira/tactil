@@ -68,10 +68,14 @@ public:
     
     //// comprueba que no haces click inside para propagar el evento
     bool    isInside(ofVec2f pto);
+    bool    limpiandoParaVideo;
     
     // piezas para la figura
 	vector<baseShape*>  rectangulos; /// el vector es para la colision entre ellos
 	vector<Spring*> muelles;
+    
+    unsigned long tiempoVivo;
+    unsigned long tiempoVidaInactivo;
     
 #ifdef USE_TUIO
     /// tuio
