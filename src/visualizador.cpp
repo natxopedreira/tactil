@@ -79,8 +79,8 @@ void visualizador::update(){
     float difGrandeY = (pos.y)-(this->y);
     float difX = (this->x + this->width)-(btnInfo.x);
     float difY = (this->y + this->height)-(btnInfo.y); 
-    float difZoomX = (pos.x + 12)-(visorZoom.x);
-    float difZoomY = (pos.y + 12)-(visorZoom.y); 
+    float difZoomX = (this->x + 12)-(visorZoom.x);
+    float difZoomY = (this->y + 12)-(visorZoom.y); 
     
     
     
@@ -92,8 +92,8 @@ void visualizador::update(){
     btnInfo.y += difY * .5;
     
     
-    visorZoom.x += difZoomX * .7;
-    visorZoom.y += difZoomY * .7;
+    visorZoom.x += difZoomX;
+    visorZoom.y += difZoomY;
     
     
     poswrect = this->width;
@@ -226,6 +226,45 @@ void visualizador::cargaVideo(string _url){
     
     visorZoom.minZoom = 1;
     visorZoom.setZoom(1);
+}
+
+
+
+//------------------------------------------------------------
+void visualizador::botaParedes(){
+    // sometimes it makes sense to damped, when we hit
+	bool bDampedOnCollision = true;
+	bool bDidICollide = false;
+    
+	// what are the walls
+	float minx = 0;
+	float miny = 0;
+	float maxx = ofGetWidth()-520;
+	float maxy = ofGetHeight()-400;
+    
+	if (x > maxx){
+		x = maxx; // move to the edge, (important!)
+		vel.x *= -1;
+		bDidICollide = true;
+	} else if (x < minx){
+		x = minx; // move to the edge, (important!)
+		vel.x *= -1;
+		bDidICollide = true;
+	}
+    
+	if (y > maxy){
+		y = maxy; // move to the edge, (important!)
+		vel.y *= -1;
+		bDidICollide = true;
+	} else if (y < miny){
+		y = miny; // move to the edge, (important!)
+		vel.y *= -1;
+		bDidICollide = true;
+	}
+    
+	if (bDidICollide == true && bDampedOnCollision == true){
+		vel *= 0.3;
+	}
 }
 
 // ---------------------------------------

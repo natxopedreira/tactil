@@ -199,7 +199,7 @@ void fichaInfo::update(){
 
     
     // movemos las miniaturas
-   // areaGrande.bounceOffWalls();
+    areaGrande.botaParedes();
     
     
 	
@@ -412,6 +412,7 @@ void fichaInfo::cambiaSeccion(int _cuala){
 //--------------------------------------------------------------
 void fichaInfo::_areaGrandeLista(string & s){
 	if(seccionActiva == 9){
+        if(!areaGrande.verVidrio) areaGrande.verVidrio = true;
         minis.limpiaMinis();
         ponVideoAreaGrande();
     }else{
@@ -987,9 +988,6 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
     
     
     
-    
-    
-    
     for(int i = 0; i < rectangulos.size(); i++){
         /// compruebas si estas drageando una caja
 		if(rectangulos.at(i)->inside(ofPoint(e.x, e.y))){
@@ -1000,7 +998,7 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             bool cambiando = false;
             
             for (int i = 0; i < minis.thumbs.size(); i++) {
-                cambiando = minis.thumbs.at(i)->cambiandose;
+                if(!cambiando) cambiando = minis.thumbs.at(i)->cambiandose;
             }
             if (cambiando) return;
             
@@ -1049,7 +1047,7 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             // zoomImagen.visible = false;
             string n = rectangulos.at(i)->nombre;
             
-            if(n == "ESP"){
+            if(n == "ESP" && seccionActiva!=9){
                 castellano.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_CAST;
                 cargaImagenes();
@@ -1058,7 +1056,7 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
                 castellano.botonIdiomaCheck = false;
             }
             
-            if(n == "GAL") {
+            if(n == "GAL" && seccionActiva!=9) {
                 gallego.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_GAL;
                 cargaImagenes();
@@ -1067,7 +1065,7 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             }
             
             
-            if (n == "FR") {
+            if (n == "FR" && seccionActiva!=9) {
                 frances.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_FR;
                 cargaImagenes();
@@ -1075,7 +1073,7 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
                 frances.botonIdiomaCheck = false;
             }
             
-            if (n == "ENG") {
+            if (n == "ENG" && seccionActiva!=9) {
                 ingles.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_ENG;
                 cargaImagenes();
@@ -1115,6 +1113,7 @@ void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
         areaGrande.verInfo = !areaGrande.verInfo;
         areaGrande.verVidrio = false;
         areaGrande.btnInfo.activo = areaGrande.verInfo;
+        
         if(!areaGrande.verInfo){
             areaGrande.verPie = true;
             areaGrande.crece(areaGrande.altoTexto);         
@@ -1123,6 +1122,15 @@ void fichaInfo::tuioRemoved(ofxTuioCursor & tuioCursor){
             areaGrande.crece(areaGrande.desfaseAltoTextoInfo);
         }
         
+        if(areaGrande.verInfo){
+            areaGrande.verVidrio=false;
+            if(areaGrande.videoplayer.isPlaying()){
+                areaGrande.videoplayer.stop();
+            }
+            if(areaGrande.videoplayer.isLoaded()){
+                areaGrande.videoplayer.closeMovie();
+            }
+        }
     }
 }
 

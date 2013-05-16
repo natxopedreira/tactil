@@ -40,7 +40,7 @@ public:
     
     void    ponTexto(string _titularPie,string _pie, string _informacion);
     
-    
+    void    botaParedes();
 
 #ifdef USE_TUIO
     /// tuio
