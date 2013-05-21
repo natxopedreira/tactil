@@ -44,6 +44,13 @@ visualizador::visualizador(){
     //pos.set(800, 400);
     
     
+    btnPlayPause.width = 50;
+    btnPlayPause.height = 50;
+    btnPlayPause.x = 0;
+    btnPlayPause.y = 0;
+    btnPlayPause.color.set(255, 255, 255);
+    btnPlayPause.nombre = "playpause";
+    
     poswrect = 10;
     poshrect = 10;
     
@@ -60,6 +67,10 @@ visualizador::~visualizador(){}
 // ---------------------------------------
 void visualizador::setup(){
     fboImageZoom.allocate(1764, 1080);
+    
+    imagenPlay.loadImage("play.png");
+    imagenPause.loadImage("pause.png");
+    sliderImagen.loadImage("slider.png");
     
     fboImageZoom.begin();
     ofClear(255);
@@ -99,7 +110,8 @@ void visualizador::update(){
     poswrect = this->width;
     poshrect = this->height;
 
-    
+    btnPlayPause.x = (visorZoom.x + visorZoom.width/2)-25;
+    btnPlayPause.y = (visorZoom.y + visorZoom.height)+20;
     
     
     visorZoom.update();
@@ -143,8 +155,31 @@ void visualizador::drawVisualizador(){
         gestos.draw(this->x + 452 , this->y+323);
     }else if (verVidrio && !verInfo) {
         //if(hayVideo) 
-        if(!videoplayer.isLoaded()) ofRect(0,0,200,700);
         visorZoom.draw(videoplayer);
+        
+        if(videoplayer.isPaused()){
+            btnPlayPause.drawButtonImgPlano(imagenPlay);
+        }else {
+            btnPlayPause.drawButtonImgPlano(imagenPause);
+        }
+        
+        
+        
+        float current = videoplayer.getPosition();
+        float cantidad = ofMap(current, .00000000, 1., 0, visorZoom.width);
+        //cout << cantidad << endl;
+        
+        ofPushStyle();
+            ofSetColor(255, 255, 255, 100);    
+            ofRectRounded(visorZoom.x,visorZoom.y+visorZoom.height+7,visorZoom.width,10,2);
+            //ofRoundedRect(visorZoom.x,visorZoom.y+visorZoom.height+7,visorZoom.width,10,2);
+            //ofRoundedRect(10,10,10,10,2);
+        
+            ofSetColor(255, 255, 255, 255);
+            sliderImagen.draw(visorZoom.x + cantidad, visorZoom.y+visorZoom.height+5);
+            
+        ofPopStyle();
+        //cout << "videoplayer.isPlaying() " << videoplayer.isPlaying() << endl;
     }
     
     
@@ -473,6 +508,17 @@ void visualizador::tuioAdded(ofxTuioCursor & tuioCursor){
                 oldLoc[0] = cursorsOnBorder[0].loc;
                 oldLoc[1] = cursorsOnBorder[1].loc;
             }
+            
+            if(btnPlayPause.inside(loc) && verVidrio){
+                if(videoplayer.isPaused()){
+                    videoplayer.setPaused(false);
+                }else {
+                    videoplayer.setPaused(true);
+                }
+            }
+            
+            
+            
         }
     }else {
         if (inside(loc)){
@@ -493,6 +539,9 @@ void visualizador::tuioAdded(ofxTuioCursor & tuioCursor){
                 oldLoc[0] = cursorsOnBorder[0].loc;
                 oldLoc[1] = cursorsOnBorder[1].loc;
             }
+            
+            
+            
         }
     }
 }

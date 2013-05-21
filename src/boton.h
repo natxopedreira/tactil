@@ -19,6 +19,7 @@ public:
     
 	
     void    drawButton();
+    void    drawButtonImgPlano(ofImage & img);
     void    drawButtonImg(ofImage & img);
     void    drawContxt(ofTrueTypeFont & fuente);
     void    drawSintxt();

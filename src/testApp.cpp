@@ -21,33 +21,34 @@ void testApp::setup(){
     
     //----- parches para los videos
     
-    parcheVideo p29;
-    p29.ID = 29;
-    p29.urlCastellano = "castellano.mov";
-    p29.urlGallego = "gallego.mov";
-    p29.urlIngles = "ingles.mov";
-    p29.urlFrances = "frances.mov";
+    ///capilla de san andres
+    parcheVideo p19;
+    p19.ID = 19;
+    p19.urlCastellano = "videos/castrense_cast.mov";
+    p19.urlGallego = "videos/castrense_gal.mov";
+    p19.urlIngles = "videos/castrense_eng.mov";
+    p19.urlFrances = "videos/castrense_fr.mov";
+    
+    ///instituto eusebio da guarda
+    parcheVideo p2;
+    p2.ID = 2;
+    p2.urlCastellano = "videos/eusebio_da_guarda_cast.mov";
+    p2.urlGallego = "videos/eusebio_da_guarda_gal.mov";
+    p2.urlIngles = "videos/eusebio_da_guarda_eng.mov";
+    p2.urlFrances = "videos/eusebio_da_guarda_fr.mov";
+    
+    ///cementerio de san amaro
+    parcheVideo p13;
+    p13.ID = 13;
+    p13.urlCastellano = "videos/san_amaro_cast.mov";
+    p13.urlGallego = "videos/san_amaro_gal.mov";
+    p13.urlIngles = "videos/san_amaro_eng.mov";
+    p13.urlFrances = "videos/san_amaro_fr.mov";    
     
     
-    parcheVideo p31;
-    p31.ID = 310;
-    p31.urlCastellano = "castellano.mov";
-    p31.urlGallego = "gallego.mov";
-    p31.urlIngles = "ingles.mov";
-    p31.urlFrances = "frances.mov";
-    
-    
-    parcheVideo p12;
-    p12.ID = 120;
-    p12.urlCastellano = "castellano.mov";
-    p12.urlGallego = "gallego.mov";
-    p12.urlIngles = "ingles.mov";
-    p12.urlFrances = "frances.mov";    
-    
-    
-    parches.push_back(p29);
-    parches.push_back(p31);
-    parches.push_back(p12);
+    parches.push_back(p19);
+    parches.push_back(p2);
+    parches.push_back(p13);
     
     
     

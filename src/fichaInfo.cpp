@@ -256,7 +256,7 @@ void fichaInfo::update(){
     
     
     video.x = btnPeriodicos.getX();
-    video.y = btnPeriodicos.getY() + 100;
+    video.y = btnPeriodicos.getY() + 80;
     
     
     if(limpiandoParaVideo){
@@ -270,7 +270,12 @@ void fichaInfo::update(){
     
     /// compruebas si debe morir por inactivididad
     if((ofGetElapsedTimeMillis() - tiempoVivo) > tiempoVidaInactivo){
-        debesMorir = true;
+        
+        if(areaGrande.verVidrio && !areaGrande.videoplayer.isPaused()){
+            debesMorir = false;
+        }else {
+            debesMorir = true;
+        }
     }
 }
 
@@ -1085,36 +1090,64 @@ void fichaInfo::tuioAdded(ofxTuioCursor & tuioCursor){
             // zoomImagen.visible = false;
             string n = rectangulos.at(i)->nombre;
             
-            if(n == "ESP" && seccionActiva!=9){
+            if(n == "ESP"){
                 castellano.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_CAST;
-                cargaImagenes();
+                
+                if(seccionActiva == 9){
+                    minis.limpiaMinis();
+                    limpiandoParaVideo = true;
+                }else{
+                    cargaImagenes();
+                }
+                
                 
             }else{
                 castellano.botonIdiomaCheck = false;
             }
             
-            if(n == "GAL" && seccionActiva!=9) {
+            if(n == "GAL") {
                 gallego.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_GAL;
-                cargaImagenes();
+                
+                if(seccionActiva == 9){
+                    minis.limpiaMinis();
+                    limpiandoParaVideo = true;
+                }else{
+                    cargaImagenes();
+                }
+                
             }else{
                 gallego.botonIdiomaCheck = false;
             }
             
             
-            if (n == "FR" && seccionActiva!=9) {
+            if (n == "FR") {
                 frances.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_FR;
-                cargaImagenes();
+                
+                if(seccionActiva == 9){
+                    minis.limpiaMinis();
+                    limpiandoParaVideo = true;
+                }else{
+                    cargaImagenes();
+                }
+                
             }else{
                 frances.botonIdiomaCheck = false;
             }
             
-            if (n == "ENG" && seccionActiva!=9) {
+            if (n == "ENG") {
                 ingles.botonIdiomaCheck = true;
                 minis.lenguaje = IDIOMA_ENG;
-                cargaImagenes();
+                
+                if(seccionActiva == 9){
+                    minis.limpiaMinis();
+                    limpiandoParaVideo = true;
+                }else{
+                    cargaImagenes();
+                }
+                
             }else{
                 ingles.botonIdiomaCheck = false;
             }

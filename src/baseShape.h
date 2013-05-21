@@ -21,7 +21,7 @@ public:
 	string  nombre;
 	
 	
-    void ofRoundedRect(float x,float y,float w,float h,float r);
+    //void ofRoundedRect(float x,float y,float w,float h,float r);
     
 	void    addForce( ofPoint _force );
 	bool    suicidate();

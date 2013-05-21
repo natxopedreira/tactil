@@ -5,4 +5,5 @@ build/*
 *.plist
 *.jpg
 *.zip
+*.mov
 *.DS_Store

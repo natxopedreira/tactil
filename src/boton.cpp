@@ -29,7 +29,15 @@ void boton::drawButton(){
 	
     if(activo)   ofDrawBitmapString(nombre, ofPoint(this->x + 5, this->y + 15));
 }
-
+void boton::drawButtonImgPlano(ofImage & img){
+    //drawRound();
+    //ofRect(this->x, this->y, this->width, this->height);
+    ofPushStyle();
+    ofSetColor(255, 255, 255, 255);
+    img.draw(this->x,this->y);
+    
+    ofPopStyle();
+}
 
 void boton::drawButtonImg(ofImage & img){
     //drawRound();

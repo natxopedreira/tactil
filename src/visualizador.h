@@ -88,6 +88,12 @@ private:
     ofImage imagen;
     ofImage gestos;
     
+    ofImage imagenPlay;
+    ofImage imagenPause;
+    ofImage sliderImagen;
+    
+    boton   btnPlayPause;
+    
     bool    imgVisible;
     ofPoint mousePrev;
     
